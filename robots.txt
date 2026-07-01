@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rn-portfolio-khaki.vercel.app/sitemap.xml
