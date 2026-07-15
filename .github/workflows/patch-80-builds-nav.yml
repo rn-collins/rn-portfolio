@@ -1,0 +1,35 @@
+name: Patch 80 Builds navigation
+on:
+  push:
+    branches: [feature/80-builds-exhibition]
+    paths: [.github/workflows/patch-80-builds-nav.yml]
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/80-builds-exhibition
+      - name: Add 80 Builds navigation entry
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text()
+          old='''<button class="tab-btn active" id="tab-builds" onclick="switchTab('builds')">Builds</button>'''
+          new=old+'''\n        <a class="tab-btn" href="/80-builds.html" style="text-decoration:none;display:inline-flex;align-items:center">80 Builds</a>'''
+          if '/80-builds.html' not in s:
+              if old not in s:
+                  raise SystemExit('Builds navigation anchor not found; refusing unsafe patch')
+              p.write_text(s.replace(old,new,1))
+          PY
+      - name: Commit navigation patch
+        run: |
+          git config user.name "RN Builds Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat: add 80 Builds to portfolio navigation"
+          git push origin HEAD:feature/80-builds-exhibition
