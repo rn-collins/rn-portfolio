@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CreatorLurkerAnalysis",
+  "type": "object",
+  "required": ["sponsorship", "disclosure_present", "disclosure_clarity", "claims", "brand_fit", "risk_flags"],
+  "properties": {
+    "sponsorship": { "enum": ["paid", "gifted", "affiliate", "ambassador", "none", "unclear"] },
+    "disclosure_present": { "type": "boolean" },
+    "disclosure_clarity": { "enum": ["clear", "vague", "missing"] },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "type", "category", "risk"],
+        "properties": {
+          "text": { "type": "string" },
+          "type": { "enum": ["express", "implied"] },
+          "category": { "enum": ["health", "finance", "legal", "safety", "performance", "general"] },
+          "risk": { "enum": ["high", "medium", "low"] }
+        }
+      }
+    },
+    "brand_fit": {
+      "type": "object",
+      "properties": {
+        "score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "rationale": { "type": "string" }
+      }
+    },
+    "trust_cues": { "type": "array", "items": { "type": "string" } },
+    "risk_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["severity", "kind", "detail"],
+        "properties": {
+          "severity": { "enum": ["high", "medium", "low"] },
+          "kind": { "enum": ["disclosure", "claim", "testimonial", "affiliate", "ai_content", "platform"] },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "opportunity": {
+      "type": ["object", "null"],
+      "properties": {
+        "kind": { "enum": ["whitespace", "emerging_creator", "narrative_shift", "fit_match"] },
+        "score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "detail": { "type": "string" }
+      }
+    }
+  }
+}

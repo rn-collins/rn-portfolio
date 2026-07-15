@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request an Audit — Evidence&middot;Studio</title>
+<meta name="description" content="Request a Creator + Brand Evidence Audit. A serious, structured intake for trust-sensitive brands.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="nav"></div>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact / Intake</p>
+    <h1>Request a Creator + Brand Evidence Audit.</h1>
+    <p class="lead">Use this form if your brand is using or considering creator partnerships, affiliates, ambassadors, founder-led content, expert thought leadership, UGC, or AI-assisted content—and you want a more rigorous strategy before scaling further.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="grid g2" style="align-items:start">
+      <form class="form" id="intake" onsubmit="return sendIntake(event)">
+        <h3>Basic information</h3>
+        <div class="field"><label>Name</label><input name="Name" required></div>
+        <div class="field"><label>Email</label><input type="email" name="Email" required></div>
+        <div class="field"><label>Company / brand</label><input name="Company"></div>
+        <div class="field"><label>Website</label><input name="Website" placeholder="https://"></div>
+        <div class="field"><label>Role</label><input name="Role"></div>
+        <div class="field"><label>Industry</label><input name="Industry" placeholder="cannabis, wellness, legal, education, AI…"></div>
+
+        <h3 style="margin-top:.6em">Brand context</h3>
+        <div class="field"><label>What does your company sell or offer?</label><textarea name="Offer"></textarea></div>
+        <div class="field"><label>Who is your primary audience?</label><input name="Audience"></div>
+        <div class="field"><label>Is your business regulated or trust-sensitive? Why is credibility important?</label><textarea name="Regulated"></textarea></div>
+
+        <h3 style="margin-top:.6em">Creator / content context</h3>
+        <div class="field"><label>Are you currently using creators, affiliates, ambassadors, UGC, or founder-led content?</label><textarea name="CreatorContext"></textarea></div>
+        <div class="field"><label>Which platforms matter most right now?</label><input name="Platforms" placeholder="TikTok, IG, YouTube, LinkedIn, newsletter…"></div>
+        <div class="field"><label>Are you using AI-assisted content tools?</label><input name="AI"></div>
+        <div class="field"><label>Do you have creator briefs, contracts, disclosure rules, or approval workflows?</label><input name="Assets"></div>
+
+        <h3 style="margin-top:.6em">Main challenge</h3>
+        <div class="field"><label>Which issues are you concerned about?</label>
+          <div class="checks">
+            <label><input type="checkbox" name="Concern" value="creator fit"> creator fit</label>
+            <label><input type="checkbox" name="Concern" value="disclosure"> disclosure</label>
+            <label><input type="checkbox" name="Concern" value="claims"> claims</label>
+            <label><input type="checkbox" name="Concern" value="affiliate risk"> affiliate risk</label>
+            <label><input type="checkbox" name="Concern" value="AI content risk"> AI content risk</label>
+            <label><input type="checkbox" name="Concern" value="measurement"> measurement</label>
+            <label><input type="checkbox" name="Concern" value="founder thought leadership"> founder thought leadership</label>
+            <label><input type="checkbox" name="Concern" value="brand inconsistency"> brand inconsistency</label>
+            <label><input type="checkbox" name="Concern" value="poor conversion"> poor conversion</label>
+            <label><input type="checkbox" name="Concern" value="audience trust"> audience trust</label>
+            <label><input type="checkbox" name="Concern" value="platform risk"> platform risk</label>
+          </div>
+        </div>
+
+        <h3 style="margin-top:.6em">Evidence &amp; materials you already have</h3>
+        <div class="field"><div class="checks">
+          <label><input type="checkbox" name="Evidence" value="campaign reports"> campaign reports</label>
+          <label><input type="checkbox" name="Evidence" value="creator lists"> creator lists</label>
+          <label><input type="checkbox" name="Evidence" value="content examples"> content examples</label>
+          <label><input type="checkbox" name="Evidence" value="customer research"> customer research</label>
+          <label><input type="checkbox" name="Evidence" value="audience data"> audience data</label>
+          <label><input type="checkbox" name="Evidence" value="website analytics"> website analytics</label>
+          <label><input type="checkbox" name="Evidence" value="sales/support feedback"> sales/support feedback</label>
+          <label><input type="checkbox" name="Evidence" value="brand guidelines"> brand guidelines</label>
+          <label><input type="checkbox" name="Evidence" value="disclosure policies"> disclosure policies</label>
+          <label><input type="checkbox" name="Evidence" value="legal/compliance docs"> legal/compliance docs</label>
+        </div></div>
+
+        <h3 style="margin-top:.6em">Timeline &amp; budget</h3>
+        <div class="field"><label>When do you need support?</label><input name="Timeline"></div>
+        <div class="field"><label>What are you looking for?</label>
+          <select name="Engagement">
+            <option>Audit only</option><option>Strategy sprint</option><option>Governance system</option><option>Ongoing advisory</option><option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field"><label>Approximate budget range</label><input name="Budget"></div>
+        <div class="field"><label>Anything else I should know?</label><textarea name="Notes"></textarea></div>
+
+        <button class="btn big" type="submit">Submit Audit Inquiry</button>
+        <p class="hidden-badge" id="formnote">This opens a pre-filled email in your mail app. No data is stored by this page.</p>
+      </form>
+
+      <aside>
+        <div class="card pad-lg">
+          <p class="eyebrow">What happens next</p>
+          <ol class="steps">
+            <li>I review your intake and materials.</li>
+            <li>We do a short scoping call to confirm fit and scope.</li>
+            <li>You get a proposal with timeline and deliverables.</li>
+            <li>We begin with intake + evidence synthesis.</li>
+          </ol>
+          <hr class="divider" style="margin:18px 0">
+          <p class="muted">Prefer to start smaller? Ask about a single-layer review or a scoping consult.</p>
+          <p><a class="btn ghost" href="mailto:collins.ra@husky.neu.edu?subject=Consult%20request%20%E2%80%94%20Evidence%C2%B7Studio">Email directly</a></p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<div id="footer"></div>
+<script src="assets/site.js"></script>
+<script>
+function sendIntake(e){
+  e.preventDefault();
+  var f=e.target, lines=[];
+  var seen={};
+  new FormData(f).forEach(function(v,k){
+    if(!v) return;
+    if(seen[k]){ seen[k]+=", "+v; } else { seen[k]=v; }
+  });
+  Object.keys(seen).forEach(function(k){ lines.push(k+": "+seen[k]); });
+  var body=encodeURIComponent(lines.join("\n"));
+  window.location.href="mailto:collins.ra@husky.neu.edu?subject="+encodeURIComponent("Creator + Brand Evidence Audit inquiry")+"&body="+body;
+  document.getElementById('formnote').textContent="Opening your email app… if nothing happens, email collins.ra@husky.neu.edu directly.";
+  return false;
+}
+</script>
+</body>
+</html>
