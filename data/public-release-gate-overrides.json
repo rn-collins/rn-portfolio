@@ -1,0 +1,92 @@
+[
+  {
+    "repository": "rn-collins/aloha-ai-consulting",
+    "audit_date": "2026-07-16",
+    "release_state": "public-remediation-required",
+    "committed_secrets": {
+      "status": "targeted-current-tree-no-match",
+      "full_history_scan": "pending",
+      "tested_patterns": [
+        "API_KEY",
+        "SECRET",
+        "TOKEN",
+        "PASSWORD",
+        "PRIVATE_KEY",
+        "DATABASE_URL",
+        "UPSTASH_REDIS_REST_TOKEN",
+        "RESEND_API_KEY",
+        "sk-",
+        "apiKey",
+        ".env"
+      ]
+    },
+    "environment_handling": "undocumented",
+    "personal_data": "founder identity and contact/data-flow review required",
+    "institutional_claims": "professional and credential claims register required",
+    "third_party_assets": "inventory and notices required",
+    "deployment_configuration": "vercel-linked-evidence-observed; provider-settings-unverified",
+    "git_history": "recent history sampled; full object scan pending",
+    "exact_next_action": "Add repository README, claims register, environment contract, rights inventory, privacy data-flow map, and recorded Gitleaks/TruffleHog full-history scan.",
+    "evidence_document": "docs/public-repository-release-gate-audit-2026-07-16.md"
+  },
+  {
+    "repository": "rn-collins/flexjd-site",
+    "audit_date": "2026-07-16",
+    "release_state": "public-institutional-controls-required",
+    "committed_secrets": {
+      "status": "targeted-current-tree-no-match",
+      "full_history_scan": "pending",
+      "tested_patterns": [
+        "API_KEY",
+        "SECRET",
+        "TOKEN",
+        "PASSWORD",
+        "PRIVATE_KEY",
+        "DATABASE_URL",
+        "UPSTASH_REDIS_REST_TOKEN",
+        "RESEND_API_KEY",
+        "sk-",
+        "apiKey",
+        ".env"
+      ]
+    },
+    "environment_handling": "static architecture documented; external collection and analytics inventory pending",
+    "personal_data": "institutional email and class year published; student/community data controls required",
+    "institutional_claims": "student-maintained and non-official-site disclaimer required",
+    "third_party_assets": "organization content, logos, and opportunity summaries require rights/source controls",
+    "deployment_configuration": "vercel-auto-deploy-from-main-documented; provider-settings-unverified",
+    "git_history": "high-frequency opportunity updates observed; full object scan pending",
+    "exact_next_action": "Add institutional disclaimer, source and last-verified fields, rights notice, privacy inventory, pull-request publication gate, automated link/staleness checks, and recorded full-history scan.",
+    "evidence_document": "docs/public-repository-release-gate-audit-2026-07-16.md"
+  },
+  {
+    "repository": "rn-collins/zero-to-frontier",
+    "audit_date": "2026-07-16",
+    "release_state": "public-hold",
+    "committed_secrets": {
+      "status": "targeted-current-tree-no-match",
+      "full_history_scan": "pending",
+      "tested_patterns": [
+        "API_KEY",
+        "SECRET",
+        "TOKEN",
+        "PASSWORD",
+        "PRIVATE_KEY",
+        "DATABASE_URL",
+        "UPSTASH_REDIS_REST_TOKEN",
+        "RESEND_API_KEY",
+        "sk-",
+        "apiKey",
+        ".env"
+      ]
+    },
+    "environment_handling": "unknown",
+    "personal_data": "resource-level data inventory required",
+    "institutional_claims": "verified-resource claim lacks published methodology",
+    "third_party_assets": "rights and dataset inventory required",
+    "deployment_configuration": "vercel-deployment-trigger-history-observed; provider-settings-unverified",
+    "git_history": "three-commit history observed; full object scan pending",
+    "exact_next_action": "Do not promote as a flagship. Add README, architecture, methodology, provenance, rights, privacy, maintenance and environment documentation; verify Vercel; then run and record a full-history scan.",
+    "evidence_document": "docs/public-repository-release-gate-audit-2026-07-16.md"
+  }
+]
