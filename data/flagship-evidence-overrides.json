@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-07-16",
+  "scope": "Evidence-backed overrides for the first ten flagship repositories. These records supersede the corresponding provisional fields in data/repository-control-registry.csv.",
+  "limitations": [
+    "No full-history secret scan was completed during this evidence pass.",
+    "Vercel account configuration was not directly inspected; deployment findings distinguish repository evidence from provider verification.",
+    "External rights clearance cannot be established from GitHub contents alone."
+  ],
+  "repositories": [
+    {
+      "repository": "rn-collins/rn-portfolio",
+      "classification": "flagship",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "declared-active",
+        "evidence": ["README documents vercel.json and the portfolio deployment hostname", "current repository contains a Vercel configuration file"],
+        "provider_verified": false
+      },
+      "documentation_score": 4,
+      "documentation_evidence": ["substantive project README", "documented architecture", "documented build-registry schema", "local-development instructions", "registry validation workflow"],
+      "rights_status": "owner-created; third-party fonts, assets, and linked-content review pending",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R3",
+      "exact_next_action": "split public and internal registry data; add JSON Schema; run and record full security scan; add release checklist; then make repository public",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/aloha-ai-consulting",
+      "classification": "flagship",
+      "visibility": "public",
+      "deployment_dependency": {
+        "status": "repository-linked-active",
+        "evidence": ["index.html declares canonical https://aloha-ai-consulting.vercel.app/", "latest observed commit message says Vercel deploy was retriggered"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["no root README found", "public page contains structured metadata but no repository setup or architecture documentation"],
+      "rights_status": "owner-created; professional claims, credentials, third-party assets, and source licenses require release review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R1",
+      "exact_next_action": "add flagship README, architecture, deployment guide, claims provenance, limitations, environment-variable inventory, and release-safe sample configuration",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/aloha-suppression-sweep",
+      "classification": "flagship",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "declared-active",
+        "evidence": ["RN Builds registry links the repository's product to a Vercel deployment", "recent commit history shows active feature maintenance"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["no root README found"],
+      "rights_status": "owner-created; platform-source licenses, incident evidence, quoted material, and screenshot rights require review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R1",
+      "exact_next_action": "keep private; document incident methodology, provenance, update cadence, correction process, architecture, environment variables, and limitations; then decide public core versus sanitized showcase",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/aloha-ai-governance",
+      "classification": "flagship",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "declared-active",
+        "evidence": ["RN Builds registry declares a live Vercel deployment", "package.json identifies a no-build Node module using @upstash/redis"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["package.json present", "no project-specific README verified"],
+      "rights_status": "owner-created; regulatory-source licensing, jurisdictional claims, and legal-information boundaries require review",
+      "secrets_scan_status": "no-completed-scan-evidence; inspect Redis and deployment environment handling",
+      "reproducibility_level": "R1",
+      "exact_next_action": "document architecture, source registry, jurisdiction-selection method, update cadence, environment variables, legal limitations, sample data, and deployment path before publication",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/psych-ops-directory",
+      "classification": "flagship",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "declared-active",
+        "evidence": ["RN Builds registry declares a live Vercel deployment", "package.json identifies psych-ops-directory version 2.0.0 and Node 20"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["package identity and runtime documented", "no root README found"],
+      "rights_status": "owner-created; directory-record sources, organization data, logos, and correction rights require review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R1",
+      "exact_next_action": "add source and verification methodology, correction and appeal policy, schema, local setup, safe sample records, deployment guide, limitations, and release checklist",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/transform-observatory",
+      "classification": "flagship",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "framework-declared",
+        "evidence": ["README identifies a Next.js application and gives generic Vercel deployment instructions"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["README is the generic create-next-app template", "product methodology and data provenance are absent from the README"],
+      "rights_status": "owner-created; named external frameworks, quotations, sources, and derived scoring require review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R2",
+      "exact_next_action": "replace starter README with project-specific documentation; add policy-framework mapping, scoring methodology, source registry, sample data, architecture, limitations, and deployment verification",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/nsag-site",
+      "classification": "flagship-canonicalization-target",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "declared-active",
+        "evidence": ["RN Builds registry identifies the NSAG public site deployment and 15 related module deployments"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["no root README found"],
+      "rights_status": "owner-created; framework claims, assessment design, citations, scoring, and contributor rights require review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R1",
+      "exact_next_action": "make this the canonical NSAG repository; document framework, scoring, evidence, governance, and architecture; map all deployment dependencies; then consolidate the 15 module repositories",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/flexjd-site",
+      "classification": "flagship",
+      "visibility": "public",
+      "deployment_dependency": {
+        "status": "repository-linked-active",
+        "evidence": ["project README states Vercel deploys automatically from main", "recent commit history shows continuing feature and content maintenance"],
+        "provider_verified": false
+      },
+      "documentation_score": 3,
+      "documentation_evidence": ["project-specific README", "site structure documented", "deployment behavior documented", "technology approach documented"],
+      "rights_status": "institution-linked; Northeastern naming, marks, role authority, student information, and disclaimer language require institutional review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R3",
+      "exact_next_action": "keep public while immediately adding institutional disclaimer, source dates, correction policy, data methodology, privacy review, and recorded security scan",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/law-communication-library",
+      "classification": "flagship-rights-blocked",
+      "visibility": "private",
+      "deployment_dependency": {
+        "status": "declared-active",
+        "evidence": ["RN Builds registry declares a live deployment"],
+        "provider_verified": false
+      },
+      "documentation_score": 1,
+      "documentation_evidence": ["no root README found"],
+      "rights_status": "publication blocked pending written confirmation regarding Antithesis Law materials, authorship, branding, and reuse",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R1",
+      "exact_next_action": "keep private; obtain written rights clearance before technical publication work; then create a sanitized or approved public version with provenance, update policy, and legal-information disclaimer",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    },
+    {
+      "repository": "rn-collins/zero-to-frontier",
+      "classification": "flagship-on-hold",
+      "visibility": "public",
+      "deployment_dependency": {
+        "status": "unverified",
+        "evidence": ["no deployment relationship verified during this pass"],
+        "provider_verified": false
+      },
+      "documentation_score": 0,
+      "documentation_evidence": ["root README exists but is empty"],
+      "rights_status": "account-owned; content, third-party assets, and source licenses require review",
+      "secrets_scan_status": "no-completed-scan-evidence; current-tree and full-history scan required",
+      "reproducibility_level": "R0-R1",
+      "exact_next_action": "audit code and deployment immediately; either add a complete README, setup, architecture, status, limitations, rights, and security documentation or make the repository private until release-ready",
+      "evidence_reference": "docs/flagship-evidence-audit-2026-07-16.md"
+    }
+  ]
+}
