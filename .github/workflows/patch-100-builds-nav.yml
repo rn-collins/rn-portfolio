@@ -1,0 +1,35 @@
+name: Patch 100 Builds navigation
+on:
+  push:
+    branches: [feature/80-builds-exhibition]
+    paths: [.github/workflows/patch-100-builds-nav.yml]
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/80-builds-exhibition
+      - name: Replace legacy exhibition navigation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('index.html')
+          s=p.read_text()
+          old='<a class="tab-btn" href="/80-builds.html" style="text-decoration:none;display:inline-flex;align-items:center">80 Builds</a>'
+          new='<a class="tab-btn" href="/100-builds.html" style="text-decoration:none;display:inline-flex;align-items:center">100 Builds</a>'
+          if new not in s:
+              if old not in s:
+                  raise SystemExit('Legacy navigation anchor not found; refusing unsafe patch')
+              p.write_text(s.replace(old,new,1))
+          PY
+      - name: Commit navigation patch
+        run: |
+          git config user.name "RN Builds Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "feat: convert portfolio navigation to 100 Builds"
+          git push origin HEAD:feature/80-builds-exhibition
