@@ -1,0 +1,62 @@
+repository,classification,visibility,deployment_dependency,documentation_score,rights_status,secrets_scan_status,reproducibility_level,exact_next_action
+rn-collins/ai-budget-calc,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/aiapc-site,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/aloha-ai-consulting,flagship,public,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/aloha-ai-governance,flagship,private,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/aloha-behavioral-intelligence,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/aloha-build-club,internal,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R0,"keep private; document operations, secrets, ownership, recovery"
+rn-collins/aloha-creator-rights,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/aloha-culture-monitor,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/aloha-dea-tracker,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/aloha-encoding-effect,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/aloha-governance-audit,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/aloha-legal-ai-monitor,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/aloha-suppression-sweep,flagship,private,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/aloha-third-asset,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/bm-intel,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/clerking-site,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/destig-toolkit,supporting,private,verify-active,1,collaborator/employer-linked review required,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/dru-assessment,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/entheogen-atlas,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/eolpc-demo,sanitized-showcase-shell,private,verify-active,1,prospect/client-context review required,not-run,R1,keep private; publish sanitized case-study shell
+rn-collins/eolpc-demo-v5,consolidate,private,verify-active,1,prospect/client-context review required,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/fadiman-atlas,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/flexjd-site,flagship,public,verify-active,2,institution-linked review required,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/gapi-governance,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/kids-developing-brains,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/law-communication-library,flagship,private,verify-active,2,collaborator/employer-linked review required,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/legal-risk-monitor,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/myelin-ce,incubator,public,verify-prelaunch,2,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/narch-advisory,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/nervous-system-studio,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/nsag-admin,internal,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R0,"keep private; document operations, secrets, ownership, recovery"
+rn-collins/nsag-api,internal,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R0,"keep private; document operations, secrets, ownership, recovery"
+rn-collins/nsag-m1,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m10,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m11,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m12,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m13,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m14,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m15,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m2,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m3,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m4,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m5,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m6,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m7,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m8,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-m9,consolidate,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,map deployment; migrate to canonical repo; redirect; archive
+rn-collins/nsag-site,flagship,private,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/opfos-firm,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/provenance-verify,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/psych-ops-directory,flagship,private,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/psychonaut-bookworm,supporting,private,verify-active,1,publication/brand-linked review required,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/psychops-intel,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/regac-academy,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/rn-portfolio,flagship,private,verify-active,4,owner-created; verify third-party assets and source licenses,not-run,R2,split public/internal data; add schema; scan; then publish
+rn-collins/set-for-life,supporting,private,verify-active,1,owner-created; verify third-party assets and source licenses,not-run,R1,add baseline README; verify deployment; scan secrets; assess public value
+rn-collins/sport-nsag,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/transform-observatory,flagship,private,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
+rn-collins/wnh-guide,incubator,private,verify-prelaunch,1,owner-created; verify third-party assets and source licenses,not-run,R0,verify owner/deployment/90-day plan; promote or archive
+rn-collins/y,archive-or-retire,private,unknown,0,owner-created; verify third-party assets and source licenses,not-run,R0,confirm no dependency; export; archive with pointer
+rn-collins/zero-to-frontier,flagship,public,verify-active,2,owner-created; verify third-party assets and source licenses,not-run,R2,run four publication gates; build flagship documentation bundle
