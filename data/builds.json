@@ -554,11 +554,11 @@
     "name": "EOLPC Knowledge System \u2014 Technology Preview",
     "url": "eolpc-demo-v5.vercel.app",
     "brand": "Aloha AI",
-    "status": "Live",
+    "status": "archived",
     "type": "Prospect Tool",
     "slack": "#eol-care-queries",
     "target": "Psychedelic end-of-life care practitioners and organizations",
-    "desc": "Technology preview of the EOLPC Knowledge Intelligence System. Research-facing architecture anchored to participant-contributed field data. Companion build to eolpc-demo.vercel.app \u2014 showcases the participant-anchored knowledge layer for the EOLPC organization."
+    "desc": "Superseded by n:33 (eolpc-demo). Updated proposal in Downloads. Pending rebuild."
   },
   {
     "n": 52,
