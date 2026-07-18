@@ -533,41 +533,30 @@ function renderAbout() {
 
 // ── BUILDS ───────────────────────────────────────────────────────────────
 function render() {
-  const filtered = BUILDS.filter(b => {
-    if (!activeFilter) return true;
-    if (activeFilter === 'Monitoring') return b.type === 'Monitoring';
-    if (activeFilter === 'Prospect Tool') return b.type === 'Prospect Tool';
-    if (activeFilter === 'Product') return b.type === 'Product';
-    if (activeFilter === 'Static') return b.type === 'Static';
-    return true;
-  });
+  const NSAG_IDS = new Set([23,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,52,53,54,55,61]);
+  const isNSAG = b => NSAG_IDS.has(b.n);
 
-  document.getElementById('build-count').textContent = filtered.length + ' build' + (filtered.length !== 1 ? 's' : '');
+  const filtered = BUILDS.filter(b => !activeFilter || b.type === activeFilter);
+  const mainBuilds = filtered.filter(b => !isNSAG(b));
+  const nsagBuilds = filtered.filter(b => isNSAG(b));
+
+  const total = filtered.length;
+  document.getElementById('build-count').textContent = total + ' build' + (total !== 1 ? 's' : '');
   const grid = document.getElementById('grid');
+  if (total === 0) { grid.innerHTML = '<div class="no-results">No builds match this filter.</div>'; return; }
 
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="no-results">No builds match this filter.</div>';
-    return;
-  }
-
-  grid.innerHTML = filtered.map(b => {
-    const badgeLive = b.status === 'Live'
-      ? '<span class="badge badge-live">Live</span>'
-      : '<span class="badge badge-pending">Pending</span>';
-    const targetClass = internalUnlocked ? 'card-target show' : 'card-target';
+  function cardHTML(b) {
+    const badgeLive = b.status === 'Live' ? '<span class="badge badge-live">Live</span>' : '<span class="badge badge-pending">Pending</span>';
     const slackClass = internalUnlocked ? 'card-slack show' : 'card-slack';
+    const targetHTML = b.target ? `<div style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--muted);margin-bottom:.5rem;line-height:1.4;display:flex;gap:.35rem"><span style="color:var(--teal);flex-shrink:0">→</span><span>${b.target}</span></div>` : '';
     return `<div class="card">
       <div class="card-head">
         <div class="card-num">#${b.n.toString().padStart(2,'0')}</div>
-        <div class="card-badges">
-          ${badgeLive}
-          <span class="badge badge-type">${b.type}</span>
-          <span class="badge badge-type">${b.brand}</span>
-        </div>
+        <div class="card-badges">${badgeLive}<span class="badge badge-type">${b.type}</span><span class="badge badge-type">${b.brand}</span></div>
       </div>
       <div class="card-body">
         <div class="card-name">${b.name}</div>
-        <div class="${targetClass}">${b.target}</div>
+        ${targetHTML}
         <div class="card-desc">${b.desc}</div>
       </div>
       <div class="card-foot">
@@ -575,9 +564,63 @@ function render() {
         <div class="${slackClass}">${b.slack}</div>
       </div>
     </div>`;
-  }).join('');
-}
+  }
 
+  let html = mainBuilds.map(cardHTML).join('');
+
+  if (nsagBuilds.length > 0) {
+    if (mainBuilds.length > 0 && !activeFilter) {
+      html += `<div style="grid-column:1/-1;margin:2.5rem 0 1.5rem;padding-top:2rem;border-top:2px solid var(--teal)">
+        <div style="display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem">
+          <span style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--ink)">NSAG — Nervous-System-Aware Governance</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--teal);letter-spacing:.1em;text-transform:uppercase">${nsagBuilds.length} builds · <a href="https://nsag-site.vercel.app" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">nsag-site.vercel.app ↗</a></span>
+        </div>
+        <p style="font-family:'Manrope',sans-serif;font-size:.78rem;color:var(--muted);max-width:680px;line-height:1.65">Governance systems that ignore how trauma, stress, and cognition work will consistently fail the people they're designed to serve. Fifteen deployed module assessment tools. Each one a standalone governance readiness instrument.</p>
+      </div>`;
+    }
+    html += nsagBuilds.map(cardHTML).join('');
+
+    const modules = [
+      ['M1','Trauma-Informed Legal Space','nsag-m1.vercel.app'],
+      ['M2','AI Legal Navigation','nsag-m2.vercel.app'],
+      ['M3','Psychedelic Harm Reduction Governance','nsag-m3.vercel.app'],
+      ['M4','Cannabis Public Health Infrastructure','nsag-m4.vercel.app'],
+      ['M5','Biophilic Civic Infrastructure','nsag-m5.vercel.app'],
+      ['M6','Ethical Civic Sponsorship','nsag-m6.vercel.app'],
+      ['M7','Conscious Cities','nsag-m7.vercel.app'],
+      ['M8','Burnout Recovery Readiness Index','nsag-m8.vercel.app'],
+      ['M9','Cannabis Healthcare Visibility','nsag-m9.vercel.app'],
+      ['M10','Healthcare Built Environment','nsag-m10.vercel.app'],
+      ['M11','Medical Technology & Evidence Standards','nsag-m11.vercel.app'],
+      ['M12','Nervous-System-Aware Education Systems','nsag-m12.vercel.app'],
+      ['M13','Traditional & Complementary Medicine Governance','nsag-m13.vercel.app'],
+      ['M14','Space Governance & Interplanetary Jurisdiction','nsag-m14.vercel.app'],
+      ['M15','Isolation, Confinement & Extreme Environment Governance','nsag-m15.vercel.app'],
+    ];
+    const subBrands = [
+      ['NSAG Site','nsag-site.vercel.app'],
+      ['NARCH Advisory','narch-advisory.vercel.app'],
+      ['WNH Guide','wnh-guide.vercel.app'],
+      ['GAPI Governance','gapi-governance.vercel.app'],
+      ['Sport NSAG','sport-nsag.vercel.app'],
+      ['Nervous System Studio','nervous-system-studio.vercel.app'],
+    ];
+    html += `<div style="grid-column:1/-1;margin-top:3rem;padding:2rem;background:var(--ink);border-radius:6px;border:1px solid #2E4A3E">
+      <div style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.25rem">NSAG Framework · M1–M15 Module Map</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:.6rem;margin-bottom:1.75rem">
+        ${modules.map(([code,label,url]) => `<a href="https://${url}" target="_blank" rel="noopener" style="text-decoration:none;display:flex;gap:.5rem;align-items:flex-start;padding:.55rem .7rem;background:#1A2D26;border-radius:4px;border:1px solid #2E4A3E;transition:border-color .15s" onmouseover="this.style.borderColor='var(--teal)'" onmouseout="this.style.borderColor='#2E4A3E'"><span style="font-family:'DM Mono',monospace;font-size:.7rem;color:var(--teal);flex-shrink:0;padding-top:1px">${code}</span><span style="font-family:'Manrope',sans-serif;font-size:.72rem;color:#9BB8AD;line-height:1.4">${label}</span></a>`).join('')}
+      </div>
+      <div style="border-top:1px solid #2E4A3E;padding-top:1.25rem">
+        <div style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.75rem">Sub-brands &amp; Extended Framework</div>
+        <div style="display:flex;gap:.55rem;flex-wrap:wrap">
+          ${subBrands.map(([label,url]) => `<a href="https://${url}" target="_blank" rel="noopener" style="font-family:'DM Mono',monospace;font-size:.7rem;color:#6B8C7E;text-decoration:none;border:1px solid #2E4A3E;padding:.3rem .75rem;border-radius:99px;transition:all .15s" onmouseover="this.style.borderColor='var(--teal)';this.style.color='var(--teal)'" onmouseout="this.style.borderColor='#2E4A3E';this.style.color='#6B8C7E'">${label}</a>`).join('')}
+        </div>
+      </div>
+    </div>`;
+  }
+
+  grid.innerHTML = html;
+}
 function setFilter(el, val) {
   document.querySelectorAll('.fp').forEach(p => p.classList.remove('active'));
   el.classList.add('active');

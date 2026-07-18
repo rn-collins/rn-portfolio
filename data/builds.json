@@ -646,6 +646,28 @@
     "type": "Platform",
     "slack": "",
     "target": "Parents and educators navigating AI and child development",
-    "desc": "Parent Workshop landing page for KIDS — AI for Developing Brains. Built July 1, 2026. Pending deployment."
+    "desc": "Parent and educator workshop landing page for KIDS — AI for Developing Brains. 90-minute format. Covers age-stage AI impact, developmental risk research, appropriate vs. high-risk uses, and a 5-point implementation protocol. RN Collins, MS Neurobiology (BU), MA Developmental Psychology (CUNY), JD Candidate (Northeastern)."
+  },
+  {
+    "n": 60,
+    "name": "Aloha Build Club",
+    "url": "aloha-build-club.vercel.app",
+    "brand": "Aloha AI",
+    "status": "Live",
+    "type": "Platform",
+    "slack": "",
+    "target": "Builders and operators in the Aloha AI network",
+    "desc": "Community hub for the Aloha Build Club — a cohort-based program for professionals building AI monitoring tools, intelligence products, and automation workflows."
+  },
+  {
+    "n": 61,
+    "name": "Nervous System Studio",
+    "url": "nervous-system-studio.vercel.app",
+    "brand": "NSAG",
+    "status": "Live",
+    "type": "Platform",
+    "slack": "",
+    "target": "Practitioners and institutions building nervous-system-informed programs",
+    "desc": "Nervous System Studio — NSAG sub-brand offering practitioner-facing resources and program frameworks for nervous-system-informed design and governance."
   }
 ]
