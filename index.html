@@ -534,16 +534,21 @@ function renderAbout() {
 // ── BUILDS ───────────────────────────────────────────────────────────────
 function render() {
   const NSAG_IDS = new Set([23,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,52,53,54,55,61]);
-  const isNSAG = b => NSAG_IDS.has(b.n);
+  const ALOHA_IDS = new Set([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,33,51,60]);
 
   const filtered = BUILDS.filter(b => !activeFilter || b.type === activeFilter);
-  const mainBuilds = filtered.filter(b => !isNSAG(b));
-  const nsagBuilds = filtered.filter(b => isNSAG(b));
+  const alohaBuilds = filtered.filter(b => ALOHA_IDS.has(b.n));
+  const otherBuilds = filtered.filter(b => !ALOHA_IDS.has(b.n) && !NSAG_IDS.has(b.n));
+  const nsagBuilds  = filtered.filter(b => NSAG_IDS.has(b.n));
 
   const total = filtered.length;
   document.getElementById('build-count').textContent = total + ' build' + (total !== 1 ? 's' : '');
   const grid = document.getElementById('grid');
   if (total === 0) { grid.innerHTML = '<div class="no-results">No builds match this filter.</div>'; return; }
+
+  // show section headers only when multiple sections are populated
+  const sectionCount = [alohaBuilds, otherBuilds, nsagBuilds].filter(s => s.length > 0).length;
+  const multiSection = sectionCount > 1 && !activeFilter;
 
   function cardHTML(b) {
     const badgeLive = b.status === 'Live' ? '<span class="badge badge-live">Live</span>' : '<span class="badge badge-pending">Pending</span>';
@@ -551,7 +556,7 @@ function render() {
     const targetHTML = b.target ? `<div style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--muted);margin-bottom:.5rem;line-height:1.4;display:flex;gap:.35rem"><span style="color:var(--teal);flex-shrink:0">→</span><span>${b.target}</span></div>` : '';
     return `<div class="card">
       <div class="card-head">
-        <div class="card-num">#${b.n.toString().padStart(2,'0')}</div>
+        <div class="card-num">#${b.n.toString().padStart(2,'00')}</div>
         <div class="card-badges">${badgeLive}<span class="badge badge-type">${b.type}</span><span class="badge badge-type">${b.brand}</span></div>
       </div>
       <div class="card-body">
@@ -566,10 +571,60 @@ function render() {
     </div>`;
   }
 
-  let html = mainBuilds.map(cardHTML).join('');
+  let html = '';
 
+  // ── ALOHA AI ──────────────────────────────────────────────────────────────
+  if (alohaBuilds.length > 0) {
+    if (multiSection) {
+      html += `<div style="grid-column:1/-1;margin-bottom:1.5rem;padding-bottom:1.25rem;border-bottom:1px solid #2A3D36">
+        <div style="display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem">
+          <span style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--ink)">Aloha AI</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--teal);letter-spacing:.1em;text-transform:uppercase">${alohaBuilds.length} builds · <a href="https://aloha-ai-consulting.vercel.app" target="_blank" rel="noopener" style="color:var(--teal);text-decoration:none">aloha-ai-consulting.vercel.app ↗</a></span>
+        </div>
+        <p style="font-family:'Manrope',sans-serif;font-size:.78rem;color:var(--muted);max-width:680px;line-height:1.65">AI content systems, regulatory intelligence platforms, governance advisory tools, and legal AI workflow diagnostics — built for clients and deployed as live products. Monitoring infrastructure, prospect tools, and intelligence layers across regulated industries.</p>
+      </div>`;
+    }
+    html += alohaBuilds.map(cardHTML).join('');
+
+    if (multiSection) {
+      const serviceLines = [
+        ['SL1','AI Content Systems','Voice profiles, publishing infrastructure, Substack systems, creator-rights frameworks, YouTube education content.'],
+        ['SL2','Regulatory Intelligence','Custom monitoring sweeps, DEA/FDA/AI regulatory trackers, suppression intelligence, real-time governance alerts.'],
+        ['SL3','AI Governance Advisory','Policy analysis, enterprise AI strategy, governance readiness assessments, institutional advisory frameworks.'],
+        ['SL4','Fractional CAO · Legal AI Workflow','Embedded AI leadership, workflow development, compliance diagnostics, team training, and legal-tech integration.'],
+      ];
+      html += `<div style="grid-column:1/-1;margin-top:2.5rem;padding:2rem;background:var(--ink);border-radius:6px;border:1px solid #2E4A3E">
+        <div style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:1.25rem">Aloha AI · Service Lines</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.75rem;margin-bottom:1.5rem">
+          ${serviceLines.map(([code,label,desc]) => `<div style="padding:.75rem .9rem;background:#1A2D26;border-radius:4px;border:1px solid #2E4A3E"><div style="display:flex;gap:.5rem;align-items:baseline;margin-bottom:.4rem"><span style="font-family:'DM Mono',monospace;font-size:.7rem;color:var(--teal);flex-shrink:0">${code}</span><span style="font-family:'Manrope',sans-serif;font-size:.75rem;color:#E8EEE8;font-weight:600">${label}</span></div><p style="font-family:'Manrope',sans-serif;font-size:.7rem;color:#7A9A8A;line-height:1.5;margin:0">${desc}</p></div>`).join('')}
+        </div>
+        <div style="border-top:1px solid #2E4A3E;padding-top:1.25rem">
+          <div style="font-family:'DM Mono',monospace;font-size:.68rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.75rem">Active platforms &amp; deployed builds</div>
+          <div style="display:flex;gap:.55rem;flex-wrap:wrap">
+            ${['Aloha Suppression Sweep','Aloha Legal AI Monitor','Aloha DEA Tracker','Culture Intelligence Monitor','Aloha AI Governance Tracker','Aloha Build Club'].map(label => `<span style="font-family:'DM Mono',monospace;font-size:.7rem;color:#6B8C7E;border:1px solid #2E4A3E;padding:.3rem .75rem;border-radius:99px">${label}</span>`).join('')}
+          </div>
+        </div>
+      </div>`;
+    }
+  }
+
+  // ── OTHER BRANDS ──────────────────────────────────────────────────────────
+  if (otherBuilds.length > 0) {
+    if (multiSection) {
+      html += `<div style="grid-column:1/-1;margin:2.5rem 0 1.5rem;padding-top:2rem;border-top:1px solid #2A3D36">
+        <div style="display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem">
+          <span style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--ink)">Independent Builds</span>
+          <span style="font-family:'DM Mono',monospace;font-size:.72rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase">${otherBuilds.length} builds</span>
+        </div>
+        <p style="font-family:'Manrope',sans-serif;font-size:.78rem;color:var(--muted);max-width:680px;line-height:1.65">Standalone brands and personal platforms — products built outside the Aloha AI and NSAG umbrellas.</p>
+      </div>`;
+    }
+    html += otherBuilds.map(cardHTML).join('');
+  }
+
+  // ── NSAG ──────────────────────────────────────────────────────────────────
   if (nsagBuilds.length > 0) {
-    if (mainBuilds.length > 0 && !activeFilter) {
+    if (multiSection) {
       html += `<div style="grid-column:1/-1;margin:2.5rem 0 1.5rem;padding-top:2rem;border-top:2px solid var(--teal)">
         <div style="display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem">
           <span style="font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:700;color:var(--ink)">NSAG — Nervous-System-Aware Governance</span>
@@ -621,6 +676,7 @@ function render() {
 
   grid.innerHTML = html;
 }
+
 function setFilter(el, val) {
   document.querySelectorAll('.fp').forEach(p => p.classList.remove('active'));
   el.classList.add('active');
