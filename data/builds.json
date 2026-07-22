@@ -7,7 +7,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#suppression-alerts",
-    "target": "SL1 tier \u2014 psychoactive substance orgs, harm reduction, and advocacy groups",
+    "target": "SL1 tier — psychoactive substance orgs, harm reduction, and advocacy groups",
     "desc": "Regulatory sweep tracking platform suppression of psychoactive substance, harm reduction, and advocacy group content. 50+ verified incidents across Meta, YouTube, Google, TikTok, and Twitter (current as of last sweep; updated weekly). Heat-scored by urgency, filterable by sector. Weekly Exa sweep, Upstash backend. Pairs with AI Content System one-pager as the live dashboard companion."
   },
   {
@@ -29,7 +29,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#legal-ai-alerts",
-    "target": "Legal AI workflow tier \u2014 law firms, GCs, and legal ops contacts",
+    "target": "Legal AI workflow tier — law firms, GCs, and legal ops contacts",
     "desc": "Tracks AI-generated legal guidance, state bar guidance, ABA opinions, judicial standing orders, bar rule amendments, and professional responsibility developments across US jurisdictions. Five Exa query categories, updated weekly. Proof-of-work tool for legal AI workflow outreach."
   },
   {
@@ -40,7 +40,7 @@
     "status": "Live",
     "type": "Product",
     "slack": "#calc-leads",
-    "target": "Aloha AI lead generation \u2014 organizations scoping AI implementation projects",
+    "target": "Aloha AI lead generation — organizations scoping AI implementation projects",
     "desc": "Interactive calculator for organizations scoping AI implementation builds. Free tier delivers the Professional Services Google Sheet: 10 phases, 300-490 hrs, $45K-$73.5K range, GET + SE tax auto-calculated, 26 build materials line-by-line, Year 1 ops costs. Paid tool at $97 adds mobile app options (PWA/React Native/Native) and 35-page practitioner guide. Lead capture to Upstash + Slack, confirmation email via Resend from noreply@rncollins.com."
   },
   {
@@ -51,7 +51,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#dea-tracker-alerts",
-    "target": "Regulatory intelligence tier \u2014 biopharma, medtech, and health tech contacts",
+    "target": "Regulatory intelligence tier — biopharma, medtech, and health tech contacts",
     "desc": "DEA scheduling action monitor tracking Federal Register rulemaking on controlled substances, cannabinoids, and psychedelics. Pulls Congress.gov drug regulation bills and FDA enforcement signals. Upstash namespace dea:. Also serves as the external lead capture API endpoint for all four GitHub Pages one-pagers."
   },
   {
@@ -73,7 +73,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#ok-cool-alerts",
-    "target": "OK COOL \u2014 creative and cultural intelligence agency",
+    "target": "OK COOL — creative and cultural intelligence agency",
     "desc": "Live dashboard tracking screen culture to consumer behavior signals. Four culture moments: Bridgerton brand ecosystem effect, MJ biopic Gen Z aesthetic resurgence, Yellowstone place identity formation, Euphoria S3 character aesthetic transfer (Season 3 confirmed aired April 12-May 31, 2026). Real-time commercial signal data. One of five builds for OK COOL."
   },
   {
@@ -84,7 +84,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#ok-cool-alerts",
-    "target": "OK COOL \u2014 creative and cultural intelligence agency",
+    "target": "OK COOL — creative and cultural intelligence agency",
     "desc": "Interactive AI/synthetic media exposure assessment. Client inputs industry and activation types and receives a structured risk assessment cross-referenced against live FTC enforcement data (FTC AI-washing enforcement active), pending Congressional AI legislation, Federal Register rulemaking, and EU AI Act Reg. (EU) 2024/1689 extraterritorial provisions (in force Aug 1, 2024). One of five builds for OK COOL."
   },
   {
@@ -95,7 +95,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#ok-cool-alerts",
-    "target": "OK COOL \u2014 creative and cultural intelligence agency (adapted version also built for The Set Set)",
+    "target": "OK COOL — creative and cultural intelligence agency (adapted version also built for The Set Set)",
     "desc": "Monthly intelligence product on why specific culture moments drive consumer behavior via neuroscientific mechanism: parasocial identity formation, neural activation patterns during aspirational viewing (including proposed mirror neuron mechanisms, though the extent of human mirror neuron function remains an area of active research), and emotional memory encoding. Four culture moments with verified commercial signals. White-labelable for entertainment clients. Primary build for OK COOL; adapted version delivered to The Set Set."
   },
   {
@@ -106,7 +106,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#ok-cool-alerts",
-    "target": "OK COOL \u2014 creative and cultural intelligence agency",
+    "target": "OK COOL — creative and cultural intelligence agency",
     "desc": "7-question decision-tree protocol for creator partnership governance. Covers human vs. AI-generated creator type, likeness agreements, AI content disclosure, platform compliance, and contract language for AI-generated content environments. Cross-referenced against live FTC enforcement and current AI legislation. One of five builds for OK COOL."
   },
   {
@@ -117,7 +117,7 @@
     "status": "Live",
     "type": "Prospect Tool",
     "slack": "#ok-cool-inquiries",
-    "target": "The Set Set \u2014 screen culture editorial platform",
+    "target": "The Set Set — screen culture editorial platform",
     "desc": "Research note naming the neuroscientific encoding mechanism underlying screen-world-to-identity transfer. Four case studies with verified stats: 102M Spotify listeners post-MJ biopic, 82% of MJ listeners under 35, Bridgerton GBP 275M UK economic impact + 52 brand partners S4, Yellowstone 2.1M Montana visitors/$730M spending, UK Texas searches up 203% post-Dutton Ranch trailer. Built for The Set Set."
   },
   {
@@ -128,8 +128,8 @@
     "status": "Live",
     "type": "Prospect Tool",
     "slack": "#ok-cool-inquiries",
-    "target": "OK COOL \u2014 creative and cultural intelligence agency",
-    "desc": "Long-form pitch positioning the AI governance layer as the third asset between creative execution and cultural intelligence. Covers four live agency exposure scenarios. Links to all four OK COOL live tools as proof-of-work. Credentials: AISLE Project \u2014 Brown University Center for Technological Responsibility (CNTR), AI Workflow Developer at a commercial law firm (Harvey platform), Aloha AI Consulting. One of five builds for OK COOL."
+    "target": "OK COOL — creative and cultural intelligence agency",
+    "desc": "Long-form pitch positioning the AI governance layer as the third asset between creative execution and cultural intelligence. Covers four live agency exposure scenarios. Links to all four OK COOL live tools as proof-of-work. Credentials: AISLE Project — Brown University Center for Technological Responsibility (CNTR), AI Workflow Developer at a commercial law firm (Harvey platform), Aloha AI Consulting. One of five builds for OK COOL."
   },
   {
     "n": 13,
@@ -139,7 +139,7 @@
     "status": "Live",
     "type": "Monitoring",
     "slack": "#ai-governance-alerts",
-    "target": "Regulatory intelligence tier \u2014 AI governance platforms, enterprise AI ops, legaltech, CTO/legal ops at law firms",
+    "target": "Regulatory intelligence tier — AI governance platforms, enterprise AI ops, legaltech, CTO/legal ops at law firms",
     "desc": "13-jurisdiction curated AI governance and regulation monitor (EU AI Act + 12 highest-impact US jurisdictions including CA, CO, TX, IL, UT, NYC, VA, CT, MD, WA, OR + federal). Pulls from Congress.gov API (AI bills filter tightened June 6 2026) and FTC press release RSS (parsing fixed June 6 2026). Two confirmed data sources. Upstash namespace ai_gov:. Congress.gov API key required. Pairs with AI Governance Intelligence one-pager."
   },
   {
@@ -161,7 +161,7 @@
     "status": "Live",
     "type": "Prospect Tool",
     "slack": "#bm-intel-alerts",
-    "target": "Burgermeister \u2014 restaurant and hospitality sector prospect",
+    "target": "Burgermeister — restaurant and hospitality sector prospect",
     "desc": "Custom prospect intelligence dashboard built for Burgermeister. Tracks competitor activity, industry trend signals, and market intelligence specific to the restaurant and hospitality sector."
   },
   {
@@ -177,7 +177,7 @@
   },
   {
     "n": 17,
-    "name": "Regulatory Intelligence One-Pager \u2014 Pharma",
+    "name": "Regulatory Intelligence One-Pager — Pharma",
     "url": "aloha-ai-consulting.vercel.app/intelligence.html",
     "brand": "Aloha AI",
     "status": "Live",
@@ -188,7 +188,7 @@
   },
   {
     "n": 18,
-    "name": "AI Governance Intelligence One-Pager \u2014 LegalTech",
+    "name": "AI Governance Intelligence One-Pager — LegalTech",
     "url": "aloha-ai-consulting.vercel.app/strategy.html",
     "brand": "Aloha AI",
     "status": "Live",
@@ -205,7 +205,7 @@
     "status": "Live",
     "type": "Static",
     "slack": "#legal-ai-alerts (via aloha-dea-tracker.vercel.app/api/lead)",
-    "target": "Warm prospects \u2014 law firms, GCs, and legal ops contacts",
+    "target": "Warm prospects — law firms, GCs, and legal ops contacts",
     "desc": "Interactive 5-question Legal AI Workflow Readiness Diagnostic with three score-based engagement paths. Credentials: Law Clerk at active law clerk positions at two firms (a prominent national firm and a boutique psychedelics practice) listed separately. AI Workflow Developer at a commercial law firm (Harvey platform). Footer hyperlinks to aloha-legal-ai-monitor.vercel.app."
   },
   {
@@ -238,8 +238,8 @@
     "status": "Live",
     "type": "Product",
     "slack": "#fadiman-inquiries",
-    "target": "James Fadiman \u2014 researcher, author, and pioneer of psychedelic microdosing research",
-    "desc": "Living knowledge infrastructure cataloguing 132 entries across Fadiman's 34-year public output (August 1992 to April 2026). Three trade books fully mapped. 12-field annotation schema. 8-layer technical architecture with cost estimates. Intellectual timeline 1961\u20132026. Powered by the Anthropic API. 17 dead/missing URLs documented."
+    "target": "James Fadiman — researcher, author, and pioneer of psychedelic microdosing research",
+    "desc": "Living knowledge infrastructure cataloguing 132 entries across Fadiman's 34-year public output (August 1992 to April 2026). Three trade books fully mapped. 12-field annotation schema. 8-layer technical architecture with cost estimates. Intellectual timeline 1961–2026. Powered by the Anthropic API. 17 dead/missing URLs documented."
   },
   {
     "n": 23,
@@ -250,7 +250,7 @@
     "type": "Product",
     "slack": "#nsag-leads",
     "target": "Cities, civic institutions, policy organizations, and foundations engaged with governance and public health infrastructure",
-    "desc": "Public presence for the Nervous-System-Aware Governance framework. Fifteen modules: M1 Trauma-Informed Legal Space, M2 AI Legal Navigation, M3 Psychedelic Harm Reduction Governance, M4 Cannabis Public Health Infrastructure, M5 Biophilic Civic Infrastructure, M6 Ethical Civic Sponsorship, M7 Conscious Cities, M8 Burnout Recovery Infrastructure, M9 Cannabis Healthcare Visibility. Pricing on Advisory page only. Speaking lives here. Individual module sites deployed: M1 Trauma-Informed Legal Space (nsag-m1.vercel.app) \u00b7 M2 AI Legal Navigation (nsag-m2.vercel.app) \u00b7 M3 Psychedelic Harm Reduction Governance (nsag-m3.vercel.app) \u00b7 M4 Cannabis Public Health Infrastructure (nsag-m4.vercel.app) \u00b7 M5 Biophilic Civic Infrastructure (nsag-m5.vercel.app) \u00b7 M6 Ethical Civic Sponsorship (nsag-m6.vercel.app) \u00b7 M7 Conscious Cities (nsag-m7.vercel.app) \u00b7 M8 Burnout Recovery Infrastructure (nsag-m8.vercel.app) \u00b7 M9 Cannabis Healthcare Destigmatization (nsag-m9.vercel.app) \u00b7 M10\u2013M15 (nsag-m10 through nsag-m15.vercel.app) \u2014 15 standalone module assessment tools total."
+    "desc": "Public presence for the Nervous-System-Aware Governance framework. Fifteen modules: M1 Trauma-Informed Legal Space, M2 AI Legal Navigation, M3 Psychedelic Harm Reduction Governance, M4 Cannabis Public Health Infrastructure, M5 Biophilic Civic Infrastructure, M6 Ethical Civic Sponsorship, M7 Conscious Cities, M8 Burnout Recovery Infrastructure, M9 Cannabis Healthcare Visibility. Pricing on Advisory page only. Speaking lives here. Individual module sites deployed: M1 Trauma-Informed Legal Space (nsag-m1.vercel.app) · M2 AI Legal Navigation (nsag-m2.vercel.app) · M3 Psychedelic Harm Reduction Governance (nsag-m3.vercel.app) · M4 Cannabis Public Health Infrastructure (nsag-m4.vercel.app) · M5 Biophilic Civic Infrastructure (nsag-m5.vercel.app) · M6 Ethical Civic Sponsorship (nsag-m6.vercel.app) · M7 Conscious Cities (nsag-m7.vercel.app) · M8 Burnout Recovery Infrastructure (nsag-m8.vercel.app) · M9 Cannabis Healthcare Destigmatization (nsag-m9.vercel.app) · M10–M15 (nsag-m10 through nsag-m15.vercel.app) — 15 standalone module assessment tools total."
   },
   {
     "n": 24,
@@ -325,7 +325,7 @@
     "brand": "Antithesis Law",
     "status": "Live",
     "type": "Content Tool",
-    "desc": "Psychoactive plant medicine destigmatization toolkit \u2014 multi-audience reference covering law, clinical evidence, practitioner obligations, and policy. RN Collins + Antithesis Law PC.",
+    "desc": "Psychoactive plant medicine destigmatization toolkit — multi-audience reference covering law, clinical evidence, practitioner obligations, and policy. RN Collins + Antithesis Law PC.",
     "slack": "",
     "target": ""
   },
@@ -360,7 +360,7 @@
     "type": "Prospect Tool",
     "slack": "#eol-care-queries",
     "target": "Psychedelic end-of-life care practitioners and organizations",
-    "desc": "Version 5 of the EOLPC Knowledge Intelligence System \u2014 RAG architecture built for psychedelic end-of-life care. Practitioner-facing knowledge system covering research, policy, and jurisdiction-specific guidance. Technology preview build for the EOLPC organization."
+    "desc": "Version 5 of the EOLPC Knowledge Intelligence System — RAG architecture built for psychedelic end-of-life care. Practitioner-facing knowledge system covering research, policy, and jurisdiction-specific guidance. Technology preview build for the EOLPC organization."
   },
   {
     "n": 34,
@@ -375,7 +375,7 @@
   },
   {
     "n": 35,
-    "name": "Cannabis Healthcare Education \u2014 Impact Assessment",
+    "name": "Cannabis Healthcare Education — Impact Assessment",
     "url": "dru-assessment.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -386,7 +386,7 @@
   },
   {
     "n": 36,
-    "name": "NSAG M1 \u2014 Trauma-Informed Legal Space",
+    "name": "NSAG M1 — Trauma-Informed Legal Space",
     "url": "nsag-m1.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -397,7 +397,7 @@
   },
   {
     "n": 37,
-    "name": "NSAG M2 \u2014 AI Legal Navigation",
+    "name": "NSAG M2 — AI Legal Navigation",
     "url": "nsag-m2.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -408,7 +408,7 @@
   },
   {
     "n": 38,
-    "name": "NSAG M3 \u2014 Psychedelic Harm Reduction Governance",
+    "name": "NSAG M3 — Psychedelic Harm Reduction Governance",
     "url": "nsag-m3.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -419,7 +419,7 @@
   },
   {
     "n": 39,
-    "name": "NSAG M4 \u2014 Cannabis Public Health Infrastructure",
+    "name": "NSAG M4 — Cannabis Public Health Infrastructure",
     "url": "nsag-m4.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -430,7 +430,7 @@
   },
   {
     "n": 40,
-    "name": "NSAG M5 \u2014 Biophilic Civic Infrastructure",
+    "name": "NSAG M5 — Biophilic Civic Infrastructure",
     "url": "nsag-m5.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -441,7 +441,7 @@
   },
   {
     "n": 41,
-    "name": "NSAG M6 \u2014 Ethical Civic Sponsorship",
+    "name": "NSAG M6 — Ethical Civic Sponsorship",
     "url": "nsag-m6.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -452,7 +452,7 @@
   },
   {
     "n": 42,
-    "name": "NSAG M7 \u2014 Conscious Cities",
+    "name": "NSAG M7 — Conscious Cities",
     "url": "nsag-m7.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -463,18 +463,18 @@
   },
   {
     "n": 43,
-    "name": "NSAG M8 \u2014 Burnout Recovery Readiness Index",
+    "name": "NSAG M8 — Burnout Recovery Readiness Index",
     "url": "nsag-m8.vercel.app",
     "brand": "NSAG",
     "status": "Live",
     "type": "Platform",
     "slack": "",
     "target": "Organizations and institutions addressing workforce burnout",
-    "desc": "Burnout Recovery Readiness Index \u2014 interactive institutional self-assessment measuring capacity to support recovery from burnout. Module 8 of the 15-module NSAG framework."
+    "desc": "Burnout Recovery Readiness Index — interactive institutional self-assessment measuring capacity to support recovery from burnout. Module 8 of the 15-module NSAG framework."
   },
   {
     "n": 44,
-    "name": "NSAG M9 \u2014 Cannabis Healthcare Visibility",
+    "name": "NSAG M9 — Cannabis Healthcare Visibility",
     "url": "nsag-m9.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -485,7 +485,7 @@
   },
   {
     "n": 45,
-    "name": "NSAG M10 \u2014 Healthcare Built Environment",
+    "name": "NSAG M10 — Healthcare Built Environment",
     "url": "nsag-m10.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -496,7 +496,7 @@
   },
   {
     "n": 46,
-    "name": "NSAG M11 \u2014 Medical Technology & Evidence Standards",
+    "name": "NSAG M11 — Medical Technology & Evidence Standards",
     "url": "nsag-m11.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -507,7 +507,7 @@
   },
   {
     "n": 47,
-    "name": "NSAG M12 \u2014 Nervous-System-Aware Education Systems",
+    "name": "NSAG M12 — Nervous-System-Aware Education Systems",
     "url": "nsag-m12.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -518,7 +518,7 @@
   },
   {
     "n": 48,
-    "name": "NSAG M13 \u2014 Traditional & Complementary Medicine Governance",
+    "name": "NSAG M13 — Traditional & Complementary Medicine Governance",
     "url": "nsag-m13.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -529,7 +529,7 @@
   },
   {
     "n": 49,
-    "name": "NSAG M14 \u2014 Space Governance & Interplanetary Jurisdiction",
+    "name": "NSAG M14 — Space Governance & Interplanetary Jurisdiction",
     "url": "nsag-m14.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -540,7 +540,7 @@
   },
   {
     "n": 50,
-    "name": "NSAG M15 \u2014 Isolation, Confinement & Extreme Environment Governance",
+    "name": "NSAG M15 — Isolation, Confinement & Extreme Environment Governance",
     "url": "nsag-m15.vercel.app",
     "brand": "NSAG",
     "status": "Live",
@@ -551,7 +551,7 @@
   },
   {
     "n": 51,
-    "name": "EOLPC Knowledge System \u2014 Technology Preview",
+    "name": "EOLPC Knowledge System — Technology Preview",
     "url": "eolpc-demo-v5.vercel.app",
     "brand": "Aloha AI",
     "status": "archived",
@@ -613,7 +613,7 @@
     "type": "Platform",
     "slack": "",
     "target": "Journalists, researchers, and institutions requiring primary-source verification",
-    "desc": "Source integrity audit landing page for PROV \u2014 Provenance. Built July 1, 2026. Pending deployment."
+    "desc": "Source integrity audit landing page for PROV — Provenance. Built July 1, 2026. Pending deployment."
   },
   {
     "n": 57,
@@ -624,7 +624,7 @@
     "type": "Platform",
     "slack": "",
     "target": "Professionals and organizations navigating regulatory complexity",
-    "desc": "Cohort enrollment landing page for REGAC \u2014 Regulatory Academy. Built July 1, 2026. Pending deployment."
+    "desc": "Cohort enrollment landing page for REGAC — Regulatory Academy. Built July 1, 2026. Pending deployment."
   },
   {
     "n": 58,
@@ -635,7 +635,7 @@
     "type": "Platform",
     "slack": "",
     "target": "Solo practitioners and one-person firms",
-    "desc": "Setup Sprint landing page for OPFOS \u2014 One-Person-Firm OS. Built July 1, 2026. Pending deployment."
+    "desc": "Setup Sprint landing page for OPFOS — One-Person-Firm OS. Built July 1, 2026. Pending deployment."
   },
   {
     "n": 59,
@@ -646,7 +646,7 @@
     "type": "Platform",
     "slack": "",
     "target": "Parents and educators navigating AI and child development",
-    "desc": "Parent and educator workshop landing page for KIDS \u2014 AI for Developing Brains. 90-minute format. Covers age-stage AI impact, developmental risk research, appropriate vs. high-risk uses, and a 5-point implementation protocol. RN Collins, MS Neurobiology (BU), MA Developmental Psychology (CUNY), JD Candidate (Northeastern)."
+    "desc": "Parent and educator workshop landing page for KIDS — AI for Developing Brains. 90-minute format. Covers age-stage AI impact, developmental risk research, appropriate vs. high-risk uses, and a 5-point implementation protocol. RN Collins, MS Neurobiology (BU), MA Developmental Psychology (CUNY), JD Candidate (Northeastern)."
   },
   {
     "n": 60,
@@ -657,7 +657,7 @@
     "type": "Platform",
     "slack": "",
     "target": "Builders and operators in the Aloha AI network",
-    "desc": "Community hub for the Aloha Build Club \u2014 a cohort-based program for professionals building AI monitoring tools, intelligence products, and automation workflows."
+    "desc": "Community hub for the Aloha Build Club — a cohort-based program for professionals building AI monitoring tools, intelligence products, and automation workflows."
   },
   {
     "n": 61,
@@ -668,7 +668,7 @@
     "type": "Platform",
     "slack": "",
     "target": "Practitioners and institutions building nervous-system-informed programs",
-    "desc": "Nervous System Studio \u2014 NSAG sub-brand offering practitioner-facing resources and program frameworks for nervous-system-informed design and governance."
+    "desc": "Nervous System Studio — NSAG sub-brand offering practitioner-facing resources and program frameworks for nervous-system-informed design and governance."
   },
   {
     "n": 62,
@@ -678,7 +678,7 @@
     "status": "pending-vercel",
     "type": "Consulting Site",
     "slack": "",
-    "target": "Expert-led, regulated, and credibility-sensitive brands \u2014 cannabis, wellness, health, legal, education, AI",
+    "target": "Expert-led, regulated, and credibility-sensitive brands — cannabis, wellness, health, legal, education, AI",
     "desc": "Evidence-based brand and creator strategy consulting site. Covers brand governance, creator/affiliate programs, founder-led content, thought leadership, and FTC-compliant disclosure for trust-sensitive markets. 14-page site."
   },
   {
@@ -689,7 +689,7 @@
     "status": "internal",
     "type": "Backend",
     "slack": "",
-    "target": "Internal \u2014 Aloha AI agentic brand management service line",
+    "target": "Internal — Aloha AI agentic brand management service line",
     "desc": "Self-hosted backend engine for Aloha AI's Agentic Brand Management service. FastAPI + Postgres/pgvector + n8n + Redis + Ollama. First agent: disclosure/claims risk grader. GitHub-only, no public frontend yet."
   },
   {
@@ -712,7 +712,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Legal professionals using AI-drafted documents",
-    "desc": "Legal citation verification tool that checks AI-generated case citations against CourtListener API. Deliberately includes a fabricated 'Hartwell' case to demonstrate hallucination. CSP currently blocks courtlistener.com \u2014 connect-src fix needed. Linked from main site."
+    "desc": "Legal citation verification tool that checks AI-generated case citations against CourtListener API. Deliberately includes a fabricated 'Hartwell' case to demonstrate hallucination. CSP currently blocks courtlistener.com — connect-src fix needed. Linked from main site."
   },
   {
     "n": 66,
@@ -734,7 +734,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Policy professionals and regulated-industry operators",
-    "desc": "AI-powered legislative bill analysis tool. Self-contained browser tool. Not linked from main site nav \u2014 September audit will assess whether to surface or integrate."
+    "desc": "AI-powered legislative bill analysis tool. Self-contained browser tool. Not linked from main site nav — September audit will assess whether to surface or integrate."
   },
   {
     "n": 68,
@@ -767,7 +767,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Clinical and policy professionals evaluating research evidence",
-    "desc": "Research evidence quality explainer \u2014 levels of evidence, study design, and how to read clinical trial data. Self-contained browser tool. Not linked from main site nav."
+    "desc": "Research evidence quality explainer — levels of evidence, study design, and how to read clinical trial data. Self-contained browser tool. Not linked from main site nav."
   },
   {
     "n": 71,
@@ -844,7 +844,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Content creators and marketers repurposing AI-generated content",
-    "desc": "University section tool \u2014 decision guide to AI content-repurposing tools (Opus Clip, Descript, Repurpose.io, general assistants). Fully built at /university/tools/best-for-content-repurposing. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
+    "desc": "University section tool — decision guide to AI content-repurposing tools (Opus Clip, Descript, Repurpose.io, general assistants). Fully built at /university/tools/best-for-content-repurposing. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
   },
   {
     "n": 78,
@@ -855,7 +855,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Professionals using AI for meeting documentation",
-    "desc": "University section tool \u2014 decision guide to AI meeting-note tools (Otter, Fireflies, Fathom, Granola) with consent/privacy emphasis. Fully built at /university/tools/best-for-meeting-notes. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
+    "desc": "University section tool — decision guide to AI meeting-note tools (Otter, Fireflies, Fathom, Granola) with consent/privacy emphasis. Fully built at /university/tools/best-for-meeting-notes. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
   },
   {
     "n": 79,
@@ -866,7 +866,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Researchers and analysts using AI for research workflows",
-    "desc": "University section tool \u2014 decision guide to AI research tools (Perplexity, Elicit, Consensus, deep-research modes) with citation-verification emphasis. Fully built at /university/tools/best-for-research. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
+    "desc": "University section tool — decision guide to AI research tools (Perplexity, Elicit, Consensus, deep-research modes) with citation-verification emphasis. Fully built at /university/tools/best-for-research. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
   },
   {
     "n": 80,
@@ -877,7 +877,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Small business owners using AI for operations",
-    "desc": "University section tool \u2014 decision guide to AI ops tools (Zapier/Make, QuickBooks/Intuit Assist, Notion AI, general assistants). Fully built at /university/tools/best-for-small-business-operations. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
+    "desc": "University section tool — decision guide to AI ops tools (Zapier/Make, QuickBooks/Intuit Assist, Notion AI, general assistants). Fully built at /university/tools/best-for-small-business-operations. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
   },
   {
     "n": 81,
@@ -888,7 +888,7 @@
     "type": "Tool",
     "slack": "",
     "target": "Organizations scoping minimal viable AI tool stacks",
-    "desc": "University section tool \u2014 five-question framework for building a lean AI stack + a concrete 4-layer starter stack. Fully built at /university/tools/build-a-lean-ai-stack. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
+    "desc": "University section tool — five-question framework for building a lean AI stack + a concrete 4-layer starter stack. Fully built at /university/tools/build-a-lean-ai-stack. Status was incorrectly marked pending-build; URL was incorrectly listed as /tools/ path. Corrected 2026-07-21."
   },
   {
     "n": 82,
@@ -898,7 +898,7 @@
     "status": "Live",
     "type": "Interactive Explainer",
     "slack": "",
-    "target": "General audience learning AI from scratch \u2014 no prior background assumed",
+    "target": "General audience learning AI from scratch — no prior background assumed",
     "desc": "Single-page interactive AI explainer: sourced chronological timeline (17 entries), concept glossary, techniques deep-dives, 144-resource library, and frontier/AGI framing. Rigorous sourcing throughout. Flagship build. GitHub: rn-collins/zero-to-frontier."
   }
 ]
