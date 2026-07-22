@@ -654,10 +654,10 @@
     "url": "aloha-build-club.vercel.app",
     "brand": "Aloha AI",
     "status": "Live",
-    "type": "Platform",
+    "type": "Product",
     "slack": "",
-    "target": "Builders and operators in the Aloha AI network",
-    "desc": "Community hub for the Aloha Build Club — a cohort-based program for professionals building AI monitoring tools, intelligence products, and automation workflows."
+    "target": "Founders, creators, indie builders, and anyone building with AI who keeps stalling",
+    "desc": "A daily body-doubling room for people building with AI. Members show up, build alongside others in real time, and an AI co-pilot helps them get unstuck and ship. Evidence-based (peer-effect, accountability, and body-doubling research). Founding cohort: $29/mo or $290/yr. Sibling brand under Aloha AI."
   },
   {
     "n": 61,
