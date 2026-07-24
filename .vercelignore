@@ -1,0 +1,12 @@
+# Keep internal audits, transcripts, deploy scripts, and registries OUT of the public deploy.
+# The site only needs: index.html, other *.html pages, data/*.json, assets (svg/png/css), robots.txt, sitemap.xml.
+*.md
+*.csv
+*.sh
+*.py
+*.ipynb
+.DS_Store
+.gitignore
+docs/
+scripts/
+content/build-posts/
