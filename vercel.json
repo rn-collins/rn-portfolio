@@ -1,8 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://rn-selected-work.vercel.app/:path*",
+      "source": "/",
+      "destination": "https://rn-selected-work.vercel.app/",
+      "permanent": true
+    },
+    {
+      "source": "/:path+",
+      "destination": "https://rn-selected-work.vercel.app/:path+",
       "permanent": true
     }
   ],
