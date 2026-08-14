@@ -1,11 +1,3 @@
-import Link from 'next/link';
-
-export default function Home() {
-  return <>
-    <header className="topbar"><div className="shell nav"><strong>RN Builds</strong><span className="mono">Platform foundation · F0</span></div></header>
-    <main>
-      <section className="hero"><div className="shell"><div className="eyebrow">RN Collins · public engineering lab</div><h1>RN Builds</h1><h2>The portfolio is becoming the laboratory.</h2><p>This Next.js application is the migration target for the existing RN Builds portfolio. Production remains on the current static site until feature parity and preview QA pass.</p><p><Link href="/100-builds">Enter the 100 Builds exhibition →</Link></p></div></section>
-      <section className="section"><div className="shell"><h2 className="serif">Migration principle</h2><p>The existing portfolio remains authoritative during Foundation Sprint F0. This application establishes reusable infrastructure first; no production replacement occurs until parity, accessibility, mobile, and regression gates pass.</p></div></section>
-    </main>
-  </>;
-}
+import Link from 'next/link';import s from './museum.module.css';
+const rows=[['001','Human Review Design Framework','Can the human actually function as a control?','AI GOVERNANCE'],['002','Same Truth, Different Doors','How does one defensible idea move across audiences without losing truth?','COMMUNICATION'],['045','Cannabis Patient Journey','What does access look like when the market funnel is not the unit of analysis?','HEALTH + POLICY'],['047','Hawaiʻi Implementation','What changes when place becomes part of the technology specification?','PLACE'],['083','Work → Content','Can the work itself become the publishing system?','CREATOR SYSTEMS'],['100','Island Decision Room','What happens when the entire capability lineage converges?','SYSTEMS']];
+export default function Home(){return <main className={s.page}><header className={s.mast}><span>RN COLLINS</span><span>INDEX OF SYSTEMS / VOL. 01</span><span>2026—</span></header><section className={s.hero}><h1>Things<span>that should exist.</span></h1><div className={s.heroBottom}><p>A numbered collection of functional systems and visual arguments built across disciplines.</p><aside>THIS IS NOT A GALLERY OF FINISHED OBJECTS. IT IS A PUBLIC RECORD OF QUESTIONS BECOMING SYSTEMS, SYSTEMS BECOMING INFRASTRUCTURE, AND INFRASTRUCTURE COMPOUNDING OVER TIME.<br/><Link href="/100-builds">VIEW COMPLETE INDEX →</Link></aside></div></section><section className={s.index}>{rows.map(r=><Link href={r[0]==='001'?'/100-builds/001':'/100-builds'} className={s.row} key={r[0]}><span className={s.num}>{r[0]}</span><span className={s.title}>{r[1]}</span><span className={s.desc}>{r[2]}</span><span className={s.type}>{r[3]}</span></Link>)}</section><footer className={s.caption}><span>FUNCTIONAL BUILDS / VISUAL BUILDS / LINEAGE</span><span>QUESTIONS TOO MESSY FOR ONE FIELD</span></footer></main>}
