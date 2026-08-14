@@ -1,13 +1,17 @@
-export type ReviewAssessment={score:number;grade:'Strong'|'Partial'|'Weak';gaps:string[];protocol:string};
+export type ReviewDimension={key:string;label:string;score:0|1|2;note:string};
+export type ReviewAssessment={score:number;maxScore:number;grade:'Strong'|'Partial'|'Weak';gaps:string[];priorities:string[];dimensions:ReviewDimension[];protocol:string};
 
 export function ProtocolResult({assessment}:{assessment:ReviewAssessment}){
   return <section className="result result-rich" aria-live="polite" id="generated-protocol">
     <div className="result-head">
-      <div><div className="eyebrow">Generated review design</div><h2>Your oversight architecture</h2></div>
-      <div className={`score score-${assessment.grade.toLowerCase()}`}><strong>{assessment.score}/8</strong><span>{assessment.grade}</span></div>
+      <div><div className="eyebrow">60-second diagnosis</div><h2>Your oversight architecture</h2></div>
+      <div className={`score score-${assessment.grade.toLowerCase()}`}><strong>{assessment.score}/{assessment.maxScore}</strong><span>{assessment.grade}</span></div>
     </div>
-    {assessment.gaps.length>0&&<div className="gap-panel"><h3>Control gaps to resolve</h3><ul>{assessment.gaps.map(g=><li key={g}>{g}</li>)}</ul></div>}
+    <div className="dimension-grid">{assessment.dimensions.map(d=><div className="dimension" key={d.key}><div><strong>{d.label}</strong><span>{d.note}</span></div><div className={`dimension-meter meter-${d.score}`} aria-label={`${d.label}: ${d.score} of 2`}>{[0,1].map(i=><i key={i} className={i<d.score?'on':''}/>)}</div></div>)}</div>
+    {assessment.priorities.length>0&&<div className="priority-panel"><div className="eyebrow">Fix these first</div><ol>{assessment.priorities.slice(0,3).map(p=><li key={p}>{p}</li>)}</ol></div>}
+    {assessment.gaps.length>3&&<details className="gap-panel"><summary>See all {assessment.gaps.length} control gaps</summary><ul>{assessment.gaps.map(g=><li key={g}>{g}</li>)}</ul></details>}
+    <div className="protocol-head"><div><div className="eyebrow">Design the control</div><h3>Review protocol</h3></div><button className="copy-btn" type="button" onClick={()=>navigator.clipboard?.writeText(assessment.protocol)}>Copy protocol</button></div>
     <pre className="protocol-output">{assessment.protocol}</pre>
-    <p className="result-note">Design aid only. A high score means the review architecture is more explicit; it does not prove the control is legally sufficient, effective in practice, or appropriate for a particular regulated use.</p>
+    <p className="result-note">Design aid only. A strong architecture score means the control is more explicit and challengeable; it does not certify legal compliance or prove the control works in practice. Validate requirements for your jurisdiction, sector, and use case.</p>
   </section>
 }
