@@ -7,8 +7,9 @@
     "build": "turbo build",
     "typecheck": "turbo typecheck",
     "lint": "turbo lint",
+    "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e"
+    "ci": "pnpm validate:lineage && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e"
   },
   "devDependencies": {
     "@playwright/test": "latest",

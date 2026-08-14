@@ -4,6 +4,8 @@ on:
     paths:
       - 'apps/**'
       - 'packages/**'
+      - 'scripts/**'
+      - 'docs/infrastructure-manifest.json'
       - 'tests/**'
       - 'package.json'
       - 'pnpm-workspace.yaml'
@@ -26,6 +28,7 @@ jobs:
         with:
           node-version: 22
       - run: pnpm install --no-frozen-lockfile
+      - run: pnpm validate:lineage
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm build
