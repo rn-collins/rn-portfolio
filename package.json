@@ -1,0 +1,20 @@
+{
+  "name": "rn-builds-platform",
+  "private": true,
+  "packageManager": "pnpm@11.21.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "turbo dev --filter=@rn/web",
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "validate:lineage": "node scripts/validate-lineage.mjs",
+    "test:e2e": "playwright test",
+    "ci": "pnpm validate:lineage && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "turbo": "latest",
+    "typescript": "^6.0.0"
+  }
+}

@@ -1,0 +1,114 @@
+'use client';
+import { useEffect, useMemo, useRef, useState } from 'react';
+
+const scenes=[
+  {key:'promise',duration:3000},
+  {key:'drift',duration:3200},
+  {key:'too-late',duration:3800},
+  {key:'no-power',duration:3400},
+  {key:'architecture',duration:4200}
+] as const;
+const totalDuration=scenes.reduce((sum,s)=>sum+s.duration,0);
+
+export function HumanLoopReveal(){
+  const [elapsed,setElapsed]=useState(0);
+  const [playing,setPlaying]=useState(true);
+  const startedAt=useRef<number|null>(null);
+  const frozenAt=useRef(0);
+
+  const sceneInfo=useMemo(()=>{
+    let cursor=0;
+    for(let i=0;i<scenes.length;i++){
+      const end=cursor+scenes[i].duration;
+      if(elapsed<end || i===scenes.length-1){
+        return {index:i,key:scenes[i].key,local:(elapsed-cursor)/scenes[i].duration};
+      }
+      cursor=end;
+    }
+    return {index:scenes.length-1,key:scenes.at(-1)!.key,local:1};
+  },[elapsed]);
+
+  useEffect(()=>{
+    if(!playing)return;
+    let raf=0;
+    const tick=(now:number)=>{
+      if(startedAt.current===null)startedAt.current=now-frozenAt.current;
+      const next=now-startedAt.current;
+      if(next>=totalDuration){
+        setElapsed(totalDuration-1);
+        setPlaying(false);
+        frozenAt.current=totalDuration-1;
+        startedAt.current=null;
+        return;
+      }
+      setElapsed(next);
+      frozenAt.current=next;
+      raf=requestAnimationFrame(tick);
+    };
+    raf=requestAnimationFrame(tick);
+    return()=>cancelAnimationFrame(raf);
+  },[playing]);
+
+  const seek=(index:number)=>{
+    const next=scenes.slice(0,index).reduce((sum,s)=>sum+s.duration,0)+40;
+    setElapsed(next); frozenAt.current=next; startedAt.current=null;
+  };
+  const restart=()=>{setElapsed(0);frozenAt.current=0;startedAt.current=null;setPlaying(true)};
+  const toggle=()=>{startedAt.current=null;setPlaying(v=>!v)};
+  const pct=Math.max(0,Math.min(100,(elapsed/totalDuration)*100));
+
+  return <section className="motion-piece" aria-label="001-B Human in the Loop motion reveal">
+    <div className={`motion-frame scene-${sceneInfo.key}`}>
+      <div className="motion-grain" aria-hidden="true"/>
+      <div className="motion-topline"><span>RN BUILDS · 001-B / 100</span><span>{String(sceneInfo.index+1).padStart(2,'0')} / 05</span></div>
+
+      <div className="motion-scene promise-scene" aria-hidden={sceneInfo.key!=='promise'}>
+        <div className="motion-kicker">AI GOVERNANCE, 2026</div>
+        <div className="promise-words"><span className="human-word">HUMAN</span><span className="in-the-word">IN THE</span><span className="loop-word">LOOP</span></div>
+        <div className="loop-ring" aria-hidden="true"/>
+        <p>It sounds reassuring.</p>
+      </div>
+
+      <div className="motion-scene drift-scene" aria-hidden={sceneInfo.key!=='drift'}>
+        <div className="loop-system"><span>IN THE LOOP</span><div className="system-ring"/></div>
+        <div className="drifting-human">HUMAN</div>
+        <div className="annotation annotation-human">which human?</div>
+        <div className="annotation annotation-place">where are they?</div>
+        <p className="scene-caption">A person existing somewhere in the workflow is not the same thing as oversight.</p>
+      </div>
+
+      <div className="motion-scene late-scene" aria-hidden={sceneInfo.key!=='too-late'}>
+        <div className="late-title">WHEN DO<br/>THEY SEE IT?</div>
+        <div className="decision-track" aria-hidden="true"><span className="track-label start">MODEL</span><span className="decision-dot"/><span className="review-gate">HUMAN<br/>REVIEW</span><span className="track-label end">ACTION</span></div>
+        <div className="too-late-stamp">TOO LATE.</div>
+        <p className="scene-caption">If the consequential action happens before review, the human is decoration.</p>
+      </div>
+
+      <div className="motion-scene power-scene" aria-hidden={sceneInfo.key!=='no-power'}>
+        <div className="power-question">CAN THEY<br/>SAY <span>NO?</span></div>
+        <div className="no-button">NO</div>
+        <div className="ignored-line">OVERRIDE REQUEST</div>
+        <div className="ignored-action">DECISION CONTINUES →</div>
+        <p className="scene-caption">Presence ≠ power. Review only matters if the reviewer can change the outcome.</p>
+      </div>
+
+      <div className="motion-scene architecture-scene" aria-hidden={sceneInfo.key!=='architecture'}>
+        <div className="architecture-kicker">SO I BUILT THE CONTROL.</div>
+        <div className="architecture-map" aria-label="Review architecture diagram">
+          <span className="node n1">TRIGGER</span><span className="arrow a1">→</span><span className="node n2">EVIDENCE</span><span className="arrow a2">→</span><span className="node hero-node">HUMAN REVIEW</span><span className="arrow a3">→</span><span className="node n3">DECISION</span>
+          <span className="down d1">↓</span><span className="node n4">OVERRIDE</span><span className="down d2">↓</span><span className="node n5">ESCALATE</span><span className="down d3">↓</span><span className="node n6">RECORD</span>
+        </div>
+        <div className="build-reveal"><strong>001-A</strong><span>Human Review Design Framework</span></div>
+      </div>
+
+      <div className="motion-progress" aria-hidden="true"><span style={{width:`${pct}%`}}/></div>
+    </div>
+
+    <div className="motion-controls">
+      <button onClick={toggle}>{playing?'Pause':'Play'}</button>
+      <button onClick={restart}>Replay</button>
+      <div className="motion-dots" aria-label="Jump to scene">{scenes.map((s,i)=><button key={s.key} onClick={()=>seek(i)} aria-label={`Scene ${i+1}`} aria-current={sceneInfo.index===i?'step':undefined}/>)}</div>
+      <span>17.6 sec · designed to work without sound</span>
+    </div>
+  </section>
+}

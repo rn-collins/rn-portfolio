@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "artifacts": [
+    {"name":"Form Engine v1","createdBy":"001","path":"packages/forms/src/index.tsx"},
+    {"name":"Conditional Logic v1","createdBy":"001","path":"packages/forms/src/index.tsx"},
+    {"name":"Results Renderer v1","createdBy":"001","path":"packages/results/src/index.tsx"},
+    {"name":"Visual Reveal Primitive v1","createdBy":"lab/001-B","path":"packages/visuals/src/index.tsx"}
+  ],
+  "uses": []
+}
