@@ -1,11 +1,2 @@
-import Link from 'next/link';
-
-export default function Home() {
-  return <>
-    <header className="topbar"><div className="shell nav"><strong>RN Builds</strong><span className="mono">Platform foundation · F0</span></div></header>
-    <main>
-      <section className="hero"><div className="shell"><div className="eyebrow">RN Collins · public engineering lab</div><h1>RN Builds</h1><h2>The portfolio is becoming the laboratory.</h2><p>This Next.js application is the migration target for the existing RN Builds portfolio. Production remains on the current static site until feature parity and preview QA pass.</p><p><Link href="/100-builds">Enter the 100 Builds exhibition →</Link></p></div></section>
-      <section className="section"><div className="shell"><h2 className="serif">Migration principle</h2><p>The existing portfolio remains authoritative during Foundation Sprint F0. This application establishes reusable infrastructure first; no production replacement occurs until parity, accessibility, mobile, and regression gates pass.</p></div></section>
-    </main>
-  </>;
-}
+import Link from 'next/link';import s from './collage.module.css';
+export default function Home(){return <main className={s.page}><section className={s.hero}><nav className={s.nav}><span>RN COLLINS</span><span>WORKING ACROSS THE EDGES</span></nav><div className={s.headline}>Too messy<em>for one field.</em></div><p className={s.note}>So I stopped trying to make the questions fit the disciplines. I build the missing systems instead.</p><div className={s.scribble}/><div className={s.circle}/><div className={s.ticket}>100 functional builds<br/>100 visual builds<br/>one compounding practice</div><div className={s.paper}>FIELD NOTE 001<br/><br/>“human in the loop” is not a control if the human cannot see enough, act in time, or say no.<br/><br/>→ BUILD 001</div><div className={s.label}>LAW × BRAIN × TECH × PLACE</div><Link href="/100-builds" className={s.cta}>see what I’m building →</Link></section><div className={s.strip}><span>AI</span><span>GOVERNANCE</span><span>NEUROSCIENCE</span><span>INSTITUTIONS OF ONE</span><span>CANNABIS</span><span>PLACE</span><span>RESEARCH</span><span>LAW</span></div><section className={s.why}><h2>Builds are arguments.</h2><p>Each project starts with something I cannot stop noticing. The A-side makes a working system. The B-side makes the idea visible. The next build inherits what the last one learned.</p></section></main>}
