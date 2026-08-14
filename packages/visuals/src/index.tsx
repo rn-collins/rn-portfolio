@@ -1,47 +1,114 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
-const beats=[
-  {k:'slogan',eyebrow:'THE PHRASE',title:<><span>HUMAN</span><span className="visual-accent">IN THE</span><span>LOOP</span></>,copy:'It sounds reassuring.'},
-  {k:'crack',eyebrow:'BUT WHERE, EXACTLY?',title:<>A HUMAN<br/>EXISTS<br/><i>somewhere.</i></>,copy:'That is not the same thing as oversight.'},
-  {k:'questions',eyebrow:'MAKE THE CONTROL VISIBLE',title:<>WHO<br/>CAN SAY<br/><i>NO?</i></>,copy:'Who reviews? What do they inspect? When do they intervene? What standard do they use? Can they override the system? What happens when review fails?'},
-  {k:'principle',eyebrow:'THE DESIGN TEST',title:<>PRESENCE<br/>≠<br/><span className="visual-accent">POWER</span></>,copy:'A reviewer needs competence, evidence, time, authority, an escalation path, and a record of what happened.'},
-  {k:'reveal',eyebrow:'RN BUILDS · 001 / 100',title:<>SO I<br/>BUILT<br/><span className="visual-accent">ONE.</span></>,copy:'Human Review Design Framework — turn “human in the loop” into an explicit, inspectable review architecture.'}
-];
-
-const DURATIONS=[2200,2200,3200,2600,3600];
+const scenes=[
+  {key:'promise',duration:3000},
+  {key:'drift',duration:3200},
+  {key:'too-late',duration:3800},
+  {key:'no-power',duration:3400},
+  {key:'architecture',duration:4200}
+] as const;
+const totalDuration=scenes.reduce((sum,s)=>sum+s.duration,0);
 
 export function HumanLoopReveal(){
-  const [step,setStep]=useState(0);
+  const [elapsed,setElapsed]=useState(0);
   const [playing,setPlaying]=useState(true);
-  const beat=beats[step];
+  const startedAt=useRef<number|null>(null);
+  const frozenAt=useRef(0);
+
+  const sceneInfo=useMemo(()=>{
+    let cursor=0;
+    for(let i=0;i<scenes.length;i++){
+      const end=cursor+scenes[i].duration;
+      if(elapsed<end || i===scenes.length-1){
+        return {index:i,key:scenes[i].key,local:(elapsed-cursor)/scenes[i].duration};
+      }
+      cursor=end;
+    }
+    return {index:scenes.length-1,key:scenes.at(-1)!.key,local:1};
+  },[elapsed]);
 
   useEffect(()=>{
     if(!playing)return;
-    const timer=window.setTimeout(()=>setStep(current=>(current+1)%beats.length),DURATIONS[step]);
-    return()=>window.clearTimeout(timer);
-  },[step,playing]);
+    let raf=0;
+    const tick=(now:number)=>{
+      if(startedAt.current===null)startedAt.current=now-frozenAt.current;
+      const next=now-startedAt.current;
+      if(next>=totalDuration){
+        setElapsed(totalDuration-1);
+        setPlaying(false);
+        frozenAt.current=totalDuration-1;
+        startedAt.current=null;
+        return;
+      }
+      setElapsed(next);
+      frozenAt.current=next;
+      raf=requestAnimationFrame(tick);
+    };
+    raf=requestAnimationFrame(tick);
+    return()=>cancelAnimationFrame(raf);
+  },[playing]);
 
-  const advance=()=>setStep((step+1)%beats.length);
-  const restart=()=>{setStep(0);setPlaying(true)};
+  const seek=(index:number)=>{
+    const next=scenes.slice(0,index).reduce((sum,s)=>sum+s.duration,0)+40;
+    setElapsed(next); frozenAt.current=next; startedAt.current=null;
+  };
+  const restart=()=>{setElapsed(0);frozenAt.current=0;startedAt.current=null;setPlaying(true)};
+  const toggle=()=>{startedAt.current=null;setPlaying(v=>!v)};
+  const pct=Math.max(0,Math.min(100,(elapsed/totalDuration)*100));
 
-  return <div className="visual-shell">
-    <div className={`visual-frame visual-${beat.k}`} role="img" tabIndex={0} aria-label={`Human in the Loop motion reveal, scene ${step+1} of ${beats.length}.`} onKeyDown={e=>{if(e.key===' '){e.preventDefault();setPlaying(p=>!p)}if(e.key==='ArrowRight'){e.preventDefault();setPlaying(false);advance()}if(e.key==='ArrowLeft'){e.preventDefault();setPlaying(false);setStep((step-1+beats.length)%beats.length)}}}>
-      <div className="visual-noise" aria-hidden="true"/>
-      <div className="visual-progress" aria-hidden="true"><span key={`${step}-${playing}`} className={playing?'is-playing':''} style={{'--duration':`${DURATIONS[step]}ms`} as React.CSSProperties}/></div>
-      <div className="visual-index">{String(step+1).padStart(2,'0')} / {String(beats.length).padStart(2,'0')}</div>
-      <div key={step} className="visual-content visual-enter">
-        <div className="visual-eyebrow">{beat.eyebrow}</div>
-        <div className="visual-title">{beat.title}</div>
-        <p className="visual-copy">{beat.copy}</p>
+  return <section className="motion-piece" aria-label="001-B Human in the Loop motion reveal">
+    <div className={`motion-frame scene-${sceneInfo.key}`}>
+      <div className="motion-grain" aria-hidden="true"/>
+      <div className="motion-topline"><span>RN BUILDS · 001-B / 100</span><span>{String(sceneInfo.index+1).padStart(2,'0')} / 05</span></div>
+
+      <div className="motion-scene promise-scene" aria-hidden={sceneInfo.key!=='promise'}>
+        <div className="motion-kicker">AI GOVERNANCE, 2026</div>
+        <div className="promise-words"><span className="human-word">HUMAN</span><span className="in-the-word">IN THE</span><span className="loop-word">LOOP</span></div>
+        <div className="loop-ring" aria-hidden="true"/>
+        <p>It sounds reassuring.</p>
       </div>
-      {beat.k==='questions'&&<div key={`orbit-${step}`} className="question-orbit question-orbit-enter" aria-hidden="true">{['WHO?','WHAT?','WHEN?','STANDARD?','AUTHORITY?','FAILURE?'].map((q,i)=><span key={q} style={{'--i':i} as React.CSSProperties}>{q}</span>)}</div>}
-      <div className="visual-footer"><span>RN COLLINS · BUILD 001-B</span><span>{playing?'MOTION PLAYING':'MOTION PAUSED'}</span></div>
+
+      <div className="motion-scene drift-scene" aria-hidden={sceneInfo.key!=='drift'}>
+        <div className="loop-system"><span>IN THE LOOP</span><div className="system-ring"/></div>
+        <div className="drifting-human">HUMAN</div>
+        <div className="annotation annotation-human">which human?</div>
+        <div className="annotation annotation-place">where are they?</div>
+        <p className="scene-caption">A person existing somewhere in the workflow is not the same thing as oversight.</p>
+      </div>
+
+      <div className="motion-scene late-scene" aria-hidden={sceneInfo.key!=='too-late'}>
+        <div className="late-title">WHEN DO<br/>THEY SEE IT?</div>
+        <div className="decision-track" aria-hidden="true"><span className="track-label start">MODEL</span><span className="decision-dot"/><span className="review-gate">HUMAN<br/>REVIEW</span><span className="track-label end">ACTION</span></div>
+        <div className="too-late-stamp">TOO LATE.</div>
+        <p className="scene-caption">If the consequential action happens before review, the human is decoration.</p>
+      </div>
+
+      <div className="motion-scene power-scene" aria-hidden={sceneInfo.key!=='no-power'}>
+        <div className="power-question">CAN THEY<br/>SAY <span>NO?</span></div>
+        <div className="no-button">NO</div>
+        <div className="ignored-line">OVERRIDE REQUEST</div>
+        <div className="ignored-action">DECISION CONTINUES →</div>
+        <p className="scene-caption">Presence ≠ power. Review only matters if the reviewer can change the outcome.</p>
+      </div>
+
+      <div className="motion-scene architecture-scene" aria-hidden={sceneInfo.key!=='architecture'}>
+        <div className="architecture-kicker">SO I BUILT THE CONTROL.</div>
+        <div className="architecture-map" aria-label="Review architecture diagram">
+          <span className="node n1">TRIGGER</span><span className="arrow a1">→</span><span className="node n2">EVIDENCE</span><span className="arrow a2">→</span><span className="node hero-node">HUMAN REVIEW</span><span className="arrow a3">→</span><span className="node n3">DECISION</span>
+          <span className="down d1">↓</span><span className="node n4">OVERRIDE</span><span className="down d2">↓</span><span className="node n5">ESCALATE</span><span className="down d3">↓</span><span className="node n6">RECORD</span>
+        </div>
+        <div className="build-reveal"><strong>001-A</strong><span>Human Review Design Framework</span></div>
+      </div>
+
+      <div className="motion-progress" aria-hidden="true"><span style={{width:`${pct}%`}}/></div>
     </div>
-    <div className="visual-controls" aria-label="Motion reveal controls">
-      <button className="visual-play" onClick={()=>setPlaying(p=>!p)}>{playing?'Pause':'Play'}</button>
-      {beats.map((b,i)=><button key={b.k} onClick={()=>{setPlaying(false);setStep(i)}} aria-label={`Show scene ${i+1}`} aria-current={i===step?'step':undefined}>{i+1}</button>)}
-      <button className="visual-replay" onClick={restart}>Replay</button>
+
+    <div className="motion-controls">
+      <button onClick={toggle}>{playing?'Pause':'Play'}</button>
+      <button onClick={restart}>Replay</button>
+      <div className="motion-dots" aria-label="Jump to scene">{scenes.map((s,i)=><button key={s.key} onClick={()=>seek(i)} aria-label={`Scene ${i+1}`} aria-current={sceneInfo.index===i?'step':undefined}/>)}</div>
+      <span>17.6 sec · designed to work without sound</span>
     </div>
-  </div>
+  </section>
 }
