@@ -1,0 +1,1 @@
+{"name":"@rn/registry","version":"0.0.1","private":true,"type":"module","exports":{".":"./src/index.ts"},"scripts":{"build":"tsc --noEmit","typecheck":"tsc --noEmit","lint":"echo registry-lint"},"devDependencies":{"typescript":"^6.0.0"}}
