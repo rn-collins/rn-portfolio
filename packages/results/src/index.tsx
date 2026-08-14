@@ -1,0 +1,1 @@
+export function ProtocolResult({text}:{text:string}){return <section className="result" aria-live="polite"><div className="eyebrow">Generated review design</div><h2>Your human-review checkpoint</h2>{text}</section>}

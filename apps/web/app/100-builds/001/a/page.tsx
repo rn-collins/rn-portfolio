@@ -1,0 +1,2 @@
+import { HumanReviewForm } from '@rn/forms';
+export default function Build001A(){return <main className="build-wrap"><div className="eyebrow">BUILD 001-A / 100 · FUNCTIONAL ARTIFACT · PLATFORM MIGRATION</div><h1>Human Review Design Framework</h1><p className="lede">“Human in the loop” is not a control until the review is designed. Specify the reviewer, trigger, evidence, standard, authority, and failure path.</p><HumanReviewForm /></main>}
