@@ -4,16 +4,21 @@ export default function Build001A(){
   return <main className="build-wrap build-001-a">
     <div className="eyebrow">BUILD 001-A / 100 · FUNCTIONAL BUILD</div>
     <h1>Human Review Design Framework</h1>
-    <p className="lede">“Human in the loop” sounds like a safeguard. It is only meaningful when the human has a defined role, enough information and competence to judge the output, the authority to disagree, a timely intervention point, and a documented path when something goes wrong.</p>
+    <p className="lede">Find out whether the “human in the loop” in an AI-assisted workflow is actually positioned to function as a control — or is mostly there to make the system sound safer.</p>
+    <div className="research-strip" aria-label="Use case">
+      <span>Use this when</span>
+      <p>You are designing, buying, reviewing, governing, or inheriting an AI-assisted workflow and someone says a human reviews the output. Start with the 60-second Quick Check; move into Design the Control only when you need an implementation-ready protocol.</p>
+    </div>
     <div className="research-strip" aria-label="Research basis">
       <span>Research basis</span>
-      <p>Built from recurring oversight requirements in NIST AI RMF guidance, Article 14 of the EU AI Act, and UK ICO guidance on meaningful human intervention: defined roles, competence, interpretability, automation-bias awareness, intervention authority, escalation, and review records.</p>
+      <p>Built from recurring oversight requirements in NIST AI RMF guidance, Article 14 of the EU AI Act, and UK ICO guidance on meaningful human intervention: defined roles, competence, system understanding, interpretability, automation-bias awareness, intervention authority, practical capacity, escalation, review records, and evaluation of whether oversight works.</p>
     </div>
     <HumanReviewForm />
     <section className="method-note">
       <div className="eyebrow">What this build does — and does not do</div>
-      <h2>It makes vague oversight architecture inspectable.</h2>
-      <p>The tool deliberately does not certify legal compliance or tell you that a control is effective merely because it exists on paper. Its job is narrower: expose whether the core design choices have actually been specified, and make missing pieces visible before “human oversight” becomes a box someone checks.</p>
+      <h2>It turns a reassuring phrase into an architecture you can inspect.</h2>
+      <p>The diagnostic is intentionally narrow. It does not certify legal compliance and it does not prove a human-review control is effective merely because it exists on paper. It exposes whether the core design choices are actually specified, highlights the gaps that matter first, and gives a team a concrete protocol to challenge, test, and improve.</p>
+      <p><strong>If the result exposes a consequential gap:</strong> that is the point. The next question is not “how do we improve the score?” but “how should this workflow actually be redesigned so the human can meaningfully affect the outcome?”</p>
     </section>
   </main>
 }
