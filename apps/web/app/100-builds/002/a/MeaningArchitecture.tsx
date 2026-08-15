@@ -5,17 +5,9 @@ import s from './meaning.module.css';
 type Audience='general public'|'teenager'|'customer'|'regulator'|'investor'|'patient'|'lawyer';
 type Tone='plain'|'formal'|'warm'|'concise';
 const AUDIENCES:Audience[]=['general public','teenager','customer','regulator','investor','patient','lawyer'];
-
-const profiles:Record<Audience,{lead:string;focus:string;avoid:string}>= {
-'general public':{lead:'In plain language:',focus:'what it means and why it matters',avoid:'specialist shorthand'},
-'teenager':{lead:'The simplest way to say it:',focus:'one concrete idea at a time',avoid:'adult-professional jargon'},
-'customer':{lead:'What this means for you:',focus:'practical value, limits, and next step',avoid:'internal process language'},
-'regulator':{lead:'Core proposition:',focus:'scope, evidence, uncertainty, controls, and accountability',avoid:'marketing claims'},
-'investor':{lead:'The underlying claim:',focus:'value mechanism, evidence, uncertainty, and what would falsify it',avoid:'unsupported certainty'},
-'patient':{lead:'What you should know:',focus:'meaning, uncertainty, choices, and what this does not establish',avoid:'technical language that hides uncertainty'},
-'lawyer':{lead:'Proposition:',focus:'scope, defined terms, conditions, uncertainty, and support',avoid:'rhetorical overstatement'}
-};
-
+const LANGS=[['en','English'],['es','Spanish'],['fr','French'],['de','German'],['ja','Japanese']] as const;
+const profiles:Record<Audience,{lead:string;focus:string;avoid:string}>={
+'general public':{lead:'In plain language:',focus:'what it means and why it matters',avoid:'specialist shorthand'},'teenager':{lead:'The simplest way to say it:',focus:'one concrete idea at a time',avoid:'adult-professional jargon'},'customer':{lead:'What this means for you:',focus:'practical value, limits, and next step',avoid:'internal process language'},'regulator':{lead:'Core proposition:',focus:'scope, evidence, uncertainty, controls, and accountability',avoid:'marketing claims'},'investor':{lead:'The underlying claim:',focus:'value mechanism, evidence, uncertainty, and what would falsify it',avoid:'unsupported certainty'},'patient':{lead:'What you should know:',focus:'meaning, uncertainty, choices, and what this does not establish',avoid:'technical language that hides uncertainty'},'lawyer':{lead:'Proposition:',focus:'scope, defined terms, conditions, uncertainty, and support',avoid:'rhetorical overstatement'}};
 const filler=/\b(very|really|basically|actually|just|simply|clearly|obviously)\b/gi;
 function sentences(v:string){return v.trim().split(/(?<=[.!?])\s+/).filter(Boolean)}
 function nums(v:string){return v.match(/\b\d+(?:\.\d+)?%?\b/g)||[]}
@@ -23,45 +15,16 @@ function negs(v:string){return v.match(/\b(no|not|never|without|cannot|can't|doe
 function uncertainty(v:string){return v.match(/\b(may|might|could|suggests?|uncertain|approximately|about|likely|unlikely|associated|correlat\w*)\b/gi)||[]}
 function proper(v:string){return v.match(/\b[A-Z][A-Za-z0-9&.-]{2,}(?:\s+[A-Z][A-Za-z0-9&.-]{2,})*\b/g)||[]}
 function uniq(xs:string[]){return [...new Set(xs.map(x=>x.trim()).filter(Boolean))]}
-function simplify(v:string,a:Audience,t:Tone){
- let body=v.replace(filler,'').replace(/\s{2,}/g,' ').trim();
- if(t==='concise') body=sentences(body).slice(0,2).join(' ');
- if(a==='teenager'||a==='general public'||a==='patient') body=body.replace(/\butilize\b/gi,'use').replace(/\bapproximately\b/gi,'about').replace(/\bsubsequent\b/gi,'later').replace(/\bprior to\b/gi,'before').replace(/\btherefore\b/gi,'so');
- const p=profiles[a];
- return `${p.lead} ${body}`;
-}
-function score(source:string,target:string,locks:string[]){
- const checks:{label:string;ok:boolean;detail:string}[]=[];
- const t=target.toLowerCase();
- const n=uniq(nums(source)); checks.push({label:'Numbers preserved',ok:n.every(x=>target.includes(x)),detail:n.length?n.join(', '):'No numeric anchors'});
- const ng=uniq(negs(source)); checks.push({label:'Negation preserved',ok:ng.length===0||ng.some(x=>t.includes(x.toLowerCase())),detail:ng.length?ng.join(', '):'No negation anchors'});
- const u=uniq(uncertainty(source)); checks.push({label:'Uncertainty preserved',ok:u.length===0||u.some(x=>t.includes(x.toLowerCase())),detail:u.length?u.join(', '):'No uncertainty anchors'});
- const names=uniq(proper(source)).filter(x=>!['In','The','This','What'].includes(x)); checks.push({label:'Named anchors preserved',ok:names.every(x=>t.includes(x.toLowerCase())),detail:names.length?names.join(', '):'No named anchors'});
- checks.push({label:'Locked facts preserved',ok:locks.every(x=>t.includes(x.toLowerCase())),detail:locks.length?locks.join(' · '):'No locked facts'});
- const pct=Math.round(checks.filter(c=>c.ok).length/checks.length*100);
- return {checks,pct};
-}
+function simplify(v:string,a:Audience,t:Tone){let body=v.replace(filler,'').replace(/\s{2,}/g,' ').trim();if(t==='concise')body=sentences(body).slice(0,2).join(' ');if(a==='teenager'||a==='general public'||a==='patient')body=body.replace(/\butilize\b/gi,'use').replace(/\bapproximately\b/gi,'about').replace(/\bsubsequent\b/gi,'later').replace(/\bprior to\b/gi,'before').replace(/\btherefore\b/gi,'so');return `${profiles[a].lead} ${body}`}
+function score(source:string,target:string,locks:string[]){const checks:{label:string;ok:boolean;detail:string}[]=[];const t=target.toLowerCase();const n=uniq(nums(source));checks.push({label:'Numbers preserved',ok:n.every(x=>target.includes(x)),detail:n.length?n.join(', '):'No numeric anchors'});const ng=uniq(negs(source));checks.push({label:'Negation preserved',ok:ng.length===0||ng.some(x=>t.includes(x.toLowerCase())),detail:ng.length?ng.join(', '):'No negation anchors'});const u=uniq(uncertainty(source));checks.push({label:'Uncertainty preserved',ok:u.length===0||u.some(x=>t.includes(x.toLowerCase())),detail:u.length?u.join(', '):'No uncertainty anchors'});const names=uniq(proper(source)).filter(x=>!['In','The','This','What'].includes(x));checks.push({label:'Named anchors preserved',ok:names.every(x=>t.includes(x.toLowerCase())),detail:names.length?names.join(', '):'No named anchors'});checks.push({label:'Locked facts preserved',ok:locks.every(x=>t.includes(x.toLowerCase())),detail:locks.length?locks.join(' · '):'No locked facts'});return {checks,pct:Math.round(checks.filter(c=>c.ok).length/checks.length*100)}}
 
 export default function MeaningArchitecture(){
- const [source,setSource]=useState('A human reviewer may reduce risk only if they can see enough evidence, intervene before the outcome, and actually change or stop the decision.');
- const [audience,setAudience]=useState<Audience>('general public');
- const [tone,setTone]=useState<Tone>('plain');
- const [lockText,setLockText]=useState('');
- const locks=useMemo(()=>uniq(lockText.split('\n')),[lockText]);
- const output=useMemo(()=>simplify(source,audience,tone),[source,audience,tone]);
- const audit=useMemo(()=>score(source,output,locks),[source,output,locks]);
- const sourceWords=source.split(/\s+/); const outWords=output.split(/\s+/); const sourceSet=new Set(sourceWords.map(w=>w.toLowerCase().replace(/[^a-z0-9%.-]/g,'')));
+ const [source,setSource]=useState('A human reviewer may reduce risk only if they can see enough evidence, intervene before the outcome, and actually change or stop the decision.');const [audience,setAudience]=useState<Audience>('general public');const [tone,setTone]=useState<Tone>('plain');const [lockText,setLockText]=useState('');const [targetLang,setTargetLang]=useState('es');const [translated,setTranslated]=useState('');const [translationState,setTranslationState]=useState('not run');
+ const locks=useMemo(()=>uniq(lockText.split('\n')),[lockText]);const output=useMemo(()=>simplify(source,audience,tone),[source,audience,tone]);const audit=useMemo(()=>score(source,output,locks),[source,output,locks]);const sourceSet=new Set(source.split(/\s+/).map(w=>w.toLowerCase().replace(/[^a-z0-9%.-]/g,'')));const outWords=output.split(/\s+/);
+ async function translateLocal(){setTranslationState('checking browser…');setTranslated('');try{const T=(globalThis as any).Translator;if(!T){setTranslationState('Local Translator API is not available in this browser. The English meaning architecture still works.');return}const availability=await T.availability({sourceLanguage:'en',targetLanguage:targetLang});if(availability==='unavailable'){setTranslationState('This language pair is unavailable on this device.');return}setTranslationState(availability==='downloadable'?'downloading local language model…':'translating locally…');const translator=await T.create({sourceLanguage:'en',targetLanguage:targetLang});const result=await translator.translate(output);setTranslated(result);setTranslationState('translated on this device');translator.destroy?.()}catch(e){setTranslationState(`Translation could not run: ${e instanceof Error?e.message:'unknown error'}`)}}
  return <div className={s.app}>
-  <section className={s.controls}>
-   <div className={s.step}><span>01 / SOURCE TRUTH</span><h2>What must stay true?</h2><textarea value={source} onChange={e=>setSource(e.target.value)} rows={6}/><label>Optional locked facts — one per line<textarea value={lockText} onChange={e=>setLockText(e.target.value)} rows={3} placeholder="Exact phrase or fact that must survive"/></label></div>
-   <div className={s.step}><span>02 / DOOR</span><h2>Who needs to understand it?</h2><div className={s.chips}>{AUDIENCES.map(a=><button key={a} aria-pressed={a===audience} onClick={()=>setAudience(a)}>{a}</button>)}</div><label>Style<select value={tone} onChange={e=>setTone(e.target.value as Tone)}><option>plain</option><option>formal</option><option>warm</option><option>concise</option></select></label><div className={s.profile}><b>{audience}</b><p>Prioritize {profiles[audience].focus}. Avoid {profiles[audience].avoid}.</p></div></div>
-  </section>
-  <section className={s.result} aria-live="polite">
-   <div className={s.resultHead}><div><span>03 / TRANSLATION</span><h2>Different language. Same factual core.</h2></div><div className={s.meter}><strong>{audit.pct}</strong><small>anchor preservation</small></div></div>
-   <div className={s.translation}>{outWords.map((w,i)=>{const key=w.toLowerCase().replace(/[^a-z0-9%.-]/g,'');return <mark key={`${w}-${i}`} data-new={!sourceSet.has(key)}>{w} </mark>})}</div>
-   <div className={s.audit}>{audit.checks.map(c=><div key={c.label} data-ok={c.ok}><b>{c.ok?'✓':'!'} {c.label}</b><small>{c.detail}</small></div>)}</div>
-  </section>
-  <section className={s.compare}><div><span>SOURCE</span><p>{source}</p></div><div><span>{audience.toUpperCase()}</span><p>{output}</p></div></section>
-  <p className={s.note}><strong>What this prototype does:</strong> adapts register locally in your browser, then independently checks preservation anchors. It does not claim semantic equivalence merely because the score is high. Human review remains required for consequential communication, translation, legal, scientific, clinical, or cultural contexts.</p>
- </div>
-}
+ <section className={s.controls}><div className={s.step}><span>01 / SOURCE TRUTH</span><h2>What must stay true?</h2><textarea value={source} onChange={e=>setSource(e.target.value)} rows={6}/><label>Optional locked facts — one per line<textarea value={lockText} onChange={e=>setLockText(e.target.value)} rows={3} placeholder="Exact phrase or fact that must survive"/></label></div><div className={s.step}><span>02 / DOOR</span><h2>Who needs to understand it?</h2><div className={s.chips}>{AUDIENCES.map(a=><button key={a} aria-pressed={a===audience} onClick={()=>setAudience(a)}>{a}</button>)}</div><label>Style<select value={tone} onChange={e=>setTone(e.target.value as Tone)}><option>plain</option><option>formal</option><option>warm</option><option>concise</option></select></label><div className={s.profile}><b>{audience}</b><p>Prioritize {profiles[audience].focus}. Avoid {profiles[audience].avoid}.</p></div></div></section>
+ <section className={s.result} aria-live="polite"><div className={s.resultHead}><div><span>03 / ADAPTATION</span><h2>Different language. Same factual core.</h2></div><div className={s.meter}><strong>{audit.pct}</strong><small>anchor preservation</small></div></div><div className={s.translation}>{outWords.map((w,i)=>{const key=w.toLowerCase().replace(/[^a-z0-9%.-]/g,'');return <mark key={`${w}-${i}`} data-new={!sourceSet.has(key)}>{w} </mark>})}</div><div className={s.audit}>{audit.checks.map(c=><div key={c.label} data-ok={c.ok}><b>{c.ok?'✓':'!'} {c.label}</b><small>{c.detail}</small></div>)}</div></section>
+ <section className={s.result}><div className={s.resultHead}><div><span>04 / LANGUAGE</span><h2>Translate on the device when the browser can.</h2></div></div><div className={s.langRow}><select value={targetLang} onChange={e=>setTargetLang(e.target.value)}>{LANGS.filter(([v])=>v!=='en').map(([v,n])=><option key={v} value={v}>{n}</option>)}</select><button onClick={translateLocal}>TRANSLATE LOCALLY</button><small>{translationState}</small></div>{translated&&<div className={s.translation} lang={targetLang}>{translated}</div>}<p className={s.micro}>Translation is a second transformation layer, not proof of cultural equivalence. Review consequential multilingual communication with a competent human speaker and the relevant domain expertise.</p></section>
+ <section className={s.compare}><div><span>SOURCE</span><p>{source}</p></div><div><span>{audience.toUpperCase()}</span><p>{output}</p></div></section><p className={s.note}><strong>What this prototype does:</strong> adapts register locally in your browser, independently checks preservation anchors, and—on supported desktop browsers—can translate through the browser’s own local translation model. It does not claim semantic or cultural equivalence merely because automated checks pass.</p>
+ </div>}
