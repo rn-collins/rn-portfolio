@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const metadataBase=new URL(process.env.VERCEL_PROJECT_PRODUCTION_URL?`https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`:'https://rn-portfolio.vercel.app');
 export const metadata: Metadata = {
+  metadataBase,
   title: { default: 'RN Builds', template: '%s — RN Builds' },
-  description: '100 functional builds. 100 visual builds. One compounding public engineering experiment by RN Collins.'
+  description: '100 functional builds. 100 interactive visual builds. One compounding public engineering experiment by RN Collins.',
+  openGraph:{title:'RN Builds',description:'100 functional builds. 100 interactive visual builds. One compounding public engineering experiment by RN Collins.',type:'website',images:[{url:'/og-image.png',width:1200,height:630,alt:'RN Builds public exhibition'}]},
+  twitter:{card:'summary_large_image',title:'RN Builds',description:'100 functional builds. 100 interactive visual builds. One compounding public engineering experiment by RN Collins.',images:['/og-image.png']}
 };
-
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}</body></html>;
-}
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {return <html lang="en"><body>{children}</body></html>}
