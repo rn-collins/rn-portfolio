@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 
-for(const id of ['001','002','003']){
+for(const id of ['001','002','003','004']){
  test.describe(`Build ${id} automated accessibility baseline`,()=>{
   for(const side of ['a','b']){
    test(`${side.toUpperCase()} has no horizontal overflow at narrow viewport and interactive elements are named`,async({page})=>{
