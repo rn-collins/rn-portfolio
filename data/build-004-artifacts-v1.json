@@ -4,7 +4,7 @@
   "build":"004",
   "a":{"route":"/100-builds/004/a","engine":"004.1.0","record":"data/build-004-engine-v1.json"},
   "bWeb":{"route":"/100-builds/004/b","title":"Before the Automation"},
-  "bLinkedIn":{"status":"BLOCKING","requiredFormat":"silent-first 4:5 MP4 unless a documented LinkedIn-native alternative is materially superior","reason":"No 004 LinkedIn binary artifact has yet been generated, committed, hashed and manually checked at phone size."},
+  "bLinkedIn":{"status":"DEVICE_MANUAL","filename":"build-004-linkedin.mp4","generated":true,"repositoryCommitted":false,"sha256":"4bf7c7c0a99b600787c3f7a20bbff500cbb912feed09b5cf221f7d136469a273","bytes":142520,"width":720,"height":900,"fps":24,"durationSeconds":21.125,"silentFirst":true,"productionRecord":"docs/builds/004-linkedin-production.md","remaining":["physical phone-size playback QA","binary transfer to repository/media delivery path"]},
   "publicRecord":"/100-builds/004/record",
   "release":"docs/builds/004-release-record.md",
   "privacySupport":"data/build-004-privacy-support-v1.json",
