@@ -1,0 +1,10 @@
+{
+  "schemaVersion":"1.0",
+  "standard":"docs/build-release-standard-v1.md",
+  "allowed":["PASS","BLOCKING","DEVICE_MANUAL","DEFERRED_WITH_RATIONALE","NOT_APPLICABLE"],
+  "builds":{
+    "001":{"publicValue":"PASS","technologicalCeiling":"BLOCKING","evidenceProvenance":"BLOCKING","verificationEvaluation":"BLOCKING","accessibility":"DEVICE_MANUAL","interactionVisualQA":"DEVICE_MANUAL","browserFallback":"BLOCKING","privacySecurity":"BLOCKING","performanceResilience":"BLOCKING","stateExportShare":"BLOCKING","publicRecord":"BLOCKING","lineage":"BLOCKING","metadata":"BLOCKING","releaseEngineering":"BLOCKING","bLinkedIn":"BLOCKING","adversarialFinal":"BLOCKING"},
+    "002":{"publicValue":"PASS","technologicalCeiling":"PASS","evidenceProvenance":"BLOCKING","verificationEvaluation":"BLOCKING","accessibility":"DEVICE_MANUAL","interactionVisualQA":"DEVICE_MANUAL","browserFallback":"BLOCKING","privacySecurity":"BLOCKING","performanceResilience":"BLOCKING","stateExportShare":"PASS","publicRecord":"BLOCKING","lineage":"BLOCKING","metadata":"BLOCKING","releaseEngineering":"BLOCKING","bLinkedIn":"BLOCKING","adversarialFinal":"BLOCKING"},
+    "003":{"publicValue":"PASS","technologicalCeiling":"BLOCKING","evidenceProvenance":"BLOCKING","verificationEvaluation":"BLOCKING","accessibility":"DEVICE_MANUAL","interactionVisualQA":"DEVICE_MANUAL","browserFallback":"BLOCKING","privacySecurity":"BLOCKING","performanceResilience":"BLOCKING","stateExportShare":"BLOCKING","publicRecord":"BLOCKING","lineage":"BLOCKING","metadata":"BLOCKING","releaseEngineering":"BLOCKING","bLinkedIn":"BLOCKING","adversarialFinal":"BLOCKING"}
+  }
+}
