@@ -1,11 +1,11 @@
 export type ArtifactStatus='Planned'|'Building'|'Live'|'Held';
 export type BuildArtifact={status:ArtifactStatus;url:string|null;summary?:string|null;title?:string;concept?:string|null;mechanism?:string|null};
-export type EducationRangeTarget='early-secondary'|'high-school'|'general-adult'|'college-nonspecialist'|'domain-professional'|'technical-expert';
+export type ComprehensionRangeTarget='early-secondary'|'high-school'|'general-adult'|'college-nonspecialist'|'domain-professional'|'technical-expert';
 export type PublicAccessionMeta={
   publicQuestion?:string;
   plainPurpose?:string;
   firstValueMinutes?:number;
-  educationRange?:EducationRangeTarget[];
+  comprehensionRange?:ComprehensionRangeTarget[];
   evidenceStatus?:'planned'|'researched'|'verified'|'requires-update';
   practiceRelevance?:string[];
   saveablePayload?:string;
