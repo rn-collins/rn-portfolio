@@ -1,0 +1,18 @@
+{
+  "schemaVersion":"004.1.0",
+  "title":"Manual Intelligence Engine Method",
+  "mode":"deterministic local workflow",
+  "canonicalRegistry":"data/100-builds.js#004",
+  "components":["Collection Protocol","Verification Queue","Intelligence Brief Template"],
+  "invariants":[
+    "source records and analyst claims are separate objects",
+    "new claims enter as unverified",
+    "only claims explicitly marked verified appear as verified findings",
+    "contradicted and uncertain claims remain visible in separate brief sections",
+    "removing a source removes claims that depend on that source",
+    "export preserves sources, claims, statuses, notes and derived brief buckets"
+  ],
+  "processing":{"location":"browser client","networkRequired":false,"externalModelRequired":false},
+  "evidenceBoundary":"The engine records a human verification decision; it does not independently determine whether a source or claim is true.",
+  "privacy":"No build-specific transmission or persistence path; exported JSON is created locally on explicit user action."
+}
