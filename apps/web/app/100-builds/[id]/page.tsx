@@ -6,7 +6,8 @@ export function generateStaticParams(){return builds.map(b=>({id:b.id}));}
 
 const activeCopy:Record<string,{question:string;a:string;b:string}>={
  '001':{question:'WHEN IS A HUMAN ACTUALLY A CONTROL?',a:'Check a real AI-assisted workflow in plain language, then get prioritized fixes and a deeper review protocol if you need one.',b:'Watch “human in the loop” break apart until the hidden architecture of meaningful review becomes visible.'},
- '002':{question:'CAN THE LANGUAGE CHANGE WITHOUT THE TRUTH MOVING?',a:'Paste one core claim, choose who needs to understand it, and inspect whether numbers, uncertainty, negation, names, and facts you lock survived the adaptation.',b:'Move the same factual core through different audience doors and interact with what may change—and what must stay fixed.'}
+ '002':{question:'CAN THE LANGUAGE CHANGE WITHOUT THE TRUTH MOVING?',a:'Paste one core claim, choose who needs to understand it, and inspect whether numbers, uncertainty, negation, names, and facts you lock survived the adaptation.',b:'Move the same factual core through different audience doors and interact with what may change—and what must stay fixed.'},
+ '003':{question:'WHERE IS INFORMATION FAILING TO BECOME A DECISION?',a:'Describe a recurring situation, name the decision people still cannot make, map what information they already have, and test whether the gap is worth investigating.',b:'Increase the information around an empty decision point and reveal why more content does not necessarily solve the missing decision.'}
 };
 
 export default async function BuildDetail({params}:{params:Promise<{id:string}>}){
