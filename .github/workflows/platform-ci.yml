@@ -17,6 +17,7 @@ on:
     branches:
       - 'feature/100-builds-platform-foundation'
       - 'workstream/build-*'
+      - 'workstream/gallery-*'
 concurrency:
   group: rn-builds-ci-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
