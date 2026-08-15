@@ -15,23 +15,26 @@
     "privacySecurity":"PASS",
     "performanceResilience":"PASS",
     "stateExportShare":"PASS",
-    "publicRecord":"BLOCKING",
+    "publicRecord":"PASS",
     "lineage":"PASS",
-    "metadata":"BLOCKING",
+    "metadata":"PASS",
     "releaseEngineering":"BLOCKING",
-    "bLinkedIn":"BLOCKING",
+    "bLinkedIn":"DEVICE_MANUAL",
     "adversarialFinal":"BLOCKING"
   },
   "basis":{
     "publicValue":"004-A produces a usable source register, claim queue and status-derived brief without accounts, prompts or specialist vocabulary; interaction changes which claims can enter findings.",
-    "technologicalCeiling":"A deterministic local workflow is intentionally stronger for this build's premise than adding automated retrieval or model synthesis before the human method is defined. Rejected complexity is recorded in the release record.",
+    "technologicalCeiling":"A deterministic local workflow is intentionally stronger for this build's premise than adding automated retrieval or model synthesis before the human method is defined. Rejected complexity is recorded in docs/builds/004-release-record.md.",
     "evidenceProvenance":"Product behavior is governed by the canonical registry definition and build-004-engine-v1 invariants; the build makes no external factual claim that drives scoring or truth determination.",
     "verificationEvaluation":"Adversarial Playwright fixtures cover unverified, verified, contradicted, source-deletion and new-claim states; final branch CI remains required after all release files land.",
     "browserFallback":"Core path uses standard browser HTML/JS and no experimental browser or AI API.",
     "privacySecurity":"See data/build-004-privacy-support-v1.json.",
     "performanceResilience":"See data/build-004-freshness-performance-v1.json.",
     "stateExportShare":"Current state is visible in source/claim cards and brief buckets; explicit JSON export preserves full research state; no implicit sharing path exists.",
+    "publicRecord":"004 is present in the shared public record with making, method, evidence and limits, and its artifact/release support files are recorded.",
     "lineage":"docs/infrastructure-manifest.json records exact Exhibition Room Shell reuse and the durable Manual Intelligence Engine Method v1 artifact.",
-    "manual":"Accessibility, touch, physical-device visual acceptance and B-LinkedIn phone-size QA are not represented as automated PASS."
+    "metadata":"The canonical object route has unique generated metadata; 004-A and 004-B have distinct titles, descriptions, canonical routes, OG and Twitter metadata; 004 is activated as ON VIEW rather than PLANNED.",
+    "bLinkedIn":"A real 720x900 H.264 silent-first MP4 has been generated and hashed; opening, verification-state and final frames were visually inspected. Physical phone playback QA and binary repository transfer remain open; see docs/builds/004-linkedin-production.md.",
+    "manual":"Accessibility, touch, physical-device visual acceptance and final B-LinkedIn phone-size playback are not represented as automated PASS."
   }
 }
