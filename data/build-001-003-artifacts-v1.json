@@ -1,0 +1,8 @@
+{
+ "schemaVersion":"1.0","releaseBranch":"workstream/build-003",
+ "builds":{
+  "001":{"a":{"route":"/100-builds/001/a","engine":"001.1.0"},"bWeb":{"route":"/100-builds/001/b"},"bLinkedIn":{"filename":"build-001-linkedin.mp4","sha256":"400f6cc6cd22e7fe30ae55367852066d12916ed839a690be2ae8a27aba325ee6","width":720,"height":900,"fps":24,"durationSeconds":15,"silentFirst":true,"qa":"DEVICE_MANUAL"},"evidence":"data/build-001-evidence-v1.json","release":"docs/builds/001-release-record.md"},
+  "002":{"a":{"route":"/100-builds/002/a","engine":"002.1.0"},"bWeb":{"route":"/100-builds/002/b"},"bLinkedIn":{"filename":"build-002-linkedin.mp4","width":720,"height":900,"fps":24,"durationSeconds":14,"silentFirst":true,"qa":"DEVICE_MANUAL","hashStatus":"must be regenerated/recorded from canonical production source before final certification"},"evidence":"data/build-002-engine-v1.json","release":"docs/builds/002-release-record.md"},
+  "003":{"a":{"route":"/100-builds/003/a","engine":"003.1.0"},"bWeb":{"route":"/100-builds/003/b"},"bLinkedIn":{"filename":"build-003-linkedin.mp4","width":720,"height":900,"fps":24,"durationSeconds":14,"silentFirst":true,"qa":"DEVICE_MANUAL","hashStatus":"must be regenerated/recorded from canonical production source before final certification"},"evidence":"data/build-003-engine-v1.json","release":"docs/builds/003-release-record.md"}
+ }
+}
