@@ -1,19 +1,19 @@
 {
-  "build":"001",
-  "version":"1.0",
-  "checked":"2026-08-15",
+  "build":"001","version":"1.1","checked":"2026-08-15",
   "sources":[
-    {"id":"NIST-AI-RMF-1.0","issuer":"NIST","title":"AI Risk Management Framework 1.0","publication_date":"2023-01-26","url":"https://airc.nist.gov/airmf-resources/airmf/5-sec-core/","sections":["GOVERN 2.1","GOVERN 3.2","MAP 2.2","MAP 3.4","MAP 3.5","MEASURE 1.2","MEASURE 1.3","Appendix C"],"status_note":"NIST states AI RMF 1.0 is being revised."},
-    {"id":"EU-AI-ACT-ART14","issuer":"European Union","title":"Regulation (EU) 2024/1689","publication_date":"2024-07-12","url":"https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng","sections":["Article 13","Article 14"],"status_note":"Applicability varies by system, role, jurisdiction, and dates of application."},
-    {"id":"ICO-HUMAN-REVIEW","issuer":"UK Information Commissioner’s Office","title":"Artificial intelligence audit toolkit — Human review","publication_date":null,"url":"https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/","sections":["Human review control measures","Ways to meet expectations","Options to consider"],"status_note":"ICO says this guidance is under review following the Data (Use and Access) Act and may change."}
+    {"id":"n1","issuer":"NIST","title":"AI Risk Management Framework 1.0","publication_date":"2023-01-26","url":"https://airc.nist.gov/airmf-resources/airmf/5-sec-core/","sections":["GOVERN 2.1","GOVERN 3.2","MAP 2.2","MAP 3.4","MAP 3.5","MEASURE 1.2","MEASURE 1.3","Appendix C"],"status_note":"NIST states AI RMF 1.0 is being revised."},
+    {"id":"e1","issuer":"European Union","title":"Regulation (EU) 2024/1689","publication_date":"2024-07-12","url":"https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng","sections":["Article 13","Article 14"],"status_note":"Applicability varies by system, role, jurisdiction, and dates of application."},
+    {"id":"i1","issuer":"UK Information Commissioner’s Office","title":"Artificial intelligence audit toolkit — Human review","publication_date":null,"url":"https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/","sections":["Human review control measures","Ways to meet expectations","Options to consider"],"status_note":"ICO says this guidance is under review following the Data (Use and Access) Act and may change."}
   ],
-  "claims":[
-    {"id":"reviewer-role","type":"cross_source_synthesis","sources":["NIST-AI-RMF-1.0","ICO-HUMAN-REVIEW"]},
-    {"id":"reviewer-information","type":"direct_plus_synthesis","sources":["NIST-AI-RMF-1.0","EU-AI-ACT-ART14","ICO-HUMAN-REVIEW"]},
-    {"id":"review-timing","type":"cross_source_synthesis","sources":["EU-AI-ACT-ART14","NIST-AI-RMF-1.0","ICO-HUMAN-REVIEW"]},
-    {"id":"review-authority","type":"direct_plus_synthesis","sources":["EU-AI-ACT-ART14","ICO-HUMAN-REVIEW","NIST-AI-RMF-1.0"]},
-    {"id":"escalation-fallback","type":"direct_plus_product_translation","sources":["ICO-HUMAN-REVIEW","NIST-AI-RMF-1.0"]},
-    {"id":"review-record","type":"direct","sources":["ICO-HUMAN-REVIEW","NIST-AI-RMF-1.0"]},
-    {"id":"composite-score","type":"product_heuristic","sources":[],"note":"No cited authority mandates the tool's composite score or priority ordering; these are design heuristics, not compliance determinations."}
-  ]
+  "dimensions":{
+    "competence":{"classification":"cross_source_synthesis","source_ids":["n1","i1"]},
+    "timing":{"classification":"cross_source_synthesis","source_ids":["e1","n1","i1"]},
+    "evidence":{"classification":"direct_plus_synthesis","source_ids":["n1","e1","i1"]},
+    "authority":{"classification":"direct_plus_synthesis","source_ids":["e1","i1","n1"]},
+    "escalation":{"classification":"direct_plus_product_translation","source_ids":["i1","n1"]},
+    "record":{"classification":"direct_plus_synthesis","source_ids":["i1","n1"]},
+    "capacity":{"classification":"direct","source_ids":["i1"]},
+    "testing":{"classification":"cross_source_synthesis","source_ids":["n1","i1"]}
+  },
+  "scoring":{"classification":"product_heuristic","engineVersion":"001.1.0","formula":"sum eight dimension scores (0,1,2); max 16; Strong >=13; Partial >=8; Weak <8","priorityRule":"all sub-2 gaps become candidates; high-consequence intake promotes timing, authority and evidence weaknesses to the front","sourceMandate":false,"note":"No cited authority mandates this composite score, thresholds, equal weighting, or priority ordering."}
 }
