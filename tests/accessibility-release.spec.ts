@@ -6,8 +6,8 @@ for(const id of ['001','002','003']){
    test(`${side.toUpperCase()} has no horizontal overflow at narrow viewport and interactive elements are named`,async({page})=>{
     await page.setViewportSize({width:320,height:800});
     await page.goto(`/100-builds/${id}/${side}`);
-    const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
-    expect(overflow).toBeLessThanOrEqual(1);
+    const geometry=await page.evaluate(()=>{const vw=document.documentElement.clientWidth;const sw=document.documentElement.scrollWidth;const offenders=[...document.querySelectorAll('*')].map(el=>{const node=el as HTMLElement;const r=node.getBoundingClientRect();return {tag:node.tagName.toLowerCase(),id:node.id,cls:typeof node.className==='string'?node.className:'',left:Math.round(r.left*10)/10,right:Math.round(r.right*10)/10,width:Math.round(r.width*10)/10,scrollWidth:node.scrollWidth,clientWidth:node.clientWidth}}).filter(x=>x.right>vw+1||x.left<-1).sort((a,b)=>(b.right-vw)-(a.right-vw)).slice(0,12);return {vw,sw,overflow:sw-vw,offenders}});
+    expect(geometry.overflow,JSON.stringify(geometry,null,2)).toBeLessThanOrEqual(1);
     const controls=page.locator('button, a, input, textarea, select');
     const count=await controls.count();
     for(let i=0;i<count;i++){
