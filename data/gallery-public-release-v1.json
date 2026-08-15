@@ -1,0 +1,33 @@
+{
+  "schemaVersion":"1.0",
+  "standard":"docs/gallery-public-release-standard.md",
+  "branch":"workstream/gallery-public-release",
+  "checkedAt":"2026-08-15",
+  "gates":{
+    "truthfulLifecycle":"PASS",
+    "informationArchitecture":"PASS",
+    "publicComprehension":"PASS",
+    "visualSystem":"PASS",
+    "responsiveAutomated":"BLOCKING",
+    "accessibilityAutomated":"BLOCKING",
+    "accessibilityManual":"DEVICE_MANUAL",
+    "metadata":"PASS",
+    "navigationErrors":"PASS",
+    "conversionPath":"PASS",
+    "futureCycleAutomation":"PASS",
+    "releaseEngineering":"BLOCKING",
+    "manualDeviceSocialPreview":"DEVICE_MANUAL",
+    "finalAdversarial":"BLOCKING"
+  },
+  "basis":{
+    "truthfulLifecycle":"CanonicalBuild.publicState is the single public lifecycle field: OnView, InLab, ComingNext. Gallery cards and build rooms render from it.",
+    "informationArchitecture":"Entrance, gallery, build rooms, active A/B artifacts, public record, lineage, practice/contact, and future-room paths are explicitly linked.",
+    "publicComprehension":"Gallery explains A / THE THING, B / THE STORY and THE RECORD and explicitly says no technical training is required.",
+    "visualSystem":"Entrance, gallery and build-room public surfaces use the Exhibition Space Arial/sans + mono language; legacy Georgia styling was removed from these public shell surfaces.",
+    "metadata":"Entrance and gallery have canonical/social metadata; build-room metadata is registry driven; A/B metadata remains build-specific.",
+    "navigationErrors":"Global not-found route returns visitors to /100-builds.",
+    "conversionPath":"/practice provides a public LinkedIn contact link and a route back to the exhibition.",
+    "futureCycleAutomation":"Progress counts, current lab build and entrance status derive from registry lifecycle rather than hard-coded numbers.",
+    "automationPending":"tests/gallery-public-release.spec.ts must pass on Chromium and WebKit together with the existing platform suite before automated/responsive/release gates move to PASS."
+  }
+}
