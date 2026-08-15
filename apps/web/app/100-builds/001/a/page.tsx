@@ -20,5 +20,11 @@ export default function Build001A(){
       <p>The diagnostic is intentionally narrow. It does not certify legal compliance and it does not prove a human-review control is effective merely because it exists on paper. It exposes whether the core design choices are actually specified, highlights the gaps that matter first, and gives a team a concrete protocol to challenge, test, and improve.</p>
       <p><strong>If the result exposes a consequential gap:</strong> that is the point. The next question is not “how do we improve the score?” but “how should this workflow actually be redesigned so the human can meaningfully affect the outcome?”</p>
     </section>
+    <section className="method-note" aria-label="Work with RN on a related system">
+      <div className="eyebrow">Facing a related systems problem?</div>
+      <h2>I work on the implementation layer between a reassuring policy and a system that actually behaves that way.</h2>
+      <p>If you are trying to redesign an AI-assisted workflow, oversight process, evidence path, decision architecture, or implementation plan, the useful next step is usually to map the real system before adding another tool or policy.</p>
+      <p><a className="btn" href="mailto:collins.ra@northeastern.edu?subject=Related%20systems%20problem%20%E2%80%94%20Build%20001">Talk to RN about the workflow →</a></p>
+    </section>
   </main>
 }
