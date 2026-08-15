@@ -17,6 +17,9 @@ on:
     branches:
       - 'feature/100-builds-platform-foundation'
       - 'workstream/build-*'
+concurrency:
+  group: rn-builds-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
