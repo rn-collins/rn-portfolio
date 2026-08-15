@@ -1,0 +1,8 @@
+import {test,expect} from '@playwright/test';
+
+test.describe('Build 004 public routing and metadata',()=>{
+ test('canonical build object is on view rather than planned',async({page})=>{await page.goto('/100-builds/004');await expect(page.getByText('BUILD 004 / 100 · ON VIEW')).toBeVisible();await expect(page.getByText(/PLANNED/)).toHaveCount(0);await expect(page.getByRole('link',{name:/OPEN THE TOOL/})).toHaveAttribute('href','/100-builds/004/a');await expect(page.getByRole('link',{name:/ENTER THE VISUAL BUILD/})).toHaveAttribute('href','/100-builds/004/b')});
+ test('A has distinct share metadata',async({page})=>{await page.goto('/100-builds/004/a');await expect(page).toHaveTitle(/Build 004-A: Manual Intelligence Engine/);await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href',/\/100-builds\/004\/a$/);await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content','Build 004-A: Manual Intelligence Engine')});
+ test('B has distinct share metadata',async({page})=>{await page.goto('/100-builds/004/b');await expect(page).toHaveTitle(/Build 004-B: Before the Automation/);await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href',/\/100-builds\/004\/b$/);await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content','Before the Automation — Build 004-B')});
+ test('public record exists for 004',async({page})=>{await page.goto('/100-builds/004/record');await expect(page.getByRole('heading',{name:'Manual Intelligence Engine Method'})).toBeVisible();await expect(page.getByText(/records human verification decisions/i)).toBeVisible()});
+});
