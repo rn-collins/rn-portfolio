@@ -2,16 +2,4 @@ import Link from 'next/link';
 import { HumanLoopReveal } from '@rn/visuals';
 import s from '../room.module.css';
 import motion from './interactive-motion.module.css';
-
-export default function Build001B(){
-  return <main className={s.screeningRoom}>
-    <nav className={s.crumb}><Link href="/100-builds/001">← Accession 001</Link><span>Object B / Visual argument</span></nav>
-    <header className={s.label}>
-      <div className={s.accession}>001-B<br/>SCREENING</div>
-      <div><h1>Human in the Loop</h1><p>A silent motion argument you can also explore. Each scene lets you test one part of the claim for yourself: presence, placement, timing, authority, and the architecture of meaningful review.</p></div>
-    </header>
-    <section className={`${s.screen} ${motion.scope}`} aria-label="Interactive screening room"><HumanLoopReveal /></section>
-    <section className={s.screenNote}><strong>Two modes</strong><p>Do nothing and the piece plays as a timed motion story. Interact with a scene and it pauses so you can test the idea yourself. Replay returns to the automatic version.</p></section>
-    <section className={s.screenNote}><strong>Feed artifact</strong><p>The LinkedIn version remains a silent-first 4:5 video because feed video cannot depend on browser interaction. The web version is the richer master: the interaction becomes another way to understand the same argument.</p></section>
-  </main>
-}
+export default function Build001B(){return <main className={s.screeningRoom}><nav className={s.crumb}><Link href="/100-builds/001">← Build 001</Link><span>001-B / Interactive visual build</span></nav><header className={s.label}><div className={s.accession}>BUILD 001-B<br/>ON VIEW</div><div><h1>Human in the Loop</h1><p>A silent motion argument you can also explore. Each scene lets you test one part of the claim for yourself: presence, placement, timing, authority, and the architecture of meaningful review.</p></div></header><section className={`${s.screen} ${motion.scope}`} aria-label="Interactive screening room"><HumanLoopReveal /></section><section className={s.screenNote}><strong>Two modes</strong><p>Do nothing and the piece plays as a timed motion story. Interact with a scene and it pauses so you can test the idea yourself. Replay returns to the automatic version.</p></section><section className={s.screenNote}><strong>Feed artifact</strong><p>The LinkedIn version remains a silent-first 4:5 video because feed video cannot depend on browser interaction. The web version is the richer master: the interaction becomes another way to understand the same argument.</p></section></main>}
