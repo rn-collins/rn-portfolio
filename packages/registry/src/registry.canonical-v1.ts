@@ -1,7 +1,22 @@
-import type { CanonicalBuild } from './index';
-import { builds as legacyBuilds, phases } from './registry.generated';
+import type { CanonicalBuild, CanonicalPhase } from './index';
+import { builds as legacyBuilds } from './registry.generated';
 import { canonV1Meta } from './canonical-v1-meta';
 import lineage from '../../../data/canonical-100-lineage-v1.json';
+
+const phaseNames=[
+  'Understand & structure the problem',
+  'Actors, consequences, workflow & accountability',
+  'Access, data, privacy & inclusive systems',
+  'Evidence, reliability & AI behavior',
+  'Organizations, regulation, place & embodied experience',
+  'Learning, adaptation, provenance & rights',
+  'Durable memory & context',
+  'Shared decisions, comparison, consequences & evidence navigation',
+  'Audiences, creators, relationships & operating intelligence',
+  'Governed agents, ecosystems & convergence'
+];
+
+export const phases:CanonicalPhase[]=phaseNames.map((name,i)=>({id:i+1,name,range:[i*10+1,i*10+10]} as CanonicalPhase));
 
 const comprehensionRange:NonNullable<CanonicalBuild['public']>['comprehensionRange']=[
   'early-secondary','high-school','general-adult','college-nonspecialist','domain-professional','technical-expert'
@@ -9,31 +24,29 @@ const comprehensionRange:NonNullable<CanonicalBuild['public']>['comprehensionRan
 
 function slugify(value:string){return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');}
 
+const edges=lineage.builds as Record<string,{uses:string[];creates:string[]}>;
 const reverseConsumers:Record<string,string[]>={};
-for(const [id,edge] of Object.entries(lineage.builds as Record<string,{uses:string[];creates:string[]}>)){
-  for(const source of edge.uses){(reverseConsumers[source]??=[]).push(id);}
-}
+for(const [id,edge] of Object.entries(edges)) for(const source of edge.uses)(reverseConsumers[source]??=[]).push(id);
 
-export { phases };
-export const builds:CanonicalBuild[]=legacyBuilds.map((legacy)=>{
+export const builds:CanonicalBuild[]=legacyBuilds.map((legacy,index)=>{
   const meta=canonV1Meta[legacy.id];
   if(!meta) throw new Error(`Canonical v1 metadata missing for Build ${legacy.id}`);
-  const edge=(lineage.builds as Record<string,{uses:string[];creates:string[]}>)[legacy.id];
+  const edge=edges[legacy.id];
   if(!edge) throw new Error(`Canonical v1 lineage missing for Build ${legacy.id}`);
   const is001=legacy.id==='001';
+  const phase=Math.floor(index/10)+1;
   return {
     ...legacy,
+    sequence:index+1,
     title:meta.title,
     slug:`${legacy.id}-${slugify(meta.title)}`,
+    phase,
+    phaseName:phaseNames[phase-1],
+    ecosystem:phaseNames[phase-1],
     missingSystem:meta.job,
     description:meta.job,
-    functional:{...legacy.functional,summary:meta.job},
-    visual:{
-      ...legacy.visual,
-      title:is001?legacy.visual.title:`${meta.title} — Visual Build`,
-      concept:meta.bWeb,
-      mechanism:meta.bWeb
-    },
+    functional:{...legacy.functional,status:is001?legacy.functional.status:'Planned',url:is001?legacy.functional.url:null,summary:meta.job},
+    visual:{...legacy.visual,status:is001?legacy.visual.status:'Planned',url:is001?legacy.visual.url:null,title:is001?legacy.visual.title:`${meta.title} — Visual Build`,concept:meta.bWeb,mechanism:meta.bWeb},
     usesInfrastructure:[...edge.uses],
     createsInfrastructure:[...edge.creates],
     relatedBuilds:Array.from(new Set([...(legacy.relatedBuilds??[]),...(reverseConsumers[legacy.id]??[])])),
@@ -41,7 +54,7 @@ export const builds:CanonicalBuild[]=legacyBuilds.map((legacy)=>{
       ...(legacy.public??{}),
       plainPurpose:meta.job,
       comprehensionRange,
-      evidenceStatus:legacy.public?.evidenceStatus??'planned',
+      evidenceStatus:is001?(legacy.public?.evidenceStatus??'researched'):'planned',
       novicePath:legacy.public?.novicePath??meta.job,
       saveablePayload:legacy.public?.saveablePayload,
       canonVerdict:'KEEP'
@@ -51,6 +64,10 @@ export const builds:CanonicalBuild[]=legacyBuilds.map((legacy)=>{
 
 if(builds.length!==100) throw new Error(`Canonical v1 must contain exactly 100 builds; found ${builds.length}`);
 for(let i=0;i<100;i++){
+  const build=builds[i];
   const expected=String(i+1).padStart(3,'0');
-  if(builds[i]?.id!==expected) throw new Error(`Canonical v1 sequence error at ${expected}`);
+  if(build?.id!==expected) throw new Error(`Canonical v1 sequence error at ${expected}`);
+  for(const dep of build.usesInfrastructure){
+    if(Number(dep)>=build.sequence) throw new Error(`Build ${build.id} has non-earlier dependency ${dep}`);
+  }
 }
