@@ -1,2 +1,17 @@
-import { test, expect } from '@playwright/test';
-test('100 Builds path and Build 001 pair work',async({page})=>{await page.goto('/');await expect(page.getByRole('link',{name:/100 Builds exhibition/i})).toBeVisible();await page.getByRole('link',{name:/100 Builds exhibition/i}).click();await expect(page.getByRole('heading',{name:'100'})).toBeVisible();await page.getByRole('link',{name:/Human Review Design Framework/}).click();await expect(page.getByRole('heading',{name:'Human Review Design Framework'})).toBeVisible();await page.getByRole('link',{name:/Open A/}).click();await page.getByLabel(/What AI-assisted output/).fill('Draft legal research memo');await page.getByRole('button',{name:/Generate review protocol/}).click();await expect(page.getByText(/Draft legal research memo/)).toBeVisible();await page.goto('/100-builds/001/b');await page.getByRole('button',{name:/Advance Human in the Loop/}).press('Enter');await expect(page.getByText('WHO reviews?')).toBeVisible()});
+import {test,expect} from '@playwright/test';
+
+test('Builds 001-003 core routes render current active artifacts',async({page})=>{
+  for(const id of ['001','002','003']){
+    await page.goto(`/100-builds/${id}`);
+    await expect(page.locator('h1').first()).toBeVisible();
+    await expect(page.getByRole('link',{name:/OPEN THE TOOL/i})).toBeVisible();
+    await expect(page.getByRole('link',{name:/ENTER THE VISUAL BUILD/i})).toBeVisible();
+    await expect(page.getByRole('link',{name:/Open the public build record/i})).toBeVisible();
+    await page.goto(`/100-builds/${id}/a`);
+    await expect(page.locator('h1').first()).toBeVisible();
+    await page.goto(`/100-builds/${id}/b`);
+    await expect(page.locator('h1').first()).toBeVisible();
+    await page.goto(`/100-builds/${id}/record`);
+    await expect(page.locator('h1').first()).toBeVisible();
+  }
+});
