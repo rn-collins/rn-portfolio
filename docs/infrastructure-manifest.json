@@ -1,10 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "artifacts": [
     {"name":"Form Engine v1","createdBy":"001","path":"packages/forms/src/index.tsx"},
     {"name":"Conditional Logic v1","createdBy":"001","path":"packages/forms/src/index.tsx"},
     {"name":"Results Renderer v1","createdBy":"001","path":"packages/results/src/index.tsx"},
-    {"name":"Visual Reveal Primitive v1","createdBy":"lab/001-B","path":"packages/visuals/src/index.tsx"}
+    {"name":"Visual Reveal Primitive v1","createdBy":"lab/001-B","path":"packages/visuals/src/index.tsx"},
+    {"name":"Exhibition Room Shell v1","createdBy":"001","path":"apps/web/app/100-builds/001/room.module.css"}
   ],
-  "uses": []
+  "uses": [
+    {"name":"Exhibition Room Shell v1","consumer":"002-A","evidencePath":"apps/web/app/100-builds/002/a/page.tsx","evidence":"imports ../../001/room.module.css"},
+    {"name":"Exhibition Room Shell v1","consumer":"003-A","evidencePath":"apps/web/app/100-builds/003/a/page.tsx","evidence":"imports ../../001/room.module.css"}
+  ],
+  "honestyNotes":[
+    "002 and 003 inherit product principles from earlier cycles, but principle inheritance is not counted as code reuse.",
+    "No 001 Form Engine, Results Renderer, or Visual Reveal Primitive reuse is claimed by 002/003 unless a concrete import/schema/test dependency exists.",
+    "The certification-era shared public-record and release infrastructure is platform infrastructure, not retroactively attributed to a numbered build."
+  ]
 }
