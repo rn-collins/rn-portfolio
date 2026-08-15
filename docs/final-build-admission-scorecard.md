@@ -37,24 +37,28 @@ PASS / REFRAME / FAIL for each:
 - accessibility and mobile are product requirements;
 - can plausibly produce a reason to contact RN after value is delivered.
 
-## Gate 3 — Education / comprehension range
-Test the primary path conceptually against:
-- early-secondary / roughly middle-school comprehension;
-- high school;
-- general adult;
-- college-educated non-specialist;
+## Gate 3 — Comprehension range
+Test the SAME primary product against these QA lenses:
+- younger / early-secondary reader with no domain knowledge;
+- general adult with no specialist training;
+- strong non-specialist reader;
+- practitioner/professional in an adjacent field;
 - domain professional;
-- expert / technical user.
+- technical/domain expert.
+
+These are internal QA lenses, not labels shown to visitors and not proxies for intelligence.
 
 PASS only if:
+- all six can identify the same core purpose, task and result;
 - the first screen works without specialist vocabulary;
-- examples appear before abstractions when possible;
+- concrete examples/actions appear before abstractions when possible;
 - technical/legal/scientific terms are explained or progressively disclosed;
 - instructions fit limited attention/working-memory contexts;
-- expert rigor is preserved in deeper layers, evidence and methodology;
-- simplification does not change the meaning of consequential concepts.
+- expert rigor remains available in deeper layers, evidence and methodology;
+- simplification does not change the meaning of consequential concepts;
+- the interface does not infantilize general users.
 
-Controlling rule: one product, layered comprehension.
+Controlling rule: **general-public by default; expert depth on demand. One product, layered comprehension.**
 
 ## Gate 4 — A/B pair integrity
 A must be a real functional system. B must be a bespoke visual communication build.
@@ -81,13 +85,13 @@ Before sequencing is frozen, each build record must state:
 - plain-language one-sentence job;
 - target user(s);
 - concrete use moment;
-- novice path;
+- novice/general-public path;
 - professional/expert depth;
 - maximum warranted technical architecture;
 - what the visitor never needs to understand technically;
 - public-value score;
 - Gate 2 verdict;
-- education-range verdict;
+- comprehension-range verdict;
 - A concept;
 - B concept;
 - saveable payload;
