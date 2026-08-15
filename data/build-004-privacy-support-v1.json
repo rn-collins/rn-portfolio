@@ -3,13 +3,13 @@
   "checked":"2026-08-15",
   "build":"004",
   "core":{"processing":"browser client","externalNetworkRequired":false,"accountRequired":false},
-  "inputs":["source title","source URL or location","source date","source type","collection notes","analyst claims","claim status","verification notes"],
+  "inputs":["source title","issuer or author","source URL or location","publication or version","source/publication date","checked or retrieved date","relevant section/page/locator","source type","collection notes","analyst claims","claim status","verification notes"],
   "transmission":"none by build code",
   "persistence":"React state only; no build-specific storage",
   "logging":"no build-specific external analytics or telemetry path identified",
   "exportShare":"explicit local JSON export; no URL share",
   "optionalAPIs":[],
   "support":"core uses standard browser HTML/JS and does not depend on experimental browser AI APIs",
-  "minimization":"only fields needed to identify a source, record an analyst claim, preserve verification state and export the research record are requested",
-  "warnings":["do not enter confidential, personal, privileged or otherwise restricted material unless authorized to process it in the current browser/device","a URL/location field can itself contain sensitive information","local browser processing does not make the surrounding device or browser environment inherently secure"]
+  "minimization":"fields are limited to provenance needed to identify/check a source plus the analyst claim, verification state and review note; only source title and checked/retrieved date are required because not every source type has every other provenance field",
+  "warnings":["do not enter confidential, personal, privileged or otherwise restricted material unless authorized to process it in the current browser/device","a URL/location, locator, note or claim can itself contain sensitive information","local browser processing does not make the surrounding device or browser environment inherently secure"]
 }
