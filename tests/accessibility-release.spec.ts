@@ -12,7 +12,14 @@ for(const id of ['001','002','003']){
     const count=await controls.count();
     for(let i=0;i<count;i++){
       const el=controls.nth(i); if(!(await el.isVisible()))continue;
-      const name=(await el.getAttribute('aria-label'))||(await el.textContent())||(await el.getAttribute('name'))||(await el.getAttribute('id'))||'';
+      const name=await el.evaluate(node=>{
+        const direct=node.getAttribute('aria-label')||node.getAttribute('title')||'';
+        if(direct.trim())return direct;
+        const labelledBy=node.getAttribute('aria-labelledby');
+        if(labelledBy){const text=labelledBy.split(/\s+/).map(id=>document.getElementById(id)?.textContent||'').join(' ').trim();if(text)return text}
+        if(node instanceof HTMLInputElement||node instanceof HTMLTextAreaElement||node instanceof HTMLSelectElement){const labels=[...(node.labels||[])].map(label=>label.textContent||'').join(' ').trim();if(labels)return labels}
+        return (node.textContent||node.getAttribute('name')||node.id||'').trim();
+      });
       expect(name.trim().length).toBeGreaterThan(0);
     }
    });
