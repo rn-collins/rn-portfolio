@@ -1,19 +1,17 @@
+import Link from 'next/link';
 import { HumanReviewForm } from '@rn/forms';
+import s from '../room.module.css';
 
 export default function Build001A(){
-  return <main className="build-wrap build-001-a">
-    <div className="eyebrow">BUILD 001-A / 100 · FUNCTIONAL BUILD</div>
-    <h1>Human Review Design Framework</h1>
-    <p className="lede">“Human in the loop” sounds like a safeguard. It is only meaningful when the human has a defined role, enough information and competence to judge the output, the authority to disagree, a timely intervention point, and a documented path when something goes wrong.</p>
-    <div className="research-strip" aria-label="Research basis">
-      <span>Research basis</span>
-      <p>Built from recurring oversight requirements in NIST AI RMF guidance, Article 14 of the EU AI Act, and UK ICO guidance on meaningful human intervention: defined roles, competence, interpretability, automation-bias awareness, intervention authority, escalation, and review records.</p>
-    </div>
-    <HumanReviewForm />
-    <section className="method-note">
-      <div className="eyebrow">What this build does — and does not do</div>
-      <h2>It makes vague oversight architecture inspectable.</h2>
-      <p>The tool deliberately does not certify legal compliance or tell you that a control is effective merely because it exists on paper. Its job is narrower: expose whether the core design choices have actually been specified, and make missing pieces visible before “human oversight” becomes a box someone checks.</p>
-    </section>
+  return <main className={s.toolRoom}>
+    <nav className={s.crumb}><Link href="/100-builds/001">← Accession 001</Link><span>Object A / Functional system</span></nav>
+    <header className={s.label}>
+      <div className={s.accession}>001-A<br/>ON VIEW</div>
+      <div><h1>Human Review Design Framework</h1><p>Find out whether the “human in the loop” in an AI-assisted workflow is actually positioned to function as a control — or is mostly there to make the system sound safer.</p></div>
+    </header>
+    <section className={s.wallText}><strong>Use this when</strong><p>You are designing, buying, reviewing, governing, or inheriting an AI-assisted workflow and someone says a human reviews the output. Start with the 60-second Quick Check. Move into Design the Control only when you need the deeper protocol.</p></section>
+    <section className={s.wallText}><strong>Research basis</strong><p>Built from recurring oversight requirements in NIST AI RMF guidance, Article 14 of the EU AI Act, and UK ICO guidance on meaningful human intervention: defined roles, competence, system understanding, intervention authority, practical capacity, escalation, review records, and evaluation of whether oversight works.</p></section>
+    <section className={s.worktable} aria-label="Interactive worktable"><HumanReviewForm /></section>
+    <section className={s.method}><strong>Curatorial note</strong><div><h2>A reassuring phrase is not yet an architecture.</h2><p>This diagnostic does not certify compliance and does not prove a review control works in practice. It exposes whether the essential design choices are explicit, prioritizes weaknesses, and produces a protocol a team can challenge and improve.</p><p><strong>If this exposes a consequential gap:</strong> the useful next question is not how to improve the score; it is how the workflow itself should change so a qualified human can meaningfully affect the outcome.</p><p>If you are working through that kind of systems problem and want another set of eyes on the architecture, <a href="mailto:collins.ra@northeastern.edu">contact RN</a>.</p></div></section>
   </main>
 }
