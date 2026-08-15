@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import DecisionGapLab from './DecisionGapLab';
+import s from '../../room.module.css';
+export default function Build003A(){return <main className={s.toolRoom}><nav className={s.crumb}><Link href="/100-builds/003">← Build 003</Link><span>003-A / Working tool</span></nav><header className={s.label}><div className={s.accession}>BUILD 003-A<br/>ON VIEW</div><div><h1>Unserved Decision Discovery Framework</h1><p>Find places where people already have plenty of information but still lack the thing that helps them decide.</p></div></header><section className={s.wallText}><strong>Start with the decision, not the product idea.</strong><p>Describe a recurring situation, name what people still cannot decide, and map the information substitutes they already use. The tool then surfaces whether the gap is worth deeper investigation.</p></section><section className={s.worktable}><DecisionGapLab/></section></main>}
