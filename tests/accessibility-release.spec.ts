@@ -19,3 +19,10 @@ for(const id of ['001','002','003']){
   }
  });
 }
+
+test('001-B inactive aria-hidden scenes do not expose focusable controls',async({page})=>{
+ await page.goto('/100-builds/001/b');
+ await page.getByRole('button',{name:'Pause'}).click();
+ const exposed=await page.locator('.motion-scene[aria-hidden="true"] button, .motion-scene[aria-hidden="true"] a, .motion-scene[aria-hidden="true"] input, .motion-scene[aria-hidden="true"] select, .motion-scene[aria-hidden="true"] textarea').evaluateAll((els)=>els.filter(el=>{const node=el as HTMLElement;const style=getComputedStyle(node);return style.visibility!=='hidden'&&style.display!=='none'&&node.tabIndex>=0}).length);
+ expect(exposed).toBe(0);
+});
