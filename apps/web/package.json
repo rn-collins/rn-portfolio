@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@rn/forms": "workspace:*",
+    "@rn/registry": "workspace:*",
     "@rn/results": "workspace:*",
     "@rn/visuals": "workspace:*",
     "next": "latest",
