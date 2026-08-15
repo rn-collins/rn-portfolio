@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { builds, phases } from '@rn/registry';
+import { builds, phases } from '../../../../packages/registry/src/index';
 import s from './gallery.module.css';
 
 export default function Exhibition(){
