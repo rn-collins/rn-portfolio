@@ -3,7 +3,7 @@ import {test,expect} from '@playwright/test';
 const dimensions=[/Does the reviewer know enough/,/enough time and support/,/When does human review happen/,/How much information/,/What can the reviewer actually do/,/What happens if the reviewer/,/What gets recorded/,/Does anyone check/];
 async function set001(page:any,indexes:number[]){for(let i=0;i<dimensions.length;i++)await page.getByLabel(dimensions[i]).selectOption({index:indexes[i]})}
 async function setRange(locator:any,value:number){await locator.evaluate((el:HTMLInputElement,v:number)=>{const setter=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value')?.set;setter?.call(el,String(v));el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))},value)}
-async function setTextarea(locator:any,value:string){await locator.fill(value);await expect(locator).toHaveValue(value)}
+async function setTextarea(locator:any,value:string){await locator.click();await locator.press(process.platform==='darwin'?'Meta+A':'Control+A');await locator.press('Backspace');await locator.pressSequentially(value,{delay:1});await expect(locator).toHaveValue(value)}
 async function setSelect(locator:any,value:string){await locator.selectOption(value);await expect(locator).toHaveValue(value)}
 
 
