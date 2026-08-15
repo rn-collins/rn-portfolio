@@ -1,7 +1,9 @@
+import type {Metadata} from 'next';
 import Link from 'next/link';
 import { builds } from '../../../../../packages/registry/src/index';
 import s from './object.module.css';
 export function generateStaticParams(){return builds.map(b=>({id:b.id}));}
+export async function generateMetadata({params}:{params:Promise<{id:string}>}):Promise<Metadata>{const {id}=await params;const build=builds.find(b=>b.id===id);if(!build)return {title:'Build not found'};const title=`Build ${id}: ${build.title}`;const description=build.description;return {title,description,alternates:{canonical:`/100-builds/${id}`},openGraph:{title,description,type:'website',images:[{url:'/og-image.png',width:1200,height:630,alt:`Build ${id}: ${build.title}`}]},twitter:{card:'summary_large_image',title,description,images:['/og-image.png']}}}
 const activeCopy:Record<string,{question:string;a:string;b:string}>={
  '001':{question:'WHEN IS A HUMAN ACTUALLY A CONTROL?',a:'Check a real AI-assisted workflow in plain language, then get prioritized fixes and a deeper review protocol if you need one.',b:'Watch “human in the loop” break apart until the hidden architecture of meaningful review becomes visible.'},
  '002':{question:'CAN THE LANGUAGE CHANGE WITHOUT THE TRUTH MOVING?',a:'Paste one core claim, choose who needs to understand it, and inspect whether numbers, uncertainty, negation, names, and facts you lock survived the adaptation.',b:'Move the same factual core through different audience doors and interact with what may change—and what must stay fixed.'},
