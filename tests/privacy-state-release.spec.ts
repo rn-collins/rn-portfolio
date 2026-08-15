@@ -1,23 +1,9 @@
 import {test,expect} from '@playwright/test';
-
 async function noNewNetwork(page:any,action:()=>Promise<void>){const urls:string[]=[];const listener=(r:any)=>urls.push(r.url());page.on('request',listener);await action();await page.waitForTimeout(150);page.off('request',listener);expect(urls).toEqual([])}
+async function setRange(locator:any,value:number){await locator.evaluate((el:HTMLInputElement,v:number)=>{el.value=String(v);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))},value)}
 
-test('001 core assessment stays client-side and exports locally',async({page})=>{
- await page.goto('/100-builds/001/a');
- await noNewNetwork(page,async()=>{await page.getByLabel(/Does the reviewer know enough/).selectOption({index:1});await page.getByRole('button',{name:/Check my human review/}).click()});
- const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/Export JSON record/i}).click();const download=await downloadPromise;expect(download.suggestedFilename()).toBe('build-001-human-review-record.json');
- await expect(page.getByRole('button',{name:/RESET \/ START OVER/})).toBeVisible();
-});
+test('001 core assessment stays client-side and exports locally',async({page})=>{await page.goto('/100-builds/001/a');await noNewNetwork(page,async()=>{await page.getByLabel(/Does the reviewer know enough/).selectOption({index:1});await page.getByRole('button',{name:/Check my human review/}).click()});const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/Export JSON record/i}).click();const download=await downloadPromise;expect(download.suggestedFilename()).toBe('build-001-human-review-record.json');await expect(page.getByRole('button',{name:/RESET \/ START OVER/})).toBeVisible()});
 
-test('002 deterministic editing stays client-side and explicit share warns through record text',async({page})=>{
- await page.goto('/100-builds/002/a');
- await noNewNetwork(page,async()=>{await page.locator('textarea').first().fill('A test claim may improve by 20%.');await page.getByRole('button',{name:'lawyer'}).click()});
- const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/EXPORT JSON RECORD/}).click();const download=await downloadPromise;expect(download.suggestedFilename()).toBe('build-002-meaning-record.json');
- await expect(page.getByText(/share state contains the source/i)).toBeVisible();await expect(page.getByRole('button',{name:/RESET \/ START OVER/})).toBeVisible();
-});
+test('002 deterministic editing stays client-side and explicit share warns through record text',async({page})=>{await page.goto('/100-builds/002/a');await noNewNetwork(page,async()=>{await page.locator('textarea').first().fill('A test claim may improve by 20%.');await page.getByRole('button',{name:'lawyer'}).click()});const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/EXPORT JSON RECORD/}).click();const download=await downloadPromise;expect(download.suggestedFilename()).toBe('build-002-meaning-record.json');await expect(page.getByText(/share state contains the source/i)).toBeVisible();await expect(page.getByRole('button',{name:/RESET \/ START OVER/})).toBeVisible()});
 
-test('003 deterministic scoring stays client-side and exports locally',async({page})=>{
- await page.goto('/100-builds/003/a');
- await noNewNetwork(page,async()=>{await page.getByLabel(/How often does this decision recur/).fill('2');await page.getByRole('button',{name:'forums'}).click()});
- const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/EXPORT JSON RECORD/}).click();const download=await downloadPromise;expect(download.suggestedFilename()).toBe('build-003-decision-gap-record.json');
-});
+test('003 deterministic scoring stays client-side and exports locally',async({page})=>{await page.goto('/100-builds/003/a');await noNewNetwork(page,async()=>{await setRange(page.getByLabel(/How often does this decision recur/),2);await page.getByRole('button',{name:'forums'}).click()});const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/EXPORT JSON RECORD/}).click();const download=await downloadPromise;expect(download.suggestedFilename()).toBe('build-003-decision-gap-record.json')});
