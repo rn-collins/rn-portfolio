@@ -1,11 +1,2 @@
-import Link from 'next/link';
-
-export default function Home() {
-  return <>
-    <header className="topbar"><div className="shell nav"><strong>RN Builds</strong><span className="mono">Platform foundation · F0</span></div></header>
-    <main>
-      <section className="hero"><div className="shell"><div className="eyebrow">RN Collins · public engineering lab</div><h1>RN Builds</h1><h2>The portfolio is becoming the laboratory.</h2><p>This Next.js application is the migration target for the existing RN Builds portfolio. Production remains on the current static site until feature parity and preview QA pass.</p><p><Link href="/100-builds">Enter the 100 Builds exhibition →</Link></p></div></section>
-      <section className="section"><div className="shell"><h2 className="serif">Migration principle</h2><p>The existing portfolio remains authoritative during Foundation Sprint F0. This application establishes reusable infrastructure first; no production replacement occurs until parity, accessibility, mobile, and regression gates pass.</p></div></section>
-    </main>
-  </>;
-}
+import Link from 'next/link';import s from './luxe.module.css';
+export default function Home(){return <main className={s.page}><header className={s.mast}><span>RN COLLINS</span><span>AN INDEX OF SYSTEMS, QUESTIONS & BUILDS</span></header><section className={s.hero}><h1>Questions<i>too large</i><br/>for one field.</h1><div className={s.dek}><p>I build the systems that appear when law, technology, neuroscience, governance, place, culture, and independent work stop pretending they are separate.</p><aside>100 FUNCTIONAL BUILDS<br/>100 VISUAL BUILDS<br/>ONE COMPOUNDING PRACTICE<br/><Link className={s.cta} href="/100-builds">VIEW THE COLLECTION →</Link></aside></div></section><div className={s.rail}><span>AI + SYSTEMS</span><span>LAW + GOVERNANCE</span><span>NEUROSCIENCE</span><span>PLACE</span><span>INSTITUTIONS OF ONE</span></div><section className={s.feature}><div><span className={s.issue}>OBJECT 001 / AI GOVERNANCE</span><p className={s.mark}>NOW IN THE LAB</p></div><div><h2>Presence<br/>is not power.</h2><p>“Human in the loop” sounds like oversight. Build 001 asks a harder question: can the human actually see enough, act in time, challenge the system, and change what happens?</p><Link className={s.cta} href="/100-builds/001">ENTER BUILD 001 →</Link></div></section></main>}
