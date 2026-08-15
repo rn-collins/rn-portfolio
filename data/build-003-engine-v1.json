@@ -1,0 +1,11 @@
+{
+  "build":"003",
+  "engineVersion":"003.1.0",
+  "classification":"product-heuristic",
+  "validatedMarketDemandMeasure":false,
+  "signals":{"frequency":{"range":[1,5]},"consequence":{"range":[1,5]},"ambiguity":{"range":[1,5]},"fragmentation":{"range":[1,5]}},
+  "formula":"clamp(round(mean(signals)*17 + min(20, sourceCount*3) + (decisionLength>18?15:5) - 30), 0, 100)",
+  "tiers":{"75":"strong gap","55":"promising gap","35":"investigate","0":"weak signal"},
+  "limitations":["does not prove demand","does not prove willingness to pay","does not prove the proposed product is correct","source count is a proxy for information abundance, not evidence quality"],
+  "nextEvidenceDependency":"004"
+}
