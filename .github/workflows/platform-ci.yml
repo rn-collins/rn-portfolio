@@ -5,7 +5,8 @@ on:
       - 'apps/**'
       - 'packages/**'
       - 'scripts/**'
-      - 'docs/infrastructure-manifest.json'
+      - 'data/**'
+      - 'docs/**'
       - 'tests/**'
       - 'package.json'
       - 'pnpm-workspace.yaml'
@@ -13,7 +14,9 @@ on:
       - 'playwright.config.ts'
       - '.github/workflows/platform-ci.yml'
   push:
-    branches: ['feature/100-builds-platform-foundation']
+    branches:
+      - 'feature/100-builds-platform-foundation'
+      - 'workstream/build-*'
 permissions:
   contents: read
 jobs:
