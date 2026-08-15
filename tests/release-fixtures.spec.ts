@@ -1,38 +1,24 @@
 import {test,expect} from '@playwright/test';
 
+const dimensions=[/Does the reviewer know enough/,/enough time and support/,/When does human review happen/,/How much information/,/What can the reviewer actually do/,/What happens if the reviewer/,/What gets recorded/,/Does anyone check/];
+async function set001(page:any,indexes:number[]){for(let i=0;i<dimensions.length;i++)await page.getByLabel(dimensions[i]).selectOption({index:indexes[i]})}
+
 test.describe('Build 001 adversarial human-review fixtures',()=>{
- test('human present after outcome with no authority cannot look strong',async({page})=>{
-  await page.goto('/100-builds/001/a');
-  await page.getByLabel(/Does the reviewer know enough/).selectOption('qualified — Yes. They know the subject and the important limits of the AI.');
-  await page.getByLabel(/enough time and support/).selectOption('yes — Yes. They have time, information, manageable workload, and freedom to disagree.');
-  await page.getByLabel(/When does human review happen/).selectOption('after — After the action, or nobody has clearly decided when review happens.');
-  await page.getByLabel(/How much information/).selectOption('full — The important inputs, sources, context, uncertainty, and conflicting information are available.');
-  await page.getByLabel(/What can the reviewer actually do/).selectOption('observe — Comment or approve, but cannot meaningfully change the outcome.');
-  await page.getByLabel(/What happens if the reviewer/).selectOption('none — There is no clear backup plan.');
-  await page.getByLabel(/What gets recorded/).selectOption('none — No durable record of the review.');
-  await page.getByLabel(/Does anyone check/).selectOption('never — No. The review process itself is not evaluated.');
-  await page.getByRole('button',{name:/Check my human review/}).click();
-  await expect(page.getByText('Weak',{exact:true})).toBeVisible();
-  await expect(page.getByText(/Move review before the important action/)).toBeVisible();
-  await expect(page.getByText(/actual power to reject/)).toBeVisible();
- });
+ test('human present after outcome with no authority cannot look strong',async({page})=>{await page.goto('/100-builds/001/a');await set001(page,[1,1,3,1,3,3,3,3]);await page.getByRole('button',{name:/Check my human review/}).click();await expect(page.getByText('Weak',{exact:true})).toBeVisible();await expect(page.getByText(/Move review before the important action/)).toBeVisible();await expect(page.getByText(/actual power to reject/)).toBeVisible()});
+ test('all explicit controls produce 16 of 16 but still show non-certification limit',async({page})=>{await page.goto('/100-builds/001/a');await set001(page,[1,1,1,1,1,1,1,1]);await page.getByRole('button',{name:/Check my human review/}).click();await expect(page.getByText('16/16')).toBeVisible();await expect(page.getByText('Strong',{exact:true})).toBeVisible();await expect(page.getByText(/does not certify legal compliance/i)).toBeVisible()});
+ test('grade thresholds are stable at 13 strong and 12 partial',async({page})=>{await page.goto('/100-builds/001/a');await set001(page,[1,1,1,1,1,1,2,3]);await page.getByRole('button',{name:/Check my human review/}).click();await expect(page.getByText('13/16')).toBeVisible();await expect(page.getByText('Strong',{exact:true})).toBeVisible();await page.getByRole('button',{name:/RESET \/ START OVER/}).click();await set001(page,[1,1,1,1,1,1,3,3]);await page.getByRole('button',{name:/Check my human review/}).click();await expect(page.getByText('12/16')).toBeVisible();await expect(page.getByText('Partial',{exact:true})).toBeVisible()});
+ test('high consequence promotes evidence authority and timing weaknesses',async({page})=>{await page.goto('/100-builds/001/a');await page.getByLabel(/If the AI is wrong/).selectOption({index:3});await set001(page,[1,1,3,3,3,1,1,1]);await page.getByRole('button',{name:/Check my human review/}).click();const first=page.locator('.priority-panel li').nth(0);const second=page.locator('.priority-panel li').nth(1);const third=page.locator('.priority-panel li').nth(2);await expect(first).toContainText(/enough information/i);await expect(second).toContainText(/real power/i);await expect(third).toContainText(/before the important action/i)});
+ test('missing answers fail visibly instead of receiving a reassuring score',async({page})=>{await page.goto('/100-builds/001/a');await page.getByRole('button',{name:/Check my human review/}).click();await expect(page.getByText('0/16')).toBeVisible();await expect(page.getByText('Weak',{exact:true})).toBeVisible()});
 });
 
 test.describe('Build 002 drift fixtures',()=>{
- test('source numeric uncertainty and negation anchors are surfaced',async({page})=>{
-  await page.goto('/100-builds/002/a');
-  const source=page.locator('textarea').first();
-  await source.fill('The study found 42% may improve, not 84%.');
-  await expect(page.getByText(/Numbers preserved/)).toBeVisible();
-  await expect(page.getByText(/Uncertainty preserved/)).toBeVisible();
-  await expect(page.getByText(/Negation preserved/)).toBeVisible();
- });
+ test('source numeric uncertainty and negation anchors are surfaced',async({page})=>{await page.goto('/100-builds/002/a');await page.locator('textarea').first().fill('The study found 42% may improve, not 84%.');await expect(page.getByText(/Numbers preserved/)).toBeVisible();await expect(page.getByText(/Uncertainty preserved/)).toBeVisible();await expect(page.getByText(/Negation preserved/)).toBeVisible()});
+ test('the verifier catches drift created by its own concise transformation',async({page})=>{await page.goto('/100-builds/002/a');await page.locator('textarea').first().fill('The program exists. The first result is preliminary. In 2026, Project Atlas may not reach 42% of participants.');await page.getByLabel('Style').selectOption('concise');await expect(page.locator('[data-ok="false"]')).toHaveCount(4);await expect(page.getByText(/Numbers preserved/).locator('..')).toHaveAttribute('data-ok','false');await expect(page.getByText(/Named anchors preserved/).locator('..')).toHaveAttribute('data-ok','false')});
+ test('a locked fact absent from the transformation is treated as a failure, not silently accepted',async({page})=>{await page.goto('/100-builds/002/a');const areas=page.locator('textarea');await areas.nth(1).fill('This exact condition must remain.');await expect(page.getByText(/Locked facts preserved/).locator('..')).toHaveAttribute('data-ok','false')});
 });
 
 test.describe('Build 003 heuristic boundaries',()=>{
- test('UI states discovery is not validation',async({page})=>{
-  await page.goto('/100-builds/003/a');
-  await expect(page.getByText(/discovery, not validation/i)).toBeVisible();
-  await expect(page.getByText(/does not prove people want a product/i)).toBeVisible();
- });
+ test('UI states discovery is not validation',async({page})=>{await page.goto('/100-builds/003/a');await expect(page.getByText(/discovery, not validation/i)).toBeVisible();await expect(page.getByText(/does not prove people want a product/i)).toBeVisible()});
+ test('low-frequency clear unfragmented decision remains a weak signal even when consequence is high',async({page})=>{await page.goto('/100-builds/003/a');for(const name of ['articles','spreadsheets','experts'])await page.getByRole('button',{name}).click();const sliders=page.locator('input[type="range"]');await sliders.nth(0).fill('1');await sliders.nth(1).fill('5');await sliders.nth(2).fill('1');await sliders.nth(3).fill('1');await page.locator('textarea').nth(1).fill('What exact rule applies to this one-time consequential decision?');await expect(page.getByText('weak signal',{exact:true})).toBeVisible()});
+ test('recurring consequential ambiguous fragmented decision with many substitutes becomes a strong gap without claiming demand',async({page})=>{await page.goto('/100-builds/003/a');for(const name of ['dashboards','forums','meetings','search','other'])await page.getByRole('button',{name}).click();for(let i=0;i<4;i++)await page.locator('input[type="range"]').nth(i).fill('5');await page.locator('textarea').nth(1).fill('What has to be true before this recurring consequential decision can be made responsibly?');await expect(page.getByText('strong gap',{exact:true})).toBeVisible();await expect(page.getByText(/does not prove people want a product/i)).toBeVisible()});
 });
