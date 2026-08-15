@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { builds } from '@rn/registry';
+import { builds } from '../../../../../packages/registry/src/index';
 import s from './object.module.css';
 
 export function generateStaticParams(){return builds.map(b=>({id:b.id}));}
