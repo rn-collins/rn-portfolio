@@ -27,7 +27,7 @@ Implemented:
 - long-string/reflow hardening for source titles, claims, locators and metadata.
 
 ## B-Web — Before the Automation
-Implemented as a standalone explanatory master rather than a screen recording of A. It moves from raw research material through four visible gates—COLLECT, SEPARATE, VERIFY, BRIEF—and ends with the proposition that verified findings must remain distinct from contradiction, uncertainty and unresolved questions.
+Implemented as the interactive visual master rather than a static poster or screen recording of A. Five named, keyboard/touch-operable stages—RAW, COLLECT, SEPARATE, VERIFY, BRIEF—change the visual model itself: raw source objects become provenance records; source and analyst claim split into different objects; four verification states remain distinct; and the final brief preserves verified findings beside contradiction, uncertainty and open questions. `aria-pressed` communicates active stage, focus-visible styling is explicit, controls exceed minimum pointer-target dimensions, and a passive four-gate summary plus complete-method sentence keeps the argument understandable without interaction.
 
 ## B-LinkedIn
 A real silent-first 4:5 MP4 has been generated from the explanatory mechanism rather than recorded from B-Web.
@@ -60,6 +60,7 @@ This build does not claim that a source is true because it was collected, nor th
 - `data/100-builds.js` — canonical title, purpose and component inventory;
 - `data/build-004-engine-v1.json` — machine-readable provenance and verification invariants;
 - `tests/build004.spec.ts` — adversarial workflow, provenance and extreme-input fixtures;
+- `tests/build004-story.spec.ts` — interactive B-Web stage and passive-path fixtures;
 - `tests/build004-routing.spec.ts` — active-state, route and metadata fixtures;
 - `tests/accessibility-release.spec.ts` — 004 A/B narrow-width overflow and accessible-name baseline.
 
@@ -77,12 +78,13 @@ Expected invariant behavior is encoded before release:
 - explicit source provenance survives into the registered record;
 - pathological unbroken source/claim strings cannot create horizontal overflow at 320 CSS px;
 - reset clears source, claim and derived-brief state;
-- the UI states that it does not perform source verification itself.
+- the UI states that it does not perform source verification itself;
+- B-Web stage controls reveal the correct methodological state and the passive path communicates the complete sequence without interaction.
 
 Full-branch CI must pass after all release files are committed before `releaseEngineering` or `adversarialFinal` can move to PASS.
 
 ## Accessibility / interaction QA
-Automated baseline now includes both 004-A and 004-B at 320 CSS px and checks that visible interactive elements have accessible names. Semantic/native controls are used for inputs, textareas, selects, buttons and links. Physical touch, screen-reader, zoom and real-device visual acceptance remain `DEVICE_MANUAL`; automated coverage is not mislabeled as full WCAG certification.
+Automated baseline now includes both 004-A and 004-B at 320 CSS px and checks that visible interactive elements have accessible names. Semantic/native controls are used for inputs, textareas, selects, buttons and links. B-Web stage state is exposed through native buttons and `aria-pressed`; active meaning is also written in text rather than conveyed by color alone. Physical touch, screen-reader, zoom and real-device visual acceptance remain `DEVICE_MANUAL`; automated coverage is not mislabeled as full WCAG certification.
 
 ## Browser/device/fallback
 Core value uses standard browser HTML/JS only. No experimental browser AI or network/model feature is required. The build therefore has no hidden limited-availability enhancement that can silently fail.
