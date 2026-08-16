@@ -1,0 +1,7 @@
+{
+  "build":"006",
+  "version":"1.0",
+  "freshness":{"externalDataDependency":false,"claim":"No current external facts are required to classify a user-supplied idea; the method is explicitly heuristic."},
+  "performance":{"networkCallsForCoreValue":0,"modelCallsForCoreValue":0,"coreComputation":"client-side deterministic classification","failureMode":"If JavaScript is unavailable, the explanatory page shell remains readable but interactive classification is unavailable."},
+  "resilience":["No vendor/model outage can change the classification because none is required.","Export uses browser-native Blob download.","The candidate form remains explainable through visible signal values and reasons rather than hidden model state."]
+}
