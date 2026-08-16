@@ -40,4 +40,20 @@ jobs:
       - run: pnpm build
       - run: pnpm exec playwright install --with-deps chromium webkit
         timeout-minutes: 5
-      - run: pnpm test:e2e
+      - name: Run Playwright certification
+        id: e2e
+        continue-on-error: true
+        run: pnpm test:e2e
+      - name: Upload Playwright evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-evidence
+          path: |
+            playwright-report
+            test-results
+          if-no-files-found: ignore
+          retention-days: 7
+      - name: Enforce Playwright gate
+        if: steps.e2e.outcome == 'failure'
+        run: exit 1
