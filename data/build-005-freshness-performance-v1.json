@@ -1,0 +1,8 @@
+{
+  "schemaVersion":"1.0",
+  "build":"005",
+  "checkedAt":"2026-08-16",
+  "freshness":{"externalSources":false,"externalApiDependencies":false,"modelDependencies":false,"recheckTriggers":["classification rules change","Build 003 decision-gap engine changes","browser behavior changes","release-standard changes"]},
+  "performance":{"core":"deterministic in-browser classification over a small user-managed step list","networkColdStart":false,"modelColdStart":false,"knownScalingBoundary":"No claim is made that the current React-state workflow is appropriate for very large enterprise process maps without profiling and persistence architecture."},
+  "resilience":{"offlineClaim":"No PWA/offline-install claim is made, but core classification does not require an external service after the page loads.","failureMode":"If export is blocked by browser download policy, the visible classification remains available in the page; no remote state is lost because no remote state exists.","reset":"RESET / START OVER restores the demonstration workflow."}
+}
