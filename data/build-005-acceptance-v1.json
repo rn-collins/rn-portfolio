@@ -1,0 +1,42 @@
+{
+  "schemaVersion":"1.0",
+  "standard":"docs/build-release-standard-v1.md",
+  "allowed":["PASS","BLOCKING","DEVICE_MANUAL","DEFERRED_WITH_RATIONALE","NOT_APPLICABLE"],
+  "build":"005",
+  "checkedAt":"2026-08-16",
+  "gates":{
+    "publicValue":"PASS",
+    "technologicalCeiling":"PASS",
+    "evidenceProvenance":"PASS",
+    "verificationEvaluation":"PASS",
+    "accessibility":"DEVICE_MANUAL",
+    "interactionVisualQA":"DEVICE_MANUAL",
+    "browserFallback":"PASS",
+    "privacySecurity":"PASS",
+    "performanceResilience":"PASS",
+    "stateExportShare":"PASS",
+    "publicRecord":"PASS",
+    "lineage":"PASS",
+    "metadata":"PASS",
+    "releaseEngineering":"BLOCKING",
+    "bLinkedIn":"BLOCKING",
+    "adversarialFinal":"BLOCKING"
+  },
+  "basis":{
+    "publicValue":"005-A converts a real service workflow into explicit AUTOMATE / KEEP HUMAN / REMOVE candidates with visible reasons, while B-Web exposes the same separation visually.",
+    "technologicalCeiling":"The local deterministic classifier is intentionally inspectable. Automatic workflow mining, model classification, process-mining integrations and agentic automation are deferred because they would hide the decision rules this cycle exists to expose.",
+    "evidenceProvenance":"The classification rules are explicitly labeled product heuristics in data/build-005-engine-v1.json. Build 003's decision-gap engine is the only inherited scoring primitive and is imported directly.",
+    "verificationEvaluation":"Adversarial fixtures cover low-value repetition, high-judgment work, local export and interactive story state. The implementation candidate reached 114/118 with only locator ambiguity before the exact disposition-heading locator correction; final release-engineering confirmation remains pending on the current head.",
+    "browserFallback":"Core value uses standard HTML/JS and deterministic local logic; no experimental browser AI or network/model feature is required.",
+    "privacySecurity":"See data/build-005-privacy-support-v1.json.",
+    "performanceResilience":"See data/build-005-freshness-performance-v1.json.",
+    "stateExportShare":"Workflow state is visible in the step map and disposition lanes; explicit JSON export preserves signals, reasons and inherited decision-gap score; RESET / START OVER restores the demonstration workflow; no implicit share path exists.",
+    "publicRecord":"005 is present in the shared public Making / Method / Evidence / Limits record.",
+    "lineage":"docs/infrastructure-manifest.json records exact Exhibition Room Shell reuse and direct decisionGapScore/decisionGapTier import from Build 003.",
+    "metadata":"005-A and 005-B have distinct titles, descriptions, canonical routes, OpenGraph and Twitter metadata; the registry lifecycle now exposes Build 005 as IN THE LAB.",
+    "releaseEngineering":"Current lifecycle/public-record/lineage head must pass lineage, typecheck, lint, production build and the complete Chromium/WebKit E2E matrix before this gate becomes PASS.",
+    "bLinkedIn":"No governed feed-native MP4 has yet been generated, hashed, visually sampled and recorded for Build 005.",
+    "adversarialFinal":"Final release adversarial pass remains open until the current full certification head is green and the feed artifact status is resolved.",
+    "manual":"Physical-device accessibility, touch/zoom/screen-reader and final visual acceptance remain manual rather than being represented as automated PASS."
+  }
+}
