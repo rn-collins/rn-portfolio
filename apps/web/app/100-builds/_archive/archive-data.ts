@@ -11,7 +11,8 @@ export const programArchive:ArchiveItem[]=[
  {label:'Exhibition Space design system',detail:'The visual and interaction language used to replace the prior skin and make the gallery read as a public exhibition rather than an internal dashboard.',path:'docs/exhibition-space-design-system.md'},
  {label:'Public site reskin architecture',detail:'The architecture for entrance, gallery, build rooms, lifecycle states, public records, and conversion path.',path:'docs/public-site-reskin-architecture.md'},
  {label:'Visual builds handoff',detail:'The reusable A/B-Web/B-LinkedIn motion architecture and production logic intended to travel into other content programs.',path:'docs/visual-builds-handoff.md'},
- {label:'Infrastructure manifest',detail:'The concrete artifact-lineage ledger showing what reusable primitives earlier builds created and later builds actually imported.',path:'docs/infrastructure-manifest.json'}
+ {label:'Infrastructure manifest',detail:'The concrete artifact-lineage ledger showing what reusable primitives earlier builds created and later builds actually imported.',path:'docs/infrastructure-manifest.json'},
+ {label:'001–006 archive + media backfill certification',detail:'Exact certified head, CI run, deployed-preview verification, integration decision, and reusable infrastructure left forward before Build 007.',path:'docs/builds/001-006-archive-media-backfill-certification.md'}
 ];
 
 export const buildArchives:Record<string,BuildArchive>={
