@@ -114,5 +114,21 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'006 LinkedIn production record',detail:'Motion-film production record and media metadata.',path:'docs/builds/006-linkedin-production.md'},
   {label:'006 adversarial browser fixtures',detail:'Weak value → KEEP SIMPLE; high judgment/weak software advantage → SERVICE; durable data can → DATASET; local export; lifecycle/B-Web behavior.',path:'tests/build006.spec.ts'}],plans:[
   {label:'Final release package',detail:'Acceptance/release status is recorded only after the exact final-head Chromium/WebKit matrix earns it.'},
-  {label:'Next cycle',detail:'007 closes one-way product flow into a governed feedback loop; it should branch only after 006’s final release state is frozen.'}],sourceFiles:['apps/web/app/100-builds/006/a/SoftwareWorthinessLab.tsx','apps/web/app/100-builds/006/b/FormGateField.tsx','data/build-006-engine-v1.json','data/build-006-privacy-support-v1.json','data/build-006-freshness-performance-v1.json','docs/builds/006-linkedin-production.md','tests/build006.spec.ts']}
+  {label:'Next cycle',detail:'007 closes one-way product flow into a governed feedback loop; it should branch only after 006’s final release state is frozen.'}],sourceFiles:['apps/web/app/100-builds/006/a/SoftwareWorthinessLab.tsx','apps/web/app/100-builds/006/b/FormGateField.tsx','data/build-006-engine-v1.json','data/build-006-privacy-support-v1.json','data/build-006-freshness-performance-v1.json','docs/builds/006-linkedin-production.md','tests/build006.spec.ts'],
+ '007':{id:'007',title:'Feedback Loop Product Architecture',question:'How does feedback become accountable product improvement?',thesis:'A product learns only when use, outcomes, corrections, and unmet needs can reach a named human control, become a bounded change, be validated and communicated, and return to monitoring within explicit privacy limits.',research:[
+  {label:'Feedback-loop engine + evidence boundary',detail:'The event schema, governed stages, source classifications, inherited control primitive, and non-claims.',path:'data/build-007-engine-v1.json'},
+  {label:'Complete Build 007 archive',detail:'Observation, retained research, inheritance, decisions, rejected approaches, privacy, QA state, and forward lineage.',path:'docs/builds/007/ARCHIVE.md'},
+  {label:'Build 007 specification',detail:'Purpose, inputs, engine contract, acceptance criteria, and evidence requirements.',path:'docs/builds/007/SPEC.md'}],created:[
+  {label:'007-A feedback-loop architecture lab',detail:'Map four feedback event classes and test the controls required to turn signals into accountable improvements.',href:'/100-builds/007/a'},
+  {label:'007-B The Product That Learns',detail:'Interactive one-way, partial, governed, and urgent-correction loop states.',href:'/100-builds/007/b'},
+  {label:'Feedback Event Schema v1',detail:'Use, outcome, correction, and unmet-need events with source, affected group, urgency, and consent boundary.'},
+  {label:'Local feedback-loop JSON export',detail:'Preserves product, events, controls, assessment, inheritance, version, and limits.'}],decisions:[
+  {label:'Correction is first-class',detail:'A contest or repair signal is not buried in the ordinary request queue.'},
+  {label:'Build 001 is concretely inherited',detail:'The engine imports humanReviewScore and humanReviewGrade; person-present is not treated as governed.'},
+  {label:'Privacy can block closure',detail:'Missing consent-purpose confirmation or retention rules prevents the strongest assessment.'},
+  {label:'Collection is not learning',detail:'Validation and communication must occur before outcomes return to monitoring.'}],audits:[
+  {label:'Machine-readable archive',detail:'Structured lineage, decisions, rejected approaches, records, and limitations.',path:'data/build-007-archive-v1.json'},
+  {label:'Build 007 acceptance',detail:'Automated browser and release evidence will be recorded after the exact candidate head earns it.'}],plans:[
+  {label:'Release path',detail:'Complete Chromium/WebKit, accessibility, 320px, reduced-motion, archive, media, preview, and exact-head certification.'},
+  {label:'Future consumers',detail:'Canonical Builds 037, 086, and 087 explicitly inherit Build 007.'}],sourceFiles:['apps/web/app/100-builds/007/a/FeedbackLoopLab.tsx','apps/web/app/100-builds/007/b/GovernedLoopField.tsx','packages/release/src/decision-engines.ts','data/build-007-engine-v1.json','data/build-007-archive-v1.json','docs/builds/007/SPEC.md','docs/builds/007/ARCHIVE.md','tests/build007.spec.ts']}
 };
