@@ -37,3 +37,15 @@ Secrets, private credentials, personal data, privileged/confidential client mate
 
 ## Release integration
 Beginning with Build 007, archive completeness is a standing release requirement. A cycle should not move to its final public state while material build knowledge remains only in chat, local runtime storage, or an unlinked repository file.
+
+## Required cycle-start scaffold
+Beginning with Build 007, start the durable record with:
+
+```bash
+pnpm scaffold:archive 007 "Build title"
+```
+
+The command creates both a human-readable working archive record and a machine-readable archive ledger, refuses to overwrite an existing record, and includes all required archive, media, lineage, limitation, and certification fields. These records must be updated during research, planning, building, media generation, and audit—not reconstructed after release.
+
+The scaffold is an intake boundary, not evidence of completion. Release still requires public archive registration, allowlisted full records where appropriate, durable A/B/media artifacts, current canonical source paths, and an exact-head Chromium/WebKit certification.
+
