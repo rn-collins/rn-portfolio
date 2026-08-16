@@ -1,4 +1,4 @@
-# RN Builds — Release Standard v1.0
+# RN Builds — Release Standard v1.1
 
 Status: REQUIRED / applies to every numbered build before the next cycle begins
 
@@ -131,7 +131,16 @@ Required record before moving to next number:
 - Final saveable proposition/payload.
 - File/production spec linked from the release record.
 
-## 16. Final adversarial question
+## 16. Archive-completeness gate
+- `/100-builds/{id}/archive` exists for every active cycle and is reachable from the build room.
+- Material research/evidence, architecture decisions, rejected approaches, technological-ceiling decisions, created artifacts, audit/release evidence, media metadata, lineage, source paths, limitations, and consequential forward plans are retained there in understandable form.
+- `/100-builds/archive` preserves the program-level syllabus, feasibility/strategy/canon audits, design/release standards, lineage architecture and archive policy.
+- No material build fact should be recoverable only from chat history, local runtime storage, or an unlinked working file.
+- The archive includes a canonical implementation/source inventory without exposing secrets, credentials, privileged/confidential material, or unnecessary personal data.
+- Required media derivatives are downloadable from the build/archive surface once durable ingest is complete.
+- Full requirements are defined in `docs/build-archive-standard-v1.md`.
+
+## 17. Final adversarial question
 Before release, answer:
 “If a senior product engineer, creative technologist, accessibility specialist, security/privacy reviewer, domain expert, researcher, and skeptical first-time user each inspected this today, is there a materially stronger relevant feasible implementation or a category of evidence/QA we have simply failed to perform?”
 
