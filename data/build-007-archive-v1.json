@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0.0",
+  "build": "007",
+  "title": "Feedback Loop Product Architecture",
+  "status": "IN THE LAB",
+  "version": "007.1.0",
+  "job": "Design how use, corrections, outcomes and unmet needs improve a product over time.",
+  "inherits": [
+    {
+      "build": "001",
+      "capability": "humanReviewScore + humanReviewGrade",
+      "implementation": "packages/release/src/decision-engines.ts"
+    }
+  ],
+  "creates": [
+    "Feedback Event Schema v1",
+    "Feedback Loop Assessment Engine v1",
+    "Improvement Backlog Rules v1",
+    "Governed Loop Field"
+  ],
+  "eventKinds": [
+    "use",
+    "outcome",
+    "correction",
+    "unmet-need"
+  ],
+  "stages": [
+    "capture",
+    "qualify",
+    "route",
+    "human-decide",
+    "change",
+    "validate",
+    "communicate",
+    "monitor"
+  ],
+  "decisions": [
+    "urgent corrections precede ordinary requests",
+    "consent and retention block governed status",
+    "human authority and capacity are explicit",
+    "validation and communication precede monitoring"
+  ],
+  "rejected": [
+    "generic feedback form",
+    "dashboard without authority",
+    "opaque automatic prioritization",
+    "decorative closed loop",
+    "individual surveillance"
+  ],
+  "records": [
+    "docs/builds/007/SPEC.md",
+    "docs/builds/007/ARCHIVE.md",
+    "data/build-007-engine-v1.json"
+  ],
+  "limitations": [
+    "not proof of product quality, safety, compliance, demand, causality or representativeness",
+    "no model training, analytics connection, ranking or deployment",
+    "consent field is not a legal determination"
+  ],
+  "futureConsumers": [
+    "037",
+    "086",
+    "087"
+  ]
+}
