@@ -12,8 +12,9 @@
     "lint": "turbo lint",
     "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm validate:lineage && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
-    "scaffold:archive": "node scripts/scaffold-build-archive.mjs"
+    "ci": "pnpm validate:lineage && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
+    "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs"
   },
   "devDependencies": {
     "@playwright/test": "latest",
