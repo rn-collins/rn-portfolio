@@ -1,6 +1,6 @@
 # Build 005 — Release Record
 
-Status: IN THE LAB / automated release package in progress
+Status: AUTOMATED RELEASE CERTIFIED / manual physical-device checks remain explicit
 
 Version: 005.1.0
 Date: 2026-08-16
@@ -26,6 +26,21 @@ Implemented:
 
 ## B-Web — Service Path Split
 Implemented as an interactive explanatory master rather than a recording of A. Scenario controls change the conditions around one service and reveal how the path separates into software candidates, expert judgment, and removable work. The argument remains understandable in text and is not dependent on animation alone.
+
+## B-LinkedIn
+A real silent-first 4:5 MP4 has been generated from the explanatory mechanism rather than recorded from B-Web.
+
+Production record: `docs/builds/005-linkedin-production.md`
+
+Recorded asset spec:
+- 720 × 900;
+- H.264 MP4;
+- 24 fps;
+- 18 seconds;
+- no audio;
+- SHA-256 `3ae0f0d33b514a167eefbbbd3f23804f6f6997d2701027c2da6025830e6810fc`.
+
+Opening, split-state, gate-state and final frames were generated and sampled in the production runtime. Physical phone-size playback/platform-compression QA and repository/media transfer remain manual.
 
 ## Technological-ceiling review
 Evaluated stronger-looking approaches:
@@ -55,7 +70,7 @@ Release fixtures cover:
 - JSON export is explicit and local;
 - B-Web scenario controls change the visual/service-path state while preserving the explanatory argument.
 
-The implementation candidate passed install, lineage, typecheck, lint, production build and browser installation repeatedly. The most recent pre-release browser run reached 114/118, with all four failures caused by Playwright strict-mode ambiguity between a selector badge and the actual disposition heading. That test locator has been corrected to the semantic disposition heading. A fresh full certification run on the final lifecycle/public-record/lineage package must pass before `releaseEngineering` or `adversarialFinal` become PASS.
+The final frozen release-package candidate passed the complete automated release pipeline in GitHub Actions run `31928444353` on commit `adaed223a9f649ed6ed79166339c7334071bdd0c`: dependency installation, lineage validation, typecheck, lint, production build, Chromium/WebKit installation, and the complete Playwright E2E matrix all passed. The earlier strict-mode failures were test-locator ambiguity between selector badges and disposition headings; the correction targeted the semantic heading and the final candidate passed with no remaining automated blocker.
 
 ## Accessibility / interaction QA
 A and B use native controls and text labels. Automated browser coverage includes Chromium and WebKit. Physical-device, touch, zoom, screen-reader and visual acceptance remain manual and are not represented as automated WCAG certification.
@@ -83,12 +98,14 @@ Concrete artifact created:
 No thematic similarity is counted as lineage.
 
 ## Discoverability / metadata
-005-A and 005-B have distinct titles, descriptions, canonical routes, OpenGraph and Twitter metadata. The canonical registry now exposes Build 005 as `IN THE LAB`, alongside 004, while 001–003 remain `ON VIEW` and later builds remain `COMING NEXT`.
+005-A and 005-B have distinct titles, descriptions, canonical routes, OpenGraph and Twitter metadata. The canonical registry exposes Build 005 as `IN THE LAB`, alongside 004, while 001–003 remain `ON VIEW` and later builds remain `COMING NEXT`.
 
-## Remaining release gates
-- full final-head CI after lifecycle/public-record/lineage/release-package changes;
-- final automated adversarial review after that green run;
-- B-LinkedIn feed-native MP4 generation, hash/spec record, sampled-frame QA, and physical phone playback QA;
-- physical-device/manual accessibility, touch, zoom/screen-reader and visual acceptance.
+## Automated adversarial conclusion
+The final automated pass found no remaining product blocker. Earlier failures were narrowed to ambiguous selectors in the test harness rather than classifier behavior; those selectors were corrected to the semantic disposition headings, and the final frozen release-package candidate passed the complete Chromium/WebKit E2E matrix.
 
-These are intentionally represented as open gates rather than implied completion.
+## Remaining manual/device requirements
+- physical-device/manual accessibility, touch, zoom/screen-reader and visual acceptance;
+- physical phone-size playback/platform-compression QA for B-LinkedIn;
+- repository/media transfer of the generated MP4 when a binary-capable authenticated write path is available.
+
+These remaining requirements are intentionally represented as manual/device work rather than hidden or falsely automated. There is no remaining `BLOCKING` automated gate in the Build 005 acceptance matrix.
