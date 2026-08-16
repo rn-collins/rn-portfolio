@@ -1,0 +1,2 @@
+.room{box-sizing:border-box;width:100%;max-width:100%;overflow-x:clip}.room *{box-sizing:border-box;min-width:0}.room h1,.room h2,.room h3,.room p,.room span,.room small,.room b,.room strong,.room a,.room button,.room label,.room li{overflow-wrap:anywhere;word-break:break-word}.room input,.room textarea,.room select{box-sizing:border-box;max-width:100%;min-width:0}
+@supports not (overflow:clip){.room{overflow-x:hidden}}
