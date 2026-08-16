@@ -50,7 +50,8 @@ export const publicArchiveDocuments=[
  'docs/builds/006-linkedin-production.md',
  'tests/build006.spec.ts',
  'data/linkedin-film-specs-v1.json',
- 'docs/builds/linkedin-media-manifest-v2.json'
+ 'docs/builds/linkedin-media-manifest-v2.json',
+ 'docs/builds/001-006-archive-media-backfill-certification.md'
 ] as const;
 
 export const publicArchiveDocumentSet=new Set<string>(publicArchiveDocuments);
