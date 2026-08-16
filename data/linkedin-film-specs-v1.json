@@ -1,0 +1,55 @@
+{
+  "schemaVersion":"1.0",
+  "canvas":{"width":720,"height":900,"fps":24,"secondsPerScene":3},
+  "design":{"background":"#f4f1e9","ink":"#111111","highlight":"#d6ff45","fontFamily":"DejaVu Sans","language":"silent-first"},
+  "builds":[
+    {"id":"001","title":"Human Review Design Framework","final":"A HUMAN IS A CONTROL ONLY IF THEY CAN CHANGE THE OUTCOME.","scenes":[
+      {"eyebrow":"BUILD 001","headline":"HUMAN IN THE LOOP?","body":"That phrase hides the part that matters."},
+      {"eyebrow":"ASK 01","headline":"WHEN DO THEY SEE IT?","body":"Before the decision, while it can still change—not after the consequence."},
+      {"eyebrow":"ASK 02","headline":"WHAT CAN THEY SEE?","body":"Evidence, uncertainty, alternatives and what the system actually did."},
+      {"eyebrow":"ASK 03","headline":"WHAT CAN THEY DO?","body":"Approve is not enough. Change, stop, escalate and record must be real powers."},
+      {"eyebrow":"THE ARCHITECTURE","headline":"TIMING · EVIDENCE · AUTHORITY · ESCALATION · RECORD","body":"Human presence becomes meaningful only when these controls work together."},
+      {"eyebrow":"SAVE THIS","headline":"DESIGN THE REVIEW, NOT THE LABEL.","body":"Test whether the reviewer can actually change or stop the outcome."}
+    ]},
+    {"id":"002","title":"Multi-Audience Meaning Architecture","final":"CHANGE THE LANGUAGE. KEEP THE TRUTH ANCHORED.","scenes":[
+      {"eyebrow":"BUILD 002","headline":"ONE IDEA. MANY AUDIENCES.","body":"Adaptation is useful only if the factual core survives."},
+      {"eyebrow":"SOURCE TRUTH","headline":"LOCK WHAT MUST NOT MOVE.","body":"Numbers · names · uncertainty · negation · material facts."},
+      {"eyebrow":"TRANSFORM","headline":"CHANGE THE EXPLANATION.","body":"Register, context, examples and vocabulary may move for the audience."},
+      {"eyebrow":"VERIFY","headline":"CHECK DRIFT SEPARATELY.","body":"Fluency is not evidence that a rewrite preserved meaning."},
+      {"eyebrow":"BOUNDARY","headline":"AN ANCHOR CHECK IS AN ALARM—NOT PROOF.","body":"Consequential multilingual or domain communication still requires competent review."},
+      {"eyebrow":"SAVE THIS","headline":"TRUTH FIRST. AUDIENCE SECOND. VERIFY THIRD.","body":"Never let the rewrite become its own source of truth."}
+    ]},
+    {"id":"003","title":"Unserved Decision Discovery","final":"MORE INFORMATION DOES NOT FIX A MISSING DECISION SYSTEM.","scenes":[
+      {"eyebrow":"BUILD 003","headline":"THEY HAVE INFORMATION.","body":"But they still cannot reliably decide what to do."},
+      {"eyebrow":"LOOK FOR","headline":"THE UNRESOLVED DECISION.","body":"Name the recurring choice—not the content category around it."},
+      {"eyebrow":"TEST THE GAP","headline":"RECURRENCE · CONSEQUENCE · AMBIGUITY · FRAGMENTATION","body":"Four signals make the missing decision structure inspectable."},
+      {"eyebrow":"DO NOT CLAIM","headline":"A SCORE IS NOT DEMAND.","body":"It does not prove willingness to pay, product-market fit or solution correctness."},
+      {"eyebrow":"THE OPPORTUNITY","headline":"BUILD THE DECISION PATH.","body":"Turn scattered information into an accountable way to choose and act."},
+      {"eyebrow":"SAVE THIS","headline":"FIND THE DECISION PEOPLE STILL CANNOT MAKE.","body":"Then investigate whether a system—not more content—is what is missing."}
+    ]},
+    {"id":"004","title":"Manual Intelligence Engine","final":"AUTOMATE THE METHOD ONLY AFTER YOU CAN SEE THE METHOD.","scenes":[
+      {"eyebrow":"BUILD 004","headline":"A PILE OF SOURCES IS NOT INTELLIGENCE.","body":"The transformation happens through explicit gates."},
+      {"eyebrow":"01 · COLLECT","headline":"REGISTER THE SOURCE.","body":"Issuer · version · source date · checked date · exact locator."},
+      {"eyebrow":"02 · SEPARATE","headline":"SOURCE ≠ ANALYST CLAIM.","body":"Interpretation gets its own object instead of silently inheriting provenance."},
+      {"eyebrow":"03 · VERIFY","headline":"UNVERIFIED STAYS OUT.","body":"Verified requires a note; contradiction and uncertainty remain visible."},
+      {"eyebrow":"04 · BRIEF","headline":"SYNTHESIS FOLLOWS STATUS.","body":"The brief cannot quietly promote unchecked assertions into findings."},
+      {"eyebrow":"SAVE THIS","headline":"COLLECT → SEPARATE → VERIFY → BRIEF","body":"Make the research method inspectable before automating any part of it."}
+    ]},
+    {"id":"005","title":"Service-to-Software Discovery","final":"MAP THE WORK BEFORE YOU AUTOMATE IT.","scenes":[
+      {"eyebrow":"BUILD 005","headline":"DON’T AUTOMATE THE SERVICE.","body":"Separate the steps first."},
+      {"eyebrow":"ONE SERVICE","headline":"THREE FUTURES.","body":"AUTOMATE · KEEP HUMAN · REMOVE"},
+      {"eyebrow":"REMOVE","headline":"LOW-VALUE REPETITION FIRST.","body":"Do not automate waste just because it repeats."},
+      {"eyebrow":"KEEP HUMAN","headline":"PROTECT JUDGMENT.","body":"High consequence, ambiguity and exception-heavy work can remain human-led."},
+      {"eyebrow":"AUTOMATE","headline":"PROTOTYPE STABLE RULES.","body":"Automation is a candidate disposition—not a deployment approval."},
+      {"eyebrow":"SAVE THIS","headline":"SOFTWARE / HUMAN / GONE","body":"A better workflow can contain all three."}
+    ]},
+    {"id":"006","title":"Does This Actually Deserve to Be Software?","final":"BUILD THE FORM THE PROBLEM EARNS.","scenes":[
+      {"eyebrow":"BUILD 006","headline":"SOFTWARE IS NOT THE DEFAULT.","body":"It is one form the problem may—or may not—earn."},
+      {"eyebrow":"ONE IDEA","headline":"FIVE POSSIBLE FORMS.","body":"SOFTWARE · SERVICE · DATASET · COMPANY · KEEP SIMPLE"},
+      {"eyebrow":"PASS THE GATES","headline":"VALUE · BUYER · ADVANTAGE · MAINTENANCE","body":"Then inspect judgment, durable data and scale."},
+      {"eyebrow":"CHANGE THE EVIDENCE","headline":"THE FORM SHOULD MOVE.","body":"More expert judgment can point to service. Durable evidence can point to dataset."},
+      {"eyebrow":"THE CEILING","headline":"IS NOT MORE TECH.","body":"It is the strongest appropriate system the problem can justify."},
+      {"eyebrow":"SAVE THIS","headline":"KEEP SIMPLE IS A VALID RESULT.","body":"A sophisticated evaluation can conclude that software is unnecessary."}
+    ]}
+  ]
+}
