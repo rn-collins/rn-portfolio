@@ -52,8 +52,19 @@ Build 007 concretely imports Build 001's `humanReviewScore` and `humanReviewGrad
 ## Privacy and security
 State is local and ephemeral. Export is user-initiated. The interface warns against personal, identifying, confidential, or sensitive feedback. Real deployments require domain-specific consent, access, deletion, security, incident, and legal review.
 
-## QA state
-Implementation is in progress. Automated Chromium/WebKit, responsive 320px, accessibility, reduced-motion, archive exposure, media, deployed-preview, and exact-head certification evidence must be added before release claims.
+## QA and certification state
+Certified candidate head: `d94710dd845830ba09e0da3252392f606e260be0`.
+
+- GitHub Actions run `31951100932`: SUCCESS.
+- 180/180 Playwright tests passed across desktop Chromium and mobile WebKit.
+- Lineage, archive scaffold, typecheck, lint, and production build passed.
+- Exact Vercel deployment: `rn-portfolio-jr127li0b-rn-collins.vercel.app` (`dpl_EzBykCgYwRa8FeM25VqtuitieHPq`, READY).
+- Deployed 007 room, A/B artifacts, governed and urgent-correction states, archive source, and non-allowlisted 404 boundary were verified.
+- Canonical film: 720×900, 24 fps, 18 seconds, 207,906 bytes.
+- Film SHA-256: `60bcb7fb74d641c9df7f8139daa0da7c120c2502c6378d636237de7b452a4a01`.
+- Deployed room exposes the real film download and canonical MP4 URL.
+
+Automated certification does not replace native LinkedIn transcoding/upload review or separately required physical-phone/manual accessibility review.
 
 ## Forward lineage
 Canonical future consumers: Builds 037, 086, and 087.
