@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "build": "007",
+  "storage": "local ephemeral React state",
+  "networkRequired": false,
+  "thirdPartyAnalytics": false,
+  "export": "user-initiated JSON download",
+  "inputWarning": "Do not enter personal, identifying, confidential, or sensitive feedback.",
+  "minimization": [
+    "product description",
+    "event description",
+    "source category",
+    "affected group category",
+    "urgency",
+    "purpose/consent confirmation",
+    "governance controls"
+  ],
+  "notCollected": [
+    "identity",
+    "account",
+    "email",
+    "device fingerprint",
+    "location",
+    "individual behavior history"
+  ],
+  "limits": [
+    "checkbox does not establish legally valid consent",
+    "real deployment requires domain-specific access, deletion, security, incident, and legal review"
+  ],
+  "support": [
+    "semantic labels and fieldsets",
+    "keyboard-operable native controls",
+    "responsive 320px layout",
+    "reduced-motion CSS"
+  ]
+}
