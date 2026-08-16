@@ -1,0 +1,14 @@
+{
+  "schemaVersion":"1.0",
+  "build":"005",
+  "checkedAt":"2026-08-16",
+  "core":{"processing":"browser client","externalNetworkRequired":false,"accountRequired":false,"experimentalApiRequired":false},
+  "inputs":["service-step name","service-step description","nine numeric classification signals"],
+  "transmission":"none by Build 005 core code",
+  "persistence":"React state only; no build-specific storage path",
+  "logging":"no build-specific external telemetry path",
+  "exportShare":"explicit local JSON download only; no URL share or server upload",
+  "securityBoundary":"The classifier has no external tools, actions, network retrieval, or model-generated output. Dispositions remain product heuristics and cannot authorize deployment or removal by themselves.",
+  "support":"Core path depends only on standard browser HTML/JS; Chromium and WebKit are covered by automated release testing; physical-device/manual acceptance remains separate.",
+  "warnings":["Do not enter restricted or confidential information unless you are authorized to process it on the current device/browser.","AUTOMATE, KEEP HUMAN and REMOVE are discovery candidates, not binding operational decisions."]
+}
