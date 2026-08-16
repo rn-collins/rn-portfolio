@@ -2,32 +2,43 @@
   "schemaVersion":"1.0",
   "standard":"docs/gallery-public-release-standard.md",
   "branch":"workstream/gallery-public-release",
-  "checkedAt":"2026-08-15",
+  "checkedAt":"2026-08-16",
+  "certification":{
+    "result":"PASS",
+    "certifiedCodeHead":"5a7fecb0cf43e6f78719b7982bd8f269cd1c9dc1",
+    "workflowRun":31917374407,
+    "workflowJob":95091431113,
+    "scope":"Permanent public exhibition shell and automated public-release gates; individual numbered-build release status remains governed by each build lifecycle."
+  },
   "gates":{
     "truthfulLifecycle":"PASS",
     "informationArchitecture":"PASS",
     "publicComprehension":"PASS",
     "visualSystem":"PASS",
-    "responsiveAutomated":"BLOCKING",
-    "accessibilityAutomated":"BLOCKING",
+    "responsiveAutomated":"PASS",
+    "accessibilityAutomated":"PASS",
     "accessibilityManual":"DEVICE_MANUAL",
     "metadata":"PASS",
     "navigationErrors":"PASS",
     "conversionPath":"PASS",
     "futureCycleAutomation":"PASS",
-    "releaseEngineering":"BLOCKING",
+    "releaseEngineering":"PASS",
     "manualDeviceSocialPreview":"DEVICE_MANUAL",
-    "finalAdversarial":"BLOCKING"
+    "finalAdversarial":"PASS"
   },
   "basis":{
     "truthfulLifecycle":"CanonicalBuild.publicState is the single public lifecycle field: OnView, InLab, ComingNext. Gallery cards and build rooms render from it.",
     "informationArchitecture":"Entrance, gallery, build rooms, active A/B artifacts, public record, lineage, practice/contact, and future-room paths are explicitly linked.",
     "publicComprehension":"Gallery explains A / THE THING, B / THE STORY and THE RECORD and explicitly says no technical training is required.",
     "visualSystem":"Entrance, gallery and build-room public surfaces use the Exhibition Space Arial/sans + mono language; legacy Georgia styling was removed from these public shell surfaces.",
+    "responsiveAutomated":"Full Playwright certification passed representative gallery widths including 320, 390, 768 and 1280 CSS px, plus narrow entrance, practice, Build 004 and future-room routes and pathological Build 004 user strings.",
+    "accessibilityAutomated":"Chromium and WebKit certification passed automated accessible-name, keyboard-focus, non-overflow and relevant interaction checks across the public shell and active build surfaces.",
     "metadata":"Entrance and gallery have canonical/social metadata; build-room metadata is registry driven; A/B metadata remains build-specific.",
-    "navigationErrors":"Global not-found route returns visitors to /100-builds.",
-    "conversionPath":"/practice provides a public LinkedIn contact link and a route back to the exhibition.",
+    "navigationErrors":"Global not-found route returns visitors to /100-builds/.",
+    "conversionPath":"/practice/ provides a public LinkedIn contact link and a route back to the exhibition.",
     "futureCycleAutomation":"Progress counts, current lab build and entrance status derive from registry lifecycle rather than hard-coded numbers.",
-    "automationPending":"tests/gallery-public-release.spec.ts must pass on Chromium and WebKit together with the existing platform suite before automated/responsive/release gates move to PASS."
+    "releaseEngineering":"GitHub Actions run 31917374407 on code head 5a7fecb0cf43e6f78719b7982bd8f269cd1c9dc1 passed lineage validation, typecheck, lint, production build, Chromium/WebKit browser installation and the complete Playwright certification suite.",
+    "finalAdversarial":"The release pass repaired stale lifecycle assertions, canonical trailing-slash expectations, narrow-screen overflow, Build 004 provenance scoping, verification invariants and Safari textarea state handling, then reran the complete cross-browser suite to green.",
+    "manualAcceptanceBoundary":"Physical-device, screen-reader, touch/zoom and rendered third-party social-preview inspection are explicitly retained as DEVICE_MANUAL and are not represented as automated PASS."
   }
 }
