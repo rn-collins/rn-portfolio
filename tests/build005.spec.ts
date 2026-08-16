@@ -12,14 +12,16 @@ test.describe('Build 005 service-to-software discovery',()=>{
   await page.goto('/100-builds/005/a');
   const stepSelector=page.getByRole('complementary',{name:'Service steps'});
   await stepSelector.getByRole('button',{name:/Copy status into a second tracker/}).click();
-  await expect(page.locator('section').filter({hasText:'CANDIDATE DISPOSITION'}).getByText('REMOVE',{exact:true})).toBeVisible();
+  const disposition=page.locator('section').filter({hasText:'CANDIDATE DISPOSITION'}).getByRole('heading',{name:'REMOVE',exact:true});
+  await expect(disposition).toBeVisible();
   await expect(page.getByText(/automate waste rather than remove it/i)).toBeVisible();
  });
  test('high judgment work stays human',async({page})=>{
   await page.goto('/100-builds/005/a');
   const stepSelector=page.getByRole('complementary',{name:'Service steps'});
   await stepSelector.getByRole('button',{name:/Interpret unusual facts/}).click();
-  await expect(page.locator('section').filter({hasText:'CANDIDATE DISPOSITION'}).getByText('KEEP HUMAN',{exact:true})).toBeVisible();
+  const disposition=page.locator('section').filter({hasText:'CANDIDATE DISPOSITION'}).getByRole('heading',{name:'KEEP HUMAN',exact:true});
+  await expect(disposition).toBeVisible();
   await expect(page.getByText(/Expert judgment is central/i)).toBeVisible();
  });
  test('new steps start as inspectable candidates and export is local',async({page})=>{
