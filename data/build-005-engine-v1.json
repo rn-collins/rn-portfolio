@@ -1,0 +1,29 @@
+{
+  "build":"005",
+  "engineVersion":"005.1.0",
+  "classification":"product-heuristic",
+  "inherits":{"build":"003","engineVersion":"003.1.0","primitive":"decisionGapScore"},
+  "dispositions":["AUTOMATE","KEEP HUMAN","REMOVE"],
+  "rules":{
+    "remove":"value <= 2",
+    "keepHuman":"judgment >= 4 OR exceptions >= 4 OR (consequence >= 4 AND ambiguity >= 4)",
+    "automate":"repeatability >= 4 AND ruleClarity >= 4 AND frequency >= 3, after remove/human guards",
+    "fallback":"KEEP HUMAN"
+  },
+  "signals":["frequency","consequence","ambiguity","fragmentation","value","repeatability","ruleClarity","judgment","exceptions"],
+  "invariants":[
+    "low-value repetition is not an automation opportunity",
+    "high-judgment or high-exception work cannot be classified AUTOMATE by the current rule set",
+    "high consequence plus high ambiguity stays human",
+    "AUTOMATE means prototype/investigate, not deploy",
+    "REMOVE means validate elimination, not silently delete work",
+    "the Build 003 decision-gap score remains visible as inherited context rather than hidden inside the disposition"
+  ],
+  "limitations":[
+    "not a validated ROI model",
+    "not a legal, safety, labor, or procurement approval",
+    "does not establish customer demand or willingness to pay",
+    "does not account for implementation cost, integration feasibility, or change management",
+    "heuristic thresholds require domain validation before consequential use"
+  ]
+}
