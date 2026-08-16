@@ -19,7 +19,7 @@
     "lineage":"PASS",
     "metadata":"PASS",
     "releaseEngineering":"BLOCKING",
-    "bLinkedIn":"BLOCKING",
+    "bLinkedIn":"DEVICE_MANUAL",
     "adversarialFinal":"BLOCKING"
   },
   "basis":{
@@ -35,8 +35,8 @@
     "lineage":"docs/infrastructure-manifest.json records exact Exhibition Room Shell reuse and direct decisionGapScore/decisionGapTier import from Build 003.",
     "metadata":"005-A and 005-B have distinct titles, descriptions, canonical routes, OpenGraph and Twitter metadata; the registry lifecycle now exposes Build 005 as IN THE LAB.",
     "releaseEngineering":"Current lifecycle/public-record/lineage head must pass lineage, typecheck, lint, production build and the complete Chromium/WebKit E2E matrix before this gate becomes PASS.",
-    "bLinkedIn":"No governed feed-native MP4 has yet been generated, hashed, visually sampled and recorded for Build 005.",
-    "adversarialFinal":"Final release adversarial pass remains open until the current full certification head is green and the feed artifact status is resolved.",
-    "manual":"Physical-device accessibility, touch/zoom/screen-reader and final visual acceptance remain manual rather than being represented as automated PASS."
+    "bLinkedIn":"A governed 720x900 H.264 silent-first MP4 was generated at 24 fps for 18 seconds, SHA-256 3ae0f0d33b514a167eefbbbd3f23804f6f6997d2701027c2da6025830e6810fc. Opening and final frames were directly inspected. Physical phone playback/platform-compression QA and repository/media transfer remain manual; see docs/builds/005-linkedin-production.md.",
+    "adversarialFinal":"Final release adversarial pass remains open until the current full certification head is green.",
+    "manual":"Physical-device accessibility, touch/zoom/screen-reader, final visual acceptance and LinkedIn phone playback remain manual rather than being represented as automated PASS."
   }
 }
