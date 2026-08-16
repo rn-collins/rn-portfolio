@@ -1,0 +1,9 @@
+{
+  "build":"006","engineVersion":"006.1.0","classification":"product-heuristic",
+  "inherits":[{"build":"003","primitive":"decisionGapScore"},{"build":"005","primitive":"form-before-automation boundary"}],
+  "candidateForms":["SOFTWARE","SERVICE","DATASET","COMPANY","KEEP SIMPLE"],
+  "signals":["frequency","consequence","ambiguity","fragmentation","value","softwareAdvantage","dataAsset","buyerClarity","maintenance","serviceJudgment","networkScale"],
+  "rules":{"keepSimple":"value <= 2 OR decisionGap < 35, plus fallback when no form-specific gate clears","service":"serviceJudgment >= 4 AND softwareAdvantage <= 3","dataset":"dataAsset >= 4 AND softwareAdvantage <= 3","company":"networkScale >= 4 AND buyerClarity >= 4 AND softwareAdvantage >= 4","software":"softwareAdvantage >= 4 AND frequency >= 3 AND buyerClarity >= 3 AND maintenance <= 3"},
+  "invariants":["software is one candidate form, not the default","weak-value or weak-gap ideas stay simple","expert judgment can make service stronger than software","a durable data asset can be the product even when an interface is not","SOFTWARE and COMPANY mean investigate/prototype, not launch","maintenance and buyer clarity remain visible challenges rather than hidden after classification"],
+  "limitations":["not a validated product-market-fit model","not a market-size, ROI, investment, legal, procurement, safety, labor, or technical-feasibility approval","thresholds require domain validation before consequential use"]
+}
