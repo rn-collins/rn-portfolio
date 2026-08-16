@@ -4,13 +4,13 @@ import s from './gallery.module.css';
 
 export default function BuildsPage(){
   return <main className={s.page}>
-    <header className={s.mast}><Link href="/">RN COLLINS / EXHIBITION</Link><span>ROOM 01 — THE 100</span><span>FUNCTIONAL SYSTEMS + VISUAL BUILDS</span></header>
+    <header className={s.mast}><Link href="/">RN COLLINS / EXHIBITION</Link><span>ROOM 01 — THE 100</span><Link href="/100-builds/archive">PROGRAM ARCHIVE →</Link></header>
     <section className={s.intro}>
       <div><h1>THE 100<em>main gallery.</em></h1></div>
-      <div><p>One hundred numbered builds, ordered so technical capability compounds rather than resets.</p><small>Every build has two primary parts:<br/>A / THE THING — a functional tool, system, experiment, or experience<br/>B / THE STORY — an interactive visual build, with a silent-first LinkedIn MP4 derived from the same idea<br/><br/>You do not need technical training to enter. The first layer is for anyone; deeper evidence, methods, and technical detail are available when you want them.<br/><br/>Builds remain marked PLANNED until their cycle enters production.</small></div>
+      <div><p>One hundred numbered builds, ordered so technical capability compounds rather than resets.</p><small>Every active build has three durable layers:<br/>A / THE THING — a functional tool, system, experiment, or experience<br/>B / THE STORY — an interactive visual build, with a silent-first LinkedIn MP4 derived from the same idea<br/>ARCHIVE / THE RECORD — research, planning, evidence, decisions, audits, media, lineage, source paths and forward dependencies<br/><br/>You do not need technical training to enter. The first layer is for anyone; deeper evidence, methods, technical detail and the complete archive are available when you want them.<br/><br/>The gallery is the system of record. Conversation can help create the work, but the work is retained here.</small></div>
     </section>
     <section className={s.floor}>
-      <div className={s.legend}><span>ON VIEW — released or active work</span><span>PLANNED — frozen future build</span><span>OPEN A BUILD TO SEE THE QUESTION / THING / STORY / PROCESS / EVIDENCE / LINEAGE</span></div>
+      <div className={s.legend}><span>ON VIEW — released work</span><span>IN THE LAB — working + being certified</span><span>COMING NEXT — frozen future cycle</span><span>OPEN A BUILD FOR THING / STORY / ARCHIVE / EVIDENCE / LINEAGE</span></div>
       <Exhibition />
     </section>
   </main>;
