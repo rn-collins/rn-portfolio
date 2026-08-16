@@ -1,0 +1,7 @@
+{
+  "build":"006",
+  "version":"1.0",
+  "dataHandling":{"networkRequired":false,"serverPersistence":false,"thirdPartyModelRequired":false,"export":"explicit local JSON download only","shareState":false},
+  "privacyNotes":["Idea text and slider state remain in the browser during use.","No analytics or telemetry dependency is required for first value.","Export occurs only after the user activates EXPORT RECORD."],
+  "support":{"coreFallback":"standard HTML controls plus deterministic local logic","experimentalDependencies":[]}
+}
