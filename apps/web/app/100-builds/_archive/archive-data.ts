@@ -128,7 +128,9 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Privacy can block closure',detail:'Missing consent-purpose confirmation or retention rules prevents the strongest assessment.'},
   {label:'Collection is not learning',detail:'Validation and communication must occur before outcomes return to monitoring.'}],audits:[
   {label:'Machine-readable archive',detail:'Structured lineage, decisions, rejected approaches, records, and limitations.',path:'data/build-007-archive-v1.json'},
-  {label:'Build 007 acceptance',detail:'Automated browser and release evidence will be recorded after the exact candidate head earns it.'}],plans:[
+  {label:'007 privacy/support record',detail:'Local-state privacy, minimization, export, and support boundary.',path:'data/build-007-privacy-support-v1.json'},
+  {label:'007 freshness/performance record',detail:'No-network/no-model core value, dependencies, freshness, and resilience.',path:'data/build-007-freshness-performance-v1.json'},
+  {label:'007 LinkedIn production record',detail:'Deterministic 4:5 film specification, checksum, reproduction, and verification boundary.',path:'docs/builds/007-linkedin-production.md'}],plans:[
   {label:'Release path',detail:'Complete Chromium/WebKit, accessibility, 320px, reduced-motion, archive, media, preview, and exact-head certification.'},
-  {label:'Future consumers',detail:'Canonical Builds 037, 086, and 087 explicitly inherit Build 007.'}],sourceFiles:['apps/web/app/100-builds/007/a/FeedbackLoopLab.tsx','apps/web/app/100-builds/007/b/GovernedLoopField.tsx','packages/release/src/decision-engines.ts','data/build-007-engine-v1.json','data/build-007-archive-v1.json','docs/builds/007/SPEC.md','docs/builds/007/ARCHIVE.md','tests/build007.spec.ts']}
+  {label:'Future consumers',detail:'Canonical Builds 037, 086, and 087 explicitly inherit Build 007.'}],sourceFiles:['apps/web/app/100-builds/007/a/FeedbackLoopLab.tsx','apps/web/app/100-builds/007/b/GovernedLoopField.tsx','packages/release/src/decision-engines.ts','data/build-007-engine-v1.json','data/build-007-archive-v1.json','docs/builds/007/SPEC.md','docs/builds/007/ARCHIVE.md','docs/builds/007-linkedin-production.md','data/build-007-privacy-support-v1.json','data/build-007-freshness-performance-v1.json','tests/build007.spec.ts']}
 };
