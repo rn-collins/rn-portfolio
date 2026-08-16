@@ -2,7 +2,9 @@
   "name": "rn-builds-platform",
   "private": true,
   "packageManager": "pnpm@11.21.0",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "turbo dev --filter=@rn/web",
     "build": "turbo build",
@@ -10,7 +12,8 @@
     "lint": "turbo lint",
     "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm validate:lineage && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e"
+    "ci": "pnpm validate:lineage && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "scaffold:archive": "node scripts/scaffold-build-archive.mjs"
   },
   "devDependencies": {
     "@playwright/test": "latest",
