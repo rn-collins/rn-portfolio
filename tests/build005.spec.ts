@@ -10,13 +10,15 @@ test.describe('Build 005 service-to-software discovery',()=>{
  });
  test('low-value repeated work remains removal candidate',async({page})=>{
   await page.goto('/100-builds/005/a');
-  await page.getByRole('button',{name:/Copy status into a second tracker/}).click();
+  const stepSelector=page.getByRole('complementary',{name:'Service steps'});
+  await stepSelector.getByRole('button',{name:/Copy status into a second tracker/}).click();
   await expect(page.locator('section').filter({hasText:'CANDIDATE DISPOSITION'}).getByText('REMOVE',{exact:true})).toBeVisible();
   await expect(page.getByText(/automate waste rather than remove it/i)).toBeVisible();
  });
  test('high judgment work stays human',async({page})=>{
   await page.goto('/100-builds/005/a');
-  await page.getByRole('button',{name:/Interpret unusual facts/}).click();
+  const stepSelector=page.getByRole('complementary',{name:'Service steps'});
+  await stepSelector.getByRole('button',{name:/Interpret unusual facts/}).click();
   await expect(page.locator('section').filter({hasText:'CANDIDATE DISPOSITION'}).getByText('KEEP HUMAN',{exact:true})).toBeVisible();
   await expect(page.getByText(/Expert judgment is central/i)).toBeVisible();
  });
