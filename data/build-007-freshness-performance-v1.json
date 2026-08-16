@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0.0",
+  "build": "007",
+  "engineVersion": "007.1.0",
+  "coreValue": {
+    "network": false,
+    "model": false,
+    "database": false,
+    "thirdPartyApi": false
+  },
+  "dependencies": [
+    "React/Next.js runtime",
+    "Build 001 humanReviewScore",
+    "Build 001 humanReviewGrade"
+  ],
+  "fallback": "All assessment logic is deterministic and client-local; public archive records are allowlisted static sources.",
+  "freshness": [
+    {
+      "record": "NIST AI RMF 1.0",
+      "checked": "2026-08-16",
+      "role": "governance grounding"
+    },
+    {
+      "record": "Microsoft Guidelines for Human-AI Interaction",
+      "checked": "2026-08-16",
+      "role": "interaction grounding"
+    },
+    {
+      "record": "GOV.UK Service Standard",
+      "checked": "2026-08-16",
+      "role": "iteration grounding"
+    },
+    {
+      "record": "W3C Privacy Principles",
+      "checked": "2026-08-16",
+      "role": "privacy grounding"
+    }
+  ],
+  "performance": {
+    "interactivePayload": "no model or remote data payload",
+    "media": "MP4 is optional downloadable derivative, not required for A/B interaction"
+  },
+  "limits": [
+    "source currency should be rechecked before consequential adaptation",
+    "product heuristics require representative user and domain validation"
+  ]
+}
