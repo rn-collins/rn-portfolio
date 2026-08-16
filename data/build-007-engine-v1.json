@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "007",
+  "engineVersion": "007.1.0",
+  "title": "Feedback Loop Product Architecture",
+  "purpose": "Design how use, outcomes, corrections, and unmet needs become governed product improvements rather than silent or unmanaged adaptation.",
+  "eventKinds": {
+    "use": "Observed interaction or adoption signal.",
+    "outcome": "Evidence about whether the product produced the intended result.",
+    "correction": "A user or reviewer identifies an error, harmful result, or needed override.",
+    "unmet-need": "A job, affected group, or condition the product does not yet serve."
+  },
+  "inheritedInfrastructure": [
+    {
+      "buildId": "001",
+      "capability": "Human Review Design Framework",
+      "implementation": "assessFeedbackLoop reuses humanReviewScore and humanReviewGrade so a feedback loop must specify trigger, evidence, authority, escalation, notification, validation, capacity, and records."
+    }
+  ],
+  "governedStages": [
+    "capture",
+    "qualify",
+    "route",
+    "decide",
+    "change",
+    "validate",
+    "communicate",
+    "monitor"
+  ],
+  "sources": [
+    {
+      "id": "007-nist-ai-rmf-v1",
+      "issuer": "NIST",
+      "title": "Artificial Intelligence Risk Management Framework 1.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "use": "Roles, oversight, measurement, monitoring, and risk-management lifecycle grounding.",
+      "classification": "primary-source-guidance"
+    },
+    {
+      "id": "007-ms-hai-guidelines",
+      "issuer": "Microsoft Research",
+      "title": "Guidelines for Human-AI Interaction",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf",
+      "use": "Granular feedback, correction, control, notification, and learning-over-time interaction grounding.",
+      "classification": "primary-research"
+    },
+    {
+      "id": "007-govuk-service-standard",
+      "issuer": "UK Government Digital Service",
+      "title": "Service Standard and performance-measurement guidance",
+      "url": "https://www.gov.uk/service-manual/service-standard",
+      "use": "Combine performance evidence with user research and iterate services frequently.",
+      "classification": "primary-government-guidance"
+    },
+    {
+      "id": "007-w3c-privacy-principles",
+      "issuer": "W3C",
+      "title": "Privacy Principles",
+      "url": "https://www.w3.org/TR/privacy-principles/",
+      "use": "Purpose limitation and data minimization for feedback and analytics capture.",
+      "classification": "web-standard-guidance"
+    }
+  ],
+  "productHeuristics": [
+    "Four event kinds are a coverage model, not a universal ontology.",
+    "String-completeness thresholds are interface heuristics, not proof of operational adequacy.",
+    "GOVERNED LOOP is a design-readiness signal, not a safety, legal, privacy, accessibility, or product-market-fit determination."
+  ],
+  "limitations": [
+    "No network, analytics vendor, model training, automated prioritization, or production deployment occurs.",
+    "Export remains local to the browser.",
+    "A real implementation requires domain validation, representative research, privacy review, security review, and accountable release authority."
+  ]
+}
