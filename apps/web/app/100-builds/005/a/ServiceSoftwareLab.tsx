@@ -1,6 +1,6 @@
 'use client';
 import {useMemo,useState} from 'react';
-import {decisionGapScore,decisionGapTier} from '../../../../../../../packages/release/src/decision-engines';
+import {decisionGapScore,decisionGapTier} from '../../../../../../packages/release/src/decision-engines';
 import s from './service-software.module.css';
 
 type Signals={frequency:number;consequence:number;ambiguity:number;fragmentation:number;value:number;repeatability:number;ruleClarity:number;judgment:number;exceptions:number};
