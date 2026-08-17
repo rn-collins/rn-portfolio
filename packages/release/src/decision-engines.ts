@@ -162,3 +162,28 @@ export const IDEA_SKELETON_PROVENANCE:ProvenanceRef[]=[
  {id:'010-w3c-prov-o',classification:'cross-source-synthesis'},
  {id:'010-skeleton-rubric',classification:'product-heuristic'}
 ];
+
+
+export const ENTITY_RESOLUTION_ENGINE_VERSION='011.1.0';
+export type ResolutionSignal={id:string;label:string;kind:'unique-id'|'exact-attribute'|'similar-attribute'|'relationship'|'conflict';weight:number;evidence:string;sourceAuthority:'self-asserted'|'credible'|'authoritative'};
+export type ResolutionRecord={id:string;entityType:string;label:string;source:string;attributes:Record<string,string>};
+export type EntityResolutionInput={left:ResolutionRecord;right:ResolutionRecord;signals:ResolutionSignal[];model:IdeaSkeleton;reviewer:string;rationale:string;minimized:boolean};
+export type EntityResolutionAssessment={status:'MERGE CANDIDATE'|'HUMAN REVIEW'|'KEEP SEPARATE';confidence:number;modelStatus:SkeletonAssessment['status'];supporting:string[];conflicts:string[];gaps:string[];engineVersion:string};
+export function assessEntityResolution(input:EntityResolutionInput):EntityResolutionAssessment{
+ const model=assessIdeaSkeleton(input.model);const complete=(v:string)=>v.trim().length>=6;
+ const supporting=input.signals.filter(s=>s.kind!=='conflict'&&complete(s.evidence));const conflicts=input.signals.filter(s=>s.kind==='conflict'&&complete(s.evidence));
+ const authority=(a:ResolutionSignal['sourceAuthority'])=>a==='authoritative'?1.25:a==='credible'?1:0.6;
+ const positive=supporting.reduce((n,s)=>n+s.weight*authority(s.sourceAuthority),0);const negative=conflicts.reduce((n,s)=>n+s.weight*authority(s.sourceAuthority),0);
+ const confidence=Math.max(0,Math.min(100,Math.round(50+positive-negative)));
+ const hardConflict=conflicts.some(s=>s.sourceAuthority==='authoritative'&&s.weight>=25);const uniqueSupport=supporting.some(s=>s.kind==='unique-id'&&s.sourceAuthority==='authoritative');
+ const reviewReady=complete(input.reviewer)&&complete(input.rationale)&&input.minimized;
+ const status:EntityResolutionAssessment['status']=hardConflict?'KEEP SEPARATE':confidence>=85&&uniqueSupport&&model.status==='VALID SKELETON'&&reviewReady?'MERGE CANDIDATE':confidence<=30&&conflicts.length?'KEEP SEPARATE':'HUMAN REVIEW';
+ const gaps:string[]=[];if(model.status!=='VALID SKELETON')gaps.push('Repair the inherited Build 010 entity skeleton before resolving records.');if(!supporting.length)gaps.push('Add source-linked supporting evidence.');if(!complete(input.reviewer)||!complete(input.rationale))gaps.push('Name the human reviewer and record the decision rationale.');if(!input.minimized)gaps.push('Minimize attributes to those necessary for resolution in this context.');
+ return {status,confidence,modelStatus:model.status,supporting:supporting.map(s=>s.label),conflicts:conflicts.map(s=>s.label),gaps,engineVersion:ENTITY_RESOLUTION_ENGINE_VERSION};
+}
+export const ENTITY_RESOLUTION_PROVENANCE:ProvenanceRef[]=[
+ {id:'011-nist-800-63a-4',classification:'cross-source-synthesis'},
+ {id:'011-nist-minimum-attributes',classification:'direct-source'},
+ {id:'010-skeleton-inheritance',classification:'product-heuristic'},
+ {id:'011-resolution-rubric',classification:'product-heuristic'}
+];
