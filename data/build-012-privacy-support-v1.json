@@ -1,0 +1,9 @@
+{
+  "build": "012",
+  "processing": "client-only",
+  "collection": [],
+  "storage": [],
+  "networkSubmission": false,
+  "export": "user-initiated local JSON",
+  "support": "Product heuristic; consult competent legal, risk, safety, civil-rights, and domain reviewers."
+}
