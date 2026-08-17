@@ -190,6 +190,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Browser fixtures',detail:'Valid, invalid, empty, export, lifecycle, 320px, stage and boundary tests.',path:'tests/build010.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
   {label:'Future consumers',detail:'011, 012, 016, 020, 023, 026, 027, 028, 029, 035, 044, 046, 075 and 099 consume cap:010.'}],sourceFiles:['apps/web/app/100-builds/010/a/IdeaSkeletonLab.tsx','apps/web/app/100-builds/010/b/SkeletonGraph.tsx','packages/release/src/decision-engines.ts','data/build-010-engine-v1.json','data/build-010-archive-v1.json','docs/builds/010/SPEC.md','docs/builds/010/ARCHIVE.md','tests/build010.spec.ts']}
+,
+ '011':{id:'011',title:'Entity / Ownership Resolution X-Ray',question:'When do two records refer to the same thing?',thesis:'Similarity is not identity. Resolution requires a valid entity model, source-linked support and conflict evidence, attribute minimization, and an accountable human decision record.',research:[
+  {label:'Resolution engine + evidence boundary',detail:'Signals, source authority, conflict behavior, inherited schema gate and non-claims.',path:'data/build-011-engine-v1.json'},
+  {label:'NIST SP 800-63A-4',detail:'Grounds contextual resolution, evidence validation and authoritative or credible sources.',href:'https://pages.nist.gov/800-63-4/sp800-63a.html'},
+  {label:'NIST identity-resolution implementation resource',detail:'Grounds minimum-necessary attributes and additional evidence for conflicts.',href:'https://pages.nist.gov/800-63-3-Implementation-Resources/63A/resolution/'}],created:[
+  {label:'011-A Entity / Ownership Resolution X-Ray',detail:'Compare records, toggle evidence and conflicts, validate the model, record review and export locally.',href:'/100-builds/011/a'},
+  {label:'011-B Same Name Is Not Same Entity',detail:'Three interactive resolution states with visible human authority.',href:'/100-builds/011/b'},
+  {label:'Entity Resolution Engine v1',detail:'Reusable merge-candidate, human-review and keep-separate assessment.'}],decisions:[
+  {label:'Build 010 is concretely inherited',detail:'The resolver directly calls assessIdeaSkeleton and blocks the strongest result when the entity model is invalid.'},
+  {label:'Authoritative conflicts dominate similarity',detail:'A hard conflict can keep records separate despite matching names or relationships.'},
+  {label:'The score never executes a merge',detail:'A named human records rationale, aliases, sources and rollback.'},
+  {label:'Minimization is a gate',detail:'Unnecessary identifying attributes prevent the strongest assessment.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy and consumers.',path:'data/build-011-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local state and minimization boundary.',path:'data/build-011-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Offline operation and record-freshness rule.',path:'data/build-011-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Merge, conflict, review, reset, export, lifecycle, 320px and B-state coverage.',path:'tests/build011.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
+  {label:'Future consumers',detail:'021, 026, 027, 041, 046, 056, 060, 062, 082, 084, 085, 088 and 099 consume cap:011.'}],sourceFiles:['apps/web/app/100-builds/011/a/EntityResolutionLab.tsx','apps/web/app/100-builds/011/b/IdentityField.tsx','packages/release/src/decision-engines.ts','data/build-011-engine-v1.json','data/build-011-archive-v1.json','docs/builds/011/SPEC.md','docs/builds/011/ARCHIVE.md','tests/build011.spec.ts']}
 
 
 };
