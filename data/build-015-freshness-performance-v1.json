@@ -1,0 +1,1 @@
+{"build":"015","reviewed":"2026-08-17","sources":["ABA Model Rule 1.1","ABA Model Rule 1.6","ABA Model Rule 5.3"],"runtime":"Client-local deterministic scoring; no network dependency after page load."}
