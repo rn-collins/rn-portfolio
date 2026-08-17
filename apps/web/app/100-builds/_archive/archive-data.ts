@@ -209,5 +209,23 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
   {label:'Future consumers',detail:'021, 026, 027, 041, 046, 056, 060, 062, 082, 084, 085, 088 and 099 consume cap:011.'}],sourceFiles:['apps/web/app/100-builds/011/a/EntityResolutionLab.tsx','apps/web/app/100-builds/011/b/IdentityField.tsx','packages/release/src/decision-engines.ts','data/build-011-engine-v1.json','data/build-011-archive-v1.json','docs/builds/011/SPEC.md','docs/builds/011/ARCHIVE.md','tests/build011.spec.ts']}
 
+,
+ '012':{id:'012',title:'AI Use Consequence & Control Mapper',question:'What controls does this AI use earn?',thesis:'AI controls should follow the consequence of a bounded use—not the prestige of a model or a generic risk label.',research:[
+  {label:'Consequence and control engine',detail:'Nine evidence-bearing dimensions, proportional required controls, inherited human-review gate and explicit non-approval boundary.',path:'data/build-012-engine-v1.json'},
+  {label:'NIST AI RMF 1.0',detail:'Grounds context-sensitive, rights-preserving management of AI risk across the lifecycle.',href:'https://doi.org/10.6028/NIST.AI.100-1'},
+  {label:'OECD AI classification framework',detail:'Grounds classification by people, context, data, model, task and output rather than model name alone.',href:'https://oecd.ai/en/ai-publications/framework-classification'}],created:[
+  {label:'012-A AI Use Consequence & Control Mapper',detail:'Score an evidenced use, edit eleven controls, expose gaps and export locally.',href:'/100-builds/012/a'},
+  {label:'012-B Controls Follow Consequence',detail:'Three interactive consequence states visibly reconfigure control load.',href:'/100-builds/012/b'},
+  {label:'AI Control Mapper Engine v1',detail:'Reusable consequence, coverage, inherited human-review, structural-gate and escalation assessment.'}],decisions:[
+  {label:'Builds 001 and 010 are concrete dependencies',detail:'The engine directly calls the human-review score/grade primitives and assessIdeaSkeleton.'},
+  {label:'Consequence drives required controls',detail:'Severe rights or essential-service impacts trigger the full control set regardless of average score.'},
+  {label:'Missing controls escalate',detail:'A severe use with an incomplete control architecture returns ESCALATE / DO NOT DEPLOY.'},
+  {label:'No state grants permission',detail:'The boundary excludes legal classification, compliance, safety certification and deployment approval.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy and consumers.',path:'data/build-012-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local assessment and competent-review boundary.',path:'data/build-012-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Current primary sources and offline core value.',path:'data/build-012-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Controlled, escalation, reset, export, lifecycle, 320px and B-state coverage.',path:'tests/build012.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
+  {label:'Future consumers',detail:'013, 014, 019, 021, 022, 025, 032, 033, 038, 040, 041 and 042 consume cap:012.'}],sourceFiles:['apps/web/app/100-builds/012/a/AIControlMapper.tsx','apps/web/app/100-builds/012/b/ConsequenceField.tsx','packages/release/src/decision-engines.ts','data/build-012-engine-v1.json','data/build-012-archive-v1.json','docs/builds/012/SPEC.md','docs/builds/012/ARCHIVE.md','tests/build012.spec.ts']}
 
 };
