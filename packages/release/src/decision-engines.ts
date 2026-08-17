@@ -72,8 +72,8 @@ export type ActionState={decision:string;owner:string;trigger:string;action:stri
 export type DashboardAssessment={status:'DECISION READY'|'INFORMATION ONLY'|'DECISION BLOCKED';metricReadiness:number;humanControl:{score:number;grade:'Strong'|'Partial'|'Weak'};gaps:string[];actionState:string[];engineVersion:string};
 export function assessDecisionDashboard(metrics:DashboardMetric[],state:ActionState):DashboardAssessment{
  const complete=(value:string)=>value.trim().length>=6;
- const metricFields=(m:DashboardMetric)=>[m.label,m.value,m.source,m.freshness,m.comparison,m.uncertainty,m.decisionUse];
- const completeMetrics=metrics.filter(m=>metricFields(m).every(complete));
+ const metricReady=(m:DashboardMetric)=>m.value.trim().length>0&&[m.label,m.source,m.freshness,m.comparison,m.uncertainty,m.decisionUse].every(complete);
+ const completeMetrics=metrics.filter(metricReady);
  const metricReadiness=metrics.length?Math.round((completeMetrics.length/metrics.length)*100):0;
  const dimensions=[
   state.owner,state.trigger,state.decision,state.authority,
