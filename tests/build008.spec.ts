@@ -36,13 +36,15 @@ test.describe('Build 008 decision-ready dashboard standard',()=>{
   await page.getByRole('button',{name:'EXPORT RECORD'}).click();
   expect((await dl).suggestedFilename()).toBe('decision-ready-dashboard.json');
  });
- test('canonical room is in the lab and the next build remains planned',async({page})=>{
+ test('canonical room remains in the lab and Build 009 has advanced',async({page})=>{
   await page.goto('/100-builds/008');
   await expect(page.getByText('BUILD 008 / 100 · IN THE LAB')).toBeVisible();
   await expect(page.getByRole('link',{name:/OPEN THE TOOL/})).toHaveAttribute('href',/\/100-builds\/008\/a\/?$/);
   await expect(page.getByRole('link',{name:/ENTER THE VISUAL BUILD/})).toHaveAttribute('href',/\/100-builds\/008\/b\/?$/);
   await page.goto('/100-builds/009');
-  await expect(page.getByText('BUILD 009 / 100 · COMING NEXT')).toBeVisible();
+  await expect(page.getByText('BUILD 009 / 100 · IN THE LAB')).toBeVisible();
+  await page.goto('/100-builds/010');
+  await expect(page.getByText('BUILD 010 / 100 · COMING NEXT')).toBeVisible();
  });
  test('functional room stays usable at 320 CSS pixels',async({page})=>{
   await page.setViewportSize({width:320,height:800});
