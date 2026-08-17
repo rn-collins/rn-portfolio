@@ -346,6 +346,43 @@
           "body": "Transferability is not a property of the technology alone."
         }
       ]
+    },
+    {
+      "id": "010",
+      "title": "Give the Idea a Skeleton",
+      "final": "IF THE IDEA HAS NO STRUCTURE, IT CANNOT BE TESTED.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 010",
+          "headline": "THE IDEA SOUNDS CLEAR.",
+          "body": "Until two people mean different things by the same noun."
+        },
+        {
+          "eyebrow": "NAME THE THINGS",
+          "headline": "ENTITIES NEED STABLE IDENTITIES.",
+          "body": "A Place is not a Project. A Decision is not a Source."
+        },
+        {
+          "eyebrow": "DEFINE THE FIELDS",
+          "headline": "TYPE · REQUIRED · CONSTRAINT",
+          "body": "Every field earns a meaning and a rule."
+        },
+        {
+          "eyebrow": "CONNECT THE GRAPH",
+          "headline": "FROM · RELATIONSHIP · TO",
+          "body": "Cardinality makes vague connections testable."
+        },
+        {
+          "eyebrow": "GROUND THE FACTS",
+          "headline": "AUTHORITY · LOCATOR · FRESHNESS",
+          "body": "Source rules belong in the skeleton—not as cleanup later."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "STRUCTURE IS NOT TRUTH.",
+          "body": "It makes assumptions visible enough to validate, challenge, and improve."
+        }
+      ]
     }
   ]
 }
