@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "011",
+  "state": "client-local",
+  "persistence": false,
+  "serverSubmission": false,
+  "export": "explicit JSON download",
+  "minimization": "Only attributes necessary to distinguish records in the stated context should be entered.",
+  "prohibitedClaims": [
+    "legal identity proof",
+    "ownership determination",
+    "fraud finding",
+    "entitlement decision"
+  ]
+}
