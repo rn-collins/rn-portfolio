@@ -152,6 +152,22 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "TRANSFERABILITY IS A PLACE QUESTION."
+    },
+    {
+      "id": "010",
+      "title": "Give the Idea a Skeleton",
+      "path": "/media/builds/010/build-010-linkedin.mp4",
+      "poster": "/media/builds/010/build-010-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "9f4176de029ee5a36f4fd7b59088995ebdd2254c958c368147a3b288e7bf9b84",
+      "bytes": 188501,
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "IF THE IDEA HAS NO STRUCTURE, IT CANNOT BE TESTED."
     }
   ]
 }
