@@ -458,6 +458,44 @@
         }
       ],
       "sourceCheckedOn": "2026-08-16"
+    },
+    {
+      "id": "013",
+      "title": "AI Workflow Consequence Scanner",
+      "final": "FOLLOW THE CONSEQUENCE THROUGH THE WORK.",
+      "sourceCheckedOn": "2026-08-16",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 013",
+          "headline": "THE MODEL IS ONE STAGE.",
+          "body": "Consequence is produced by the full workflow around it."
+        },
+        {
+          "eyebrow": "MAP THE HANDOFFS",
+          "headline": "INTAKE → DATA → MODEL → DECISION → ACTION",
+          "body": "Add monitoring because the workflow does not end when an action ships."
+        },
+        {
+          "eyebrow": "PLACE THE RISK",
+          "headline": "WHERE DOES IT ENTER?",
+          "body": "Incorrect data, automation bias, and failed notice begin at different stages."
+        },
+        {
+          "eyebrow": "TRACE THE PATH",
+          "headline": "WHAT CAN IT REACH?",
+          "body": "A missing control becomes a condition inherited by downstream work."
+        },
+        {
+          "eyebrow": "CONTROL EACH STAGE",
+          "headline": "OWNER · CONTROL · STOP · MONITOR",
+          "body": "Every handoff needs accountable power—not a generic assurance statement."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FOLLOW THE CONSEQUENCE THROUGH THE WORK.",
+          "body": "A propagation score exposes gaps. It never approves deployment."
+        }
+      ]
     }
   ]
 }
