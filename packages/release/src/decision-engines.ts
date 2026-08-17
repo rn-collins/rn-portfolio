@@ -247,3 +247,34 @@ export const AI_WORKFLOW_SCANNER_PROVENANCE:ProvenanceRef[]=[
  {id:'012-consequence-control-inheritance',classification:'product-heuristic'},
  {id:'013-propagation-rubric',classification:'product-heuristic'}
 ];
+
+
+export const LEGAL_JUDGMENT_ENGINE_VERSION='014.1.0';
+export type LegalWorkKind='research'|'interpretation'|'inference'|'strategy'|'approval'|'attorney-judgment';
+export type LegalWorkAllocation='ai-assist'|'draft-under-supervision'|'lawyer-only'|'client-decision';
+export type LegalWorkLayer={id:string;label:string;kind:LegalWorkKind;allocation:LegalWorkAllocation;input:string;output:string;sourceRule:string;reviewer:string;authority:string;record:string;confidentiality:string};
+export type LegalJudgmentInput={matter:string;clientObjective:string;jurisdiction:string;layers:LegalWorkLayer[];useMap:AIUseMapInput};
+export type LegalJudgmentAssessment={status:'SUPERVISED ARCHITECTURE'|'JUDGMENT LEAK'|'UNDEFINED RESPONSIBILITY';humanReview:{score:number;grade:'Strong'|'Partial'|'Weak'};aiControlStatus:AIUseMapAssessment['status'];leaks:string[];gaps:string[];allocations:Record<LegalWorkAllocation,string[]>;engineVersion:string};
+export function assessLegalJudgment(input:LegalJudgmentInput):LegalJudgmentAssessment{
+ const inherited=assessAIUseControls(input.useMap);const complete=(v:string)=>v.trim().length>=8;const leaks:string[]=[];const gaps:string[]=[];
+ const nondelegable=new Set<LegalWorkKind>(['strategy','approval','attorney-judgment']);
+ for(const layer of input.layers){
+  if(nondelegable.has(layer.kind)&&!['lawyer-only','client-decision'].includes(layer.allocation))leaks.push(`${layer.label}: consequential professional judgment is allocated to AI assistance.`);
+  if(layer.kind==='interpretation'&&layer.allocation==='ai-assist')leaks.push(`${layer.label}: legal interpretation lacks explicit lawyer supervision.`);
+  if(![layer.input,layer.output,layer.sourceRule,layer.reviewer,layer.authority,layer.record,layer.confidentiality].every(complete))gaps.push(`${layer.label}: define input, output, source rule, reviewer, authority, record, and confidentiality rule.`);
+ }
+ if(!complete(input.matter)||!complete(input.clientObjective)||!complete(input.jurisdiction))gaps.push('Name the matter, client objective, and governing jurisdiction.');
+ const reviewDims=input.layers.slice(0,8).map(l=>({score:([l.reviewer,l.authority,l.record].every(complete)?2:0) as 0|2}));const score=humanReviewScore(reviewDims),grade=humanReviewGrade(score);
+ if(inherited.gaps.length)gaps.push('Close inherited Build 012 AI-use control gaps.');
+ const allocations={'ai-assist':[],'draft-under-supervision':[],'lawyer-only':[],'client-decision':[]} as Record<LegalWorkAllocation,string[]>;for(const l of input.layers)allocations[l.allocation].push(l.label);
+ const status:LegalJudgmentAssessment['status']=leaks.length?'JUDGMENT LEAK':gaps.length||grade==='Weak'?'UNDEFINED RESPONSIBILITY':'SUPERVISED ARCHITECTURE';
+ return {status,humanReview:{score,grade},aiControlStatus:inherited.status,leaks,gaps,allocations,engineVersion:LEGAL_JUDGMENT_ENGINE_VERSION};
+}
+export const LEGAL_JUDGMENT_PROVENANCE:ProvenanceRef[]=[
+ {id:'014-aba-formal-opinion-512',classification:'cross-source-synthesis'},
+ {id:'014-aba-model-rule-2.1',classification:'direct-source'},
+ {id:'014-aba-model-rule-5.3',classification:'direct-source'},
+ {id:'001-human-review-inheritance',classification:'product-heuristic'},
+ {id:'012-ai-control-inheritance',classification:'product-heuristic'},
+ {id:'014-judgment-allocation-rubric',classification:'product-heuristic'}
+];
