@@ -305,3 +305,20 @@ export const LEGAL_PRODUCT_PROVENANCE:ProvenanceRef[]=[
  {id:'014-judgment-allocation-inheritance',classification:'product-heuristic'},
  {id:'015-product-candidate-rubric',classification:'product-heuristic'}
 ];
+
+export const LEGAL_WORKFLOW_ENGINE_VERSION='016.1.0';
+export type LegalWorkflowNodeKind='actor'|'document'|'authority'|'deadline'|'decision'|'risk'|'record';
+export type LegalWorkflowNode={id:string;label:string;kind:LegalWorkflowNodeKind;owner:string;source:string;freshness:string;confidentiality:string};
+export type LegalWorkflowHandoff={id:string;from:string;to:string;payload:string;sender:string;receiver:string;trigger:string;deadline:string;acceptance:string;authority:string;record:string;escalation:string};
+export type LegalWorkflowMapInput={matter:string;jurisdiction:string;objective:string;nodes:LegalWorkflowNode[];handoffs:LegalWorkflowHandoff[]};
+export type LegalWorkflowAssessment={status:'MAPPED AND ACCOUNTABLE'|'HANDOFF GAPS'|'WORKFLOW UNDEFINED';coverage:number;orphanNodes:string[];handoffGaps:string[];sequence:string[];humanReview:{score:number;grade:'Strong'|'Partial'|'Weak'};engineVersion:string};
+export function assessLegalWorkflow(input:LegalWorkflowMapInput):LegalWorkflowAssessment{
+ const complete=(v:string)=>v.trim().length>=6;const known=new Map(input.nodes.map(n=>[n.id,n]));const handoffGaps:string[]=[];const linked=new Set<string>();
+ for(const h of input.handoffs){if(!known.has(h.from)||!known.has(h.to)){handoffGaps.push(`${h.id}: handoff references an unknown workflow node.`);continue}linked.add(h.from);linked.add(h.to);const missing=[['payload',h.payload],['sender',h.sender],['receiver',h.receiver],['trigger',h.trigger],['deadline',h.deadline],['acceptance',h.acceptance],['authority',h.authority],['record',h.record],['escalation',h.escalation]].filter(([,v])=>!complete(v)).map(([k])=>k);if(missing.length)handoffGaps.push(`${h.id}: define ${missing.join(', ')}.`)}
+ const orphanNodes=input.nodes.filter(n=>!linked.has(n.id)).map(n=>n.label);for(const n of input.nodes)if(![n.owner,n.source,n.freshness,n.confidentiality].every(complete))handoffGaps.push(`${n.label}: define owner, source, freshness, and confidentiality.`);
+ if(![input.matter,input.jurisdiction,input.objective].every(complete))handoffGaps.push('Define the matter, jurisdiction, and workflow objective.');
+ const total=Math.max(1,input.nodes.length+input.handoffs.length);const completeNodes=input.nodes.filter(n=>[n.owner,n.source,n.freshness,n.confidentiality].every(complete)).length;const completeHandoffs=input.handoffs.filter(h=>[h.payload,h.sender,h.receiver,h.trigger,h.deadline,h.acceptance,h.authority,h.record,h.escalation].every(complete)&&known.has(h.from)&&known.has(h.to)).length;const coverage=Math.round((completeNodes+completeHandoffs)/total*100);
+ const dims=input.handoffs.slice(0,8).flatMap(h=>[{score:([h.sender,h.receiver,h.authority].every(complete)?2:0) as 0|2},{score:([h.acceptance,h.record,h.escalation].every(complete)?2:0) as 0|2}]);const score=humanReviewScore(dims),grade=humanReviewGrade(score);const sequence=input.handoffs.map(h=>`${known.get(h.from)?.label||h.from} → ${known.get(h.to)?.label||h.to}: ${h.payload||'undefined payload'}`);
+ const status:LegalWorkflowAssessment['status']=!input.nodes.length||!input.handoffs.length?'WORKFLOW UNDEFINED':handoffGaps.length||orphanNodes.length?'HANDOFF GAPS':'MAPPED AND ACCOUNTABLE';return {status,coverage,orphanNodes,handoffGaps,sequence,humanReview:{score,grade},engineVersion:LEGAL_WORKFLOW_ENGINE_VERSION};
+}
+export const LEGAL_WORKFLOW_PROVENANCE:ProvenanceRef[]=[{id:'016-aba-model-rule-1.1',classification:'direct-source'},{id:'016-aba-model-rule-1.3',classification:'direct-source'},{id:'016-aba-model-rule-1.4',classification:'direct-source'},{id:'010-skeleton-inheritance',classification:'product-heuristic'},{id:'014-judgment-inheritance',classification:'product-heuristic'},{id:'016-workflow-handoff-rubric',classification:'product-heuristic'}];
