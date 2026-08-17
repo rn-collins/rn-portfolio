@@ -107,3 +107,29 @@ export const DECISION_DASHBOARD_PROVENANCE:ProvenanceRef[]=[
  {id:'001-human-control-inheritance',classification:'product-heuristic'},
  {id:'008-decision-readiness-rubric',classification:'product-heuristic'}
 ];
+
+
+export const PLACE_READINESS_ENGINE_VERSION='009.1.0';
+export type PlaceConstraintKey='connectivity'|'power'|'devices'|'environment'|'accessibility'|'governance'|'workforce'|'data'|'maintenance'|'community';
+export type PlaceConstraint={key:PlaceConstraintKey;label:string;requirement:number;localCapacity:number;evidence:string;owner:string;mitigation:string};
+export type PlaceReadinessInput={technology:string;place:string;decision:string;frequency:number;consequence:number;ambiguity:number;fragmentation:number;sourceCount:number;constraints:PlaceConstraint[];pilot:string;fallback:string;stopCondition:string;communityAuthority:string};
+export type PlaceReadinessAssessment={status:'PLACE READY'|'CONDITIONAL'|'NOT READY';fitScore:number;decisionGap:{score:number;tier:ReturnType<typeof decisionGapTier>};blocking:string[];unknowns:string[];mitigations:string[];engineVersion:string};
+export function assessPlaceReadiness(input:PlaceReadinessInput):PlaceReadinessAssessment{
+ const complete=(value:string)=>value.trim().length>=8;
+ const evaluated=input.constraints.filter(c=>c.localCapacity>0&&complete(c.evidence));
+ const fitScore=input.constraints.length?Math.round(input.constraints.reduce((sum,c)=>sum+Math.min(1,c.localCapacity/Math.max(1,c.requirement)),0)/input.constraints.length*100):0;
+ const blocking=input.constraints.filter(c=>c.requirement>=4&&c.localCapacity<c.requirement).map(c=>c.label);
+ const unknowns=input.constraints.filter(c=>!complete(c.evidence)||!complete(c.owner)).map(c=>c.label);
+ const mitigations=input.constraints.filter(c=>c.localCapacity<c.requirement&&complete(c.mitigation)).map(c=>`${c.label}: ${c.mitigation}`);
+ const controlsReady=[input.pilot,input.fallback,input.stopCondition,input.communityAuthority].every(complete);
+ const status:PlaceReadinessAssessment['status']=fitScore>=85&&!blocking.length&&!unknowns.length&&controlsReady?'PLACE READY':evaluated.length>=Math.ceil(input.constraints.length/2)&&fitScore>=50&&complete(input.pilot)&&complete(input.fallback)?'CONDITIONAL':'NOT READY';
+ const gapScore=decisionGapScore({frequency:input.frequency,consequence:input.consequence,ambiguity:input.ambiguity,fragmentation:input.fragmentation},input.sourceCount,input.decision);
+ return {status,fitScore,decisionGap:{score:gapScore,tier:decisionGapTier(gapScore)},blocking,unknowns,mitigations,engineVersion:PLACE_READINESS_ENGINE_VERSION};
+}
+export const PLACE_READINESS_PROVENANCE:ProvenanceRef[]=[
+ {id:'009-nist-community-resilience',classification:'cross-source-synthesis'},
+ {id:'009-ntia-local-coordination',classification:'cross-source-synthesis'},
+ {id:'009-w3c-accessibility-context',classification:'cross-source-synthesis'},
+ {id:'003-decision-gap-inheritance',classification:'product-heuristic'},
+ {id:'009-place-readiness-rubric',classification:'product-heuristic'}
+];
