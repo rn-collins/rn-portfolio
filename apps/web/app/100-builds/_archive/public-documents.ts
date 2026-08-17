@@ -63,7 +63,10 @@ export const publicArchiveDocuments=[
  'docs/builds/008/SPEC.md',
  'docs/builds/008/ARCHIVE.md',
  'data/build-008-engine-v1.json',
- 'tests/build008.spec.ts'
+ 'tests/build008.spec.ts',
+ 'data/build-008-archive-v1.json',
+ 'data/build-008-privacy-support-v1.json',
+ 'data/build-008-freshness-performance-v1.json'
 ] as const;
 
 export const publicArchiveDocumentSet=new Set<string>(publicArchiveDocuments);
