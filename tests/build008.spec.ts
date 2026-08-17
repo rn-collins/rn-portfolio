@@ -10,7 +10,7 @@ test.describe('Build 008 decision-ready dashboard standard',()=>{
  });
  test('an incomplete metric remains information only with an explicit gap',async({page})=>{
   await page.goto('/100-builds/008/a');
-  await page.getByRole('textbox',{name:'Comparison / threshold'}).first().fill('x');
+  await page.getByRole('button',{name:'ADD METRIC'}).click();
   await expect(page.getByRole('heading',{name:'INFORMATION ONLY'})).toBeVisible();
   await expect(page.getByText(/Give every retained metric a source/)).toBeVisible();
  });
