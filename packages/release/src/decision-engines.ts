@@ -290,7 +290,10 @@ export function assessLegalProductCandidates(tasks:LegalTaskCandidate[]):LegalPr
   if(task.judgmentIntensity>=4)reasons.push('High professional-judgment intensity.');if(task.confidentialityRisk>=4)reasons.push('High confidentiality or privilege risk.');if(task.matterSpecificity>=4)reasons.push('Materially matter-specific.');if(task.consistency>=4&&task.reviewability>=4)reasons.push('Stable structure with an inspectable review gate.');if(task.frequency>=4&&task.reuseValue>=4)reasons.push('Repeated work with material reuse value.');
   const blocked=task.judgmentIntensity===5||task.confidentialityRisk===5;const disposition:LegalProductDisposition=blocked?'DO NOT PRODUCTIZE':risk>=11?'KEEP AS SUPERVISED SERVICE':task.confidentialityRisk>=3||task.matterSpecificity>=3?'INTERNAL SYSTEM ONLY':score>=65?'PRODUCT CANDIDATE':'KEEP AS SUPERVISED SERVICE';return {id:task.id,label:task.label,score,disposition,reasons,safeOutput:task.safeOutput};});
  for(const task of tasks)if(![task.evidence,task.owner,task.reviewGate,task.safeOutput].every(complete))gaps.push(`${task.label}: define evidence, owner, review gate, and bounded output.`);
- const dimensions=tasks.slice(0,8).map(t=>({score:([t.owner,t.reviewGate,t.evidence].every(complete)?2:0) as 0|2}));const score=humanReviewScore(dimensions),grade=humanReviewGrade(score);
+ const dimensions=tasks.slice(0,8).flatMap(t=>[
+  {score:([t.owner,t.reviewGate].every(complete)?2:0) as 0|2},
+  {score:([t.evidence,t.safeOutput].every(complete)?2:0) as 0|2}
+ ]);const score=humanReviewScore(dimensions),grade=humanReviewGrade(score);
  const safe=candidates.some(c=>['PRODUCT CANDIDATE','INTERNAL SYSTEM ONLY'].includes(c.disposition));const status:LegalProductAssessment['status']=gaps.length||grade==='Weak'?'SUPERVISION REQUIRED':safe?'SAFE CANDIDATES IDENTIFIED':'NO SAFE PRODUCT CANDIDATE';return {status,candidates,gaps,humanReview:{score,grade},engineVersion:LEGAL_PRODUCT_ENGINE_VERSION};
 }
 export const LEGAL_PRODUCT_PROVENANCE:ProvenanceRef[]=[
