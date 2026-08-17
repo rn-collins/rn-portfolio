@@ -272,6 +272,43 @@
           "body": "Design the accountable path by which feedback can responsibly change the product."
         }
       ]
+    },
+    {
+      "id": "008",
+      "title": "Decision-Ready Dashboard Standard",
+      "final": "DATA BECOMES USEFUL WHEN SOMEONE CAN DECIDE AND ACT.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 008",
+          "headline": "A WALL OF CHARTS.",
+          "body": "More information is visible. The decision is still missing."
+        },
+        {
+          "eyebrow": "START HERE",
+          "headline": "NAME THE DECISION.",
+          "body": "Every retained metric must explain how it can change that decision."
+        },
+        {
+          "eyebrow": "MAKE EVIDENCE LEGIBLE",
+          "headline": "SOURCE · FRESHNESS · COMPARISON · UNCERTAINTY",
+          "body": "A highlighted number without context is not yet decision-ready."
+        },
+        {
+          "eyebrow": "MAKE ACTION ACCOUNTABLE",
+          "headline": "DECISION → OWNER → ACTION → NEXT STATE",
+          "body": "Add trigger, deadline, authority and escalation."
+        },
+        {
+          "eyebrow": "HUMAN CONTROL",
+          "headline": "CONFLICTS NEED A PERSON.",
+          "body": "The dashboard can expose a conflict. An accountable human must resolve it."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "DATA IS NOT A DECISION.",
+          "body": "Build the accountable path from evidence to action and observable change."
+        }
+      ]
     }
   ]
 }
