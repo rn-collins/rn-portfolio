@@ -29,8 +29,8 @@ test.describe('Build 009 place-sensitive technology readiness',()=>{
   await page.goto('/100-builds/009');
   await expect(page.getByText('BUILD 009 / 100 · IN THE LAB')).toBeVisible();
   await expect(page.getByRole('link',{name:/OPEN THE TOOL/})).toHaveAttribute('href',/\/100-builds\/009\/a\/?$/);
-  await page.goto('/100-builds/012');
-  await expect(page.getByText('BUILD 012 / 100 · COMING NEXT')).toBeVisible();
+  await page.goto('/100-builds/013');
+  await expect(page.getByText('BUILD 013 / 100 · COMING NEXT')).toBeVisible();
  });
  test('functional artifact fits 320 CSS pixels',async({page})=>{
   await page.setViewportSize({width:320,height:800});await page.goto('/100-builds/009/a');
