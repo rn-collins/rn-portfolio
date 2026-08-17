@@ -136,6 +136,22 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "DATA BECOMES USEFUL WHEN SOMEONE CAN DECIDE AND ACT."
+    },
+    {
+      "id": "009",
+      "title": "Place-Sensitive Technology Readiness",
+      "path": "/media/builds/009/build-009-linkedin.mp4",
+      "poster": "/media/builds/009/build-009-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "80e6d00a39de67592fe3554a8f3bbd59df3d47b61bc76d9d790548b67aa56023",
+      "bytes": 195609,
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TRANSFERABILITY IS A PLACE QUESTION."
     }
   ]
 }
