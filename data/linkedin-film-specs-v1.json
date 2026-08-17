@@ -420,6 +420,43 @@
           "body": "Use only the attributes necessary to distinguish records in context."
         }
       ]
+    },
+    {
+      "id": "012",
+      "title": "AI Use Consequence & Control Mapper",
+      "final": "CONTROLS SHOULD FOLLOW CONSEQUENCE.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 012",
+          "headline": "THE MODEL IS NOT THE USE.",
+          "body": "The same capability can carry radically different consequences in different contexts."
+        },
+        {
+          "eyebrow": "BOUND THE USE",
+          "headline": "PURPOSE · PEOPLE · DECISION",
+          "body": "Classify what the system will actually do—and who can be affected."
+        },
+        {
+          "eyebrow": "MAP CONSEQUENCE",
+          "headline": "SEVERITY · SCALE · RIGHTS · REVERSIBILITY",
+          "body": "Add vulnerability, autonomy, essential services, data sensitivity, and uncertainty."
+        },
+        {
+          "eyebrow": "RECONFIGURE CONTROLS",
+          "headline": "OWNER · TEST · MONITOR · APPEAL",
+          "body": "Higher consequence earns stronger authority, stop, incident, notice, and record controls."
+        },
+        {
+          "eyebrow": "HUMAN CONTROL",
+          "headline": "CHANGE · PAUSE · CONTEST · REMEDY",
+          "body": "A reviewer matters only when those powers are real."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "A SCORE NEVER APPROVES DEPLOYMENT.",
+          "body": "Use the map to expose missing architecture—and escalate when consequence outruns control."
+        }
+      ]
     }
   ]
 }
