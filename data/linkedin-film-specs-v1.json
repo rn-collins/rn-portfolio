@@ -497,6 +497,44 @@
         }
       ],
       "renderRequestedOn": "2026-08-16"
+    },
+    {
+      "id": "014",
+      "title": "Legal Judgment Architecture",
+      "final": "RESPONSIBILITY DOES NOT MOVE WITH THE TEXT.",
+      "sourceCheckedOn": "2026-08-17",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 014",
+          "headline": "THE TOOL PRODUCED AN ANSWER.",
+          "body": "That does not tell you who researched, interpreted, inferred, decided, or approved."
+        },
+        {
+          "eyebrow": "SEPARATE THE WORK",
+          "headline": "RESEARCH · INTERPRETATION · INFERENCE",
+          "body": "Each layer needs sources, supervision, authority, and a record."
+        },
+        {
+          "eyebrow": "PROTECT JUDGMENT",
+          "headline": "STRATEGY · ADVICE · APPROVAL",
+          "body": "Professional judgment remains owned by the responsible lawyer."
+        },
+        {
+          "eyebrow": "KEEP CLIENT AUTHORITY",
+          "headline": "THE CLIENT STILL DECIDES.",
+          "body": "Objectives and choices allocated to the client are not tool decisions."
+        },
+        {
+          "eyebrow": "SUPERVISION",
+          "headline": "REVIEW · CHANGE · STOP · RECORD",
+          "body": "A label is not control unless the lawyer can actually change the outcome."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "RESPONSIBILITY DOES NOT MOVE WITH THE TEXT.",
+          "body": "Applicable jurisdictional rules and competent supervising counsel control."
+        }
+      ]
     }
   ]
 }
