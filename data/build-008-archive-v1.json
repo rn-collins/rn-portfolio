@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "buildId": "008",
   "title": "Decision-Ready Dashboard Standard",
-  "status": "working-record",
+  "status": "certified",
   "created": "2026-08-16",
   "question": "When does a dashboard become a decision path?",
   "thesis": "A dashboard becomes decision-ready only when evidence is connected to a named decision, accountable owner, authorized action, timing, escalation, and observable next state.",
@@ -28,7 +28,11 @@
     "audits": [
       "tests/build008.spec.ts"
     ],
-    "media": [],
+    "media": [
+      "apps/web/public/media/builds/008/build-008-linkedin.mp4",
+      "apps/web/public/media/builds/008/build-008-linkedin-poster.png",
+      "docs/builds/008-linkedin-production.md"
+    ],
     "sourceFiles": [
       "packages/release/src/decision-engines.ts",
       "apps/web/app/100-builds/008/a/DecisionDashboardLab.tsx",
@@ -40,9 +44,7 @@
       "future consumer:071"
     ],
     "plans": [
-      "Chromium/WebKit certification",
-      "deterministic film",
-      "preview QA"
+      "Build 071 consumes cap:008"
     ],
     "limits": [
       "Completeness is not correctness",
@@ -51,8 +53,15 @@
     ]
   },
   "certification": {
-    "sha": null,
-    "workflowRunId": null,
-    "testCount": null
+    "sha": "47c9c83dbcef8fea678a714c90b5dbdd9764fba9",
+    "workflowRunId": 31986626556,
+    "testCount": 198,
+    "browsers": [
+      "desktop-chromium",
+      "mobile-safari"
+    ],
+    "deploymentId": "dpl_23iAtLXTcpztKXZNtNwdzEyQs5CS",
+    "deploymentUrl": "rn-portfolio-2ccdpfgec-rn-collins.vercel.app",
+    "mediaSha256": "40e4bbbbc266fe1508ec82c015b0ea0fdf8077020aa2027a74676b9f30142bca"
   }
 }
