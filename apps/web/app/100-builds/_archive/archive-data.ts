@@ -227,5 +227,23 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Browser fixtures',detail:'Controlled, escalation, reset, export, lifecycle, 320px and B-state coverage.',path:'tests/build012.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
   {label:'Future consumers',detail:'013, 014, 019, 021, 022, 025, 032, 033, 038, 040, 041 and 042 consume cap:012.'}],sourceFiles:['apps/web/app/100-builds/012/a/AIControlMapper.tsx','apps/web/app/100-builds/012/b/ConsequenceField.tsx','packages/release/src/decision-engines.ts','data/build-012-engine-v1.json','data/build-012-archive-v1.json','docs/builds/012/SPEC.md','docs/builds/012/ARCHIVE.md','tests/build012.spec.ts']}
+,
+ '013':{id:'013',title:'AI Workflow Consequence Scanner',question:'Where does consequence enter and travel?',thesis:'AI consequence is produced by an end-to-end workflow. A risk entering one stage can survive every downstream handoff when ownership, control, stop authority, or monitoring is missing.',research:[
+  {label:'Workflow scanner engine',detail:'Directed stage traversal, inherited Build 012 assessment, control coverage, propagation exposure, gaps and non-claims.',path:'data/build-013-engine-v1.json'},
+  {label:'NIST AI RMF Core',detail:'Grounds lifecycle interdependence, distributed visibility, mapped context, measurement and ongoing management.',href:'https://airc.nist.gov/airmf-resources/airmf/5-sec-core/'},
+  {label:'NIST SP 800-218A',detail:'Grounds AI-specific secure practices across the software development lifecycle.',href:'https://doi.org/10.6028/NIST.SP.800-218A'}],created:[
+  {label:'013-A AI Workflow Consequence Scanner',detail:'Trace risks through six stages, remove controls, expose gaps and export locally.',href:'/100-builds/013/a'},
+  {label:'013-B Follow the Consequence',detail:'An interactive risk circuit illuminates downstream propagation.',href:'/100-builds/013/b'},
+  {label:'AI Workflow Scanner Engine v1',detail:'Reusable directed propagation and stage-control assessment.'}],decisions:[
+  {label:'Build 012 is concretely inherited',detail:'The scanner directly calls assessAIUseControls and exposes its status.'},
+  {label:'Workflow stages—not model boundaries—define scope',detail:'Intake, data, model, decision, action and monitoring remain visible.'},
+  {label:'Every stage needs four control properties',detail:'Owner, control, stop authority and monitoring are independently inspectable.'},
+  {label:'Exposure is not probability',detail:'The score prioritizes gaps; it does not predict harm or approve deployment.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy and consumers.',path:'data/build-013-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local state and competent-review boundary.',path:'data/build-013-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Current primary sources and offline graph traversal.',path:'data/build-013-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Contained, propagation, reset, export, lifecycle, 320px and B-state coverage.',path:'tests/build013.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
+  {label:'Future consumers',detail:'022, 025, 032 and 041 consume cap:013.'}],sourceFiles:['apps/web/app/100-builds/013/a/WorkflowScanner.tsx','apps/web/app/100-builds/013/b/RiskCircuit.tsx','packages/release/src/decision-engines.ts','data/build-013-engine-v1.json','data/build-013-archive-v1.json','docs/builds/013/SPEC.md','docs/builds/013/ARCHIVE.md','tests/build013.spec.ts']}
 
 };
