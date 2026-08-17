@@ -171,6 +171,25 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'009 browser fixtures',detail:'Conditional default, constraint change, empty state, export, lifecycle, 320px, scenario, and local-authority behavior.',path:'tests/build009.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, accessibility, archive, media, preview, and exact-head certification.'},
   {label:'Future consumers',detail:'Canonical Builds 045, 046, and 047 explicitly consume cap:009.'}],sourceFiles:['apps/web/app/100-builds/009/a/PlaceReadinessLab.tsx','apps/web/app/100-builds/009/b/FeasibilityField.tsx','packages/release/src/decision-engines.ts','data/build-009-engine-v1.json','data/build-009-archive-v1.json','docs/builds/009/SPEC.md','docs/builds/009/ARCHIVE.md','tests/build009.spec.ts']}
+,
+ '010':{id:'010',title:'Give the Idea a Skeleton',question:'What are the things, rules, and relationships inside this idea?',thesis:'Ambiguous concepts become testable when their entities, fields, relationships, constraints, and source rules are explicit—without confusing structural validity with truth.',research:[
+  {label:'Idea Skeleton Engine v1',detail:'Entity, field, relationship, source-rule validation and explicit non-claims.',path:'data/build-010-engine-v1.json'},
+  {label:'JSON Schema 2020-12 validation',detail:'Primary grounding for structural constraints on instance data.',href:'https://json-schema.org/draft/2020-12/json-schema-validation'},
+  {label:'W3C SHACL',detail:'Primary grounding for validating data graphs against declared shapes.',href:'https://www.w3.org/TR/shacl/'},
+  {label:'W3C PROV-O',detail:'Informs distinct entities and source/provenance relationships.',href:'https://www.w3.org/TR/prov-o/'}],created:[
+  {label:'010-A Give the Idea a Skeleton',detail:'Define entities, fields, relationships and source rules; validate and export locally.',href:'/100-builds/010/a'},
+  {label:'010-B From Words to Structure',detail:'Move loose language through named entities into a validated graph.',href:'/100-builds/010/b'},
+  {label:'Idea Skeleton Engine v1',detail:'Reusable structural assessment primitive for later graph, rights, workflow and provenance builds.'}],decisions:[
+  {label:'Stable identifiers are first-class',detail:'Names may change; entity, field, relationship and source identifiers remain inspectable.'},
+  {label:'Source rules belong in the skeleton',detail:'Authority, exact locator, and freshness are modeled before facts are trusted.'},
+  {label:'Validation is bounded',detail:'Passing structure does not prove truth, completeness, fairness, interoperability or domain fitness.'},
+  {label:'Status is not color-only',detail:'Every stage is named and structurally distinct.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy, consumers and release state.',path:'data/build-010-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local state and explicit export boundary.',path:'data/build-010-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Offline core value and dependency record.',path:'data/build-010-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Valid, invalid, empty, export, lifecycle, 320px, stage and boundary tests.',path:'tests/build010.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
+  {label:'Future consumers',detail:'011, 012, 016, 020, 023, 026, 027, 028, 029, 035, 044, 046, 075 and 099 consume cap:010.'}],sourceFiles:['apps/web/app/100-builds/010/a/IdeaSkeletonLab.tsx','apps/web/app/100-builds/010/b/SkeletonGraph.tsx','packages/release/src/decision-engines.ts','data/build-010-engine-v1.json','data/build-010-archive-v1.json','docs/builds/010/SPEC.md','docs/builds/010/ARCHIVE.md','tests/build010.spec.ts']}
 
 
 };
