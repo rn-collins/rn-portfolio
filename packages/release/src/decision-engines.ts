@@ -133,3 +133,32 @@ export const PLACE_READINESS_PROVENANCE:ProvenanceRef[]=[
  {id:'003-decision-gap-inheritance',classification:'product-heuristic'},
  {id:'009-place-readiness-rubric',classification:'product-heuristic'}
 ];
+
+
+export const IDEA_SKELETON_ENGINE_VERSION='010.1.0';
+export type SkeletonField={id:string;label:string;type:'text'|'number'|'date'|'boolean'|'reference';required:boolean;sourceRule:string};
+export type SkeletonEntity={id:string;label:string;description:string;fields:SkeletonField[]};
+export type SkeletonRelationship={id:string;from:string;to:string;label:string;cardinality:'one-to-one'|'one-to-many'|'many-to-many';required:boolean};
+export type SkeletonSource={id:string;label:string;authority:string;locatorRule:string;freshnessRule:string};
+export type IdeaSkeleton={idea:string;entities:SkeletonEntity[];relationships:SkeletonRelationship[];sources:SkeletonSource[]};
+export type SkeletonAssessment={status:'VALID SKELETON'|'PARTIAL SKELETON'|'LOOSE LANGUAGE';score:number;errors:string[];warnings:string[];engineVersion:string};
+export function assessIdeaSkeleton(input:IdeaSkeleton):SkeletonAssessment{
+ const complete=(v:string)=>v.trim().length>=3;const errors:string[]=[];const warnings:string[]=[];
+ if(!complete(input.idea))errors.push('Name the concept this skeleton represents.');
+ if(input.entities.length<2)errors.push('Define at least two distinct entity types.');
+ const entityIds=input.entities.map(e=>e.id.trim());if(new Set(entityIds).size!==entityIds.length)errors.push('Entity IDs must be unique.');
+ for(const e of input.entities){if(!complete(e.id)||!complete(e.label)||!complete(e.description))errors.push('Every entity needs a stable ID, label, and definition.');if(!e.fields.length)errors.push(`${e.label||e.id||'Entity'} needs at least one field.`);const ids=e.fields.map(x=>x.id.trim());if(new Set(ids).size!==ids.length)errors.push(`${e.label||e.id}: field IDs must be unique.`);for(const field of e.fields){if(!complete(field.id)||!complete(field.label))errors.push(`${e.label||e.id}: every field needs an ID and label.`);if(!complete(field.sourceRule))warnings.push(`${e.label||e.id}.${field.id||'field'} needs a source rule.`)}}
+ const known=new Set(entityIds);for(const rel of input.relationships){if(!known.has(rel.from)||!known.has(rel.to))errors.push(`${rel.label||rel.id||'Relationship'} references an unknown entity.`);if(!complete(rel.id)||!complete(rel.label))errors.push('Every relationship needs an ID and label.');}
+ if(!input.relationships.length)errors.push('Define at least one relationship between entities.');
+ if(!input.sources.length)warnings.push('Add source classes so facts have authority, locator, and freshness rules.');
+ for(const source of input.sources){if(![source.id,source.label,source.authority,source.locatorRule,source.freshnessRule].every(complete))warnings.push(`${source.label||source.id||'Source'} needs complete authority, locator, and freshness rules.`)}
+ const checks=5;const passed=[complete(input.idea),input.entities.length>=2,input.relationships.length>0,input.sources.length>0,errors.length===0&&warnings.length===0].filter(Boolean).length;const score=Math.round(passed/checks*100);
+ const status:SkeletonAssessment['status']=errors.length===0&&warnings.length===0?'VALID SKELETON':input.entities.length>=2&&input.relationships.length>0?'PARTIAL SKELETON':'LOOSE LANGUAGE';
+ return {status,score,errors,warnings,engineVersion:IDEA_SKELETON_ENGINE_VERSION};
+}
+export const IDEA_SKELETON_PROVENANCE:ProvenanceRef[]=[
+ {id:'010-json-schema-2020-12',classification:'direct-source'},
+ {id:'010-w3c-shacl',classification:'direct-source'},
+ {id:'010-w3c-prov-o',classification:'cross-source-synthesis'},
+ {id:'010-skeleton-rubric',classification:'product-heuristic'}
+];
