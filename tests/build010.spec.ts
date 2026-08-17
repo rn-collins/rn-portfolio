@@ -1,0 +1,13 @@
+import {test,expect} from '@playwright/test';
+test.describe('Build 010 idea skeleton',()=>{
+ test('default schema is structurally valid',async({page})=>{await page.goto('/100-builds/010/a');await expect(page.getByRole('heading',{name:'VALID SKELETON'})).toBeVisible();await expect(page.getByText(/Structural readiness/)).toContainText('100%');});
+ test('removing an entity exposes structural errors',async({page})=>{await page.goto('/100-builds/010/a');await page.getByRole('button',{name:'REMOVE ENTITY'}).first().click();await expect(page.getByRole('heading',{name:'LOOSE LANGUAGE'})).toBeVisible();await expect(page.getByText(/at least two distinct entity types/)).toBeVisible();});
+ test('reset is truthful and local',async({page})=>{await page.goto('/100-builds/010/a');await page.getByRole('button',{name:'RESET / START EMPTY'}).click();await expect(page.getByRole('heading',{name:'LOOSE LANGUAGE'})).toBeVisible();await expect(page.getByText(/No schema data was stored/)).toBeVisible();});
+ test('exports a local skeleton',async({page})=>{await page.goto('/100-builds/010/a');const dl=page.waitForEvent('download');await page.getByRole('button',{name:'EXPORT SKELETON'}).click();expect((await dl).suggestedFilename()).toBe('idea-skeleton.json');});
+ test('canonical room is active and 011 is planned',async({page})=>{await page.goto('/100-builds/010');await expect(page.getByText('BUILD 010 / 100 · IN THE LAB')).toBeVisible();await expect(page.getByRole('link',{name:/OPEN THE TOOL/})).toHaveAttribute('href',/\/100-builds\/010\/a\/?$/);await page.goto('/100-builds/011');await expect(page.getByText('BUILD 011 / 100 · COMING NEXT')).toBeVisible();});
+ test('functional artifact fits 320 CSS pixels',async({page})=>{await page.setViewportSize({width:320,height:800});await page.goto('/100-builds/010/a');await expect(page.getByRole('button',{name:'EXPORT SKELETON'})).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth)).toBe(false);});
+});
+test.describe('Build 010 structure graph',()=>{
+ test('stages change structure, not decoration',async({page})=>{await page.goto('/100-builds/010/b');await expect(page.getByRole('button',{name:/1. LOOSE LANGUAGE/})).toHaveAttribute('aria-pressed','true');await page.getByRole('button',{name:/3. VALIDATED SKELETON/}).click();await expect(page.getByRole('heading',{name:'VALIDATED SKELETON'})).toBeVisible();await expect(page.getByText(/Project.location/)).toBeVisible();});
+ test('boundary remains explicit',async({page})=>{await page.goto('/100-builds/010/b');await page.getByRole('button',{name:/3. VALIDATED SKELETON/}).click();await expect(page.getByText(/does not decide whether the structure is true/)).toBeVisible();});
+});
