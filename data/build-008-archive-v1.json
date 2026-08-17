@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "008",
+  "title": "Decision-Ready Dashboard Standard",
+  "status": "working-record",
+  "created": "2026-08-16",
+  "question": "When does a dashboard become a decision path?",
+  "thesis": "A dashboard becomes decision-ready only when evidence is connected to a named decision, accountable owner, authorized action, timing, escalation, and observable next state.",
+  "archiveClasses": {
+    "research": [
+      "CDC COVE dashboard guidance",
+      "CDC COVE Data Bite guidance",
+      "W3C WCAG 2.2 Distinguishable"
+    ],
+    "created": [
+      "008-A Decision-Ready Dashboard Standard",
+      "008-B Data Is Not a Decision",
+      "Decision Readiness Rubric v1",
+      "Action-State Component v1"
+    ],
+    "decisions": [
+      "Start with a named decision",
+      "Require every metric to state decision use",
+      "Inherit Build 001 human-control scoring",
+      "Treat conflicts as escalation",
+      "Never rely on color alone"
+    ],
+    "audits": [
+      "tests/build008.spec.ts"
+    ],
+    "media": [],
+    "sourceFiles": [
+      "packages/release/src/decision-engines.ts",
+      "apps/web/app/100-builds/008/a/DecisionDashboardLab.tsx",
+      "apps/web/app/100-builds/008/b/DecisionPathField.tsx"
+    ],
+    "lineage": [
+      "uses:001",
+      "creates:cap:008",
+      "future consumer:071"
+    ],
+    "plans": [
+      "Chromium/WebKit certification",
+      "deterministic film",
+      "preview QA"
+    ],
+    "limits": [
+      "Completeness is not correctness",
+      "Does not prove data quality, causality, authority, compliance, or decision quality",
+      "Does not execute action"
+    ]
+  },
+  "certification": {
+    "sha": null,
+    "workflowRunId": null,
+    "testCount": null
+  }
+}
