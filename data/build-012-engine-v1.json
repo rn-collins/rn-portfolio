@@ -1,0 +1,41 @@
+{
+  "version": "012.1.0",
+  "title": "AI Use Consequence & Control Mapper",
+  "uses": [
+    "001",
+    "010"
+  ],
+  "creates": [
+    "cap:012"
+  ],
+  "states": [
+    "LOWER CONSEQUENCE",
+    "CONTROLLED USE",
+    "ESCALATE / DO NOT DEPLOY"
+  ],
+  "dimensions": [
+    "severity",
+    "scale",
+    "reversibility",
+    "rights",
+    "vulnerability",
+    "autonomy",
+    "essential-service",
+    "data-sensitivity",
+    "uncertainty"
+  ],
+  "controls": [
+    "owner",
+    "reviewTrigger",
+    "authority",
+    "evidence",
+    "testing",
+    "monitoring",
+    "appeal",
+    "stopRule",
+    "incidentResponse",
+    "record",
+    "notice"
+  ],
+  "boundary": "Heuristic only; not legal classification, compliance, safety approval, or deployment permission."
+}
