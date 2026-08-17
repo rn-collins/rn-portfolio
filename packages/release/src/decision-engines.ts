@@ -342,3 +342,30 @@ export function assessRegulatedHandoffs(input:RegulatedHandoffInput):RegulatedHa
  return {status,coverage,responsibilityGaps,orphanOrganizations,inheritedWorkflowStatus:inherited.status,engineVersion:REGULATED_HANDOFF_ENGINE_VERSION};
 }
 export const REGULATED_HANDOFF_PROVENANCE:ProvenanceRef[]=[{id:'017-fda-quality-agreements',classification:'direct-source'},{id:'017-45-cfr-164.504',classification:'direct-source'},{id:'016-workflow-inheritance',classification:'product-heuristic'},{id:'017-responsibility-gap-rubric',classification:'product-heuristic'}];
+
+export const INSTITUTIONAL_FRICTION_ENGINE_VERSION='018.1.0';
+export type InstitutionalProcessStep={id:string;label:string;from:string;to:string;actor:string;action:string;requiredEvidence:string;owner:string;observedWaitHours:number;targetWaitHours:number;retryCount:number;exitRule:string;acceptance:string;recourse:string;record:string};
+export type InstitutionalFrictionInput={service:string;outcome:string;affectedPeople:string;organizations:RegulatedOrganization[];handoffs:RegulatedHandoff[];steps:InstitutionalProcessStep[]};
+export type FrictionFinding={stepId:string;kind:'BOTTLENECK'|'REPEATED LOOP'|'DEAD END'|'DUPLICATE DEMAND'|'OWNER GAP';severity:number;detail:string};
+export type InstitutionalFrictionAssessment={status:'ACCESSIBLE PATH'|'FRICTION HOTSPOTS'|'PROCESS UNDEFINED';frictionScore:number;findings:FrictionFinding[];repairOrder:string[];inheritedWorkflowStatus:LegalWorkflowAssessment['status'];inheritedHandoffStatus:RegulatedHandoffAssessment['status'];engineVersion:string};
+export function assessInstitutionalFriction(input:InstitutionalFrictionInput):InstitutionalFrictionAssessment{
+ const complete=(v:string)=>v.trim().length>=8;const findings:FrictionFinding[]=[];const known=new Map(input.organizations.map(o=>[o.id,o]));
+ const inheritedHandoffs=assessRegulatedHandoffs({market:'Institutional service delivery',regulatedActivity:input.service,affectedPeople:input.affectedPeople,organizations:input.organizations,handoffs:input.handoffs});
+ const nodes:LegalWorkflowNode[]=input.organizations.map(o=>({id:o.id,label:o.name,kind:'actor',owner:o.accountableOwner,source:o.governingSource,freshness:'Reverify before a process or policy change',confidentiality:'Apply the governing access, privacy, and retention controls'}));
+ const workflowHandoffs:LegalWorkflowHandoff[]=input.steps.map(s=>({id:s.id,from:s.from,to:s.to,payload:s.action,sender:known.get(s.from)?.accountableOwner||s.actor,receiver:known.get(s.to)?.accountableOwner||s.owner,trigger:s.requiredEvidence,deadline:`Target completion within ${s.targetWaitHours} hours`,acceptance:s.acceptance,authority:s.owner,record:s.record,escalation:s.recourse}));
+ const inheritedWorkflow=assessLegalWorkflow({matter:input.service,jurisdiction:'Institutional process',objective:input.outcome,nodes,handoffs:workflowHandoffs});
+ const evidenceSeen=new Map<string,string>();for(const step of input.steps){
+  if(step.observedWaitHours>Math.max(1,step.targetWaitHours))findings.push({stepId:step.id,kind:'BOTTLENECK',severity:Math.min(100,Math.round(step.observedWaitHours/Math.max(1,step.targetWaitHours)*35)),detail:`Observed wait ${step.observedWaitHours}h exceeds the ${step.targetWaitHours}h target.`});
+  if(step.retryCount>=2)findings.push({stepId:step.id,kind:'REPEATED LOOP',severity:Math.min(100,35+step.retryCount*12),detail:`People repeat this step ${step.retryCount} times before progressing.`});
+  if(!complete(step.exitRule)||!complete(step.recourse))findings.push({stepId:step.id,kind:'DEAD END',severity:85,detail:'The next-state rule or usable recourse path is missing.'});
+  if(!complete(step.owner))findings.push({stepId:step.id,kind:'OWNER GAP',severity:90,detail:'No accountable owner is named for this process state.'});
+  const evidence=step.requiredEvidence.trim().toLowerCase();if(evidence&&evidenceSeen.has(evidence))findings.push({stepId:step.id,kind:'DUPLICATE DEMAND',severity:65,detail:`The same evidence was already requested at ${evidenceSeen.get(evidence)}.`});else if(evidence)evidenceSeen.set(evidence,step.id);
+ }
+ if(inheritedHandoffs.status!=='ACCOUNTABILITY INTACT')findings.push({stepId:'CHAIN',kind:'OWNER GAP',severity:90,detail:'Close inherited Build 017 responsibility, permission, acceptance, incident, record, and recourse gaps.'});
+ if(inheritedWorkflow.status!=='MAPPED AND ACCOUNTABLE')findings.push({stepId:'WORKFLOW',kind:'DEAD END',severity:85,detail:'Close inherited Build 016 workflow and handoff gaps.'});
+ const frictionScore=findings.length?Math.min(100,Math.round(findings.reduce((n,f)=>n+f.severity,0)/Math.max(1,input.steps.length))):0;
+ const repairOrder=[...findings].sort((a,b)=>b.severity-a.severity).map(f=>`${f.stepId} · ${f.kind}: ${f.detail}`);
+ const status:InstitutionalFrictionAssessment['status']=!input.steps.length||!input.organizations.length?'PROCESS UNDEFINED':findings.length?'FRICTION HOTSPOTS':'ACCESSIBLE PATH';
+ return {status,frictionScore,findings,repairOrder,inheritedWorkflowStatus:inheritedWorkflow.status,inheritedHandoffStatus:inheritedHandoffs.status,engineVersion:INSTITUTIONAL_FRICTION_ENGINE_VERSION};
+}
+export const INSTITUTIONAL_FRICTION_PROVENANCE:ProvenanceRef[]=[{id:'018-omb-a11-section-280',classification:'cross-source-synthesis'},{id:'018-omb-administrative-burden',classification:'cross-source-synthesis'},{id:'016-workflow-inheritance',classification:'product-heuristic'},{id:'017-handoff-inheritance',classification:'product-heuristic'},{id:'018-friction-rubric',classification:'product-heuristic'}];
