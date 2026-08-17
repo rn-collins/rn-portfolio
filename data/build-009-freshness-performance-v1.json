@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "009",
+  "checkedOn": "2026-08-16",
+  "dependencies": {
+    "network": "none for core value",
+    "model": "none",
+    "externalRuntimeData": "none"
+  },
+  "freshness": {
+    "research": [
+      "NIST Community Resilience Planning Guide",
+      "NTIA local coordination",
+      "W3C accessibility context"
+    ],
+    "reviewRule": "Recheck source status and local evidence before each consequential use."
+  },
+  "resilience": {
+    "offlineCoreValue": true,
+    "clientLocal": true,
+    "fallback": "Static labels and structured controls remain usable without animation; exported record is portable."
+  },
+  "performance": {
+    "scope": "Small client component; no remote requests or heavy media required for interaction."
+  }
+}
