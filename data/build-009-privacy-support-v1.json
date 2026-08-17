@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "009",
+  "state": {
+    "location": "browser memory only",
+    "persistence": false,
+    "serverSubmission": false
+  },
+  "export": {
+    "trigger": "explicit user action",
+    "format": "JSON"
+  },
+  "minimization": "Users control the local details entered; example data is fictional.",
+  "support": {
+    "boundary": "No account, backend, telemetry, model, or network service is required for core value.",
+    "sensitiveUse": "Do not enter protected or identifying data; use generalized local evidence."
+  }
+}
