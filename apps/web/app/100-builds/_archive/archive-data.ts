@@ -281,6 +281,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Freshness/performance',detail:'Official ABA sources and offline deterministic operation.',path:'data/build-015-freshness-performance-v1.json'},
   {label:'Browser fixtures',detail:'Candidate, unsafe collapse, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build015.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete local static gates, browser matrix, Vercel preview, and deployment verification; defer GitHub-hosted jobs until Actions capacity returns.'},
-  {label:'Future consumers',detail:'Build 093 consumes cap:015.'}],sourceFiles:['apps/web/app/100-builds/015/a/LegalProductLab.tsx','apps/web/app/100-builds/015/b/ProductAssembly.tsx','packages/release/src/decision-engines.ts','data/build-015-engine-v1.json','data/build-015-archive-v1.json','docs/builds/015/SPEC.md','docs/builds/015/ARCHIVE.md','tests/build015.spec.ts']}
+  {label:'Future consumers',detail:'Build 093 consumes cap:015.'}],sourceFiles:['apps/web/app/100-builds/015/a/LegalProductLab.tsx','apps/web/app/100-builds/015/b/ProductAssembly.tsx','packages/release/src/decision-engines.ts','data/build-015-engine-v1.json','data/build-015-archive-v1.json','docs/builds/015/SPEC.md','docs/builds/015/ARCHIVE.md','tests/build015.spec.ts']},
+ '016':{id:'016',title:'Legal Workflow Mapping System',question:'What actually has to move—and who accepts responsibility at every transfer?',thesis:'A legal task is an operational network. Actors, documents, authorities, deadlines, decisions, risks, records, and handoffs must be explicit before a workflow is accountable.',research:[
+  {label:'Legal Workflow Engine v1',detail:'Seven node classes, nine-field handoff records, coverage, orphan detection, responsibility gaps, and human review.',path:'data/build-016-engine-v1.json'},
+  {label:'ABA Model Rule 1.1',detail:'Grounds competent methods, preparation, and technological understanding.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_competence/'},
+  {label:'ABA Model Rule 1.3',detail:'Grounds diligence and controlled progress through the matter.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_3_diligence/'},
+  {label:'ABA Model Rule 1.4',detail:'Grounds communication, consultation, and informed client decisions.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_4_communications/'}],created:[
+  {label:'016-A Legal Workflow Mapping System',detail:'Maps nodes and accountable handoff records, exposes broken acceptance, and exports locally.',href:'/100-builds/016/a'},
+  {label:'016-B The Matter Beneath the Matter',detail:'A linear request unfolds into actors, evidence, controls, and records.',href:'/100-builds/016/b'},
+  {label:'Workflow Map Schema and Handoff Record v1',detail:'Reusable operational primitives for later regulated-market and state-machine builds.'}],decisions:[
+  {label:'Builds 010 and 014 are concrete dependencies',detail:'The workflow inherits explicit entities and relationships plus legal judgment and authority allocation.'},
+  {label:'Handoffs are first-class controls',detail:'Every transfer records payload, sender, receiver, trigger, deadline, acceptance, authority, record, and escalation.'},
+  {label:'Deadlines join the decision network',detail:'A deadline is sourced, computed, owned, confirmed, changed, and escalated—not merely displayed.'},
+  {label:'The map does not provide legal advice',detail:'It structures supervised work while jurisdiction-specific professional conclusions remain with authorized counsel.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy, and lifecycle.',path:'data/build-016-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local state and competent-review boundary.',path:'data/build-016-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Official ABA sources and offline deterministic operation.',path:'data/build-016-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Mapped, broken handoff, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build016.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete local gates, Vercel deployment, live browser verification, then record GitHub CI and media independently.'},
+  {label:'Future consumers',detail:'017, 018, 069, 077 and 093 consume cap:016.'}],sourceFiles:['apps/web/app/100-builds/016/a/LegalWorkflowLab.tsx','apps/web/app/100-builds/016/b/MatterNetwork.tsx','packages/release/src/decision-engines.ts','data/build-016-engine-v1.json','data/build-016-archive-v1.json','docs/builds/016/SPEC.md','docs/builds/016/ARCHIVE.md','tests/build016.spec.ts']}
 
 };
