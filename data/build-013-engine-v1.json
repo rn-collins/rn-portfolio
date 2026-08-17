@@ -1,0 +1,30 @@
+{
+  "version": "013.1.0",
+  "title": "AI Workflow Consequence Scanner",
+  "uses": [
+    "012"
+  ],
+  "creates": [
+    "cap:013"
+  ],
+  "states": [
+    "RISK CONTAINED",
+    "CONTROL GAPS",
+    "UNCONTROLLED PROPAGATION"
+  ],
+  "stageKinds": [
+    "intake",
+    "data",
+    "model",
+    "decision",
+    "action",
+    "monitoring"
+  ],
+  "requiredPerStage": [
+    "owner",
+    "control",
+    "stopAuthority",
+    "monitoring"
+  ],
+  "boundary": "Exposure is a heuristic, not probability, legal conclusion, formal risk assessment, safety approval, or deployment permission."
+}
