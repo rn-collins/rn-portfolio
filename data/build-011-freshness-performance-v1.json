@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "011",
+  "checkedOn": "2026-08-16",
+  "dependencies": {
+    "network": "none",
+    "model": "none",
+    "externalIdentitySystem": "none"
+  },
+  "offlineCoreValue": true,
+  "performance": "small client-local assessment; no remote requests",
+  "freshnessRule": "Recheck source authority, record version and evidence before every consequential resolution."
+}
