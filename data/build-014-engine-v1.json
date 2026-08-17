@@ -1,0 +1,32 @@
+{
+  "version": "014.1.0",
+  "title": "Legal Judgment Architecture",
+  "uses": [
+    "001",
+    "012"
+  ],
+  "creates": [
+    "cap:014"
+  ],
+  "states": [
+    "SUPERVISED ARCHITECTURE",
+    "JUDGMENT LEAK",
+    "UNDEFINED RESPONSIBILITY"
+  ],
+  "layers": [
+    "research",
+    "synthesis",
+    "interpretation",
+    "inference",
+    "strategy",
+    "approval",
+    "client decision"
+  ],
+  "allocations": [
+    "ai-assist",
+    "draft-under-supervision",
+    "lawyer-only",
+    "client-decision"
+  ],
+  "boundary": "Educational workflow architecture, not legal advice, ethics opinion, UPL determination, or jurisdiction-specific compliance."
+}
