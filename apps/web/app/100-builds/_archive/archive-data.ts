@@ -263,6 +263,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Freshness/performance',detail:'Current official ABA sources and offline operation.',path:'data/build-014-freshness-performance-v1.json'},
   {label:'Browser fixtures',detail:'Supervised, leak, reset, export, lifecycle, 320px and B-layer coverage.',path:'tests/build014.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
-  {label:'Future consumers',detail:'015, 016, 044 and 093 consume cap:014.'}],sourceFiles:['apps/web/app/100-builds/014/a/LegalJudgmentLab.tsx','apps/web/app/100-builds/014/b/JudgmentLayers.tsx','packages/release/src/decision-engines.ts','data/build-014-engine-v1.json','data/build-014-archive-v1.json','docs/builds/014/SPEC.md','docs/builds/014/ARCHIVE.md','tests/build014.spec.ts']}
+  {label:'Future consumers',detail:'015, 016, 044 and 093 consume cap:014.'}],sourceFiles:['apps/web/app/100-builds/014/a/LegalJudgmentLab.tsx','apps/web/app/100-builds/014/b/JudgmentLayers.tsx','packages/release/src/decision-engines.ts','data/build-014-engine-v1.json','data/build-014-archive-v1.json','docs/builds/014/SPEC.md','docs/builds/014/ARCHIVE.md','tests/build014.spec.ts']},
+ '015':{id:'015',title:'Repeated Legal Task → Product Engine',question:'Which repeated legal work can safely become a reusable system?',thesis:'Repetition is evidence of a pattern, not permission to automate judgment. Reusable structure must be separated from matter facts, confidentiality, legal conclusions, strategy, approval, and client authority.',research:[
+  {label:'Legal product engine',detail:'Seven-factor candidate assessment, four bounded dispositions, human review, and explicit productization boundary.',path:'data/build-015-engine-v1.json'},
+  {label:'ABA Model Rule 1.1',detail:'Competence remains required when selecting and using methods and technology.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_competence/'},
+  {label:'ABA Model Rule 1.6',detail:'Confidentiality constrains the information and systems used in repeated legal work.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/'},
+  {label:'ABA Model Rule 5.3',detail:'Supervision and responsibility remain with authorized humans.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/'}],created:[
+  {label:'015-A Repeated Legal Task → Product Engine',detail:'Scores repeated tasks and exposes safe, internal, supervised, and prohibited dispositions.',href:'/100-builds/015/a'},
+  {label:'015-B From Matter Work to Reusable System',detail:'An interactive assembly line reveals where matter work becomes governed structure.',href:'/100-builds/015/b'},
+  {label:'Legal Product Engine v1',detail:'Reusable candidate scoring and productization-boundary assessment.'}],decisions:[
+  {label:'Repetition is not authorization',detail:'Frequency supports investigation but cannot move professional responsibility or expand who may provide legal services.'},
+  {label:'Structure may be reusable',detail:'Inputs, fields, source rules, verification steps, handoffs, records, and review gates may become bounded systems.'},
+  {label:'Judgment remains owned',detail:'Matter conclusions, strategy, approval, confidential information, and client decisions stay with authorized humans.'},
+  {label:'Internal is a distinct disposition',detail:'Some useful systems are appropriate only inside an access-controlled supervised environment.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy, and lifecycle state.',path:'data/build-015-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local processing and professional boundary.',path:'data/build-015-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Official ABA sources and offline deterministic operation.',path:'data/build-015-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Candidate, unsafe collapse, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build015.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete local static gates, browser matrix, Vercel preview, and deployment verification; defer GitHub-hosted jobs until Actions capacity returns.'},
+  {label:'Future consumers',detail:'Build 093 consumes cap:015.'}],sourceFiles:['apps/web/app/100-builds/015/a/LegalProductLab.tsx','apps/web/app/100-builds/015/b/ProductAssembly.tsx','packages/release/src/decision-engines.ts','data/build-015-engine-v1.json','data/build-015-archive-v1.json','docs/builds/015/SPEC.md','docs/builds/015/ARCHIVE.md','tests/build015.spec.ts']}
 
 };
