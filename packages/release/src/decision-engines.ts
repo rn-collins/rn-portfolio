@@ -187,3 +187,34 @@ export const ENTITY_RESOLUTION_PROVENANCE:ProvenanceRef[]=[
  {id:'010-skeleton-inheritance',classification:'product-heuristic'},
  {id:'011-resolution-rubric',classification:'product-heuristic'}
 ];
+
+
+export const AI_CONTROL_MAPPER_ENGINE_VERSION='012.1.0';
+export type ConsequenceKey='severity'|'scale'|'reversibility'|'rights'|'vulnerability'|'autonomy'|'essential-service'|'data-sensitivity'|'uncertainty';
+export type ConsequenceDimension={key:ConsequenceKey;label:string;score:1|2|3|4|5;evidence:string};
+export type AIUseControl={owner:string;reviewTrigger:string;authority:string;evidence:string;testing:string;monitoring:string;appeal:string;stopRule:string;incidentResponse:string;record:string;notice:string};
+export type AIUseMapInput={useName:string;purpose:string;affectedPeople:string;dimensions:ConsequenceDimension[];controls:AIUseControl;model:IdeaSkeleton};
+export type AIUseMapAssessment={status:'LOWER CONSEQUENCE'|'CONTROLLED USE'|'ESCALATE / DO NOT DEPLOY';consequenceScore:number;controlCoverage:number;requiredControls:string[];gaps:string[];humanReview:{score:number;grade:'Strong'|'Partial'|'Weak'};modelStatus:SkeletonAssessment['status'];engineVersion:string};
+export function assessAIUseControls(input:AIUseMapInput):AIUseMapAssessment{
+ const model=assessIdeaSkeleton(input.model);const complete=(v:string)=>v.trim().length>=8;
+ const values=Object.entries(input.controls) as Array<[keyof AIUseControl,string]>;const present=values.filter(([,v])=>complete(v));const controlCoverage=Math.round(present.length/values.length*100);
+ const consequenceScore=input.dimensions.length?Math.round(input.dimensions.reduce((n,d)=>n+d.score,0)/input.dimensions.length*20):0;
+ const severe=input.dimensions.some(d=>['severity','rights','essential-service'].includes(d.key)&&d.score>=5);
+ const humanDimensions=[input.controls.owner,input.controls.reviewTrigger,input.controls.authority,input.controls.evidence,input.controls.appeal,input.controls.stopRule,input.controls.incidentResponse,input.controls.record].map(v=>({score:(complete(v)?2:0) as 0|2}));
+ const humanScore=humanReviewScore(humanDimensions),grade=humanReviewGrade(humanScore);
+ const required:Record<keyof AIUseControl,string>={owner:'accountable owner',reviewTrigger:'review trigger',authority:'human authority',evidence:'evidence standard',testing:'pre-use testing',monitoring:'outcome monitoring',appeal:'appeal or contest path',stopRule:'stop and rollback rule',incidentResponse:'incident response',record:'decision record',notice:'affected-person notice'};
+ const requiredKeys=(consequenceScore>=70||severe?Object.keys(required):consequenceScore>=40?['owner','reviewTrigger','authority','evidence','testing','monitoring','stopRule','record']:['owner','evidence','testing','monitoring','record']) as Array<keyof AIUseControl>;
+ const gaps:string[]=[];for(const key of requiredKeys)if(!complete(input.controls[key]))gaps.push(`Define the ${required[key]}.`);
+ if(model.status!=='VALID SKELETON')gaps.push('Repair the inherited Build 010 use, actor, outcome, and source structure.');
+ if(!complete(input.useName)||!complete(input.purpose)||!complete(input.affectedPeople))gaps.push('Name the use, bounded purpose, and affected people.');
+ if(input.dimensions.length<5)gaps.push('Assess at least five consequence dimensions with evidence.');
+ const ready=gaps.length===0&&grade==='Strong';const status:AIUseMapAssessment['status']=(consequenceScore>=70||severe)&&!ready?'ESCALATE / DO NOT DEPLOY':consequenceScore>=40||severe?'CONTROLLED USE':'LOWER CONSEQUENCE';
+ return {status,consequenceScore,controlCoverage,requiredControls:requiredKeys.map(k=>required[k]),gaps,humanReview:{score:humanScore,grade},modelStatus:model.status,engineVersion:AI_CONTROL_MAPPER_ENGINE_VERSION};
+}
+export const AI_CONTROL_MAPPER_PROVENANCE:ProvenanceRef[]=[
+ {id:'012-nist-ai-rmf-1.0',classification:'cross-source-synthesis'},
+ {id:'012-oecd-ai-classification',classification:'cross-source-synthesis'},
+ {id:'001-human-review-inheritance',classification:'product-heuristic'},
+ {id:'010-skeleton-inheritance',classification:'product-heuristic'},
+ {id:'012-consequence-control-rubric',classification:'product-heuristic'}
+];
