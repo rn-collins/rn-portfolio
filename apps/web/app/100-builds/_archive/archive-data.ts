@@ -245,5 +245,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Browser fixtures',detail:'Contained, propagation, reset, export, lifecycle, 320px and B-state coverage.',path:'tests/build013.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
   {label:'Future consumers',detail:'022, 025, 032 and 041 consume cap:013.'}],sourceFiles:['apps/web/app/100-builds/013/a/WorkflowScanner.tsx','apps/web/app/100-builds/013/b/RiskCircuit.tsx','packages/release/src/decision-engines.ts','data/build-013-engine-v1.json','data/build-013-archive-v1.json','docs/builds/013/SPEC.md','docs/builds/013/ARCHIVE.md','tests/build013.spec.ts']}
+,
+ '014':{id:'014',title:'Legal Judgment Architecture',question:'Who owns each layer of legal judgment?',thesis:'A tool may produce legal text, but responsibility does not move with the text. Research, interpretation, inference, strategy, approval, professional judgment and client authority require distinct allocations.',research:[
+  {label:'Legal judgment engine',detail:'Seven work layers, four allocation states, inherited human and AI controls, leak detection and jurisdictional boundary.',path:'data/build-014-engine-v1.json'},
+  {label:'ABA Formal Opinion 512',detail:'Official guidance on competence, confidentiality, communication, supervision, candor and fees when lawyers use generative AI.',href:'https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf'},
+  {label:'ABA Model Rule 2.1',detail:'Grounds the lawyer’s independent professional judgment and candid advice.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_2_1_advisor/'},
+  {label:'ABA Model Rule 5.3',detail:'Grounds reasonable measures, supervision and responsibility for nonlawyer assistance.',href:'https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/'}],created:[
+  {label:'014-A Legal Judgment Architecture',detail:'Audit seven legal-work layers, expose judgment leakage and export locally.',href:'/100-builds/014/a'},
+  {label:'014-B The Answer Has Layers',detail:'An interactive responsibility stack separates assistance from owned judgment.',href:'/100-builds/014/b'},
+  {label:'Legal Judgment Engine v1',detail:'Reusable legal-work allocation and supervision assessment.'}],decisions:[
+  {label:'Builds 001 and 012 are concrete dependencies',detail:'The engine directly calls the human-review primitives and assessAIUseControls.'},
+  {label:'Generated text does not transfer responsibility',detail:'Strategy, final approval and professional judgment cannot be silently assigned to AI assistance.'},
+  {label:'Client authority remains distinct',detail:'Decisions allocated to the client are not relabeled lawyer or tool decisions.'},
+  {label:'No universal UPL claim',detail:'The architecture defers to jurisdictional law, adopted rules, court orders, agreements and supervising counsel.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy and consumers.',path:'data/build-014-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local state and jurisdictional support boundary.',path:'data/build-014-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Current official ABA sources and offline operation.',path:'data/build-014-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Supervised, leak, reset, export, lifecycle, 320px and B-layer coverage.',path:'tests/build014.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, media, preview and exact-head certification.'},
+  {label:'Future consumers',detail:'015, 016, 044 and 093 consume cap:014.'}],sourceFiles:['apps/web/app/100-builds/014/a/LegalJudgmentLab.tsx','apps/web/app/100-builds/014/b/JudgmentLayers.tsx','packages/release/src/decision-engines.ts','data/build-014-engine-v1.json','data/build-014-archive-v1.json','docs/builds/014/SPEC.md','docs/builds/014/ARCHIVE.md','tests/build014.spec.ts']}
 
 };
