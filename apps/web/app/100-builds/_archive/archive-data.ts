@@ -301,4 +301,22 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Release path',detail:'Complete local gates, Vercel deployment, live browser verification, then record GitHub CI and media independently.'},
   {label:'Future consumers',detail:'017, 018, 069, 077 and 093 consume cap:016.'}],sourceFiles:['apps/web/app/100-builds/016/a/LegalWorkflowLab.tsx','apps/web/app/100-builds/016/b/MatterNetwork.tsx','packages/release/src/decision-engines.ts','data/build-016-engine-v1.json','data/build-016-archive-v1.json','docs/builds/016/SPEC.md','docs/builds/016/ARCHIVE.md','tests/build016.spec.ts']}
 
+,
+ '017':{id:'017',title:'Regulated-Market Handoff Mapper',question:'Where does responsibility disappear between organizations?',thesis:'Regulated work does not become safe because every organization has its own box. Responsibility, evidence, permission, acceptance, incident duties, records, and recourse must survive every transfer.',research:[
+  {label:'Regulated Handoff Engine v1',detail:'Cross-organization responsibility-gap detection that concretely inherits Build 016’s workflow and handoff assessment.',path:'data/build-017-engine-v1.json'},
+  {label:'FDA quality-agreement guidance',detail:'Grounds explicit allocation and documentation of manufacturing activities while preserving each party’s applicable CGMP responsibilities.',href:'https://www.fda.gov/regulatory-information/search-fda-guidance-documents/contract-manufacturing-arrangements-drugs-quality-agreements-guidance-industry'},
+  {label:'45 CFR 164.504(e)',detail:'Grounds bounded uses, safeguards, reporting, downstream restrictions, records, return or destruction, cure, termination, and organizational responsibility in the HIPAA business-associate context.',href:'https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.504'}],created:[
+  {label:'017-A Regulated-Market Handoff Mapper',detail:'Maps organizations and cross-institution controls, exposes a broken data transfer, and exports locally.',href:'/100-builds/017/a'},
+  {label:'017-B The Risk Lives Between the Boxes',detail:'An interactive institutional diagram reveals five hidden transfer questions.',href:'/100-builds/017/b'},
+  {label:'Cross-Organization Handoff Model and Responsibility Gap Detector',detail:'Reusable primitives for later state, escalation, implementation, consent, and regulated-system builds.'}],decisions:[
+  {label:'Build 016 is concretely inherited',detail:'The engine converts organizations and transfers into the legal workflow nodes and nine-field handoffs consumed by assessLegalWorkflow.'},
+  {label:'Agreements do not erase applicable duties',detail:'The mapper allocates work and controls without implying that a contract transfers or eliminates obligations imposed by governing law.'},
+  {label:'Permission and recourse are independent controls',detail:'A technically successful transfer can still fail because its purpose, authority, incident response, or affected-person remedy is missing.'},
+  {label:'Examples are not universal compliance rules',detail:'Every real use requires the correct jurisdiction, market, product, activity, agreement, facts, and competent reviewers.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy, deferred gates, and lifecycle.',path:'data/build-017-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local operation and legal/compliance boundary.',path:'data/build-017-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Current primary sources and offline deterministic operation.',path:'data/build-017-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Intact, broken controls, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build017.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete local gates, Vercel deployment, and live browser verification; keep GitHub-hosted CI and media certification pending until Actions capacity returns.'},
+  {label:'Future consumers',detail:'018, 019, 022, 043, 044, 048, 065, 069, 077 and 093 consume cap:017.'}],sourceFiles:['apps/web/app/100-builds/017/a/RegulatedHandoffLab.tsx','apps/web/app/100-builds/017/b/BetweenTheBoxes.tsx','packages/release/src/decision-engines.ts','data/build-017-engine-v1.json','data/build-017-archive-v1.json','docs/builds/017/SPEC.md','docs/builds/017/ARCHIVE.md','tests/build017.spec.ts']}
 };
