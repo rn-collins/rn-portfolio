@@ -218,3 +218,32 @@ export const AI_CONTROL_MAPPER_PROVENANCE:ProvenanceRef[]=[
  {id:'010-skeleton-inheritance',classification:'product-heuristic'},
  {id:'012-consequence-control-rubric',classification:'product-heuristic'}
 ];
+
+
+export const AI_WORKFLOW_SCANNER_ENGINE_VERSION='013.1.0';
+export type WorkflowStageKind='intake'|'data'|'model'|'decision'|'action'|'monitoring';
+export type WorkflowRisk={id:string;label:string;entryStage:string;severity:1|2|3|4|5;likelihood:1|2|3|4|5;evidence:string};
+export type WorkflowStage={id:string;label:string;kind:WorkflowStageKind;owner:string;input:string;output:string;control:string;stopAuthority:string;monitoring:string};
+export type WorkflowEdge={from:string;to:string};
+export type AIWorkflowInput={name:string;purpose:string;affectedPeople:string;stages:WorkflowStage[];edges:WorkflowEdge[];risks:WorkflowRisk[];useMap:AIUseMapInput};
+export type PropagatedRisk={riskId:string;label:string;path:string[];uncontrolledStages:string[];exposure:number};
+export type AIWorkflowAssessment={status:'RISK CONTAINED'|'CONTROL GAPS'|'UNCONTROLLED PROPAGATION';consequenceStatus:AIUseMapAssessment['status'];workflowCoverage:number;propagated:PropagatedRisk[];gaps:string[];engineVersion:string};
+export function scanAIWorkflow(input:AIWorkflowInput):AIWorkflowAssessment{
+ const inherited=assessAIUseControls(input.useMap);const complete=(v:string)=>v.trim().length>=8;const known=new Map(input.stages.map(s=>[s.id,s]));const next=new Map<string,string[]>();for(const e of input.edges){if(known.has(e.from)&&known.has(e.to))next.set(e.from,[...(next.get(e.from)||[]),e.to]);}
+ const controlled=(s:WorkflowStage)=>[s.owner,s.control,s.stopAuthority,s.monitoring].every(complete);const propagated:PropagatedRisk[]=input.risks.map(risk=>{const path:string[]=[];const seen=new Set<string>();const queue=[risk.entryStage];while(queue.length){const id=queue.shift()!;if(seen.has(id)||!known.has(id))continue;seen.add(id);path.push(id);for(const id2 of next.get(id)||[])queue.push(id2)}const uncontrolledStages=path.filter(id=>!controlled(known.get(id)!));const exposure=Math.min(100,Math.round(risk.severity*risk.likelihood*4*(1+uncontrolledStages.length/Math.max(1,path.length))));return {riskId:risk.id,label:risk.label,path,uncontrolledStages,exposure}});
+ const completeStages=input.stages.filter(controlled).length;const workflowCoverage=input.stages.length?Math.round(completeStages/input.stages.length*100):0;const gaps:string[]=[];
+ if(!complete(input.name)||!complete(input.purpose)||!complete(input.affectedPeople))gaps.push('Name the workflow, bounded purpose, and affected people.');
+ if(input.stages.length<4)gaps.push('Map at least four real workflow stages.');
+ if(!input.risks.length)gaps.push('Add evidence-bearing risks and their entry stages.');
+ for(const s of input.stages){if(!controlled(s))gaps.push(`${s.label}: define owner, control, stop authority, and monitoring.`)}
+ if(inherited.gaps.length)gaps.push('Close the inherited Build 012 consequence and control gaps.');
+ const worst=Math.max(0,...propagated.map(r=>r.exposure));const anyUncontrolled=propagated.some(r=>r.uncontrolledStages.length>0);
+ const status:AIWorkflowAssessment['status']=inherited.status==='ESCALATE / DO NOT DEPLOY'||(worst>=80&&anyUncontrolled)?'UNCONTROLLED PROPAGATION':gaps.length||anyUncontrolled?'CONTROL GAPS':'RISK CONTAINED';
+ return {status,consequenceStatus:inherited.status,workflowCoverage,propagated,gaps,engineVersion:AI_WORKFLOW_SCANNER_ENGINE_VERSION};
+}
+export const AI_WORKFLOW_SCANNER_PROVENANCE:ProvenanceRef[]=[
+ {id:'013-nist-ai-rmf-core',classification:'cross-source-synthesis'},
+ {id:'013-nist-ssdf-800-218a',classification:'cross-source-synthesis'},
+ {id:'012-consequence-control-inheritance',classification:'product-heuristic'},
+ {id:'013-propagation-rubric',classification:'product-heuristic'}
+];
