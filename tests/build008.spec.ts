@@ -43,8 +43,8 @@ test.describe('Build 008 decision-ready dashboard standard',()=>{
   await expect(page.getByRole('link',{name:/ENTER THE VISUAL BUILD/})).toHaveAttribute('href',/\/100-builds\/008\/b\/?$/);
   await page.goto('/100-builds/009');
   await expect(page.getByText('BUILD 009 / 100 · IN THE LAB')).toBeVisible();
-  await page.goto('/100-builds/013');
-  await expect(page.getByText('BUILD 013 / 100 · COMING NEXT')).toBeVisible();
+  await page.goto('/100-builds/014');
+  await expect(page.getByText('BUILD 014 / 100 · COMING NEXT')).toBeVisible();
  });
  test('functional room stays usable at 320 CSS pixels',async({page})=>{
   await page.setViewportSize({width:320,height:800});
