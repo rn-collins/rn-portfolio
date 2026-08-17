@@ -38,7 +38,15 @@ Created: Decision Readiness Rubric v1; Action-State Component v1; Decision Dashb
 - `packages/release/src/decision-engines.ts`
 
 ## QA state
-Implementation, media, deployed-preview QA, and exact-head certification are pending and must not be represented as complete.
+- Implementation head: `47c9c83dbcef8fea678a714c90b5dbdd9764fba9`
+- Platform CI: run `31986626556` — SUCCESS
+- Browser matrix: 198/198 Playwright tests passed across desktop Chromium and mobile WebKit.
+- Static gates: lineage, archive scaffold, TypeScript, lint, and production build passed.
+- Exact-head Vercel preview: `rn-portfolio-2ccdpfgec-rn-collins.vercel.app`
+- Deployment: `dpl_23iAtLXTcpztKXZNtNwdzEyQs5CS` — READY
+- Hosted QA: A default readiness and Build 001 inheritance; B decision-ready and conflict states; archive routes and media metadata verified.
+- Canonical film: 720×900, 24 fps, 18s, 217,992 bytes, SHA-256 `40e4bbbbc266fe1508ec82c015b0ea0fdf8077020aa2027a74676b9f30142bca`.
+- Release state: CERTIFIED; the certification-record commit must receive its own administrative-head CI before closure.
 
 ## Forward lineage
 Build 071 explicitly consumes Build 008.
