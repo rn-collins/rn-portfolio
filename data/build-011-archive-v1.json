@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "011",
+  "routes": {
+    "a": "/100-builds/011/a",
+    "b": "/100-builds/011/b",
+    "room": "/100-builds/011"
+  },
+  "lineage": {
+    "uses": [
+      "010"
+    ],
+    "creates": [
+      "cap:011"
+    ],
+    "consumers": [
+      "021",
+      "026",
+      "027",
+      "041",
+      "046",
+      "056",
+      "060",
+      "062",
+      "082",
+      "084",
+      "085",
+      "088",
+      "099"
+    ]
+  },
+  "privacy": {
+    "state": "browser memory",
+    "minimization": true,
+    "serverSubmission": false,
+    "export": "user-initiated JSON"
+  },
+  "release": {
+    "status": "implementation"
+  }
+}
