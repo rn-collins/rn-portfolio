@@ -153,6 +153,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'008 LinkedIn production record',detail:'Deterministic 4:5 film specification, checksum, reproduction, and verification boundary.',path:'docs/builds/008-linkedin-production.md'},
   {label:'008 adversarial browser fixtures',detail:'Ready, incomplete, empty, metric lifecycle, export, 320px, scenario state, human control, and conflict behavior.',path:'tests/build008.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete Chromium/WebKit, accessibility, 320px, reduced-motion, archive, media, preview, and exact-head certification.'},
-  {label:'Future consumer',detail:'Canonical Build 071 explicitly inherits cap:008.'}],sourceFiles:['apps/web/app/100-builds/008/a/DecisionDashboardLab.tsx','apps/web/app/100-builds/008/b/DecisionPathField.tsx','packages/release/src/decision-engines.ts','data/build-008-engine-v1.json','docs/builds/008/SPEC.md','docs/builds/008/ARCHIVE.md','docs/builds/008-linkedin-production.md','data/build-008-privacy-support-v1.json','data/build-008-freshness-performance-v1.json','tests/build008.spec.ts']}
+  {label:'Future consumer',detail:'Canonical Build 071 explicitly inherits cap:008.'}],sourceFiles:['apps/web/app/100-builds/008/a/DecisionDashboardLab.tsx','apps/web/app/100-builds/008/b/DecisionPathField.tsx','packages/release/src/decision-engines.ts','data/build-008-engine-v1.json','docs/builds/008/SPEC.md','docs/builds/008/ARCHIVE.md','docs/builds/008-linkedin-production.md','data/build-008-privacy-support-v1.json','data/build-008-freshness-performance-v1.json','tests/build008.spec.ts']},
+ '009':{id:'009',title:'Place-Sensitive Technology Readiness',question:'Can this technology work in this place?',thesis:'Transferability is not a property of technology alone. Requirements must be tested against evidenced local capacity, prevailing hazards, access needs, operating systems, and legitimate local authority before a bounded pilot.',research:[
+  {label:'Place-readiness engine + evidence boundary',detail:'Ten local dimensions, inherited decision-gap score, status logic, provenance, and non-claims.',path:'data/build-009-engine-v1.json'},
+  {label:'Complete Build 009 archive',detail:'Canon, evidence boundary, direct Build 003 inheritance, privacy, lineage, and release placeholders.',path:'docs/builds/009/ARCHIVE.md'},
+  {label:'Build 009 specification',detail:'Purpose, product contract, engine inheritance, evidence and non-claims.',path:'docs/builds/009/SPEC.md'},
+  {label:'NIST Community Resilience Planning Guide',detail:'Supports local goals, collaborative planning, dependencies, prevailing hazards, infrastructure, and social/economic context.',href:'https://www.nist.gov/community-resilience/planning-guide'},
+  {label:'NTIA local coordination',detail:'Supports meaningful involvement of local, territorial, Tribal, and underrepresented communities.',href:'https://broadbandusa.ntia.gov/news/latest-news/ntias-commitment-state-and-territory-local-coordination'}],created:[
+  {label:'009-A Place-Sensitive Technology Readiness',detail:'Compare requirements with local capacity, record evidence/owners/mitigations, bound a pilot, and export a local record.',href:'/100-builds/009/a'},
+  {label:'009-B Transfer Is a Place Question',detail:'Interactive place scenarios reshape feasibility and local authority in real time.',href:'/100-builds/009/b'},
+  {label:'Place Readiness Engine v1',detail:'Ten-dimension local fit heuristic with explicit blockers, unknowns, mitigations, and three named states.'}],decisions:[
+  {label:'Build 003 is concretely inherited',detail:'The engine directly calls decisionGapScore and decisionGapTier before assessing place fit.'},
+  {label:'Community authority is a gate',detail:'Local and affected-community authority can condition, pause, or stop the pilot.'},
+  {label:'Fit is not certification',detail:'The rubric does not prove safety, legality, legitimacy, reliability, adoption, procurement, or successful transfer.'},
+  {label:'Status is not color-only',detail:'Every visual state is named, scored, structured, and described.'}],audits:[
+  {label:'Machine-readable archive',detail:'Structured routes, lineage, privacy, evidence boundary, and release state.',path:'data/build-009-archive-v1.json'},
+  {label:'009 browser fixtures',detail:'Conditional default, constraint change, empty state, export, lifecycle, 320px, scenario, and local-authority behavior.',path:'tests/build009.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Chromium/WebKit matrix, accessibility, archive, media, preview, and exact-head certification.'},
+  {label:'Future consumers',detail:'Canonical Builds 045, 046, and 047 explicitly consume cap:009.'}],sourceFiles:['apps/web/app/100-builds/009/a/PlaceReadinessLab.tsx','apps/web/app/100-builds/009/b/FeasibilityField.tsx','packages/release/src/decision-engines.ts','data/build-009-engine-v1.json','data/build-009-archive-v1.json','docs/builds/009/SPEC.md','docs/builds/009/ARCHIVE.md','tests/build009.spec.ts']}
+
 
 };
