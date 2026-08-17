@@ -200,6 +200,22 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "CONTROLS SHOULD FOLLOW CONSEQUENCE."
+    },
+    {
+      "id": "013",
+      "title": "AI Workflow Consequence Scanner",
+      "path": "/media/builds/013/build-013-linkedin.mp4",
+      "poster": "/media/builds/013/build-013-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "105602519610f79713771ef1028661fd9fe5e558c8984233225ba2d7ca69fab5",
+      "bytes": 219303,
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "FOLLOW THE CONSEQUENCE THROUGH THE WORK."
     }
   ]
 }
