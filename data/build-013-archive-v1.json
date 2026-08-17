@@ -1,0 +1,18 @@
+{
+  "build": "013",
+  "status": "active",
+  "canonicalPaths": [
+    "/100-builds/013",
+    "/100-builds/013/a",
+    "/100-builds/013/b"
+  ],
+  "retention": "No workflow or personal data retained by the public demonstration.",
+  "lineage": {
+    "uses": [
+      "012"
+    ],
+    "creates": [
+      "cap:013"
+    ]
+  }
+}
