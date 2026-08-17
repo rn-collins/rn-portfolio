@@ -8,6 +8,7 @@ on:
       - 'workstream/build-007'
       - 'workstream/build-008'
       - 'workstream/build-009'
+      - 'workstream/build-010'
     paths:
       - 'data/linkedin-film-specs-v1.json'
       - 'scripts/render-linkedin-films.py'
@@ -36,12 +37,12 @@ jobs:
           python -m pip install --disable-pip-version-check pillow
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-      - name: Render canonical 001-009 films
-        run: python scripts/render-linkedin-films.py 001 002 003 004 005 006 007 008 009
+      - name: Render canonical 001-010 films
+        run: python scripts/render-linkedin-films.py 001 002 003 004 005 006 007 008 009 010
       - name: Verify generated public assets
         run: |
           set -euo pipefail
-          for id in 001 002 003 004 005 006 007 008 009; do
+          for id in 001 002 003 004 005 006 007 008 009 010; do
             test -s "apps/web/public/media/builds/$id/build-$id-linkedin.mp4"
             test -s "apps/web/public/media/builds/$id/build-$id-linkedin-poster.png"
             ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of default=nw=1 "apps/web/public/media/builds/$id/build-$id-linkedin.mp4"
@@ -56,5 +57,5 @@ jobs:
             echo "Media already matches the canonical specs."
             exit 0
           fi
-          git commit -m "media: render canonical LinkedIn films 001-009 [skip media]"
+          git commit -m "media: render canonical LinkedIn films 001-010 [skip media]"
           git push
