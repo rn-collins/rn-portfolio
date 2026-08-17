@@ -8,7 +8,8 @@ These gates remain open and must not be represented as passed, certified, or wai
 |---|---|---|---|---|
 | 014 | Pending | Pending | GitHub Actions included minutes exhausted; Actions budget is $0 with stop usage enabled. | Local gates, Vercel READY deployment, and live browser verification. |
 | 015 | Pending | Pending | GitHub Actions included minutes exhausted; Actions budget is $0 with stop usage enabled. | Lineage, archive validation, TypeScript, ESLint, 278-page production build, Vercel READY deployment, live interaction verification, and zero observed runtime errors. |
-| 016 | Pending | Pending | GitHub Actions included minutes exhausted; Actions budget is $0 with stop usage enabled. | Lineage, archive validation, TypeScript, ESLint, 281-page production build, and Vercel READY deployment. Live interaction verification is recorded separately when complete. |
+| 016 | Pending | Pending | GitHub Actions included minutes exhausted; Actions budget is $0 with stop usage enabled. | Lineage, archive validation, TypeScript, ESLint, 281-page production build, Vercel READY deployment, live interaction verification, and zero observed page-origin runtime errors. |
+| 017 | Pending | Pending | GitHub Actions included minutes exhausted; Actions budget is $0 with stop usage enabled. | Implementation and source-grounding complete locally; local gates, deployment, and live verification must be recorded independently. |
 
 ## Closure rule
 
