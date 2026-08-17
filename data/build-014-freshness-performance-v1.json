@@ -1,0 +1,26 @@
+{
+  "build": "014",
+  "checkedOn": "2026-08-17",
+  "sources": [
+    {
+      "id": "aba-formal-opinion-512",
+      "checkedOn": "2026-08-17",
+      "status": "official primary guidance"
+    },
+    {
+      "id": "aba-model-rule-2.1",
+      "checkedOn": "2026-08-17",
+      "status": "official model rule"
+    },
+    {
+      "id": "aba-model-rule-5.3",
+      "checkedOn": "2026-08-17",
+      "status": "official model rule"
+    }
+  ],
+  "performance": {
+    "runtime": "client-side deterministic allocation audit",
+    "networkRequestsPerAssessment": 0,
+    "targetViewportWidth": 320
+  }
+}
