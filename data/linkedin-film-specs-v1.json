@@ -383,6 +383,43 @@
           "body": "It makes assumptions visible enough to validate, challenge, and improve."
         }
       ]
+    },
+    {
+      "id": "011",
+      "title": "Entity / Ownership Resolution X-Ray",
+      "final": "SAME NAME IS NOT THE SAME ENTITY.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 011",
+          "headline": "THE RECORDS LOOK THE SAME.",
+          "body": "Similarity is a clue—not identity."
+        },
+        {
+          "eyebrow": "START WITH STRUCTURE",
+          "headline": "WHAT KIND OF THING IS THIS?",
+          "body": "A valid entity model comes before matching."
+        },
+        {
+          "eyebrow": "TEST THE SUPPORT",
+          "headline": "IDENTIFIER · ATTRIBUTE · RELATIONSHIP",
+          "body": "Every signal carries evidence and source authority."
+        },
+        {
+          "eyebrow": "KEEP THE CONFLICT",
+          "headline": "CONTRADICTION CAN SPLIT THE RECORDS.",
+          "body": "An authoritative mismatch must not disappear into an average."
+        },
+        {
+          "eyebrow": "HUMAN RESOLUTION",
+          "headline": "REVIEW · RATIONALE · ROLLBACK",
+          "body": "The score never executes the merge."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MINIMIZE BEFORE YOU MATCH.",
+          "body": "Use only the attributes necessary to distinguish records in context."
+        }
+      ]
     }
   ]
 }
