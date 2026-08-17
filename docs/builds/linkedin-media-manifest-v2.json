@@ -120,6 +120,22 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A PRODUCT LEARNS ONLY WHEN FEEDBACK CAN RESPONSIBLY CHANGE IT."
+    },
+    {
+      "id": "008",
+      "title": "Decision-Ready Dashboard Standard",
+      "path": "/media/builds/008/build-008-linkedin.mp4",
+      "poster": "/media/builds/008/build-008-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "40e4bbbbc266fe1508ec82c015b0ea0fdf8077020aa2027a74676b9f30142bca",
+      "bytes": 217992,
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "DATA BECOMES USEFUL WHEN SOMEONE CAN DECIDE AND ACT."
     }
   ]
 }
