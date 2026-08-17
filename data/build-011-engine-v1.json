@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "011",
+  "engineVersion": "011.1.0",
+  "title": "Entity / Ownership Resolution X-Ray",
+  "job": "Determine when records refer to the same person, organization, product, policy, owner or relationship.",
+  "inheritance": {
+    "usesBuild": "010",
+    "primitive": "assessIdeaSkeleton",
+    "purpose": "A record cannot be resolved safely until its entity type, fields, relationships and source rules are structurally valid."
+  },
+  "statuses": [
+    "MERGE CANDIDATE",
+    "HUMAN REVIEW",
+    "KEEP SEPARATE"
+  ],
+  "signals": [
+    "authoritative unique identifier",
+    "exact attribute",
+    "similar attribute",
+    "relationship evidence",
+    "contradictory evidence"
+  ],
+  "controls": [
+    "source authority",
+    "evidence note",
+    "attribute minimization",
+    "named reviewer",
+    "decision rationale"
+  ],
+  "boundary": "A resolution score is not proof of legal identity, ownership, authority, beneficial ownership, fraud, or entitlement. MERGE CANDIDATE still requires accountable review.",
+  "sources": [
+    {
+      "id": "011-nist-800-63a-4",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63a.html",
+      "classification": "cross-source-synthesis"
+    },
+    {
+      "id": "011-nist-minimum-attributes",
+      "url": "https://pages.nist.gov/800-63-3-Implementation-Resources/63A/resolution/",
+      "classification": "direct-source"
+    },
+    {
+      "id": "010-skeleton-inheritance",
+      "classification": "product-heuristic"
+    },
+    {
+      "id": "011-resolution-rubric",
+      "classification": "product-heuristic"
+    }
+  ]
+}
