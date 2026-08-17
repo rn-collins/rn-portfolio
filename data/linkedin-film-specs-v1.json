@@ -495,7 +495,8 @@
           "headline": "FOLLOW THE CONSEQUENCE THROUGH THE WORK.",
           "body": "A propagation score exposes gaps. It never approves deployment."
         }
-      ]
+      ],
+      "renderRequestedOn": "2026-08-16"
     }
   ]
 }
