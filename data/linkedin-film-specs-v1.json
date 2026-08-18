@@ -651,6 +651,44 @@
         }
       ],
       "renderRequestedOn": "2026-08-17"
+    },
+    {
+      "id": "022",
+      "title": "Human Consequence Map for AI Workflows",
+      "final": "MAP THE PERSON—NOT ONLY THE PROCESS.",
+      "sourceCheckedOn": "2026-08-18",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 022",
+          "headline": "THE WORKFLOW LOOKS COMPLETE.",
+          "body": "But the people carrying its consequences can still be missing from the map."
+        },
+        {
+          "eyebrow": "IDENTIFY",
+          "headline": "WHO CAN BE AFFECTED?",
+          "body": "Name each person, community, worker, customer, and bystander—not an abstract user."
+        },
+        {
+          "eyebrow": "TRACE",
+          "headline": "WORKFLOW → HANDOFF → CONSEQUENCE",
+          "body": "Follow how an effect begins, travels, compounds, and reaches a real person."
+        },
+        {
+          "eyebrow": "EVIDENCE THE PROTECTION",
+          "headline": "NOTICE · VOICE · REPRESENTATION · RECOURSE",
+          "body": "A checkbox is not protection. Record the basis, owner, channel, and retained evidence."
+        },
+        {
+          "eyebrow": "KEEP THE GAPS VISIBLE",
+          "headline": "EXPOSURE · INHERITANCE · MONITORING",
+          "body": "Missing protections and downstream conditions must remain inspectable."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MAP THE PERSON—NOT ONLY THE PROCESS.",
+          "body": "A consequence map matters when affected people remain visible, heard, and able to seek remedy."
+        }
+      ]
     }
   ]
 }
