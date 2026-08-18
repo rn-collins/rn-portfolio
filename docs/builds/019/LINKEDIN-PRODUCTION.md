@@ -42,4 +42,11 @@ The film is silent-first and communicates entirely through on-screen text. Capti
 
 ## Certification status
 
-Candidate specification and reproducible pipeline are present. The MP4, poster, SHA-256 digests, byte counts, sampled-frame review, physical-device readability check, compression/upload check, and GitHub workflow run/job/artifact identifiers remain pending until the media workflow can run and manual QA is completed. No pending gate is represented as passed.
+The canonical renderer produced and the repository registers the Build 019 MP4 and poster. Local machine verification passed for a single H.264 video stream at 720 × 900, 24 fps, exactly 18 seconds, yuv420p, faststart, with no audio stream. The poster was visually inspected at original resolution.
+
+- MP4 SHA-256: `c96abaabefcb48391294f3e3246c66922a276f474a149c44410a8484a14e962c`
+- MP4 bytes: `225183`
+- Poster SHA-256: `c0563d2356a9ae53dcad8a9be1598888dc02ae6db440b587d711cbdb8373cab9`
+- Poster bytes: `31985`
+
+Sampled-frame review across the full timeline, physical-device readability, reduced-motion context, LinkedIn compression/upload behavior, and GitHub-hosted workflow run/job/artifact identifiers remain pending. No pending gate is represented as passed.
