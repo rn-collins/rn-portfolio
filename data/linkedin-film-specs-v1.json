@@ -536,6 +536,45 @@
         }
       ],
       "renderRequestedOn": "2026-08-17"
+    },
+    {
+      "id": "019",
+      "title": "Consequence-Aware Escalation Router",
+      "final": "ESCALATION IS A CHAIN OF AUTHORITY, EVIDENCE, TIME, AND RECOURSE.",
+      "sourceCheckedOn": "2026-08-17",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 019",
+          "headline": "100 ALERTS ≠ 100 INCIDENTS.",
+          "body": "Repeated signals can describe one consequential event—not one hundred separate interruptions."
+        },
+        {
+          "eyebrow": "CORRELATE",
+          "headline": "GROUP THE EVIDENCE FIRST.",
+          "body": "Shared keys collapse repeated signals while preserving every source and state."
+        },
+        {
+          "eyebrow": "ASSESS",
+          "headline": "SCORE CONSEQUENCE TRANSPARENTLY.",
+          "body": "Severity, scale, rights, reversibility, evidence, and inherited friction remain inspectable."
+        },
+        {
+          "eyebrow": "ROUTE",
+          "headline": "AUTHORITY BEFORE AVAILABILITY.",
+          "body": "Notify only an authorized owner through a compatible channel, with the reason visible."
+        },
+        {
+          "eyebrow": "ACKNOWLEDGE",
+          "headline": "MISSED CLOCK → NAMED BACKUP.",
+          "body": "A recorded acknowledgement stops the timeout; otherwise a validated backup receives the chain."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "AUTHORITY · EVIDENCE · TIME · RECOURSE",
+          "body": "Escalation is an accountable chain—not a louder notification."
+        }
+      ],
+      "renderRequestedOn": "2026-08-17"
     }
   ]
 }

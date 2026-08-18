@@ -2,17 +2,16 @@ name: Render LinkedIn Films
 
 on:
   workflow_dispatch:
+    inputs:
+      build_ids:
+        description: 'Optional space-separated build IDs; empty renders every film spec'
+        required: false
+        type: string
   push:
     branches:
+      - 'build-*'
+      - 'workstream/build-*'
       - 'workstream/build-media-*'
-      - 'workstream/build-007'
-      - 'workstream/build-008'
-      - 'workstream/build-009'
-      - 'workstream/build-010'
-      - 'workstream/build-011'
-      - 'workstream/build-012'
-      - 'workstream/build-013'
-      - 'workstream/build-014'
     paths:
       - 'data/linkedin-film-specs-v1.json'
       - 'scripts/render-linkedin-films.py'
@@ -28,7 +27,7 @@ permissions:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,15 +40,36 @@ jobs:
           python -m pip install --disable-pip-version-check pillow
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
-      - name: Render canonical 001-014 films
-        run: python scripts/render-linkedin-films.py 001 002 003 004 005 006 007 008 009 010 011 012 013 014
-      - name: Verify generated public assets
+      - name: Select and render films
+        env:
+          REQUESTED_BUILD_IDS: ${{ inputs.build_ids }}
         run: |
           set -euo pipefail
-          for id in 001 002 003 004 005 006 007 008 009 010 011 012 013 014; do
-            test -s "apps/web/public/media/builds/$id/build-$id-linkedin.mp4"
-            test -s "apps/web/public/media/builds/$id/build-$id-linkedin-poster.png"
-            ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of default=nw=1 "apps/web/public/media/builds/$id/build-$id-linkedin.mp4"
+          if [ -n "${REQUESTED_BUILD_IDS:-}" ]; then
+            read -r -a ids <<< "$REQUESTED_BUILD_IDS"
+            python scripts/render-linkedin-films.py "${ids[@]}"
+          else
+            python scripts/render-linkedin-films.py
+          fi
+      - name: Verify generated public assets
+        env:
+          REQUESTED_BUILD_IDS: ${{ inputs.build_ids }}
+        run: |
+          set -euo pipefail
+          if [ -n "${REQUESTED_BUILD_IDS:-}" ]; then
+            read -r -a ids <<< "$REQUESTED_BUILD_IDS"
+          else
+            mapfile -t ids < <(python -c 'import json; print(*[b["id"] for b in json.load(open("data/linkedin-film-specs-v1.json"))["builds"]], sep="\n")')
+          fi
+          for id in "${ids[@]}"; do
+            video="apps/web/public/media/builds/$id/build-$id-linkedin.mp4"
+            poster="apps/web/public/media/builds/$id/build-$id-linkedin-poster.png"
+            test -s "$video"
+            test -s "$poster"
+            test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$video")" = "720"
+            test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$video")" = "900"
+            test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$video")" = "24/1"
+            test -z "$(ffprobe -v error -select_streams a -show_entries stream=index -of csv=p=0 "$video")"
           done
           python -m json.tool docs/builds/linkedin-media-manifest-v2.json >/dev/null
       - name: Commit regenerated media
@@ -61,5 +81,5 @@ jobs:
             echo "Media already matches the canonical specs."
             exit 0
           fi
-          git commit -m "media: render canonical LinkedIn films 001-014 [skip media]"
+          git commit -m "media: render canonical LinkedIn films [skip media]"
           git push

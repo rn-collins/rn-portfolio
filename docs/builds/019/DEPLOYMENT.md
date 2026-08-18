@@ -1,18 +1,25 @@
 # Build 019 deployment evidence
 
-- Candidate head: `b9621811e31d70ec289f908974d48d9f08dbfdb8`
-- Vercel deployment: `dpl_97Bn6aX5fsQaGRq6N72CyuKoTxuA`
-- Deployment state: `READY`
-- Generated routes include `/100-builds/019`, `/100-builds/019/a`, and `/100-builds/019/b`.
-- Production build: passed under Next.js 16.3.0; 290 static/SSG pages generated.
-- Parser defect discovered in the first candidate’s B-side component: repaired before this candidate.
-- Inherited Build 012 typed contract defect discovered in the first candidate fixture: repaired before this candidate.
+## Verified application candidates
 
-## Independent pending gates
+- Initial implementation candidate: `b9621811e31d70ec289f908974d48d9f08dbfdb8`
+  - Vercel deployment: `dpl_97Bn6aX5fsQaGRq6N72CyuKoTxuA`
+- Audited implementation head: `d6c6bf2038774f456a2a0d15475d123b7e421344`
+  - Vercel deployment: `dpl_35qoT8RMs1TWaHSvokd9XPiZLhEU`
+  - READY; build logs showed successful TypeScript/build output and static generation including 019 routes
+- Truth-model repair head: `2faa28ca6d4210bf6affa0ef8b673e643690979e`
+  - Vercel deployment: `dpl_C6AMbih6k7s73VhpbDepyLoV75mW`
+  - READY; acknowledgement state, backup validation, empty state, target preservation, correlation/suppression metrics, and live announcements repaired
 
-- GitHub-hosted CI: no exact-head run observed; existing Actions-capacity limitation remains.
-- Authenticated live browser interaction: not certified in this session because the cloud-browser connection timed out before page control became available.
-- LinkedIn MP4 render and media certification: pending.
-- Physical-device/manual accessibility review: not substituted by automated checks.
+These are immutable candidate records, not a claim that a later documentation or media commit has inherited their exact-head certification.
 
-This record distinguishes build/deployment evidence from interaction and media certification. A Vercel `READY` state is not treated as proof that every interaction passed.
+## Current gate status
+
+- Vercel build/deployment for the truth-model repair: PASS
+- GitHub-hosted CI at the current release head: PENDING; no Actions run is recorded
+- Authenticated desktop/mobile browser interaction: BLOCKED/PENDING because the protected deployment returned SSO redirects and browser control could not be established
+- Physical-device and manual accessibility review: PENDING
+- LinkedIn MP4/poster render, checksums, workflow identifiers, and upload/compression QA: PENDING
+- Build 020 lifecycle route: NOT IMPLEMENTED at the audited head
+
+No blocked or deferred gate is represented as passed.

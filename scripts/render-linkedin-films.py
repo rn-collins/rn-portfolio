@@ -149,6 +149,7 @@ def render_build(build: dict[str, Any], spec: dict[str, Any]) -> dict[str, Any]:
         raise RuntimeError(f"ffmpeg failed for Build {build['id']} with exit code {result}")
 
     digest = hashlib.sha256(video_path.read_bytes()).hexdigest()
+    poster_digest = hashlib.sha256(poster_path.read_bytes()).hexdigest()
     return {
         "id": build["id"],
         "title": build["title"],
@@ -161,6 +162,15 @@ def render_build(build: dict[str, Any], spec: dict[str, Any]) -> dict[str, Any]:
         "silentFirst": True,
         "sha256": digest,
         "bytes": video_path.stat().st_size,
+        "posterSha256": poster_digest,
+        "posterBytes": poster_path.stat().st_size,
+        "accessibilityMode": "silent-first/on-screen-text",
+        "productionRecord": f"docs/builds/{build['id']}/LINKEDIN-PRODUCTION.md",
+        "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+        "visualSources": "original deterministic composition; no third-party footage, images, or music",
+        "audioSources": "none",
+        "rightsBasis": "creator-owned",
+        "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
         "generator": "scripts/render-linkedin-films.py",
         "spec": "data/linkedin-film-specs-v1.json",
         "finalProposition": build["final"],
@@ -173,15 +183,19 @@ def main() -> None:
     builds = [b for b in spec["builds"] if not selected or b["id"] in selected]
     if not builds:
         raise SystemExit("No matching builds")
+    rendered = [render_build(build, spec) for build in builds]
+    existing = json.loads(MANIFEST_PATH.read_text()) if MANIFEST_PATH.exists() else {"builds": []}
+    indexed = {item["id"]: item for item in existing.get("builds", [])}
+    indexed.update({item["id"]: item for item in rendered})
     manifest = {
         "schemaVersion": "2.0",
         "purpose": "Reproducible public LinkedIn film inventory for The 100",
         "design": spec["design"],
-        "builds": [render_build(build, spec) for build in builds],
+        "builds": [indexed[build_id] for build_id in sorted(indexed)],
     }
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2) + "\n")
-    for item in manifest["builds"]:
+    for item in rendered:
         print(f"Build {item['id']}: {item['sha256']} · {item['bytes']} bytes")
 
 
