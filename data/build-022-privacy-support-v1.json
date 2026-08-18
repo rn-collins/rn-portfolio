@@ -1,0 +1,9 @@
+{
+  "build": "022",
+  "dataMode": "synthetic and client-local",
+  "collection": "none",
+  "transmission": "none for core value",
+  "storage": "none; component state ends with the browser session",
+  "export": "user-initiated local JSON download",
+  "supportBoundary": "Real deployments require data minimization, access controls, retention rules, direct affected-person research, competent legal/policy/privacy/accessibility review, incident response, and a usable correction or recourse path."
+}

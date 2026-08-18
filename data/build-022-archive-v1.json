@@ -1,0 +1,10 @@
+{
+  "build": "022",
+  "title": "Human Consequence Map for AI Workflows",
+  "routes": ["/100-builds/022/a", "/100-builds/022/b", "/100-builds/022/archive"],
+  "uses": ["012", "013", "017"],
+  "creates": ["cap:022"],
+  "privacy": "Synthetic fixture; all interaction and JSON generation remain in the browser; no submission, account, storage, analytics payload, or network call is required for core value.",
+  "deferredGates": ["authenticated-live-browser", "physical-device-manual-accessibility", "github-hosted-ci", "linkedin-media-certification"],
+  "lifecycle": "in-lab"
+}

@@ -1,0 +1,21 @@
+{
+  "build": "022",
+  "engine": "Human Consequence Map v1",
+  "version": "022.1.0",
+  "canonical": {
+    "title": "Human Consequence Map for AI Workflows",
+    "job": "Show who can be affected by an AI workflow and how consequences travel to them.",
+    "bWeb": "Human impact nodes light up as workflow assumptions change.",
+    "uses": ["012", "013", "017"],
+    "creates": ["cap:022"]
+  },
+  "inputs": ["bounded AI workflow", "affected people or groups", "consequence description", "proximity", "severity", "reversibility", "notice", "representation", "recourse"],
+  "logic": {
+    "inheritance": "Runs the Build 013 workflow scanner, which runs Build 012 consequence controls, and separately runs Build 017 regulated-handoff assessment.",
+    "gapRules": ["no directly affected group", "missing meaningful notice", "missing affected-person representation", "missing correction or recourse", "inherited workflow control gaps", "inherited handoff responsibility gaps"],
+    "exposureSignal": "Derived prioritization heuristic using recorded severity, difficulty of reversal, and three disclosed protection flags."
+  },
+  "outputs": ["status", "exposure signal", "affected-node count", "disclosed gaps", "inherited workflow status", "inherited handoff status", "client-local JSON export"],
+  "boundaries": ["Does not predict harm or likelihood.", "Does not establish causation, compliance, discrimination, eligibility, rights, or remedy.", "Does not replace direct research with affected people or competent legal, policy, accessibility, safety, and domain review."],
+  "copyStatus": "Title, job, B-Web sentence, and lineage are canonical. Question, thesis, fixtures, formulas, thresholds, labels, and explanatory interface language are derived implementation copy."
+}
