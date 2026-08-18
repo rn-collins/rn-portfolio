@@ -335,5 +335,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Freshness/performance',detail:'Official OMB sources and offline deterministic operation.',path:'data/build-018-freshness-performance-v1.json'},
   {label:'Browser fixtures',detail:'Hotspots, bounded repair, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build018.spec.ts'}],plans:[
   {label:'Release path',detail:'Complete Vercel deployment and live browser verification; keep GitHub-hosted CI and media certification pending until Actions capacity returns.'},
-  {label:'Future consumers',detail:'019, 034, 048 and 093 consume cap:018.'}],sourceFiles:['apps/web/app/100-builds/018/a/InstitutionalFrictionLab.tsx','apps/web/app/100-builds/018/b/ProcessDrag.tsx','packages/release/src/decision-engines.ts','data/build-018-engine-v1.json','data/build-018-archive-v1.json','docs/builds/018/SPEC.md','docs/builds/018/ARCHIVE.md','tests/build018.spec.ts']}
+  {label:'Future consumers',detail:'019, 034, 048 and 093 consume cap:018.'}],sourceFiles:['apps/web/app/100-builds/018/a/InstitutionalFrictionLab.tsx','apps/web/app/100-builds/018/b/ProcessDrag.tsx','packages/release/src/decision-engines.ts','data/build-018-engine-v1.json','data/build-018-archive-v1.json','docs/builds/018/SPEC.md','docs/builds/018/ARCHIVE.md','tests/build018.spec.ts']},
+ '019':{id:'019',title:'Consequence-Aware Escalation Router',question:'When something needs attention, who actually needs to know—and when?',thesis:'An alert is useful only when its consequence, evidence, owner, authority, channel, acknowledgement clock, backup, and next step are explicit.',research:[
+  {label:'Escalation Router Engine v1',detail:'Event correlation, consequence scoring, suppression, acknowledgement timeouts, authority checks, backup routing, and explainable reasons.',path:'data/build-019-engine-v1.json'},
+  {label:'NIST SP 800-61 Rev. 3',detail:'Supports integrating incident response across operations, roles, communication, prioritization, response, and recovery.',href:'https://csrc.nist.gov/pubs/sp/800/61/r3/final'},
+  {label:'NIST Cybersecurity Framework 2.0',detail:'Supports adverse-event analysis, magnitude validation, incident management, and notification of designated stakeholders.',href:'https://www.nist.gov/cyberframework'},
+  {label:'CISA situational-awareness guidance',detail:'Supports designing urgent notification systems to avoid alarm inundation and alarm fatigue.',href:'https://www.cisa.gov/sites/default/files/publications/CRR_Resource_Guide-SA_0.pdf'}],created:[
+  {label:'019-A Consequence-Aware Escalation Router',detail:'Correlates signals, checks consequence and authority, simulates acknowledgement failure, reroutes, and exports locally.',href:'/100-builds/019/a'},
+  {label:'019-B The Alert That Knows Who Cares',detail:'An interactive signal field collapses noise into one timed, explainable escalation chain.',href:'/100-builds/019/b'},
+  {label:'Event Rules, Notification Router, and Escalation Ladder v1',detail:'Reusable event and acknowledgement primitives for later incident, agent, legal-change, and institutional builds.'}],decisions:[
+  {label:'Builds 012, 017, and 018 are concrete dependencies',detail:'The router executes the inherited consequence-control, cross-organization handoff, and process-friction assessments.'},
+  {label:'Correlation precedes notification',detail:'Repeated signals sharing one correlation key become one incident candidate rather than three interruptions.'},
+  {label:'Authority is not availability',detail:'The first available person is not routed a consequential event unless their recorded authority matches the required action.'},
+  {label:'Suppression remains visible',detail:'A suppressed event retains its reason and state; silence is never treated as deletion.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy, deferred gates, and lifecycle.',path:'data/build-019-archive-v1.json'},
+  {label:'Privacy/support',detail:'Client-local synthetic fixture and operational/legal boundary.',path:'data/build-019-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Current official sources and deterministic offline operation.',path:'data/build-019-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Correlation, timeout escalation, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build019.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete local gates, Vercel deployment, live browser verification, and exact-head evidence; keep GitHub-hosted CI and media certification independent.'},
+  {label:'Future consumers',detail:'020, 034, 037, 040, 043, 069, 092 and 093 consume cap:019.'}],sourceFiles:['apps/web/app/100-builds/019/a/EscalationRouterLab.tsx','apps/web/app/100-builds/019/b/SignalChain.tsx','packages/release/src/decision-engines.ts','data/build-019-engine-v1.json','data/build-019-archive-v1.json','docs/builds/019/SPEC.md','docs/builds/019/ARCHIVE.md','tests/build019.spec.ts']}
+
 };

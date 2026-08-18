@@ -1,0 +1,1 @@
+{"build":"019","status":"active","canonicalPaths":["/100-builds/019","/100-builds/019/a","/100-builds/019/b"],"retention":"No operational, legal, health, security, identity, or personal data retained by the public demonstration.","lineage":{"uses":["012","017","018"],"creates":["cap:019"]},"deferredGates":["github-hosted-ci","linkedin-media-certification"]}
