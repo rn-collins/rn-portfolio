@@ -1,0 +1,9 @@
+{
+  "build": "024",
+  "dataClass": "synthetic demonstration data only",
+  "processing": "browser-local",
+  "storage": "none required",
+  "network": "none required for core value",
+  "export": "explicit user-triggered local JSON download",
+  "warning": "Do not enter real personal data. Governing-law analysis and competent review are required for actual privacy, consent, retention, and deletion duties."
+}

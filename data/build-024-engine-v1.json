@@ -1,0 +1,28 @@
+{
+  "build": "024",
+  "engine": "Privacy & Data Minimization Engine v1",
+  "version": "024.1.0",
+  "canonical": {
+    "title": "Privacy & Data Minimization Engine",
+    "job": "Determines which data is necessary, optional, sensitive, derived, prohibited, retained, or deletable.",
+    "bWeb": "A bloated intake shrinks to its justified minimum.",
+    "uses": [
+      "023"
+    ],
+    "creates": [
+      "cap:024"
+    ]
+  },
+  "rules": [
+    "A collected field needs a bounded purpose.",
+    "Necessary and sensitive fields need a written necessity basis.",
+    "Sensitive fields require an active purpose-specific permission record inherited from Build 023.",
+    "Optional and prohibited data fail the minimized state while collected.",
+    "Derived data needs source fields and derivation logic.",
+    "Every collected field needs a bounded retention period, deletion trigger, and applicable redaction rule."
+  ],
+  "boundaries": [
+    "Deterministic product-control demonstration, not a legal compliance determination.",
+    "Synthetic browser-local fixture; do not enter personal data."
+  ]
+}

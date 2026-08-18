@@ -1,0 +1,34 @@
+{
+  "build": "024",
+  "title": "Privacy & Data Minimization Engine",
+  "routes": [
+    "/100-builds/024/a",
+    "/100-builds/024/b",
+    "/100-builds/024/archive"
+  ],
+  "uses": [
+    "023"
+  ],
+  "creates": [
+    "cap:024"
+  ],
+  "consumers": [
+    "030",
+    "031",
+    "036",
+    "049",
+    "067",
+    "083",
+    "091",
+    "097",
+    "099"
+  ],
+  "privacy": "Synthetic client-local fixture; no submission, account, storage, analytics payload, or network call is required for core value.",
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ],
+  "lifecycle": "in-lab"
+}

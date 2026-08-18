@@ -1,0 +1,10 @@
+{
+  "build": "024",
+  "engineVersion": "024.1.0",
+  "checked": "2026-08-18",
+  "performance": {
+    "coreValue": "offline after load",
+    "remoteDependencies": [],
+    "deterministic": true
+  }
+}
