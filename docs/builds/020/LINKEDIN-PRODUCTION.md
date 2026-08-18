@@ -47,4 +47,4 @@ The film is silent-first and communicates entirely through on-screen text. Capti
 
 ## Certification status
 
-Local machine verification passed for the canonical MP4 and poster. The poster was visually inspected at original resolution. Sampled-frame review across the full timeline, physical-device readability, reduced-motion context, LinkedIn compression/upload behavior, and GitHub-hosted workflow run/job/artifact identifiers remain pending. No pending gate is represented as passed.
+Local machine verification passed for the canonical MP4 and poster. The poster was visually inspected at original resolution. A six-scene contact-sheet review sampled each scene at its midpoint and passed for complete, non-overlapping headline and body text. Full-playback timing, physical-device readability, reduced-motion context, LinkedIn compression/upload behavior, and GitHub-hosted workflow run/job/artifact identifiers remain pending. No pending gate is represented as passed.

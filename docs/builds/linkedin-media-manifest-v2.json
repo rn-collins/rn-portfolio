@@ -262,7 +262,7 @@
       "visualSources": "original deterministic composition; no third-party footage, images, or music",
       "audioSources": "none",
       "rightsBasis": "creator-owned",
-      "certificationStatus": "machine-verified candidate; sampled-frame, physical-device, and LinkedIn upload QA required",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "AN ACCOUNTABLE DECISION REMAINS RECONSTRUCTABLE AFTER THE MOMENT HAS PASSED."
