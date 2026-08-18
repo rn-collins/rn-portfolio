@@ -9,6 +9,7 @@ Build 022 turns the frozen Human Consequence Map canon into two public artifacts
 - Human Consequence Engine v1
 - Machine-readable engine, archive, privacy/support, and freshness/performance records
 - Browser acceptance fixture and local JSON export
+- Canonical silent-first LinkedIn film, poster, six-scene contact sheet, transcript, rights/accessibility record, and checksum manifest entry
 
 ## Concrete lineage
 
@@ -20,7 +21,7 @@ The title, canonical job, B-Web sentence, and 012/013/017 lineage come from froz
 
 ## Honest release state
 
-Static/build and exact-head Vercel evidence are recorded separately. Authenticated live-browser interaction, physical-device/manual accessibility, GitHub-hosted CI, and LinkedIn media production/certification remain independent gates until completed.
+Static/build and exact-head Vercel evidence are recorded separately. Authenticated live-browser interaction, physical-device/manual accessibility, GitHub-hosted CI, and LinkedIn upload/compression certification remain an independent gate. Canonical media production and sampled-scene visual QA are complete.
 
 ## Integrity revision
 
