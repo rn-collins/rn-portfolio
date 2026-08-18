@@ -322,6 +322,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "CONSENT IS SPECIFIC, CHANGEABLE, EVIDENCED, AND NEVER THE ONLY POSSIBLE LEGAL BASIS."
+    },
+    {
+      "id": "024",
+      "title": "Privacy & Data Minimization Engine",
+      "path": "/media/builds/024/build-024-linkedin.mp4",
+      "poster": "/media/builds/024/build-024-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "001ee545943282c6e7653611aa0dc61a571fd878e3e98ce699588777a78722c0",
+      "bytes": 166333,
+      "posterSha256": "75a41385b567685bbb164e16f91092acf9cbde7174d87eadb37618a43a082a9d",
+      "posterBytes": 28756,
+      "contactSheet": "/media/builds/024/build-024-linkedin-contact-sheet.png",
+      "contactSheetSha256": "49b45bd35f0040b3cafdc998495a9156e6dab87ce24f3dfdc0121f5bfec4cb14",
+      "contactSheetBytes": 177581,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/024/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "THE BEST DATA RISK IS DATA NEVER COLLECTED."
     }
   ]
 }

@@ -688,6 +688,44 @@
         }
       ],
       "final": "CONSENT IS SPECIFIC, CHANGEABLE, EVIDENCED, AND NEVER THE ONLY POSSIBLE LEGAL BASIS."
+    },
+    {
+      "id": "024",
+      "title": "Privacy & Data Minimization Engine",
+      "final": "THE BEST DATA RISK IS DATA NEVER COLLECTED.",
+      "sourceCheckedOn": "2026-08-18",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 024",
+          "headline": "MORE DATA IS NOT MORE INTELLIGENCE",
+          "body": "Every collected field creates exposure, retention work, access pathways, and eventual deletion duties."
+        },
+        {
+          "eyebrow": "START WITH PURPOSE",
+          "headline": "START WITH PURPOSE",
+          "body": "Name the decision each field supports. Permission does not make unnecessary collection necessary."
+        },
+        {
+          "eyebrow": "TEST EVERY FIELD",
+          "headline": "TEST EVERY FIELD",
+          "body": "NECESSARY · OPTIONAL · SENSITIVE · DERIVED · PROHIBITED — keep the reason and evidence visible."
+        },
+        {
+          "eyebrow": "MINIMIZE",
+          "headline": "MINIMIZE BEFORE COLLECTION",
+          "body": "Remove prohibited fields. Default optional fields off. Replace sensitive detail with the least revealing form."
+        },
+        {
+          "eyebrow": "DESIGN THE EXIT",
+          "headline": "DESIGN THE EXIT",
+          "body": "Assign retention, deletion, redaction, and downstream handling before the data enters the workflow."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "THE SAFEST DATA HAS NO BREACH PATH",
+          "body": "THE BEST DATA RISK IS DATA NEVER COLLECTED."
+        }
+      ]
     }
   ]
 }

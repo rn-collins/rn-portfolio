@@ -7,3 +7,5 @@ Engine 024.2.0 replaces prose-length assurance with inspectable evidence referen
 Routes: /100-builds/024/a and /100-builds/024/b.
 
 The fixture is synthetic and browser-local. Core value requires no account, submission, persistent storage, or network request after load. Authenticated browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.
+
+Canonical silent-first media is registered with an MP4, poster, six-scene contact sheet, storyboard/transcript, creator-owned rights record, accessibility mode, byte counts, and SHA-256 hashes. Machine encoding inspection and the sampled six-scene visual review passed. Full playback, physical-device, LinkedIn upload/compression, authenticated-browser, and GitHub-hosted CI certification remain independent gates.
