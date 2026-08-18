@@ -1,1 +1,20 @@
-{"build":"021","engineVersion":"021.1.0","sourceCheckedOn":"2026-08-17","sources":[{"title":"NIST AI Risk Management Framework 1.0","url":"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf","role":"risk, context, measurement, governance and documentation"},{"title":"NIST AI RMF Playbook","url":"https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook","role":"voluntary actions for governing, mapping, measuring and managing AI risk"}],"runtime":"deterministic client-local computation","externalRuntimeDependencies":[]}
+{
+  "build": "021",
+  "engineVersion": "021.2.0",
+  "sourceCheckedOn": "2026-08-17",
+  "sources": [
+    {
+      "title": "NIST AI Risk Management Framework 1.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "role": "risk, context, measurement, governance and documentation"
+    },
+    {
+      "title": "NIST AI RMF Playbook",
+      "url": "https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook",
+      "role": "voluntary actions for governing, mapping, measuring and managing AI risk"
+    }
+  ],
+  "runtime": "deterministic client-local computation",
+  "externalRuntimeDependencies": [],
+  "performanceBoundary": "No production vendor data, assurance service, procurement system, or network validation is invoked."
+}
