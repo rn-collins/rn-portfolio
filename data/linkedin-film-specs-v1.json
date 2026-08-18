@@ -651,6 +651,43 @@
         }
       ],
       "renderRequestedOn": "2026-08-17"
+    },
+    {
+      "id": "023",
+      "title": "Consent & Data Rights Manager",
+      "scenes": [
+        {
+          "eyebrow": "Bundled consent",
+          "headline": "BUNDLED CONSENT HIDES THE DEAL",
+          "body": "A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal."
+        },
+        {
+          "eyebrow": "Specificity",
+          "headline": "SEPARATE EVERY PURPOSE",
+          "body": "Each purpose needs its own scope, permission state, evidence, and decision history."
+        },
+        {
+          "eyebrow": "Event truth",
+          "headline": "EVENTS MUST TELL THE TRUTH",
+          "body": "Grant and withdrawal records must form a valid, chronological, append-only state chain."
+        },
+        {
+          "eyebrow": "Withdrawal",
+          "headline": "WITHDRAWAL CHANGES WHAT HAPPENS NEXT",
+          "body": "It stops future consent-based processing without erasing prior facts or overriding lawful obligations."
+        },
+        {
+          "eyebrow": "Rights routes",
+          "headline": "ROUTE EVERY RIGHTS REQUEST",
+          "body": "Access, correction, deletion, retention, withdrawal, and reuse need an owner, deadline, status, and escalation."
+        },
+        {
+          "eyebrow": "Save this",
+          "headline": "CONTROL REQUIRES A LIVING RECORD",
+          "body": "Consent is specific, changeable, evidenced, and never the only possible legal basis."
+        }
+      ],
+      "final": "CONSENT IS SPECIFIC, CHANGEABLE, EVIDENCED, AND NEVER THE ONLY POSSIBLE LEGAL BASIS."
     }
   ]
 }

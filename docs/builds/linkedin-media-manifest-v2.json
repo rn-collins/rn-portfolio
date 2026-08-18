@@ -294,6 +294,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "BUY THE EVIDENCE—NOT THE ADJECTIVE."
+    },
+    {
+      "id": "023",
+      "title": "Consent & Data Rights Manager",
+      "path": "/media/builds/023/build-023-linkedin.mp4",
+      "poster": "/media/builds/023/build-023-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "6450974a9ca8f62ccd1156a4b0a3884a20e604e0d6ea736da0fd7738393a6fe3",
+      "bytes": 163419,
+      "posterSha256": "ababbdcd7cfc9e41971dbec3b45a6daf12d8873fff0430a1431c096e3d3182b1",
+      "posterBytes": 38782,
+      "contactSheet": "/media/builds/023/build-023-linkedin-contact-sheet.png",
+      "contactSheetSha256": "28ece421070c35e5d9d5b337c70692bc4a85dbf9c2f746574c7e781736908691",
+      "contactSheetBytes": 203138,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/023/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; contact-sheet review asset generated; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "CONSENT IS SPECIFIC, CHANGEABLE, EVIDENCED, AND NEVER THE ONLY POSSIBLE LEGAL BASIS."
     }
   ]
 }
