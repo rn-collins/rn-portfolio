@@ -613,6 +613,44 @@
         }
       ],
       "renderRequestedOn": "2026-08-17"
+    },
+    {
+      "id": "021",
+      "title": "AI Vendor Claim / Procurement X-Ray",
+      "final": "BUY THE EVIDENCE—NOT THE ADJECTIVE.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 021",
+          "headline": "THE CLAIM SOUNDS CERTAIN.",
+          "body": "Procurement still needs to know what the evidence can actually support."
+        },
+        {
+          "eyebrow": "SEPARATE",
+          "headline": "PROMISE ≠ EVIDENCE",
+          "body": "Record the vendor claim separately from the artifact offered to substantiate it."
+        },
+        {
+          "eyebrow": "TEST",
+          "headline": "SCOPE · DATE · METHOD · OWNER",
+          "body": "Ask whether the evidence covers this product, this use, this version, and this consequence."
+        },
+        {
+          "eyebrow": "CONTROL",
+          "headline": "NAME THE FAILURE PATH.",
+          "body": "A control is incomplete without an authorized owner, trigger, response, and retained record."
+        },
+        {
+          "eyebrow": "VERDICT",
+          "headline": "SUPPORTED · PARTIAL · UNVERIFIED · CONTRADICTED",
+          "body": "Nonbinary findings preserve uncertainty and identify the next verification action."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "BUY THE EVIDENCE—NOT THE ADJECTIVE.",
+          "body": "A defensible procurement decision keeps claim, proof, control, and recourse inspectable."
+        }
+      ],
+      "renderRequestedOn": "2026-08-17"
     }
   ]
 }

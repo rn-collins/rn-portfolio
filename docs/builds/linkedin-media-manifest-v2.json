@@ -266,6 +266,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "AN ACCOUNTABLE DECISION REMAINS RECONSTRUCTABLE AFTER THE MOMENT HAS PASSED."
+    },
+    {
+      "id": "021",
+      "title": "AI Vendor Claim / Procurement X-Ray",
+      "path": "/media/builds/021/build-021-linkedin.mp4",
+      "poster": "/media/builds/021/build-021-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "f9019ca6c42ae448b8ab7c3b1e2bb7f9648fa663dc5ed437d2599fb1f6e27921",
+      "bytes": 148581,
+      "posterSha256": "c047eb2f0537caa5c9d387d53f3f3cdaf1e47a24d8cd3e8ce2bd6a8cee2a59a4",
+      "posterBytes": 32730,
+      "contactSheet": "/media/builds/021/build-021-linkedin-contact-sheet.png",
+      "contactSheetSha256": "d4a3704432cc0fc616663979408c6afd8182cd3278a364e400b573e8af8557da",
+      "contactSheetBytes": 93409,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/021/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review asset generated; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "BUY THE EVIDENCE—NOT THE ADJECTIVE."
     }
   ]
 }
