@@ -1,0 +1,32 @@
+{
+  "version": "025.1.0",
+  "canonical": {
+    "title": "AI Implementation Readiness X-Ray",
+    "job": "Test whether an organization can actually implement an AI use safely and operationally.",
+    "bWeb": "Readiness layers reveal missing people, data, workflows, controls and evidence.",
+    "uses": [
+      "012",
+      "013",
+      "021"
+    ],
+    "creates": [
+      "cap:025"
+    ]
+  },
+  "derivedRubric": {
+    "layers": [
+      "people",
+      "data",
+      "workflow",
+      "controls",
+      "evidence"
+    ],
+    "states": [
+      "READY FOR BOUNDED PILOT",
+      "READINESS GAPS",
+      "NOT READY"
+    ],
+    "rule": "Every positive score requires evidence and an owner; inherited gates cannot be bypassed."
+  },
+  "boundary": "Not deployment, procurement, safety, regulatory, or legal authorization."
+}

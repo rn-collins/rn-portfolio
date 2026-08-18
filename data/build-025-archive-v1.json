@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "025",
+  "routes": [
+    "/100-builds/025",
+    "/100-builds/025/a",
+    "/100-builds/025/b"
+  ],
+  "canonical": {
+    "title": "AI Implementation Readiness X-Ray",
+    "uses": [
+      "012",
+      "013",
+      "021"
+    ],
+    "creates": [
+      "cap:025"
+    ],
+    "consumer": [
+      "099"
+    ]
+  },
+  "derivedCopy": true,
+  "processing": "client-local synthetic fixture",
+  "exports": [
+    "ai-implementation-readiness.json"
+  ],
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ]
+}

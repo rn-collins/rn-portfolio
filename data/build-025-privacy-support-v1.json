@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "buildId": "025",
+  "fixture": "synthetic",
+  "collection": "none",
+  "storage": "none",
+  "networkAfterLoad": "none required",
+  "export": "user-initiated local JSON",
+  "warning": "Do not enter real personal, confidential, privileged, health, employment, procurement, or security data.",
+  "supportBoundary": "Does not establish compliance, safety, procurement approval, or production readiness."
+}
