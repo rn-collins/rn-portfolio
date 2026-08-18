@@ -1,10 +1,11 @@
 {
   "build": "024",
-  "engineVersion": "024.1.0",
+  "engineVersion": "024.2.0",
   "checked": "2026-08-18",
   "performance": {
     "coreValue": "offline after load",
     "remoteDependencies": [],
     "deterministic": true
-  }
+  },
+  "assurance": "Deterministic behavior is versioned; results do not establish factual necessity, deletion effectiveness, or legal compliance."
 }

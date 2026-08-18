@@ -1,6 +1,8 @@
 # Build 024 archive
 
-Build 024 turns a field inventory into an inspectable minimization plan. It concretely inherits Build 023's purpose-specific permission state, while keeping permission and necessity distinct.
+Build 024 turns a synthetic field inventory into an inspectable minimization plan. It inherits Build 023 through matching purpose-specific permission identifiers while keeping permission and necessity distinct.
+
+Engine 024.2.0 replaces prose-length assurance with inspectable evidence references, counterfactual testing, purpose matching, accountable owners, retention bases, and deletion methods. Its narrow terminal state is “CONTROL CHECK PASSED,” never “compliant” or “legally minimized.”
 
 Routes: /100-builds/024/a and /100-builds/024/b.
 

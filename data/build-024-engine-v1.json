@@ -1,7 +1,7 @@
 {
   "build": "024",
   "engine": "Privacy & Data Minimization Engine v1",
-  "version": "024.1.0",
+  "version": "024.2.0",
   "canonical": {
     "title": "Privacy & Data Minimization Engine",
     "job": "Determines which data is necessary, optional, sensitive, derived, prohibited, retained, or deletable.",
@@ -14,15 +14,24 @@
     ]
   },
   "rules": [
-    "A collected field needs a bounded purpose.",
-    "Necessary and sensitive fields need a written necessity basis.",
-    "Sensitive fields require an active purpose-specific permission record inherited from Build 023.",
-    "Optional and prohibited data fail the minimized state while collected.",
-    "Derived data needs source fields and derivation logic.",
-    "Every collected field needs a bounded retention period, deletion trigger, and applicable redaction rule."
+    "An empty or duplicate-ID inventory cannot pass.",
+    "Every collected field is bound to a purpose identifier and accountable owner.",
+    "Necessary, sensitive, and derived collection requires a written basis, inspectable evidence reference, and tested no-collection counterfactual.",
+    "Sensitive collection and sensitive-source derivation require an active Build 023 permission record whose purpose ID matches the collection purpose.",
+    "Permission never turns optional or prohibited data into necessary data.",
+    "Derived data identifies its sources, source sensitivity, and derivation logic.",
+    "Every collected field has a positive whole-day limit, retention basis, deletion trigger, deletion method, and export/disclosure rule.",
+    "A deterministic pass is a control check, not proof of factual necessity, effective deletion, lawful processing, or compliance."
+  ],
+  "statuses": [
+    "OVER-COLLECTING",
+    "UNRESOLVED",
+    "CONTROL CHECK PASSED"
   ],
   "boundaries": [
-    "Deterministic product-control demonstration, not a legal compliance determination.",
-    "Synthetic browser-local fixture; do not enter personal data."
+    "Synthetic evidence references and permission records are demonstrations, not independently verified evidence.",
+    "Deletion schedules describe planned controls and do not prove deletion occurred.",
+    "Synthetic browser-local fixture; do not enter personal data.",
+    "Competent review under applicable law remains required."
   ]
 }
