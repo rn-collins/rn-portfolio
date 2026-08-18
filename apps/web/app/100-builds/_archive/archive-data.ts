@@ -355,6 +355,24 @@ export const buildArchives:Record<string,BuildArchive>={
   {label:'Browser fixtures',detail:'Correlation, recorded acknowledgement, timeout escalation, empty state, reset, export, lifecycle, 320px, and paired-visual coverage.',path:'tests/build019.spec.ts'},
   {label:'LinkedIn film candidate',detail:'Versioned six-scene source and deterministic pipeline are present; binary render and manual certification remain pending.',path:'data/linkedin-film-specs-v1.json'}],plans:[
   {label:'Release path',detail:'Complete local gates, Vercel deployment, live browser verification, and exact-head evidence; keep GitHub-hosted CI and media certification independent.'},
-  {label:'Future consumers',detail:'020, 034, 037, 040, 043, 069, 092 and 093 consume cap:019.'}],sourceFiles:['apps/web/app/100-builds/019/a/EscalationRouterLab.tsx','apps/web/app/100-builds/019/b/SignalChain.tsx','packages/release/src/decision-engines.ts','data/build-019-engine-v1.json','data/build-019-archive-v1.json','docs/builds/019/SPEC.md','docs/builds/019/ARCHIVE.md','docs/builds/019/LINKEDIN-PRODUCTION.md','data/linkedin-film-specs-v1.json','scripts/render-linkedin-films.py','.github/workflows/render-linkedin-films.yml','tests/build019.spec.ts']}
+  {label:'Future consumers',detail:'020, 034, 037, 040, 043, 069, 092 and 093 consume cap:019.'}],sourceFiles:['apps/web/app/100-builds/019/a/EscalationRouterLab.tsx','apps/web/app/100-builds/019/b/SignalChain.tsx','packages/release/src/decision-engines.ts','data/build-019-engine-v1.json','data/build-019-archive-v1.json','docs/builds/019/SPEC.md','docs/builds/019/ARCHIVE.md','docs/builds/019/LINKEDIN-PRODUCTION.md','data/linkedin-film-specs-v1.json','scripts/render-linkedin-films.py','.github/workflows/render-linkedin-films.yml','tests/build019.spec.ts']},
+ '020':{id:'020',title:'Decision Evidence Ledger',question:'Why was this decision made, and can its evidence and result be reconstructed?',thesis:'A decision is accountable only when its actor, authority, time, evidence, alternatives, acknowledgement, result, and correction history remain linked without silently replacing earlier records.',research:[
+  {label:'Decision Evidence Ledger v1',detail:'Eight linked record classes, disclosed evidence gaps, append-only correction, and local export.',path:'data/build-020-engine-v1.json'},
+  {label:'W3C PROV-O',detail:'Grounds entities, activities, agents, attribution, derivation, and temporal provenance.',href:'https://www.w3.org/TR/prov-o/'},
+  {label:'NIST SP 800-53 Rev. 5',detail:'Grounds audit-event content, timestamps, review, protection, and retention controls.',href:'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final'}],created:[
+  {label:'020-A Decision Evidence Ledger',detail:'Reconstructs a synthetic decision, exposes missing evidence, appends corrections, and exports locally.',href:'/100-builds/020/a'},
+  {label:'020-B Open the Decision',detail:'Progressively opens one outcome into its actor, authority, evidence, alternatives, result, and correction chain.',href:'/100-builds/020/b'},
+  {label:'Decision Record and Evidence Chain v1',detail:'Reusable provenance primitives for later procurement, incident, change, governance, and research builds.'}],decisions:[
+  {label:'Canonical versus implementation copy is explicit',detail:'Title, job, B-web, and lineage are canonical; the displayed question and thesis are derived implementation copy.'},
+  {label:'Corrections do not erase history',detail:'A correction appends a reasoned superseding record and retains the original.'},
+  {label:'Provenance is not proof',detail:'A complete chain does not itself establish truth, causation, legality, authority validity, or substantive correctness.'},
+  {label:'Builds 001, 010, and 019 are concrete dependencies',detail:'The ledger inherits review authority, explicit entities/relationships, and acknowledgement/escalation records.'}],audits:[
+  {label:'Machine-readable archive',detail:'Routes, lineage, privacy, deferred gates, and lifecycle.',path:'data/build-020-archive-v1.json'},
+  {label:'Privacy/support',detail:'Synthetic client-local fixture and provenance boundary.',path:'data/build-020-privacy-support-v1.json'},
+  {label:'Freshness/performance',detail:'Primary provenance and audit-control sources with deterministic offline operation.',path:'data/build-020-freshness-performance-v1.json'},
+  {label:'Browser fixtures',detail:'Complete chain, evidence gap, append correction, export, 320px, and paired visual coverage.',path:'tests/build020.spec.ts'}],plans:[
+  {label:'Release path',detail:'Complete static gates, Vercel deployment, authenticated browser and physical-device accessibility review; certify media independently.'},
+  {label:'Future consumers',detail:'021, 023, 026, 029, 032, 033, 034, 037, 038, 039, 041, 044, 057, 058, 060, 061, 069, 071, 084, 088, 092, 093, 094 and 100 consume cap:020.'}],sourceFiles:['apps/web/app/100-builds/020/a/DecisionEvidenceLedger.tsx','apps/web/app/100-builds/020/b/DecisionChain.tsx','data/build-020-engine-v1.json','data/build-020-archive-v1.json','docs/builds/020/SPEC.md','docs/builds/020/ARCHIVE.md','tests/build020.spec.ts']}
+
 
 };
