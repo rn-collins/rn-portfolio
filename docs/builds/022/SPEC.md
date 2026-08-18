@@ -37,3 +37,7 @@ The map does not predict harm, establish causation, determine compliance, prove 
 - Core value and export require no account, persistence, or network call.
 - Layout has no horizontal overflow at 320 CSS pixels.
 - Canonical and derived copy are visibly distinguished.
+
+## Integrity repair 022.2.0
+
+A protection flag is not evidence. Every affected-person record now requires a unique identity, a recorded basis for the consequence path, and supporting evidence for notice, representation, and recourse before those protections can reduce the prioritization signal. Duplicate identities and unsupported flags remain explicit gaps. The synthetic workflow now includes the monitoring stage required by the inherited Build 013 scanner.

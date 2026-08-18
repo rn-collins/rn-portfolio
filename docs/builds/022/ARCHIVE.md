@@ -21,3 +21,7 @@ The title, canonical job, B-Web sentence, and 012/013/017 lineage come from froz
 ## Honest release state
 
 Static/build and exact-head Vercel evidence are recorded separately. Authenticated live-browser interaction, physical-device/manual accessibility, GitHub-hosted CI, and LinkedIn media production/certification remain independent gates until completed.
+
+## Integrity revision
+
+Version 022.2.0 requires evidence-bearing notice, representation, and recourse records, a stated consequence basis, unique affected-person identities, and the inherited monitoring stage. Boolean flags alone cannot produce a mapped status or lower the exposure signal.
