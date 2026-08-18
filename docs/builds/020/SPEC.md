@@ -18,10 +18,12 @@ The question and thesis above are implementation copy derived from the canonical
 
 ## Functional contract
 
-020-A reconstructs a synthetic decision through linked actor, authority, evidence, alternatives, acknowledgement, result and correction records. Removing evidence exposes a gap. Corrections append and supersede rather than erase. Export is client-local JSON.
+020-A reconstructs one explicitly synthetic decision through linked actor, authority, evidence, alternatives, acknowledgement, result and correction records. Completeness requires every evidence fixture declared required; a numerical threshold cannot conceal the loss of acknowledgement, consequence or impact evidence. A correction is a separately identified record that links to the original decision, names the corrected field, retains the prior value, and supplies the new value, reason, actor and time. It never mutates the frozen original fixture.
 
-020-B progressively opens the decision into the canonical temporal provenance chain.
+The export is generated entirely in the browser. It labels itself synthetic, includes missing-required-evidence state, and contains the original record plus the correction history. No form, API, persistence or telemetry path receives its contents.
+
+020-B progressively opens the decision into the canonical temporal provenance chain. Only the selected-stage summary is announced as it changes.
 
 ## Boundaries
 
-Provenance does not itself prove truth, causation, legal authority, compliance, or substantive correctness. Real deployments require access controls, record schedules, source authentication, privacy review and competent domain review.
+Provenance does not itself prove truth, causation, legal authority, compliance, or substantive correctness. Real deployments require access controls, immutable storage with integrity verification, record schedules, source authentication, privacy review and competent domain review.
