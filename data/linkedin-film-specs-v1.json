@@ -575,6 +575,43 @@
         }
       ],
       "renderRequestedOn": "2026-08-17"
+    },
+    {
+      "id": "020",
+      "title": "Decision Evidence Ledger",
+      "final": "AN ACCOUNTABLE DECISION REMAINS RECONSTRUCTABLE AFTER THE MOMENT HAS PASSED.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 020",
+          "headline": "A DECISION IS NOT A SNAPSHOT.",
+          "body": "Accountability requires the actor, authority, time, evidence, alternatives, acknowledgement, result, and corrections."
+        },
+        {
+          "eyebrow": "RECONSTRUCT",
+          "headline": "LINK THE COMPLETE RECORD.",
+          "body": "Open one decision into a temporal chain instead of leaving its rationale scattered."
+        },
+        {
+          "eyebrow": "EVIDENCE",
+          "headline": "REMOVAL MUST EXPOSE THE GAP.",
+          "body": "A ledger should show when supporting evidence is missing—not silently preserve a false sense of completeness."
+        },
+        {
+          "eyebrow": "CORRECT",
+          "headline": "APPEND. SUPERSEDE. NEVER ERASE.",
+          "body": "Corrections preserve the earlier record, the change, its author, its time, and its reason."
+        },
+        {
+          "eyebrow": "BOUNDARY",
+          "headline": "PROVENANCE ≠ PROOF.",
+          "body": "A complete sequence does not prove truth, causation, legal authority, compliance, or a correct decision."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "KEEP THE WHO · WHAT · WHEN · WHY",
+          "body": "An accountable decision remains reconstructable after the moment has passed."
+        }
+      ]
     }
   ]
 }

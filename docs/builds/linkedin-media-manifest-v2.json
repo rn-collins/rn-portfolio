@@ -241,6 +241,31 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ESCALATION IS A CHAIN OF AUTHORITY, EVIDENCE, TIME, AND RECOURSE."
+    },
+    {
+      "id": "020",
+      "title": "Decision Evidence Ledger",
+      "path": "/media/builds/020/build-020-linkedin.mp4",
+      "poster": "/media/builds/020/build-020-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "ed871a0eb04cbe149bc4f6575e5c14d3d15aa5d6724656f51019807a660045db",
+      "bytes": 234805,
+      "posterSha256": "8c1620b873669800ee30e5a76ed6018233b59a55e5e0386913a91664cb247a48",
+      "posterBytes": 32421,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/020/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; sampled-frame, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "AN ACCOUNTABLE DECISION REMAINS RECONSTRUCTABLE AFTER THE MOMENT HAS PASSED."
     }
   ]
 }
