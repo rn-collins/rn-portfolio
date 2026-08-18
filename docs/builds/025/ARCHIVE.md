@@ -5,3 +5,5 @@ AI Implementation Readiness X-Ray inherits Build 012 consequence controls, Build
 Routes: /100-builds/025/a and /100-builds/025/b.
 
 The fixture is synthetic and browser-local. Core value needs no account, submission, storage, or network request after load. Authenticated browser, physical-device accessibility, GitHub-hosted CI, media production, full playback, and LinkedIn upload/compression QA remain independent gates.
+
+Implementation candidate registered on branch build-025; exact-head deployment evidence is recorded only after Vercel reports READY.
