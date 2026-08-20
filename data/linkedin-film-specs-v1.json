@@ -916,6 +916,20 @@
           "body": "A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE."
         }
       ]
+    },
+    {
+      "id": "030",
+      "title": "Inclusive Experience Simulator & Repair Lab",
+      "final": "ACCESSIBILITY IS NOT A VIEW OF THE INTERFACE. IT IS WHETHER PEOPLE CAN COMPLETE THE WORK.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {"eyebrow":"BUILD 030","headline":"PASSING A CHECKLIST IS NOT AN INCLUSIVE EXPERIENCE","body":"A screen can satisfy isolated rules while real people still cannot perceive, understand, navigate, recover, or finish."},
+        {"eyebrow":"SIMULATE THE TASK","headline":"TEST THE WHOLE JOURNEY","body":"Follow entry, orientation, action, feedback, error, recovery, completion, and the handoff beyond the interface."},
+        {"eyebrow":"CHANGE THE CONDITIONS","headline":"VISION · HEARING · MOTOR · COGNITIVE · SPEECH","body":"Add device, bandwidth, language, stress, interruption, assistive technology, and combinations of access needs."},
+        {"eyebrow":"FIND THE BARRIER","headline":"NAME WHERE THE TASK BREAKS","body":"Record the affected person, blocked action, evidence, consequence, workaround, owner, and severity without impersonating lived experience."},
+        {"eyebrow":"REPAIR AND RETEST","headline":"FIX THE SYSTEM—NOT THE PERSON","body":"Change structure, language, control, feedback, timing, alternatives, and support; then rerun the same task and preserve the result."},
+        {"eyebrow":"SAVE THIS","headline":"ACCESS MEANS COMPLETING THE WORK","body":"ACCESSIBILITY IS NOT A VIEW OF THE INTERFACE. IT IS WHETHER PEOPLE CAN COMPLETE THE WORK."}
+      ]
     }
   ]
 }

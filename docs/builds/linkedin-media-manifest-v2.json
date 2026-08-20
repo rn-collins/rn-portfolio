@@ -490,6 +490,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE."
+    },
+    {
+      "id": "030",
+      "title": "Inclusive Experience Simulator & Repair Lab",
+      "path": "/media/builds/030/build-030-linkedin.mp4",
+      "poster": "/media/builds/030/build-030-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "5fdb6971090301294fcf860292848db22e362776ddfcbc67d282bd49fe338b48",
+      "bytes": 266430,
+      "posterSha256": "960038096ad7ce7dd96d016a75d73bfcbc7b51db19a605381decc1244a250ce4",
+      "posterBytes": 41604,
+      "contactSheet": "/media/builds/030/build-030-linkedin-contact-sheet.png",
+      "contactSheetSha256": "af787a13bb665ba102dbd82d90d81d8670f80f9a99de76c6c23b7e097fec8f04",
+      "contactSheetBytes": 329632,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/030/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "ACCESSIBILITY IS NOT A VIEW OF THE INTERFACE. IT IS WHETHER PEOPLE CAN COMPLETE THE WORK."
     }
   ]
 }
