@@ -1,3 +1,12 @@
 {
-  "schemaVersion":"1.0","buildId":"026","engineVersion":"026.1.0","runtime":"Deterministic browser-local TypeScript","externalRuntimeDependencies":[],"offlineAfterLoad":true,"freshness":"Rules are versioned implementation heuristics rather than factual claims.","performanceTarget":"Immediate assessment for the three-record synthetic fixture.","fallback":"Core record comparison and transformation history remain readable without animation."
+  "schemaVersion": "1.1",
+  "buildId": "026",
+  "engineVersion": "026.2.0",
+  "runtime": "Deterministic browser-local TypeScript",
+  "externalRuntimeDependencies": [],
+  "offlineAfterLoad": true,
+  "freshness": "Rules are versioned implementation heuristics rather than factual claims.",
+  "performanceTarget": "Immediate assessment for the three-record synthetic fixture.",
+  "fallback": "Core raw records, normalized values, transformation history, and review decisions remain readable without animation.",
+  "certificationBoundary": "Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn platform QA remain independent."
 }

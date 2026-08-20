@@ -1,3 +1,46 @@
 {
-  "schemaVersion":"1.0","buildId":"026","routes":["/100-builds/026","/100-builds/026/a","/100-builds/026/b"],"canonical":{"title":"Messy Data Trust X-Ray","uses":["010","011","020"],"creates":["cap:026"],"consumers":["028","031","035","099"]},"derivedCopy":true,"processing":"client-local synthetic fixture","exports":["messy-data-trust-record.json"],"deferredGates":["authenticated-live-browser","physical-device-manual-accessibility","github-hosted-ci","linkedin-media-certification"]
+  "schemaVersion": "1.1",
+  "buildId": "026",
+  "engineVersion": "026.2.0",
+  "routes": [
+    "/100-builds/026",
+    "/100-builds/026/a",
+    "/100-builds/026/b"
+  ],
+  "canonical": {
+    "title": "Messy Data Trust X-Ray",
+    "uses": [
+      "010",
+      "011",
+      "020"
+    ],
+    "creates": [
+      "cap:026"
+    ],
+    "consumers": [
+      "028",
+      "031",
+      "035",
+      "099"
+    ]
+  },
+  "derivedCopy": true,
+  "processing": "client-local synthetic fixture",
+  "integrityControls": [
+    "raw snapshots retained",
+    "rule-versioned reversible transformations",
+    "strict parsing without silent coercion",
+    "valid-email-only candidate grouping",
+    "reviews bound to exact candidate sets",
+    "no merge, overwrite, or deletion"
+  ],
+  "exports": [
+    "messy-data-trust-record.json"
+  ],
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ]
 }

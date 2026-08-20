@@ -12,11 +12,15 @@
 ## Created
 
 - A browser-local normalization and duplicate-review x-ray
-- Source-to-normalized transformation records with named rules and before/after values
-- A possible-duplicate review queue that refuses silent merges
-- A client-local JSON trace export
-- An interactive paired visual
+- Complete raw snapshots plus versioned before/after transformation records
+- Strict non-coercive parsing and valid-email-only duplicate candidates
+- Review decisions bound to exact candidates, reviewer, date, evidence, and rationale
+- An identity-resolution reference requirement for confirmed identity
+- A no-merge invariant: every source record remains distinct in assessment and export
+- A client-local JSON trace export and paired interactive visual
 
 ## Boundaries
 
-Only the title, job, B-Web sentence, and lineage are frozen canon. The interface copy, fixture, rule set, statuses, thresholds, and explanatory story are derived. The fixture is synthetic. No real data should be entered. Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent release gates.
+Only the title, job, B-Web sentence, and lineage are frozen canon. The interface copy, fixture, rules, statuses, thresholds, and explanatory story are derived. TRACEABLE describes reconstructability, not truth or authority to rely, migrate, merge, or deploy. The fixture is synthetic; no real data should be entered.
+
+Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.
