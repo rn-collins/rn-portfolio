@@ -930,6 +930,20 @@
         {"eyebrow":"REPAIR AND RETEST","headline":"FIX THE SYSTEM—NOT THE PERSON","body":"Change structure, language, control, feedback, timing, alternatives, and support; then rerun the same task and preserve the result."},
         {"eyebrow":"SAVE THIS","headline":"ACCESS MEANS COMPLETING THE WORK","body":"ACCESSIBILITY IS NOT A VIEW OF THE INTERFACE. IT IS WHETHER PEOPLE CAN COMPLETE THE WORK."}
       ]
+    },
+    {
+      "id": "031",
+      "title": "Privacy-Conscious Product Behavior X-Ray",
+      "final": "PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {"eyebrow":"BUILD 031","headline":"A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR","body":"The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states."},
+        {"eyebrow":"OBSERVE THE JOURNEY","headline":"TRACE DATA FROM ENTRY TO EXIT","body":"Map collection, purpose, transformation, storage, access, disclosure, reuse, model input, retention, and verified deletion."},
+        {"eyebrow":"TEST THE DEFAULTS","headline":"WHAT HAPPENS BEFORE A PERSON CHOOSES?","body":"Optional collection, tracking, sharing, personalization, and sensitive inference should not quietly activate through design or fatigue."},
+        {"eyebrow":"COMPARE THE PROMISE","headline":"CLAIM · CONTROL · EVIDENCE · RESULT","body":"Test whether notice matches runtime behavior, the control changes processing, and the outcome remains visible and correctable."},
+        {"eyebrow":"DESIGN RECOURSE","headline":"ACCESS · CORRECT · WITHDRAW · DELETE · APPEAL","body":"Every route needs an owner, deadline, identity safeguards, downstream handling, exception basis, status, and escalation."},
+        {"eyebrow":"SAVE THIS","headline":"READ THE PRODUCT THROUGH ITS BEHAVIOR","body":"PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY."}
+      ]
     }
   ]
 }

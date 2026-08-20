@@ -518,6 +518,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ACCESSIBILITY IS NOT A VIEW OF THE INTERFACE. IT IS WHETHER PEOPLE CAN COMPLETE THE WORK."
+    },
+    {
+      "id": "031",
+      "title": "Privacy-Conscious Product Behavior X-Ray",
+      "path": "/media/builds/031/build-031-linkedin.mp4",
+      "poster": "/media/builds/031/build-031-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "f9be392cdffdaac23c7013972501250e805367bc9e5b491143d50d0648fd1104",
+      "bytes": 265978,
+      "posterSha256": "823d6728b3dffd873005915716a09ea3ed171085f05fafdc98d506c98921a019",
+      "posterBytes": 40128,
+      "contactSheet": "/media/builds/031/build-031-linkedin-contact-sheet.png",
+      "contactSheetSha256": "152f4b3e2ea8a1cc642c29fe96417d61b11a33e8b612dd01e510be4ef328a27a",
+      "contactSheetBytes": 331603,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/031/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY."
     }
   ]
 }
