@@ -944,6 +944,20 @@
         {"eyebrow":"DESIGN RECOURSE","headline":"ACCESS · CORRECT · WITHDRAW · DELETE · APPEAL","body":"Every route needs an owner, deadline, identity safeguards, downstream handling, exception basis, status, and escalation."},
         {"eyebrow":"SAVE THIS","headline":"READ THE PRODUCT THROUGH ITS BEHAVIOR","body":"PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY."}
       ]
+    },
+    {
+      "id": "032",
+      "title": "Consequential AI Release Readiness Harness",
+      "final": "A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {"eyebrow":"BUILD 032","headline":"A PASSING SCORE DOES NOT AUTHORIZE RELEASE","body":"Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure."},
+        {"eyebrow":"BOUND THE RELEASE","headline":"NAME THE VERSION AND THE CONSEQUENCE","body":"Lock the model, data, configuration, purpose, affected people, decision, environment, change set, and unacceptable outcomes."},
+        {"eyebrow":"RUN THE GATES","headline":"EVIDENCE · CONTROL · OWNER · AUTHORITY","body":"Test performance, workflow, privacy, security, accessibility, notice, review, appeal, incident response, monitoring, and rollback."},
+        {"eyebrow":"TEST FAILURE","headline":"EXPECTED · EDGE · MISUSE · OUTAGE","body":"Use predeclared scenarios, thresholds, evidence locators, unresolved gaps, and independent challenge—not a launch-day demonstration."},
+        {"eyebrow":"DECIDE THE NEXT STATE","headline":"HOLD · REMEDIATE · PILOT · RELEASE · ROLLBACK","body":"Record who can decide, what conditions apply, when the decision expires, what will be monitored, and what automatically stops the use."},
+        {"eyebrow":"SAVE THIS","headline":"READINESS MUST SURVIVE CONTACT WITH OPERATIONS","body":"A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED."}
+      ]
     }
   ]
 }

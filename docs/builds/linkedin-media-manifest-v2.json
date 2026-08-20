@@ -546,6 +546,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY."
+    },
+    {
+      "id": "032",
+      "title": "Consequential AI Release Readiness Harness",
+      "path": "/media/builds/032/build-032-linkedin.mp4",
+      "poster": "/media/builds/032/build-032-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "be60a3a04f601f5c2eb330f72e78709a7deb27b19dafb221265be5e7f294d3ca",
+      "bytes": 278115,
+      "posterSha256": "f3ebdb09d0d1f09ce9841d5d86cb77324a54ddd761d68da0c6834ff10a47be92",
+      "posterBytes": 43880,
+      "contactSheet": "/media/builds/032/build-032-linkedin-contact-sheet.png",
+      "contactSheetSha256": "48e1d943d19889f550fbd0f403cae4ef1122cb3b254044de723c70654862e35d",
+      "contactSheetBytes": 353030,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/032/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED."
     }
   ]
 }
