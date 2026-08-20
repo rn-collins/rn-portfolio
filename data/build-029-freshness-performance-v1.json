@@ -1,3 +1,12 @@
 {
-  "schemaVersion":"1.0","buildId":"029","engineVersion":"029.1.0","runtime":"Deterministic browser-local TypeScript","externalRuntimeDependencies":[],"offlineAfterLoad":true,"freshness":"The materiality and propagation rules are versioned implementation heuristics.","performanceTarget":"Immediate diff and graph propagation for the synthetic four-node fixture.","fallback":"Before/after values, evidence, impact bases, and paths remain readable without animation."
+  "schemaVersion": "1.1",
+  "buildId": "029",
+  "engineVersion": "029.2.0",
+  "runtime": "Deterministic browser-local TypeScript",
+  "externalRuntimeDependencies": [],
+  "offlineAfterLoad": true,
+  "freshness": "Version, assessment, event, and evidence dates are ordered. Event evidence may not postdate the event and is treated as current for at most 365 days. Materiality and propagation remain versioned heuristics.",
+  "performanceTarget": "Immediate exact-value diff and all-simple-path traversal for the synthetic four-node acyclic fixture.",
+  "fallback": "Before/after values, evidence, noncausal impact bases, all registered paths, and replay metadata remain readable without animation.",
+  "certificationBoundary": "Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn platform QA remain independent."
 }

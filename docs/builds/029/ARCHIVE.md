@@ -7,16 +7,19 @@
 - B-Web: A semantic diff propagates consequences through a dependency graph.
 - Uses: Builds 010 and 020
 - Creates: cap:029
-- Consumers: Builds 030, 034, 035, 036, 037, 044, 046, 047, 056, 057, 058, 059, 060, 061, 063, 064, 065, 066, 067, 069, 071, 076, 077, 091, 093, 094, and 099
 
 ## Created
 
-- Version Model, Semantic Diff, and Impact Propagation Rules
-- Evidence-bearing version event
-- Field-use and node-dependency consequence trace
-- Browser-local JSON trace export
-- Interactive semantic-diff visual
+- Schema-bound exact-value Version Model and Diff
+- Structured evidence-bearing version event
+- Direct and recursive all-simple-path dependency trace
+- Explicit cycle and missing-dependency failure states
+- Noncausal “registered potentially affected” language
+- Deterministic replay export with schema and graph fingerprints
+- Accessible interactive consequence graph
 
 ## Boundaries
 
-Only title, job, B-Web sentence, and lineage are frozen canon. All fixture data, field sets, materiality labels, propagation logic, statuses, and public explanation are derived. Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.
+“Semantic diff” is canonical language implemented here as exact-value comparison, not semantic interpretation. Registered paths identify review candidates; they do not prove causation, legal effect, materiality, actual downstream change, or completeness. The fixture is synthetic and browser-local.
+
+Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.

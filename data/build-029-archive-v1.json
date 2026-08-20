@@ -1,3 +1,68 @@
 {
-  "schemaVersion":"1.0","buildId":"029","routes":["/100-builds/029","/100-builds/029/a","/100-builds/029/b"],"canonical":{"title":"Change & Consequence Explorer","uses":["010","020"],"creates":["cap:029"],"consumers":["030","034","035","036","037","044","046","047","056","057","058","059","060","061","063","064","065","066","067","069","071","076","077","091","093","094","099"]},"derivedCopy":true,"processing":"client-local synthetic fixture","exports":["change-consequence-trace.json"],"deferredGates":["authenticated-live-browser","physical-device-manual-accessibility","github-hosted-ci","linkedin-media-certification"]
+  "schemaVersion": "1.1",
+  "buildId": "029",
+  "engineVersion": "029.2.0",
+  "routes": [
+    "/100-builds/029",
+    "/100-builds/029/a",
+    "/100-builds/029/b"
+  ],
+  "canonical": {
+    "title": "Change & Consequence Explorer",
+    "uses": [
+      "010",
+      "020"
+    ],
+    "creates": [
+      "cap:029"
+    ],
+    "consumers": [
+      "030",
+      "034",
+      "035",
+      "036",
+      "037",
+      "044",
+      "046",
+      "047",
+      "056",
+      "057",
+      "058",
+      "059",
+      "060",
+      "061",
+      "063",
+      "064",
+      "065",
+      "066",
+      "067",
+      "069",
+      "071",
+      "076",
+      "077",
+      "091",
+      "093",
+      "094",
+      "099"
+    ]
+  },
+  "derivedCopy": true,
+  "processing": "client-local synthetic fixture",
+  "integrityControls": [
+    "registered schema field identities and types",
+    "structured evidence-bearing version event",
+    "all simple direct and recursive paths",
+    "blocking cycles and unregistered dependencies",
+    "potentially-affected noncausal language",
+    "deterministic replay fingerprints"
+  ],
+  "exports": [
+    "change-consequence-trace.json"
+  ],
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ]
 }
