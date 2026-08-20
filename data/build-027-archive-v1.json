@@ -1,0 +1,3 @@
+{
+  "schemaVersion":"1.0","buildId":"027","routes":["/100-builds/027","/100-builds/027/a","/100-builds/027/b"],"canonical":{"title":"Creator Ownership Stack Mapper","uses":["010","011"],"creates":["cap:027"],"consumers":["056","060","099"]},"derivedCopy":true,"processing":"client-local synthetic fixture","exports":["creator-ownership-stack.json"],"deferredGates":["authenticated-live-browser","physical-device-manual-accessibility","github-hosted-ci","linkedin-media-certification"]
+}
