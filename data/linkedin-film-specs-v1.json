@@ -764,6 +764,44 @@
           "body": "READINESS IS THE ABILITY TO OPERATE THE CONTROLS—NOT THE DESIRE TO DEPLOY."
         }
       ]
+    },
+    {
+      "id": "026",
+      "title": "Messy Data Trust X-Ray",
+      "final": "MESSY DATA CAN SUPPORT A DECISION ONLY WHEN ITS LIMITS REMAIN VISIBLE.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 026",
+          "headline": "A CLEAN TABLE CAN HIDE A MESSY HISTORY",
+          "body": "Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision."
+        },
+        {
+          "eyebrow": "PROVENANCE",
+          "headline": "TRACE WHERE EVERY FIELD CAME FROM",
+          "body": "Keep source, collection method, transformation, timestamp, owner, and permitted use inspectable."
+        },
+        {
+          "eyebrow": "QUALITY",
+          "headline": "TEST THE FAILURE MODES",
+          "body": "Missingness, duplication, conflict, drift, outliers, and label uncertainty must remain separate signals."
+        },
+        {
+          "eyebrow": "REPRESENTATION",
+          "headline": "ASK WHO IS MISSING",
+          "body": "Coverage can look large while systematically excluding people, places, outcomes, or hard-to-record cases."
+        },
+        {
+          "eyebrow": "DECISION FITNESS",
+          "headline": "BOUND THE CLAIM AND THE USE",
+          "body": "Name what the data can support, what it cannot support, the accountable reviewer, and the next verification action."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "DO NOT CLEAN AWAY THE WARNING",
+          "body": "MESSY DATA CAN SUPPORT A DECISION ONLY WHEN ITS LIMITS REMAIN VISIBLE."
+        }
+      ]
     }
   ]
 }

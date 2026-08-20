@@ -378,6 +378,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "READINESS IS THE ABILITY TO OPERATE THE CONTROLS\u2014NOT THE DESIRE TO DEPLOY."
+    },
+    {
+      "id": "026",
+      "title": "Messy Data Trust X-Ray",
+      "path": "/media/builds/026/build-026-linkedin.mp4",
+      "poster": "/media/builds/026/build-026-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "f799ce000cf97f050f48e60b8dc0feb19021de27851461dbf711eda4886cd5e6",
+      "bytes": 265139,
+      "posterSha256": "4302ba7dbfcbca94cc8b435b878b52ddcb5b5b9d61e02bf9ab3d2a9173acdf7b",
+      "posterBytes": 36939,
+      "contactSheet": "/media/builds/026/build-026-linkedin-contact-sheet.png",
+      "contactSheetSha256": "add9f2f4c91346b51304683cef0b7089891ad43a744a5b66c969d7df49d82118",
+      "contactSheetBytes": 287509,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/026/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "MESSY DATA CAN SUPPORT A DECISION ONLY WHEN ITS LIMITS REMAIN VISIBLE."
     }
   ]
 }
