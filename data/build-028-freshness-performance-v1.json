@@ -1,0 +1,3 @@
+{
+  "schemaVersion":"1.0","buildId":"028","engineVersion":"028.1.0","rankingRuleVersion":"transparent-ranking-v1","runtime":"Deterministic browser-local TypeScript","externalRuntimeDependencies":[],"offlineAfterLoad":true,"freshness":"The corpus and URLs are explicitly synthetic; ranking rules are versioned implementation heuristics.","performanceTarget":"Immediate ranking for the four-document synthetic corpus.","fallback":"All source metadata and score explanations remain readable without animation."
+}
