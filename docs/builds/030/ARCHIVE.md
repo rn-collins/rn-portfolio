@@ -9,13 +9,14 @@
 - Creates: cap:030
 - Consumers: Builds 032, 045, 047, 048, 049, 050, 051, 053, 071, 073, 095, 099, and 100
 
-## Created
+## Integrity record
 
-- Accessibility QA Standard, Localization Schema, and Inclusive Interaction Patterns
-- Transient interface-condition profile and repair mapping
-- Evidence/change-linked local repair export
-- Paired live-transformation visual
+- Engine `030.2.0`; mapping `030-map-2`; deterministic need and repair ordering.
+- Synthetic interface constraints remain transient and client-local; download is explicit.
+- Individual mappings and two declared combined-condition interactions are inspected.
+- Evidence identity, source, scope, review date, uniqueness, freshness, and future dating are checked.
+- Export preserves original input, derived output, evidence, privacy, limitations, and replay instructions.
+- `MAPPED CONTROLS PRESENT` replaces the false-assurance label `REPAIRED`.
+- A and B use native keyboard controls, live text status, responsive layout, visible focus, and reduced-motion rules.
 
-## Boundaries
-
-Only title, job, B-Web sentence, and lineage are frozen canon. Profiles, mappings, sample interface, repair logic, and public explanation are derived. Authenticated live-browser, physical-device/manual accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.
+Only title, job, B-Web sentence, and lineage are frozen canon. Profiles, mappings, sample interface, repair logic, evidence choice, and public explanation are derived. No result certifies lived experience, efficacy, usability, localization, WCAG, or legal compliance. Authenticated live-browser, physical-device/manual accessibility, GitHub-hosted CI, participant research, and LinkedIn media certification remain independent gates.
