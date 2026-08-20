@@ -1,7 +1,7 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "buildId": "025",
-  "engineVersion": "025.1.0",
+  "engineVersion": "025.2.0",
   "sourceCheckedOn": "2026-08-18",
   "sources": [
     {
@@ -15,5 +15,6 @@
       "authority": "primary"
     }
   ],
-  "runtime": "deterministic client-local after load"
+  "runtime": "deterministic client-local after load",
+  "certificationBoundary": "Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn platform QA remain independent."
 }

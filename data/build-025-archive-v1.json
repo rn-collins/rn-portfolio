@@ -1,6 +1,7 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "buildId": "025",
+  "engineVersion": "025.2.0",
   "routes": [
     "/100-builds/025",
     "/100-builds/025/a",
@@ -22,6 +23,12 @@
   },
   "derivedCopy": true,
   "processing": "client-local synthetic fixture",
+  "integrityControls": [
+    "evidence-linked positive scores",
+    "full scores cannot retain gaps",
+    "traceable inherited assessment records",
+    "bounded exclusions, expiry, incident, and rollback controls"
+  ],
   "exports": [
     "ai-implementation-readiness.json"
   ],

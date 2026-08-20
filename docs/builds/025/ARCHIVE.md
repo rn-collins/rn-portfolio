@@ -4,6 +4,8 @@ AI Implementation Readiness X-Ray inherits Build 012 consequence controls, Build
 
 Routes: /100-builds/025/a and /100-builds/025/b.
 
-The fixture is synthetic and browser-local. Core value needs no account, submission, storage, or network request after load. Authenticated browser, physical-device accessibility, GitHub-hosted CI, media production, full playback, and LinkedIn upload/compression QA remain independent gates.
+Engine 025.2.0 prevents self-scored readiness from substituting for evidence. It requires evidence references, review dates, reviewers, accountable authority, validation methods, explicit gaps, traceable inherited assessment records, and bounded-pilot exclusions and recovery controls. The layer-evidence action cannot close the vendor gate.
 
-Implementation candidate registered on branch build-025; exact-head deployment evidence is recorded only after Vercel reports READY.
+The fixture and all displayed evidence IDs are synthetic and browser-local. Core value needs no account, submission, storage, or network request after load. No real-world truth, compliance, safety, procurement approval, or production readiness is established.
+
+Authenticated live browser, physical-device accessibility, GitHub-hosted CI, media production/playback, and LinkedIn upload/compression QA remain independent gates. Exact-head deployment evidence is recorded only after Vercel reports READY.

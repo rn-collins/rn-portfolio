@@ -1,5 +1,5 @@
 {
-  "version": "025.1.0",
+  "version": "025.2.0",
   "canonical": {
     "title": "AI Implementation Readiness X-Ray",
     "job": "Test whether an organization can actually implement an AI use safely and operationally.",
@@ -26,7 +26,10 @@
       "READINESS GAPS",
       "NOT READY"
     ],
-    "rule": "Every positive score requires evidence and an owner; inherited gates cannot be bypassed."
+    "positiveScoreRule": "A positive score requires a specific evidence statement, one or more locatable dated reviewer-identified records, accountable ownership, defined authority, and a validation method.",
+    "fullScoreRule": "A score of 2 cannot coexist with an unresolved gap.",
+    "inheritedRule": "Builds 012, 013, and 021 each require one traceable closed assessment record with no unresolved gaps; interface checkboxes cannot substitute for those records.",
+    "pilotRule": "All five layers must score 2 on validated support and all boundary, exclusion, ownership, measurement, stop, incident, rollback, expiry, and approval controls must be defined."
   },
-  "boundary": "Not deployment, procurement, safety, regulatory, or legal authorization."
+  "boundary": "A derived heuristic for a bounded synthetic pilot; not deployment, procurement, safety, compliance, regulatory, or legal authorization."
 }
