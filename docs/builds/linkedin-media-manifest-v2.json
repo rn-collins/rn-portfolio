@@ -406,6 +406,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "MESSY DATA CAN SUPPORT A DECISION ONLY WHEN ITS LIMITS REMAIN VISIBLE."
+    },
+    {
+      "id": "027",
+      "title": "Creator Ownership Stack Mapper",
+      "path": "/media/builds/027/build-027-linkedin.mp4",
+      "poster": "/media/builds/027/build-027-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "2544b1ec7a42227b7d4bca3dc667780b17520ae6af933423a96c2fdafd25da67",
+      "bytes": 245861,
+      "posterSha256": "2c32d236d6345598ae9c8f90a109bde56a13817394577bfb9214074b06c20680",
+      "posterBytes": 36228,
+      "contactSheet": "/media/builds/027/build-027-linkedin-contact-sheet.png",
+      "contactSheetSha256": "9d3a214826ef13fdd3d4e27275308b0dd593773771d98bbc7199dca4d8a2da4b",
+      "contactSheetBytes": 288163,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/027/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "PLATFORM REACH IS RENTED. YOUR OWNERSHIP STACK MUST SURVIVE THE PLATFORM."
     }
   ]
 }
