@@ -7,16 +7,18 @@
 - B-Web: Results reorganize around the actual question and ranking rationale.
 - Uses: Builds 010 and 026
 - Creates: cap:028
-- Consumers: Builds 045, 047, 050, 051, 052, 058, 059, 062, 063, 064, 066, 069, 076, 079, 081, 082, 090, and 099
 
 ## Created
 
-- Search Index and Ranking Rules
-- Keyword, deterministic meaning, topic, and evidence-level retrieval
-- Per-result inspectable ranking rationale
-- Browser-local JSON search-trace export
-- Interactive question-to-ranking visual
+- Transparent keyword and deterministic concept-map retrieval
+- Validated evidence-classification and Build 026.2.0 normalization provenance
+- Pre-score facet trace, exact score parts, zero-weight freshness, and stable tie-break key
+- Empty, adversarial, and provenance-blocked query states
+- Deterministic replay export with corpus fingerprint
+- Accessible ordered ranking story
 
 ## Boundaries
 
-Only title, job, B-Web sentence, and lineage are frozen canon. All corpus content, search examples, concept expansion, weights, facets, thresholds, ranking labels, and explanation are derived. The corpus is synthetic. Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.
+“Meaning” is a derived concept map, not semantic understanding. Evidence labels and relevance weights are not findings of truth, quality, applicability, authority, or sufficiency. Freshness is displayed but intentionally not treated as relevance. The corpus and query are synthetic and browser-local.
+
+Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn media certification remain independent gates.

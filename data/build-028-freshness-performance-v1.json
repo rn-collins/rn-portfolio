@@ -1,3 +1,14 @@
 {
-  "schemaVersion":"1.0","buildId":"028","engineVersion":"028.1.0","rankingRuleVersion":"transparent-ranking-v1","runtime":"Deterministic browser-local TypeScript","externalRuntimeDependencies":[],"offlineAfterLoad":true,"freshness":"The corpus and URLs are explicitly synthetic; ranking rules are versioned implementation heuristics.","performanceTarget":"Immediate ranking for the four-document synthetic corpus.","fallback":"All source metadata and score explanations remain readable without animation."
+  "schemaVersion": "1.1",
+  "buildId": "028",
+  "engineVersion": "028.2.0",
+  "rankingRuleVersion": "transparent-ranking-v2",
+  "conceptMapVersion": "derived-concept-map-v2",
+  "runtime": "Deterministic browser-local TypeScript",
+  "externalRuntimeDependencies": [],
+  "offlineAfterLoad": true,
+  "freshness": "Synthetic publication dates and classification-review dates are validated against the assessment date. Freshness is visible and has zero ranking weight.",
+  "performanceTarget": "Immediate ranking for the four-document synthetic corpus and queries up to 200 characters or 20 substantive tokens.",
+  "fallback": "All source metadata, score explanations, accessible ranking order, and export replay fields remain readable without animation.",
+  "certificationBoundary": "Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn platform QA remain independent."
 }

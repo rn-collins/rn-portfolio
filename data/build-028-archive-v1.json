@@ -1,3 +1,61 @@
 {
-  "schemaVersion":"1.0","buildId":"028","routes":["/100-builds/028","/100-builds/028/a","/100-builds/028/b"],"canonical":{"title":"Finding Is Part of Knowing","uses":["010","026"],"creates":["cap:028"],"consumers":["045","047","050","051","052","058","059","062","063","064","066","069","076","079","081","082","090","099"]},"derivedCopy":true,"processing":"client-local synthetic corpus","exports":["transparent-search-trace.json"],"deferredGates":["authenticated-live-browser","physical-device-manual-accessibility","github-hosted-ci","linkedin-media-certification"]
+  "schemaVersion": "1.1",
+  "buildId": "028",
+  "engineVersion": "028.2.0",
+  "routes": [
+    "/100-builds/028",
+    "/100-builds/028/a",
+    "/100-builds/028/b"
+  ],
+  "canonical": {
+    "title": "Finding Is Part of Knowing",
+    "uses": [
+      "010",
+      "026"
+    ],
+    "creates": [
+      "cap:028"
+    ],
+    "consumers": [
+      "045",
+      "047",
+      "050",
+      "051",
+      "052",
+      "058",
+      "059",
+      "062",
+      "063",
+      "064",
+      "066",
+      "069",
+      "076",
+      "079",
+      "081",
+      "082",
+      "090",
+      "099"
+    ]
+  },
+  "derivedCopy": true,
+  "processing": "client-local synthetic corpus",
+  "integrityControls": [
+    "concept-map meaning boundary",
+    "validated evidence-classification records",
+    "Build 026.2.0 normalization provenance",
+    "facets applied before scoring",
+    "zero-weight disclosed freshness",
+    "stable ID tie-break",
+    "query limits",
+    "deterministic replay fingerprint"
+  ],
+  "exports": [
+    "transparent-search-trace.json"
+  ],
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ]
 }
