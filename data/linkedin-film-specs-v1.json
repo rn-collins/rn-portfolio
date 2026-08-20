@@ -878,6 +878,44 @@
           "body": "KNOWLEDGE YOU CANNOT RELIABLY FIND IS KNOWLEDGE YOU CANNOT RELIABLY USE."
         }
       ]
+    },
+    {
+      "id": "029",
+      "title": "Change & Consequence Explorer",
+      "final": "A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 029",
+          "headline": "EVERY CHANGE ENTERS A SYSTEM",
+          "body": "A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began."
+        },
+        {
+          "eyebrow": "BOUND THE CHANGE",
+          "headline": "NAME WHAT WILL BE DIFFERENT",
+          "body": "Record the actor, object, purpose, timing, assumptions, dependencies, and the prior state being replaced."
+        },
+        {
+          "eyebrow": "TRACE CONSEQUENCE",
+          "headline": "FOLLOW WHO AND WHAT IT CAN REACH",
+          "body": "Map direct effects, downstream handoffs, delayed effects, feedback loops, rights, and people carrying the burden."
+        },
+        {
+          "eyebrow": "TEST SCENARIOS",
+          "headline": "EXPECTED · EDGE · FAILURE · MISUSE",
+          "body": "Compare evidence, uncertainty, reversibility, scale, severity, and the conditions that would change the conclusion."
+        },
+        {
+          "eyebrow": "GOVERN THE MOVE",
+          "headline": "OWNER · MONITOR · STOP · REMEDY",
+          "body": "A release needs accountable authority, observable signals, rollback criteria, notice, correction, and recourse."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FOLLOW THE CONSEQUENCE PAST THE CHANGE",
+          "body": "A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE."
+        }
+      ]
     }
   ]
 }

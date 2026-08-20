@@ -462,6 +462,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "KNOWLEDGE YOU CANNOT RELIABLY FIND IS KNOWLEDGE YOU CANNOT RELIABLY USE."
+    },
+    {
+      "id": "029",
+      "title": "Change & Consequence Explorer",
+      "path": "/media/builds/029/build-029-linkedin.mp4",
+      "poster": "/media/builds/029/build-029-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "6ee977ef1015b6e44b8bda5994748b4e192eef86ba98a96ad84b3b91c002bc21",
+      "bytes": 277069,
+      "posterSha256": "dfcf567580289173ccced6ae5c072813d77b65d11d08c76601f359964a201372",
+      "posterBytes": 39257,
+      "contactSheet": "/media/builds/029/build-029-linkedin-contact-sheet.png",
+      "contactSheetSha256": "a7ef0eecb839c535d3dd9822e44e41cd79c6c036c07a5c46343d5a16628848e8",
+      "contactSheetBytes": 309780,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/029/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE."
     }
   ]
 }
