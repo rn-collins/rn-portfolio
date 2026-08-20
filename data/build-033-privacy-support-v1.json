@@ -1,0 +1,1 @@
+{"build":"033","dataClass":"synthetic threat-model fixture","collection":"none","networkSubmission":false,"persistence":"none","export":"browser-local JSON","safety":"High-level defensive paths exclude operational exploitation details."}
