@@ -726,6 +726,44 @@
           "body": "THE BEST DATA RISK IS DATA NEVER COLLECTED."
         }
       ]
+    },
+    {
+      "id": "025",
+      "title": "AI Implementation Readiness X-Ray",
+      "final": "READINESS IS THE ABILITY TO OPERATE THE CONTROLS—NOT THE DESIRE TO DEPLOY.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 025",
+          "headline": "A USE CASE IS NOT AN IMPLEMENTATION PLAN",
+          "body": "A promising capability can still outrun the organization expected to operate it."
+        },
+        {
+          "eyebrow": "CONSEQUENCE",
+          "headline": "START WITH WHO CAN BE AFFECTED",
+          "body": "Severity, rights, reversibility, scale, and uncertainty determine how much readiness is required."
+        },
+        {
+          "eyebrow": "WORKFLOW",
+          "headline": "TRACE THE REAL WORK",
+          "body": "Map intake, data, model, review, decision, action, monitoring, and every accountable handoff."
+        },
+        {
+          "eyebrow": "EVIDENCE",
+          "headline": "TEST THE VENDOR CLAIMS",
+          "body": "A procurement adjective is not proof. Keep claim, scope, evidence, control, contract, and recourse inspectable."
+        },
+        {
+          "eyebrow": "OPERATING CAPACITY",
+          "headline": "OWNER · AUTHORITY · SKILL · TIME · EXIT",
+          "body": "A control exists only when named people can run it, stop the use, correct failure, and sustain the work."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "DESIRE TO DEPLOY IS NOT READINESS",
+          "body": "READINESS IS THE ABILITY TO OPERATE THE CONTROLS—NOT THE DESIRE TO DEPLOY."
+        }
+      ]
     }
   ]
 }

@@ -293,7 +293,7 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review asset generated; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "BUY THE EVIDENCE—NOT THE ADJECTIVE."
+      "finalProposition": "BUY THE EVIDENCE\u2014NOT THE ADJECTIVE."
     },
     {
       "id": "023",
@@ -350,6 +350,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "THE BEST DATA RISK IS DATA NEVER COLLECTED."
+    },
+    {
+      "id": "025",
+      "title": "AI Implementation Readiness X-Ray",
+      "path": "/media/builds/025/build-025-linkedin.mp4",
+      "poster": "/media/builds/025/build-025-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "8f8f5dcf625c45d35c52b69be02b58f6ee4a74e6a2edc88f37beddfb5420f466",
+      "bytes": 230769,
+      "posterSha256": "08af7a2f817259bafb586597171379ec8eb5156b617e7eb7674a62cfeffc1409",
+      "posterBytes": 37322,
+      "contactSheet": "/media/builds/025/build-025-linkedin-contact-sheet.png",
+      "contactSheetSha256": "c5d83774ca4b0390c3285e97c9e31b2a1581b3044d18dd77d7f0c5f189309fe9",
+      "contactSheetBytes": 279850,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/025/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "READINESS IS THE ABILITY TO OPERATE THE CONTROLS\u2014NOT THE DESIRE TO DEPLOY."
     }
   ]
 }
