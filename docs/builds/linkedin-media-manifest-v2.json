@@ -574,6 +574,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED."
+    },
+    {
+      "id": "033",
+      "title": "Adversarial System Explorer",
+      "path": "/media/builds/033/build-033-linkedin.mp4",
+      "poster": "/media/builds/033/build-033-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "eb9a8873eb4327a967ac427ce91804758fb6b3ac09cd710b0b3a63dcd4c2fc0b",
+      "bytes": 293592,
+      "posterSha256": "3011ebf464e2a813a72c9687519548d9fda546def839e81b80933737040dc3cf",
+      "posterBytes": 38653,
+      "contactSheet": "/media/builds/033/build-033-linkedin-contact-sheet.png",
+      "contactSheetSha256": "a42daf82c5c872d212bfcfdd9e06efaf1bfa9172f5ea0f7758544938f49440b9",
+      "contactSheetBytes": 323313,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/033/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "ADVERSARIAL TESTING IS USEFUL ONLY WHEN IT MAKES THE SYSTEM SAFER WITHOUT MAKING HARM EASIER."
     }
   ]
 }
