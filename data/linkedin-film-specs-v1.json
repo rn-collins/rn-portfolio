@@ -986,6 +986,20 @@
         {"eyebrow":"PREVENT RECURRENCE","headline":"CAUSE · CONTROL · OWNER · RETEST","body":"Distinguish root, contributing, and detection failures; change the system, verify the repair, monitor residual risk, and define rollback."},
         {"eyebrow":"SAVE THIS","headline":"RECONSTRUCTION MUST LEAD TO RECOURSE","body":"AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE."}
       ]
+    },
+    {
+      "id": "035",
+      "title": "Data Exit & Portability Test",
+      "final": "DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 035","headline":"AN EXPORT BUTTON IS NOT AN EXIT","body":"Portability fails when the copy is incomplete, unreadable, undocumented, insecure, delayed, or impossible to use somewhere else."},
+        {"eyebrow":"DEFINE THE SCOPE","headline":"WHAT MUST LEAVE WITH THE PERSON?","body":"Map account data, content, relationships, settings, consent history, provenance, derived records, media, and lawful exclusions."},
+        {"eyebrow":"RUN THE EXPORT","headline":"REQUEST · VERIFY · PREPARE · DELIVER","body":"Test identity safeguards, status, deadline, secure transfer, expiry, retry, failure notice, support, and an auditable event record."},
+        {"eyebrow":"TEST THE PACKAGE","headline":"COMPLETE · STRUCTURED · DOCUMENTED · USABLE","body":"Check counts, checksums, schema, timestamps, encodings, relationships, metadata, accessibility, and import into an independent test environment."},
+        {"eyebrow":"COMPLETE THE EXIT","headline":"REVOKE · DELETE · RETAIN · CONFIRM","body":"Separate portable data from lawful retention, stop future processing where required, handle downstream copies, and preserve appeal and correction routes."},
+        {"eyebrow":"SAVE THIS","headline":"PORTABILITY MEANS A REAL WAY OUT","body":"DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY."}
+      ]
     }
   ]
 }

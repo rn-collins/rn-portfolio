@@ -630,6 +630,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE."
+    },
+    {
+      "id": "035",
+      "title": "Data Exit & Portability Test",
+      "path": "/media/builds/035/build-035-linkedin.mp4",
+      "poster": "/media/builds/035/build-035-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "600ecf43c0ad18fb05489325fdd24ba413448575b49846f2bb10f76953ae6ccb",
+      "bytes": 281902,
+      "posterSha256": "47bb044836a04d9f2ef28903e9fc8e7f666a7c63a6a2439c40caef0f6006aefc",
+      "posterBytes": 41681,
+      "contactSheet": "/media/builds/035/build-035-linkedin-contact-sheet.png",
+      "contactSheetSha256": "9c10b5cb87a66156c4085b62f2a3c14d7b1b932b1049563b3137a43a2addaad7",
+      "contactSheetBytes": 337649,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/035/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY."
     }
   ]
 }
