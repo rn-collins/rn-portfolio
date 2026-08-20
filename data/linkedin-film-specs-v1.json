@@ -972,6 +972,20 @@
         {"eyebrow":"TURN FINDINGS INTO DEFENSE","headline":"DETECT · REPAIR · RETEST · RECORD","body":"Assign severity, evidence, owner, deadline, mitigation, rollback, verification, disclosure route, and residual risk."},
         {"eyebrow":"SAVE THIS","headline":"MAKE THE SYSTEM SAFER—NOT HARM EASIER","body":"ADVERSARIAL TESTING IS USEFUL ONLY WHEN IT MAKES THE SYSTEM SAFER WITHOUT MAKING HARM EASIER."}
       ]
+    },
+    {
+      "id": "034",
+      "title": "AI Failure & Incident Reconstruction Lab",
+      "final": "AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 034","headline":"THE FAILURE IS MORE THAN THE ERROR MESSAGE","body":"An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur."},
+        {"eyebrow":"PRESERVE FIRST","headline":"FREEZE THE EVIDENCE WITHOUT COPYING THE HARM","body":"Record time, version, configuration, inputs, outputs, decisions, actions, owners, and provenance while minimizing personal and sensitive data."},
+        {"eyebrow":"RECONSTRUCT THE CHAIN","headline":"EVENT · HANDOFF · CONTROL · CONSEQUENCE","body":"Separate observed fact from inference. Trace chronology, dependencies, human actions, missing records, contradictions, and alternative explanations."},
+        {"eyebrow":"RESPOND TO PEOPLE","headline":"NOTICE · STOP · CORRECT · REMEDY","body":"Contain ongoing impact, preserve appeal and support routes, communicate uncertainty, and assign accountable deadlines."},
+        {"eyebrow":"PREVENT RECURRENCE","headline":"CAUSE · CONTROL · OWNER · RETEST","body":"Distinguish root, contributing, and detection failures; change the system, verify the repair, monitor residual risk, and define rollback."},
+        {"eyebrow":"SAVE THIS","headline":"RECONSTRUCTION MUST LEAD TO RECOURSE","body":"AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE."}
+      ]
     }
   ]
 }

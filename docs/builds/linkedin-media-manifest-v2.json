@@ -602,6 +602,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ADVERSARIAL TESTING IS USEFUL ONLY WHEN IT MAKES THE SYSTEM SAFER WITHOUT MAKING HARM EASIER."
+    },
+    {
+      "id": "034",
+      "title": "AI Failure & Incident Reconstruction Lab",
+      "path": "/media/builds/034/build-034-linkedin.mp4",
+      "poster": "/media/builds/034/build-034-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "c42dcf9258c333a32f62b0350098dc864d1c199d4f4579cfdd917f7337f045ea",
+      "bytes": 285680,
+      "posterSha256": "7b84d518b608e63d6a45d1a59826a1564b192a0745150587c2674ff0c6ae9b2e",
+      "posterBytes": 42056,
+      "contactSheet": "/media/builds/034/build-034-linkedin-contact-sheet.png",
+      "contactSheetSha256": "b9db95642f9f18151171f359193fd09bcba94337e47720c16802fe21e463c4bb",
+      "contactSheetBytes": 359916,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/034/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE."
     }
   ]
 }
