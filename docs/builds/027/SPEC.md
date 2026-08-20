@@ -8,8 +8,12 @@ Canonical lineage: uses 010 and 011; creates cap:027; consumed by 056, 060, and 
 
 ## Derived implementation
 
-027-A maps a synthetic content archive, audience relationship, and distribution dependency. Each asset is a unique entity with an explicit control relationship, provider, evidence, terms, export, backup, transferability, revocation risk, and derived exposure tier.
+027-A maps a synthetic content archive, audience relationship, and distribution dependency. In engine 027.2.0, OWN, RENT, and DEPEND classify operational relationships only. Legal basis is recorded separately as unassessed, creator-origin asserted, license documented, or contract-right documented; none is a legal conclusion.
 
-027-B provides the canonical draggable OWN / RENT / DEPEND composition plus equivalent keyboard-operable move controls. Moving an asset recalculates the visual exposure signal.
+Every asserted relationship and recovery capability requires claim-specific evidence with a locator, observation date, reviewer, and supported proposition. Export, restoration, and operational transfer claims additionally require current tests. Selecting OWN cannot reuse evidence that supports only account access. Revocation conditions, response, exit, and replacement channels remain visible.
 
-The question, thesis, fixture, relationship fields, score, thresholds, statuses, B-page title, and explanatory language are derived. OWN is an inventory classification, not a legal conclusion. The build does not determine title, copyright, trademark, trade-secret status, contractual rights, platform access, portability, valuation, or business continuity.
+The exposure number is a derived dependency-recovery index, not probability, asset value, contract interpretation, or legal risk. Assets with invalid support receive UNRESOLVED rather than a reassuring tier.
+
+027-B retains the canonical draggable composition and equivalent keyboard-operable controls. The board is explicitly illustrative: moving a card changes only the model.
+
+All fields, arithmetic, thresholds, statuses, B title, and explanatory language are derived. The build does not determine title, copyright, trademark, trade-secret status, contractual rights, platform access, portability, valuation, or business continuity.

@@ -1,3 +1,12 @@
 {
-  "schemaVersion":"1.0","buildId":"027","engineVersion":"027.1.0","runtime":"Deterministic browser-local TypeScript","externalRuntimeDependencies":[],"offlineAfterLoad":true,"freshness":"Classification and scoring are versioned implementation heuristics; actual platform terms and licenses require current source review.","performanceTarget":"Immediate recalculation for the three-asset synthetic fixture.","fallback":"Core relationships, evidence gaps, and move controls remain usable without drag or animation."
+  "schemaVersion": "1.1",
+  "buildId": "027",
+  "engineVersion": "027.2.0",
+  "runtime": "Deterministic browser-local TypeScript",
+  "externalRuntimeDependencies": [],
+  "offlineAfterLoad": true,
+  "freshness": "Classification and scoring are versioned heuristics. Evidence records must not postdate assessment and are treated as current for at most 365 days; recovery tests are treated as current for at most 180 days.",
+  "performanceTarget": "Immediate recalculation for the three-asset synthetic fixture.",
+  "fallback": "Core relationships, evidence gaps, and keyboard move controls remain usable without drag or animation.",
+  "certificationBoundary": "Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn platform QA remain independent."
 }
