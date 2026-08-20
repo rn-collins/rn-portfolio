@@ -840,6 +840,44 @@
           "body": "PLATFORM REACH IS RENTED. YOUR OWNERSHIP STACK MUST SURVIVE THE PLATFORM."
         }
       ]
+    },
+    {
+      "id": "028",
+      "title": "Finding Is Part of Knowing",
+      "final": "KNOWLEDGE YOU CANNOT RELIABLY FIND IS KNOWLEDGE YOU CANNOT RELIABLY USE.",
+      "sourceCheckedOn": "2026-08-19",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 028",
+          "headline": "STORED IS NOT FOUND",
+          "body": "A fact can exist in the archive and still fail the person who needs it at the moment of decision."
+        },
+        {
+          "eyebrow": "INTENT",
+          "headline": "START WITH THE QUESTION",
+          "body": "Model the language people actually use, the task they are doing, and the consequence of retrieving the wrong thing."
+        },
+        {
+          "eyebrow": "STRUCTURE",
+          "headline": "GIVE KNOWLEDGE MORE THAN A TITLE",
+          "body": "Stable identity, relationships, provenance, dates, audiences, and status make retrieval inspectable."
+        },
+        {
+          "eyebrow": "RETRIEVAL",
+          "headline": "RANK RELEVANCE WITH AUTHORITY",
+          "body": "Similarity alone is not enough. Preserve source quality, freshness, scope, contradiction, and uncertainty."
+        },
+        {
+          "eyebrow": "EVALUATION",
+          "headline": "TEST WHAT PEOPLE CAN ACTUALLY FIND",
+          "body": "Use known questions, missed results, false confidence, correction paths, and human feedback to measure the system."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FINDING IS PART OF KNOWING",
+          "body": "KNOWLEDGE YOU CANNOT RELIABLY FIND IS KNOWLEDGE YOU CANNOT RELIABLY USE."
+        }
+      ]
     }
   ]
 }
