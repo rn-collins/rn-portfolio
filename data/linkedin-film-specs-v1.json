@@ -1154,6 +1154,20 @@
         {"eyebrow":"TEST RECOVERY","headline":"FALL BACK · ALLOCATE · RESTORE · LEARN","body":"Compare bounded alternatives, prerequisites, tradeoffs, human authority, stop rules, restoration sequence, residual risk, and changes required before the next disruption."},
         {"eyebrow":"SAVE THIS","headline":"SEE THE SYSTEM BEFORE IT BREAKS","body":"ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE."}
       ]
+    },
+    {
+      "id": "047",
+      "title": "Will This Work Here?",
+      "final": "TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 047","headline":"A GOOD IDEA DOES NOT ARRIVE CONTEXT-FREE","body":"A policy, technology, service, or program can succeed somewhere else and still fail when assumptions about people, place, infrastructure, authority, and resources change."},
+        {"eyebrow":"DEFINE THE INTERVENTION","headline":"PURPOSE · INPUT · WORKFORCE · COST","body":"Use synthetic profiles to bind the intervention to its intended outcome, evidence, language, staffing, funding, technology, delivery model, dependencies, and nonnegotiable limits."},
+        {"eyebrow":"MOVE IT BETWEEN PLACES","headline":"ACCESS · CAPACITY · CULTURE · INFRASTRUCTURE","body":"Compare declared conditions without ranking communities. Expose missing workforce, connectivity, language, mobility, institutional support, local knowledge, and community authority."},
+        {"eyebrow":"RECOMPUTE FIT","headline":"KEEP · ADAPT · BUILD CAPACITY · STOP","body":"When the place changes, recompute every gap and required adaptation. Preserve uncertainty, evidence limits, affected people, tradeoffs, ownership, and conditions that block transfer."},
+        {"eyebrow":"BOUND THE RESULT","headline":"A SCORE IS NOT FEASIBILITY OR CONSENT","body":"A synthetic match cannot establish effectiveness, legality, safety, funding, procurement readiness, community acceptance, implementation capacity, or permission to proceed."},
+        {"eyebrow":"SAVE THIS","headline":"MAKE TRANSFERABILITY EARN ITS NAME","body":"TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES."}
+      ]
     }
   ]
 }

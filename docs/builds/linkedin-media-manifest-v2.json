@@ -966,6 +966,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE."
+    },
+    {
+      "id": "047",
+      "title": "Will This Work Here?",
+      "path": "/media/builds/047/build-047-linkedin.mp4",
+      "poster": "/media/builds/047/build-047-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "aa2e478d9573482dc13ab9d2358e6ec8861eb467e409c9c7e3054cd80c597a45",
+      "bytes": 351368,
+      "posterSha256": "98a9258a6591c2c735ade76ef9ae43180357f7da586ce52f02b23d3ce096b79e",
+      "posterBytes": 36953,
+      "contactSheet": "/media/builds/047/build-047-linkedin-contact-sheet.png",
+      "contactSheetSha256": "9ce198d673a02df355fe19c5b24ca6a9dd63d820134a74ca5cbcd9d5472c0883",
+      "contactSheetBytes": 377812,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/047/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES."
     }
   ]
 }
