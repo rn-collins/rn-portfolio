@@ -1,1 +1,13 @@
-{"build":"043","freshness":{"engine":"043.1.0","roleAndControlRecordsVersioned":true},"performance":{"networkAtRuntime":false,"clientComputation":"O(n²) bounded fixture","reducedMotion":true,"responsiveFloorPx":320}}
+{
+  "build": "043",
+  "freshness": {
+    "engine": "043.2.0",
+    "roleAndControlRecordsExactVersionBound": true
+  },
+  "performance": {
+    "networkAtRuntime": false,
+    "clientComputation": "O(V + E) graph validation plus O(n²) bounded demand inspection",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}
