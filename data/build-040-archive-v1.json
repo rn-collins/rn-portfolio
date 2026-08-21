@@ -1,6 +1,6 @@
 {
   "build": "040",
-  "engineVersion": "040.2.0",
+  "engineVersion": "040.3.0",
   "canonicalFieldsFrozen": true,
   "derivedFields": [
     "scenarios",
@@ -13,9 +13,10 @@
     "sideEffects": false,
     "requires": [
       "exact input",
+      "evaluation date",
       "policy version",
-      "dated inherited records",
-      "engine 040.2.0"
+      "exact dated inherited record bindings",
+      "engine 040.3.0"
     ]
   },
   "terminalStatus": "MODELED ACTION SELECTED",
