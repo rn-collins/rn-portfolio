@@ -1499,6 +1499,34 @@
       "generator": "build065-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "OWNERSHIP CONTINUES."
+    },
+    {
+      "id": "066",
+      "title": "The Firm Knows More Than Its Folders",
+      "path": "/media/builds/066/build-066-linkedin.mp4",
+      "poster": "/media/builds/066/build-066-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "b063ea47d37ba64cc4d266eef368dc663911187063f329ff0dc6048215591bda",
+      "bytes": 196487,
+      "posterSha256": "63dcffa0b3339423da659298e6aeacab099aa19c484ee84defcddf794a3ffc1f",
+      "posterBytes": 142288,
+      "contactSheet": "/media/builds/066/build-066-linkedin-contact-sheet.png",
+      "contactSheetSha256": "48fdc1333d25ea6b54b2c9822d9da36d0e5e129f822d6843f10976cbf5b94a17",
+      "contactSheetBytes": 169336,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/066/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build066-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "ASSEMBLE THE MEMORY."
     }
   ]
 }

@@ -2284,6 +2284,44 @@
           "body": "A CONTINUITY RECORD IS USEFUL WHEN THE NEXT STEP, OWNER, PERMISSION, EVIDENCE, RECOURSE, AND LIMIT REMAIN CONNECTED."
         }
       ]
+    },
+    {
+      "id": "066",
+      "title": "The Firm Knows More Than Its Folders",
+      "final": "ASSEMBLE THE MEMORY.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 066",
+          "headline": "THE WORK IS EVERYWHERE",
+          "body": "Synthetic matters, authorities, arguments, documents, expert roles, outcomes, workflows, and lessons begin as disconnected fragments."
+        },
+        {
+          "eyebrow": "CONNECT THE OBJECTS",
+          "headline": "ASSEMBLE THE MEMORY",
+          "body": "Link each fixed object by declared relationship, source, verification, access, review state, and matter context."
+        },
+        {
+          "eyebrow": "KEEP GOVERNANCE VISIBLE",
+          "headline": "SOURCE · STATUS · ACCESS · OWNER",
+          "body": "Finding a record does not establish current law, citation validity, privilege, confidentiality, relevance, or permission to reuse."
+        },
+        {
+          "eyebrow": "PRESERVE REVIEW STATES",
+          "headline": "UNVERIFIED · RESTRICTED · CONTESTED · UNREVIEWED",
+          "body": "Do not flatten distinct authority, access, outcome, and lesson-review failures into one generic warning."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "INSTITUTIONAL MEMORY, NOT A LEGAL CONCLUSION",
+          "body": "This fixed synthetic graph provides no legal advice and contains no real client, matter, person, citation, or protected information."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "THE FIRM KNOWS MORE THAN ITS FOLDERS",
+          "body": "LEGAL MEMORY BECOMES USABLE WHEN OBJECTS, RELATIONSHIPS, SOURCES, STATES, ACCESS, AND LIMITS STAY CONNECTED."
+        }
+      ]
     }
   ]
 }
