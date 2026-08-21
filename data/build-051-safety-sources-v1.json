@@ -1,0 +1,26 @@
+{
+  "build": "051",
+  "checkedOn": "2026-08-21",
+  "status": "primary-source contract bound",
+  "sourceIds": {
+    "CDC-CANNABIS-HEALTH": {"authority":"U.S. Centers for Disease Control and Prevention","title":"Cannabis FAQ","url":"https://www.cdc.gov/cannabis/faq/","purpose":"general effects, route, edible, pregnancy, mental-health, and legality-versus-safety framing"},
+    "CDC-CANNABIS-RISK": {"authority":"U.S. Centers for Disease Control and Prevention","title":"Cannabis health-effects collection","url":"https://www.cdc.gov/cannabis/health-effects/","purpose":"risk-topic routing; use the topic-specific page and preserve its date"},
+    "CDC-PREGNANCY": {"authority":"U.S. Centers for Disease Control and Prevention","title":"Cannabis and Pregnancy","url":"https://www.cdc.gov/cannabis/health-effects/pregnancy.html","pageDate":"2025-01-31"},
+    "CDC-TEENS": {"authority":"U.S. Centers for Disease Control and Prevention","title":"Cannabis and Teens","url":"https://www.cdc.gov/cannabis/health-effects/cannabis-and-teens.html","pageDate":"2024-02-15"},
+    "CDC-POISONING": {"authority":"U.S. Centers for Disease Control and Prevention","title":"Cannabis and Poisoning","url":"https://www.cdc.gov/cannabis/health-effects/poisoning.html","pageDate":"2024-02-15"},
+    "FDA-CANNABIS-QUESTIONS": {"authority":"U.S. Food and Drug Administration","title":"What You Need to Know About Cannabis and CBD","url":"https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis","purpose":"interactions, sedation, product quality, approval, evidence, and risk boundaries"},
+    "FDA-REGULATION": {"authority":"U.S. Food and Drug Administration","title":"FDA Regulation of Cannabis and Cannabis-Derived Products","url":"https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd","purpose":"approval and unapproved therapeutic-claim boundaries"},
+    "NHTSA-DRIVING": {"authority":"National Highway Traffic Safety Administration","title":"Drug-Impaired Driving","url":"https://www.nhtsa.gov/risky-driving/drug-impaired-driving","purpose":"driving safety and limits of drug-presence evidence"},
+    "POISON-CONTROL": {"authority":"America's Poison Centers","title":"Immediate Assistance","url":"https://www.poison.org/need-immediate-assistance","purpose":"U.S. poison and emergency routing"},
+    "DEA-DRUG-SCHEDULING": {"authority":"Congressional Research Service","title":"Current Legal Status of Cannabis Under the Controlled Substances Act","url":"https://www.congress.gov/crs_external_products/LSB/HTML/LSB11105.web.html","purpose":"federal status context only"},
+    "FEDERAL-HEMP-FUTURE": {"authority":"Congressional Research Service","title":"2025 Federal Hemp Definition Change","url":"https://www.congress.gov/crs-product/IN12620","statusOnCheckedDate":"FUTURE","effectiveFrom":"2026-11-12"},
+    "JURISDICTION-REQUIRED": {"authority":"current controlling jurisdiction-specific primary authority","url":null,"purpose":"required before any jurisdiction-specific legal proposition"}
+  },
+  "mandatoryRules": [
+    "No dose, titration, potency, route, product, strain, ratio, redosing interval, or timing recommendation.",
+    "No personal safety, interaction, diagnosis, impairment, sobriety, treatment, legal, or eligibility conclusion.",
+    "Separate federal, state, tribal, territorial, and local authority; show jurisdiction, effective date, as-of date, retrieval date, and source.",
+    "Emergency, poisoning, pregnancy, youth, driving, interaction, acute mental-health, and use-disorder signals interrupt ordinary education with fixed escalation.",
+    "Do not claim improved comprehension, clinical safety, legal completeness, individualized relevance, or behavior change."
+  ]
+}
