@@ -1331,6 +1331,34 @@
       "generator": "media059/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT."
+    },
+    {
+      "id": "060",
+      "title": "Catch the IP You Create Before It Disappears Into the Workday",
+      "path": "/media/builds/060/build-060-linkedin.mp4",
+      "poster": "/media/builds/060/build-060-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "517ce0945a16e98906f81134c8526897d8ed3d5c745a30b5f7ef0586bd2f598d",
+      "bytes": 242418,
+      "posterSha256": "24ed635b27fcc74e4ad09fe7b189740c4b6ede8c1abd1e5952f06e65ba4f2fa8",
+      "posterBytes": 45442,
+      "contactSheet": "/media/builds/060/build-060-linkedin-contact-sheet.png",
+      "contactSheetSha256": "5fa97e326162e35b620c283375d7e2de5c383a0ba34b30d126261251f42108eb",
+      "contactSheetBytes": 473487,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/060/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
+      "generator": "media060/render.py (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "THE WORKDAY BECOMES REVIEWABLE WHEN POTENTIAL ASSETS, CONTRIBUTORS, VERSIONS, DISCLOSURES, AGREEMENTS, AND UNCERTAINTY REACH THE RIGHT HUMAN PATH."
     }
   ]
 }
