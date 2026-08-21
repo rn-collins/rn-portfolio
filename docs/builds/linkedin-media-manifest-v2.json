@@ -994,6 +994,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES."
+    },
+    {
+      "id": "048",
+      "title": "What Does This Rule Feel Like in Real Life?",
+      "path": "/media/builds/048/build-048-linkedin.mp4",
+      "poster": "/media/builds/048/build-048-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "9e991939122a7f9b3ca6730f99ac40e0873085adc270ce4d270be3e3a9e00968",
+      "bytes": 304693,
+      "posterSha256": "e590817be527170fbf2752d846aa3c9fd867232fd06be81eaba491d505ac9839",
+      "posterBytes": 36489,
+      "contactSheet": "/media/builds/048/build-048-linkedin-contact-sheet.png",
+      "contactSheetSha256": "3d15828bd7c3a02a9e684fa470048850720ad07bab10b229448c3937d1e8b57a",
+      "contactSheetBytes": 344938,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/048/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER."
     }
   ]
 }

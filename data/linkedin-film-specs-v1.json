@@ -1168,6 +1168,20 @@
         {"eyebrow":"BOUND THE RESULT","headline":"A SCORE IS NOT FEASIBILITY OR CONSENT","body":"A synthetic match cannot establish effectiveness, legality, safety, funding, procurement readiness, community acceptance, implementation capacity, or permission to proceed."},
         {"eyebrow":"SAVE THIS","headline":"MAKE TRANSFERABILITY EARN ITS NAME","body":"TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES."}
       ]
+    },
+    {
+      "id": "048",
+      "title": "What Does This Rule Feel Like in Real Life?",
+      "final": "A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 048","headline":"THE RULE AND THE JOURNEY ARE NOT THE SAME RECORD","body":"Formal language can describe eligibility, duties, steps, and remedies while hiding the time, cost, uncertainty, exposure, and effort required to navigate them."},
+        {"eyebrow":"READ THE POLICY PATH","headline":"AUTHORITY · STEP · DECISION · RECOURSE","body":"Use a dated synthetic rule to map who acts, what is required, which evidence counts, where discretion enters, what notice is given, and how a decision can be challenged."},
+        {"eyebrow":"TRACE THE LIVED PATH","headline":"TIME · COST · ACCESS · CONSEQUENCE","body":"Use synthetic experiences to preserve actual sequence, waiting, travel, language, disability, privacy, confusion, failed attempts, support, and unequal burden without claiming representativeness."},
+        {"eyebrow":"CHANGE THE PROCEDURE","headline":"PROPAGATE THE EFFECT","body":"When a step, document, deadline, channel, decision point, or recourse changes, recompute burden, access, failure points, notice, evidence, and downstream consequences."},
+        {"eyebrow":"KEEP CLAIMS DISTINCT","headline":"TEXT ≠ PRACTICE ≠ EXPERIENCE","body":"One rule, modeled path, or account cannot prove implementation, prevalence, fairness, causation, legal interpretation, remedy, or what every person experiences."},
+        {"eyebrow":"SAVE THIS","headline":"READ THE RULE WITH THE JOURNEY","body":"A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER."}
+      ]
     }
   ]
 }
