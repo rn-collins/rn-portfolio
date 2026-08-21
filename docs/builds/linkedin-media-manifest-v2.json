@@ -1667,6 +1667,34 @@
       "generator": "build071-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "TRACK THE DISTANCE BETWEEN LEGAL AND REACHABLE."
+    },
+    {
+      "id": "072",
+      "title": "One Statewide Policy, Many Island Realities",
+      "path": "/media/builds/072/build-072-linkedin.mp4",
+      "poster": "/media/builds/072/build-072-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "af395e30ad58b2bd79096be6788a3b9a0f7f02645dac93d4a409701c871242ee",
+      "bytes": 205315,
+      "posterSha256": "1265a69ad37ce692b079cbdf2022cc7242468950357dc3302774b44dbf412240",
+      "posterBytes": 147583,
+      "contactSheet": "/media/builds/072/build-072-linkedin-contact-sheet.png",
+      "contactSheetSha256": "d8fc4c60033e00c5d309321c46b741b780a8f1a448cf17943f91464888acfe88",
+      "contactSheetBytes": 158112,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/072/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build072-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "PRESERVE LOCAL DIFFERENCE."
     }
   ]
 }
