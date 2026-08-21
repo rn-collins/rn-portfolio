@@ -1,1 +1,27 @@
-{"build":"044","engineVersion":"044.1.0","canonicalFieldsFrozen":true,"derivedFields":["synthetic context","components","versions","dependencies","validity","copy"],"replay":{"sideEffects":false,"requires":["exact exported context","exact exported components","engine 044.1.0"]},"nonClaims":["legal compliance","regulatory authorization","real workflow execution"]}
+{
+  "build": "044",
+  "engineVersion": "044.2.0",
+  "canonicalFieldsFrozen": true,
+  "derivedFields": [
+    "synthetic context",
+    "components",
+    "versions",
+    "dependencies",
+    "validity",
+    "copy"
+  ],
+  "replay": {
+    "sideEffects": false,
+    "atomicSnapshot": true,
+    "requires": [
+      "exact exported context",
+      "exact exported components",
+      "engine 044.2.0"
+    ]
+  },
+  "nonClaims": [
+    "legal compliance",
+    "regulatory authorization",
+    "real workflow execution"
+  ]
+}
