@@ -882,6 +882,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH."
+    },
+    {
+      "id": "044",
+      "title": "Reuse the Parts That Regulation Keeps Requiring",
+      "path": "/media/builds/044/build-044-linkedin.mp4",
+      "poster": "/media/builds/044/build-044-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "eb3742cc98fc7f69e3102f4bdced7947cfcbe9face720cd97fc7cdab7074d567",
+      "bytes": 311700,
+      "posterSha256": "9ad0863c8163f668eb23b83ff648c69e8da76f1e93dd8aeca0630935ff504226",
+      "posterBytes": 41000,
+      "contactSheet": "/media/builds/044/build-044-linkedin-contact-sheet.png",
+      "contactSheetSha256": "a8a5ebbbb30991b7e7a23baab725b8e9f4e197d845d9df120bcf77f25ae7d0f8",
+      "contactSheetBytes": 362498,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/044/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM."
     }
   ]
 }

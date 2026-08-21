@@ -1112,6 +1112,20 @@
         {"eyebrow":"FAIL WITHOUT CASCADING","headline":"CONTAIN · FALL BACK · ESCALATE · STOP","body":"Block loops, stale or conflicting state, unauthorized tools, missing owners, and failed required checks; preserve exact trace and accountable human intervention."},
         {"eyebrow":"SAVE THIS","headline":"CONTROL LIVES BETWEEN THE NODES","body":"AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH."}
       ]
+    },
+    {
+      "id": "044",
+      "title": "Reuse the Parts That Regulation Keeps Requiring",
+      "final": "REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 044","headline":"RECURRING REQUIREMENTS ARE NOT COPY-PASTE BLOCKS","body":"Approvals, consent, evidence, disclosures, and records recur, but the rule, actor, purpose, jurisdiction, risk, and effective date can change what is valid."},
+        {"eyebrow":"DEFINE THE COMPONENT","headline":"PURPOSE · INPUT · OUTPUT · OWNER","body":"Use synthetic records to bind each component to authority, evidence, required fields, accountable role, review gate, version, effective period, and prohibited reuse."},
+        {"eyebrow":"ASSEMBLE THE WORKFLOW","headline":"APPROVE · CONSENT · DISCLOSE · RECORD","body":"Compose only compatible components. Preserve order, dependencies, decisions, signatures, provenance, retention, correction, withdrawal, and human review."},
+        {"eyebrow":"CHANGE THE CONTEXT","headline":"ACTOR · USE · PLACE · CONSEQUENCE","body":"When a declared condition changes, recompute applicability, required evidence, permissions, language, review, downstream records, and every affected component."},
+        {"eyebrow":"INVALIDATE EXPLICITLY","headline":"STALE · CONFLICT · MISSING · REVOKED","body":"Fail closed on expired authority, incompatible versions, missing evidence, revoked consent, broken dependencies, or context outside the component’s declared scope."},
+        {"eyebrow":"SAVE THIS","headline":"REUSE THE CONTROL—NOT THE ASSUMPTION","body":"REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM."}
+      ]
     }
   ]
 }
