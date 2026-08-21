@@ -1,1 +1,54 @@
-{"build":"040","version":"040.1.0","fixture":"synthetic","canonical":{"title":"AI Stop / Escalate Engine","job":"Test whether an AI knows when to continue, ask, abstain, fall back, escalate or stop.","bWeb":"A live decision boundary reacts to uncertainty, evidence and consequence changes.","uses":["012","019","032","038","039"],"creates":["cap:040"]},"actions":["CONTINUE","ASK","ABSTAIN","FALLBACK","ESCALATE","STOP"],"boundary":"Derived policy fixture, not proof of real recognition."}
+{
+  "build": "040",
+  "version": "040.2.0",
+  "fixture": "synthetic",
+  "policyContract": {
+    "id": "040-policy-2",
+    "reviewedAt": "2026-08-20",
+    "expiresAt": "2027-08-20",
+    "thresholds": {
+      "highConsequenceUncertainty": 40,
+      "highConsequenceEvidenceMinimum": 80,
+      "evidenceAskMinimum": 50,
+      "uncertaintyEscalate": 70
+    },
+    "urgencyMayRelaxBoundary": false
+  },
+  "canonical": {
+    "title": "AI Stop / Escalate Engine",
+    "job": "Test whether an AI knows when to continue, ask, abstain, fall back, escalate or stop.",
+    "bWeb": "A live decision boundary reacts to uncertainty, evidence and consequence changes.",
+    "uses": [
+      "012",
+      "019",
+      "032",
+      "038",
+      "039"
+    ],
+    "creates": [
+      "cap:040"
+    ]
+  },
+  "actions": [
+    "CONTINUE",
+    "ASK",
+    "ABSTAIN",
+    "FALLBACK",
+    "ESCALATE",
+    "STOP"
+  ],
+  "requiredControlBuilds": [
+    "019",
+    "032",
+    "038",
+    "039"
+  ],
+  "status": "MODELED ACTION SELECTED",
+  "nonClaims": [
+    "real recognition",
+    "safety",
+    "authorization",
+    "legal compliance",
+    "fallback efficacy"
+  ]
+}
