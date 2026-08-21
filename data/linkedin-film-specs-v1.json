@@ -2018,6 +2018,44 @@
           "body": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER."
         }
       ]
+    },
+    {
+      "id": "059",
+      "title": "Is This Legal Citation Real, Current, and Saying What the AI Claims?",
+      "final": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 059",
+          "headline": "A LEGAL CITATION CAN LOOK CONVINCING AND STILL FAIL",
+          "body": "An AI-generated citation may be nonexistent, misquoted, out of jurisdiction, outdated, negatively treated, or irrelevant to the proposition it appears to support."
+        },
+        {
+          "eyebrow": "USE A FICTIONAL RECORD",
+          "headline": "IN RE NORTHSTAR · 999 F.9TH 101",
+          "body": "The citation, court, reporter, quotation, proposition, dates, jurisdiction, and treatment in this film are synthetic teaching fixtures—not real legal authority."
+        },
+        {
+          "eyebrow": "PASS EACH GATE",
+          "headline": "EXISTENCE · QUOTE · PROPOSITION",
+          "body": "Check separately whether the authority exists, the quoted language appears at the exact locator, and the source actually supports the precise claim made."
+        },
+        {
+          "eyebrow": "CHECK THE LEGAL CONTEXT",
+          "headline": "JURISDICTION · STATUS · TREATMENT",
+          "body": "Keep court, hierarchy, date, version, subsequent history, negative treatment, citator coverage, and unresolved conflicts visible rather than collapsing them into one badge."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A GATE IS NOT GOOD LAW",
+          "body": "The demo performs no legal research or advice and cannot establish real existence, currentness, precedential value, proposition support, treatment, completeness, reliability, or safe reliance."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "VERIFY BEFORE YOU RELY",
+          "body": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT."
+        }
+      ]
     }
   ]
 }

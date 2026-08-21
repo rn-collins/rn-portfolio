@@ -1303,6 +1303,34 @@
       "generator": "media058/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER."
+    },
+    {
+      "id": "059",
+      "title": "Is This Legal Citation Real, Current, and Saying What the AI Claims?",
+      "path": "/media/builds/059/build-059-linkedin.mp4",
+      "poster": "/media/builds/059/build-059-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "d8a6c5ee14e627a3d3fcd834237ffd5fcc25741dc7c57614a640c7d3796646eb",
+      "bytes": 223667,
+      "posterSha256": "ad73cd57ce5628bbbe17bacc67c55f1474fdbe61954a8cd62d14fd9d316c0eee",
+      "posterBytes": 41849,
+      "contactSheet": "/media/builds/059/build-059-linkedin-contact-sheet.png",
+      "contactSheetSha256": "f9fa17cda4567881f03555074c20ccaaa120feba7b3e924ab7348b398fbda539",
+      "contactSheetBytes": 442224,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/059/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
+      "generator": "media059/render.py (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT."
     }
   ]
 }
