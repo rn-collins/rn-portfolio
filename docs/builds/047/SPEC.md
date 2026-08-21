@@ -8,7 +8,7 @@
 
 ## Product contract
 
-The functional build moves one invented intervention between invented place profiles and recomputes budget, workforce, connectivity, language, mobility and dependency gaps plus candidate adaptations. The visual build makes transferred assumptions visible.
+Engine 047.2.0 exact-binds the two invented place profiles and one intervention, uses safe-integer cents, rejects mutated identities and malformed lists, and deterministically recomputes budget, workforce, connectivity, language, mobility and dependency gaps. Export atomically snapshots place, intervention, result and an explicitly state-only replay instruction.
 
 ## Boundaries
 
