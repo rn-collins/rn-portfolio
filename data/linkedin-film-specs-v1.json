@@ -1098,6 +1098,20 @@
         {"eyebrow":"GOVERN THE EDGE","headline":"REVIEW · ESCALATE · ABSTAIN · STOP","body":"Require review before consequential action. Preserve uncertainty, failed tools, boundary violations, escalation routes, termination rules, and exact state-only replay."},
         {"eyebrow":"SAVE THIS","headline":"GIVE THE AGENT A REAL JOB","body":"AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT."}
       ]
+    },
+    {
+      "id": "043",
+      "title": "Design an AI Team",
+      "final": "AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 043","headline":"MORE AGENTS CREATE MORE HANDOFFS","body":"Splitting complex work can add specialization while multiplying lost context, duplicated effort, hidden permissions, coordination cost, and unowned failure."},
+        {"eyebrow":"DESIGN THE TEAM","headline":"ROLE · OWNER · INPUT · OUTPUT","body":"Use a synthetic topology to bind each agent and person to a bounded job, accountable owner, permitted tools, evidence contract, review point, and stop rule."},
+        {"eyebrow":"GOVERN THE HANDOFF","headline":"SOURCE · TRANSFORM · RECEIVER · ACCEPTANCE","body":"Pass the smallest necessary state. Preserve provenance, uncertainty, constraints, rejected work, authority, expected response, and proof that the receiver accepted it."},
+        {"eyebrow":"RECOMPUTE THE SYSTEM","headline":"BOTTLENECK · SUPERVISION · COST · FAILURE","body":"When a role or connection changes, recalculate queue pressure, human review, access, latency, spend, evaluation coverage, and every reachable failure path."},
+        {"eyebrow":"FAIL WITHOUT CASCADING","headline":"CONTAIN · FALL BACK · ESCALATE · STOP","body":"Block loops, stale or conflicting state, unauthorized tools, missing owners, and failed required checks; preserve exact trace and accountable human intervention."},
+        {"eyebrow":"SAVE THIS","headline":"CONTROL LIVES BETWEEN THE NODES","body":"AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH."}
+      ]
     }
   ]
 }

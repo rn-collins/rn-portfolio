@@ -854,6 +854,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT."
+    },
+    {
+      "id": "043",
+      "title": "Design an AI Team",
+      "path": "/media/builds/043/build-043-linkedin.mp4",
+      "poster": "/media/builds/043/build-043-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "44e4f47fca0969013a4b0e4d7802de3849da99a5b7d6145092865b3fc62df90d",
+      "bytes": 312054,
+      "posterSha256": "05157778681f25e38f786d4e11dbb3b192e7a029bc4bb617b9a5a4011514606a",
+      "posterBytes": 43571,
+      "contactSheet": "/media/builds/043/build-043-linkedin-contact-sheet.png",
+      "contactSheetSha256": "574a716db81ac128ed60adbf921d9a4c6fb34e0619fa534178489c053df446a4",
+      "contactSheetBytes": 348972,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/043/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH."
     }
   ]
 }
