@@ -1,11 +1,14 @@
 {
   "build": "040",
-  "version": "040.2.0",
+  "version": "040.3.0",
   "fixture": "synthetic",
   "policyContract": {
-    "id": "040-policy-2",
+    "id": "040-policy-3",
+    "evaluatedAt": "2026-08-20",
     "reviewedAt": "2026-08-20",
     "expiresAt": "2027-08-20",
+    "strictCalendarDates": true,
+    "exactInheritedControlBinding": true,
     "thresholds": {
       "highConsequenceUncertainty": 40,
       "highConsequenceEvidenceMinimum": 80,
