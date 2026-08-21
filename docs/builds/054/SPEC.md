@@ -10,10 +10,12 @@
 
 ## Product and contract
 
-Version A moves between two fully exact-bound synthetic scenarios: one focus task with one occupant and one conversation task with four occupants. Version B makes the resulting human-review conflict visible. Engine `054.1.0` returns proposed light, quiet-zone, and seating settings with rationales, tradeoffs, unresolved conditions, and explicit non-actions.
+Version A moves between two fully exact-bound synthetic scenarios: one focus task with one occupant and one conversation task with four occupants. Version B makes the resulting human-review conflict visible. Engine `054.2.0` returns proposed light, quiet-zone, and seating settings with rationales, tradeoffs, unresolved conditions, and explicit non-actions.
 
-The product is a configuration-review surface, not an actuator. It does not collect a person profile, read sensors, control equipment, decide an accommodation, infer a protected trait, or determine accessibility or safety. Export is atomic and state-only.
+The engine explicitly reconciles inherited versions `049.2.0`, `050.2.0`, and `053.2.0`, plus the exact Build 053 alternating synthetic protocol and `PATTERN TO RETEST` status. That status remains a bounded synthetic design indicator, not evidence of causation or personal benefit. Missing, duplicate, extra, reordered, mismatched, non-finite, BigInt, accessor/proxy, or serialization-hook-bearing state fails closed without executing serialization hooks or throwing.
+
+Both UIs consume the single exported scenario registry. Export is atomic and state-only. The product is a configuration-review surface, not an actuator. It does not collect or infer a person profile, read sensors, control equipment, decide an accommodation, infer a protected trait, or determine accessibility or safety.
 
 ## Boundaries
 
-Not medical or design advice, diagnosis, treatment, accessibility or compliance determination, accommodation decision, safety clearance, facilities authorization, or proof of an environmental effect. Real implementation requires person/facilities authority, preview/consent/override/fallback controls, multi-person conflict governance, and architecture, facilities, environmental-psychology, occupational-safety, disability-justice, accessibility, privacy, security, ethics, and human-factors review.
+Not medical or design advice, diagnosis, treatment, accessibility or compliance determination, accommodation decision, safety clearance, facilities authorization, or proof of an environmental effect. A declared synthetic preference, sensitivity, or route constraint is not a measured trait, disability inference, accessibility finding, or authorization. Real implementation requires person/facilities authority, preview/consent/override/fallback controls, multi-person conflict governance, and architecture, facilities, environmental-psychology, occupational-safety, disability-justice, accessibility, privacy, security, ethics, and human-factors review.
