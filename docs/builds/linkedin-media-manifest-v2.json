@@ -910,6 +910,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM."
+    },
+    {
+      "id": "045",
+      "title": "Cannabis Care Access Journey",
+      "path": "/media/builds/045/build-045-linkedin.mp4",
+      "poster": "/media/builds/045/build-045-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "9d17d522d3b65d87bab6dd3436ed107d866c2035c29b85d06d29d524d77054a6",
+      "bytes": 331591,
+      "posterSha256": "d9399a3ffb2683b962fd5c629cccd4ea9ca39261b0197801085aa37f703257e5",
+      "posterBytes": 41282,
+      "contactSheet": "/media/builds/045/build-045-linkedin-contact-sheet.png",
+      "contactSheetSha256": "cfc1e09bbe55ea1ac907b2aa555474dc4b8ac1e7aca4dc4a9452ce1c994d4a18",
+      "contactSheetBytes": 332251,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/045/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "ACCESS IS THE WHOLE JOURNEY THROUGH INFORMATION, ELIGIBILITY, COST, TRAVEL, CLINICIANS, SUPPLY, AND CONTINUING CARE."
     }
   ]
 }
