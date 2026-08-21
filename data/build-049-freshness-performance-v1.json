@@ -1,1 +1,12 @@
-{"build":"049","freshness":{"authoritativeSources":"not applicable; synthetic deterministic demonstration","reviewOn":"engine or canon change"},"performance":{"networkRequests":0,"runtimeDependencies":"local deterministic engine","persistence":"none"},"manualGates":["physical phone","screen reader","keyboard","zoom/reflow","lived-experience review"]}
+{
+  "build": "049",
+  "engine": "049.2.0",
+  "freshness": "Synthetic fixture only; no current clinical or accommodation evidence.",
+  "performance": {
+    "engine": "deterministic synchronous O(n)",
+    "network": "none",
+    "appPersistence": "none",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

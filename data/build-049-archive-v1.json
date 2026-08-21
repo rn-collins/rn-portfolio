@@ -1,1 +1,26 @@
-{"build":"049","status":"initial","canonical":{"title":"What Works for You?","job":"Build a private sensory and context profile from preferences, sensitivities, goals and past responses.","bWeb":"A personal context constellation reorganizes as setting, goals and responses change.","uses":["023","024","030","036"],"creates":["cap:049"],"directConsumers":["050","052","053","054","096","097"]},"routes":["/100-builds/049/a","/100-builds/049/b"],"fixture":"synthetic only","network":false,"storage":false,"telemetry":false,"engineVersion":"049.1.0"}
+{
+  "build": "049",
+  "engineVersion": "049.2.0",
+  "canonical": {
+    "title": "What Works for You?",
+    "job": "Build a private sensory and context profile from preferences, sensitivities, goals and past responses.",
+    "bWeb": "A personal context constellation reorganizes as setting, goals and responses change."
+  },
+  "replay": {
+    "sideEffects": false,
+    "atomicSnapshot": true,
+    "requires": [
+      "exact exported synthetic input",
+      "engine 049.2.0"
+    ]
+  },
+  "privacy": "No app persistence or transmission; user-requested downloaded file exists outside app lifecycle.",
+  "remainingReview": [
+    "lived-experience",
+    "disability justice",
+    "clinical safety",
+    "privacy",
+    "accessibility",
+    "physical-device"
+  ]
+}

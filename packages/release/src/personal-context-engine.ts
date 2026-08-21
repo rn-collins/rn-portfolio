@@ -4,12 +4,12 @@ export type Level=0|1|2|3;
 export type SensoryProfile={fixtureId:'SYNTHETIC-CONTEXT-01';setting:Setting;goal:Goal;light:Level;sound:Level;crowding:Level;temperature:Level;pastResponses:readonly PastResponse[]};
 export type PastResponse={cue:string;response:'HELPED'|'NEUTRAL'|'HARDER'};
 export type ContextResult={status:'SUPPORTED'|'MIXED'|'HIGH FRICTION'|'INVALID';friction:number;constellation:readonly {axis:string;value:number}[];supports:readonly string[];questions:readonly string[];engineVersion:string};
-export const PERSONAL_CONTEXT_ENGINE_VERSION='049.1.0';
+export const PERSONAL_CONTEXT_ENGINE_VERSION='049.2.0';
 const enums={setting:['HOME','WORK','TRAVEL','SOCIAL'],goal:['FOCUS','REST','CONNECT','RECOVER'],response:['HELPED','NEUTRAL','HARDER']}as const;
 const level=(n:number)=>Number.isInteger(n)&&n>=0&&n<=3;
-const unique=(a:readonly PastResponse[])=>a.length<=8&&new Set(a.map(x=>x.cue.trim().toLocaleLowerCase())).size===a.length;
+const validResponse=(x:unknown):x is PastResponse=>!!x&&typeof x==='object'&&typeof (x as PastResponse).cue==='string'&&(x as PastResponse).cue.length>0&&(x as PastResponse).cue.trim()===(x as PastResponse).cue&&enums.response.includes((x as PastResponse).response);\nconst unique=(a:readonly PastResponse[])=>a.length<=8&&a.every(validResponse)&&new Set(a.map(x=>x.cue.normalize('NFKC').toLocaleLowerCase('en-US'))).size===a.length;
 export function profileContext(input:SensoryProfile):ContextResult{
- const invalid=input.fixtureId!=='SYNTHETIC-CONTEXT-01'||!enums.setting.includes(input.setting)||!enums.goal.includes(input.goal)||![input.light,input.sound,input.crowding,input.temperature].every(level)||!Array.isArray(input.pastResponses)||!unique(input.pastResponses)||input.pastResponses.some(x=>!x.cue||x.cue.trim()!==x.cue||!enums.response.includes(x.response));
+ const invalid=input.fixtureId!=='SYNTHETIC-CONTEXT-01'||!enums.setting.includes(input.setting)||!enums.goal.includes(input.goal)||![input.light,input.sound,input.crowding,input.temperature].every(level)||!Array.isArray(input.pastResponses)||!unique(input.pastResponses);
  if(invalid)return{status:'INVALID',friction:0,constellation:[],supports:[],questions:['INVALID SYNTHETIC INPUT'],engineVersion:PERSONAL_CONTEXT_ENGINE_VERSION};
  const axes=[['LIGHT',input.light],['SOUND',input.sound],['CROWDING',input.crowding],['TEMPERATURE',input.temperature]]as const;
  let friction=axes.reduce((n,[,v])=>n+v*8,0)+(input.setting==='TRAVEL'?10:input.setting==='SOCIAL'?6:0)+(input.goal==='REST'?4:0);
