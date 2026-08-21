@@ -10,7 +10,7 @@
 
 ## Product and contract
 
-Version A compares two exact-bound synthetic rooms under three goals. Version B makes the room/goal tradeoff visible as a short sequence. Engine `050.1.0` validates the named fixture, closed enums, integer feature levels, and exact scene composition. Altered or fabricated scenes fail closed. Export preserves the atomic state, result, exact engine instruction, canonical metadata, and boundary without external action.
+Version A compares two exact-bound synthetic rooms under three goals. Version B makes the room/goal tradeoff visible as a short sequence. Engine `050.2.0` validates a non-null plain object, its exact seven-key shape, named fixture, closed enums, integer feature levels, and exact scene composition. Null, array, altered, fabricated, extended, or malformed scenes fail closed without throwing. Export preserves the atomic state, result, exact engine instruction, canonical metadata, and boundary without inference, persistence, network request, or external action.
 
 Evidence bands are interface demonstrations, not literature conclusions. `MODERATE` does not mean proven, universal, causal, or appropriate for a specific person. `LIMITED` marks uncertainty, indirectness, heterogeneity, or context dependence.
 
