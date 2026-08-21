@@ -1050,6 +1050,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES."
+    },
+    {
+      "id": "050",
+      "title": "How Is This Space Affecting You?",
+      "path": "/media/builds/050/build-050-linkedin.mp4",
+      "poster": "/media/builds/050/build-050-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "a28d319b9379b3e57f147de94b3aa1741894c8919daae1abc7a0b421c0fecede",
+      "bytes": 314441,
+      "posterSha256": "949f8a80bcc2905d221440948149625e2d1e48019f5675e6ee7ed427cba15abb",
+      "posterBytes": 39922,
+      "contactSheet": "/media/builds/050/build-050-linkedin-contact-sheet.png",
+      "contactSheetSha256": "73a9d787b1e4f6f3b184d3bfb30936c0a8a0308c9fd806d4334abe6ee2792b7b",
+      "contactSheetBytes": 353479,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/050/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER."
     }
   ]
 }

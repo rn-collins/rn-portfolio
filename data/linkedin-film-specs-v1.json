@@ -1196,6 +1196,20 @@
         {"eyebrow":"PRESERVE HUMAN CONTROL","headline":"VIEW · CORRECT · WITHDRAW · EXIT","body":"Let the person inspect every field, restrict reuse and sharing, revoke consent, delete local state, carry a portable record, and choose no recommendation."},
         {"eyebrow":"SAVE THIS","headline":"CONTEXT BELONGS TO THE PERSON","body":"PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES."}
       ]
+    },
+    {
+      "id": "050",
+      "title": "How Is This Space Affecting You?",
+      "final": "A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {"eyebrow":"BUILD 050","headline":"A ROOM IS NOT A NEUTRAL CONTAINER","body":"Light, sound, layout, temperature, nature, crowding, timing, task, and control may shape experience—but the same condition does not affect every person or goal the same way."},
+        {"eyebrow":"READ THE CONDITIONS","headline":"LIGHT · SOUND · LAYOUT · NATURE","body":"Use exact-bound synthetic rooms. Keep each feature visible with setting, goal, duration, available control, uncertainty, and what has not actually been measured."},
+        {"eyebrow":"CHANGE ROOM OR GOAL","headline":"THE INTERPRETATION MUST MOVE","body":"When a room or goal changes, recompute only the declared model. Preserve competing needs, interactions, unknowns, and the possibility that one feature helps one goal while complicating another."},
+        {"eyebrow":"SHOW EVIDENCE STRENGTH","headline":"MODERATE · LIMITED · UNKNOWN","body":"An evidence label must expose scope and uncertainty. It cannot turn an illustrative model, association, preference, or single experience into a causal or universal conclusion."},
+        {"eyebrow":"BOUND THE RESULT","headline":"MODEL ≠ MEASUREMENT ≠ PRESCRIPTION","body":"A synthetic load cannot diagnose harm, measure exposure, prove causation, determine accessibility or compliance, represent every person, or prescribe a real design."},
+        {"eyebrow":"SAVE THIS","headline":"READ THE ROOM WITH THE PERSON","body":"A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER."}
+      ]
     }
   ]
 }
