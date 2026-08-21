@@ -1,0 +1,1 @@
+import SpaceStory from'./SpaceStory';import s from'../space.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>050-B</span></nav><p className={s.kicker}>THE ROOM IS NOT NEUTRAL</p><h1>One feature can help one goal and complicate another.</h1><SpaceStory/></main>}
