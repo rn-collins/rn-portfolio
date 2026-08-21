@@ -1611,6 +1611,34 @@
       "generator": "build069-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "TRACK DELIVERY, NOT CEREMONY."
+    },
+    {
+      "id": "070",
+      "title": "Legalization Is a Lifecycle, Not a Vote",
+      "path": "/media/builds/070/build-070-linkedin.mp4",
+      "poster": "/media/builds/070/build-070-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "bf15471770fe112aaa7c0ad78b40360190ccd7dcf8463c5b06e253f9b7965307",
+      "bytes": 222169,
+      "posterSha256": "b7f62d79816c60bc5a33896e809df91e8a09b2a9d581e2de332b86e29b2e9286",
+      "posterBytes": 143682,
+      "contactSheet": "/media/builds/070/build-070-linkedin-contact-sheet.png",
+      "contactSheetSha256": "8ff571a01ab98b955fa940e82bb7030765952429a4f699533d4771218fe753f8",
+      "contactSheetBytes": 169278,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/070/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build070-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "FOLLOW THE WHOLE SYSTEM."
     }
   ]
 }
