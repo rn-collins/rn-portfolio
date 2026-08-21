@@ -1,1 +1,26 @@
-{"build":"041","engineVersion":"041.1.0","canonicalFieldsFrozen":true,"derivedFields":["fixture nodes","roles","assignments","coverage","copy"],"replay":{"sideEffects":false,"requires":["exact exported nodes","engine 041.1.0","as-of date"]},"nonClaims":["legal liability","organizational adoption","complete discovery"]}
+{
+  "build": "041",
+  "engineVersion": "041.2.0",
+  "canonicalFieldsFrozen": true,
+  "derivedFields": [
+    "fixture nodes",
+    "roles",
+    "assignments",
+    "coverage",
+    "copy"
+  ],
+  "replay": {
+    "sideEffects": false,
+    "requires": [
+      "exact exported nodes",
+      "engine 041.2.0",
+      "evaluation date",
+      "exact fixture identity, kind, and evidence bindings"
+    ]
+  },
+  "nonClaims": [
+    "legal liability",
+    "organizational adoption",
+    "complete discovery"
+  ]
+}

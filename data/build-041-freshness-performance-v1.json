@@ -1,1 +1,16 @@
-{"build":"041","freshness":{"engine":"041.1.0","recordsRequireReviewAndExpiry":true,"asOf":"2026-08-20"},"performance":{"networkAtRuntime":false,"clientComputation":"O(n) over declared records","reducedMotion":true,"responsiveFloorPx":320}}
+{
+  "build": "041",
+  "freshness": {
+    "engine": "041.2.0",
+    "recordsRequireReviewAndExpiry": true,
+    "evaluationDate": "2026-08-20",
+    "strictCalendarDates": true,
+    "futureReviewsRejected": true
+  },
+  "performance": {
+    "networkAtRuntime": false,
+    "clientComputation": "O(n) over declared records",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}
