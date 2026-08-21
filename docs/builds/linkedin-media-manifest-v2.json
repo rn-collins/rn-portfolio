@@ -798,6 +798,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT."
+    },
+    {
+      "id": "041",
+      "title": "Who Owns the AI Work?",
+      "path": "/media/builds/041/build-041-linkedin.mp4",
+      "poster": "/media/builds/041/build-041-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "50dd049226989003f5e5b24a255f35460f2dbf6fdce19caed7be888cf7108d35",
+      "bytes": 312033,
+      "posterSha256": "84490c3642120c045ca14b88384cd6f686e727a3300e64607c05fefbbbf8ce4a",
+      "posterBytes": 40199,
+      "contactSheet": "/media/builds/041/build-041-linkedin-contact-sheet.png",
+      "contactSheetSha256": "398cf02dad3a857f53e786071256f422c912d4b462446ed8a1060fee3ab919e4",
+      "contactSheetBytes": 326204,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/041/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER."
     }
   ]
 }

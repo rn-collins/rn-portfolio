@@ -1070,6 +1070,20 @@
         {"eyebrow":"DO NOT LET URGENCY CHEAT","headline":"TIME PRESSURE NEVER LOWERS THE GATE","body":"Preserve the rule, reason, blockers, inherited control records, and exact state-only replay without invoking tools or repeating side effects."},
         {"eyebrow":"SAVE THIS","headline":"MAKE THE NEXT ACTION EXPLICIT","body":"A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT."}
       ]
+    },
+    {
+      "id": "041",
+      "title": "Who Owns the AI Work?",
+      "final": "ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 041","headline":"AI WORK CAN EXIST WITHOUT AN OWNER","body":"A tool can enter a workflow, influence a decision, or depend on a vendor while responsibility remains assumed, fragmented, or invisible."},
+        {"eyebrow":"MAP THE ORGANIZATION","headline":"TOOL · DECISION · VENDOR · WORKFLOW","body":"Use synthetic records to connect each AI component to its purpose, accountable role, approving authority, operator, affected workflow, and review date."},
+        {"eyebrow":"FIND THE ORPHANS","headline":"NO OWNER · STALE OWNER · SPLIT AUTHORITY","body":"Flag missing assignments, departed owners, conflicting roles, expired reviews, unowned vendor changes, and decisions nobody is authorized to make."},
+        {"eyebrow":"REASSIGN EXPLICITLY","headline":"FROM · TO · AUTHORITY · EFFECTIVE DATE","body":"A reassignment must preserve the prior owner, reason, approval, scope, evidence, effective time, open duties, and a path to challenge or correct it."},
+        {"eyebrow":"KEEP THE CLAIM BOUNDED","headline":"A MAP IS NOT ACCOUNTABILITY","body":"Visible assignments do not prove oversight, competence, compliance, safety, performance, or that the named person accepted and exercised the role."},
+        {"eyebrow":"SAVE THIS","headline":"MAKE OWNERSHIP VISIBLE","body":"ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER."}
+      ]
     }
   ]
 }
