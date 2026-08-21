@@ -1,1 +1,44 @@
-{"build":"046","version":"046.1.0","fixture":"synthetic","systems":["external","local","essential"],"uses":["009","010","011","029","034"],"creates":["cap:046"],"directConsumers":["047","072","099","100"],"nonClaims":["current infrastructure map","outage forecast","engineering analysis","emergency guidance"]}
+{
+  "build": "046",
+  "version": "046.2.0",
+  "fixture": "synthetic",
+  "canonical": {
+    "title": "What Does This Island Depend On?",
+    "job": "Reveal the external and local systems keeping island essentials working and what happens when one fails.",
+    "bWeb": "Cut a port, cable, route or service and watch cascades across sectors and geography."
+  },
+  "systems": [
+    "external",
+    "local",
+    "essential"
+  ],
+  "uses": [
+    "009",
+    "010",
+    "011",
+    "029",
+    "034"
+  ],
+  "creates": [
+    "cap:046"
+  ],
+  "directConsumers": [
+    "047",
+    "072",
+    "099",
+    "100"
+  ],
+  "contracts": {
+    "exactNodeIdentity": true,
+    "uniqueDependencies": true,
+    "acyclic": true,
+    "cutDistinctFromCascade": true,
+    "deterministicOrdering": true
+  },
+  "nonClaims": [
+    "current infrastructure map",
+    "outage forecast",
+    "engineering analysis",
+    "emergency guidance"
+  ]
+}

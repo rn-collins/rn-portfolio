@@ -1,1 +1,11 @@
-{"build":"046","asOf":"2026-08-20","freshness":"No current infrastructure, capacity, location, ownership, outage or emergency-response claim represented.","performance":{"engine":"deterministic fixed-point propagation","network":"none","animation":"disabled under prefers-reduced-motion"}}
+{
+  "build": "046",
+  "engine": "046.2.0",
+  "freshness": "No real infrastructure, location, ownership, capacity or vulnerability data represented.",
+  "performance": {
+    "validation": "O(V + E)",
+    "cascade": "deterministic fixed point",
+    "network": "none",
+    "reducedMotion": true
+  }
+}

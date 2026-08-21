@@ -8,7 +8,7 @@
 
 ## Product contract
 
-The functional build runs deterministic fixed-point failure propagation over an invented dependency graph, exposes sectors and geographies affected by a selected cut, restores the scenario, and exports replayable state. The visual build explains cross-sector cascade and restoration order.
+Engine 046.2.0 validates an exact invented topology before simulation: unique exact nodes, unique valid dependency identities and an acyclic graph. A selected cut is preserved separately from deterministically sorted downstream cascade failures. Invalid topology never simulates. Export atomically snapshots nodes, cut and recomputed outcome.
 
 ## Boundaries
 
