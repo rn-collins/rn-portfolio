@@ -1182,6 +1182,20 @@
         {"eyebrow":"KEEP CLAIMS DISTINCT","headline":"TEXT ≠ PRACTICE ≠ EXPERIENCE","body":"One rule, modeled path, or account cannot prove implementation, prevalence, fairness, causation, legal interpretation, remedy, or what every person experiences."},
         {"eyebrow":"SAVE THIS","headline":"READ THE RULE WITH THE JOURNEY","body":"A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER."}
       ]
+    },
+    {
+      "id": "049",
+      "title": "What Works for You?",
+      "final": "PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {"eyebrow":"BUILD 049","headline":"A PREFERENCE IS NOT A PERMANENT TRAIT","body":"What helps or overwhelms a person can change with setting, goal, health, energy, company, timing, access, and prior response."},
+        {"eyebrow":"BUILD PRIVATE CONTEXT","headline":"PREFERENCE · SENSITIVITY · GOAL · RESPONSE","body":"Use synthetic browser-local records. Collect only what the person chooses, name purpose and expiry, preserve source and uncertainty, and offer correction, deletion, and export."},
+        {"eyebrow":"KEEP CONTEXT ATTACHED","headline":"SETTING · TIME · SUPPORT · CONSTRAINT","body":"Bind each response to the conditions in which it occurred. Keep contradictions, unknowns, changes, and one-off experiences instead of flattening them into a fixed profile."},
+        {"eyebrow":"CHANGE THE MOMENT","headline":"REORGANIZE—DO NOT DIAGNOSE","body":"When setting, goals, sensitivities, or responses change, reorder the visible constellation without inferring identity, disability, health status, intent, or what will work next."},
+        {"eyebrow":"PRESERVE HUMAN CONTROL","headline":"VIEW · CORRECT · WITHDRAW · EXIT","body":"Let the person inspect every field, restrict reuse and sharing, revoke consent, delete local state, carry a portable record, and choose no recommendation."},
+        {"eyebrow":"SAVE THIS","headline":"CONTEXT BELONGS TO THE PERSON","body":"PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES."}
+      ]
     }
   ]
 }

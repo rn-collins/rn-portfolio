@@ -1022,6 +1022,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER."
+    },
+    {
+      "id": "049",
+      "title": "What Works for You?",
+      "path": "/media/builds/049/build-049-linkedin.mp4",
+      "poster": "/media/builds/049/build-049-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "c16bf05aa123eb6ae1392510843996bd58d6f94e0e1974602857f37b7f33ebda",
+      "bytes": 303015,
+      "posterSha256": "84c84678e9db87f775b573d53684595747b1fb94b499074bf1f2efacdabd9e9a",
+      "posterBytes": 44806,
+      "contactSheet": "/media/builds/049/build-049-linkedin-contact-sheet.png",
+      "contactSheetSha256": "877b40cf4cce98908927703c727efcce387c46521ed187df5008ca903e750458",
+      "contactSheetBytes": 347514,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/049/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES."
     }
   ]
 }
