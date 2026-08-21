@@ -1,0 +1,1 @@
+{"build":"047","version":"047.1.0","fixture":"synthetic","constraints":["budget","workforce","connectivity","language","mobility","dependencies"],"uses":["009","028","029","030","046"],"creates":["cap:047"],"directConsumers":["072","073","074","099","100"],"nonClaims":["feasibility approval","effectiveness","legality","community acceptance","procurement recommendation"]}
