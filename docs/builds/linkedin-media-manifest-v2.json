@@ -686,6 +686,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY."
+    },
+    {
+      "id": "037",
+      "title": "Feedback \u2192 Change Governance Lab",
+      "path": "/media/builds/037/build-037-linkedin.mp4",
+      "poster": "/media/builds/037/build-037-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "3f4bc9cc1b73802c8dde56ddc1075a9e6e4e40507044e4e1e49ad20555c59df5",
+      "bytes": 324277,
+      "posterSha256": "6ccdfff7c47e6add62b0f047dd021550772ce71cd1ff2bbdcd653790b9dba6be",
+      "posterBytes": 40483,
+      "contactSheet": "/media/builds/037/build-037-linkedin-contact-sheet.png",
+      "contactSheetSha256": "6120c98b66f7f780f62327aa4be703a3ce81fd26d59a4303280edda2b5a042ed",
+      "contactSheetBytes": 362721,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/037/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE."
     }
   ]
 }

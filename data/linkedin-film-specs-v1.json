@@ -1014,6 +1014,20 @@
         {"eyebrow":"RECOVER WITH EVIDENCE","headline":"RECONNECT · COMPARE · RESOLVE · CONFIRM","body":"Revalidate identity and freshness, detect conflicts and duplicates, require accountable resolution, sync safely, and record the resulting state."},
         {"eyebrow":"SAVE THIS","headline":"FAIL SAFELY. RECOVER TRUTHFULLY.","body":"RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY."}
       ]
+    },
+    {
+      "id": "037",
+      "title": "Feedback → Change Governance Lab",
+      "final": "FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 037","headline":"FEEDBACK IS A SIGNAL—NOT A PRODUCT COMMAND","body":"A comment can reveal correction, outcome, unmet need, misuse, access barrier, or preference without proving what should change."},
+        {"eyebrow":"CAPTURE SAFELY","headline":"PURPOSE · CONSENT · MINIMIZATION · PROVENANCE","body":"Use synthetic reporting in the lab. Separate content from identity, protect sensitive detail, preserve context, and offer correction and withdrawal routes."},
+        {"eyebrow":"QUALIFY THE SIGNAL","headline":"EVIDENCE · RECURRENCE · CONSEQUENCE · UNCERTAINTY","body":"Deduplicate carefully, keep minority and contradictory reports visible, test source limits, and route urgent harm to accountable human triage."},
+        {"eyebrow":"GOVERN THE CHANGE","headline":"PROPOSAL · OWNER · AUTHORITY · DECISION","body":"Link the feedback to a bounded change, alternatives, affected people, evidence, risks, dependencies, approval, dissent, conditions, and rollback."},
+        {"eyebrow":"CLOSE THE LOOP","headline":"VALIDATE · COMMUNICATE · MONITOR · CORRECT","body":"Test whether the change works, tell reporters what happened when appropriate, watch intended and unintended outcomes, and preserve the record."},
+        {"eyebrow":"SAVE THIS","headline":"SIGNAL → DECISION → VERIFIED CHANGE","body":"FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE."}
+      ]
     }
   ]
 }
