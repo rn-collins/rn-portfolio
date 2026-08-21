@@ -7,7 +7,8 @@ export type ContextResult={status:'SUPPORTED'|'MIXED'|'HIGH FRICTION'|'INVALID';
 export const PERSONAL_CONTEXT_ENGINE_VERSION='049.2.0';
 const enums={setting:['HOME','WORK','TRAVEL','SOCIAL'],goal:['FOCUS','REST','CONNECT','RECOVER'],response:['HELPED','NEUTRAL','HARDER']}as const;
 const level=(n:number)=>Number.isInteger(n)&&n>=0&&n<=3;
-const validResponse=(x:unknown):x is PastResponse=>!!x&&typeof x==='object'&&typeof (x as PastResponse).cue==='string'&&(x as PastResponse).cue.length>0&&(x as PastResponse).cue.trim()===(x as PastResponse).cue&&enums.response.includes((x as PastResponse).response);\nconst unique=(a:readonly PastResponse[])=>a.length<=8&&a.every(validResponse)&&new Set(a.map(x=>x.cue.normalize('NFKC').toLocaleLowerCase('en-US'))).size===a.length;
+const validResponse=(x:unknown):x is PastResponse=>!!x&&typeof x==='object'&&typeof (x as PastResponse).cue==='string'&&(x as PastResponse).cue.length>0&&(x as PastResponse).cue.trim()===(x as PastResponse).cue&&enums.response.includes((x as PastResponse).response);
+const unique=(a:readonly PastResponse[])=>a.length<=8&&a.every(validResponse)&&new Set(a.map(x=>x.cue.normalize('NFKC').toLocaleLowerCase('en-US'))).size===a.length;
 export function profileContext(input:SensoryProfile):ContextResult{
  const invalid=input.fixtureId!=='SYNTHETIC-CONTEXT-01'||!enums.setting.includes(input.setting)||!enums.goal.includes(input.goal)||![input.light,input.sound,input.crowding,input.temperature].every(level)||!Array.isArray(input.pastResponses)||!unique(input.pastResponses);
  if(invalid)return{status:'INVALID',friction:0,constellation:[],supports:[],questions:['INVALID SYNTHETIC INPUT'],engineVersion:PERSONAL_CONTEXT_ENGINE_VERSION};
