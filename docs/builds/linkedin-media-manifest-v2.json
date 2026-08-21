@@ -1639,6 +1639,34 @@
       "generator": "build070-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "FOLLOW THE WHOLE SYSTEM."
+    },
+    {
+      "id": "071",
+      "title": "“Legal” Does Not Mean Accessible",
+      "path": "/media/builds/071/build-071-linkedin.mp4",
+      "poster": "/media/builds/071/build-071-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "1e9ad08d3563bb5cc764b378bf86d5ef532de0b8febf4e7762bee1a4167f327e",
+      "bytes": 197871,
+      "posterSha256": "2329f6d3ba63a62b0b5bdcdf6b2ef34301b48afa35612981963cb475863cd8d7",
+      "posterBytes": 169518,
+      "contactSheet": "/media/builds/071/build-071-linkedin-contact-sheet.png",
+      "contactSheetSha256": "2c8227bd3fc8af1e37ac4e2205efe824a4ec778f793d5c3900a427d1d96148b6",
+      "contactSheetBytes": 125170,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/071/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build071-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TRACK THE DISTANCE BETWEEN LEGAL AND REACHABLE."
     }
   ]
 }
