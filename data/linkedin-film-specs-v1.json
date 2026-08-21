@@ -1828,6 +1828,44 @@
           "body": "A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE."
         }
       ]
+    },
+    {
+      "id": "054",
+      "title": "Make the Space Adapt to the Person",
+      "final": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 054",
+          "headline": "A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON",
+          "body": "Light, quiet zones, and seating can be proposed from a synthetic task and context—but a configuration is not permission to change a real space."
+        },
+        {
+          "eyebrow": "DECLARE THE SCENARIO",
+          "headline": "PERSON · TASK · CONTEXT · CONSTRAINT",
+          "body": "Use only an exact-bound synthetic scenario. Keep occupants, task, preferences, conflicts, unknowns, authority, and available controls visible."
+        },
+        {
+          "eyebrow": "RECOMPUTE THE PROPOSAL",
+          "headline": "SETTING · RATIONALE · TRADEOFF",
+          "body": "When the scenario changes, recompute proposed light, quiet-zone, and seating settings. Preserve unresolved conditions and explicit non-actions."
+        },
+        {
+          "eyebrow": "MAKE CONFLICT REVIEWABLE",
+          "headline": "ONE PERSON · MANY PEOPLE · HUMAN REVIEW",
+          "body": "A setting that supports one task may complicate another. Do not collapse competing needs into a score, prediction, inferred trait, or automatic accommodation."
+        },
+        {
+          "eyebrow": "BOUND THE SYSTEM",
+          "headline": "PROPOSE—DO NOT ACTUATE",
+          "body": "The demo reads no sensors, controls no equipment, measures no effect, infers no protected trait, and cannot determine safety, accessibility, compliance, or personal need."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "KEEP THE PERSON IN CONTROL",
+          "body": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE."
+        }
+      ]
     }
   ]
 }

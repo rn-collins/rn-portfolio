@@ -1162,6 +1162,35 @@
       "generator": "recovered deterministic renderer (local source: media053/render.py; source not shipped in release tree)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE."
+    },
+    {
+      "id": "054",
+      "title": "Make the Space Adapt to the Person",
+      "path": "/media/builds/054/build-054-linkedin.mp4",
+      "poster": "/media/builds/054/build-054-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "80e865e01fd483cb1bff23902417d8dc01153059497958c7124c4abd1e5a0b24",
+      "bytes": 219061,
+      "posterSha256": "e43c9b0b3acd6ba348484e6009061eb69fc7bc2c0d6763a9186dd4773eb0824d",
+      "posterBytes": 40158,
+      "contactSheet": "/media/builds/054/build-054-linkedin-contact-sheet.png",
+      "contactSheetSha256": "bc39182cdf03663e1293ceb6560f3651a89608863bd9bfec37a0350396198fc1",
+      "contactSheetBytes": 441179,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/054/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; canonical integration, full playback, physical-device, and LinkedIn upload QA required",
+      "generator": "media054/render.py (local recovery renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "sourceCommit": "0bb3655e7a3f21af498273f0b54d96b87b6c4356",
+      "finalProposition": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE."
     }
   ]
 }
