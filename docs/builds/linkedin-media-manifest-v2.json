@@ -770,6 +770,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT."
+    },
+    {
+      "id": "040",
+      "title": "AI Stop / Escalate Engine",
+      "path": "/media/builds/040/build-040-linkedin.mp4",
+      "poster": "/media/builds/040/build-040-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "98c2c0b97ae5e9b7962b81eefb8a4871994dd8ddc95b622eec3d18d7f4060f3e",
+      "bytes": 301801,
+      "posterSha256": "462e5b6e49a7a113d7dd093e20f472b5130b564b20bb682288a527ca83ff892d",
+      "posterBytes": 36696,
+      "contactSheet": "/media/builds/040/build-040-linkedin-contact-sheet.png",
+      "contactSheetSha256": "034a8080c040e15e34902adca644ab881c33658f61791b3a927a51b031e05e91",
+      "contactSheetBytes": 750189,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/040/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT."
     }
   ]
 }

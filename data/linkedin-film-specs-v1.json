@@ -1056,6 +1056,20 @@
         {"eyebrow":"INSPECT THE CONTROL","headline":"REPLAY · CONTAIN · CORRECT · VALIDATE","body":"Check permissions, sequence, human intervention, external change, stop behavior, and consequence before deciding whether work can stand."},
         {"eyebrow":"SAVE THIS","headline":"INSPECTABLE WITHOUT EXPOSURE","body":"ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT."}
       ]
+    },
+    {
+      "id": "040",
+      "title": "AI Stop / Escalate Engine",
+      "final": "A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 040","headline":"CONFIDENCE IS NOT PERMISSION TO CONTINUE","body":"A fluent answer can conceal missing evidence, failed tools, high consequence, or uncertainty that should change the next action."},
+        {"eyebrow":"DECLARE THE BOUNDARY","headline":"CONSEQUENCE · EVIDENCE · UNCERTAINTY","body":"Use a dated versioned policy. Name required controls, accountable humans, tool dependencies, verified fallbacks, and expiry before selecting an action."},
+        {"eyebrow":"KEEP ACTIONS DISTINCT","headline":"CONTINUE · ASK · ABSTAIN","body":"Continue only inside the declared boundary. Ask when evidence can be repaired. Abstain when the model lacks a safe or authorized path."},
+        {"eyebrow":"HANDLE FAILURE","headline":"FALL BACK · ESCALATE · STOP","body":"Require a verified fallback after a required tool fails. Escalate high-consequence uncertainty. Stop when neither control is available."},
+        {"eyebrow":"DO NOT LET URGENCY CHEAT","headline":"TIME PRESSURE NEVER LOWERS THE GATE","body":"Preserve the rule, reason, blockers, inherited control records, and exact state-only replay without invoking tools or repeating side effects."},
+        {"eyebrow":"SAVE THIS","headline":"MAKE THE NEXT ACTION EXPLICIT","body":"A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT."}
+      ]
     }
   ]
 }
