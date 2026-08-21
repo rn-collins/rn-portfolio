@@ -1904,6 +1904,44 @@
           "body": "A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE."
         }
       ]
+    },
+    {
+      "id": "056",
+      "title": "What Do You Actually Own That Others Cannot Easily Copy?",
+      "final": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 056",
+          "headline": "A LIST OF ASSETS IS NOT A MOAT",
+          "body": "Data, rights, relationships, workflows, trust, knowledge, and feedback may matter—but possession or access does not establish ownership, control, or durable advantage."
+        },
+        {
+          "eyebrow": "MAP THE TOPOLOGY",
+          "headline": "ASSET · RIGHT · RELATIONSHIP · DEPENDENCY",
+          "body": "Use an exact-bound synthetic organization. Connect each claimed asset to source, permission, control, replaceability, transfer limits, upkeep, evidence, and dependent capabilities."
+        },
+        {
+          "eyebrow": "DISTINGUISH THE CLAIM",
+          "headline": "POSSESS · ACCESS · PERMISSION · CONTROL",
+          "body": "Keep legal ownership separate from holding a copy, reaching a resource, receiving limited permission, or controlling a workflow. Name expiry, revocation, and uncertainty."
+        },
+        {
+          "eyebrow": "REMOVE A SUPPOSED MOAT",
+          "headline": "WATCH THE TOPOLOGY CHANGE",
+          "body": "Delete one illustrative node or edge and recompute only declared dependencies, substitutes, feedback paths, concentration, fragility, and what remains unsupported."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A MAP IS NOT A VERDICT",
+          "body": "The demo cannot determine title, ownership, IP rights, legality, valuation, investability, competitive advantage, durability, defensibility, or commercial success."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "TEST WHAT SURVIVES REMOVAL",
+          "body": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER."
+        }
+      ]
     }
   ]
 }

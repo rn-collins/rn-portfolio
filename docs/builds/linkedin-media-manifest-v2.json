@@ -1219,6 +1219,34 @@
       "generator": "media055/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE."
+    },
+    {
+      "id": "056",
+      "title": "What Do You Actually Own That Others Cannot Easily Copy?",
+      "path": "/media/builds/056/build-056-linkedin.mp4",
+      "poster": "/media/builds/056/build-056-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "f25a0112eabe01abcb027db64d0ffb7cfe95679568bf71e745b6a69b60ef2943",
+      "bytes": 229502,
+      "posterSha256": "0ee816d6ad37a5101d20486dacaafef8a6ee84127a3d20f620e75b0cee55ba3e",
+      "posterBytes": 43844,
+      "contactSheet": "/media/builds/056/build-056-linkedin-contact-sheet.png",
+      "contactSheetSha256": "51a7304e63e564abd8d35996f73cf5de921f8c496a4ea46726e53935ef29da33",
+      "contactSheetBytes": 448724,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/056/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
+      "generator": "media056/render.py (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER."
     }
   ]
 }
