@@ -1078,6 +1078,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER."
+    },
+    {
+      "id": "051",
+      "title": "Teach Me the Cannabis Part I Actually Need",
+      "path": "/media/builds/051/build-051-linkedin.mp4",
+      "poster": "/media/builds/051/build-051-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "1e9adbdf57a7f19dcc8e0a688f6abb26324f57128456e9f8577b5a5b9d8f85e0",
+      "bytes": 332307,
+      "posterSha256": "021af627a45cd327eaababbfa04bbce221354799d7aa20b1342ca0d1235ba453",
+      "posterBytes": 35548,
+      "contactSheet": "/media/builds/051/build-051-linkedin-contact-sheet.png",
+      "contactSheetSha256": "b78336ad2d9b1643cf93347276deb3cd61dd5ba7b7272c5a9dfbab2bfca68b66",
+      "contactSheetBytes": 434916,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/051/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "THE RIGHT LESSON STARTS WITH THE QUESTION, PRESERVES UNCERTAINTY, AND STOPS WHERE EDUCATION BECOMES PERSONAL ADVICE."
     }
   ]
 }
