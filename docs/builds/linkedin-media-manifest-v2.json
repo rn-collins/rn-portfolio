@@ -826,6 +826,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER."
+    },
+    {
+      "id": "042",
+      "title": "Give the AI a Real Job",
+      "path": "/media/builds/042/build-042-linkedin.mp4",
+      "poster": "/media/builds/042/build-042-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "a0afe16c30473ad06c6ebed9d635c7100b0a96e11c7ba1e688539b28e96c5a61",
+      "bytes": 297968,
+      "posterSha256": "dbae1b481a3ed3f33ce822bd904a639d7df524b09cbb831268583b0f25ffc2bd",
+      "posterBytes": 36444,
+      "contactSheet": "/media/builds/042/build-042-linkedin-contact-sheet.png",
+      "contactSheetSha256": "b1bef6f191fece59a365721e879b8bc8cea339374d441fa723326683e779432a",
+      "contactSheetBytes": 333695,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/042/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT."
     }
   ]
 }

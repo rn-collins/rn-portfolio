@@ -1084,6 +1084,20 @@
         {"eyebrow":"KEEP THE CLAIM BOUNDED","headline":"A MAP IS NOT ACCOUNTABILITY","body":"Visible assignments do not prove oversight, competence, compliance, safety, performance, or that the named person accepted and exercised the role."},
         {"eyebrow":"SAVE THIS","headline":"MAKE OWNERSHIP VISIBLE","body":"ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER."}
       ]
+    },
+    {
+      "id": "042",
+      "title": "Give the AI a Real Job",
+      "final": "AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 042","headline":"A PROMPT IS NOT A JOB DESCRIPTION","body":"An agent can produce fluent work while its purpose, authority, tools, accountable owner, prohibited actions, and required review remain undefined."},
+        {"eyebrow":"DEFINE THE ROLE","headline":"PURPOSE · INPUT · OUTPUT · OWNER","body":"Use a synthetic role to name the bounded task, accepted inputs, expected artifact, responsible human, affected people, success criteria, and consequence."},
+        {"eyebrow":"DECLARE THE TOOL ENVELOPE","headline":"ALLOW · DENY · REQUIRE APPROVAL","body":"Assign only necessary tools and data. Separate read, draft, recommend, communicate, transact, and delete permissions; attach evidence and expiry."},
+        {"eyebrow":"MOVE A RESPONSIBILITY","headline":"PERMISSION · RISK · EVALUATION","body":"When work moves in or out, recompute required access, consequence, evaluation coverage, human review, inherited ownership, and the safe fallback."},
+        {"eyebrow":"GOVERN THE EDGE","headline":"REVIEW · ESCALATE · ABSTAIN · STOP","body":"Require review before consequential action. Preserve uncertainty, failed tools, boundary violations, escalation routes, termination rules, and exact state-only replay."},
+        {"eyebrow":"SAVE THIS","headline":"GIVE THE AGENT A REAL JOB","body":"AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT."}
+      ]
     }
   ]
 }
