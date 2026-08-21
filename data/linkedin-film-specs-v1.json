@@ -2132,6 +2132,44 @@
           "body": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT."
         }
       ]
+    },
+    {
+      "id": "062",
+      "title": "The Interview Is More Than a Transcript",
+      "final": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 062",
+          "headline": "A TRANSCRIPT IS NOT THE WHOLE INTERVIEW",
+          "body": "Text alone can hide who labeled a passage, which claim was asserted, what evidence was linked, where accounts conflict, and what still needs follow-up."
+        },
+        {
+          "eyebrow": "USE A SYNTHETIC RECORD",
+          "headline": "PASSAGE · ASSERTION · SOURCE · LABEL",
+          "body": "No real person, audio, or voice is present. Preserve fictional speaker labels, transcript segments, timestamps, recorder, version, provenance, uncertainty, and missing material."
+        },
+        {
+          "eyebrow": "BUILD THE NETWORK",
+          "headline": "PEOPLE · CLAIMS · THEMES · EVIDENCE",
+          "body": "Connect each recorded assertion to its exact passage and declared source. Keep analyst themes, source evidence, contradictions, and unresolved follow-up questions as different object types."
+        },
+        {
+          "eyebrow": "KEEP CONFLICT VISIBLE",
+          "headline": "SUPPORTS · CONTRADICTS · UNKNOWN · ASK",
+          "body": "Do not resolve disagreement by averaging or choosing a speaker. Preserve competing accounts, provenance, scope, uncertainty, and the next question required."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A NETWORK IS NOT VERIFICATION",
+          "body": "The demo cannot identify a person or speaker, verify transcription, intent, truth, causation, consent, rights, credibility, endorsement, admissibility, representativeness, or theme completeness."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "KEEP THE SOURCE ATTACHED",
+          "body": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT."
+        }
+      ]
     }
   ]
 }
