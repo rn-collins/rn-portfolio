@@ -2094,6 +2094,44 @@
           "body": "THE WORKDAY BECOMES REVIEWABLE WHEN POTENTIAL ASSETS, CONTRIBUTORS, VERSIONS, DISCLOSURES, AGREEMENTS, AND UNCERTAINTY REACH THE RIGHT HUMAN PATH."
         }
       ]
+    },
+    {
+      "id": "061",
+      "title": "Why Did We Decide That?",
+      "final": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 061",
+          "headline": "A DECISION RECORD CAN LOSE ITS REASONS",
+          "body": "The final choice may survive while evidence, assumptions, alternatives, dissent, uncertainty, authority, expected outcomes, and later learning disappear."
+        },
+        {
+          "eyebrow": "REBUILD THE THEN RECORD",
+          "headline": "EVIDENCE · ASSUMPTION · ALTERNATIVE · DISSENT",
+          "body": "Use an exact-bound synthetic decision. Preserve what was recorded as available, who asserted it, versions, dates, unknowns, constraints, options, objections, approvals, and expected outcomes."
+        },
+        {
+          "eyebrow": "OPEN THE TIME MACHINE",
+          "headline": "KNOWN THEN · KNOWN NOW · HINDSIGHT",
+          "body": "Keep later evidence and outcomes outside the original decision frame. Compare timelines without rewriting what the record shows was known or claimed then."
+        },
+        {
+          "eyebrow": "TRACE WHAT CHANGED",
+          "headline": "SOURCE · ASSUMPTION · OUTCOME · INTERPRETATION",
+          "body": "When a source, assumption, alternative, dissent note, or observed outcome changes, update only declared links and preserve contradictions, gaps, and unresolved attribution."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "RECOVERY IS NOT JUDGMENT",
+          "body": "The demo cannot establish truth, causation, reasonableness, authority, completeness, correctness, legality, negligence, intent, accountability, or who caused an outcome."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "SEPARATE THEN FROM NOW",
+          "body": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT."
+        }
+      ]
     }
   ]
 }

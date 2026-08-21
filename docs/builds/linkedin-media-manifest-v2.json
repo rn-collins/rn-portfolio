@@ -1359,6 +1359,34 @@
       "generator": "media060/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "THE WORKDAY BECOMES REVIEWABLE WHEN POTENTIAL ASSETS, CONTRIBUTORS, VERSIONS, DISCLOSURES, AGREEMENTS, AND UNCERTAINTY REACH THE RIGHT HUMAN PATH."
+    },
+    {
+      "id": "061",
+      "title": "Why Did We Decide That?",
+      "path": "/media/builds/061/build-061-linkedin.mp4",
+      "poster": "/media/builds/061/build-061-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "604fec2b749fa7312d88e981d4c9f5df34fb2b2ec5407876a56831b250622694",
+      "bytes": 237219,
+      "posterSha256": "32d87dd4282222390249f704fc12b2804dc9afa5775e6dabd677d5120c8904f6",
+      "posterBytes": 42259,
+      "contactSheet": "/media/builds/061/build-061-linkedin-contact-sheet.png",
+      "contactSheetSha256": "40ce717957b9381bc20a9e7af0828d4b57c5136b64aafcf465cbd989f3d92cfa",
+      "contactSheetBytes": 465031,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/061/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
+      "generator": "media061/render.py (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT."
     }
   ]
 }
