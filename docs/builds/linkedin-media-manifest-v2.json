@@ -714,6 +714,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE."
+    },
+    {
+      "id": "038",
+      "title": "Domain AI Evaluation Studio",
+      "path": "/media/builds/038/build-038-linkedin.mp4",
+      "poster": "/media/builds/038/build-038-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "a3bef2416716dbf65bbb0b792948e60c653d1c31d28b8fa007eff10d35afd46b",
+      "bytes": 280888,
+      "posterSha256": "5a35ea5d5822b9edb6f16050e9cecb63e347555d118eef3e33aca89b97b43e59",
+      "posterBytes": 38078,
+      "contactSheet": "/media/builds/038/build-038-linkedin-contact-sheet.png",
+      "contactSheetSha256": "7558756f7f8c80a201f0e5ec2663584d44e2b920489748b7c360c4bea2af274c",
+      "contactSheetBytes": 1145983,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/038/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED."
     }
   ]
 }

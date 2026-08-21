@@ -1028,6 +1028,20 @@
         {"eyebrow":"CLOSE THE LOOP","headline":"VALIDATE · COMMUNICATE · MONITOR · CORRECT","body":"Test whether the change works, tell reporters what happened when appropriate, watch intended and unintended outcomes, and preserve the record."},
         {"eyebrow":"SAVE THIS","headline":"SIGNAL → DECISION → VERIFIED CHANGE","body":"FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE."}
       ]
+    },
+    {
+      "id": "038",
+      "title": "Domain AI Evaluation Studio",
+      "final": "A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 038","headline":"A BENCHMARK SCORE IS NOT GENERAL PERFORMANCE","body":"A model can look strong on synthetic examples and still fail the domain, workflow, people, conditions, or consequence that matter."},
+        {"eyebrow":"BOUND THE CLAIM","headline":"NAME THE USE AND THE DECISION","body":"Lock model and version, domain task, population, environment, human role, success criteria, unacceptable outcomes, and what the test cannot prove."},
+        {"eyebrow":"BUILD THE SET","headline":"REPRESENTATIVE · EDGE · FAILURE · ABSTAIN","body":"Use synthetic cases with provenance, coverage rationale, protected challenge sets, known limitations, and competent domain review."},
+        {"eyebrow":"MEASURE SEPARATELY","headline":"QUALITY · SAFETY · FAIRNESS · RELIABILITY","body":"Keep uncertainty, subgroup behavior, calibration, refusals, consistency, latency, cost, and human-workflow effects visible instead of one average."},
+        {"eyebrow":"INTERPRET WITH CONTROL","headline":"EVIDENCE · LIMIT · OWNER · NEXT TEST","body":"Preserve errors and contradictions, investigate causes, compare alternatives, define monitoring and stops, and never let the score approve deployment."},
+        {"eyebrow":"SAVE THIS","headline":"THE CLAIM CANNOT OUTRUN THE TEST","body":"A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED."}
+      ]
     }
   ]
 }
