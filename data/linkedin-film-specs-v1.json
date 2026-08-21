@@ -1042,6 +1042,20 @@
         {"eyebrow":"INTERPRET WITH CONTROL","headline":"EVIDENCE · LIMIT · OWNER · NEXT TEST","body":"Preserve errors and contradictions, investigate causes, compare alternatives, define monitoring and stops, and never let the score approve deployment."},
         {"eyebrow":"SAVE THIS","headline":"THE CLAIM CANNOT OUTRUN THE TEST","body":"A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED."}
       ]
+    },
+    {
+      "id": "039",
+      "title": "Agent Work Trace Inspector",
+      "final": "ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 039","headline":"A TRACE IS EVIDENCE—NOT THE TRUTH","body":"An event log can show sequence and state without proving intent, correctness, completeness, causation, or a safe outcome."},
+        {"eyebrow":"BOUND THE SESSION","headline":"PURPOSE · AUTHORITY · SCOPE · STOP","body":"Lock agent and model version, environment, permitted tools and data, accountable owner, approval gates, prohibited actions, and termination conditions."},
+        {"eyebrow":"CAPTURE SAFELY","headline":"EVENT · TIME · STATE · RESULT","body":"Use synthetic redacted traces. Record requests, tool outcomes, approvals, errors, retries, and side effects—never credentials, secrets, or private content."},
+        {"eyebrow":"KEEP LAYERS APART","headline":"OBSERVED ≠ INFERRED ≠ VERIFIED","body":"Preserve provenance, missing events, uncertainty, contradictions, transformations, and reviewer notes instead of inventing a continuous story."},
+        {"eyebrow":"INSPECT THE CONTROL","headline":"REPLAY · CONTAIN · CORRECT · VALIDATE","body":"Check permissions, sequence, human intervention, external change, stop behavior, and consequence before deciding whether work can stand."},
+        {"eyebrow":"SAVE THIS","headline":"INSPECTABLE WITHOUT EXPOSURE","body":"ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT."}
+      ]
     }
   ]
 }

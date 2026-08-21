@@ -742,6 +742,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED."
+    },
+    {
+      "id": "039",
+      "title": "Agent Work Trace Inspector",
+      "path": "/media/builds/039/build-039-linkedin.mp4",
+      "poster": "/media/builds/039/build-039-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "00a4e79f64993c774e9ac3c5a4d1df5b99e9c56b2b476603729acb7abc1d8396",
+      "bytes": 277984,
+      "posterSha256": "46559fd7ccca3c15e958640182b63d02c0e09182666572127461c78bb225c463",
+      "posterBytes": 43759,
+      "contactSheet": "/media/builds/039/build-039-linkedin-contact-sheet.png",
+      "contactSheetSha256": "aca4ba29771f7f265c84660dad2dc95e788c0f660472d78e9cdd7ec47571a2d6",
+      "contactSheetBytes": 1093602,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/039/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT."
     }
   ]
 }
