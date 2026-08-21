@@ -1942,6 +1942,44 @@
           "body": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER."
         }
       ]
+    },
+    {
+      "id": "057",
+      "title": "Show Me Where This Content Came From",
+      "final": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 057",
+          "headline": "A FINISHED FILE HIDES ITS PRODUCTION HISTORY",
+          "body": "Sources, people, tools, AI involvement, rights claims, edits, and exports can disappear behind one polished content object."
+        },
+        {
+          "eyebrow": "REGISTER THE ARTIFACT",
+          "headline": "OBJECT · VERSION · TIME · RECORDER",
+          "body": "Use an exact-bound synthetic artifact. Preserve identifiers, declared timestamps, recorders, source locators, transformations, tool events, people, AI claims, rights assertions, and missing links."
+        },
+        {
+          "eyebrow": "PEEL IT BACKWARD",
+          "headline": "SOURCE · TRANSFORM · REVIEW · EXPORT",
+          "body": "Move from the finished version toward each recorded input and event while the provenance graph and timeline stay synchronized."
+        },
+        {
+          "eyebrow": "KEEP CLAIMS SEPARATE",
+          "headline": "RECORDED · LINKED · CORROBORATED · UNKNOWN",
+          "body": "A record can show who asserted what and when. It cannot make an unverified source, identity, right, sequence, or AI-use claim true."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "TRACE IS NOT VERIFICATION",
+          "body": "The demo cannot conclude authorship, ownership, copyright, license, permission, authenticity, identity, completeness, chronology, admissibility, attribution, or AI detection."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MAKE THE HISTORY INSPECTABLE",
+          "body": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF."
+        }
+      ]
     }
   ]
 }
