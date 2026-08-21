@@ -1,1 +1,14 @@
-{"build":"042","freshness":{"engine":"042.1.0","controlRecordsVersioned":true},"performance":{"networkAtRuntime":false,"clientComputation":"O(n) over tools and controls","reducedMotion":true,"responsiveFloorPx":320}}
+{
+  "build": "042",
+  "freshness": {
+    "engine": "042.2.0",
+    "controlRecordsExactVersionBound": true,
+    "toolGrantsExactContractBound": true
+  },
+  "performance": {
+    "networkAtRuntime": false,
+    "clientComputation": "O(n) over responsibilities, tools, and controls",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

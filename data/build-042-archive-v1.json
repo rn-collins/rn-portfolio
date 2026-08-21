@@ -1,1 +1,27 @@
-{"build":"042","engineVersion":"042.1.0","canonicalFieldsFrozen":true,"derivedFields":["fixture role","responsibilities","permissions","risk","evaluation","copy"],"replay":{"sideEffects":false,"requires":["exact exported role","engine 042.1.0"]},"nonClaims":["real permission","tool execution","organizational approval"]}
+{
+  "build": "042",
+  "engineVersion": "042.2.0",
+  "canonicalFieldsFrozen": true,
+  "derivedFields": [
+    "fixture role",
+    "responsibilities",
+    "permissions",
+    "risk",
+    "evaluation",
+    "copy"
+  ],
+  "replay": {
+    "sideEffects": false,
+    "requires": [
+      "exact exported role",
+      "engine 042.2.0",
+      "exact inherited control identities and versions",
+      "exact tool grants"
+    ]
+  },
+  "nonClaims": [
+    "real permission",
+    "tool execution",
+    "organizational approval"
+  ]
+}
