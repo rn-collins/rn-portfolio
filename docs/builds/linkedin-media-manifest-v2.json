@@ -1527,6 +1527,34 @@
       "generator": "build066-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ASSEMBLE THE MEMORY."
+    },
+    {
+      "id": "067",
+      "title": "A Digital Twin Should Know What It Does Not Own",
+      "path": "/media/builds/067/build-067-linkedin.mp4",
+      "poster": "/media/builds/067/build-067-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "5eff674e07cc75220d4b5a66e5b7cff1baad140d5bd6c904b8f2558309ae5c0e",
+      "bytes": 197710,
+      "posterSha256": "c4c59e9e32daa699078f5dfd6684ab98b4a361d97ce460d9f3b7cd37daf1b82c",
+      "posterBytes": 140796,
+      "contactSheet": "/media/builds/067/build-067-linkedin-contact-sheet.png",
+      "contactSheetSha256": "af6c14b66f291ff14865ab9cfe93fd154825af47f8f6ece31f2cb8de4dafa466",
+      "contactSheetBytes": 169071,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/067/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build067-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "UNKNOWN IS A VALID STATE."
     }
   ]
 }

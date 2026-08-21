@@ -2322,6 +2322,44 @@
           "body": "LEGAL MEMORY BECOMES USABLE WHEN OBJECTS, RELATIONSHIPS, SOURCES, STATES, ACCESS, AND LIMITS STAY CONNECTED."
         }
       ]
+    },
+    {
+      "id": "067",
+      "title": "A Digital Twin Should Know What It Does Not Own",
+      "final": "UNKNOWN IS A VALID STATE.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 067",
+          "headline": "A DIGITAL TWIN BEGINS WITH GAPS",
+          "body": "Fixed synthetic knowledge objects begin with missing context, undeclared ownership, blocked inference, and permission that may be withheld."
+        },
+        {
+          "eyebrow": "FORM A BOUNDED MODEL",
+          "headline": "OBJECTS CONNECT ONLY THROUGH EXPLICIT CONTEXT",
+          "body": "Keep knowledge, preferences, values, roles, relationships, permissions, context, sources, and declared use limits distinct."
+        },
+        {
+          "eyebrow": "SEPARATE THE STATES",
+          "headline": "DECLARED IS NOT INFERRED",
+          "body": "Similarity is not authority. Possession is not ownership. A model entry is not consent, identity, truth, or permission to act."
+        },
+        {
+          "eyebrow": "PRESERVE THE HOLDS",
+          "headline": "WITHHELD · EXPIRED · UNDECLARED · BLOCKED",
+          "body": "Do not fill gaps by inventing permission, current context, ownership, personal traits, motives, diagnoses, or psychological profiles."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A MODEL OF BOUNDARIES, NOT A CLAIM OF RIGHTS",
+          "body": "This fixed synthetic demonstration stores no personal data, verifies no identity, and does not persist, monitor, score, or surveil."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "UNKNOWN IS A VALID STATE",
+          "body": "A PERSONAL MODEL IS USEFUL WHEN PERMISSION, SOURCE, DECLARED OR INFERRED STATE, CONTEXT, OWNERSHIP STATUS, AND LIMITS STAY CONNECTED."
+        }
+      ]
     }
   ]
 }
