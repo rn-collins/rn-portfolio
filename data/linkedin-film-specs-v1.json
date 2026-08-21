@@ -2360,6 +2360,44 @@
           "body": "A PERSONAL MODEL IS USEFUL WHEN PERMISSION, SOURCE, DECLARED OR INFERRED STATE, CONTEXT, OWNERSHIP STATUS, AND LIMITS STAY CONNECTED."
         }
       ]
+    },
+    {
+      "id": "068",
+      "title": "From Knowing You to Acting for You",
+      "final": "MAKE ACTION ACCOUNTABLE.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 068",
+          "headline": "FROM KNOWING YOU TO ACTING FOR YOU",
+          "body": "A passive fixed synthetic model can suggest context and prepare a bounded proposal. Knowledge alone never supplies authority."
+        },
+        {
+          "eyebrow": "ADD THE RUNTIME",
+          "headline": "CONTEXT → PLAN → APPROVAL",
+          "body": "Keep retrieval, draft, recommendation, proposed action, approval, tool use, execution, refusal, and audit as separate accountable states."
+        },
+        {
+          "eyebrow": "PLACE THE GATE",
+          "headline": "A PROPOSAL IS NOT PERMISSION",
+          "body": "Approval must be explicit, proposal-specific, inspectable, and revocable before any modeled tool step."
+        },
+        {
+          "eyebrow": "PRESERVE THE STOP",
+          "headline": "OUT OF SCOPE MEANS REFUSED",
+          "body": "Missing context, denied approval, or an out-of-scope tool produces a visible hold or refusal—not invented authority."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "SIMULATION HAS ZERO SIDE EFFECTS",
+          "body": "No real people, personal data, accounts, credentials, tools, messages, files, transactions, advice, or external actions appear."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MAKE ACTION ACCOUNTABLE",
+          "body": "AN ACTION RUNTIME IS GOVERNED WHEN EVERY TRANSITION CARRIES SCOPE, AUTHORITY, APPROVAL, OUTCOME, RECOVERY, AND AN AUDITABLE STOP."
+        }
+      ]
     }
   ]
 }

@@ -1555,6 +1555,34 @@
       "generator": "build067-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "UNKNOWN IS A VALID STATE."
+    },
+    {
+      "id": "068",
+      "title": "From Knowing You to Acting for You",
+      "path": "/media/builds/068/build-068-linkedin.mp4",
+      "poster": "/media/builds/068/build-068-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "d64f970fe29338b0f8d6f80e48eeaf94c6bab466a37cb791beddaf8f61ed17a4",
+      "bytes": 217819,
+      "posterSha256": "16f3e3320e32ba3af55e802bf61925278dded6ca85fbe1ce78ab1c7be61fc0bc",
+      "posterBytes": 144801,
+      "contactSheet": "/media/builds/068/build-068-linkedin-contact-sheet.png",
+      "contactSheetSha256": "236d648de48b09ca03216ebdaeb409552680e9fb5550e2bf6ec781f341d70eb0",
+      "contactSheetBytes": 186888,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/068/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build068-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "MAKE ACTION ACCOUNTABLE."
     }
   ]
 }
