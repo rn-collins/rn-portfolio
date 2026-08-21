@@ -1191,6 +1191,34 @@
       "spec": "data/linkedin-film-specs-v1.json",
       "sourceCommit": "0bb3655e7a3f21af498273f0b54d96b87b6c4356",
       "finalProposition": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE."
+    },
+    {
+      "id": "055",
+      "title": "Let the Smart Home Explain Itself",
+      "path": "/media/builds/055/build-055-linkedin.mp4",
+      "poster": "/media/builds/055/build-055-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "f9a1371448062e1a33087f2f942a9333de8443df5f812e6324f6b051efdbe0dd",
+      "bytes": 226321,
+      "posterSha256": "858739ac36a91bef91c113bbd2a88f373199d2f0c74bc1233531c43f70d1b533",
+      "posterBytes": 44470,
+      "contactSheet": "/media/builds/055/build-055-linkedin-contact-sheet.png",
+      "contactSheetSha256": "ac5977390bcc10466973dd35e97aa1a38ebb21549862e7cd20c6b32a6f948fd6",
+      "contactSheetBytes": 447824,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/055/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; canonical integration, full playback, physical-device, and LinkedIn upload QA required",
+      "generator": "media055/render.py (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE."
     }
   ]
 }
