@@ -1,0 +1,1 @@
+{"build":"045","version":"045.1.0","fixture":"synthetic","dimensions":["location","cost","mobility","eligibility","clinician","supply"],"uses":["009","023","028","030","035"],"creates":["cap:045"],"directConsumers":["072","073"],"nonClaims":["medical advice","legal advice","eligibility determination","provider directory","price quote","product recommendation"]}
