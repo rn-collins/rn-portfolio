@@ -1,0 +1,1 @@
+{"build":"046","version":"046.1.0","fixture":"synthetic","systems":["external","local","essential"],"uses":["009","010","011","029","034"],"creates":["cap:046"],"directConsumers":["047","072","099","100"],"nonClaims":["current infrastructure map","outage forecast","engineering analysis","emergency guidance"]}
