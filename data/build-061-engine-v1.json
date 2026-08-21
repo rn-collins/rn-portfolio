@@ -1,0 +1,28 @@
+{
+  "build": "061",
+  "engineVersion": "061.1.0",
+  "title": "Why Did We Decide That?",
+  "scenarios": [
+    "ORIGINAL-RECORD",
+    "LATER-EVIDENCE",
+    "DISSENT-MISSING",
+    "CHRONOLOGY-CONFLICT"
+  ],
+  "fields": [
+    "evidence",
+    "assumptions",
+    "alternatives",
+    "dissent",
+    "authority",
+    "timestamps",
+    "outcomes",
+    "corrections",
+    "unknowns"
+  ],
+  "inherited": [
+    "020.2.0",
+    "029.2.0",
+    "058.1.0"
+  ],
+  "boundary": "synthetic record recovery only; no truth/causation/reasonableness/authority/completeness/correctness/legality/negligence/intent/accountability/outcome attribution"
+}
