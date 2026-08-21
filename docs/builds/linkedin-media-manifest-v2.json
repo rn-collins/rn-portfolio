@@ -1275,6 +1275,34 @@
       "generator": "media057/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF."
+    },
+    {
+      "id": "058",
+      "title": "Trace a Claim All the Way Back",
+      "path": "/media/builds/058/build-058-linkedin.mp4",
+      "poster": "/media/builds/058/build-058-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "e447f220b092d558b96c0fe9dffec8f02fd4e5bf26dcfd141dca2c19ee8934e2",
+      "bytes": 232808,
+      "posterSha256": "ad204c4214ead93b592ca949c16a0d2d2063e537ae0dc8c6a2fb939dc1d0dff7",
+      "posterBytes": 43363,
+      "contactSheet": "/media/builds/058/build-058-linkedin-contact-sheet.png",
+      "contactSheetSha256": "db5f807c991cfbcd8af672d7b662727a621c4562f3aa1a3a3d7652b4b146afa8",
+      "contactSheetBytes": 438919,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/058/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
+      "generator": "media058/render.py (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER."
     }
   ]
 }

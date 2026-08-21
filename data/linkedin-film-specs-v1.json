@@ -1980,6 +1980,44 @@
           "body": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF."
         }
       ]
+    },
+    {
+      "id": "058",
+      "title": "Trace a Claim All the Way Back",
+      "final": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 058",
+          "headline": "A CITATION CAN HIDE A BROKEN SUPPORT PATH",
+          "body": "A factual claim may point to a source while the exact evidence, authority, date, version, locator, or verification state remains missing or mismatched."
+        },
+        {
+          "eyebrow": "REGISTER THE CLAIM",
+          "headline": "TEXT · SCOPE · DATE · VERSION",
+          "body": "Use an exact-bound synthetic claim. Preserve qualifiers, negation, population, jurisdiction, asserted date, claimant, status, and every material word that evidence must support."
+        },
+        {
+          "eyebrow": "TRACE TO THE ROOT",
+          "headline": "EVIDENCE · SOURCE · AUTHORITY · LOCATOR",
+          "body": "Connect the claim through recorded evidence to its source and issuing authority. Keep publication, effective and checked dates, versions, quotations, transformations, and unknowns distinct."
+        },
+        {
+          "eyebrow": "REMOVE ONE SOURCE",
+          "headline": "WATCH SUPPORT COLLAPSE",
+          "body": "Delete a synthetic source or edge and recompute only declared linkage, coverage, contradiction, dependency, and unsupported claim fragments."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "SUPPORT STATE IS NOT TRUTH",
+          "body": "A link or status cannot prove correctness, authority, causation, completeness, admissibility, scientific validity, consensus, endorsement, currentness, or that the claim is true."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MAKE THE EVIDENCE PATH VISIBLE",
+          "body": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER."
+        }
+      ]
     }
   ]
 }
