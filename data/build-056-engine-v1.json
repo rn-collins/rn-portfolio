@@ -1,0 +1,49 @@
+{
+  "build": "056",
+  "engineVersion": "056.1.0",
+  "title": "What Do You Actually Own That Others Cannot Easily Copy?",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-DEFENSIBILITY-01",
+    "scenarios": [
+      "FULL-MAP",
+      "REMOVE-DATA",
+      "REMOVE-RELATIONSHIPS",
+      "REMOVE-WORKFLOW"
+    ],
+    "assets": [
+      "DATA",
+      "RIGHTS",
+      "RELATIONSHIPS",
+      "WORKFLOW",
+      "TRUST",
+      "KNOWLEDGE",
+      "FEEDBACK"
+    ],
+    "dimensions": [
+      "ownership",
+      "control",
+      "access",
+      "permission",
+      "dependency",
+      "substitutability",
+      "evidence",
+      "durability"
+    ],
+    "inherited": [
+      "011.1.0",
+      "027.2.0",
+      "029.2.0"
+    ]
+  },
+  "outputs": [
+    "status",
+    "nodes",
+    "links",
+    "observations",
+    "removed",
+    "unknowns",
+    "nonClaims"
+  ],
+  "invalid": "exact structural, ordered, no-throw fail closed",
+  "boundary": "synthetic topology only; no legal/IP/valuation/investment/competition/commercial-success claim"
+}
