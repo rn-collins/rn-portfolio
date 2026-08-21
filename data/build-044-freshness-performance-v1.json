@@ -1,0 +1,1 @@
+{"build":"044","freshness":{"engine":"044.1.0","componentsRequireVersionReviewExpiryAndContextBinding":true},"performance":{"networkAtRuntime":false,"clientComputation":"O(n²) bounded fixture","reducedMotion":true,"responsiveFloorPx":320}}
