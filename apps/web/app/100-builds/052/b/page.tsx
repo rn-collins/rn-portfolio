@@ -1,0 +1,1 @@
+import ProductStory from'./ProductStory';import s from'../product.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>052-B</span></nav><p className={s.kicker}>THE LABEL COLLAPSES</p><h1>A familiar name can hide a different product.</h1><ProductStory/></main>}
