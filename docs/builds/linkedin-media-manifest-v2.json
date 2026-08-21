@@ -1583,6 +1583,34 @@
       "generator": "build068-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "MAKE ACTION ACCOUNTABLE."
+    },
+    {
+      "id": "069",
+      "title": "Enacted Is Not Implemented",
+      "path": "/media/builds/069/build-069-linkedin.mp4",
+      "poster": "/media/builds/069/build-069-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "10ac669039032de9a9360d274a7830ea657aadb8ede98b5674f95abd3eda16dc",
+      "bytes": 187103,
+      "posterSha256": "c6e290a46e50a5ef4d4fe009b9d34c67cd35caf215348e7d99cb121de8d7c1b6",
+      "posterBytes": 130483,
+      "contactSheet": "/media/builds/069/build-069-linkedin-contact-sheet.png",
+      "contactSheetSha256": "a10e5edd3da72d407dcd2e46526918a1f16385d67adc8eebc27286b20a035bda",
+      "contactSheetBytes": 163855,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/069/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build069-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TRACK DELIVERY, NOT CEREMONY."
     }
   ]
 }
