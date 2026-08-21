@@ -1471,6 +1471,34 @@
       "generator": "build064-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "MAKE THE TRAIL SURVIVE TURNOVER."
+    },
+    {
+      "id": "065",
+      "title": "The Care Does Not End When the Session Does",
+      "path": "/media/builds/065/build-065-linkedin.mp4",
+      "poster": "/media/builds/065/build-065-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "aeff7a1549c0ebf361bc57f220af897b0c8a268d5ee87e7c17e571f67e4a8c51",
+      "bytes": 152185,
+      "posterSha256": "aa613052d6486089a5a5f66f0274016d5ea91f08ed473326cd141a09a089f849",
+      "posterBytes": 116961,
+      "contactSheet": "/media/builds/065/build-065-linkedin-contact-sheet.png",
+      "contactSheetSha256": "5b27dc14fce412647efac2917ca9d59519e75b20089794ebde5a062b856617f8",
+      "contactSheetBytes": 148964,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/065/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build065-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "OWNERSHIP CONTINUES."
     }
   ]
 }

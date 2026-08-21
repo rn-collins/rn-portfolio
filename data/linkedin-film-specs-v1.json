@@ -2246,6 +2246,44 @@
           "body": "INSTITUTIONAL MEMORY IS USABLE WHEN THE RECORD, CONTEXT, SOURCE, CHANGE, AND LIMIT REMAIN CONNECTED."
         }
       ]
+    },
+    {
+      "id": "065",
+      "title": "The Care Does Not End When the Session Does",
+      "final": "OWNERSHIP CONTINUES.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 065",
+          "headline": "ONE SESSION IS NOT THE SYSTEM",
+          "body": "A fixed synthetic session sits inside a longer pathway of preparation, follow-up, integration, referrals, supports, and accountable handoffs."
+        },
+        {
+          "eyebrow": "EXPAND THE RECORD",
+          "headline": "CONTINUITY HAS MORE THAN ONE STEP",
+          "body": "Keep the session connected to declared purpose, permission state, handoff acceptance, follow-up ownership, due state, evidence, and recourse."
+        },
+        {
+          "eyebrow": "KEEP FAILURES DISTINCT",
+          "headline": "UNACCEPTED · WITHDRAWN · OVERDUE",
+          "body": "Do not flatten an unaccepted handoff, withdrawn permission, or overdue follow-up into one generic status."
+        },
+        {
+          "eyebrow": "BOUND THE SYSTEM",
+          "headline": "A PATHWAY IS NOT A LIFELINE",
+          "body": "This synthetic fixture does not monitor, diagnose, triage, treat, determine consent validity, or provide emergency response."
+        },
+        {
+          "eyebrow": "MAKE RESPONSIBILITY VISIBLE",
+          "headline": "THE CARE DOES NOT END WHEN THE SESSION DOES",
+          "body": "The sender retains declared responsibility until acceptance; owners, due states, evidence, and exception routes stay visible."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "OWNERSHIP CONTINUES",
+          "body": "A CONTINUITY RECORD IS USEFUL WHEN THE NEXT STEP, OWNER, PERMISSION, EVIDENCE, RECOURSE, AND LIMIT REMAIN CONNECTED."
+        }
+      ]
     }
   ]
 }
