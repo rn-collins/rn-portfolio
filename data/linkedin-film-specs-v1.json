@@ -1140,6 +1140,20 @@
         {"eyebrow":"BOUND THE CLAIM","headline":"A ROUTE IS NOT CARE OR LEGAL ADVICE","body":"A modeled journey cannot verify current law, eligibility, clinical appropriateness, product safety, inventory, affordability, accessibility, or a successful outcome."},
         {"eyebrow":"SAVE THIS","headline":"MEASURE THE WHOLE JOURNEY","body":"ACCESS IS THE WHOLE JOURNEY THROUGH INFORMATION, ELIGIBILITY, COST, TRAVEL, CLINICIANS, SUPPLY, AND CONTINUING CARE."}
       ]
+    },
+    {
+      "id": "046",
+      "title": "What Does This Island Depend On?",
+      "final": "ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 046","headline":"ESSENTIAL SYSTEMS DO NOT END AT THE SHORE","body":"Food, water, energy, health, communications, transport, waste, finance, and public services depend on linked local capacity and external routes."},
+        {"eyebrow":"MAP THE DEPENDENCIES","headline":"SOURCE · ROUTE · SERVICE · PLACE","body":"Use synthetic infrastructure to connect each essential function to upstream supply, local assets, operators, alternatives, inventory, geography, and accountable owners."},
+        {"eyebrow":"CUT ONE CONNECTION","headline":"PORT · CABLE · ROUTE · SERVICE","body":"Remove a declared node or edge and trace immediate loss, delayed effects, cross-sector cascades, geographic reach, duration, uncertainty, and evidence limits."},
+        {"eyebrow":"KEEP PEOPLE VISIBLE","headline":"ACCESS · HEALTH · COST · MOBILITY","body":"Do not flatten island impact into one score. Preserve who is affected first, who has fewer substitutes, what burdens shift, and which communities define priority."},
+        {"eyebrow":"TEST RECOVERY","headline":"FALL BACK · ALLOCATE · RESTORE · LEARN","body":"Compare bounded alternatives, prerequisites, tradeoffs, human authority, stop rules, restoration sequence, residual risk, and changes required before the next disruption."},
+        {"eyebrow":"SAVE THIS","headline":"SEE THE SYSTEM BEFORE IT BREAKS","body":"ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE."}
+      ]
     }
   ]
 }
