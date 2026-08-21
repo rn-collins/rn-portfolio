@@ -1,0 +1,1 @@
+{"build":"040","freshness":{"engine":"040.1.0","fixture":"versioned"},"performance":{"networkAtRuntime":false,"clientComputation":"O(1)","reducedMotion":true,"responsiveFloorPx":320}}
