@@ -1,1 +1,28 @@
-{"build":"053","engineVersion":"053.1.0","title":"Run a Tiny Experiment on Your Own Environment","inputs":{"fixtureId":"SYNTHETIC-N1-01","protocolId":["WEAK-SEQUENCE","ALTERNATING-SEQUENCE"],"outcome":"MODELED_FOCUS exact fixture","observations":"exact-bound synthetic arrays"},"outputs":["status","means","strength","strengthReasons","limits","nextStep"],"determinism":"exact fixture produces exact result","invalid":"fail closed","boundary":"protocol literacy only; no research, diagnosis, treatment, causal proof, accessibility determination, population inference, or personal recommendation"}
+{
+  "build": "053",
+  "engineVersion": "053.2.0",
+  "title": "Run a Tiny Experiment on Your Own Environment",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-N1-01",
+    "protocolId": [
+      "WEAK-SEQUENCE",
+      "ALTERNATING-SEQUENCE"
+    ],
+    "outcome": "MODELED_FOCUS exact fixture",
+    "conditions": "exact named synthetic conditions",
+    "observations": "exact ordered per-record shape and values"
+  },
+  "outputs": [
+    "status",
+    "means",
+    "strength",
+    "strengthReasons",
+    "limits",
+    "nextStep"
+  ],
+  "calculations": "descriptive arithmetic means and B-minus-A difference, rounded to two decimals",
+  "strength": "fixed interface indicator based only on exact fixture alternation, period count, and declared confounding; not a statistical or validated causal score",
+  "determinism": "exact fixture produces exact result",
+  "invalid": "fail closed without executing serialization hooks or throwing",
+  "boundary": "protocol literacy only; no research, diagnosis, treatment, causal proof, accessibility determination, population inference, or personal recommendation"
+}
