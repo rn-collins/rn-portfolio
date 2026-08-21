@@ -1,5 +1,7 @@
 # Build 039 — Agent Work Trace Inspector
 
-Frozen canon: audit whether an AI agent actually did the job well, not just produced a convincing answer. B-Web: branch and replay the agent’s tool and evidence trajectory. Uses 020, 032, 034, 038; creates cap:039.
+Engine `039.2.0` inspects a bounded synthetic event record. It requires unique immutable IDs, contiguous deterministic order, timestamps, acyclic parent links, explicit plan-versus-execution status, tool request/result/error identity and side-effect class, evidence identity/scope/source/freshness/support mapping, decision rationale, failure/abort preservation, redaction attestation, and inherited records 020/032/034/038.
 
-The paired synthetic experience inspects plan/tool/evidence/decision/answer lineage, preserves a failed branch, replays verified evidence, exports locally, and provides keyboard controls, live status, focus, 44px actions, 320px layout, and reduced motion. Inspectability is not proof of correctness, intent, truth, completeness, or safety.
+“Complete” means only complete against the declared schema and capture boundary. Hidden model reasoning, provider runtime, unrecorded tools, and external logs are not observable here. Replay deterministically re-inspects recorded data; it never re-executes live reads or writes. Export is exact browser-local JSON but is not externally signed.
+
+Traceability does not establish answer truth, evidence validity, intent, safety, approval, or completeness beyond capture. Authenticated browser, physical-device/manual accessibility, hosted CI, independent trace review, secrets review, and media certification remain external gates.
