@@ -658,6 +658,34 @@
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY."
+    },
+    {
+      "id": "036",
+      "title": "Resilience Mode / Offline Survival Test",
+      "path": "/media/builds/036/build-036-linkedin.mp4",
+      "poster": "/media/builds/036/build-036-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18.0,
+      "silentFirst": true,
+      "sha256": "4a4189feb14cefa39f510eab1afa68d9c886766b0b126477c29505915fa960da",
+      "bytes": 274583,
+      "posterSha256": "826cebd95f09b3d0016cf360b9f6b8b8f2f1a722e6abc8e7c78e561298cc3749",
+      "posterBytes": 33372,
+      "contactSheet": "/media/builds/036/build-036-linkedin-contact-sheet.png",
+      "contactSheetSha256": "cf59d49d6e103e621c7757e755bd636ec4fb34111303a1b5cd1878b263a22f60",
+      "contactSheetBytes": 337105,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/036/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
+      "generator": "scripts/render-linkedin-films.py",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY."
     }
   ]
 }

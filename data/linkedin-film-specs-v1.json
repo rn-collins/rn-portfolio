@@ -1000,6 +1000,20 @@
         {"eyebrow":"COMPLETE THE EXIT","headline":"REVOKE · DELETE · RETAIN · CONFIRM","body":"Separate portable data from lawful retention, stop future processing where required, handle downstream copies, and preserve appeal and correction routes."},
         {"eyebrow":"SAVE THIS","headline":"PORTABILITY MEANS A REAL WAY OUT","body":"DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY."}
       ]
+    },
+    {
+      "id": "036",
+      "title": "Resilience Mode / Offline Survival Test",
+      "final": "RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY.",
+      "sourceCheckedOn": "2026-08-20",
+      "scenes": [
+        {"eyebrow":"BUILD 036","headline":"OFFLINE IS A PRODUCT STATE—NOT AN ERROR PAGE","body":"Essential work needs a deliberate mode for disconnection, partial service, stale data, queued actions, conflict, and recovery."},
+        {"eyebrow":"BOUND ESSENTIAL WORK","headline":"WHAT MUST STILL BE POSSIBLE?","body":"Name critical tasks, minimum evidence, local data, prohibited actions, human fallback, expiry, dependencies, and the consequence of delay."},
+        {"eyebrow":"ENTER RESILIENCE MODE","headline":"DETECT · EXPLAIN · LIMIT · CONTINUE","body":"Make network state, freshness, unavailable features, safe capabilities, queued work, support, and stop conditions explicit."},
+        {"eyebrow":"PROTECT LOCAL STATE","headline":"MINIMIZE · ENCRYPT · VERSION · EXPIRE","body":"Store only what is necessary, preserve provenance and accessibility, prevent silent overwrite, and make device loss and shared-device risk visible."},
+        {"eyebrow":"RECOVER WITH EVIDENCE","headline":"RECONNECT · COMPARE · RESOLVE · CONFIRM","body":"Revalidate identity and freshness, detect conflicts and duplicates, require accountable resolution, sync safely, and record the resulting state."},
+        {"eyebrow":"SAVE THIS","headline":"FAIL SAFELY. RECOVER TRUTHFULLY.","body":"RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY."}
+      ]
     }
   ]
 }
