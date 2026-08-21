@@ -1,0 +1,1 @@
+{"build":"043","engineVersion":"043.1.0","canonicalFieldsFrozen":true,"derivedFields":["fixture members","roles","capacity","cost","bottlenecks","copy"],"replay":{"sideEffects":false,"requires":["exact exported members","engine 043.1.0"]},"nonClaims":["real execution","authority","effective coordination"]}
