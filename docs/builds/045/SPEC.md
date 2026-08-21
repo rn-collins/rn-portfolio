@@ -8,7 +8,7 @@
 
 ## Product contract
 
-The functional build evaluates a wholly synthetic route under cumulative cost, travel, mobility, eligibility, clinician and supply constraints. Every result remains replayable and exportable without network activity. The visual build explains how formal access can diverge from practical access.
+Engine 045.2.0 evaluates a wholly synthetic exact route. Currency is accumulated as cents; travel is finite segment distance. Unknown eligibility, waitlisted clinicians and limited supply require verification, while ineligibility, unavailability, cost, travel and mobility barriers block. Invalid context, duplicate or mismatched steps, fractional-cent cost and malformed alternatives fail closed. A blocked result never exposes the route as available. Export atomically snapshots and recomputes local state without network activity.
 
 ## Boundaries
 

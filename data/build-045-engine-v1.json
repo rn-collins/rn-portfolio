@@ -1,1 +1,48 @@
-{"build":"045","version":"045.1.0","fixture":"synthetic","dimensions":["location","cost","mobility","eligibility","clinician","supply"],"uses":["009","023","028","030","035"],"creates":["cap:045"],"directConsumers":["072","073"],"nonClaims":["medical advice","legal advice","eligibility determination","provider directory","price quote","product recommendation"]}
+{
+  "build": "045",
+  "version": "045.2.0",
+  "fixture": "synthetic",
+  "canonical": {
+    "title": "Cannabis Care Access Journey",
+    "job": "Show what a person must actually do, understand, pay for, travel through and overcome to access cannabis care.",
+    "bWeb": "A location and context-aware care journey reroutes under cost, mobility, eligibility, clinician and supply constraints."
+  },
+  "dimensions": [
+    "location",
+    "cost",
+    "travel",
+    "mobility",
+    "eligibility",
+    "clinician",
+    "supply"
+  ],
+  "uses": [
+    "009",
+    "023",
+    "028",
+    "030",
+    "035"
+  ],
+  "creates": [
+    "cap:045"
+  ],
+  "directConsumers": [
+    "072",
+    "073"
+  ],
+  "contracts": {
+    "exactRouteIdentity": true,
+    "currencyInCents": true,
+    "finiteDistance": true,
+    "hardAndVerificationConstraintsDistinct": true,
+    "blockedRouteEmpty": true
+  },
+  "nonClaims": [
+    "medical advice",
+    "legal advice",
+    "eligibility determination",
+    "provider directory",
+    "price quote",
+    "product recommendation"
+  ]
+}
