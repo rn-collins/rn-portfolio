@@ -8,8 +8,8 @@
 
 ## Product contract
 
-The functional build places an invented rule beside an invented person context and recomputes steps, records, wait, access barriers, burden and recourse after a procedural change. Export is atomic and state-only. The visual build reveals how a short rule becomes a lived path.
+Engine 048.2.0 exact-binds two invented rule versions and one invented person context, validates runtime enums and case-insensitive unique ordered lists, and deterministically recomputes steps, records, wait, access barriers, burden and recourse. Mutated or fabricated identity fails closed. Export is an atomic, state-only snapshot with an explicit non-action replay instruction.
 
 ## Boundaries
 
-No current rule, agency process, legal interpretation, compliance determination or real person is represented. A burden score cannot establish illegality, discrimination, harm or lived experience. Production use requires affected-community leadership plus legal, policy, domain, privacy, security, accessibility and physical-device review.
+No current rule, agency process, legal interpretation, compliance determination or real person is represented. A burden score cannot establish illegality, discrimination, harm, causation, remedy or lived experience. Production use requires affected-community leadership plus legal, policy, domain, privacy, security, accessibility and physical-device review.

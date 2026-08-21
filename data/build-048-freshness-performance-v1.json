@@ -1,1 +1,11 @@
-{"build":"048","asOf":"2026-08-20","freshness":"No current legal, procedural, agency, eligibility, deadline or individual-experience claim represented.","performance":{"engine":"deterministic synchronous","network":"none","animation":"disabled under prefers-reduced-motion"}}
+{
+  "build": "048",
+  "engine": "048.2.0",
+  "freshness": "No current rule, agency process, real person, or lived-experience evidence represented.",
+  "performance": {
+    "engine": "deterministic synchronous O(n)",
+    "network": "none",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

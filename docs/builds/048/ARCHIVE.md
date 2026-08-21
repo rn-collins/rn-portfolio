@@ -1,3 +1,3 @@
 # Build 048 archive
 
-Version 048.1.0 is the initial deterministic implementation. Both rules and the person context are invented. The comparison exists to expose procedural questions without claiming legal interpretation or substituting a score for testimony, observation, records or affected-community knowledge.
+Version 048.2.0 binds exact invented rule and person fixtures. Replay requires the exact atomic exported rule and context and is state-only: it must not infer real experience, law, discrimination, causation or remedy, or substitute a score for testimony, observation, records or affected-community knowledge.
