@@ -1,0 +1,27 @@
+{
+  "build": "060",
+  "engineVersion": "060.1.0",
+  "title": "Catch the IP You Create Before It Disappears Into the Workday",
+  "artifactTypes": [
+    "BRAND",
+    "INVENTION",
+    "CREATIVE",
+    "METHOD",
+    "DATA",
+    "CONFIDENTIAL KNOW-HOW"
+  ],
+  "scenarios": [
+    "CAPTURED-WORKDAY",
+    "UNCAPTURED-ITEM",
+    "PUBLIC-DISCLOSURE",
+    "ASSIGNMENT-CONFLICT"
+  ],
+  "inherited": [
+    "011.1.0",
+    "020.2.0",
+    "027.2.0",
+    "029.2.0",
+    "057.1.0"
+  ],
+  "boundary": "synthetic routing only; no IP/title/ownership/authorship/inventorship/protectability/confidentiality/trade-secret/assignment/infringement/deadline/value determination"
+}
