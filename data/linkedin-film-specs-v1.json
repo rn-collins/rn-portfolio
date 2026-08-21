@@ -2170,6 +2170,44 @@
           "body": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT."
         }
       ]
+    },
+    {
+      "id": "063",
+      "title": "Research That Does Not Die in a Folder",
+      "final": "THE RESEARCH KEEPS MOVING WHEN QUESTIONS, SOURCES, CLAIMS, GAPS, METHODS, UPDATES, AND OUTPUTS REMAIN CONNECTED.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 063",
+          "headline": "RESEARCH SHOULD NOT DIE IN A FOLDER",
+          "body": "A folder can store files while questions, sources, claims, gaps, methods, changes, and outputs lose their relationships."
+        },
+        {
+          "eyebrow": "REGISTER THE QUESTION",
+          "headline": "QUESTION · SOURCE · NOTE · CLAIM",
+          "body": "Use exact-bound synthetic research objects. Preserve identifiers, source versions, check dates, locators, notes, claims, methods, gaps, updates, and dependent outputs."
+        },
+        {
+          "eyebrow": "KEEP THE TRAIL ALIVE",
+          "headline": "GAP · CHANGE · REVIEW · OUTPUT",
+          "body": "When a source grows stale, support disappears, a method changes, or an output ages, retain the relationship and expose the required review state."
+        },
+        {
+          "eyebrow": "DO NOT COLLAPSE THE RECORD",
+          "headline": "CHECKED · LINKED · CURRENT · OPEN",
+          "body": "Keep each label bounded to the fixed fixture. A repository state does not establish truth, authority, quality, validity, rights, or publication readiness."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A REPOSITORY IS NOT PROOF",
+          "body": "The demo cannot determine truth, authority, completeness, causation, scientific validity, legal duty, ownership, permission, or approval to publish."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "THE RESEARCH KEEPS MOVING",
+          "body": "THE RESEARCH KEEPS MOVING WHEN QUESTIONS, SOURCES, CLAIMS, GAPS, METHODS, UPDATES, AND OUTPUTS REMAIN CONNECTED."
+        }
+      ]
     }
   ]
 }

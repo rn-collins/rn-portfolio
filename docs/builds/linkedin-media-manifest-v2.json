@@ -1415,6 +1415,34 @@
       "generator": "media062/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT."
+    },
+    {
+      "id": "063",
+      "title": "Research That Does Not Die in a Folder",
+      "path": "/media/builds/063/build-063-linkedin.mp4",
+      "poster": "/media/builds/063/build-063-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "3f2be66b1a993599aa7d077cf85e6b7a88a93e1a4b42de2d4a4b4061ee768cda",
+      "bytes": 131896,
+      "posterSha256": "fb96b4f3ad9ffe986493a9815c7e7287c50fcd93761e0489dbe9a1be54de68a1",
+      "posterBytes": 75523,
+      "contactSheet": "/media/builds/063/build-063-linkedin-contact-sheet.png",
+      "contactSheetSha256": "5181026a7a1589678f9396c481c6443dd00fd9a4456b969cece9cebb7e71ae0c",
+      "contactSheetBytes": 136511,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/063/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build063-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "THE RESEARCH KEEPS MOVING WHEN QUESTIONS, SOURCES, CLAIMS, GAPS, METHODS, UPDATES, AND OUTPUTS REMAIN CONNECTED."
     }
   ]
 }
