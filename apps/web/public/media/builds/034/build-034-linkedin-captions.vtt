@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.000
+BUILD 034. THE FAILURE IS MORE THAN THE ERROR MESSAGE. An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur.
+
+2
+00:00:03.000 --> 00:00:06.000
+PRESERVE FIRST. FREEZE THE EVIDENCE WITHOUT COPYING THE HARM. Record time, version, configuration, inputs, outputs, decisions, actions, owners, and provenance while minimizing personal and sensitive data.
+
+3
+00:00:06.000 --> 00:00:09.000
+RECONSTRUCT THE CHAIN. EVENT · HANDOFF · CONTROL · CONSEQUENCE. Separate observed fact from inference. Trace chronology, dependencies, human actions, missing records, contradictions, and alternative explanations.
+
+4
+00:00:09.000 --> 00:00:12.000
+RESPOND TO PEOPLE. NOTICE · STOP · CORRECT · REMEDY. Contain ongoing impact, preserve appeal and support routes, communicate uncertainty, and assign accountable deadlines.
+
+5
+00:00:12.000 --> 00:00:15.000
+PREVENT RECURRENCE. CAUSE · CONTROL · OWNER · RETEST. Distinguish root, contributing, and detection failures; change the system, verify the repair, monitor residual risk, and define rollback.
+
+6
+00:00:15.000 --> 00:00:18.000
+SAVE THIS. RECONSTRUCTION MUST LEAD TO RECOURSE. AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE.
+

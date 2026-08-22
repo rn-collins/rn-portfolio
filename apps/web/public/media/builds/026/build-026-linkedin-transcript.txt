@@ -1,0 +1,26 @@
+BUILD 026-B — Messy Data Trust X-Ray
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 026. A CLEAN TABLE CAN HIDE A MESSY HISTORY. Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision.
+
+SCENE 2
+PROVENANCE. TRACE WHERE EVERY FIELD CAME FROM. Keep source, collection method, transformation, timestamp, owner, and permitted use inspectable.
+
+SCENE 3
+QUALITY. TEST THE FAILURE MODES. Missingness, duplication, conflict, drift, outliers, and label uncertainty must remain separate signals.
+
+SCENE 4
+REPRESENTATION. ASK WHO IS MISSING. Coverage can look large while systematically excluding people, places, outcomes, or hard-to-record cases.
+
+SCENE 5
+DECISION FITNESS. BOUND THE CLAIM AND THE USE. Name what the data can support, what it cannot support, the accountable reviewer, and the next verification action.
+
+SCENE 6
+SAVE THIS. DO NOT CLEAN AWAY THE WARNING. MESSY DATA CAN SUPPORT A DECISION ONLY WHEN ITS LIMITS REMAIN VISIBLE.
+
+FINAL PROPOSITION
+MESSY DATA CAN SUPPORT A DECISION ONLY WHEN ITS LIMITS REMAIN VISIBLE.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.000
+BUILD 043. MORE AGENTS CREATE MORE HANDOFFS. Splitting complex work can add specialization while multiplying lost context, duplicated effort, hidden permissions, coordination cost, and unowned failure.
+
+2
+00:00:03.000 --> 00:00:06.000
+DESIGN THE TEAM. ROLE · OWNER · INPUT · OUTPUT. Use a synthetic topology to bind each agent and person to a bounded job, accountable owner, permitted tools, evidence contract, review point, and stop rule.
+
+3
+00:00:06.000 --> 00:00:09.000
+GOVERN THE HANDOFF. SOURCE · TRANSFORM · RECEIVER · ACCEPTANCE. Pass the smallest necessary state. Preserve provenance, uncertainty, constraints, rejected work, authority, expected response, and proof that the receiver accepted it.
+
+4
+00:00:09.000 --> 00:00:12.000
+RECOMPUTE THE SYSTEM. BOTTLENECK · SUPERVISION · COST · FAILURE. When a role or connection changes, recalculate queue pressure, human review, access, latency, spend, evaluation coverage, and every reachable failure path.
+
+5
+00:00:12.000 --> 00:00:15.000
+FAIL WITHOUT CASCADING. CONTAIN · FALL BACK · ESCALATE · STOP. Block loops, stale or conflicting state, unauthorized tools, missing owners, and failed required checks; preserve exact trace and accountable human intervention.
+
+6
+00:00:15.000 --> 00:00:18.000
+SAVE THIS. CONTROL LIVES BETWEEN THE NODES. AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH.
+

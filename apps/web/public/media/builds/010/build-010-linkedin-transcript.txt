@@ -1,0 +1,26 @@
+BUILD 010-B — Give the Idea a Skeleton
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 010. THE IDEA SOUNDS CLEAR.. Until two people mean different things by the same noun.
+
+SCENE 2
+NAME THE THINGS. ENTITIES NEED STABLE IDENTITIES.. A Place is not a Project. A Decision is not a Source.
+
+SCENE 3
+DEFINE THE FIELDS. TYPE · REQUIRED · CONSTRAINT. Every field earns a meaning and a rule.
+
+SCENE 4
+CONNECT THE GRAPH. FROM · RELATIONSHIP · TO. Cardinality makes vague connections testable.
+
+SCENE 5
+GROUND THE FACTS. AUTHORITY · LOCATOR · FRESHNESS. Source rules belong in the skeleton—not as cleanup later.
+
+SCENE 6
+SAVE THIS. STRUCTURE IS NOT TRUTH.. It makes assumptions visible enough to validate, challenge, and improve.
+
+FINAL PROPOSITION
+IF THE IDEA HAS NO STRUCTURE, IT CANNOT BE TESTED.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

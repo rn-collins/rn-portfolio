@@ -1,0 +1,26 @@
+BUILD 024-B — Privacy & Data Minimization Engine
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 024. MORE DATA IS NOT MORE INTELLIGENCE. Every collected field creates exposure, retention work, access pathways, and eventual deletion duties.
+
+SCENE 2
+START WITH PURPOSE. START WITH PURPOSE. Name the decision each field supports. Permission does not make unnecessary collection necessary.
+
+SCENE 3
+TEST EVERY FIELD. TEST EVERY FIELD. NECESSARY · OPTIONAL · SENSITIVE · DERIVED · PROHIBITED — keep the reason and evidence visible.
+
+SCENE 4
+MINIMIZE. MINIMIZE BEFORE COLLECTION. Remove prohibited fields. Default optional fields off. Replace sensitive detail with the least revealing form.
+
+SCENE 5
+DESIGN THE EXIT. DESIGN THE EXIT. Assign retention, deletion, redaction, and downstream handling before the data enters the workflow.
+
+SCENE 6
+SAVE THIS. THE SAFEST DATA HAS NO BREACH PATH. THE BEST DATA RISK IS DATA NEVER COLLECTED.
+
+FINAL PROPOSITION
+THE BEST DATA RISK IS DATA NEVER COLLECTED.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

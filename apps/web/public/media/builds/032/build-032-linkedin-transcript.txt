@@ -1,0 +1,26 @@
+BUILD 032-B — Consequential AI Release Readiness Harness
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 032. A PASSING SCORE DOES NOT AUTHORIZE RELEASE. Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.
+
+SCENE 2
+BOUND THE RELEASE. NAME THE VERSION AND THE CONSEQUENCE. Lock the model, data, configuration, purpose, affected people, decision, environment, change set, and unacceptable outcomes.
+
+SCENE 3
+RUN THE GATES. EVIDENCE · CONTROL · OWNER · AUTHORITY. Test performance, workflow, privacy, security, accessibility, notice, review, appeal, incident response, monitoring, and rollback.
+
+SCENE 4
+TEST FAILURE. EXPECTED · EDGE · MISUSE · OUTAGE. Use predeclared scenarios, thresholds, evidence locators, unresolved gaps, and independent challenge—not a launch-day demonstration.
+
+SCENE 5
+DECIDE THE NEXT STATE. HOLD · REMEDIATE · PILOT · RELEASE · ROLLBACK. Record who can decide, what conditions apply, when the decision expires, what will be monitored, and what automatically stops the use.
+
+SCENE 6
+SAVE THIS. READINESS MUST SURVIVE CONTACT WITH OPERATIONS. A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED.
+
+FINAL PROPOSITION
+A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

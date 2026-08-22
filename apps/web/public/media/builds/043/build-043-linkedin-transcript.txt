@@ -1,0 +1,26 @@
+BUILD 043-B — Design an AI Team
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 043. MORE AGENTS CREATE MORE HANDOFFS. Splitting complex work can add specialization while multiplying lost context, duplicated effort, hidden permissions, coordination cost, and unowned failure.
+
+SCENE 2
+DESIGN THE TEAM. ROLE · OWNER · INPUT · OUTPUT. Use a synthetic topology to bind each agent and person to a bounded job, accountable owner, permitted tools, evidence contract, review point, and stop rule.
+
+SCENE 3
+GOVERN THE HANDOFF. SOURCE · TRANSFORM · RECEIVER · ACCEPTANCE. Pass the smallest necessary state. Preserve provenance, uncertainty, constraints, rejected work, authority, expected response, and proof that the receiver accepted it.
+
+SCENE 4
+RECOMPUTE THE SYSTEM. BOTTLENECK · SUPERVISION · COST · FAILURE. When a role or connection changes, recalculate queue pressure, human review, access, latency, spend, evaluation coverage, and every reachable failure path.
+
+SCENE 5
+FAIL WITHOUT CASCADING. CONTAIN · FALL BACK · ESCALATE · STOP. Block loops, stale or conflicting state, unauthorized tools, missing owners, and failed required checks; preserve exact trace and accountable human intervention.
+
+SCENE 6
+SAVE THIS. CONTROL LIVES BETWEEN THE NODES. AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH.
+
+FINAL PROPOSITION
+AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

@@ -1,709 +1,909 @@
 {
   "schemaVersion": "1.0",
-  "asOfCommit": "7d9fc34389c453be9c699678c22b9d96a0e91cfe",
+  "asOfCommit": "1f364e6fd8f868b81c8cddf23d7bc23c2bfdbe83",
   "meaning": "Availability records what the deployed repository can actually serve. Production metadata alone does not make a film public.",
-  "publishedCount": 72,
-  "notPublishedCount": 28,
+  "publishedCount": 100,
+  "notPublishedCount": 0,
   "builds": [
     {
       "id": "001",
       "status": "PUBLISHED",
       "mp4": "/media/builds/001/build-001-linkedin.mp4",
       "poster": "/media/builds/001/build-001-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/001/build-001-linkedin-captions.vtt",
+      "transcript": "/media/builds/001/build-001-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "002",
       "status": "PUBLISHED",
       "mp4": "/media/builds/002/build-002-linkedin.mp4",
       "poster": "/media/builds/002/build-002-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/002/build-002-linkedin-captions.vtt",
+      "transcript": "/media/builds/002/build-002-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "003",
       "status": "PUBLISHED",
       "mp4": "/media/builds/003/build-003-linkedin.mp4",
       "poster": "/media/builds/003/build-003-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/003/build-003-linkedin-captions.vtt",
+      "transcript": "/media/builds/003/build-003-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "004",
       "status": "PUBLISHED",
       "mp4": "/media/builds/004/build-004-linkedin.mp4",
       "poster": "/media/builds/004/build-004-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/004/build-004-linkedin-captions.vtt",
+      "transcript": "/media/builds/004/build-004-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "005",
       "status": "PUBLISHED",
       "mp4": "/media/builds/005/build-005-linkedin.mp4",
       "poster": "/media/builds/005/build-005-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/005/build-005-linkedin-captions.vtt",
+      "transcript": "/media/builds/005/build-005-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "006",
       "status": "PUBLISHED",
       "mp4": "/media/builds/006/build-006-linkedin.mp4",
       "poster": "/media/builds/006/build-006-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/006/build-006-linkedin-captions.vtt",
+      "transcript": "/media/builds/006/build-006-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "007",
       "status": "PUBLISHED",
       "mp4": "/media/builds/007/build-007-linkedin.mp4",
       "poster": "/media/builds/007/build-007-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/007/build-007-linkedin-captions.vtt",
+      "transcript": "/media/builds/007/build-007-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "008",
       "status": "PUBLISHED",
       "mp4": "/media/builds/008/build-008-linkedin.mp4",
       "poster": "/media/builds/008/build-008-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/008/build-008-linkedin-captions.vtt",
+      "transcript": "/media/builds/008/build-008-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "009",
       "status": "PUBLISHED",
       "mp4": "/media/builds/009/build-009-linkedin.mp4",
       "poster": "/media/builds/009/build-009-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/009/build-009-linkedin-captions.vtt",
+      "transcript": "/media/builds/009/build-009-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "010",
       "status": "PUBLISHED",
       "mp4": "/media/builds/010/build-010-linkedin.mp4",
       "poster": "/media/builds/010/build-010-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/010/build-010-linkedin-captions.vtt",
+      "transcript": "/media/builds/010/build-010-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "011",
       "status": "PUBLISHED",
       "mp4": "/media/builds/011/build-011-linkedin.mp4",
       "poster": "/media/builds/011/build-011-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/011/build-011-linkedin-captions.vtt",
+      "transcript": "/media/builds/011/build-011-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "012",
       "status": "PUBLISHED",
       "mp4": "/media/builds/012/build-012-linkedin.mp4",
       "poster": "/media/builds/012/build-012-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/012/build-012-linkedin-captions.vtt",
+      "transcript": "/media/builds/012/build-012-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "013",
       "status": "PUBLISHED",
       "mp4": "/media/builds/013/build-013-linkedin.mp4",
       "poster": "/media/builds/013/build-013-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/013/build-013-linkedin-captions.vtt",
+      "transcript": "/media/builds/013/build-013-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "014",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/014/build-014-linkedin.mp4",
+      "poster": "/media/builds/014/build-014-linkedin-poster.png",
+      "captions": "/media/builds/014/build-014-linkedin-captions.vtt",
+      "transcript": "/media/builds/014/build-014-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "015",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/015/build-015-linkedin.mp4",
+      "poster": "/media/builds/015/build-015-linkedin-poster.png",
+      "captions": "/media/builds/015/build-015-linkedin-captions.vtt",
+      "transcript": "/media/builds/015/build-015-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "016",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/016/build-016-linkedin.mp4",
+      "poster": "/media/builds/016/build-016-linkedin-poster.png",
+      "captions": "/media/builds/016/build-016-linkedin-captions.vtt",
+      "transcript": "/media/builds/016/build-016-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "017",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/017/build-017-linkedin.mp4",
+      "poster": "/media/builds/017/build-017-linkedin-poster.png",
+      "captions": "/media/builds/017/build-017-linkedin-captions.vtt",
+      "transcript": "/media/builds/017/build-017-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "018",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/018/build-018-linkedin.mp4",
+      "poster": "/media/builds/018/build-018-linkedin-poster.png",
+      "captions": "/media/builds/018/build-018-linkedin-captions.vtt",
+      "transcript": "/media/builds/018/build-018-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "019",
       "status": "PUBLISHED",
       "mp4": "/media/builds/019/build-019-linkedin.mp4",
       "poster": "/media/builds/019/build-019-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/019/build-019-linkedin-captions.vtt",
+      "transcript": "/media/builds/019/build-019-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "020",
       "status": "PUBLISHED",
       "mp4": "/media/builds/020/build-020-linkedin.mp4",
       "poster": "/media/builds/020/build-020-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/020/build-020-linkedin-captions.vtt",
+      "transcript": "/media/builds/020/build-020-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "021",
       "status": "PUBLISHED",
       "mp4": "/media/builds/021/build-021-linkedin.mp4",
       "poster": "/media/builds/021/build-021-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/021/build-021-linkedin-captions.vtt",
+      "transcript": "/media/builds/021/build-021-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "022",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/022/build-022-linkedin.mp4",
+      "poster": "/media/builds/022/build-022-linkedin-poster.png",
+      "captions": "/media/builds/022/build-022-linkedin-captions.vtt",
+      "transcript": "/media/builds/022/build-022-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "023",
       "status": "PUBLISHED",
       "mp4": "/media/builds/023/build-023-linkedin.mp4",
       "poster": "/media/builds/023/build-023-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/023/build-023-linkedin-captions.vtt",
+      "transcript": "/media/builds/023/build-023-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "024",
       "status": "PUBLISHED",
       "mp4": "/media/builds/024/build-024-linkedin.mp4",
       "poster": "/media/builds/024/build-024-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/024/build-024-linkedin-captions.vtt",
+      "transcript": "/media/builds/024/build-024-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "025",
       "status": "PUBLISHED",
       "mp4": "/media/builds/025/build-025-linkedin.mp4",
       "poster": "/media/builds/025/build-025-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/025/build-025-linkedin-captions.vtt",
+      "transcript": "/media/builds/025/build-025-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "026",
       "status": "PUBLISHED",
       "mp4": "/media/builds/026/build-026-linkedin.mp4",
       "poster": "/media/builds/026/build-026-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/026/build-026-linkedin-captions.vtt",
+      "transcript": "/media/builds/026/build-026-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "027",
       "status": "PUBLISHED",
       "mp4": "/media/builds/027/build-027-linkedin.mp4",
       "poster": "/media/builds/027/build-027-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/027/build-027-linkedin-captions.vtt",
+      "transcript": "/media/builds/027/build-027-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "028",
       "status": "PUBLISHED",
       "mp4": "/media/builds/028/build-028-linkedin.mp4",
       "poster": "/media/builds/028/build-028-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/028/build-028-linkedin-captions.vtt",
+      "transcript": "/media/builds/028/build-028-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "029",
       "status": "PUBLISHED",
       "mp4": "/media/builds/029/build-029-linkedin.mp4",
       "poster": "/media/builds/029/build-029-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/029/build-029-linkedin-captions.vtt",
+      "transcript": "/media/builds/029/build-029-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "030",
       "status": "PUBLISHED",
       "mp4": "/media/builds/030/build-030-linkedin.mp4",
       "poster": "/media/builds/030/build-030-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/030/build-030-linkedin-captions.vtt",
+      "transcript": "/media/builds/030/build-030-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "031",
       "status": "PUBLISHED",
       "mp4": "/media/builds/031/build-031-linkedin.mp4",
       "poster": "/media/builds/031/build-031-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/031/build-031-linkedin-captions.vtt",
+      "transcript": "/media/builds/031/build-031-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "032",
       "status": "PUBLISHED",
       "mp4": "/media/builds/032/build-032-linkedin.mp4",
       "poster": "/media/builds/032/build-032-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/032/build-032-linkedin-captions.vtt",
+      "transcript": "/media/builds/032/build-032-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "033",
       "status": "PUBLISHED",
       "mp4": "/media/builds/033/build-033-linkedin.mp4",
       "poster": "/media/builds/033/build-033-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/033/build-033-linkedin-captions.vtt",
+      "transcript": "/media/builds/033/build-033-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "034",
       "status": "PUBLISHED",
       "mp4": "/media/builds/034/build-034-linkedin.mp4",
       "poster": "/media/builds/034/build-034-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/034/build-034-linkedin-captions.vtt",
+      "transcript": "/media/builds/034/build-034-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "035",
       "status": "PUBLISHED",
       "mp4": "/media/builds/035/build-035-linkedin.mp4",
       "poster": "/media/builds/035/build-035-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/035/build-035-linkedin-captions.vtt",
+      "transcript": "/media/builds/035/build-035-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "036",
       "status": "PUBLISHED",
       "mp4": "/media/builds/036/build-036-linkedin.mp4",
       "poster": "/media/builds/036/build-036-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/036/build-036-linkedin-captions.vtt",
+      "transcript": "/media/builds/036/build-036-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "037",
       "status": "PUBLISHED",
       "mp4": "/media/builds/037/build-037-linkedin.mp4",
       "poster": "/media/builds/037/build-037-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/037/build-037-linkedin-captions.vtt",
+      "transcript": "/media/builds/037/build-037-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "038",
       "status": "PUBLISHED",
       "mp4": "/media/builds/038/build-038-linkedin.mp4",
       "poster": "/media/builds/038/build-038-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/038/build-038-linkedin-captions.vtt",
+      "transcript": "/media/builds/038/build-038-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "039",
       "status": "PUBLISHED",
       "mp4": "/media/builds/039/build-039-linkedin.mp4",
       "poster": "/media/builds/039/build-039-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/039/build-039-linkedin-captions.vtt",
+      "transcript": "/media/builds/039/build-039-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "040",
       "status": "PUBLISHED",
       "mp4": "/media/builds/040/build-040-linkedin.mp4",
       "poster": "/media/builds/040/build-040-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/040/build-040-linkedin-captions.vtt",
+      "transcript": "/media/builds/040/build-040-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "041",
       "status": "PUBLISHED",
       "mp4": "/media/builds/041/build-041-linkedin.mp4",
       "poster": "/media/builds/041/build-041-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/041/build-041-linkedin-captions.vtt",
+      "transcript": "/media/builds/041/build-041-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "042",
       "status": "PUBLISHED",
       "mp4": "/media/builds/042/build-042-linkedin.mp4",
       "poster": "/media/builds/042/build-042-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/042/build-042-linkedin-captions.vtt",
+      "transcript": "/media/builds/042/build-042-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "043",
       "status": "PUBLISHED",
       "mp4": "/media/builds/043/build-043-linkedin.mp4",
       "poster": "/media/builds/043/build-043-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/043/build-043-linkedin-captions.vtt",
+      "transcript": "/media/builds/043/build-043-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "044",
       "status": "PUBLISHED",
       "mp4": "/media/builds/044/build-044-linkedin.mp4",
       "poster": "/media/builds/044/build-044-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/044/build-044-linkedin-captions.vtt",
+      "transcript": "/media/builds/044/build-044-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "045",
       "status": "PUBLISHED",
       "mp4": "/media/builds/045/build-045-linkedin.mp4",
       "poster": "/media/builds/045/build-045-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/045/build-045-linkedin-captions.vtt",
+      "transcript": "/media/builds/045/build-045-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "046",
       "status": "PUBLISHED",
       "mp4": "/media/builds/046/build-046-linkedin.mp4",
       "poster": "/media/builds/046/build-046-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/046/build-046-linkedin-captions.vtt",
+      "transcript": "/media/builds/046/build-046-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "047",
       "status": "PUBLISHED",
       "mp4": "/media/builds/047/build-047-linkedin.mp4",
       "poster": "/media/builds/047/build-047-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/047/build-047-linkedin-captions.vtt",
+      "transcript": "/media/builds/047/build-047-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "048",
       "status": "PUBLISHED",
       "mp4": "/media/builds/048/build-048-linkedin.mp4",
       "poster": "/media/builds/048/build-048-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/048/build-048-linkedin-captions.vtt",
+      "transcript": "/media/builds/048/build-048-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "049",
       "status": "PUBLISHED",
       "mp4": "/media/builds/049/build-049-linkedin.mp4",
       "poster": "/media/builds/049/build-049-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/049/build-049-linkedin-captions.vtt",
+      "transcript": "/media/builds/049/build-049-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "050",
       "status": "PUBLISHED",
       "mp4": "/media/builds/050/build-050-linkedin.mp4",
       "poster": "/media/builds/050/build-050-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/050/build-050-linkedin-captions.vtt",
+      "transcript": "/media/builds/050/build-050-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "051",
       "status": "PUBLISHED",
       "mp4": "/media/builds/051/build-051-linkedin.mp4",
       "poster": "/media/builds/051/build-051-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/051/build-051-linkedin-captions.vtt",
+      "transcript": "/media/builds/051/build-051-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "052",
       "status": "PUBLISHED",
       "mp4": "/media/builds/052/build-052-linkedin.mp4",
       "poster": "/media/builds/052/build-052-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/052/build-052-linkedin-captions.vtt",
+      "transcript": "/media/builds/052/build-052-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "053",
       "status": "PUBLISHED",
       "mp4": "/media/builds/053/build-053-linkedin.mp4",
       "poster": "/media/builds/053/build-053-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/053/build-053-linkedin-captions.vtt",
+      "transcript": "/media/builds/053/build-053-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "054",
       "status": "PUBLISHED",
       "mp4": "/media/builds/054/build-054-linkedin.mp4",
       "poster": "/media/builds/054/build-054-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/054/build-054-linkedin-captions.vtt",
+      "transcript": "/media/builds/054/build-054-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "055",
       "status": "PUBLISHED",
       "mp4": "/media/builds/055/build-055-linkedin.mp4",
       "poster": "/media/builds/055/build-055-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/055/build-055-linkedin-captions.vtt",
+      "transcript": "/media/builds/055/build-055-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "056",
       "status": "PUBLISHED",
       "mp4": "/media/builds/056/build-056-linkedin.mp4",
       "poster": "/media/builds/056/build-056-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/056/build-056-linkedin-captions.vtt",
+      "transcript": "/media/builds/056/build-056-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "057",
       "status": "PUBLISHED",
       "mp4": "/media/builds/057/build-057-linkedin.mp4",
       "poster": "/media/builds/057/build-057-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/057/build-057-linkedin-captions.vtt",
+      "transcript": "/media/builds/057/build-057-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "058",
       "status": "PUBLISHED",
       "mp4": "/media/builds/058/build-058-linkedin.mp4",
       "poster": "/media/builds/058/build-058-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/058/build-058-linkedin-captions.vtt",
+      "transcript": "/media/builds/058/build-058-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "059",
       "status": "PUBLISHED",
       "mp4": "/media/builds/059/build-059-linkedin.mp4",
       "poster": "/media/builds/059/build-059-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/059/build-059-linkedin-captions.vtt",
+      "transcript": "/media/builds/059/build-059-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "060",
       "status": "PUBLISHED",
       "mp4": "/media/builds/060/build-060-linkedin.mp4",
       "poster": "/media/builds/060/build-060-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/060/build-060-linkedin-captions.vtt",
+      "transcript": "/media/builds/060/build-060-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "061",
       "status": "PUBLISHED",
       "mp4": "/media/builds/061/build-061-linkedin.mp4",
       "poster": "/media/builds/061/build-061-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/061/build-061-linkedin-captions.vtt",
+      "transcript": "/media/builds/061/build-061-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "062",
       "status": "PUBLISHED",
       "mp4": "/media/builds/062/build-062-linkedin.mp4",
       "poster": "/media/builds/062/build-062-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/062/build-062-linkedin-captions.vtt",
+      "transcript": "/media/builds/062/build-062-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "063",
       "status": "PUBLISHED",
       "mp4": "/media/builds/063/build-063-linkedin.mp4",
       "poster": "/media/builds/063/build-063-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/063/build-063-linkedin-captions.vtt",
+      "transcript": "/media/builds/063/build-063-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "064",
       "status": "PUBLISHED",
       "mp4": "/media/builds/064/build-064-linkedin.mp4",
       "poster": "/media/builds/064/build-064-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/064/build-064-linkedin-captions.vtt",
+      "transcript": "/media/builds/064/build-064-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "065",
       "status": "PUBLISHED",
       "mp4": "/media/builds/065/build-065-linkedin.mp4",
       "poster": "/media/builds/065/build-065-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/065/build-065-linkedin-captions.vtt",
+      "transcript": "/media/builds/065/build-065-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "066",
       "status": "PUBLISHED",
       "mp4": "/media/builds/066/build-066-linkedin.mp4",
       "poster": "/media/builds/066/build-066-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/066/build-066-linkedin-captions.vtt",
+      "transcript": "/media/builds/066/build-066-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "067",
       "status": "PUBLISHED",
       "mp4": "/media/builds/067/build-067-linkedin.mp4",
       "poster": "/media/builds/067/build-067-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/067/build-067-linkedin-captions.vtt",
+      "transcript": "/media/builds/067/build-067-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "068",
       "status": "PUBLISHED",
       "mp4": "/media/builds/068/build-068-linkedin.mp4",
       "poster": "/media/builds/068/build-068-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/068/build-068-linkedin-captions.vtt",
+      "transcript": "/media/builds/068/build-068-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "069",
       "status": "PUBLISHED",
       "mp4": "/media/builds/069/build-069-linkedin.mp4",
       "poster": "/media/builds/069/build-069-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/069/build-069-linkedin-captions.vtt",
+      "transcript": "/media/builds/069/build-069-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "070",
       "status": "PUBLISHED",
       "mp4": "/media/builds/070/build-070-linkedin.mp4",
       "poster": "/media/builds/070/build-070-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/070/build-070-linkedin-captions.vtt",
+      "transcript": "/media/builds/070/build-070-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "071",
       "status": "PUBLISHED",
       "mp4": "/media/builds/071/build-071-linkedin.mp4",
       "poster": "/media/builds/071/build-071-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/071/build-071-linkedin-captions.vtt",
+      "transcript": "/media/builds/071/build-071-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "072",
       "status": "PUBLISHED",
       "mp4": "/media/builds/072/build-072-linkedin.mp4",
       "poster": "/media/builds/072/build-072-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/072/build-072-linkedin-captions.vtt",
+      "transcript": "/media/builds/072/build-072-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "073",
       "status": "PUBLISHED",
       "mp4": "/media/builds/073/build-073-linkedin.mp4",
       "poster": "/media/builds/073/build-073-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/073/build-073-linkedin-captions.vtt",
+      "transcript": "/media/builds/073/build-073-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "074",
       "status": "PUBLISHED",
       "mp4": "/media/builds/074/build-074-linkedin.mp4",
       "poster": "/media/builds/074/build-074-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/074/build-074-linkedin-captions.vtt",
+      "transcript": "/media/builds/074/build-074-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "075",
       "status": "PUBLISHED",
       "mp4": "/media/builds/075/build-075-linkedin.mp4",
       "poster": "/media/builds/075/build-075-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/075/build-075-linkedin-captions.vtt",
+      "transcript": "/media/builds/075/build-075-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "076",
       "status": "PUBLISHED",
       "mp4": "/media/builds/076/build-076-linkedin.mp4",
       "poster": "/media/builds/076/build-076-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/076/build-076-linkedin-captions.vtt",
+      "transcript": "/media/builds/076/build-076-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "077",
       "status": "PUBLISHED",
       "mp4": "/media/builds/077/build-077-linkedin.mp4",
       "poster": "/media/builds/077/build-077-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/077/build-077-linkedin-captions.vtt",
+      "transcript": "/media/builds/077/build-077-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "078",
       "status": "PUBLISHED",
       "mp4": "/media/builds/078/build-078-linkedin.mp4",
       "poster": "/media/builds/078/build-078-linkedin-poster.png",
-      "reason": "Repository MP4 and poster are present."
+      "captions": "/media/builds/078/build-078-linkedin-captions.vtt",
+      "transcript": "/media/builds/078/build-078-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "079",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/079/build-079-linkedin.mp4",
+      "poster": "/media/builds/079/build-079-linkedin-poster.png",
+      "captions": "/media/builds/079/build-079-linkedin-captions.vtt",
+      "transcript": "/media/builds/079/build-079-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "080",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/080/build-080-linkedin.mp4",
+      "poster": "/media/builds/080/build-080-linkedin-poster.png",
+      "captions": "/media/builds/080/build-080-linkedin-captions.vtt",
+      "transcript": "/media/builds/080/build-080-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "081",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/081/build-081-linkedin.mp4",
+      "poster": "/media/builds/081/build-081-linkedin-poster.png",
+      "captions": "/media/builds/081/build-081-linkedin-captions.vtt",
+      "transcript": "/media/builds/081/build-081-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "082",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/082/build-082-linkedin.mp4",
+      "poster": "/media/builds/082/build-082-linkedin-poster.png",
+      "captions": "/media/builds/082/build-082-linkedin-captions.vtt",
+      "transcript": "/media/builds/082/build-082-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "083",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/083/build-083-linkedin.mp4",
+      "poster": "/media/builds/083/build-083-linkedin-poster.png",
+      "captions": "/media/builds/083/build-083-linkedin-captions.vtt",
+      "transcript": "/media/builds/083/build-083-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "084",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/084/build-084-linkedin.mp4",
+      "poster": "/media/builds/084/build-084-linkedin-poster.png",
+      "captions": "/media/builds/084/build-084-linkedin-captions.vtt",
+      "transcript": "/media/builds/084/build-084-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "085",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/085/build-085-linkedin.mp4",
+      "poster": "/media/builds/085/build-085-linkedin-poster.png",
+      "captions": "/media/builds/085/build-085-linkedin-captions.vtt",
+      "transcript": "/media/builds/085/build-085-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "086",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/086/build-086-linkedin.mp4",
+      "poster": "/media/builds/086/build-086-linkedin-poster.png",
+      "captions": "/media/builds/086/build-086-linkedin-captions.vtt",
+      "transcript": "/media/builds/086/build-086-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "087",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/087/build-087-linkedin.mp4",
+      "poster": "/media/builds/087/build-087-linkedin-poster.png",
+      "captions": "/media/builds/087/build-087-linkedin-captions.vtt",
+      "transcript": "/media/builds/087/build-087-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "088",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/088/build-088-linkedin.mp4",
+      "poster": "/media/builds/088/build-088-linkedin-poster.png",
+      "captions": "/media/builds/088/build-088-linkedin-captions.vtt",
+      "transcript": "/media/builds/088/build-088-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "089",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/089/build-089-linkedin.mp4",
+      "poster": "/media/builds/089/build-089-linkedin-poster.png",
+      "captions": "/media/builds/089/build-089-linkedin-captions.vtt",
+      "transcript": "/media/builds/089/build-089-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "090",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/090/build-090-linkedin.mp4",
+      "poster": "/media/builds/090/build-090-linkedin-poster.png",
+      "captions": "/media/builds/090/build-090-linkedin-captions.vtt",
+      "transcript": "/media/builds/090/build-090-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "091",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/091/build-091-linkedin.mp4",
+      "poster": "/media/builds/091/build-091-linkedin-poster.png",
+      "captions": "/media/builds/091/build-091-linkedin-captions.vtt",
+      "transcript": "/media/builds/091/build-091-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "092",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/092/build-092-linkedin.mp4",
+      "poster": "/media/builds/092/build-092-linkedin-poster.png",
+      "captions": "/media/builds/092/build-092-linkedin-captions.vtt",
+      "transcript": "/media/builds/092/build-092-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "093",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/093/build-093-linkedin.mp4",
+      "poster": "/media/builds/093/build-093-linkedin-poster.png",
+      "captions": "/media/builds/093/build-093-linkedin-captions.vtt",
+      "transcript": "/media/builds/093/build-093-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "094",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/094/build-094-linkedin.mp4",
+      "poster": "/media/builds/094/build-094-linkedin-poster.png",
+      "captions": "/media/builds/094/build-094-linkedin-captions.vtt",
+      "transcript": "/media/builds/094/build-094-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "095",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/095/build-095-linkedin.mp4",
+      "poster": "/media/builds/095/build-095-linkedin-poster.png",
+      "captions": "/media/builds/095/build-095-linkedin-captions.vtt",
+      "transcript": "/media/builds/095/build-095-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "096",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/096/build-096-linkedin.mp4",
+      "poster": "/media/builds/096/build-096-linkedin-poster.png",
+      "captions": "/media/builds/096/build-096-linkedin-captions.vtt",
+      "transcript": "/media/builds/096/build-096-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "097",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/097/build-097-linkedin.mp4",
+      "poster": "/media/builds/097/build-097-linkedin-poster.png",
+      "captions": "/media/builds/097/build-097-linkedin-captions.vtt",
+      "transcript": "/media/builds/097/build-097-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "098",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/098/build-098-linkedin.mp4",
+      "poster": "/media/builds/098/build-098-linkedin-poster.png",
+      "captions": "/media/builds/098/build-098-linkedin-captions.vtt",
+      "transcript": "/media/builds/098/build-098-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "099",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/099/build-099-linkedin.mp4",
+      "poster": "/media/builds/099/build-099-linkedin-poster.png",
+      "captions": "/media/builds/099/build-099-linkedin-captions.vtt",
+      "transcript": "/media/builds/099/build-099-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     },
     {
       "id": "100",
-      "status": "NOT_PUBLISHED",
-      "mp4": null,
-      "poster": null,
-      "reason": "No repository MP4 is present; no public film is claimed."
+      "status": "PUBLISHED",
+      "mp4": "/media/builds/100/build-100-linkedin.mp4",
+      "poster": "/media/builds/100/build-100-linkedin-poster.png",
+      "captions": "/media/builds/100/build-100-linkedin-captions.vtt",
+      "transcript": "/media/builds/100/build-100-linkedin-transcript.txt",
+      "reason": "Video, poster, captions and transcript are present in the deployable repository."
     }
   ]
 }

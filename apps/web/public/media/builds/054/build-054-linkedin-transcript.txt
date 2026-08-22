@@ -1,0 +1,26 @@
+BUILD 054-B — Make the Space Adapt to the Person
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 054. A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON. Light, quiet zones, and seating can be proposed from a synthetic task and context—but a configuration is not permission to change a real space.
+
+SCENE 2
+DECLARE THE SCENARIO. PERSON · TASK · CONTEXT · CONSTRAINT. Use only an exact-bound synthetic scenario. Keep occupants, task, preferences, conflicts, unknowns, authority, and available controls visible.
+
+SCENE 3
+RECOMPUTE THE PROPOSAL. SETTING · RATIONALE · TRADEOFF. When the scenario changes, recompute proposed light, quiet-zone, and seating settings. Preserve unresolved conditions and explicit non-actions.
+
+SCENE 4
+MAKE CONFLICT REVIEWABLE. ONE PERSON · MANY PEOPLE · HUMAN REVIEW. A setting that supports one task may complicate another. Do not collapse competing needs into a score, prediction, inferred trait, or automatic accommodation.
+
+SCENE 5
+BOUND THE SYSTEM. PROPOSE—DO NOT ACTUATE. The demo reads no sensors, controls no equipment, measures no effect, infers no protected trait, and cannot determine safety, accessibility, compliance, or personal need.
+
+SCENE 6
+SAVE THIS. KEEP THE PERSON IN CONTROL. AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE.
+
+FINAL PROPOSITION
+AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

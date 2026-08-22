@@ -1,0 +1,26 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.000
+BUILD 013. THE MODEL IS ONE STAGE.. Consequence is produced by the full workflow around it.
+
+2
+00:00:03.000 --> 00:00:06.000
+MAP THE HANDOFFS. INTAKE → DATA → MODEL → DECISION → ACTION. Add monitoring because the workflow does not end when an action ships.
+
+3
+00:00:06.000 --> 00:00:09.000
+PLACE THE RISK. WHERE DOES IT ENTER?. Incorrect data, automation bias, and failed notice begin at different stages.
+
+4
+00:00:09.000 --> 00:00:12.000
+TRACE THE PATH. WHAT CAN IT REACH?. A missing control becomes a condition inherited by downstream work.
+
+5
+00:00:12.000 --> 00:00:15.000
+CONTROL EACH STAGE. OWNER · CONTROL · STOP · MONITOR. Every handoff needs accountable power—not a generic assurance statement.
+
+6
+00:00:15.000 --> 00:00:18.000
+SAVE THIS. FOLLOW THE CONSEQUENCE THROUGH THE WORK.. A propagation score exposes gaps. It never approves deployment.
+

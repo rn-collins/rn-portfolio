@@ -1,0 +1,26 @@
+BUILD 058-B — Trace a Claim All the Way Back
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 058. A CITATION CAN HIDE A BROKEN SUPPORT PATH. A factual claim may point to a source while the exact evidence, authority, date, version, locator, or verification state remains missing or mismatched.
+
+SCENE 2
+REGISTER THE CLAIM. TEXT · SCOPE · DATE · VERSION. Use an exact-bound synthetic claim. Preserve qualifiers, negation, population, jurisdiction, asserted date, claimant, status, and every material word that evidence must support.
+
+SCENE 3
+TRACE TO THE ROOT. EVIDENCE · SOURCE · AUTHORITY · LOCATOR. Connect the claim through recorded evidence to its source and issuing authority. Keep publication, effective and checked dates, versions, quotations, transformations, and unknowns distinct.
+
+SCENE 4
+REMOVE ONE SOURCE. WATCH SUPPORT COLLAPSE. Delete a synthetic source or edge and recompute only declared linkage, coverage, contradiction, dependency, and unsupported claim fragments.
+
+SCENE 5
+BOUND THE RESULT. SUPPORT STATE IS NOT TRUTH. A link or status cannot prove correctness, authority, causation, completeness, admissibility, scientific validity, consensus, endorsement, currentness, or that the claim is true.
+
+SCENE 6
+SAVE THIS. MAKE THE EVIDENCE PATH VISIBLE. A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER.
+
+FINAL PROPOSITION
+A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER.
+
+This film has no spoken audio. All meaning is presented as on-screen text.
