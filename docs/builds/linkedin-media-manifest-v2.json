@@ -1779,6 +1779,34 @@
       "generator": "build075-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "COMPARE TRADEOFFS. KEEP CLAIMS SMALL."
+    },
+    {
+      "id": "076",
+      "title": "The Map That Knows the Difference Between Similar Laws",
+      "path": "/media/builds/076/build-076-linkedin.mp4",
+      "poster": "/media/builds/076/build-076-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "cdbb390247b4cc351fc00d206f15b0d0ec27f61170070b18e4626038f812e39e",
+      "bytes": 207253,
+      "posterSha256": "0348aa9cb2b2fbf7201087a923d50301d5db4f6704401db3bcfb06f3f4797b17",
+      "posterBytes": 144383,
+      "contactSheet": "/media/builds/076/build-076-linkedin-contact-sheet.png",
+      "contactSheetSha256": "e9017b50aec515c8c8749471a5c7f470b4c411ca686514f49070f4817e7705d3",
+      "contactSheetBytes": 156740,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/076/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build076-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TRACE THE DIFFERENCE. KEEP THE SOURCE."
     }
   ]
 }
