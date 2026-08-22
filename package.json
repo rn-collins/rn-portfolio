@@ -12,13 +12,14 @@
     "lint": "turbo lint",
     "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm validate:lineage && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "ci": "pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
     "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
-    "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs"
+    "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs",
+    "validate:canonical-lineage": "node scripts/validate-canonical-lineage.mjs"
   },
   "devDependencies": {
-    "@playwright/test": "latest",
-    "turbo": "latest",
-    "typescript": "^6.0.0"
+    "@playwright/test": "1.62.1",
+    "turbo": "2.10.9",
+    "typescript": "6.0.3"
   }
 }
