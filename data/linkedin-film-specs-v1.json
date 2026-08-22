@@ -2854,6 +2854,44 @@
           "body": "EXTRACT REUSABLE ASSETS. RETAIN SOURCE, RIGHTS, DATE, STATUS, LIMITS, UNKNOWNS, OWNER, AND UPDATE PATH."
         }
       ]
+    },
+    {
+      "id": "081",
+      "title": "Listening for the Missing System",
+      "final": "LISTEN FOR THE MISSING SYSTEM.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 081",
+          "headline": "PEOPLE KEEP ASKING. THE SYSTEM IS MISSING.",
+          "body": "A fixed synthetic conversation field can expose repeated decision gaps without proving a real unmet need."
+        },
+        {
+          "eyebrow": "MOVE SIGNALS THROUGH VALIDATION",
+          "headline": "PRESERVE WORDS · SOURCE · CONTEXT",
+          "body": "Invented posts remain distinct from inferred needs, opportunities, identities, demographics, or sentiment."
+        },
+        {
+          "eyebrow": "CLASSIFY THE REPEATED DECISION",
+          "headline": "SIGNAL ≠ NEED ≠ OPPORTUNITY",
+          "body": "Fixture repetition may be corroborated while the need remains an explicitly unvalidated hypothesis."
+        },
+        {
+          "eyebrow": "VERIFY WHAT IS MISSING",
+          "headline": "REPETITION · ALTERNATIVES · CONTRADICTIONS",
+          "body": "Existing alternatives, conflicts, missing evidence, and human-research requirements stay visible."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "REPETITION CANNOT PROVE ALONE",
+          "body": "Fixed synthetic posts only; no scraping, profiling, protected-trait inference, ranking, demand, trend, priority, recommendation, product, policy, or outcome claim."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "LISTEN FOR THE MISSING SYSTEM.",
+          "body": "PRESERVE THE WORDS. SEPARATE SIGNAL, NEED, AND OPPORTUNITY. REQUIRE HUMAN RESEARCH BEFORE THE HYPOTHESIS MAY MOVE."
+        }
+      ]
     }
   ]
 }

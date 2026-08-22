@@ -1919,6 +1919,34 @@
       "generator": "build080-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "REPORTING CAN BECOME PUBLIC INFRASTRUCTURE."
+    },
+    {
+      "id": "081",
+      "title": "Listening for the Missing System",
+      "path": "/media/builds/081/build-081-linkedin.mp4",
+      "poster": "/media/builds/081/build-081-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "0f28b9ede4009ab7d2c42f756f4b9421ef37e3c0ee815abbac0974377205b02d",
+      "bytes": 218535,
+      "posterSha256": "490f754c7493febb083cd21f5aed7c0cdf4a04384ca59876ab3e653bd5546021",
+      "posterBytes": 138080,
+      "contactSheet": "/media/builds/081/build-081-linkedin-contact-sheet.png",
+      "contactSheetSha256": "9037aa56fee1abfa887dac2d37165446fb20948ae23a33021d22881935c876b9",
+      "contactSheetBytes": 152103,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/081/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; repaired headline and contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build081-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "LISTEN FOR THE MISSING SYSTEM."
     }
   ]
 }
