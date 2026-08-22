@@ -1947,6 +1947,34 @@
       "generator": "build081-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "LISTEN FOR THE MISSING SYSTEM."
+    },
+    {
+      "id": "082",
+      "title": "An Audience Is Not a Demographic Box",
+      "path": "/media/builds/082/build-082-linkedin.mp4",
+      "poster": "/media/builds/082/build-082-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "c883d8a95bcdc8fb87526e8fa383570de17b98497d64c9645dd2a56f87ce6cc5",
+      "bytes": 186372,
+      "posterSha256": "2483a58e28bd3e8bc94285ebf42c98844ae1f3e5309638a0d7d3d8d8d6aa741d",
+      "posterBytes": 127519,
+      "contactSheet": "/media/builds/082/build-082-linkedin-contact-sheet.png",
+      "contactSheetSha256": "c5a04517ac2d57a6c550b64621f119afea11a6ebe43ba919be4e946554f5bf46",
+      "contactSheetBytes": 141192,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/082/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; repaired graph-node label and contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build082-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "UNDERSTAND THE RELATIONSHIPS."
     }
   ]
 }

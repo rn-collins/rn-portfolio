@@ -2892,6 +2892,44 @@
           "body": "PRESERVE THE WORDS. SEPARATE SIGNAL, NEED, AND OPPORTUNITY. REQUIRE HUMAN RESEARCH BEFORE THE HYPOTHESIS MAY MOVE."
         }
       ]
+    },
+    {
+      "id": "082",
+      "title": "An Audience Is Not a Demographic Box",
+      "final": "UNDERSTAND THE RELATIONSHIPS.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 082",
+          "headline": "AN AUDIENCE IS NOT A DEMOGRAPHIC BOX.",
+          "body": "A fictional persona card cannot explain a relationship, and demographic proxies cannot supply the missing context."
+        },
+        {
+          "eyebrow": "EXPAND THE CARD INTO A GRAPH",
+          "headline": "NEED · LANGUAGE · CONTEXT",
+          "body": "Fixed synthetic sources connect to ontology nodes while evidence, caveats, and unknowns remain attached."
+        },
+        {
+          "eyebrow": "DESCRIBE THE RELATIONSHIPS",
+          "headline": "SOURCE · EVIDENCE · UNKNOWN",
+          "body": "Edges record bounded fixture relationships rather than inferred identity, personality, protected traits, or behavior."
+        },
+        {
+          "eyebrow": "KEEP CLAIM TYPES SEPARATE",
+          "headline": "TRUST · INFLUENCE · ACTION",
+          "body": "Trusted-source assertions and conversion evidence retain explicit caveats; neither becomes a prediction."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A GRAPH DOES NOT DEFINE PEOPLE",
+          "body": "Fixed synthetic audience only; no profiling, targeting, persuasion, surveillance, demographic, protected-trait, identity, psychographic, trustworthiness, influence, behavior, or conversion inference."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "UNDERSTAND THE RELATIONSHIPS.",
+          "body": "CONNECT NEED, LANGUAGE, AND CONTEXT. RETAIN SOURCE, EVIDENCE, CAVEAT, CONTRADICTION, CHANGE, AND UNKNOWN."
+        }
+      ]
     }
   ]
 }
