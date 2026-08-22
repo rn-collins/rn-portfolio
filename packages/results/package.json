@@ -1,1 +1,21 @@
-{"name":"@rn/results","version":"0.0.1","private":true,"type":"module","exports":{".":"./src/index.tsx"},"scripts":{"build":"tsc --noEmit","typecheck":"tsc --noEmit","lint":"echo results-lint"},"devDependencies":{"@types/react":"latest","typescript":"^6.0.0"},"peerDependencies":{"react":">=19"}}
+{
+  "name": "@rn/results",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.tsx"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo results-lint"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "typescript": "6.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=19"
+  }
+}
