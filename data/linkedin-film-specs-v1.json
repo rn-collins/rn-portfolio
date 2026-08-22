@@ -538,6 +538,154 @@
       "renderRequestedOn": "2026-08-17"
     },
     {
+      "id": "015",
+      "title": "Repeated Legal Task → Product Engine",
+      "final": "FIND WHICH RECURRING SUPERVISED LEGAL TASKS CAN SAFELY BECOME REUSABLE PRODUCTS OR SYSTEMS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 015",
+          "headline": "REPEATED LEGAL TASK → PRODUCT ENGINE",
+          "body": "Find which recurring supervised legal tasks can safely become reusable products or systems."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FIND WHICH RECURRING SUPERVISED LEGAL TASKS CAN SAFELY BECOME REUSABLE PRODUCTS OR SYSTEMS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "016",
+      "title": "Legal Workflow Mapping",
+      "final": "MAP ACTORS, DOCUMENTS, AUTHORITIES, HANDOFFS, DEADLINES, DECISIONS, RISKS AND RECORDS ACROSS LEGAL WORK.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 016",
+          "headline": "LEGAL WORKFLOW MAPPING",
+          "body": "Map actors, documents, authorities, handoffs, deadlines, decisions, risks and records across legal work."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MAP ACTORS, DOCUMENTS, AUTHORITIES, HANDOFFS, DEADLINES, DECISIONS, RISKS AND RECORDS ACROSS LEGAL WORK.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "017",
+      "title": "Regulated-Market Handoff Mapper",
+      "final": "FIND WHERE RESPONSIBILITY, EVIDENCE, CONSENT AND ACCOUNTABILITY DISAPPEAR BETWEEN ORGANIZATIONS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 017",
+          "headline": "REGULATED-MARKET HANDOFF MAPPER",
+          "body": "Find where responsibility, evidence, consent and accountability disappear between organizations."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FIND WHERE RESPONSIBILITY, EVIDENCE, CONSENT AND ACCOUNTABILITY DISAPPEAR BETWEEN ORGANIZATIONS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "018",
+      "title": "Institutional Friction Detector",
+      "final": "FIND BOTTLENECKS, DEAD ENDS, REPEATED LOOPS AND AVOIDABLE BURDEN INSIDE INSTITUTIONAL PROCESSES.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 018",
+          "headline": "INSTITUTIONAL FRICTION DETECTOR",
+          "body": "Find bottlenecks, dead ends, repeated loops and avoidable burden inside institutional processes."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FIND BOTTLENECKS, DEAD ENDS, REPEATED LOOPS AND AVOIDABLE BURDEN INSIDE INSTITUTIONAL PROCESSES.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
       "id": "019",
       "title": "Consequence-Aware Escalation Router",
       "final": "ESCALATION IS A CHAIN OF AUTHORITY, EVIDENCE, TIME, AND RECOURSE.",
@@ -651,6 +799,43 @@
         }
       ],
       "renderRequestedOn": "2026-08-17"
+    },
+    {
+      "id": "022",
+      "title": "Human Consequence Map for AI Workflows",
+      "final": "SHOW WHO CAN BE AFFECTED BY AN AI WORKFLOW AND HOW CONSEQUENCES TRAVEL TO THEM.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 022",
+          "headline": "HUMAN CONSEQUENCE MAP FOR AI WORKFLOWS",
+          "body": "Show who can be affected by an AI workflow and how consequences travel to them."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "SHOW WHO CAN BE AFFECTED BY AN AI WORKFLOW AND HOW CONSEQUENCES TRAVEL TO THEM.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
     },
     {
       "id": "023",
@@ -2966,6 +3151,635 @@
           "eyebrow": "SAVE THIS",
           "headline": "TURN REAL WORK INTO PUBLIC PROOF — SAFELY.",
           "body": "EXTRACT INSIGHT, METHOD, VISUAL, AND TEACHING MATERIAL. RETAIN SOURCE, RIGHTS, EVIDENCE, UNKNOWN, AND REVIEW STATE."
+        }
+      ]
+    },
+    {
+      "id": "084",
+      "title": "Who Created the Value—and Who Gets It?",
+      "final": "TRACE VALUE CREATION, KNOWLEDGE SOURCES, RIGHTS, COMMUNITIES, AGREEMENTS AND BENEFIT DISTRIBUTION.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 084",
+          "headline": "WHO CREATED THE VALUE—AND WHO GETS IT?",
+          "body": "Trace value creation, knowledge sources, rights, communities, agreements and benefit distribution."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "TRACE VALUE CREATION, KNOWLEDGE SOURCES, RIGHTS, COMMUNITIES, AGREEMENTS AND BENEFIT DISTRIBUTION.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "085",
+      "title": "Who Is Shaping This Decision?",
+      "final": "MAP SOURCE-LINKED OWNERSHIP, FUNDING, LOBBYING, ADVISORY, PROCUREMENT AND STANDARDS INFLUENCE WITHOUT UNSUPPORTED ACCUSATIONS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 085",
+          "headline": "WHO IS SHAPING THIS DECISION?",
+          "body": "Map source-linked ownership, funding, lobbying, advisory, procurement and standards influence without unsupported accusations."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MAP SOURCE-LINKED OWNERSHIP, FUNDING, LOBBYING, ADVISORY, PROCUREMENT AND STANDARDS INFLUENCE WITHOUT UNSUPPORTED ACCUSATIONS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "086",
+      "title": "Use the Post as a Prototype",
+      "final": "USE PUBLISHING TO TEST DEMAND, LANGUAGE, EVIDENCE, COLLABORATORS AND PRODUCT DIRECTION.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 086",
+          "headline": "USE THE POST AS A PROTOTYPE",
+          "body": "Use publishing to test demand, language, evidence, collaborators and product direction."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "USE PUBLISHING TO TEST DEMAND, LANGUAGE, EVIDENCE, COLLABORATORS AND PRODUCT DIRECTION.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "087",
+      "title": "Build Your Own Media System",
+      "final": "COORDINATE IDEAS, RESEARCH, PRODUCTION, RIGHTS, VERSIONS, PUBLISHING, REUSE AND LEARNING ACROSS CHANNELS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 087",
+          "headline": "BUILD YOUR OWN MEDIA SYSTEM",
+          "body": "Coordinate ideas, research, production, rights, versions, publishing, reuse and learning across channels."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "COORDINATE IDEAS, RESEARCH, PRODUCTION, RIGHTS, VERSIONS, PUBLISHING, REUSE AND LEARNING ACROSS CHANNELS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "088",
+      "title": "Your Network Is Not a Contact List",
+      "final": "TRACK RELATIONSHIPS, CONTEXT, COMMITMENTS, INTRODUCTIONS, OPPORTUNITIES AND OPEN LOOPS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 088",
+          "headline": "YOUR NETWORK IS NOT A CONTACT LIST",
+          "body": "Track relationships, context, commitments, introductions, opportunities and open loops."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "TRACK RELATIONSHIPS, CONTEXT, COMMITMENTS, INTRODUCTIONS, OPPORTUNITIES AND OPEN LOOPS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "089",
+      "title": "Stop Being the Only Database in Your Company",
+      "final": "EXTERNALIZE FOUNDER DECISIONS, RELATIONSHIPS, RESEARCH, IP, SIGNALS, RISKS AND PRIORITIES INTO ONE OPERATING INTELLIGENCE LAYER.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 089",
+          "headline": "STOP BEING THE ONLY DATABASE IN YOUR COMPANY",
+          "body": "Externalize founder decisions, relationships, research, IP, signals, risks and priorities into one operating intelligence layer."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "EXTERNALIZE FOUNDER DECISIONS, RELATIONSHIPS, RESEARCH, IP, SIGNALS, RISKS AND PRIORITIES INTO ONE OPERATING INTELLIGENCE LAYER.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "090",
+      "title": "Build a Research Team of AI Agents That Can Show Their Work",
+      "final": "GOVERN AGENTS THAT DISCOVER, RETRIEVE, VERIFY, CHALLENGE, SYNTHESIZE, CITE AND ESCALATE RESEARCH.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 090",
+          "headline": "BUILD A RESEARCH TEAM OF AI AGENTS THAT CAN SHOW THEIR WORK",
+          "body": "Govern agents that discover, retrieve, verify, challenge, synthesize, cite and escalate research."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "GOVERN AGENTS THAT DISCOVER, RETRIEVE, VERIFY, CHALLENGE, SYNTHESIZE, CITE AND ESCALATE RESEARCH.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "091",
+      "title": "What Is This AI Allowed to Remember?",
+      "final": "CONTROL WHAT AGENTS MAY REMEMBER, INFER, RETRIEVE, SHARE OR FORGET ACROSS CONTEXTS AND TIME.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 091",
+          "headline": "WHAT IS THIS AI ALLOWED TO REMEMBER?",
+          "body": "Control what agents may remember, infer, retrieve, share or forget across contexts and time."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "CONTROL WHAT AGENTS MAY REMEMBER, INFER, RETRIEVE, SHARE OR FORGET ACROSS CONTEXTS AND TIME.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "092",
+      "title": "Make the Work Move Across People, AI and Software",
+      "final": "ORCHESTRATE EVENTS, PEOPLE, TOOLS, AGENTS, APPROVALS AND EXCEPTIONS ACROSS A REAL WORKFLOW.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 092",
+          "headline": "MAKE THE WORK MOVE ACROSS PEOPLE, AI AND SOFTWARE",
+          "body": "Orchestrate events, people, tools, agents, approvals and exceptions across a real workflow."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "ORCHESTRATE EVENTS, PEOPLE, TOOLS, AGENTS, APPROVALS AND EXCEPTIONS ACROSS A REAL WORKFLOW.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "093",
+      "title": "Run a Regulated Workflow Without Losing the Rules",
+      "final": "EXECUTE REGULATED WORK THROUGH VALID STATES, APPROVALS, EVIDENCE, DEADLINES AND HANDOFFS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 093",
+          "headline": "RUN A REGULATED WORKFLOW WITHOUT LOSING THE RULES",
+          "body": "Execute regulated work through valid states, approvals, evidence, deadlines and handoffs."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "EXECUTE REGULATED WORK THROUGH VALID STATES, APPROVALS, EVIDENCE, DEADLINES AND HANDOFFS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "094",
+      "title": "Can You Prove How This Work Was Done?",
+      "final": "RECONSTRUCT THE RULE, EVIDENCE, CONSENT, APPROVALS, ACTION AND VERSION BEHIND REGULATED WORK.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 094",
+          "headline": "CAN YOU PROVE HOW THIS WORK WAS DONE?",
+          "body": "Reconstruct the rule, evidence, consent, approvals, action and version behind regulated work."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "RECONSTRUCT THE RULE, EVIDENCE, CONSENT, APPROVALS, ACTION AND VERSION BEHIND REGULATED WORK.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "095",
+      "title": "What Does Governance Do to a Human Body?",
+      "final": "EXAMINE INSTITUTIONAL CONDITIONS FOR STRESS, ATTENTION, DIGNITY, SENSORY LOAD, CONTROL AND PARTICIPATION WITHOUT OVERSTATING NEUROSCIENCE.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 095",
+          "headline": "WHAT DOES GOVERNANCE DO TO A HUMAN BODY?",
+          "body": "Examine institutional conditions for stress, attention, dignity, sensory load, control and participation without overstating neuroscience."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "EXAMINE INSTITUTIONAL CONDITIONS FOR STRESS, ATTENTION, DIGNITY, SENSORY LOAD, CONTROL AND PARTICIPATION WITHOUT OVERSTATING NEUROSCIENCE.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "096",
+      "title": "Learn From Cannabis Experience Without Reducing People to Labels",
+      "final": "LEARN RESPONSIBLE LONGITUDINAL PATTERNS ACROSS PRODUCT COMPOSITION, PERSON, CONTEXT AND TIME.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 096",
+          "headline": "LEARN FROM CANNABIS EXPERIENCE WITHOUT REDUCING PEOPLE TO LABELS",
+          "body": "Learn responsible longitudinal patterns across product composition, person, context and time."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "LEARN RESPONSIBLE LONGITUDINAL PATTERNS ACROSS PRODUCT COMPOSITION, PERSON, CONTEXT AND TIME.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "097",
+      "title": "Can Personalization Respect the Off Switch?",
+      "final": "LET A SYSTEM ADAPT USING ONLY CONSENTED CONTEXT WHILE EXPOSING EVERY INPUT, EXPLANATION AND OFF SWITCH.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 097",
+          "headline": "CAN PERSONALIZATION RESPECT THE OFF SWITCH?",
+          "body": "Let a system adapt using only consented context while exposing every input, explanation and off switch."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "LET A SYSTEM ADAPT USING ONLY CONSENTED CONTEXT WHILE EXPOSING EVERY INPUT, EXPLANATION AND OFF SWITCH.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "098",
+      "title": "Can Care Continue Across Consent Boundaries?",
+      "final": "COORDINATE EDUCATION, PREPARATION, CARE, INTEGRATION, REFERRALS AND FOLLOW-UP ACROSS CONSENT BOUNDARIES.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 098",
+          "headline": "CAN CARE CONTINUE ACROSS CONSENT BOUNDARIES?",
+          "body": "Coordinate education, preparation, care, integration, referrals and follow-up across consent boundaries."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "COORDINATE EDUCATION, PREPARATION, CARE, INTEGRATION, REFERRALS AND FOLLOW-UP ACROSS CONSENT BOUNDARIES.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "099",
+      "title": "Who Owns Island Knowledge?",
+      "final": "SHARE ISLAND CAPACITY, DEPENDENCY, RISK, ASSET AND COMMUNITY KNOWLEDGE WITHOUT STRIPPING OWNERSHIP, PROVENANCE OR GOVERNANCE.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 099",
+          "headline": "WHO OWNS ISLAND KNOWLEDGE?",
+          "body": "Share island capacity, dependency, risk, asset and community knowledge without stripping ownership, provenance or governance."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "SHARE ISLAND CAPACITY, DEPENDENCY, RISK, ASSET AND COMMUNITY KNOWLEDGE WITHOUT STRIPPING OWNERSHIP, PROVENANCE OR GOVERNANCE.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "title": "Island Resilience Scenario & Decision Room",
+      "final": "MODEL AN ISLAND SHOCK, CASCADING CONSEQUENCES, INTERVENTION OPTIONS, TRADEOFFS AND ACCOUNTABLE DECISIONS.",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 100",
+          "headline": "ISLAND RESILIENCE SCENARIO & DECISION ROOM",
+          "body": "Model an island shock, cascading consequences, intervention options, tradeoffs and accountable decisions."
+        },
+        {
+          "eyebrow": "SEE THE SYSTEM",
+          "headline": "NAME WHAT IS ACTUALLY MOVING",
+          "body": "Make the actors, inputs, dependencies, decisions and consequences visible."
+        },
+        {
+          "eyebrow": "TEST THE CLAIM",
+          "headline": "CHANGE ONE CONDITION",
+          "body": "Use the interactive version to see what changes, what holds and what remains unknown."
+        },
+        {
+          "eyebrow": "KEEP THE EVIDENCE",
+          "headline": "SHOW THE SOURCE AND THE LIMIT",
+          "body": "Preserve provenance, uncertainty, responsibility and the path to correction."
+        },
+        {
+          "eyebrow": "MAKE THE DECISION",
+          "headline": "TURN THE MAP INTO AN ACTION",
+          "body": "Choose the next responsible move without hiding the tradeoff or the accountable human."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "MODEL AN ISLAND SHOCK, CASCADING CONSEQUENCES, INTERVENTION OPTIONS, TRADEOFFS AND ACCOUNTABLE DECISIONS.",
+          "body": "Watch the distributable film. Then test the richer web version for yourself."
         }
       ]
     }

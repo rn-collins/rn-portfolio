@@ -64,8 +64,13 @@ jobs:
           for id in "${ids[@]}"; do
             video="apps/web/public/media/builds/$id/build-$id-linkedin.mp4"
             poster="apps/web/public/media/builds/$id/build-$id-linkedin-poster.png"
+            captions="apps/web/public/media/builds/$id/build-$id-linkedin-captions.vtt"
+            transcript="apps/web/public/media/builds/$id/build-$id-linkedin-transcript.txt"
             test -s "$video"
             test -s "$poster"
+            test -s "$captions"
+            test -s "$transcript"
+            grep -q "^WEBVTT" "$captions"
             test "$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$video")" = "720"
             test "$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$video")" = "900"
             test "$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of csv=p=0 "$video")" = "24/1"

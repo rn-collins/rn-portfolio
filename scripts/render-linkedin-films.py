@@ -127,6 +127,8 @@ def render_build(build: dict[str, Any], spec: dict[str, Any]) -> dict[str, Any]:
     out_dir.mkdir(parents=True, exist_ok=True)
     video_path = out_dir / f"build-{build['id']}-linkedin.mp4"
     poster_path = out_dir / f"build-{build['id']}-linkedin-poster.png"
+    captions_path = out_dir / f"build-{build['id']}-linkedin-captions.vtt"
+    transcript_path = out_dir / f"build-{build['id']}-linkedin-transcript.txt"
 
     cmd = [
         "ffmpeg", "-loglevel", "error", "-y",
@@ -148,6 +150,24 @@ def render_build(build: dict[str, Any], spec: dict[str, Any]) -> dict[str, Any]:
     if result != 0:
         raise RuntimeError(f"ffmpeg failed for Build {build['id']} with exit code {result}")
 
+    def stamp(value: float) -> str:
+        millis = int(round(value * 1000))
+        hours, millis = divmod(millis, 3_600_000)
+        minutes, millis = divmod(millis, 60_000)
+        whole_seconds, millis = divmod(millis, 1000)
+        return f"{hours:02d}:{minutes:02d}:{whole_seconds:02d}.{millis:03d}"
+
+    cues = ["WEBVTT", ""]
+    transcript = [f"BUILD {build['id']}-B — {build['title']}", "", "Silent-first LinkedIn cut transcript", ""]
+    for index, scene in enumerate(build["scenes"]):
+        start, end = index * seconds, (index + 1) * seconds
+        words = f"{scene['eyebrow']}. {scene['headline']}. {scene['body']}"
+        cues.extend([str(index + 1), f"{stamp(start)} --> {stamp(end)}", words, ""])
+        transcript.extend([f"SCENE {index + 1}", words, ""])
+    transcript.extend(["FINAL PROPOSITION", build["final"], "", "This film has no spoken audio. All meaning is presented as on-screen text."])
+    captions_path.write_text("\n".join(cues) + "\n")
+    transcript_path.write_text("\n".join(transcript) + "\n")
+
     digest = hashlib.sha256(video_path.read_bytes()).hexdigest()
     poster_digest = hashlib.sha256(poster_path.read_bytes()).hexdigest()
     return {
@@ -155,6 +175,8 @@ def render_build(build: dict[str, Any], spec: dict[str, Any]) -> dict[str, Any]:
         "title": build["title"],
         "path": f"/media/builds/{build['id']}/{video_path.name}",
         "poster": f"/media/builds/{build['id']}/{poster_path.name}",
+        "captions": f"/media/builds/{build['id']}/{captions_path.name}",
+        "transcript": f"/media/builds/{build['id']}/{transcript_path.name}",
         "width": width,
         "height": height,
         "fps": fps,
