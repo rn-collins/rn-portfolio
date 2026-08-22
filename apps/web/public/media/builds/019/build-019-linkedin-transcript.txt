@@ -1,0 +1,26 @@
+BUILD 019-B — Consequence-Aware Escalation Router
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 019. 100 ALERTS ≠ 100 INCIDENTS.. Repeated signals can describe one consequential event—not one hundred separate interruptions.
+
+SCENE 2
+CORRELATE. GROUP THE EVIDENCE FIRST.. Shared keys collapse repeated signals while preserving every source and state.
+
+SCENE 3
+ASSESS. SCORE CONSEQUENCE TRANSPARENTLY.. Severity, scale, rights, reversibility, evidence, and inherited friction remain inspectable.
+
+SCENE 4
+ROUTE. AUTHORITY BEFORE AVAILABILITY.. Notify only an authorized owner through a compatible channel, with the reason visible.
+
+SCENE 5
+ACKNOWLEDGE. MISSED CLOCK → NAMED BACKUP.. A recorded acknowledgement stops the timeout; otherwise a validated backup receives the chain.
+
+SCENE 6
+SAVE THIS. AUTHORITY · EVIDENCE · TIME · RECOURSE. Escalation is an accountable chain—not a louder notification.
+
+FINAL PROPOSITION
+ESCALATION IS A CHAIN OF AUTHORITY, EVIDENCE, TIME, AND RECOURSE.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

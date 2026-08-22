@@ -1,0 +1,26 @@
+BUILD 025-B — AI Implementation Readiness X-Ray
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 025. A USE CASE IS NOT AN IMPLEMENTATION PLAN. A promising capability can still outrun the organization expected to operate it.
+
+SCENE 2
+CONSEQUENCE. START WITH WHO CAN BE AFFECTED. Severity, rights, reversibility, scale, and uncertainty determine how much readiness is required.
+
+SCENE 3
+WORKFLOW. TRACE THE REAL WORK. Map intake, data, model, review, decision, action, monitoring, and every accountable handoff.
+
+SCENE 4
+EVIDENCE. TEST THE VENDOR CLAIMS. A procurement adjective is not proof. Keep claim, scope, evidence, control, contract, and recourse inspectable.
+
+SCENE 5
+OPERATING CAPACITY. OWNER · AUTHORITY · SKILL · TIME · EXIT. A control exists only when named people can run it, stop the use, correct failure, and sustain the work.
+
+SCENE 6
+SAVE THIS. DESIRE TO DEPLOY IS NOT READINESS. READINESS IS THE ABILITY TO OPERATE THE CONTROLS—NOT THE DESIRE TO DEPLOY.
+
+FINAL PROPOSITION
+READINESS IS THE ABILITY TO OPERATE THE CONTROLS—NOT THE DESIRE TO DEPLOY.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

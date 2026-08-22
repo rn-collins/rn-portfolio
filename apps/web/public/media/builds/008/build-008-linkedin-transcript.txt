@@ -1,0 +1,26 @@
+BUILD 008-B — Decision-Ready Dashboard Standard
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 008. A WALL OF CHARTS.. More information is visible. The decision is still missing.
+
+SCENE 2
+START HERE. NAME THE DECISION.. Every retained metric must explain how it can change that decision.
+
+SCENE 3
+MAKE EVIDENCE LEGIBLE. SOURCE · FRESHNESS · COMPARISON · UNCERTAINTY. A highlighted number without context is not yet decision-ready.
+
+SCENE 4
+MAKE ACTION ACCOUNTABLE. DECISION → OWNER → ACTION → NEXT STATE. Add trigger, deadline, authority and escalation.
+
+SCENE 5
+HUMAN CONTROL. CONFLICTS NEED A PERSON.. The dashboard can expose a conflict. An accountable human must resolve it.
+
+SCENE 6
+SAVE THIS. DATA IS NOT A DECISION.. Build the accountable path from evidence to action and observable change.
+
+FINAL PROPOSITION
+DATA BECOMES USEFUL WHEN SOMEONE CAN DECIDE AND ACT.
+
+This film has no spoken audio. All meaning is presented as on-screen text.

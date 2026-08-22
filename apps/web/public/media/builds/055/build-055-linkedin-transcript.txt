@@ -1,0 +1,26 @@
+BUILD 055-B — Let the Smart Home Explain Itself
+
+Silent-first LinkedIn cut transcript
+
+SCENE 1
+BUILD 055. A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY. A synthetic environment can change state—but every proposed action still needs purpose, authority, explanation, override, and a recoverable prior state.
+
+SCENE 2
+DECLARE THE ENVELOPE. TRIGGER · ACTION · AUTHORITY · LIMIT. Use exact-bound synthetic rooms and devices. Preserve who may authorize, affected occupants, prerequisites, conflicts, expiry, non-actions, and the safe default.
+
+SCENE 3
+SIMULATE THE ACTION. BEFORE · CHANGE · REASON · AFTER. Advance state only inside the declared fixture. Record the rule, evidence, authorization, consequence, uncertainty, and an explanation a person can inspect.
+
+SCENE 4
+TEST THE FAILURE PATH. CONFLICT · OUTAGE · OVERRIDE · ROLLBACK. When authority conflicts or a dependency fails, do not continue silently. Pause, preserve state, expose the blocker, accept human override, and restore a known prior state.
+
+SCENE 5
+BOUND THE SYSTEM. SIMULATION—NOT ACTUATION. No device or sensor is connected. The demo cannot infer authority or person traits, secure a home, determine safety or accessibility, decide an accommodation, or prove benefit.
+
+SCENE 6
+SAVE THIS. MAKE EVERY ACTION REVERSIBLE. A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE.
+
+FINAL PROPOSITION
+A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE.
+
+This film has no spoken audio. All meaning is presented as on-screen text.
