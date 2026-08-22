@@ -9,6 +9,7 @@ on:
       - 'docs/**'
       - 'tests/**'
       - 'package.json'
+      - 'pnpm-lock.yaml'
       - 'pnpm-workspace.yaml'
       - 'turbo.json'
       - 'playwright.config.ts'
@@ -17,6 +18,7 @@ on:
     branches:
       - 'feature/100-builds-platform-foundation'
       - 'workstream/build-*'
+      - 'build-*'
 concurrency:
   group: rn-builds-ci-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -32,8 +34,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: pnpm install --no-frozen-lockfile
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
       - run: pnpm validate:lineage
+      - run: pnpm validate:canonical-lineage
       - run: pnpm validate:archive-scaffold
       - run: pnpm typecheck
       - run: pnpm lint
