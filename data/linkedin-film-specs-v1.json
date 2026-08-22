@@ -2550,6 +2550,44 @@
           "body": "ACCESS INTELLIGENCE IMPROVES WHEN STATEWIDE POLICY, PLACE, TRANSPORT, SUPPLY, INFRASTRUCTURE, COMMUNITY CONTEXT, AND UNKNOWNS STAY CONNECTED."
         }
       ]
+    },
+    {
+      "id": "073",
+      "title": "Access for Whom?",
+      "final": "ASK WHO CAN ACTUALLY USE THE SERVICE.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 073",
+          "headline": "ACCESS FOR WHOM?",
+          "body": "A celebratory reform signal is only the first layer. Legal change is not the same as usable access."
+        },
+        {
+          "eyebrow": "ADD THE CONSTRAINTS",
+          "headline": "COST · GEOGRAPHY · ELIGIBILITY · LEGAL RISK",
+          "body": "Practical access changes when the route, price, rules, workforce, and uncertainty remain visible."
+        },
+        {
+          "eyebrow": "ASK WHO IS EXCLUDED",
+          "headline": "DISABILITY · LANGUAGE · CULTURE · WORKFORCE",
+          "body": "Eight indicators stay separate so one favorable signal cannot erase another barrier."
+        },
+        {
+          "eyebrow": "SHOW THE METHOD",
+          "headline": "NO WEIGHTING · RANKING · CERTIFICATION",
+          "body": "The index preserves descriptive signals and unknowns without manufacturing a composite equity score."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A MAP CANNOT DETERMINE ACCESS OR EQUITY",
+          "body": "Synthetic contexts only; no protected-trait inference, current-law, eligibility, clinical, safety, cultural-authority, consent, or representativeness claim."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "ASK WHO CAN ACTUALLY USE THE SERVICE",
+          "body": "ACCESS INTELLIGENCE BEGINS WHEN REFORM, COST, PLACE, ELIGIBILITY, CULTURE, DISABILITY, LANGUAGE, WORKFORCE, LEGAL RISK, AND UNKNOWNS STAY VISIBLE."
+        }
+      ]
     }
   ]
 }
