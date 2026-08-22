@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { builds } from '../../../packages/registry/src/index';
+
+export const dynamic='force-static';
 import { siteUrl } from './site';
 
 export default function sitemap():MetadataRoute.Sitemap{
