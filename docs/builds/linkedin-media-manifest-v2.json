@@ -1891,6 +1891,34 @@
       "generator": "build079-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "FIND WHAT ANSWERS THE QUESTION."
+    },
+    {
+      "id": "080",
+      "title": "The Article Was Only the First Output",
+      "path": "/media/builds/080/build-080-linkedin.mp4",
+      "poster": "/media/builds/080/build-080-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "4978990daf0e291333ae0956735b0f41cd1da550719b06a652b6bd2fe135708b",
+      "bytes": 193201,
+      "posterSha256": "49b1fdb74749d8939d1194e809a0bb64310af62cdab9b5e0ba5d3c74488d9429",
+      "posterBytes": 163614,
+      "contactSheet": "/media/builds/080/build-080-linkedin-contact-sheet.png",
+      "contactSheetSha256": "ef27d8c0cef2391ad690baaaa904322b11c231cc3aa9ac8b20687204a655e6b7",
+      "contactSheetBytes": 125430,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/080/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build080-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "REPORTING CAN BECOME PUBLIC INFRASTRUCTURE."
     }
   ]
 }

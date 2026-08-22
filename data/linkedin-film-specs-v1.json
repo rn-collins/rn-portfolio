@@ -2816,6 +2816,44 @@
           "body": "AN EVIDENCE MAP ORGANIZES THE QUESTION, QUALIFIES THE RECORD, AND KEEPS EVERY SOURCE, LIMIT, AND UNKNOWN ATTACHED."
         }
       ]
+    },
+    {
+      "id": "080",
+      "title": "The Article Was Only the First Output",
+      "final": "REPORTING CAN BECOME PUBLIC INFRASTRUCTURE.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 080",
+          "headline": "THE ARTICLE WAS ONLY THE FIRST OUTPUT.",
+          "body": "A fictional story can open into reusable public infrastructure without becoming a completeness claim."
+        },
+        {
+          "eyebrow": "UNFOLD THE REPORTING PIPELINE",
+          "headline": "STORY · INTERVIEW · FIELD · RECORD · QUESTION",
+          "body": "Every synthetic source retains its date, rights state, verification state, limitations, and unknowns."
+        },
+        {
+          "eyebrow": "EXTRACT CANDIDATE ASSETS",
+          "headline": "DATASET · TOOL · TRACKER · TIMELINE · PUBLIC RESOURCE",
+          "body": "Source-linked candidates enter review without being published, prioritized, or promoted into verified facts."
+        },
+        {
+          "eyebrow": "QUEUE THE MAINTENANCE WORK",
+          "headline": "OWNER · UPDATE PATH · EVIDENCE GAP",
+          "body": "Each opportunity keeps human review, unresolved rights, maintenance requirements, and missing evidence visible."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "PUBLICATION IS A BEGINNING",
+          "body": "Fictional reporting assets only; no real source, person, rights clearance, completeness, demand, priority, legal, medical, or outcome claim."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "REPORTING CAN BECOME PUBLIC INFRASTRUCTURE.",
+          "body": "EXTRACT REUSABLE ASSETS. RETAIN SOURCE, RIGHTS, DATE, STATUS, LIMITS, UNKNOWNS, OWNER, AND UPDATE PATH."
+        }
+      ]
     }
   ]
 }
