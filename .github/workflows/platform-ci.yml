@@ -38,6 +38,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm validate:lineage
       - run: pnpm validate:canonical-lineage
+      - run: pnpm validate:media
       - run: pnpm validate:archive-scaffold
       - run: pnpm typecheck
       - run: pnpm lint
