@@ -1723,6 +1723,34 @@
       "generator": "docs/builds/073/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "ASK WHO CAN ACTUALLY USE THE SERVICE."
+    },
+    {
+      "id": "074",
+      "title": "The Law Says Yes. The System Says Not Yet.",
+      "path": "/media/builds/074/build-074-linkedin.mp4",
+      "poster": "/media/builds/074/build-074-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "b099eada589aec4844a705db4c6ff21780aab6c4c912b538849c95ba9e09aab8",
+      "bytes": 215465,
+      "posterSha256": "596121ecd505a8cf26a4f7ad61e42dff582e7568ee7b8f7b9b2d694d6ac804c3",
+      "posterBytes": 146243,
+      "contactSheet": "/media/builds/074/build-074-linkedin-contact-sheet.png",
+      "contactSheetSha256": "e098d496535acce2a7878fa7e003017fc46b7efd0ad7ef960330a00434bddc21",
+      "contactSheetBytes": 158982,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/074/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build074-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "COMPARE IMPLEMENTATION. KEEP EVIDENCE VISIBLE."
     }
   ]
 }
