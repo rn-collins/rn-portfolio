@@ -2778,6 +2778,44 @@
           "body": "EVIDENCE TRANSLATION WORKS WHEN SOURCE QUALITY, CLAIM, POPULATION, EXPOSURE, COMPARISON, OUTCOME, LIMITS, UNCERTAINTY, DATE, AND CAVEATS STAY CONNECTED."
         }
       ]
+    },
+    {
+      "id": "079",
+      "title": "A Search Result Is Not an Evidence Map",
+      "final": "FIND WHAT ANSWERS THE QUESTION.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 079",
+          "headline": "A SEARCH RESULT IS NOT AN EVIDENCE MAP.",
+          "body": "A keyword match can surface a fictional record and still miss the question it appears to answer."
+        },
+        {
+          "eyebrow": "ASK THE QUESTION IN DIMENSIONS",
+          "headline": "QUESTION · POPULATION · CONTEXT · OUTCOME",
+          "body": "The synthetic question opens into the exact dimensions required to test relevance without inventing certainty."
+        },
+        {
+          "eyebrow": "QUALIFY THE EVIDENCE",
+          "headline": "TYPE · QUALITY · APPLICABILITY",
+          "body": "Evidence type, source quality, and categorical applicability remain distinct; no score or ranking is produced."
+        },
+        {
+          "eyebrow": "RETAIN WHAT DOES NOT FIT",
+          "headline": "SOURCE · LIMIT · UNKNOWN",
+          "body": "Out-of-scope records, unmatched fields, limitations, and unknown applicability stay visible."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "NAVIGATION DOES NOT DECIDE",
+          "body": "Synthetic evidence only; no patient, treatment, diagnosis, dosage, safety, effectiveness, advice, or clinical-applicability claim."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "FIND WHAT ANSWERS THE QUESTION.",
+          "body": "AN EVIDENCE MAP ORGANIZES THE QUESTION, QUALIFIES THE RECORD, AND KEEPS EVERY SOURCE, LIMIT, AND UNKNOWN ATTACHED."
+        }
+      ]
     }
   ]
 }

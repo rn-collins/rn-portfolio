@@ -1863,6 +1863,34 @@
       "generator": "build078-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "CHANGE THE LANGUAGE. KEEP THE EVIDENCE INTACT."
+    },
+    {
+      "id": "079",
+      "title": "A Search Result Is Not an Evidence Map",
+      "path": "/media/builds/079/build-079-linkedin.mp4",
+      "poster": "/media/builds/079/build-079-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "28db2651e7426ac0f1f3b66802c94051d33c2591b9b49b73ddc5e03f93ee4662",
+      "bytes": 198924,
+      "posterSha256": "a0092369aa7cfd942a434d121c6029fdaad6421589b90faffd1b36a42cf71c16",
+      "posterBytes": 120558,
+      "contactSheet": "/media/builds/079/build-079-linkedin-contact-sheet.png",
+      "contactSheetSha256": "77132809f162124381b27fbea1b46abf7edc4f2c5c45b34697b91c1278069063",
+      "contactSheetBytes": 137025,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/079/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build079-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "FIND WHAT ANSWERS THE QUESTION."
     }
   ]
 }
