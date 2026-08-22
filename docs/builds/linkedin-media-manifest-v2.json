@@ -1751,6 +1751,34 @@
       "generator": "build074-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "COMPARE IMPLEMENTATION. KEEP EVIDENCE VISIBLE."
+    },
+    {
+      "id": "075",
+      "title": "Same Goal, Different Regulatory Machine",
+      "path": "/media/builds/075/build-075-linkedin.mp4",
+      "poster": "/media/builds/075/build-075-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "9eb8139b7e27b6b2ceacf671b346c313ef2b9416d1c0889c1ad01f964ab3ea0f",
+      "bytes": 215432,
+      "posterSha256": "fdaf8571d777056e92bb6dd065371e2b060533bbf5e19149dec88cb0d53edfed",
+      "posterBytes": 176463,
+      "contactSheet": "/media/builds/075/build-075-linkedin-contact-sheet.png",
+      "contactSheetSha256": "3ec86c87a0d3a80f865bb21434028a4f24b244be389ebcd393f93c48a6540fd5",
+      "contactSheetBytes": 136333,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/075/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build075-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "COMPARE TRADEOFFS. KEEP CLAIMS SMALL."
     }
   ]
 }
