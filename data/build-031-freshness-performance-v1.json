@@ -1,0 +1,1 @@
+{"build":"031","freshness":{"canonical":"repository-controlled","engine":"031.1.0","fixture":"versioned","generatedAt":"not asserted"},"performance":{"networkAtRuntime":false,"clientComputation":"bounded deterministic O(n)","motion":"CSS only and disabled under reduced-motion","responsiveFloorPx":320}}

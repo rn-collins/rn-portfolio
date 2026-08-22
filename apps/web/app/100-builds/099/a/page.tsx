@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('099','a');
+import CommonsDesk from'./CommonsDesk';import s from'../commons.module.css';export default function Page(){return <main className={s.page} data-build="099" data-variant="A"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>099-A</span></nav><p className={s.kicker}>ISLAND RESILIENCE DATA COMMONS · SYNTHETIC REHEARSAL</p><h1>Share Island Knowledge<br/>Without Giving It Away</h1><p className={s.lede}>Test whether locally governed data can be discovered and used while ownership, provenance and permissions remain attached.</p><CommonsDesk/></main>}

@@ -1,0 +1,43 @@
+{
+  "build": "044",
+  "version": "044.2.0",
+  "fixture": "synthetic",
+  "canonical": {
+    "title": "Reuse the Parts That Regulation Keeps Requiring",
+    "job": "Turn recurring approvals, consent, evidence, disclosures and records into reusable regulated components.",
+    "bWeb": "Assemble a regulated workflow from components; change context and see invalidation.",
+    "uses": [
+      "010",
+      "014",
+      "017",
+      "020",
+      "023",
+      "029"
+    ],
+    "creates": [
+      "cap:044"
+    ]
+  },
+  "componentKinds": [
+    "approval",
+    "consent",
+    "evidence",
+    "disclosure",
+    "record"
+  ],
+  "contracts": {
+    "exactIdentityVersionEvidenceDependency": true,
+    "strictCalendarCurrency": true,
+    "collisionResistantContextKey": true,
+    "acyclicDependencies": true,
+    "exactlyOnePerKind": true,
+    "failClosedCoverage": true
+  },
+  "nonClaims": [
+    "legal compliance",
+    "regulatory approval",
+    "valid consent",
+    "evidence sufficiency",
+    "cross-context validity"
+  ]
+}

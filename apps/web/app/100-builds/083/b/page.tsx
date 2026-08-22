@@ -1,0 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('083','b');
+import WorkAlreadyContent from './WorkAlreadyContent';
+import s from '../work-content.module.css';
+export default function Page(){return <main className={`${s.page} ${s.storyPage}`} data-build="083" data-variant="B"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>083-B</span></nav><p className={s.kicker}>YOUR WORK IS ALREADY FULL OF CONTENT</p><h1>Filter the artifact.<br/>Keep only safe derivatives.</h1><p className={s.lede}>A completed synthetic project passes through confidentiality and rights filters before any public derivative reaches human review.</p><WorkAlreadyContent/></main>}

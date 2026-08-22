@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('059','b');
+import CitationStory from'./CitationStory';import s from'../citation.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>059-B</span></nav><p className={s.kicker}>ONE CITATION · SIX DISTINCT GATES</p><h1>A citation-shaped string is not authority.</h1><CitationStory/></main>}

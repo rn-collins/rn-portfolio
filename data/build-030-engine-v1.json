@@ -1,0 +1,13 @@
+{
+  "schemaVersion":"2.0",
+  "buildId":"030",
+  "engineVersion":"030.2.0",
+  "mappingVersion":"030-map-2",
+  "name":"Inclusive Experience Repair Engine",
+  "canonical":{"title":"Inclusive Experience Simulator & Repair Lab","job":"Experience and repair an interface under different access, device, bandwidth, motion, color, language and cognitive conditions.","bWeb":"An interface transforms live under constraints, then the visitor repairs it.","uses":["002","023","024","029"],"creates":["cap:030"]},
+  "derived":{"conditions":["lowVision","colorIndependent","keyboardOnly","reducedMotion","lowBandwidth","plainLanguage","reducedDensity"],"repairs":["textScale125","highContrast","nonColorCues","visibleFocus","target44","motionReduced","lightweightMode","plainLanguage","reducedDensity"],"combinedInteractions":[["lowVision","lowBandwidth"],["keyboardOnly","reducedDensity"]],"successLabel":"MAPPED CONTROLS PRESENT"},
+  "evidenceControls":{"requiredFields":["id","title","httpsUrl","checkedAt","scope"],"maximumAgeDays":366,"futureDatesBlocked":true,"uniqueIds":true},
+  "export":{"originalState":true,"derivedState":true,"exactReplayInput":true,"deterministicNeedOrder":true,"deterministicRepairOrder":true,"privacyAndLimitations":true},
+  "privacy":{"profilePersistence":false,"networkSubmission":false,"downloadOnlyOnExplicitRequest":true},
+  "nonClaims":["Interface conditions do not simulate a person, disability, culture, cognition, language community, device, network, or lived experience.","Mapped controls do not prove repair efficacy, usability, accessibility, localization quality, WCAG conformance, or legal compliance.","Manual participant, assistive-technology, physical-device, language, and network testing remains required."]
+}

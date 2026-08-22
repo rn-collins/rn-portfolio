@@ -1,0 +1,46 @@
+{
+  "build": "057",
+  "engineVersion": "057.1.0",
+  "title": "Show Me Where This Content Came From",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-PROVENANCE-01",
+    "scenarios": [
+      "COMPLETE-RECORDED",
+      "REMOVE-SOURCE",
+      "REMOVE-RIGHTS",
+      "REORDER-VERSIONS"
+    ],
+    "nodeTypes": [
+      "ARTIFACT",
+      "SOURCE",
+      "PERSON",
+      "TOOL",
+      "AI",
+      "RIGHTS",
+      "VERSION"
+    ],
+    "eventRelations": [
+      "INFORMED",
+      "EDITED",
+      "GENERATED_WITH",
+      "LICENSE_RECORDED",
+      "VERSION_OF"
+    ],
+    "inherited": [
+      "020.2.0",
+      "023.2.0",
+      "029.2.0"
+    ]
+  },
+  "outputs": [
+    "status",
+    "graph",
+    "timeline",
+    "gaps",
+    "disclosures",
+    "unknowns",
+    "nonClaims"
+  ],
+  "invalid": "exact structural ordered no-throw fail closed",
+  "boundary": "recorded synthetic provenance, not verified truth/authorship/ownership/permission/authenticity/attribution/admissibility"
+}

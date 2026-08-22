@@ -1,0 +1,27 @@
+{
+  "build": "062",
+  "engineVersion": "062.1.0",
+  "title": "The Interview Is More Than a Transcript",
+  "scenarios": [
+    "COMPLETE-RECORDED",
+    "TIMING-CONFLICT",
+    "CONSENT-UNKNOWN",
+    "EVIDENCE-MISSING",
+    "EDITED-TEXT"
+  ],
+  "dimensions": [
+    "speaker label/identity assertion",
+    "segments/timestamps",
+    "audio/text sources and versions",
+    "claims/themes/evidence",
+    "tensions/uncertainty/follow-ups",
+    "consent/rights",
+    "edits"
+  ],
+  "inherited": [
+    "011.1.0",
+    "028.2.0 transparent-ranking-v2 derived-concept-map-v2",
+    "058.1.0"
+  ],
+  "boundary": "fixed synthetic audio-text provenance; no biometric/speaker identification or truth/consent/rights/credibility/admissibility claim"
+}

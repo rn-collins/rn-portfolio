@@ -1,0 +1,6 @@
+import type {Metadata} from 'next';
+import Link from 'next/link';
+import FormGateField from './FormGateField';
+import shell from '../../001/room.module.css';
+export const metadata:Metadata={title:'Build 006-B — Form Gate Field',description:'An interactive visual that tests whether an opportunity deserves software, service, dataset, company, or a simpler form.',alternates:{canonical:'/100-builds/006/b'},openGraph:{title:'Build 006-B — Form Gate Field',description:'Change value, buyer, maintenance, judgment and data signals and watch the candidate form move.',type:'website'},twitter:{card:'summary_large_image',title:'Build 006-B — Form Gate Field',description:'Software is one possible form—not the default.'}};
+export default function Build006B(){return <main className={shell.screeningRoom}><nav className={shell.crumb}><Link href="/100-builds/006">← Build 006</Link><span>006-B / Interactive visual build</span></nav><header className={shell.label}><div className={shell.accession}>BUILD 006-B<br/>IN THE LAB</div><div><h1>Form Gate Field</h1><p>Move the conditions around an idea and watch its most defensible candidate form shift across software, service, dataset, company, and keep-simple.</p></div></header><FormGateField/></main>}

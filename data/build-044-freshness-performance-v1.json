@@ -1,0 +1,14 @@
+{
+  "build": "044",
+  "freshness": {
+    "engine": "044.2.0",
+    "componentsRequireVersionReviewExpiryAndExactContextBinding": true,
+    "strictCalendarDates": true
+  },
+  "performance": {
+    "networkAtRuntime": false,
+    "clientComputation": "O(V + E) validation over bounded fixture",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

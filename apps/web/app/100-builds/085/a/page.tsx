@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('085','a');
+import Monitor from'./PowerMonitor';import s from'../power.module.css';export default function Page(){return <main className={s.page} data-build="085" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>085-A</span></nav><p className={s.kicker}>CORPORATE CAPTURE & POWER STRUCTURE MONITOR · SYNTHETIC DEMONSTRATION</p><h1>Who is shaping<br/>this decision?</h1><p className={s.lede}>Map source-linked ownership, funding, lobbying, advisory, procurement, standards, and messaging relationships without converting proximity into an accusation.</p><Monitor/></main>}

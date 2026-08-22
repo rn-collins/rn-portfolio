@@ -1,0 +1,27 @@
+{
+  "build": "049",
+  "classification": "private reflection aid",
+  "dataPolicy": {
+    "collection": "none",
+    "appStorage": "none",
+    "transmission": "none",
+    "telemetry": "none",
+    "export": "user-initiated local JSON file outside app lifecycle"
+  },
+  "supportBoundaries": [
+    "not medical advice",
+    "not diagnosis or treatment",
+    "not a disability determination",
+    "not an accommodation decision",
+    "not a fitness judgment",
+    "not a fixed identity",
+    "not a prediction"
+  ],
+  "reviewRequired": [
+    "lived-experience",
+    "disability justice",
+    "clinical safety",
+    "privacy",
+    "accessibility"
+  ]
+}

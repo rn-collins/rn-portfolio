@@ -1,0 +1,45 @@
+{
+  "build": "055",
+  "engineVersion": "055.1.0",
+  "title": "Let the Smart Home Explain Itself",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-HOME-01",
+    "scenarioId": [
+      "AUTHORIZED-CHANGE",
+      "AUTHORITY-CONFLICT",
+      "MODELED-OUTAGE",
+      "ROLLBACK-REQUEST"
+    ],
+    "request": "exact synthetic light-level request",
+    "authority": "exact actor/scope/authorization/consent/override declaration",
+    "state": "exact conflict/dependency/fallback/rollback declaration",
+    "recovery": "exact previous-state/rollback/record declaration",
+    "inherited": {
+      "offlineEngine": "036.2.0",
+      "policyEngine": "040.3.0",
+      "policyVersion": "040-policy-3",
+      "policyActions": [
+        "CONTINUE",
+        "ASK",
+        "ABSTAIN",
+        "FALLBACK",
+        "ESCALATE",
+        "STOP"
+      ],
+      "adaptiveEngine": "054.2.0"
+    }
+  },
+  "outputs": [
+    "status",
+    "modeledAction",
+    "explanation",
+    "authorization",
+    "override",
+    "recovery",
+    "unresolved",
+    "nonActions"
+  ],
+  "invalid": "recursive exact structural binding; fail closed without serialization or throw",
+  "sideEffects": "none; state-only simulation",
+  "boundary": "no real recognition, inference, device actuation, outage, authorization, consent, safety, accessibility, security, privacy, legality, or fallback/recovery efficacy claim"
+}

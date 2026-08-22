@@ -1,0 +1,42 @@
+{
+  "schemaVersion":"1.0",
+  "standard":"docs/build-release-standard-v1.md",
+  "allowed":["PASS","BLOCKING","DEVICE_MANUAL","DEFERRED_WITH_RATIONALE","NOT_APPLICABLE"],
+  "build":"004",
+  "checkedAt":"2026-08-16",
+  "gates":{
+    "publicValue":"PASS",
+    "technologicalCeiling":"PASS",
+    "evidenceProvenance":"PASS",
+    "verificationEvaluation":"PASS",
+    "accessibility":"DEVICE_MANUAL",
+    "interactionVisualQA":"DEVICE_MANUAL",
+    "browserFallback":"PASS",
+    "privacySecurity":"PASS",
+    "performanceResilience":"PASS",
+    "stateExportShare":"PASS",
+    "publicRecord":"PASS",
+    "lineage":"PASS",
+    "metadata":"PASS",
+    "releaseEngineering":"PASS",
+    "bLinkedIn":"DEVICE_MANUAL",
+    "adversarialFinal":"PASS"
+  },
+  "basis":{
+    "publicValue":"004-A produces a usable source register, claim queue and status-derived brief without accounts, prompts or specialist vocabulary; interaction changes which claims can enter findings.",
+    "technologicalCeiling":"A deterministic local workflow is intentionally stronger for this build's premise than adding automated retrieval or model synthesis before the human method is defined. Rejected complexity is recorded in docs/builds/004-release-record.md.",
+    "evidenceProvenance":"Product behavior is governed by the canonical registry definition and build-004-engine-v1 invariants; the build makes no external factual claim that drives scoring or truth determination.",
+    "verificationEvaluation":"Adversarial Playwright fixtures cover unverified, verified, contradicted, source-deletion, required-verification-note, reset, provenance and extreme-input states. The frozen candidate passed the complete browser matrix in GitHub Actions run 31920734743.",
+    "browserFallback":"Core path uses standard browser HTML/JS and no experimental browser or AI API.",
+    "privacySecurity":"See data/build-004-privacy-support-v1.json.",
+    "performanceResilience":"See data/build-004-freshness-performance-v1.json.",
+    "stateExportShare":"Current state is visible in source/claim cards and brief buckets; explicit JSON export preserves full research state; no implicit sharing path exists.",
+    "publicRecord":"004 is present in the shared public record with making, method, evidence and limits, and its artifact/release support files are recorded.",
+    "lineage":"docs/infrastructure-manifest.json records exact Exhibition Room Shell reuse and the durable Manual Intelligence Engine Method v1 artifact.",
+    "metadata":"The canonical object route has unique generated metadata; 004-A and 004-B have distinct titles, descriptions, canonical routes, OG and Twitter metadata. Public lifecycle truthfully remains IN THE LAB until manual/device acceptance is completed.",
+    "releaseEngineering":"GitHub Actions run 31920734743 passed dependency installation, lineage validation, typecheck, lint, production build, Chromium/WebKit installation and the complete Playwright E2E matrix on commit d040f2b95f76f87dfd5160354c278f4316a1502f.",
+    "adversarialFinal":"Final automated adversarial review found and resolved lifecycle-state drift plus WebKit controlled-input failures; the corrected frozen candidate passed the complete E2E matrix with no remaining automated blocker.",
+    "bLinkedIn":"A real 720x900 H.264 silent-first MP4 has been generated and hashed; opening, verification-state and final frames were visually inspected. Physical phone playback QA and binary repository transfer remain open; see docs/builds/004-linkedin-production.md.",
+    "manual":"Accessibility, touch, physical-device visual acceptance and final B-LinkedIn phone-size playback are not represented as automated PASS."
+  }
+}

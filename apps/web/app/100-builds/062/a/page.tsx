@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('062','a');
+import InterviewLab from'./InterviewLab';import s from'../interview.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>062-A</span></nav><p className={s.kicker}>SYNTHETIC INTERVIEW KNOWLEDGE NETWORK</p><h1>The interview is more than a transcript.</h1><p className={s.lede}>Inspect fixed audio-text segments as source-linked people labels, claims, themes, evidence, tensions, uncertainty and follow-up questions—without identifying a speaker.</p><InterviewLab/></main>}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "027",
+  "engineVersion": "027.2.0",
+  "name": "Creator Ownership Stack Engine",
+  "canonical": {
+    "title": "Creator Ownership Stack Mapper",
+    "job": "Show what a creator or founder owns, rents, depends on, licenses or could lose across platforms and assets.",
+    "bWeb": "Drag assets across OWN, RENT and DEPEND and watch exposure recalculate.",
+    "uses": [
+      "010",
+      "011"
+    ],
+    "creates": [
+      "cap:027"
+    ]
+  },
+  "derived": {
+    "controlSemantics": "OWN, RENT, and DEPEND are operational relationship labels, not legal-title conclusions.",
+    "legalBasisStates": [
+      "not-assessed",
+      "creator-origin-asserted",
+      "license-documented",
+      "contract-right-documented"
+    ],
+    "evidenceRequirements": [
+      "locator",
+      "observation date",
+      "reviewer",
+      "supported proposition",
+      "365-day freshness boundary"
+    ],
+    "recoveryControls": [
+      "tested export",
+      "independently restored backup",
+      "tested transfer",
+      "revocation conditions and response",
+      "exit plan",
+      "replacement channel"
+    ],
+    "tiers": [
+      "UNRESOLVED",
+      "CONTROLLED",
+      "EXPOSED",
+      "CRITICAL"
+    ],
+    "scoreMeaning": "Derived dependency-recovery index; not probability, value, contract interpretation, or legal risk."
+  },
+  "nonClaims": [
+    "The map does not determine legal title or intellectual-property ownership.",
+    "A selected control class cannot establish custody, license, or contractual rights.",
+    "The map does not establish asset value, portability, business continuity, or platform availability."
+  ]
+}

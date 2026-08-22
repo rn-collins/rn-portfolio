@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('094','a');
+import Inspector from'./ComplianceRecordInspector';import s from'../proof.module.css';export default function Page(){return <main className={s.page} data-build="094" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>094-A</span></nav><p className={s.kicker}>REGULATED COMPLIANCE RECORD & EVIDENCE SYSTEM</p><h1>Prove the Work Was<br/>Done the Right Way</h1><p className={s.lede}>Reconstruct rule, evidence, consent, approvals, action and version behind regulated work.</p><Inspector/></main>}

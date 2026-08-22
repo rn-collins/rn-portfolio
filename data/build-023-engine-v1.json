@@ -1,0 +1,28 @@
+{
+  "build": "023",
+  "engine": "Consent & Data Rights Manager v1",
+  "version": "023.2.0",
+  "canonical": {
+    "title": "Consent & Data Rights Manager",
+    "job": "Let people understand and control consent, access, correction, deletion, retention and downstream use.",
+    "bWeb": "A static checkbox becomes a living rights and permission surface.",
+    "uses": [
+      "010",
+      "020"
+    ],
+    "creates": [
+      "cap:023"
+    ]
+  },
+  "integrity": [
+    "Unique purpose and event IDs",
+    "Chronological, action-consistent, append-only state chain",
+    "Current state reconciled to event history",
+    "Evidence-bearing purpose terms and named rights routes"
+  ],
+  "boundaries": [
+    "Product-control demonstration, not a legal determination of consent validity, applicable rights, lawful basis, identity, authorization, deadlines, exemptions, or deletion duties.",
+    "Withdrawal changes future processing relying on that permission; it does not itself erase prior records or override another lawful basis or governing retention requirement.",
+    "Synthetic browser-local fixture; do not enter personal data."
+  ]
+}

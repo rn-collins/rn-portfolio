@@ -1,0 +1,21 @@
+{
+  "build": "012",
+  "checkedOn": "2026-08-16",
+  "sources": [
+    {
+      "id": "nist-ai-rmf-1.0",
+      "checkedOn": "2026-08-16",
+      "status": "current primary source"
+    },
+    {
+      "id": "oecd-ai-classification",
+      "checkedOn": "2026-08-16",
+      "status": "current primary source"
+    }
+  ],
+  "performance": {
+    "runtime": "client-side deterministic heuristic",
+    "networkRequestsPerAssessment": 0,
+    "targetViewportWidth": 320
+  }
+}

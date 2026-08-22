@@ -1,0 +1,34 @@
+'use client';
+import {useMemo,useState} from 'react';
+import s from '../vendor.module.css';
+
+type CheckKey='identity'|'proposition'|'evidence'|'scope'|'consequence'|'control'|'independent'|'contract'|'remedy'|'correction';
+type Checks=Record<CheckKey,boolean>;
+type Claim={id:string;claim:string;subject:string;checks:Checks};
+const blank=(v:Partial<Checks>):Checks=>({identity:false,proposition:false,evidence:false,scope:false,consequence:false,control:false,independent:false,contract:false,remedy:false,correction:false,...v});
+const initial:Claim[]=[
+ {id:'CL-01',subject:'Performance',claim:'Reduces review time by 40%',checks:blank({identity:true,proposition:true,evidence:true,scope:true,consequence:true})},
+ {id:'CL-02',subject:'Control',claim:'A human always approves consequential outputs',checks:blank({identity:true,proposition:true,evidence:true,consequence:true,control:true,contract:true})},
+ {id:'CL-03',subject:'Security',claim:'Customer prompts are never used to train shared models',checks:blank({identity:true,proposition:true,scope:true})}
+];
+const labels:{key:CheckKey;label:string;detail:string}[]=[
+ {key:'identity',label:'Exact identity is resolved',detail:'Vendor, product, model, version, hosting path, and material subcontractors are distinguished.'},
+ {key:'proposition',label:'Proposition is testable',detail:'The claim states a measurable behavior, population, time boundary, and exceptions.'},
+ {key:'evidence',label:'Dated evidence is linked',detail:'A retrievable source supports the exact proposition; vendor language alone is not proof.'},
+ {key:'scope',label:'Evidence matches this use',detail:'Population, task, version, operating context, and deployment conditions match.'},
+ {key:'consequence',label:'Consequence is assessed',detail:'Affected people, severity, scale, reversibility, rights, and uncertainty are recorded.'},
+ {key:'control',label:'Controls are demonstrated',detail:'Named owners can monitor, intervene, stop, correct, appeal, and preserve a record.'},
+ {key:'independent',label:'Independent verification exists',detail:'A competent source not controlled by the vendor tested the relevant proposition and scope.'},
+ {key:'contract',label:'Commitment is enforceable',detail:'The scoped answer survives into signed terms, audit rights, change notice, and exit duties.'},
+ {key:'remedy',label:'Failure has a remedy',detail:'The record names cure, suspension, termination, indemnity, or another proportionate recourse path.'},
+ {key:'correction',label:'Corrections remain traceable',detail:'Contradictions, version changes, incidents, and corrected answers append to the evidence chain.'}
+];
+const mandatory:CheckKey[]=['identity','proposition','evidence','scope','consequence','control','independent','contract','remedy','correction'];
+function verdict(c:Claim){const n=mandatory.filter(k=>c.checks[k]).length;if(n===mandatory.length)return 'VERIFIED FOR THIS SCOPE';if(c.checks.identity&&c.checks.proposition&&c.checks.evidence&&n>=5)return 'CONDITIONAL';return 'UNRESOLVED'}
+export default function VendorClaimLab(){
+ const [claims,setClaims]=useState(initial);const [selected,setSelected]=useState(0);const claim=claims[selected];const result=verdict(claim);
+ const open=labels.filter(x=>!claim.checks[x.key]);const counts=useMemo(()=>claims.reduce((a,c)=>{const v=verdict(c);a[v]=(a[v]||0)+1;return a},{} as Record<string,number>),[claims]);
+ function toggle(key:CheckKey){setClaims(v=>v.map((c,i)=>i===selected?{...c,checks:{...c.checks,[key]:!c.checks[key]}}:c))}
+ function download(){const report={schema:'rn.ai-vendor-claim-xray',schemaVersion:'021.2.0',build:'021',fixture:'synthetic',generatedInBrowser:true,containsUserEnteredData:false,decisionStatus:'verification aid only',claims:claims.map(c=>({...c,verdict:verdict(c),closedPaths:mandatory.filter(k=>c.checks[k]),openPaths:mandatory.filter(k=>!c.checks[k])})),boundary:'A complete x-ray means the recorded paths are closed for the stated identity and scope. It is not a general endorsement, legal or security conclusion, value judgment, vendor selection, or procurement approval.'};const href=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=href;a.download='ai-vendor-claim-xray.json';a.click();setTimeout(()=>URL.revokeObjectURL(href),0)}
+ return <section className={s.lab}><div className={s.summary} role="status" aria-live="polite" aria-atomic="true"><span>SELECTED CLAIM / {claim.id}</span><h2>{result}</h2><p>{mandatory.length-open.length} / {mandatory.length} verification paths closed. Scope-specific verification is not a general endorsement or procurement approval.</p></div><div className={s.workspace}><aside aria-label="Vendor claims"><h3>SYNTHETIC CLAIM REGISTER</h3>{claims.map((c,i)=><button key={c.id} className={i===selected?s.selected:''} aria-pressed={i===selected} onClick={()=>setSelected(i)}><small>{c.id} · {c.subject}</small><b>{c.claim}</b><span>{verdict(c)}</span></button>)}</aside><article><p className={s.kicker}>X-RAY / {claim.subject}</p><h3>{claim.claim}</h3><fieldset><legend>Verification record</legend>{labels.map(x=><label key={x.key}><input type="checkbox" checked={claim.checks[x.key]} onChange={()=>toggle(x.key)}/><span><b>{x.label}</b><small>{x.detail}</small></span></label>)}</fieldset><section aria-labelledby="open-paths"><h4 id="open-paths">OPEN VERIFICATION PATHS</h4>{open.length?<ul>{open.map(x=><li key={x.key}><b>{x.label}:</b> {x.detail}</li>)}</ul>:<p>All recorded paths are closed for this synthetic identity and scope. Human reviewers must still make the procurement decision.</p>}</section><dl><div><dt>Entity check · Build 011</dt><dd>Vendor, product, model, version, hosting path, and subcontractor identities must not be conflated.</dd></div><div><dt>Consequence check · Build 012</dt><dd>Required evidence, review, control, and recourse rise with the consequence of the proposed use.</dd></div><div><dt>Evidence chain · Build 020</dt><dd>Sources, answers, decisions, contradictions, and corrections remain reconstructable.</dd></div></dl></article></div><footer className={s.footer}><p>{counts['VERIFIED FOR THIS SCOPE']||0} verified · {counts.CONDITIONAL||0} conditional · {counts.UNRESOLVED||0} unresolved</p><div><button onClick={()=>{setClaims(initial);setSelected(0)}}>RESET</button><button onClick={download}>EXPORT SYNTHETIC X-RAY</button></div></footer><p className={s.note}>Synthetic, client-local demonstration. No vendor, bid, personal information, security detail, or procurement response is submitted or retained. Export contains only this synthetic fixture. Do not enter confidential material. A real review requires competent procurement, legal, security, privacy, accessibility, finance, affected-community, and domain reviewers.</p></section>
+}

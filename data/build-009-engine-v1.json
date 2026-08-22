@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "009",
+  "engineVersion": "009.1.0",
+  "title": "Place-Sensitive Technology Readiness",
+  "job": "Test whether a technology can work in a particular place before assuming transferability.",
+  "inheritance": {
+    "usesBuild": "003",
+    "primitive": "decisionGapScore + decisionGapTier",
+    "purpose": "Keep the unresolved local decision visible before evaluating transfer fit."
+  },
+  "dimensions": [
+    {
+      "key": "connectivity",
+      "label": "Connectivity and offline continuity",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "power",
+      "label": "Power and operating continuity",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "devices",
+      "label": "Device and bandwidth fit",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "environment",
+      "label": "Physical environment and prevailing hazards",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "accessibility",
+      "label": "Language, disability and access needs",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "governance",
+      "label": "Local authority, policy and procurement",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "workforce",
+      "label": "Support and operating capacity",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "data",
+      "label": "Privacy, residency and data stewardship",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "maintenance",
+      "label": "Maintenance and supply continuity",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    },
+    {
+      "key": "community",
+      "label": "Community acceptance and local authority",
+      "scale": "1–5 requirement and local capacity",
+      "evidenceRequired": true,
+      "ownerRequired": true,
+      "mitigationRequiredWhenGap": true
+    }
+  ],
+  "statuses": [
+    "PLACE READY",
+    "CONDITIONAL",
+    "NOT READY"
+  ],
+  "boundary": "A rubric can expose assumptions and structure a local pilot. It cannot prove legal compliance, safety, infrastructure reliability, cultural legitimacy, adoption, procurement approval, or successful transfer.",
+  "sources": [
+    {
+      "id": "009-nist-community-resilience",
+      "url": "https://www.nist.gov/community-resilience/planning-guide",
+      "classification": "cross-source-synthesis"
+    },
+    {
+      "id": "009-ntia-local-coordination",
+      "url": "https://broadbandusa.ntia.gov/news/latest-news/ntias-commitment-state-and-territory-local-coordination",
+      "classification": "cross-source-synthesis"
+    },
+    {
+      "id": "009-w3c-accessibility-context",
+      "url": "https://www.w3.org/WAI/people-use-web/",
+      "classification": "cross-source-synthesis"
+    },
+    {
+      "id": "003-decision-gap-inheritance",
+      "classification": "product-heuristic"
+    }
+  ]
+}

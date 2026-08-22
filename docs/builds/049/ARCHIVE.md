@@ -1,0 +1,1 @@
+# Build 049 archive\n\nVersion 049.2.0 replays only the exact exported synthetic state. Replay is state-only and must not infer diagnosis, disability, fitness, accommodation need or a fixed identity. The app has no persistence or transmission; an explicitly requested downloaded file is controlled outside the app lifecycle.\n

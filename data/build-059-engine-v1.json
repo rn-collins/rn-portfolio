@@ -1,0 +1,27 @@
+{
+  "build": "059",
+  "engineVersion": "059.1.0",
+  "title": "Is This Legal Citation Real, Current, and Saying What the AI Claims?",
+  "fictional": true,
+  "gates": [
+    "existence",
+    "exactQuote",
+    "proposition",
+    "jurisdiction",
+    "currentStatus",
+    "treatment"
+  ],
+  "scenarios": [
+    "ALL-RECORDED",
+    "EXISTENCE-UNKNOWN",
+    "QUOTE-MISMATCH",
+    "JURISDICTION-MISMATCH",
+    "STATUS-CONFLICT"
+  ],
+  "inherited": [
+    "028.2.0 transparent-ranking-v2 derived-concept-map-v2",
+    "029.2.0",
+    "058.1.0"
+  ],
+  "boundary": "fictional synthetic gates only; not legal research/advice/citator or proof/authorization"
+}

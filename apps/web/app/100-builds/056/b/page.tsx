@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('056','b');
+import DefensibilityStory from'./DefensibilityStory';import s from'../defensibility.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>056-B</span></nav><p className={s.kicker}>THE MOAT LABEL COLLAPSES INTO CONDITIONS</p><h1>Defensibility is a topology, not a noun.</h1><DefensibilityStory/></main>}

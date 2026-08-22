@@ -1,0 +1,43 @@
+{
+  "build": "042",
+  "version": "042.2.0",
+  "fixture": "synthetic",
+  "canonical": {
+    "title": "Give the AI a Real Job",
+    "job": "Define an AI agent’s role, tools, boundaries, review points and stop conditions.",
+    "bWeb": "Drag responsibilities in and out and watch permissions, risk and evaluation recompute.",
+    "uses": [
+      "012",
+      "039",
+      "040",
+      "041"
+    ],
+    "creates": [
+      "cap:042"
+    ]
+  },
+  "required": [
+    "identity",
+    "purpose",
+    "accountable owner",
+    "distinct allowed responsibilities",
+    "distinct prohibited actions",
+    "exact approved tool grants",
+    "review points",
+    "stop conditions",
+    "evaluation criteria",
+    "exact control records"
+  ],
+  "contracts": {
+    "writeResponsibilityAndGrantCoupled": true,
+    "writeRequiresExactHumanApprovalGate": true,
+    "duplicateOrEscalatedToolsBlocked": true,
+    "exactControlIdentityAndVersion": true
+  },
+  "nonClaims": [
+    "authorization",
+    "competence",
+    "safe execution",
+    "effective supervision"
+  ]
+}

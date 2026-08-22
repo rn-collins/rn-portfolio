@@ -1,0 +1,29 @@
+{
+  "build": "046",
+  "engineVersion": "046.2.0",
+  "canonical": {
+    "title": "What Does This Island Depend On?",
+    "job": "Reveal the external and local systems keeping island essentials working and what happens when one fails.",
+    "bWeb": "Cut a port, cable, route or service and watch cascades across sectors and geography."
+  },
+  "replay": {
+    "sideEffects": false,
+    "atomicSnapshot": true,
+    "requires": [
+      "exact exported nodes",
+      "exact cut",
+      "engine 046.2.0"
+    ]
+  },
+  "evidenceMode": "synthetic-demonstration",
+  "realAssetClaims": [],
+  "remainingReview": [
+    "emergency management",
+    "infrastructure engineering",
+    "community governance",
+    "security",
+    "privacy",
+    "accessibility",
+    "physical-device"
+  ]
+}

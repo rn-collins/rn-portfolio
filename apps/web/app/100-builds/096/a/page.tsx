@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('096','a');
+import Desk from'./ExperienceIntelligenceDesk';import s from'../experience.module.css';export default function Page(){return <main className={s.page} data-build="096" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>096-A</span></nav><p className={s.kicker}>CANNABIS EXPERIENCE INTELLIGENCE SYSTEM · SYNTHETIC REHEARSAL</p><h1>Learn From Cannabis Experience<br/>Without Reducing People to Labels</h1><p className={s.lede}>Learn responsible longitudinal patterns across product composition, person, context and time.</p><Desk/></main>}

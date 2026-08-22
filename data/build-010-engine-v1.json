@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "010",
+  "engineVersion": "010.1.0",
+  "title": "Give the Idea a Skeleton",
+  "job": "Turn ambiguous concepts into validated entities, fields, relationships, constraints and source rules.",
+  "contract": {
+    "entities": [
+      "stable ID",
+      "label",
+      "definition",
+      "typed fields"
+    ],
+    "fields": [
+      "stable ID",
+      "label",
+      "type",
+      "required state",
+      "source rule"
+    ],
+    "relationships": [
+      "stable ID",
+      "from/to entity",
+      "label",
+      "cardinality",
+      "required state"
+    ],
+    "sources": [
+      "stable ID",
+      "authority",
+      "locator rule",
+      "freshness rule"
+    ]
+  },
+  "statuses": [
+    "VALID SKELETON",
+    "PARTIAL SKELETON",
+    "LOOSE LANGUAGE"
+  ],
+  "boundary": "Structural validity is not factual truth, semantic correctness, domain completeness, database fitness, interoperability, or governance approval.",
+  "sources": [
+    {
+      "id": "010-json-schema-2020-12",
+      "url": "https://json-schema.org/draft/2020-12/json-schema-validation",
+      "classification": "direct-source"
+    },
+    {
+      "id": "010-w3c-shacl",
+      "url": "https://www.w3.org/TR/shacl/",
+      "classification": "direct-source"
+    },
+    {
+      "id": "010-w3c-prov-o",
+      "url": "https://www.w3.org/TR/prov-o/",
+      "classification": "cross-source-synthesis"
+    },
+    {
+      "id": "010-skeleton-rubric",
+      "classification": "product-heuristic"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "029",
+  "engineVersion": "029.2.0",
+  "name": "Change and Consequence Engine",
+  "canonical": {
+    "title": "Change & Consequence Explorer",
+    "job": "Show what changed between versions and what downstream records or decisions are affected.",
+    "bWeb": "A semantic diff propagates consequences through a dependency graph.",
+    "uses": [
+      "010",
+      "020"
+    ],
+    "creates": [
+      "cap:029"
+    ]
+  },
+  "derived": {
+    "semanticBoundary": "The canonical semantic-diff phrase is implemented as schema-bound exact-value comparison; semantic interpretation and rename inference are not performed.",
+    "changeKinds": [
+      "added",
+      "removed",
+      "changed"
+    ],
+    "fieldIdentity": "Stable registered schema field IDs and types",
+    "eventEvidence": [
+      "event ID",
+      "actor",
+      "date",
+      "reason",
+      "bounded authority",
+      "current reason evidence",
+      "current authority evidence"
+    ],
+    "propagation": "All simple registered downstream paths; direct field-use followed by recursive dependencies",
+    "cycleRule": "Any dependency cycle blocks impact interpretation",
+    "missingDependencyRule": "Unregistered nodes or field IDs block impact interpretation",
+    "impactLanguage": "registered potentially affected, never caused",
+    "ordering": "field ID; node ID; minimum path length then node ID",
+    "replay": [
+      "schema fingerprint",
+      "graph fingerprint",
+      "field order",
+      "node order",
+      "traversal and impact ordering"
+    ]
+  },
+  "nonClaims": [
+    "Exact-value difference is not semantic interpretation.",
+    "A registered impact path does not prove causation or actual downstream change.",
+    "Materiality labels are derived and are not legal determinations.",
+    "Unregistered downstream systems cannot be discovered by this fixture."
+  ]
+}

@@ -1,0 +1,5 @@
+import Link from 'next/link';
+import { builds, phases, type PublicBuildState } from '../../../../packages/registry/src/index';
+import s from './gallery.module.css';
+const stateLabel:Record<PublicBuildState,string>={OnView:'ON VIEW',InLab:'IN THE LAB',ComingNext:'COMING NEXT'};
+export default function Exhibition(){return <>{phases.map(phase=>{const works=builds.filter(b=>b.phase===phase.id);return <section className={s.phase} id={'phase-'+phase.id} key={phase.id}><header className={s.phaseHead}><span>ROOM {String(phase.id).padStart(2,'0')}</span><h2>{phase.name}</h2><i>BUILDS {String(phase.range[0]).padStart(3,'0')}—{String(phase.range[1]).padStart(3,'0')}</i></header><div className={s.works}>{works.map(b=>{const state=b.publicState??'ComingNext';return <Link className={`${s.work} ${state==='OnView'?s.onView:state==='InLab'?s.inLab:s.planned}`} key={b.id} href={`/100-builds/${b.id}`}><div className={s.accession}><span>{b.id} / 100</span><span>{stateLabel[state]}</span></div><h3>{b.title}</h3><p>{b.description}</p></Link>})}</div></section>})}</>}

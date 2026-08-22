@@ -1,0 +1,23 @@
+{
+  "schemaVersion":"004.1.0",
+  "title":"Manual Intelligence Engine Method",
+  "mode":"deterministic local workflow",
+  "canonicalRegistry":"data/100-builds.js#004",
+  "components":["Collection Protocol","Verification Queue","Intelligence Brief Template"],
+  "invariants":[
+    "source records and analyst claims are separate objects",
+    "source provenance has explicit fields for title, issuer/author, URL/location, publication/version, source date, checked/retrieved date, relevant locator, source type and collection note",
+    "a source cannot enter the register without a title and checked/retrieved date",
+    "new claims enter as unverified",
+    "a claim cannot be marked verified until the reviewer records a non-empty verification note describing what was checked",
+    "clearing the verification note demotes a verified claim back to unverified",
+    "only claims explicitly marked verified with a retained verification note appear as verified findings",
+    "contradicted and uncertain claims remain visible in separate brief sections",
+    "removing a source removes claims that depend on that source",
+    "reset/start over clears sources, claims, drafts and derived brief state",
+    "export preserves source provenance, claims, statuses, verification notes and derived brief buckets"
+  ],
+  "processing":{"location":"browser client","networkRequired":false,"externalModelRequired":false},
+  "evidenceBoundary":"The engine records source provenance, a human verification decision and the reviewer's note about what was checked; it does not independently determine whether a source or claim is true.",
+  "privacy":"No build-specific transmission or persistence path; exported JSON is created locally on explicit user action."
+}

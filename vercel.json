@@ -1,22 +1,33 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://rn-selected-work.vercel.app/",
-      "permanent": true
-    },
-    {
-      "source": "/:path+",
-      "destination": "https://rn-selected-work.vercel.app/:path+",
-      "permanent": true
-    }
-  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm --filter @rn/web build",
+  "outputDirectory": "apps/web/out",
   "headers": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "no-store, max-age=0" },
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "base-uri 'self'; object-src 'none'; frame-ancestors 'none'"
+        }
       ]
     }
   ]

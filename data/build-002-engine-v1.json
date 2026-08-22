@@ -1,0 +1,11 @@
+{
+  "build":"002",
+  "engineVersion":"002.1.0",
+  "classification":"product-heuristic",
+  "semanticEquivalenceProof":false,
+  "checks":["numbers","negation","uncertainty","named anchors","locked facts","scope/condition drift indicators"],
+  "generatorVerifierSeparation":true,
+  "optionalCapabilities":["browser-managed local LanguageModel","browser-managed local Translator"],
+  "deferred":{"independentNLI":"deferred until a pinned/versioned evaluator can be governed as first-class infrastructure rather than an opaque runtime model dependency"},
+  "limitations":["anchor preservation does not prove semantic equivalence","translation does not prove cultural equivalence","human domain/language review remains required for consequential communication"]
+}

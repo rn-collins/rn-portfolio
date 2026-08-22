@@ -1,0 +1,8 @@
+{
+  "build": "023",
+  "dataClass": "synthetic demonstration data only",
+  "processing": "browser-local",
+  "storage": "none required",
+  "network": "none required for core value",
+  "warning": "Do not enter real personal data. Legal applicability requires governing-law and competent-review analysis."
+}

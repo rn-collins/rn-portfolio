@@ -1,0 +1,32 @@
+{
+  "build": "021",
+  "version": "021.2.0",
+  "title": "AI Vendor Claim / Procurement X-Ray",
+  "question": "What would have to be true before this vendor claim could support a procurement decision?",
+  "questionStatus": "implementation copy derived from canonical job",
+  "thesis": "A vendor promise becomes decision-ready only when the exact entity, proposition, evidence, scope, consequence, control, commitment, remedy, and correction path are explicit.",
+  "thesisStatus": "implementation copy derived from canonical job and B-web",
+  "verificationPaths": [
+    "exact identity",
+    "testable proposition",
+    "dated linked evidence",
+    "scope match",
+    "consequence assessment",
+    "demonstrated controls",
+    "independent verification",
+    "enforceable commitment",
+    "failure remedy",
+    "traceable correction"
+  ],
+  "verdicts": {
+    "verifiedForThisScope": "all ten paths closed; completeness only, not approval",
+    "conditional": "identity, proposition, and evidence closed; at least five paths closed; every remainder displayed",
+    "unresolved": "minimum foundations absent"
+  },
+  "limitations": [
+    "scope-specific verification is not a general endorsement",
+    "vendor evidence is not automatically independent evidence",
+    "contradictory evidence cannot be cured by a checkbox",
+    "a complete x-ray does not make the procurement decision"
+  ]
+}

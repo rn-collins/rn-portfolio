@@ -1,0 +1,32 @@
+{
+  "build": "054",
+  "engineVersion": "054.2.0",
+  "title": "Make the Space Adapt to the Person",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-ADAPT-01",
+    "scenarioId": [
+      "FOCUS-DESK",
+      "SHARED-CONVERSATION"
+    ],
+    "personProfile": "exact synthetic declaration, not inferred or collected",
+    "context": "exact ordered room capability/lock arrays and occupancy",
+    "evidence": {
+      "personalContextEngine": "049.2.0",
+      "spaceEngine": "050.2.0",
+      "protocolEngine": "053.2.0",
+      "protocolFixtureId": "SYNTHETIC-N1-01",
+      "protocolId": "ALTERNATING-SEQUENCE",
+      "protocolStatus": "PATTERN TO RETEST"
+    }
+  },
+  "outputs": [
+    "status",
+    "configuration",
+    "tradeoffs",
+    "unresolved",
+    "nonActions"
+  ],
+  "determinism": "exact scenario and inherited contracts produce exact review configuration",
+  "invalid": "explicit recursive exact binding; fail closed without serialization or throw",
+  "boundary": "reviewable synthetic configuration only; no actuation, person/protected-trait inference, medical/design advice, accessibility/accommodation determination, causal finding, or safety clearance"
+}

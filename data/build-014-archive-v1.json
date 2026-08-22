@@ -1,0 +1,19 @@
+{
+  "build": "014",
+  "status": "active",
+  "canonicalPaths": [
+    "/100-builds/014",
+    "/100-builds/014/a",
+    "/100-builds/014/b"
+  ],
+  "retention": "No matter, client, or personal data retained by the public demonstration.",
+  "lineage": {
+    "uses": [
+      "001",
+      "012"
+    ],
+    "creates": [
+      "cap:014"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "010",
+  "state": "client-local",
+  "persistence": false,
+  "serverSubmission": false,
+  "export": "explicit JSON download",
+  "sensitiveUse": "Use generalized examples; do not enter confidential records."
+}

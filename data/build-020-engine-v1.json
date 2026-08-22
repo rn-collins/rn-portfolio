@@ -1,0 +1,27 @@
+{
+  "build": "020",
+  "version": "020.2.0",
+  "title": "Decision Evidence Ledger",
+  "question": "Why was this decision made, and can its evidence and result be reconstructed?",
+  "questionStatus": "implementation copy derived from canonical job",
+  "thesis": "A decision is accountable only when its actor, authority, time, evidence, alternatives, acknowledgement, result, and correction history remain linked without silently replacing earlier records.",
+  "thesisStatus": "implementation copy derived from canonical job and B-web",
+  "recordClasses": [
+    "decision",
+    "actor",
+    "authority",
+    "evidence",
+    "alternative",
+    "acknowledgement",
+    "result",
+    "correction"
+  ],
+  "requiredEvidenceRule": "Every fixture marked required must remain linked; record count alone never establishes completeness.",
+  "correctionRule": "append a separately identified correction linked to the original record; preserve the original value and never silently overwrite",
+  "exportRule": "synthetic client-local JSON only; no submission or server retention",
+  "limitations": [
+    "provenance does not prove truth",
+    "sequence does not prove causation",
+    "a complete record does not prove a correct or lawful decision"
+  ]
+}

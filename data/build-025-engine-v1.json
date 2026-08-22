@@ -1,0 +1,35 @@
+{
+  "version": "025.2.0",
+  "canonical": {
+    "title": "AI Implementation Readiness X-Ray",
+    "job": "Test whether an organization can actually implement an AI use safely and operationally.",
+    "bWeb": "Readiness layers reveal missing people, data, workflows, controls and evidence.",
+    "uses": [
+      "012",
+      "013",
+      "021"
+    ],
+    "creates": [
+      "cap:025"
+    ]
+  },
+  "derivedRubric": {
+    "layers": [
+      "people",
+      "data",
+      "workflow",
+      "controls",
+      "evidence"
+    ],
+    "states": [
+      "READY FOR BOUNDED PILOT",
+      "READINESS GAPS",
+      "NOT READY"
+    ],
+    "positiveScoreRule": "A positive score requires a specific evidence statement, one or more locatable dated reviewer-identified records, accountable ownership, defined authority, and a validation method.",
+    "fullScoreRule": "A score of 2 cannot coexist with an unresolved gap.",
+    "inheritedRule": "Builds 012, 013, and 021 each require one traceable closed assessment record with no unresolved gaps; interface checkboxes cannot substitute for those records.",
+    "pilotRule": "All five layers must score 2 on validated support and all boundary, exclusion, ownership, measurement, stop, incident, rollback, expiry, and approval controls must be defined."
+  },
+  "boundary": "A derived heuristic for a bounded synthetic pilot; not deployment, procurement, safety, compliance, regulatory, or legal authorization."
+}

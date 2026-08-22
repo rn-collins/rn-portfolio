@@ -1,0 +1,14 @@
+{
+  "build":"031",
+  "schemaVersion":"2.0",
+  "engineVersion":"031.2.0",
+  "fixture":"synthetic planning data; no observed behavior or telemetry",
+  "canonical":{"title":"Privacy-Conscious Product Behavior X-Ray","job":"Decide what a product really needs to measure and what its telemetry reveals about people.","bWeb":"Toggle events and watch insight versus privacy and identifiability change.","uses":["023","024","026"],"creates":["cap:031"]},
+  "requiredDecisions":["navigationRepair","featurePriority","taskSuccess","reliabilityRepair"],
+  "eventOrder":["pageView","featureUsed","taskCompleted","errorCode","searchTerms","preciseLocation","fullIp","sessionReplay","freeText"],
+  "minimumSetRule":"Walk eventOrder; select an event when it covers at least one still-uncovered required decision.",
+  "dimensions":{"insightCoverage":"percentage of required decision IDs covered","privacyLoad":"70% maximum selected ordinal plus 30% mean","identifiability":"maximum selected ordinal plus 10 when combined link keys exceed one"},
+  "checks":["event dependency","purpose limitation","retention review over 30 days","aggregation linkability","sensitive inference","combined high-risk selection","consent choice","separate legal-basis documentation","tested deletion procedure","change trace","evidence provenance and 366-day freshness"],
+  "export":{"originalState":true,"derivedState":true,"exactReplayInput":true,"evidence":true,"privacyAndLimitations":true},
+  "nonClaims":["Scores are not measured insight, privacy, identifiability, benefit, legal risk, or behavior.","Declared minimum set does not prove necessity, proportionality, minimization, anonymity, or compliance.","Consent, legal basis, retention, deletion, aggregation, and rights behavior require contextual and production verification."]
+}

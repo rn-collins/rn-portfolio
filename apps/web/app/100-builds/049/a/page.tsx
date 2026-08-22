@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('049','a');
+import ContextLab from'./ContextLab';import s from'../context.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>049-A</span></nav><p className={s.kicker}>PRIVATE CONTEXT INSTRUMENT</p><h1>What works for you?</h1><p className={s.lede}>Recompose one synthetic sensory profile as setting and goal change. The output is a prompt for reflection, not a verdict about a person.</p><ContextLab/></main>}

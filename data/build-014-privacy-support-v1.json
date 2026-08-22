@@ -1,0 +1,9 @@
+{
+  "build": "014",
+  "processing": "client-only",
+  "collection": [],
+  "storage": [],
+  "networkSubmission": false,
+  "export": "user-initiated local JSON",
+  "support": "Applicable jurisdictional rules, court orders, client agreements, firm policy, and competent supervising counsel control."
+}

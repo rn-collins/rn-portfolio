@@ -1,0 +1,11 @@
+{
+  "build": "048",
+  "engine": "048.2.0",
+  "freshness": "No current rule, agency process, real person, or lived-experience evidence represented.",
+  "performance": {
+    "engine": "deterministic synchronous O(n)",
+    "network": "none",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

@@ -1,0 +1,1 @@
+{"build":"038","engineVersion":"038.1.0","canonicalFieldsFrozen":true,"derivedFields":["metrics","weights","slices","scores","thresholds","rankings","copy"],"replay":"Use versioned fixture and local evaluation record.","boundary":"No live model evaluated."}

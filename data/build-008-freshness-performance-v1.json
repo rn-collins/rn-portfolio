@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "008",
+  "reviewedAt": "2026-08-16",
+  "freshness": {
+    "engineVersion": "008.1.0",
+    "sourceReviewDate": "2026-08-16",
+    "sourceFamilies": [
+      "CDC COVE",
+      "W3C WCAG 2.2",
+      "Build 001 human-control primitive"
+    ],
+    "recheckTriggers": [
+      "material WCAG interpretation change",
+      "CDC dashboard guidance change",
+      "engine contract change",
+      "new persistence or network dependency"
+    ]
+  },
+  "performance": {
+    "coreValueWithoutNetwork": true,
+    "coreValueWithoutModel": true,
+    "interactionModel": "local React state and deterministic TypeScript assessment",
+    "assetDependencies": "site fonts/styles only",
+    "expectedPayload": "small text records"
+  },
+  "resilience": {
+    "offlineAfterLoad": "core editing, assessment, scenarios, reset, and JSON export remain local",
+    "failureModes": [
+      "download policy may block export",
+      "user-entered content may be incomplete or inaccurate"
+    ],
+    "fallbacks": [
+      "assessment exposes gaps",
+      "content remains editable",
+      "no hidden server state"
+    ]
+  },
+  "status": "reviewed-working"
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "025",
+  "engineVersion": "025.2.0",
+  "routes": [
+    "/100-builds/025",
+    "/100-builds/025/a",
+    "/100-builds/025/b"
+  ],
+  "canonical": {
+    "title": "AI Implementation Readiness X-Ray",
+    "uses": [
+      "012",
+      "013",
+      "021"
+    ],
+    "creates": [
+      "cap:025"
+    ],
+    "consumer": [
+      "099"
+    ]
+  },
+  "derivedCopy": true,
+  "processing": "client-local synthetic fixture",
+  "integrityControls": [
+    "evidence-linked positive scores",
+    "full scores cannot retain gaps",
+    "traceable inherited assessment records",
+    "bounded exclusions, expiry, incident, and rollback controls"
+  ],
+  "exports": [
+    "ai-implementation-readiness.json"
+  ],
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ]
+}

@@ -1,0 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('081','a');
+import UnmetNeedEngine from './UnmetNeedEngine';
+import s from '../unmet-need.module.css';
+export default function Page(){return <main className={s.page} data-build="081" data-variant="A"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>081-A</span></nav><p className={s.kicker}>SOCIAL LISTENING → UNMET NEED ENGINE · SYNTHETIC DEMONSTRATION</p><h1>What are people repeatedly<br/>struggling with?</h1><p className={s.lede}>Convert a fixed synthetic conversation corpus into bounded problem signals, affected groups, existing alternatives, and product or policy hypotheses—without mistaking repetition for verified demand. No real people are represented.</p><UnmetNeedEngine/></main>}

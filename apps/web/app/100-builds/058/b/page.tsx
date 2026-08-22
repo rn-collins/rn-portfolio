@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('058','b');
+import ClaimStory from'./ClaimStory';import s from'../claim.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>058-B</span></nav><p className={s.kicker}>PULL THE CLAIM INTO ITS ROOTS</p><h1>Support can collapse without proving the claim false.</h1><ClaimStory/></main>}

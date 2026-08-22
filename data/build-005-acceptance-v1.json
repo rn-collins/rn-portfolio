@@ -1,0 +1,42 @@
+{
+  "schemaVersion":"1.0",
+  "standard":"docs/build-release-standard-v1.md",
+  "allowed":["PASS","BLOCKING","DEVICE_MANUAL","DEFERRED_WITH_RATIONALE","NOT_APPLICABLE"],
+  "build":"005",
+  "checkedAt":"2026-08-16",
+  "gates":{
+    "publicValue":"PASS",
+    "technologicalCeiling":"PASS",
+    "evidenceProvenance":"PASS",
+    "verificationEvaluation":"PASS",
+    "accessibility":"DEVICE_MANUAL",
+    "interactionVisualQA":"DEVICE_MANUAL",
+    "browserFallback":"PASS",
+    "privacySecurity":"PASS",
+    "performanceResilience":"PASS",
+    "stateExportShare":"PASS",
+    "publicRecord":"PASS",
+    "lineage":"PASS",
+    "metadata":"PASS",
+    "releaseEngineering":"PASS",
+    "bLinkedIn":"DEVICE_MANUAL",
+    "adversarialFinal":"PASS"
+  },
+  "basis":{
+    "publicValue":"005-A converts a real service workflow into explicit AUTOMATE / KEEP HUMAN / REMOVE candidates with visible reasons, while B-Web exposes the same separation visually.",
+    "technologicalCeiling":"The local deterministic classifier is intentionally inspectable. Automatic workflow mining, model classification, process-mining integrations and agentic automation are deferred because they would hide the decision rules this cycle exists to expose.",
+    "evidenceProvenance":"The classification rules are explicitly labeled product heuristics in data/build-005-engine-v1.json. Build 003's decision-gap engine is the only inherited scoring primitive and is imported directly.",
+    "verificationEvaluation":"Adversarial fixtures cover low-value repetition, high-judgment work, local export and interactive story state. The locator ambiguity found during certification was corrected semantically, and the final frozen candidate passed the complete Chromium/WebKit E2E matrix in GitHub Actions run 31928444353.",
+    "browserFallback":"Core value uses standard HTML/JS and deterministic local logic; no experimental browser AI or network/model feature is required.",
+    "privacySecurity":"See data/build-005-privacy-support-v1.json.",
+    "performanceResilience":"See data/build-005-freshness-performance-v1.json.",
+    "stateExportShare":"Workflow state is visible in the step map and disposition lanes; explicit JSON export preserves signals, reasons and inherited decision-gap score; RESET / START OVER restores the demonstration workflow; no implicit share path exists.",
+    "publicRecord":"005 is present in the shared public Making / Method / Evidence / Limits record.",
+    "lineage":"docs/infrastructure-manifest.json records exact Exhibition Room Shell reuse and direct decisionGapScore/decisionGapTier import from Build 003.",
+    "metadata":"005-A and 005-B have distinct titles, descriptions, canonical routes, OpenGraph and Twitter metadata; the registry lifecycle exposes Build 005 as IN THE LAB.",
+    "releaseEngineering":"GitHub Actions run 31928444353 passed dependency installation, lineage validation, typecheck, lint, production build, Chromium/WebKit installation, and the complete Playwright E2E matrix on commit adaed223a9f649ed6ed79166339c7334071bdd0c.",
+    "bLinkedIn":"A governed 720x900 H.264 silent-first MP4 was generated at 24 fps for 18 seconds, SHA-256 3ae0f0d33b514a167eefbbbd3f23804f6f6997d2701027c2da6025830e6810fc. Opening and final frames were directly inspected. Physical phone playback/platform-compression QA and repository/media transfer remain manual; see docs/builds/005-linkedin-production.md.",
+    "adversarialFinal":"The final automated adversarial pass found no remaining product blocker after the locator corrections. The frozen release-package head passed the complete Chromium/WebKit E2E matrix in run 31928444353.",
+    "manual":"Physical-device accessibility, touch/zoom/screen-reader, final visual acceptance and LinkedIn phone playback remain manual rather than being represented as automated PASS."
+  }
+}

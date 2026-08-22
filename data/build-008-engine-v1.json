@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "build": "008",
+  "version": "008.1.0",
+  "title": "Decision-Ready Dashboard Standard",
+  "purpose": "Distinguish an information display from a dashboard that supports an accountable decision and next state.",
+  "inherits": [
+    {
+      "build": "001",
+      "capability": "humanReviewScore + humanReviewGrade",
+      "implementation": "packages/release/src/decision-engines.ts"
+    }
+  ],
+  "creates": [
+    "Decision Readiness Rubric v1",
+    "Action-State Component v1",
+    "Decision Dashboard Assessment Engine v1"
+  ],
+  "metricContract": [
+    "label",
+    "value",
+    "source",
+    "freshness",
+    "comparison",
+    "uncertainty",
+    "decisionUse"
+  ],
+  "actionStateContract": [
+    "decision",
+    "owner",
+    "trigger",
+    "action",
+    "deadline",
+    "authority",
+    "nextState",
+    "escalation"
+  ],
+  "sources": [
+    {
+      "id": "008-cdc-dashboard-guidance",
+      "issuer": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/cove/dashboards/index.html",
+      "classification": "direct-source",
+      "supports": [
+        "a dashboard should be used when visualizations work together and relationships/common filtering matter",
+        "not all data needs a dashboard"
+      ]
+    },
+    {
+      "id": "008-cdc-chart-guidance",
+      "issuer": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/cove/data-visualization-types/data-bite.html",
+      "classification": "direct-source",
+      "supports": [
+        "highlighted values need textual context",
+        "isolated values can create incomplete perspective"
+      ]
+    },
+    {
+      "id": "008-wcag-2.2-distinguishable-reflow",
+      "issuer": "World Wide Web Consortium",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/distinguishable",
+      "classification": "direct-source",
+      "supports": [
+        "contrast, non-color distinction, resize, reflow, and non-text contrast"
+      ]
+    },
+    {
+      "id": "001-human-control-inheritance",
+      "classification": "product-heuristic",
+      "supports": [
+        "accountable owner requires evidence, authority, escalation, and capacity"
+      ]
+    }
+  ],
+  "heuristics": [
+    "six-character completeness thresholds",
+    "100-percent complete-metric gate",
+    "DECISION READY / INFORMATION ONLY / DECISION BLOCKED labels"
+  ],
+  "limitations": [
+    "does not prove metric validity, causality, data quality, organizational authority, or decision correctness",
+    "does not connect to live data or execute actions",
+    "completeness is not evidence that the operating process exists"
+  ]
+}

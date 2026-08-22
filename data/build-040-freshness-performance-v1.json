@@ -1,0 +1,15 @@
+{
+  "build": "040",
+  "freshness": {
+    "engine": "040.2.0",
+    "policyReviewedAt": "2026-08-20",
+    "policyExpiresAt": "2027-08-20",
+    "inheritedRecordsRequireReviewAndExpiry": true
+  },
+  "performance": {
+    "networkAtRuntime": false,
+    "clientComputation": "O(n) over four inherited records",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

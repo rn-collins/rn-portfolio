@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('099','b');
+import CommonsMap from'./CommonsMap';import s from'../commons.module.css';export default function Page(){return <main className={s.page} data-build="099" data-variant="B"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>099-B</span></nav><p className={s.kicker}>PAIRED VISUAL · GOVERNED SPATIAL COMMONS</p><h1>Resilience Begins<br/>With Shared Knowledge</h1><p className={s.lede}>A spatial commons carries steward, permissions, freshness and provenance with every dataset.</p><CommonsMap/></main>}

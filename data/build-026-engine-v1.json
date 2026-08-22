@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "026",
+  "engineVersion": "026.2.0",
+  "name": "Messy Data Trust Engine",
+  "canonical": {
+    "title": "Messy Data Trust X-Ray",
+    "job": "Show what happened to messy data before anyone relies on it.",
+    "bWeb": "Records normalize, deduplicate and retain reversible provenance.",
+    "uses": [
+      "010",
+      "011",
+      "020"
+    ],
+    "creates": [
+      "cap:026"
+    ]
+  },
+  "derived": {
+    "rules": [
+      "trim source identity while retaining the raw snapshot",
+      "normalize spacing and case with named versioned rules",
+      "strictly parse rather than coerce currency values",
+      "validate emails before they can drive candidate grouping",
+      "group exact valid normalized emails only as possible duplicates",
+      "bind each review to the exact candidate IDs, actor, date, evidence, rationale, and decision",
+      "require a Build 011 identity-resolution reference before recording confirmed-same-entity",
+      "never merge, overwrite, or delete a source record"
+    ],
+    "statusOrder": [
+      "TRUST GAPS",
+      "REVIEW REQUIRED",
+      "TRACEABLE"
+    ]
+  },
+  "nonClaims": [
+    "Traceability does not establish source truth.",
+    "A duplicate candidate or review is not proof of identity.",
+    "Normalization is not a legal, statistical, or fitness-for-use determination.",
+    "TRACEABLE does not authorize migration, merging, or reliance."
+  ]
+}

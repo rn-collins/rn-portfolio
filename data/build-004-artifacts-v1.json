@@ -1,0 +1,12 @@
+{
+  "schemaVersion":"1.0",
+  "releaseBranch":"workstream/build-004",
+  "build":"004",
+  "a":{"route":"/100-builds/004/a","engine":"004.1.0","record":"data/build-004-engine-v1.json"},
+  "bWeb":{"route":"/100-builds/004/b","title":"Before the Automation"},
+  "bLinkedIn":{"status":"DEVICE_MANUAL","filename":"build-004-linkedin.mp4","generated":true,"repositoryCommitted":false,"sha256":"4bf7c7c0a99b600787c3f7a20bbff500cbb912feed09b5cf221f7d136469a273","bytes":142520,"width":720,"height":900,"fps":24,"durationSeconds":21.125,"silentFirst":true,"productionRecord":"docs/builds/004-linkedin-production.md","remaining":["physical phone-size playback QA","binary transfer to repository/media delivery path"]},
+  "publicRecord":"/100-builds/004/record",
+  "release":"docs/builds/004-release-record.md",
+  "privacySupport":"data/build-004-privacy-support-v1.json",
+  "freshnessPerformance":"data/build-004-freshness-performance-v1.json"
+}

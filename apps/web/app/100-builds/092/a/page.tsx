@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('092','a');
+import Room from'./OrchestrationControlRoom';import s from'../orchestration.module.css';export default function Page(){return <main className={s.page} data-build="092" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>092-A</span></nav><p className={s.kicker}>AI ORCHESTRATION LAYER FOR BUSINESSES · SYNTHETIC REHEARSAL</p><h1>Make the Work Move Across<br/>People, AI and Software</h1><p className={s.lede}>Orchestrate events, people, tools, agents, approvals and exceptions across a real workflow.</p><Room/></main>}

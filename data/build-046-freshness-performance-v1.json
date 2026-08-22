@@ -1,0 +1,11 @@
+{
+  "build": "046",
+  "engine": "046.2.0",
+  "freshness": "No real infrastructure, location, ownership, capacity or vulnerability data represented.",
+  "performance": {
+    "validation": "O(V + E)",
+    "cascade": "deterministic fixed point",
+    "network": "none",
+    "reducedMotion": true
+  }
+}

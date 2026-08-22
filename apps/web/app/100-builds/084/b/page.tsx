@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('084','b');
+import Story from'./ValueCaptureStory';import s from'../benefit.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="084" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>084-B</span></nav><p className={s.kicker}>WHO CREATED THE VALUE, AND WHO CAPTURED IT?</p><h1>A product can hide<br/>its entire value chain.</h1><p className={s.lede}>Open a fictional product and reveal the knowledge, community, operational, financial, and governance relationships beneath it.</p><Story/></main>}

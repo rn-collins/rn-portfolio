@@ -1,0 +1,30 @@
+{
+  "build": "022",
+  "engineVersion": "022.2.0",
+  "checkedOn": "2026-08-17",
+  "sources": [
+    {
+      "id": "nist-ai-rmf-1.0",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "authority": "NIST",
+      "freshnessRule": "Recheck on a material AI RMF revision or implementation change."
+    },
+    {
+      "id": "nist-ai-rmf-playbook",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/",
+      "authority": "NIST",
+      "freshnessRule": "Recheck guidance before a real assessment or material workflow change."
+    }
+  ],
+  "performance": {
+    "coreMode": "deterministic client-side assessment",
+    "networkRequired": false,
+    "largeMediaRequired": false,
+    "narrowViewportTargetCssPixels": 320
+  },
+  "limitations": [
+    "The fixture and exposure signal are product heuristics.",
+    "Observed experience and distributional effects require direct research and outcome evidence.",
+    "Automated browser checks do not replace physical-device or manual assistive-technology review."
+  ]
+}

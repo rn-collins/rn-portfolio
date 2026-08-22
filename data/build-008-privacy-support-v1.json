@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "008",
+  "reviewedAt": "2026-08-16",
+  "coreDataFlow": {
+    "networkRequests": "none required for core interaction",
+    "modelCalls": "none",
+    "persistence": "none",
+    "export": "user-initiated local JSON download",
+    "telemetry": "no build-specific telemetry"
+  },
+  "dataHandling": {
+    "guidance": "Use representative or appropriately governed operational data; do not paste secrets or unnecessary personal information.",
+    "minimization": "The tool requires only the fields needed to test decision readiness.",
+    "retention": "Browser state lasts only for the open page; reset clears in-memory state.",
+    "supportBoundary": "The artifact is a product heuristic, not a compliance, data-governance, legal, or operational-authority determination."
+  },
+  "risks": [
+    "Users may enter sensitive operational text",
+    "Exported JSON inherits the sensitivity of entered text",
+    "A complete rubric may be mistaken for a correct decision"
+  ],
+  "controls": [
+    "Boundary copy is visible",
+    "No automatic upload or persistence",
+    "Export is explicit",
+    "Reset reaches a truthful empty state",
+    "Human authority and escalation remain explicit"
+  ],
+  "status": "reviewed-working"
+}

@@ -1,0 +1,9 @@
+# Build 089 — Founder Intelligence Engine
+
+Canonical public/A title: **Stop Being the Only Database in Your Company**. Exact B title: **The Founder Should Not Be the Only Database**. Build 089 uses 056, 060, 061, 063, and 088 and creates `cap:089`. Its artifacts are `Founder Intelligence Graph` and `Priority Engine`. A founder knowledge graph surfaces dependencies, priorities and forgotten context.
+
+The deterministic public tool admits five exact fictional Harborlight Studio Cooperative packets: bounded pilot, unsupported security claim, name clearance, stale demand signal, and permission-limited introduction. Every packet exposes a human owner, evidence and dates, decision date, stop condition, uncertainties, open questions, dependencies, provenance and source builds. Gate order protects private context, relationship permission and promises, IP review, evidence sufficiency, freshness and dependencies before a human decision.
+
+No weights, people or company scores, probabilities, semantic matching, LLM inference, hidden ranking or external effects are used. A priority band is workflow triage, not a recommendation or forecast. The tool does not read RN OS or any real founder, client, contact, inbox, CRM, calendar, financial, legal, IP or confidential data. Nothing is sent, scheduled, approved or changed. Qualified legal review remains required for IP and legal questions.
+
+A provides an operating check, local next-action preview and deterministic minimized export. B begins closed, externalizes a structured HTML graph and traces forgotten context. Both retain native controls, visible focus, live status, ordered-list meaning, reduced motion, print disclosure and 320px containment.

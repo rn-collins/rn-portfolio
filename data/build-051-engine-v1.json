@@ -1,0 +1,42 @@
+{
+  "build": "051",
+  "engineVersion": "051.2.0",
+  "title": "Teach Me the Cannabis Part I Actually Need",
+  "evaluationDate": "2026-08-21",
+  "sourceRegistry": "exact ordered records derived from data/build-051-safety-sources-v1.json; checkedOn cannot be future or stale; FUTURE status is valid only before effectiveFrom",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-LEARNER-01",
+    "question": [
+      "BASICS",
+      "EFFECTS",
+      "PRODUCTS",
+      "SAFETY",
+      "LAW"
+    ],
+    "experience": [
+      "NEW",
+      "FAMILIAR"
+    ],
+    "jurisdiction": "UNSPECIFIED only",
+    "misconceptions": [
+      "NATURAL_MEANS_RISK_FREE",
+      "LEGAL_MEANS_SAFE"
+    ],
+    "riskFlags": [
+      "DRIVING",
+      "PREGNANCY_OR_BREASTFEEDING",
+      "YOUTH",
+      "MEDICATION_OR_HEALTH_CONDITION"
+    ],
+    "evaluationDate": "strict YYYY-MM-DD",
+    "sourceRegistry": "exact ordered registry"
+  },
+  "outputs": [
+    "status",
+    "steps",
+    "alerts",
+    "unknowns"
+  ],
+  "invalid": "fail closed",
+  "boundary": "educational topic routing only; source checks are dated snapshots, not live updates; no personalized advice, dosing, recommendation, diagnosis, treatment, safety clearance, or current-law conclusion"
+}

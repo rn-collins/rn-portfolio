@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "027",
+  "engineVersion": "027.2.0",
+  "routes": [
+    "/100-builds/027",
+    "/100-builds/027/a",
+    "/100-builds/027/b"
+  ],
+  "canonical": {
+    "title": "Creator Ownership Stack Mapper",
+    "uses": [
+      "010",
+      "011"
+    ],
+    "creates": [
+      "cap:027"
+    ],
+    "consumers": [
+      "056",
+      "060",
+      "099"
+    ]
+  },
+  "derivedCopy": true,
+  "processing": "client-local synthetic fixture",
+  "integrityControls": [
+    "operational and legal semantics separated",
+    "claim-specific dated evidence",
+    "tested export, backup restore, and transfer",
+    "revocation response and exit controls",
+    "unresolved state prevents exposure reassurance",
+    "keyboard alternatives to drag"
+  ],
+  "exports": [
+    "creator-ownership-stack.json"
+  ],
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ]
+}

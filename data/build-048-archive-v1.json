@@ -1,0 +1,31 @@
+{
+  "build": "048",
+  "engineVersion": "048.2.0",
+  "canonical": {
+    "title": "What Does This Rule Feel Like in Real Life?",
+    "job": "Compare what a rule says with what people actually experience navigating it.",
+    "bWeb": "A split-screen policy and lived path propagates procedural changes into burden and recourse."
+  },
+  "replay": {
+    "sideEffects": false,
+    "atomicSnapshot": true,
+    "requires": [
+      "exact exported synthetic rule",
+      "exact exported synthetic person context",
+      "engine 048.2.0"
+    ]
+  },
+  "evidenceMode": "synthetic-demonstration",
+  "realRuleClaims": [],
+  "realPersonClaims": [],
+  "remainingReview": [
+    "affected-community",
+    "legal",
+    "policy",
+    "accessibility",
+    "privacy",
+    "security",
+    "domain",
+    "physical-device"
+  ]
+}

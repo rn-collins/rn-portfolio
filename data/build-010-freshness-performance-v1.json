@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "010",
+  "checkedOn": "2026-08-16",
+  "dependencies": {
+    "network": "none",
+    "model": "none",
+    "runtimeData": "none"
+  },
+  "offlineCoreValue": true,
+  "performance": "small client-local graph; no remote calls",
+  "freshnessRule": "Recheck standards and domain definitions before consequential reuse."
+}

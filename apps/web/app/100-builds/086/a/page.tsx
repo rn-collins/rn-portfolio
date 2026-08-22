@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('086','a');
+import Lab from'./IdeaIncubationLab';import s from'../incubation.module.css';export default function Page(){return <main className={s.page} data-build="086" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>086-A</span></nav><p className={s.kicker}>IDEA INCUBATION THROUGH CONTENT SYSTEM · SYNTHETIC REHEARSAL</p><h1>Use the post<br/>as a prototype.</h1><p className={s.lede}>Turn a rough idea into bounded content experiments, preserve contradictory signals, and decide what to test next without treating attention as market evidence.</p><Lab/></main>}

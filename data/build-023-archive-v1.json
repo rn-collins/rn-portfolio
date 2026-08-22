@@ -1,0 +1,24 @@
+{
+  "build": "023",
+  "title": "Consent & Data Rights Manager",
+  "routes": [
+    "/100-builds/023/a",
+    "/100-builds/023/b",
+    "/100-builds/023/archive"
+  ],
+  "uses": [
+    "010",
+    "020"
+  ],
+  "creates": [
+    "cap:023"
+  ],
+  "privacy": "Synthetic client-local fixture; no submission, account, storage, analytics payload, or network call is required for core value.",
+  "deferredGates": [
+    "authenticated-live-browser",
+    "physical-device-manual-accessibility",
+    "github-hosted-ci",
+    "linkedin-media-certification"
+  ],
+  "lifecycle": "in-lab"
+}

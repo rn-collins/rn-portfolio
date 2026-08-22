@@ -1,0 +1,48 @@
+{
+  "build": "041",
+  "version": "041.2.0",
+  "fixture": "synthetic",
+  "evaluationDate": "2026-08-20",
+  "canonical": {
+    "title": "Who Owns the AI Work?",
+    "job": "Show who is responsible for each AI tool, decision, vendor and workflow inside an organization.",
+    "bWeb": "An organizational topology reveals orphaned accountability and changes under reassignment.",
+    "uses": [
+      "011",
+      "012",
+      "013",
+      "020"
+    ],
+    "creates": [
+      "cap:041"
+    ]
+  },
+  "requiredFields": [
+    "id",
+    "name",
+    "kind",
+    "accountableOwner",
+    "operationalOwner",
+    "decisionAuthority",
+    "evidenceId",
+    "reviewedAt",
+    "expiresAt"
+  ],
+  "contracts": {
+    "strictCalendarDates": true,
+    "currentAtEvaluationDate": true,
+    "exactFixtureIdentityKindEvidenceBinding": true,
+    "uniqueRecordAndEvidenceIdentity": true,
+    "distinctOwnershipRoles": true
+  },
+  "status": [
+    "OWNED",
+    "ORPHANED"
+  ],
+  "nonClaims": [
+    "legal responsibility",
+    "actual authority",
+    "effective control",
+    "complete inventory"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "build": "012",
+  "status": "active",
+  "canonicalPaths": [
+    "/100-builds/012",
+    "/100-builds/012/a",
+    "/100-builds/012/b"
+  ],
+  "retention": "No user inputs retained by the public demonstration.",
+  "lineage": {
+    "uses": [
+      "001",
+      "010"
+    ],
+    "creates": [
+      "cap:012"
+    ]
+  }
+}

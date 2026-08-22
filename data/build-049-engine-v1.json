@@ -1,0 +1,32 @@
+{
+  "build": "049",
+  "engineVersion": "049.2.0",
+  "title": "What Works for You?",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-CONTEXT-01",
+    "setting": [
+      "HOME",
+      "WORK",
+      "TRAVEL",
+      "SOCIAL"
+    ],
+    "goal": [
+      "FOCUS",
+      "REST",
+      "CONNECT",
+      "RECOVER"
+    ],
+    "sensoryLevels": "integer 0..3",
+    "pastResponses": "0..8 valid normalized case-insensitively unique synthetic cues"
+  },
+  "outputs": [
+    "status",
+    "friction",
+    "constellation",
+    "supports",
+    "questions"
+  ],
+  "determinism": "same validated state produces the same result",
+  "invalid": "fail closed without throwing",
+  "boundary": "not diagnosis, treatment, disability determination, accommodation decision, or prediction"
+}

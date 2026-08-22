@@ -1,0 +1,22 @@
+'use client';
+import{useState}from'react';
+import{buildImplementationAwareLegalTracker,IMPLEMENTATION_TRACKER_SCENARIOS,IMPLEMENTATION_TRACKER_ENGINE_VERSION,type ImplementationTrackerScenarioId}from'../../../../../../packages/release/src/implementation-aware-legal-tracker-engine';
+import s from'../implementation-tracker.module.css';
+
+const ids:ImplementationTrackerScenarioId[]=['ENACTED-EFFECTIVE-DATE-FUTURE','EFFECTIVE-RULEMAKING-EVIDENCE-ABSENT','FUNDED-SYSTEM-READINESS-BLOCKED','CONTRACT-WORKFORCE-READINESS-BLOCKED','READINESS-EVIDENCE-PACKAGE-COMPLETE'];
+const groups=[['ENACTMENT','enactment'],['EFFECTIVE DATE','effectiveDate'],['RULEMAKING','rulemaking'],['FUNDING','funding'],['SYSTEMS','systems'],['CONTRACTS','contracts'],['WORKFORCE','workforce'],['RESPONSIBILITY','responsibility'],['EVIDENCE','evidence'],['BLOCKERS','blockers'],['READINESS','readiness'],['ALERTS','alerts']]as const;
+const label=(value:string)=>value.replaceAll('-',' ');
+
+export default function ImplementationTracker(){
+ const[id,setId]=useState<ImplementationTrackerScenarioId>('ENACTED-EFFECTIVE-DATE-FUTURE'),input=IMPLEMENTATION_TRACKER_SCENARIOS[id],result=buildImplementationAwareLegalTracker(input);
+ function download(){const snapshot={build:'069',version:IMPLEMENTATION_TRACKER_ENGINE_VERSION,fixture:'synthetic fictional law and jurisdiction',exportedAt:input.assessedAt,canonical:{uses:['016','017','019','020','028','029','058','059'],creates:'cap:069'},artifacts:['Implementation Status Model','Readiness Evidence Schema'],admission:{fictionalJurisdiction:true,fictionalLaw:true,containsRealLaw:false,currentLawClaim:false,legalAuthorityClaim:false,legalEffectDetermined:false,complianceDetermined:false,implementationDetermined:false,predictsImplementation:false,legalAdvice:'NONE',failClosed:true},input:structuredClone(input),result:structuredClone(result),replay:{scenarioId:id,engineVersion:IMPLEMENTATION_TRACKER_ENGINE_VERSION}};const url=URL.createObjectURL(new Blob([JSON.stringify(snapshot,null,2)],{type:'application/json'}));const anchor=document.createElement('a');anchor.href=url;anchor.download='synthetic-implementation-readiness-record.json';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),0)}
+ return <section className={s.lab} aria-labelledby="implementation-status" data-implementation-state={id}>
+  <header className={s.status} role="status" aria-live="polite" aria-atomic="true"><small>IMPLEMENTATION STATE · {label(id)}</small><h2 id="implementation-status">{result.status}</h2><p>{result.alerts[0]??result.blockers[0]??result.nonClaims[0]}</p></header>
+  <div className={s.controls} aria-label="Synthetic implementation tracker controls"><label htmlFor="implementation-state">IMPLEMENTATION STATE<select id="implementation-state" value={id} onChange={event=>setId(event.target.value as ImplementationTrackerScenarioId)}>{ids.map(value=><option key={value} value={value}>{label(value)}</option>)}</select></label><button type="button" onClick={()=>setId('ENACTED-EFFECTIVE-DATE-FUTURE')}>RESTORE ENACTMENT</button><button type="button" onClick={download}>EXPORT READINESS RECORD</button></div>
+  <aside className={s.warning} aria-label="Implementation limitations"><h3>Enacted is not implemented.</h3><p>Enactment is a legislative event—not proof that a fictional program is effective, funded, staffed, operational, compliant, successful or complete.</p></aside>
+  <div className={s.workGrid}>{groups.map(([title,key])=><article key={key} data-group={key}><small>{title}</small><ul>{result[key].length?result[key].map(item=><li key={item}>{item}</li>):<li>None evidenced in this fixture.</li>}</ul></article>)}</div>
+  <section className={s.audit} aria-label="Synthetic implementation audit"><h3>Evidence before readiness</h3><ol>{result.audit.map(entry=><li key={entry.sequence}><span>{String(entry.sequence).padStart(2,'0')}</span><b>{entry.stage}</b><span>{entry.event}</span><em>{entry.outcome}</em><small>{entry.claimScope}</small></li>)}</ol></section>
+  <aside className={s.unknowns}><h3>Unknown remains unknown</h3><ul>{result.unknowns.map(item=><li key={item}>{item}</li>)}</ul></aside>
+  <p className={s.note}><b>Boundary:</b> Fixed synthetic fixtures describe a fictional law and jurisdiction only. No legal advice, current-law information, validity or compliance determination, completeness claim, prediction or real-world implementation claim.</p>
+ </section>
+}

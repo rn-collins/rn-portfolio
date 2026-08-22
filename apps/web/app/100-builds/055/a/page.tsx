@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('055','a');
+import HomeLab from'./HomeLab';import s from'../home.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>055-A</span></nav><p className={s.kicker}>EXPLAINABLE SMART ENVIRONMENT</p><h1>Let the smart home explain itself.</h1><p className={s.lede}>Change one exact synthetic state. The modeled action, authorization, override and recovery path recompute—without contacting or controlling a real device.</p><HomeLab/></main>}

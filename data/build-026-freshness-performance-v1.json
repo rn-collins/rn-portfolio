@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "026",
+  "engineVersion": "026.2.0",
+  "runtime": "Deterministic browser-local TypeScript",
+  "externalRuntimeDependencies": [],
+  "offlineAfterLoad": true,
+  "freshness": "Rules are versioned implementation heuristics rather than factual claims.",
+  "performanceTarget": "Immediate assessment for the three-record synthetic fixture.",
+  "fallback": "Core raw records, normalized values, transformation history, and review decisions remain readable without animation.",
+  "certificationBoundary": "Authenticated live-browser, physical-device accessibility, GitHub-hosted CI, and LinkedIn platform QA remain independent."
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.1",
+  "buildId": "028",
+  "engineVersion": "028.2.0",
+  "rankingRuleVersion": "transparent-ranking-v2",
+  "conceptMapVersion": "derived-concept-map-v2",
+  "name": "Evidence Search and Relevance Engine",
+  "canonical": {
+    "title": "Finding Is Part of Knowing",
+    "job": "Search a corpus by keyword, meaning, facets and evidence relevance without hiding ranking logic.",
+    "bWeb": "Results reorganize around the actual question and ranking rationale.",
+    "uses": [
+      "010",
+      "026"
+    ],
+    "creates": [
+      "cap:028"
+    ]
+  },
+  "derived": {
+    "modes": {
+      "keyword": "normalized exact-token matching",
+      "meaning": "deterministic disclosed concept map, not semantic understanding",
+      "combined": "sum of keyword and concept-map components"
+    },
+    "facets": [
+      "topic",
+      "evidence level"
+    ],
+    "weights": {
+      "exactKeyword": 4,
+      "titleKeyword": 2,
+      "declaredConcept": 3,
+      "mappedConcept": 2,
+      "primaryClassification": 2,
+      "secondaryClassification": 1,
+      "freshness": 0
+    },
+    "tieBreak": "score descending, then stable document ID ascending",
+    "queryLimits": {
+      "characters": 200,
+      "substantiveTokens": 20
+    },
+    "replay": [
+      "normalized query",
+      "concept expansions",
+      "weights",
+      "tie-break",
+      "corpus fingerprint",
+      "ordered per-result score parts"
+    ]
+  },
+  "nonClaims": [
+    "Relevance is not truth.",
+    "The concept map does not understand meaning or infer intent.",
+    "Evidence classification does not prove authority, quality, applicability, or sufficiency.",
+    "Freshness is displayed but intentionally not used as a relevance proxy.",
+    "The synthetic corpus is not complete or current real-world research."
+  ]
+}

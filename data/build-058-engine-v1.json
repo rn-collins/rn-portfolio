@@ -1,0 +1,31 @@
+{
+  "build": "058",
+  "engineVersion": "058.1.0",
+  "title": "Trace a Claim All the Way Back",
+  "inputs": {
+    "scenarios": [
+      "FULL-RECORDED",
+      "REMOVE-PRIMARY",
+      "CONFLICTING-ROOT",
+      "MISSING-ROOT"
+    ],
+    "roots": "exact authority label/date/version/locator/content type/content/verification",
+    "inherited": [
+      "020.2.0",
+      "028.2.0 transparent-ranking-v2 derived-concept-map-v2",
+      "029.2.0",
+      "057.1.0"
+    ]
+  },
+  "outputs": [
+    "status",
+    "graph",
+    "support",
+    "conflicts",
+    "missing",
+    "verification",
+    "unknowns",
+    "nonClaims"
+  ],
+  "boundary": "support linkage/state is not truth/correctness/authority/causation/completeness/admissibility/scientific validity/consensus/endorsement"
+}

@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('056','a');
+import DefensibilityLab from'./DefensibilityLab';import s from'../defensibility.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>056-A</span></nav><p className={s.kicker}>SYNTHETIC DEFENSIBILITY TOPOLOGY</p><h1>What do you actually own that others cannot easily copy?</h1><p className={s.lede}>Remove one supposed moat asset and inspect how control, access, permission, dependency, evidence and durability change—without producing a legal or valuation conclusion.</p><DefensibilityLab/></main>}

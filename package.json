@@ -1,0 +1,26 @@
+{
+  "name": "rn-builds-platform",
+  "private": true,
+  "packageManager": "pnpm@11.21.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "turbo dev --filter=@rn/web",
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "validate:lineage": "node scripts/validate-lineage.mjs",
+    "test:e2e": "playwright test",
+    "ci": "pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
+    "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs",
+    "validate:canonical-lineage": "node scripts/validate-canonical-lineage.mjs",
+    "validate:media": "node scripts/validate-linkedin-media.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "turbo": "2.10.9",
+    "typescript": "6.0.3"
+  }
+}

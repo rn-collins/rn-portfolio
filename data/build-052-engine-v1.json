@@ -1,0 +1,30 @@
+{
+  "build": "052",
+  "engineVersion": "052.2.0",
+  "title": "Beyond the Strain Name",
+  "inputs": {
+    "fixtureId": "SYNTHETIC-COMPARISON-01",
+    "products": [
+      "SYNTH-A",
+      "SYNTH-B",
+      "SYNTH-C"
+    ],
+    "goal": [
+      "LEARN_LABELS",
+      "COMPARE_FORMATS",
+      "REVIEW_UNKNOWNS"
+    ],
+    "personContext": "NOT_COLLECTED only",
+    "productRegistry": "exact ordered synthetic fixtures",
+    "learningContract": "exact cap:051 / 051.2.0 dated source-and-safety contract"
+  },
+  "outputs": [
+    "status",
+    "dimensions",
+    "unknowns",
+    "nonActions"
+  ],
+  "determinism": "exact input produces exact comparison",
+  "invalid": "fail closed on malformed comparison, product fixture, or inherited evidence/safety contract",
+  "boundary": "comparison literacy only; relative bands are declared synthetic fields, not verified composition, dose, potency or lab results; no ranking, recommendation, effect/safety prediction, person inference, purchase guidance, or current-law conclusion"
+}

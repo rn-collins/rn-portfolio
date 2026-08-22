@@ -1,0 +1,3 @@
+{
+  "schemaVersion":"1.0","buildId":"029","processing":"Browser-local after load","fixture":"Synthetic versions and dependency graph only","networkSubmission":false,"storage":"No application persistence; downloaded JSON only when requested","warning":"Do not enter real case, client, patient, employee, account, regulated, privileged, or confidential records.","supportBoundary":"Demonstration version diff and registered-dependency trace; not legal impact analysis, complete discovery, causation proof, change authorization, or production migration support."
+}

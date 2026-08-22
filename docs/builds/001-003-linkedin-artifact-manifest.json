@@ -1,0 +1,8 @@
+{
+  "generated_on":"2026-08-15",
+  "artifacts":[
+    {"build":"001","kind":"B-LinkedIn","filename":"build-001-linkedin.mp4","format":"mp4","width":720,"height":900,"aspect":"4:5","fps":24,"duration_seconds":15,"silent_first":true,"sha256":"400f6cc6cd22e7fe30ae55367852066d12916ed839a690be2ae8a27aba325ee6","repository_binary_status":"not stored in GitHub by current text-only connector; production source/spec and hash recorded here","qa_status":"manual phone-size readability/timing review still required"},
+    {"build":"002","kind":"B-LinkedIn","filename":"build-002-linkedin.mp4","format":"mp4","width":720,"height":900,"aspect":"4:5","fps":24,"duration_seconds":14,"silent_first":true,"sha256":"d4dd5f9a9e167dde0f5bb10db139fac57d09d7dd17e040ad34f5655daf75dd91","repository_binary_status":"not stored in GitHub by current text-only connector; release record + hash recorded","qa_status":"manual phone-size readability/timing review still required"},
+    {"build":"003","kind":"B-LinkedIn","filename":"build-003-linkedin.mp4","format":"mp4","width":720,"height":900,"aspect":"4:5","fps":24,"duration_seconds":14,"silent_first":true,"sha256":"a6470dce960b0e0f4d7a0576e44169be569566e30162bb0c82a4043ec64f4236","repository_binary_status":"not stored in GitHub by current text-only connector; release record + hash recorded","qa_status":"manual phone-size readability/timing review still required"}
+  ]
+}

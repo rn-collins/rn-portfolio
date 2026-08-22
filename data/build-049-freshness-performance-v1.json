@@ -1,0 +1,12 @@
+{
+  "build": "049",
+  "engine": "049.2.0",
+  "freshness": "Synthetic fixture only; no current clinical or accommodation evidence.",
+  "performance": {
+    "engine": "deterministic synchronous O(n)",
+    "network": "none",
+    "appPersistence": "none",
+    "reducedMotion": true,
+    "responsiveFloorPx": 320
+  }
+}

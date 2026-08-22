@@ -1,0 +1,16 @@
+{
+  "schemaVersion":"1.0",
+  "checkedAt":"2026-08-15",
+  "build":"004",
+  "freshnessPolicy":{
+    "dependencies":["data/100-builds.js canonical definition","data/build-004-engine-v1.json governed invariants","standard browser APIs"],
+    "triggers":["the canonical Build 004 definition changes","source/claim status contract changes","export schema changes","browser behavior materially changes the supported interaction model","a later evidence/retrieval system is actually integrated into 004 rather than merely planned"]
+  },
+  "performanceResilience":{
+    "core":"deterministic in-browser state and filtering; no network or model dependency for first value",
+    "heavyAssetPolicy":"none required for A; B-Web is static HTML/CSS structure without external media dependency",
+    "loadingState":"no remote loading state is required for core functionality",
+    "failureState":"invalid empty source/claim submissions are ignored without manufacturing records; removal of a source removes dependent claims; export occurs only on explicit action",
+    "offlineClaim":"no network is required by build code after the application itself has loaded; no broader offline/PWA availability claim is made"
+  }
+}

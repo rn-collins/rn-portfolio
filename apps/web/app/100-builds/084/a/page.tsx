@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('084','a');
+import Lab from'./BenefitSharingLab';import s from'../benefit.module.css';export default function Page(){return <main className={s.page} data-build="084" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>084-A</span></nav><p className={s.kicker}>BENEFIT-SHARING INTELLIGENCE SYSTEM · SYNTHETIC DEMONSTRATION</p><h1>Trace who creates value.<br/>Then trace who receives it.</h1><p className={s.lede}>Map knowledge sources, communities, rights, financial flows, agreements, and follow-through without pretending a synthetic model can decide fairness.</p><Lab/></main>}

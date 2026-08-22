@@ -1,0 +1,11 @@
+{
+  "build": "045",
+  "asOf": "2026-08-20",
+  "engine": "045.2.0",
+  "freshness": "No live legal, provider, supply, eligibility or price data represented.",
+  "performance": {
+    "engine": "deterministic synchronous O(n)",
+    "network": "none",
+    "animation": "disabled under prefers-reduced-motion"
+  }
+}

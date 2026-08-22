@@ -1,0 +1,50 @@
+{
+  "build": "048",
+  "version": "048.2.0",
+  "fixture": "synthetic",
+  "canonical": {
+    "title": "What Does This Rule Feel Like in Real Life?",
+    "job": "Compare what a rule says with what people actually experience navigating it.",
+    "bWeb": "A split-screen policy and lived path propagates procedural changes into burden and recourse."
+  },
+  "dimensions": [
+    "steps",
+    "documents",
+    "wait",
+    "language",
+    "mobility",
+    "digital access",
+    "time",
+    "recourse"
+  ],
+  "integrity": [
+    "exact synthetic rule identity",
+    "exact synthetic person identity",
+    "runtime enum validation",
+    "case-insensitive unique lists",
+    "atomic state-only replay",
+    "fail-closed invalid input"
+  ],
+  "uses": [
+    "017",
+    "018",
+    "022",
+    "030",
+    "037"
+  ],
+  "creates": [
+    "cap:048"
+  ],
+  "directConsumers": [
+    "095"
+  ],
+  "nonClaims": [
+    "legal interpretation",
+    "legal advice",
+    "current law",
+    "compliance finding",
+    "real lived experience",
+    "causation",
+    "remedy"
+  ]
+}

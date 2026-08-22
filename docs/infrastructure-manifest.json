@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "artifacts": [
+    {"name":"Form Engine v1","createdBy":"001","path":"packages/forms/src/index.tsx"},
+    {"name":"Conditional Logic v1","createdBy":"001","path":"packages/forms/src/index.tsx"},
+    {"name":"Results Renderer v1","createdBy":"001","path":"packages/results/src/index.tsx"},
+    {"name":"Visual Reveal Primitive v1","createdBy":"lab/001-B","path":"packages/visuals/src/index.tsx"},
+    {"name":"Exhibition Room Shell v1","createdBy":"001","path":"apps/web/app/100-builds/001/room.module.css"},
+    {"name":"Decision Gap Engine v1","createdBy":"003","path":"packages/release/src/decision-engines.ts"},
+    {"name":"Manual Intelligence Engine Method v1","createdBy":"004","path":"data/build-004-engine-v1.json"},
+    {"name":"Service-to-Software Discovery Method v1","createdBy":"005","path":"data/build-005-engine-v1.json"},
+    {"name":"Software Worthiness Form Gate v1","createdBy":"006","path":"data/build-006-engine-v1.json"}
+  ],
+  "uses": [
+    {"name":"Exhibition Room Shell v1","consumer":"002-A","evidencePath":"apps/web/app/100-builds/002/a/page.tsx","evidence":"imports ../../001/room.module.css"},
+    {"name":"Exhibition Room Shell v1","consumer":"003-A","evidencePath":"apps/web/app/100-builds/003/a/page.tsx","evidence":"imports ../../001/room.module.css"},
+    {"name":"Exhibition Room Shell v1","consumer":"004-A","evidencePath":"apps/web/app/100-builds/004/a/page.tsx","evidence":"imports ../../001/room.module.css"},
+    {"name":"Exhibition Room Shell v1","consumer":"005-A","evidencePath":"apps/web/app/100-builds/005/a/page.tsx","evidence":"imports ../../001/room.module.css"},
+    {"name":"Exhibition Room Shell v1","consumer":"006-A","evidencePath":"apps/web/app/100-builds/006/a/page.tsx","evidence":"imports ../../001/room.module.css"},
+    {"name":"Decision Gap Engine v1","consumer":"005-A","evidencePath":"apps/web/app/100-builds/005/a/ServiceSoftwareLab.tsx","evidence":"imports decisionGapScore and decisionGapTier from packages/release/src/decision-engines"},
+    {"name":"Decision Gap Engine v1","consumer":"006-A","evidencePath":"apps/web/app/100-builds/006/a/SoftwareWorthinessLab.tsx","evidence":"imports decisionGapScore and decisionGapTier from packages/release/src/decision-engines"},
+    {"name":"Service-to-Software Discovery Method v1","consumer":"006-A","evidencePath":"data/build-006-engine-v1.json","evidence":"inherits the form-before-automation boundary from Build 005 and expands it from step disposition into product-form selection"}
+  ],
+  "honestyNotes":[
+    "002 and 003 inherit product principles from earlier cycles, but principle inheritance is not counted as code reuse.",
+    "No Form Engine, Results Renderer, Visual Reveal Primitive, or other artifact reuse is claimed unless a concrete import/schema/test dependency exists.",
+    "004 creates a governed manual-intelligence method record that later builds may cite only when they actually inherit its source/claim separation or verification-state contract.",
+    "005 concretely imports Build 003's decisionGapScore/decisionGapTier implementation; that code dependency is counted as lineage, while broader conceptual influence is not.",
+    "006 concretely imports Build 003's decision-gap implementation and explicitly inherits Build 005's form-before-automation boundary; only the former is direct code reuse, while the latter is a governed method dependency recorded in the 006 engine record.",
+    "The certification-era shared public-record and release infrastructure is platform infrastructure, not retroactively attributed to a numbered build."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "build": "013",
+  "checkedOn": "2026-08-16",
+  "sources": [
+    {
+      "id": "nist-ai-rmf-core",
+      "checkedOn": "2026-08-16",
+      "status": "current primary source"
+    },
+    {
+      "id": "nist-sp-800-218a",
+      "checkedOn": "2026-08-16",
+      "status": "final primary source"
+    }
+  ],
+  "performance": {
+    "runtime": "client-side deterministic graph traversal",
+    "networkRequestsPerAssessment": 0,
+    "targetViewportWidth": 320
+  }
+}

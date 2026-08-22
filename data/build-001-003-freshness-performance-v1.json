@@ -1,0 +1,15 @@
+{
+  "schemaVersion":"1.0",
+  "checkedAt":"2026-08-15",
+  "freshnessPolicy":{
+    "general":"Recheck when a cited authority/source is revised or superseded; when a browser capability changes availability/requirements; when a dependency/security advisory affects the implementation; or when product behavior changes enough to invalidate recorded tests.",
+    "001":{"dependencies":["NIST AI RMF 1.0","Regulation (EU) 2024/1689 Arts. 13-14","UK ICO Human review guidance"],"triggers":["NIST publishes/revises successor RMF material used by the product","relevant EU AI Act application/legal status changes","ICO human-review guidance is revised from its current under-review state"]},
+    "002":{"dependencies":["browser standard APIs","optional Chrome LanguageModel","optional Chrome Translator"],"triggers":["optional API interface/availability changes","support matrix changes","meaning-audit engine changes","governed independent semantic evaluator is introduced"]},
+    "003":{"dependencies":["browser standard APIs","optional Chrome LanguageModel"],"triggers":["optional API interface/availability changes","decision-gap formula changes","real labeled validation data becomes available","Build 004 evidence infrastructure changes the evidence path"]}
+  },
+  "performanceResilience":{
+    "001":{"core":"deterministic browser computation; no model/network dependency for assessment","heavyAssetPolicy":"none required for A","failureState":"form remains usable without clipboard support; JSON export is an explicit local action"},
+    "002":{"core":"deterministic browser transformation and audits","heavyAssetPolicy":"browser-managed model/translator are requested only after explicit user action and feature detection","failureState":"visible unavailable/download/failure message; deterministic first value remains"},
+    "003":{"core":"deterministic browser scoring/hypotheses","heavyAssetPolicy":"browser-managed model requested only after explicit user action and feature detection","failureState":"visible unavailable/download/failure message; deterministic hypotheses and export remain"}
+  }
+}

@@ -1,0 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('090','a');
+import Desk from'./GovernedResearchDesk';import s from'../research.module.css';export default function Page(){return <main className={s.page} data-build="090" data-variant="A"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>090-A</span></nav><p className={s.kicker}>RESEARCH AGENT ARCHITECTURE · SYNTHETIC REHEARSAL</p><h1>Build a research team of AI agents<br/>that can show their work.</h1><p className={s.lede}>Govern agents that discover, retrieve, verify, challenge, synthesize, cite and escalate research—while preserving every source, disagreement and stop.</p><Desk/></main>}

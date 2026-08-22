@@ -1,0 +1,44 @@
+{
+  "build": "038",
+  "version": "038.2.0",
+  "fixture": "synthetic",
+  "lineage": [
+    "012",
+    "020",
+    "032"
+  ],
+  "contract": {
+    "useCase": true,
+    "task": true,
+    "consequenceScope": true,
+    "metricFields": [
+      "direction",
+      "unit",
+      "validityScope",
+      "weight",
+      "minimum"
+    ],
+    "weightRule": "unique IDs; each 0–100; exact total 100; no renormalization",
+    "requiredSliceKinds": [
+      "common",
+      "rare",
+      "intersectional"
+    ],
+    "evidenceFields": [
+      "id",
+      "method",
+      "observedAt",
+      "datasetId",
+      "datasetVersion",
+      "leakageChecked"
+    ],
+    "uncertainty": "per-score 95% interval; conservative bound gates",
+    "ordering": [
+      "passing desc",
+      "worst slice score desc",
+      "weighted score desc",
+      "model ID asc"
+    ]
+  },
+  "boundary": "Synthetic comparison only; sample floor is not power, representativeness is not established population coverage, and result is not certification/generalization/safety/approval."
+}
