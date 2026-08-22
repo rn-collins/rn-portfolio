@@ -1975,6 +1975,34 @@
       "generator": "build082-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "UNDERSTAND THE RELATIONSHIPS."
+    },
+    {
+      "id": "083",
+      "title": "Your Work Is Already Full of Content",
+      "path": "/media/builds/083/build-083-linkedin.mp4",
+      "poster": "/media/builds/083/build-083-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "173563da09bc006bb27f5a7b9b9f9f2e8945b3bc57b0c0ee2fe3d5033fe11b55",
+      "bytes": 208285,
+      "posterSha256": "89de262e11ca6f011f2f29706a28f4f9c767dc66bacfb980bd0ed8e975b4036a",
+      "posterBytes": 126020,
+      "contactSheet": "/media/builds/083/build-083-linkedin-contact-sheet.png",
+      "contactSheetSha256": "ae1a34370886189a261d5f345e6ba6ee8c3a62e6ba9b4a2716c5dafa479b8da0",
+      "contactSheetBytes": 144983,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/083/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build083-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TURN REAL WORK INTO PUBLIC PROOF — SAFELY."
     }
   ]
 }
