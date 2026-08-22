@@ -2740,6 +2740,44 @@
           "body": "CHANGE INTELLIGENCE IMPROVES WHEN SOURCE, CLAUSE, ACTOR, OBLIGATION, TIMELINE, DEPENDENCY, RISK, OPPORTUNITY, UNKNOWN, AND LIMIT REMAIN CONNECTED."
         }
       ]
+    },
+    {
+      "id": "078",
+      "title": "Evidence Does Not Travel Intact by Accident",
+      "final": "CHANGE THE LANGUAGE. KEEP THE EVIDENCE INTACT.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 078",
+          "headline": "A STUDY TRAVELS. EVIDENCE CAN FRAY.",
+          "body": "Translation needs an evidence-preservation protocol, even when every record and audience is fictional."
+        },
+        {
+          "eyebrow": "FIX THE TRUTH ANCHORS",
+          "headline": "SOURCE · QUALITY · CLAIM · POPULATION · OUTCOME",
+          "body": "The source type, supported claim, studied population, comparison, and outcome remain fixed."
+        },
+        {
+          "eyebrow": "KEEP THE LIMITS",
+          "headline": "LIMITATIONS · UNCERTAINTY · AS-OF DATE",
+          "body": "Audience-friendly language cannot upgrade source quality, erase uncertainty, or extend the evidence beyond its bounds."
+        },
+        {
+          "eyebrow": "ATTACH AUDIENCE CAVEATS",
+          "headline": "PUBLIC · CLINICAL EDUCATOR · POLICY · PRODUCT · ADVOCATE",
+          "body": "The explanation adapts to its reader while audience-specific caveats travel with it."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "TRANSLATION IS NOT ADVICE OR PROOF",
+          "body": "Synthetic evidence only; no patient, product, current-law, legal, clinical, diagnosis, treatment, dosage, safety, effectiveness, or compliance claim."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "CHANGE THE LANGUAGE. KEEP THE EVIDENCE INTACT.",
+          "body": "EVIDENCE TRANSLATION WORKS WHEN SOURCE QUALITY, CLAIM, POPULATION, EXPOSURE, COMPARISON, OUTCOME, LIMITS, UNCERTAINTY, DATE, AND CAVEATS STAY CONNECTED."
+        }
+      ]
     }
   ]
 }

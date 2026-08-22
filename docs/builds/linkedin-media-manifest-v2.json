@@ -1835,6 +1835,34 @@
       "generator": "build077-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "TRACE THE CONSEQUENCE. KEEP THE CLAIM NARROW."
+    },
+    {
+      "id": "078",
+      "title": "Evidence Does Not Travel Intact by Accident",
+      "path": "/media/builds/078/build-078-linkedin.mp4",
+      "poster": "/media/builds/078/build-078-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "353e1fb99de25821e041fc47954cf7e081e3af4f809d7004c7485028a9f1a58c",
+      "bytes": 217851,
+      "posterSha256": "1f5f9d091f2f8c3a3a0c0d159ee5d8c055608fb811fd218a5c16d5a029e4e00e",
+      "posterBytes": 142212,
+      "contactSheet": "/media/builds/078/build-078-linkedin-contact-sheet.png",
+      "contactSheetSha256": "db93e998b953787cd23e72c658c3c4502bfefcef398b3a8123d7290cefe21153",
+      "contactSheetBytes": 158308,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/078/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build078-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "CHANGE THE LANGUAGE. KEEP THE EVIDENCE INTACT."
     }
   ]
 }
