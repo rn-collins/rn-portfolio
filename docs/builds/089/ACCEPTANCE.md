@@ -7,4 +7,4 @@
 - Fixtures, outputs and exports are deeply immutable and deterministic at fixed date 2026-08-22.
 - No RN OS, real founder/company records, live integrations, scoring, forecasting, messages, scheduling, approval or mutation.
 - A/B provide native controls, visible focus, live status, structured textual meaning, print, reduced motion and 320px containment.
-- Vercel must be READY at the exact GitHub head before certification.
+- The runtime canonical registry derives active status and URLs over the immutable legacy migration baseline; the generated legacy record intentionally remains unchanged. Vercel must be READY at the exact GitHub head before certification.
