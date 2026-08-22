@@ -1,0 +1,25 @@
+import { test, expect } from '@playwright/test';
+import { REGULATORY_CHANGE_PRESETS, REGULATORY_CHANGE_SCENARIOS, traceRegulatoryConsequences } from '../packages/release/src/regulatory-change-consequence-engine';
+
+test('077 preserves exactly five fictional changes and complete consequence fields',()=>{
+ expect(REGULATORY_CHANGE_SCENARIOS.map(x=>x.id)).toEqual(['CHANGE-CEDAR','CHANGE-HARBOR','CHANGE-LATTICE','CHANGE-MESA','CHANGE-ORBIT']);
+ for(const c of REGULATORY_CHANGE_SCENARIOS){expect(c.sourceRecord.clause.length).toBeGreaterThan(10);expect(c.actors.length).toBeGreaterThan(0);expect(c.obligations.length).toBeGreaterThan(0);expect(c.deadlines.length).toBeGreaterThan(0);expect(c.dependencies.length).toBeGreaterThan(0);expect(c.risks.length).toBeGreaterThan(0);expect(c.risks.every(r=>r.severity==='UNASSESSED')).toBeTruthy()}
+ const result=traceRegulatoryConsequences(REGULATORY_CHANGE_PRESETS['CHANGE-CEDAR']); expect(result.status).toBe('CHANGE-CEDAR CONSEQUENCE TRACE'); expect(result.graph.nodes.some(n=>n.kind==='SOURCE')).toBeTruthy(); expect(result.audit).toContain('PRESERVED ACTORS, OBLIGATIONS, DEADLINES, DEPENDENCIES, RISKS, OPPORTUNITIES, AND UNKNOWNS');
+});
+
+test('077 preserves null dates and unknowns without calculation or imputation',()=>{
+ const result=traceRegulatoryConsequences(REGULATORY_CHANGE_PRESETS['CHANGE-ORBIT']); expect(result.change?.sourceRecord.effectiveOn).toBeNull(); expect(result.change?.deadlines[0].dueOn).toBeNull(); expect(result.change?.unknowns).toEqual(['EFFECTIVE DATE IS UNKNOWN','ACTIVATION OWNER IS UNKNOWN','NO DEADLINE MAY BE INFERRED']); expect(result.audit).toContain('NO IMPUTATION, REAL-LAW LOOKUP, OR DEADLINE CALCULATION');
+ const harbor=traceRegulatoryConsequences(REGULATORY_CHANGE_PRESETS['CHANGE-HARBOR']); expect(harbor.change?.deadlines[0].basis).toBe('NO INTERVAL IN FIXED SYNTHETIC SOURCE');
+});
+
+test('077 is deterministic and fails closed on drifted, real, authority-bearing, and hostile input',()=>{
+ const fixture=REGULATORY_CHANGE_PRESETS['CHANGE-CEDAR']; expect(traceRegulatoryConsequences(fixture)).toEqual(traceRegulatoryConsequences(fixture)); const hostile={...fixture};Object.defineProperty(hostile,'scenarios',{get(){throw new Error('hostile')}});const values=[null,undefined,[],{},'law',{...fixture,fixtureId:'REAL'},{...fixture,scenarioId:'OTHER'},{...fixture,extra:true},{...fixture,admission:{...fixture.admission,realLawClaim:true}},{...fixture,admission:{...fixture.admission,deadlineRelianceAllowed:true}},{...fixture,inherited:{...fixture.inherited,workflowMap:'cap:999'}},{...fixture,scenarios:[...fixture.scenarios,fixture.scenarios[0]]},hostile,new Proxy(fixture,{get(){throw new Error('proxy')}})];for(const value of values){expect(()=>traceRegulatoryConsequences(value)).not.toThrow();const result=traceRegulatoryConsequences(value);expect(result.status).toBe('INVALID');expect(result.change).toBeNull();expect(result.graph).toEqual({nodes:[],edges:[]})}
+});
+
+test('077-A exports exact admission, artifacts, lineage, and replay',async({page})=>{
+ await page.goto('/100-builds/077/a');await page.getByLabel('CHANGE NOTICE').selectOption('CHANGE-ORBIT');await expect(page.getByRole('heading',{name:'CHANGE-ORBIT CONSEQUENCE TRACE'})).toBeVisible();const event=page.waitForEvent('download');await page.getByRole('button',{name:'EXPORT CONSEQUENCE TRACE'}).click();const download=await event;expect(download.suggestedFilename()).toBe('synthetic-regulatory-consequence-trace.json');const parsed=JSON.parse(await (await import('node:fs/promises')).readFile(await download.path() as string,'utf8'));expect(parsed.version).toBe('077.1.0');expect(parsed.canonical).toEqual({uses:['016','017','022','029','058','059','069','076'],creates:'cap:077'});expect(parsed.artifacts).toEqual(['Change Impact Graph','Consequence Rules']);expect(parsed.admission).toEqual({syntheticChangesOnly:true,exactScenarioCount:5,fixedSourcesActorsOnly:true,clauseSourceEffectiveAsOfDatesPreserved:true,actorsObligationsDeadlinesDependenciesRisksUnknownsPreserved:true,containsRealLaw:false,currentLawClaim:false,legalAdvice:'NONE',complianceDetermined:false,deadlineRelianceAllowed:false,rightsLiabilityEnforcementOutcomeDetermined:false,failClosed:true});expect(parsed.replay).toEqual({scenarioId:'CHANGE-ORBIT',engineVersion:'077.1.0'});
+});
+
+test('077 exposes legal and deadline boundaries, contains at 320px, and B propagates the graph',async({page})=>{
+ await page.goto('/100-builds/077/a');await expect(page.getByText('not current law',{exact:false}).first()).toBeVisible();await expect(page.getByText('cannot be calendared',{exact:false}).first()).toBeVisible();await page.setViewportSize({width:320,height:760});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=document.documentElement.clientWidth)).toBeTruthy();await page.goto('/100-builds/077/b');await page.getByRole('button',{name:'PROPAGATE CHANGE'}).click();await expect(page.getByRole('status')).toContainText('One clause now reaches actors, deadlines, risks, and systems');
+});

@@ -2702,6 +2702,44 @@
           "body": "COMPARATIVE INTELLIGENCE IMPROVES WHEN QUESTION, JURISDICTION, ANSWER, SOURCE, DATE, CONFLICT, UNKNOWN, AND LIMIT REMAIN CONNECTED."
         }
       ]
+    },
+    {
+      "id": "077",
+      "title": "What Does This Change Actually Do?",
+      "final": "TRACE THE CONSEQUENCE. KEEP THE CLAIM NARROW.",
+      "sourceCheckedOn": "2026-08-21",
+      "scenes": [
+        {
+          "eyebrow": "BUILD 077",
+          "headline": "A RULE CHANGES. WHAT MOVES NEXT?",
+          "body": "One fictional regulatory notice enters an inspectable consequence system."
+        },
+        {
+          "eyebrow": "SEND THE CHANGE THROUGH THE GRAPH",
+          "headline": "CLAUSE → ACTOR → OBLIGATION → WORKFLOW",
+          "body": "The source record connects to affected roles, triggered work, dependencies, and retained date context."
+        },
+        {
+          "eyebrow": "KEEP TIME HONEST",
+          "headline": "KNOWN DATE · NULL DATE · NO IMPUTATION",
+          "body": "An unknown effective date stays unknown, and a missing deadline is never calculated or calendared."
+        },
+        {
+          "eyebrow": "SURFACE THE OPEN WORK",
+          "headline": "RISKS UNASSESSED · OPPORTUNITIES · QUESTIONS",
+          "body": "The trace identifies what needs inspection without predicting liability, enforcement, causation, or outcomes."
+        },
+        {
+          "eyebrow": "BOUND THE RESULT",
+          "headline": "A CONSEQUENCE LINE IS NOT LEGAL ADVICE",
+          "body": "Synthetic changes only; no current law, compliance, real deadline, rights, liability, enforcement, causation, or outcome determination."
+        },
+        {
+          "eyebrow": "SAVE THIS",
+          "headline": "TRACE THE CONSEQUENCE. KEEP THE CLAIM NARROW.",
+          "body": "CHANGE INTELLIGENCE IMPROVES WHEN SOURCE, CLAUSE, ACTOR, OBLIGATION, TIMELINE, DEPENDENCY, RISK, OPPORTUNITY, UNKNOWN, AND LIMIT REMAIN CONNECTED."
+        }
+      ]
     }
   ]
 }

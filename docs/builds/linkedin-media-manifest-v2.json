@@ -1807,6 +1807,34 @@
       "generator": "build076-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "finalProposition": "TRACE THE DIFFERENCE. KEEP THE SOURCE."
+    },
+    {
+      "id": "077",
+      "title": "What Does This Change Actually Do?",
+      "path": "/media/builds/077/build-077-linkedin.mp4",
+      "poster": "/media/builds/077/build-077-linkedin-poster.png",
+      "width": 720,
+      "height": 900,
+      "fps": 24,
+      "durationSeconds": 18,
+      "silentFirst": true,
+      "sha256": "aef047387d10f01d11ddde3ecfe98a5864b2729bf3e6560ce959b194ccab9dd0",
+      "bytes": 233924,
+      "posterSha256": "48f274fafe74e0b582c6561bb5161161812feda20cc8c98041c90cddd1ef6fc3",
+      "posterBytes": 156251,
+      "contactSheet": "/media/builds/077/build-077-linkedin-contact-sheet.png",
+      "contactSheetSha256": "d62694af2658642796694fa8a9a994b5a335180b1394e0999c99067e2f018ac1",
+      "contactSheetBytes": 164879,
+      "accessibilityMode": "silent-first/on-screen-text",
+      "productionRecord": "docs/builds/077/LINKEDIN-PRODUCTION.md",
+      "creatorCredit": "Rayven-Nikkita Collins / RN Builds",
+      "visualSources": "original deterministic composition; no third-party footage, images, or music",
+      "audioSources": "none",
+      "rightsBasis": "creator-owned",
+      "certificationStatus": "machine-verified local candidate; repaired contact-sheet review passed; integration/full-playback/device/platform QA required",
+      "generator": "build077-media/generate.sh (actual local renderer; not repository canonical)",
+      "spec": "data/linkedin-film-specs-v1.json",
+      "finalProposition": "TRACE THE CONSEQUENCE. KEEP THE CLAIM NARROW."
     }
   ]
 }
