@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('080','a');
 import JournalismInfrastructure from './JournalismInfrastructure';
 import s from '../reporting-infrastructure.module.css';
 export default function Page(){return <main className={s.page} data-build="080" data-variant="A"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>080-A</span></nav><p className={s.kicker}>JOURNALISM-TO-INFRASTRUCTURE SYSTEM · SYNTHETIC DEMONSTRATION</p><h1>Turn reporting into<br/>public infrastructure.</h1><p className={s.lede}>Convert a fixed synthetic reporting packet—interviews, field observations, records, and reader questions—into reusable datasets, tools, trackers, and public resources without losing its source boundaries.</p><JournalismInfrastructure/></main>}

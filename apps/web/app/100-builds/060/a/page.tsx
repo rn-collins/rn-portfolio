@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('060','a');
 import IPLab from'./IPLab';import s from'../ip.module.css';export default function Page(){return <main className={s.page}><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>060-A</span></nav><p className={s.kicker}>SYNTHETIC WORKDAY ARTIFACT ROUTING</p><h1>Catch the IP you create before it disappears into the workday.</h1><p className={s.lede}>Route fixed brand, invention, creative, method, data and know-how observations while custody, contracts, confidentiality, disclosure and evidence remain distinct.</p><IPLab/></main>}

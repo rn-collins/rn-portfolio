@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('092','b');
 import Story from'./LiveTopologyStory';import s from'../orchestration.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="092" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>092-B</span></nav><p className={s.kicker}>THE BUSINESS BETWEEN THE TOOLS</p><h1>The work lives<br/>between the tools.</h1><p className={s.lede}>A live topology reroutes, retries, blocks and escalates as failures and handoffs change.</p><Story/></main>}

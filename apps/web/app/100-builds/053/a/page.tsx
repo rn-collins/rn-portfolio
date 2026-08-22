@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('053','a');
 import ExperimentLab from'./ExperimentLab';import s from'../experiment.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>053-A</span></nav><p className={s.kicker}>N-OF-1 PROTOCOL LITERACY</p><h1>Run a tiny experiment on your own environment.</h1><p className={s.lede}>Repair a weak synthetic protocol. See inferential strength change without turning a small pattern into a causal or personal conclusion.</p><ExperimentLab/></main>}

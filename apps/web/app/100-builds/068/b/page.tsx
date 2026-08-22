@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('068','b');
 import ActionBoundaryStory from'./ActionBoundaryStory';
 import s from'../action-runtime.module.css';
 

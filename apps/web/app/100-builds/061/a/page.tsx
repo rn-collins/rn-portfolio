@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('061','a');
 import DecisionLab from'./DecisionLab';import s from'../decision.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>061-A</span></nav><p className={s.kicker}>SYNTHETIC DECISION TIME MACHINE</p><h1>Why did we decide that?</h1><p className={s.lede}>Compare what the fixed record says was known then with outcomes, evidence and append-only corrections recorded later—without rewriting history.</p><DecisionLab/></main>}

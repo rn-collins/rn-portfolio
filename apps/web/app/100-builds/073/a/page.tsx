@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('073','a');
 import PsychedelicAccessEquityIndex from './PsychedelicAccessEquityIndex';
 import s from '../psychedelic-equity.module.css';
 

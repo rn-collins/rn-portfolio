@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('074','a');
 import AccessImplementationIndex from './AccessImplementationIndex';
 import s from '../implementation-index.module.css';
 

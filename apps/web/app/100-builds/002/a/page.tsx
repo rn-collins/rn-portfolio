@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('002','a');
 import Link from 'next/link';
 import MeaningArchitecture from './MeaningArchitecture';
 import LocalReset from '../../_components/LocalReset';

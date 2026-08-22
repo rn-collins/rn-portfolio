@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('067','a');
 import PersonalKnowledgeModel from'./PersonalKnowledgeModel';
 import s from'../personal-model.module.css';
 

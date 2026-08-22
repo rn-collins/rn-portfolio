@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('097','a');
 import Center from'./PersonalizationControlCenter';import s from'../personalization.module.css';export default function Page(){return <main className={s.page} data-build="097" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>097-A</span></nav><p className={s.kicker}>NERVOUS-SYSTEM-AWARE PERSONALIZATION PLATFORM</p><h1>Personalization You<br/>Can See and Control</h1><p className={s.lede}>Let a system adapt using only consented context while exposing every input, explanation and off switch.</p><Center/></main>}

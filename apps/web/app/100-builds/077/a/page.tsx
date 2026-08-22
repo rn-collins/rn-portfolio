@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('077','a');
 import ChangeImpactExplorer from './ChangeImpactExplorer';
 import s from '../change-impact.module.css';
 

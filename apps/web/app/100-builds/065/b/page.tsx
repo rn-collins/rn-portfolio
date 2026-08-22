@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('065','b');
 import ContinuityStory from'./ContinuityStory';
 import s from'../continuity.module.css';
 

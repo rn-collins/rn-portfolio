@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('067','b');
 import PersonalBoundaryStory from'./PersonalBoundaryStory';
 import s from'../personal-model.module.css';
 

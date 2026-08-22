@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('068','a');
 import AIDigitalTwinRuntime from'./AIDigitalTwinRuntime';
 import s from'../action-runtime.module.css';
 

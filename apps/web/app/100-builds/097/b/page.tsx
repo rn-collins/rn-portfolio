@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('097','b');
 import Story from'./PersonalizationLayersStory';import s from'../personalization.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="097" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>097-B</span></nav><p className={s.kicker}>PERSONALIZATION WITHOUT SURVEILLANCE</p><h1>The off switch is part<br/>of the intelligence.</h1><p className={s.lede}>Toggle data, consent and context and watch recommendations plus uncertainty recompute live.</p><Story/></main>}

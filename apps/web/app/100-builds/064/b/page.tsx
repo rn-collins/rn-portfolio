@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('064','b');
 import MemoryStory from'./MemoryStory';
 import s from'../memory.module.css';
 

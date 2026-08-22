@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('078','b');
 import EvidenceTravelStory from './EvidenceTravelStory';
 import s from '../evidence-translation.module.css';
 

@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('070','a');
 import RegulatoryLifecycleTracker from './RegulatoryLifecycleTracker';
 import s from '../regulatory-lifecycle.module.css';
 

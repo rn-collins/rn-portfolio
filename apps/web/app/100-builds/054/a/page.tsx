@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('054','a');
 import AdaptiveLab from'./AdaptiveLab';import s from'../adaptive.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>054-A</span></nav><p className={s.kicker}>EXPLAINABLE ENVIRONMENTAL CONFIGURATION</p><h1>Make the space adapt to the person.</h1><p className={s.lede}>Change a synthetic task and occupancy. The proposed configuration and its tradeoffs recompute—without controlling a real space or deciding what anyone needs.</p><AdaptiveLab/></main>}

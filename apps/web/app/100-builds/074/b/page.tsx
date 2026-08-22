@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('074','b');
 import LawSaysYes from './LawSaysYes';
 import s from '../implementation-index.module.css';
 

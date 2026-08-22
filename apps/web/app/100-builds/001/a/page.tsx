@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('001','a');
 import Link from 'next/link';
 import { HumanReviewForm } from '@rn/forms';
 import LocalReset from '../../_components/LocalReset';

@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('077','b');
 import OneSentenceStory from './OneSentenceStory';
 import s from '../change-impact.module.css';
 

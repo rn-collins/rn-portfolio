@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('065','a');
 import CareContinuityRecord from'./CareContinuityRecord';
 import s from'../continuity.module.css';
 

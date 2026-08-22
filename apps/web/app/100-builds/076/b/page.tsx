@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('076','b');
 import DifferenceAwareMap from './DifferenceAwareMap';
 import s from '../jurisdiction-intelligence.module.css';
 

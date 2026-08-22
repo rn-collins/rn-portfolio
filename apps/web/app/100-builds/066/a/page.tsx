@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('066','a');
 import LegalKnowledgeGraph from'./LegalKnowledgeGraph';
 import s from'../legal-memory.module.css';
 

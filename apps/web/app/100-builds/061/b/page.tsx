@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('061','b');
 import DecisionStory from'./DecisionStory';import s from'../decision.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>061-B</span></nav><p className={s.kicker}>THEN-KNOWN ≠ NOW-KNOWN</p><h1>Hindsight cannot travel backward.</h1><DecisionStory/></main>}

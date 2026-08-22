@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('001','b');
 import Link from 'next/link';
 import ReducedMotionHumanLoop from './ReducedMotionHumanLoop';
 import s from '../room.module.css';

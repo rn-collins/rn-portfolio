@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('087','b');
 import Story from'./CreatorLineageStory';import s from'../media.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="087" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>087-B</span></nav><p className={s.kicker}>THE CREATOR IS RUNNING A MEDIA SYSTEM</p><h1>One idea.<br/>Many accountable editions.</h1><p className={s.lede}>Reveal how a source becomes a caption, carousel, canonical edition and motion derivative while provenance and gates travel with it.</p><Story/></main>}

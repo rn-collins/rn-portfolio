@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('076','a');
 import RegulatoryIntelligencePlatform from './RegulatoryIntelligencePlatform';
 import s from '../jurisdiction-intelligence.module.css';
 

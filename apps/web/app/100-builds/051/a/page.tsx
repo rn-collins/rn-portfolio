@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('051','a');
 import LearningLab from'./LearningLab';import s from'../learning.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>051-A</span></nav><p className={s.kicker}>ADAPTIVE CANNABIS EDUCATION</p><h1>Teach me the cannabis part I actually need.</h1><p className={s.lede}>Change one synthetic learner’s question and risk context. The curriculum reroutes without recommending use, products, doses, treatment, or legal action.</p><LearningLab/></main>}

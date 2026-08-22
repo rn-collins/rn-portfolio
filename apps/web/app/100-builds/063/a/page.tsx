@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('063','a');
 import ResearchRepository from './ResearchRepository';import s from '../research.module.css';export default function Page(){return <main className={s.page} data-build="063" data-variant="A"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>063-A</span></nav><p className={s.kicker}>SYNTHETIC LIVING RESEARCH REPOSITORY</p><h1>Research that does not die in a folder.</h1><p className={s.lede}>Keep fixed research questions, sources, notes, claims, gaps, methods, updates and outputs connected as the record changes—without treating a repository as proof.</p><ResearchRepository/></main>}

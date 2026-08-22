@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('057','b');
 import ProvenanceStory from'./ProvenanceStory';import s from'../provenance.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>057-B</span></nav><p className={s.kicker}>PEEL THE ARTIFACT BACKWARD</p><h1>A provenance graph records claims. It does not prove them.</h1><ProvenanceStory/></main>}

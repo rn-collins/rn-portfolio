@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('059','a');
 import CitationLab from'./CitationLab';import s from'../citation.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>059-A</span></nav><p className={s.kicker}>FICTIONAL CITATION GATES</p><h1>Is this legal citation real, current, and saying what the AI claims?</h1><p className={s.lede}>Move an explicitly fictional citation through separate existence, quote, proposition, jurisdiction, status and treatment gates. No live legal source is searched.</p><CitationLab/></main>}

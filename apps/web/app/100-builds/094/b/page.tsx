@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('094','b');
 import Story from'./ProofCollapseStory';import s from'../proof.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="094" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>094-B</span></nav><p className={s.kicker}>PROVE THE WORK WAS DONE THE RIGHT WAY</p><h1>Completed is not<br/>the same as proven.</h1><p className={s.lede}>A completed task opens into a proof graph; removing evidence collapses defensibility.</p><Story/></main>}

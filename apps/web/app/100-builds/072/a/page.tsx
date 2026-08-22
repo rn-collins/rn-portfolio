@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('072','a');
 import HawaiiAccessSystemsMap from './HawaiiAccessSystemsMap';
 import s from '../hawaii-access.module.css';
 

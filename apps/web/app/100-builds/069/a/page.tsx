@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('069','a');
 import ImplementationTracker from'./ImplementationTracker';
 import s from'../implementation-tracker.module.css';
 

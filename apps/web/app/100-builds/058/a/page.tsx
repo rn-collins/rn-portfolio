@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('058','a');
 import ClaimLab from'./ClaimLab';import s from'../claim.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>058-A</span></nav><p className={s.kicker}>SYNTHETIC CLAIM TRACE</p><h1>Trace a claim all the way back.</h1><p className={s.lede}>Remove a recorded root, expose a conflict, or break chronology while authority labels, dates, versions, locators and verification states remain visible.</p><ClaimLab/></main>}

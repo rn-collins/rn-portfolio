@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('064','a');
 import CannabisMemoryArchive from './CannabisMemoryArchive';
 import s from '../memory.module.css';
 

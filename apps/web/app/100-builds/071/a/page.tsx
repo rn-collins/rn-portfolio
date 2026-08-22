@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('071','a');
 import MedicalCannabisAccessDashboard from './MedicalCannabisAccessDashboard';
 import s from '../access-intelligence.module.css';
 

@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('003','a');
 import Link from 'next/link';
 import DecisionGapLab from './DecisionGapLab';
 import s from '../../001/room.module.css';

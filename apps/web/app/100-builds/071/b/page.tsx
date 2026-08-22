@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('071','b');
 import LegalDoesNotMeanAccessible from './LegalDoesNotMeanAccessible';
 import s from '../access-intelligence.module.css';
 

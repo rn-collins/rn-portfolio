@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('088','b');
 import Story from'./RelationshipGraphStory';import s from'../network.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="088" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>088-B</span></nav><p className={s.kicker}>YOUR NETWORK IS NOT A CONTACT LIST</p><h1>Names become useful<br/>when context can move.</h1><p className={s.lede}>Reveal the relationship path, then apply permission and proof gates to see which connections remain usable.</p><Story/></main>}

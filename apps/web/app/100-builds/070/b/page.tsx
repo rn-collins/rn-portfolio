@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('070','b');
 import LegalizationLifecycleStory from './LegalizationLifecycleStory';
 import s from '../regulatory-lifecycle.module.css';
 

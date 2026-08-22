@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('088','a');
 import Desk from'./RelationshipOperatingDesk';import s from'../network.module.css';export default function Page(){return <main className={s.page} data-build="088" data-variant="A"><nav><a href="/100-builds">100 BUILDS</a><span>088-A</span></nav><p className={s.kicker}>CREATOR RELATIONSHIP &amp; OPPORTUNITY INTELLIGENCE SYSTEM</p><h1>Your network is not<br/>a contact list.</h1><p className={s.lede}>Remember why a relationship exists, what moved in both directions, which commitments remain open, what proof fits, and the single safe next action.</p><Desk/></main>}

@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('073','b');
 import AccessForWhom from './AccessForWhom';
 import s from '../psychedelic-equity.module.css';
 

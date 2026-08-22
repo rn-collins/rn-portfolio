@@ -1,3 +1,5 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('075','b');
 import SameGoalDifferentMachine from './SameGoalDifferentMachine';
 import s from '../regulatory-design.module.css';
 

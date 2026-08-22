@@ -1,1 +1,3 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('085','b');
 import Story from'./PowerMapStory';import s from'../power.module.css';export default function Page(){return <main className={`${s.page} ${s.dark}`} data-build="085" data-variant="B"><nav><a href="/100-builds">100 BUILDS</a><span>085-B</span></nav><p className={s.kicker}>THE POLICY HAS A POWER MAP</p><h1>Change the evidence.<br/>Watch the network change.</h1><p className={s.lede}>A fictional influence network reorganizes across evidence strength while every missing fact and prohibited conclusion remains visible.</p><Story/></main>}
