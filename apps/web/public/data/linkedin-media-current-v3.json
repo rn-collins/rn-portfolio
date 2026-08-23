@@ -1383,24 +1383,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/050/build-050-linkedin.mp4",
-        "bytes": 118588,
-        "sha256": "b513b3d13fe1800468fb111abe23923c2cb06e5dd67cf9be32a9adf4ad036868"
+        "bytes": 188358,
+        "sha256": "e3eddb788ad48138115d8a022699f61f2ba09f4007434beb69b7bc82f19e8b5f"
       },
       "poster": {
         "path": "/media/builds/050/build-050-linkedin-poster.png",
-        "bytes": 63503,
-        "sha256": "9ca43216fc7bccc5a43f03570dca7c1301a9b72f322e310fed118cbc67ce4c7d"
+        "bytes": 70901,
+        "sha256": "df73bb3457b900b5700c328eb1c1f8d525952d0050d988c6fa634e3e12278ba3"
       },
       "captions": {
         "path": "/media/builds/050/build-050-linkedin-captions.vtt",
-        "bytes": 454,
-        "sha256": "89dcce61de8ea2ef53eb294d1c4612aa586e13acd4df415e6a7efc8af4957779",
+        "bytes": 861,
+        "sha256": "4aad6fcda65fda2738bc696fa06577ee32d130e229be818a02c45371e91418fe",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/050/build-050-linkedin-transcript.txt",
-        "bytes": 306,
-        "sha256": "0f12a7405d13424b0216d16e1e4b8cef1c60d73c82d426684ec66891f3b851f8",
+        "bytes": 881,
+        "sha256": "9abf0c7fe82298a9f6ae781b56c6acb061e5ac27fed85a77370d5b4a66e7691c",
         "scenes": 6
       }
     },
@@ -1411,24 +1411,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/051/build-051-linkedin.mp4",
-        "bytes": 119894,
-        "sha256": "d707e5e600bfdb5f13d57f7a8ec2f45572e8e1de20b2078c9dc90a2876fb3d0e"
+        "bytes": 191402,
+        "sha256": "343079613b6c0ddd9293cd761776040b0ae125aac61fcbcf5ce69043aac2163a"
       },
       "poster": {
         "path": "/media/builds/051/build-051-linkedin-poster.png",
-        "bytes": 30370,
-        "sha256": "33a651732c800384526b0bcb315a67418d432c86bd118699c31da80d3656e4df"
+        "bytes": 73295,
+        "sha256": "d0aa2908dcef9f3cabdc7670d7794846c1fe491be5e2dc6143f703664763eb07"
       },
       "captions": {
         "path": "/media/builds/051/build-051-linkedin-captions.vtt",
-        "bytes": 642,
-        "sha256": "6707ef6ada9e622d4ea20a50193b2f3d083509468b3250364bfe52cb6bb7dea1",
+        "bytes": 900,
+        "sha256": "4ca3ca5afb11643d83eac37489b636a115be2694fd851bb30884613817743be3",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/051/build-051-linkedin-transcript.txt",
-        "bytes": 746,
-        "sha256": "f437aaee9a871dc77cc4ac3a71337a01c1fd3c3daf2827238e118b900238477c",
+        "bytes": 881,
+        "sha256": "1671e9a4f31d44a36e6cab4872f42b49b3181ab167b4dfdb44154e350d02ef30",
         "scenes": 6
       }
     },
@@ -1439,24 +1439,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/052/build-052-linkedin.mp4",
-        "bytes": 112320,
-        "sha256": "4b1fe4e5948b0f1b5de1528d5267dac685e52694117776349d77e11f7be82b57"
+        "bytes": 192609,
+        "sha256": "68a205045010695b781b8c1cbe594a0e60b3f2b190f3b4e564f4a309ed1e6c27"
       },
       "poster": {
         "path": "/media/builds/052/build-052-linkedin-poster.png",
-        "bytes": 28658,
-        "sha256": "577a0ff8f8ae058f78b8ee052625f912cf059446fed47fb62ff8e80290b39241"
+        "bytes": 80144,
+        "sha256": "2edee0713bc374e16af51aa659a008a8fdfe809916d054e1102e10b1b0092d58"
       },
       "captions": {
         "path": "/media/builds/052/build-052-linkedin-captions.vtt",
-        "bytes": 640,
-        "sha256": "e50c5815592815664a00145b0c2efaeeab913b45193b94a01a09456137fe2155",
+        "bytes": 875,
+        "sha256": "dfe114ddb8fb44152aa3483adf41e88b056afa5be68b3d11d100f1f3a33844ee",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/052/build-052-linkedin-transcript.txt",
-        "bytes": 742,
-        "sha256": "8264bc6382890a0f0454ff9d4340afd8498b090a5a5600730fd8045dfb02c939",
+        "bytes": 871,
+        "sha256": "52cb52c9886e1bc380bc79e7d14eb5fde48c79cb5b180cb5f55da473e680da64",
         "scenes": 6
       }
     },
@@ -1803,24 +1803,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/065/build-065-linkedin.mp4",
-        "bytes": 102510,
-        "sha256": "6d506e3d7ef506602ff15f14342452d2bd6b5b8edc293f714a545729db45456d"
+        "bytes": 213895,
+        "sha256": "e0d9e0cccd147c8d77dae0f8813c9b713c78b3063652beebc54dd2c6eb212947"
       },
       "poster": {
         "path": "/media/builds/065/build-065-linkedin-poster.png",
-        "bytes": 26835,
-        "sha256": "9b0b03c303597e859c1ab284611c57551745a509799b03a81d2c6f275b872db9"
+        "bytes": 72375,
+        "sha256": "aa0d25133cd013f0ffe725e4c32e29cb56a10e78fd98fc581ef2910b2d931a91"
       },
       "captions": {
         "path": "/media/builds/065/build-065-linkedin-captions.vtt",
-        "bytes": 594,
-        "sha256": "301f73b4b07b8ec31eda9fddfa685869b891802b0ee5ddb03e52768d7b7fc93d",
+        "bytes": 888,
+        "sha256": "670df96bfb04b3394af5f1bdf1e33741ae3a286457ea43fd684d65a399eac912",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/065/build-065-linkedin-transcript.txt",
-        "bytes": 702,
-        "sha256": "76b1e84e823fd9a91743ddaf2dbd0f7d41063c1034484f642a07d1024541db32",
+        "bytes": 945,
+        "sha256": "cfa9651de95b8cd34736009a7852e3803f1fa59af372264918360b0d16b31c33",
         "scenes": 6
       }
     },

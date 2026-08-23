@@ -1935,7 +1935,7 @@ export const builds=[
   {
     "id": "050",
     "sequence": 50,
-    "title": "Neuroaesthetic Evidence & Decision-Support System",
+    "title": "Environment Assumption & Tradeoff Explorer",
     "slug": "050-neuroaesthetic-evidence-and-decision-support-system",
     "phase": 5,
     "phaseName": "Organizational, journey, place & personalization systems",
@@ -1947,13 +1947,13 @@ export const builds=[
     "functional": {
       "status": "Planned",
       "url": null,
-      "summary": "Links design choices to evidence quality, sensory mechanisms, user needs, uncertainty, and practical recommendations."
+      "summary": "Makes fictional environmental assumptions, modeled tradeoffs, and unknowns visible without treating the model as evidence or prescription."
     },
     "visual": {
       "status": "Planned",
       "url": null,
-      "title": "The Room Is Doing Something to Your Brain",
-      "concept": "An ordinary space reveals its cognitive and nervous-system inputs.",
+      "title": "The Model Is Not the Room",
+      "concept": "Fictional room inputs reveal declared assumptions while real exposure, people, effects, and accessibility remain unknown.",
       "mechanism": "An ordinary space reveals its cognitive and nervous-system inputs."
     },
     "observation": null,
@@ -1972,7 +1972,7 @@ export const builds=[
   {
     "id": "051",
     "sequence": 51,
-    "title": "Adaptive Cannabis Education System",
+    "title": "Adaptive Cannabis Source Navigator",
     "slug": "051-adaptive-cannabis-education-system",
     "phase": 6,
     "phaseName": "Adaptive education, environment & knowledge architecture",
@@ -1984,13 +1984,13 @@ export const builds=[
     "functional": {
       "status": "Planned",
       "url": null,
-      "summary": "Changes educational pathways based on audience, goals, literacy, jurisdiction, experience, risk, and misconceptions."
+      "summary": "Routes a fictional learner’s topic to dated authoritative sources without creating individualized health or legal advice."
     },
     "visual": {
       "status": "Planned",
       "url": null,
-      "title": "The Same Cannabis Lesson Should Not Be Given to Everyone",
-      "concept": "One curriculum branches into individualized learning paths.",
+      "title": "One Topic, Different Source Paths",
+      "concept": "A fictional question changes source order and stop conditions, not a personal answer.",
       "mechanism": "One curriculum branches into individualized learning paths."
     },
     "observation": null,
@@ -2009,7 +2009,7 @@ export const builds=[
   {
     "id": "052",
     "sequence": 52,
-    "title": "Beyond-Strain Cannabis Personalization Engine",
+    "title": "Synthetic Cannabis Comparison Literacy",
     "slug": "052-beyond-strain-cannabis-personalization-engine",
     "phase": 6,
     "phaseName": "Adaptive education, environment & knowledge architecture",
@@ -2021,13 +2021,13 @@ export const builds=[
     "functional": {
       "status": "Planned",
       "url": null,
-      "summary": "Supports cautious, non-prescriptive personalization using product composition, sensory context, goals, constraints, and observed responses."
+      "summary": "Compares fictional fields while keeping missing identity, composition, quality, effect, safety, and legal evidence visible."
     },
     "visual": {
       "status": "Planned",
       "url": null,
-      "title": "The Strain Name Is the Least Interesting Data Point",
-      "concept": "A familiar label recedes behind a richer decision model.",
+      "title": "The Label Becomes One Field",
+      "concept": "A fictional label becomes one field without producing equivalence, ranking, recommendation, or prediction.",
       "mechanism": "A familiar label recedes behind a richer decision model."
     },
     "observation": null,
@@ -2491,7 +2491,7 @@ export const builds=[
   {
     "id": "065",
     "sequence": 65,
-    "title": "Psychedelic Care Continuity Record",
+    "title": "Fictional Psychedelic Pathway Record",
     "slug": "065-psychedelic-care-continuity-record",
     "phase": 7,
     "phaseName": "Institutional memory & personal intelligence systems",
@@ -2503,13 +2503,13 @@ export const builds=[
     "functional": {
       "status": "Planned",
       "url": null,
-      "summary": "Creates a consent-governed record of preparation, sessions, integration, referrals, risks, supports, and continuity across care boundaries."
+      "summary": "Tests invented steps, permissions, owners, and handoff states without asserting a clinical standard, consent validity, or duty."
     },
     "visual": {
       "status": "Planned",
       "url": null,
-      "title": "The Care Does Not End When the Session Does",
-      "concept": "A single event expands into a longitudinal continuity pathway.",
+      "title": "An Event Is Not the Whole Fictional Pathway",
+      "concept": "A fictional record advances through declared states without delivering care or producing safety, continuity, or legal outcomes.",
       "mechanism": "A single event expands into a longitudinal continuity pathway."
     },
     "observation": null,

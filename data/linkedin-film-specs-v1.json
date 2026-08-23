@@ -1864,115 +1864,115 @@
     },
     {
       "id": "050",
-      "title": "How Is This Space Affecting You?",
-      "final": "A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER.",
+      "title": "Environment Assumption & Tradeoff Explorer",
+      "final": "A MODEL IS USEFUL WHEN ITS ASSUMPTIONS, TRADEOFFS, AND UNKNOWNS STAY VISIBLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 050",
-          "headline": "A ROOM IS NOT A NEUTRAL CONTAINER",
-          "body": "Light, sound, layout, temperature, nature, crowding, timing, task, and control may shape experience—but the same condition does not affect every person or goal the same way."
+          "eyebrow": "SCENE 1",
+          "headline": "A ROOM MODEL IS NOT EVIDENCE",
+          "body": "A fictional room can expose assumptions without claiming how a real person will respond."
         },
         {
-          "eyebrow": "READ THE CONDITIONS",
-          "headline": "LIGHT · SOUND · LAYOUT · NATURE",
-          "body": "Use exact-bound synthetic rooms. Keep each feature visible with setting, goal, duration, available control, uncertainty, and what has not actually been measured."
+          "eyebrow": "SCENE 2",
+          "headline": "DECLARE THE VARIABLES",
+          "body": "Light, sound, layout and nature are model inputs—not measured causes or effects."
         },
         {
-          "eyebrow": "CHANGE ROOM OR GOAL",
-          "headline": "THE INTERPRETATION MUST MOVE",
-          "body": "When a room or goal changes, recompute only the declared model. Preserve competing needs, interactions, unknowns, and the possibility that one feature helps one goal while complicating another."
+          "eyebrow": "SCENE 3",
+          "headline": "CHANGE THE FICTIONAL CONTEXT",
+          "body": "When room or goal changes, recompute only the declared tradeoff model."
         },
         {
-          "eyebrow": "SHOW EVIDENCE STRENGTH",
-          "headline": "MODERATE · LIMITED · UNKNOWN",
-          "body": "An evidence label must expose scope and uncertainty. It cannot turn an illustrative model, association, preference, or single experience into a causal or universal conclusion."
+          "eyebrow": "SCENE 4",
+          "headline": "SHOW WHAT IS UNKNOWN",
+          "body": "Real exposure, people, responses, accessibility and competing needs remain unmeasured."
         },
         {
-          "eyebrow": "BOUND THE RESULT",
+          "eyebrow": "SCENE 5",
           "headline": "MODEL ≠ MEASUREMENT ≠ PRESCRIPTION",
-          "body": "A synthetic load cannot diagnose harm, measure exposure, prove causation, determine accessibility or compliance, represent every person, or prescribe a real design."
+          "body": "An illustrative score cannot become a health, performance or design conclusion."
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "READ THE ROOM WITH THE PERSON",
-          "body": "A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER."
+          "eyebrow": "SCENE 6",
+          "headline": "MAKE THE ASSUMPTIONS VISIBLE",
+          "body": "Use the model to form questions for real evidence and affected people."
         }
       ]
     },
     {
       "id": "051",
-      "title": "Teach Me the Cannabis Part I Actually Need",
-      "final": "THE RIGHT LESSON STARTS WITH THE QUESTION, PRESERVES UNCERTAINTY, AND STOPS WHERE EDUCATION BECOMES PERSONAL ADVICE.",
+      "title": "Adaptive Cannabis Source Navigator",
+      "final": "ADAPT THE SOURCE PATH—NOT THE PERSONAL ANSWER.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 051",
-          "headline": "ONE GENERIC CANNABIS LESSON IS NOT ENOUGH",
-          "body": "A question about basics, evidence, products, risk, or law begins in a different place—but personalization must not become medical or legal advice."
+          "eyebrow": "SCENE 1",
+          "headline": "ONE QUESTION DOES NOT NEED EVERY LESSON",
+          "body": "A fictional learner’s topic can change source order without creating personal advice."
         },
         {
-          "eyebrow": "READ THE LEARNING NEED",
-          "headline": "QUESTION · EXPERIENCE · MISCONCEPTION",
-          "body": "Use an exact-bound synthetic learner. Keep jurisdiction and risk explicit, collect no real health profile, and preserve what the learner has not said."
+          "eyebrow": "SCENE 2",
+          "headline": "READ THE QUESTION—NOT THE PERSON",
+          "body": "Collect no health profile; preserve topic, source date, jurisdiction and unknowns."
         },
         {
-          "eyebrow": "REARRANGE THE GRAPH",
-          "headline": "ORDER · DEPTH · CHECK · CORRECT",
-          "body": "Adapt only the curriculum sequence and knowledge checks. Show dated authoritative evidence, its limits, and the difference between association and causation."
+          "eyebrow": "SCENE 3",
+          "headline": "REORDER SOURCES, NOT ANSWERS",
+          "body": "Adapt navigation and knowledge checks; do not recommend use, products or doses."
         },
         {
-          "eyebrow": "PAUSE AT HIGH RISK",
-          "headline": "ESCALATE · CHECK CURRENT LAW",
-          "body": "Pregnancy, youth, poisoning, driving, interactions, severe symptoms, and legal questions route to current authoritative or professional help—not a personalized answer."
+          "eyebrow": "SCENE 4",
+          "headline": "STOP AT INDIVIDUAL RISK",
+          "body": "High-risk or legal questions route to current official or professional help."
         },
         {
-          "eyebrow": "BOUND THE LESSON",
+          "eyebrow": "SCENE 5",
           "headline": "EDUCATION IS NOT CLEARANCE",
-          "body": "The demo cannot diagnose, treat, recommend cannabis, choose a product or dose, predict impairment, establish safety, or state that a dated source answers every jurisdiction."
+          "body": "A dated source cannot determine personal safety, effectiveness, impairment or legality."
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "TEACH THE PART THAT FITS",
-          "body": "THE RIGHT LESSON STARTS WITH THE QUESTION, PRESERVES UNCERTAINTY, AND STOPS WHERE EDUCATION BECOMES PERSONAL ADVICE."
+          "eyebrow": "SCENE 6",
+          "headline": "KEEP THE SOURCE AND LIMIT TOGETHER",
+          "body": "Every lesson should expose issuer, date, exact section and unresolved uncertainty."
         }
       ]
     },
     {
       "id": "052",
-      "title": "Beyond the Strain Name",
-      "final": "A NAME CANNOT CARRY COMPOSITION, FORMAT, CONTEXT, UNCERTAINTY, OR A PERSON'S GOALS.",
+      "title": "Synthetic Cannabis Comparison Literacy",
+      "final": "A RESPONSIBLE COMPARISON SHOWS WHAT THE NAME DOES NOT ESTABLISH.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 052",
-          "headline": "A STRAIN NAME IS NOT A PRODUCT MODEL",
-          "body": "The same or similar label can conceal different formats, declared composition, batches, evidence, contexts, and unknowns."
+          "eyebrow": "SCENE 1",
+          "headline": "A NAME IS NOT A VERIFIED PRODUCT RECORD",
+          "body": "A familiar label does not supply verified identity, composition, quality, effect or safety."
         },
         {
-          "eyebrow": "OPEN THE COMPARISON",
-          "headline": "COMPOSITION · FORMAT · CONTEXT",
-          "body": "Use exact-bound synthetic products and relative bands. Keep label, goal, constraints, missing evidence, and NOT COLLECTED person context visible."
+          "eyebrow": "SCENE 2",
+          "headline": "OPEN THE FICTIONAL RECORD",
+          "body": "Compare declared name, format and relative bands while keeping missing evidence visible."
         },
         {
-          "eyebrow": "COLLAPSE THE LABEL",
-          "headline": "LET THE DIMENSIONS REORGANIZE",
-          "body": "When the learning goal or comparison pair changes, reorganize only the visible dimensions. Do not turn similarity into equivalence, effect, quality, or fit."
+          "eyebrow": "SCENE 3",
+          "headline": "FIELDS ARE NOT FINDINGS",
+          "body": "Changing a comparison reorganizes fields; it does not create equivalence or fit."
         },
         {
-          "eyebrow": "PRESERVE THE GAPS",
-          "headline": "DECLARED · SYNTHETIC · UNKNOWN",
-          "body": "A displayed band is not a dose, potency result, laboratory analysis, verified label, batch record, predicted experience, or current legal status."
+          "eyebrow": "SCENE 4",
+          "headline": "PRESERVE THE GAPS",
+          "body": "No laboratory result, verified label, dose, batch, person or current law is represented."
         },
         {
-          "eyebrow": "BOUND THE RESULT",
+          "eyebrow": "SCENE 5",
           "headline": "COMPARE—DO NOT RECOMMEND",
-          "body": "The demo cannot rank products, match one to a person, predict effects, guide purchase or use, interpret a certificate, or establish safety, legality, or effectiveness."
+          "body": "The demo cannot rank, match, predict, guide purchase or interpret a certificate."
         },
         {
-          "eyebrow": "SAVE THIS",
+          "eyebrow": "SCENE 6",
           "headline": "LOOK BEYOND THE NAME",
-          "body": "A NAME CANNOT CARRY COMPOSITION, FORMAT, CONTEXT, UNCERTAINTY, OR A PERSON'S GOALS."
+          "body": "A responsible comparison begins by showing which evidence is still missing."
         }
       ]
     },
@@ -2434,39 +2434,39 @@
     },
     {
       "id": "065",
-      "title": "The Care Does Not End When the Session Does",
-      "final": "OWNERSHIP CONTINUES.",
+      "title": "Fictional Psychedelic Pathway Record",
+      "final": "A FICTIONAL PATHWAY MODEL MUST SHOW WHICH RULES ARE INVENTED AND WHICH QUESTIONS REMAIN OPEN.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 065",
-          "headline": "ONE SESSION IS NOT THE SYSTEM",
-          "body": "A fixed synthetic session sits inside a longer pathway of preparation, follow-up, integration, referrals, supports, and accountable handoffs."
+          "eyebrow": "SCENE 1",
+          "headline": "ONE EVENT DOES NOT SHOW THE WHOLE RECORD",
+          "body": "A fictional session can sit inside a longer modeled pathway without defining care."
         },
         {
-          "eyebrow": "EXPAND THE RECORD",
-          "headline": "CONTINUITY HAS MORE THAN ONE STEP",
-          "body": "Keep the session connected to declared purpose, permission state, handoff acceptance, follow-up ownership, due state, evidence, and recourse."
+          "eyebrow": "SCENE 2",
+          "headline": "EXPAND THE FIXTURE",
+          "body": "Connect declared purpose, permission, handoff, follow-up, evidence and recourse states."
         },
         {
-          "eyebrow": "KEEP FAILURES DISTINCT",
-          "headline": "UNACCEPTED · WITHDRAWN · OVERDUE",
-          "body": "Do not flatten an unaccepted handoff, withdrawn permission, or overdue follow-up into one generic status."
+          "eyebrow": "SCENE 3",
+          "headline": "KEEP STATES DISTINCT",
+          "body": "Unaccepted, withdrawn and overdue remain separate fictional states with no legal effect."
         },
         {
-          "eyebrow": "BOUND THE SYSTEM",
-          "headline": "A PATHWAY IS NOT A LIFELINE",
-          "body": "This synthetic fixture does not monitor, diagnose, triage, treat, determine consent validity, or provide emergency response."
+          "eyebrow": "SCENE 4",
+          "headline": "A RECORD IS NOT A LIFELINE",
+          "body": "The fixture does not monitor, diagnose, triage, treat or provide emergency response."
         },
         {
-          "eyebrow": "MAKE RESPONSIBILITY VISIBLE",
-          "headline": "THE CARE DOES NOT END WHEN THE SESSION DOES",
-          "body": "The sender retains declared responsibility until acceptance; owners, due states, evidence, and exception routes stay visible."
+          "eyebrow": "SCENE 5",
+          "headline": "MAKE THE FICTIONAL RULES VISIBLE",
+          "body": "Owners and transitions belong to this model—not a clinical or legal standard."
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "OWNERSHIP CONTINUES",
-          "body": "A CONTINUITY RECORD IS USEFUL WHEN THE NEXT STEP, OWNER, PERMISSION, EVIDENCE, RECOURSE, AND LIMIT REMAIN CONNECTED."
+          "eyebrow": "SCENE 6",
+          "headline": "KEEP STATE AND LIMIT TOGETHER",
+          "body": "A pathway record is legible when each declared rule and unknown remains visible."
         }
       ]
     },
