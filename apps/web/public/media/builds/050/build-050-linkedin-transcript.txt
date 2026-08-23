@@ -1,8 +1,11 @@
-BUILD 050-B — A room is not neutral
+BUILD 050-B — Environment Assumption & Tradeoff Explorer
 
-1. A room is not neutral. Examine how environmental conditions shape different experiences.
-2. Read light, sound and layout.
-3. Include task, timing and control.
-4. Compare different people and goals.
-5. Keep uncertainty visible.
-6. Design space from lived response.
+1. A ROOM MODEL IS NOT EVIDENCE. A fictional room can expose assumptions without claiming how a real person will respond.
+2. DECLARE THE VARIABLES. Light, sound, layout and nature are model inputs—not measured causes or effects.
+3. CHANGE THE FICTIONAL CONTEXT. When room or goal changes, recompute only the declared tradeoff model.
+4. SHOW WHAT IS UNKNOWN. Real exposure, people, responses, accessibility and competing needs remain unmeasured.
+5. MODEL ≠ MEASUREMENT ≠ PRESCRIPTION. An illustrative score cannot become a health, performance or design conclusion.
+6. MAKE THE ASSUMPTIONS VISIBLE. Use the model to form questions for real evidence and affected people.
+
+LIMITATION
+Synthetic demonstration only. No evidence-strength, causal, universal, accessibility, health or design-prescription claim is produced.
