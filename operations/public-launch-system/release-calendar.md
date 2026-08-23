@@ -1,45 +1,44 @@
-|#| |1|0|0| |B|u|i|l|d|s| |r|e|l|e|a|s|e| |c|a|l|e|n|d|a|r|
-|
-|C|a|d|e|n|c|e|:| |t|h|r|e|e| |p|o|s|t|s| |p|e|r| |w|e|e|k|—|T|u|e|s|d|a|y|,| |T|h|u|r|s|d|a|y| |a|n|d| |S|a|t|u|r|d|a|y|.| |T|h|i|s| |i|s| |a| |3|4|-|w|e|e|k| |e|d|i|t|o|r|i|a|l| |r|u|n|w|a|y|,| |n|o|t| |a| |r|e|q|u|i|r|e|m|e|n|t| |t|o| |p|u|b|l|i|s|h| |m|e|c|h|a|n|i|c|a|l|l|y|.| |P|a|u|s|e| |a|f|t|e|r| |W|e|e|k|s| |2|,| |6| |a|n|d| |1|2| |t|o| |u|s|e| |p|e|r|f|o|r|m|a|n|c|e| |a|n|d| |q|u|a|l|i|t|a|t|i|v|e| |r|e|s|p|o|n|s|e|s| |t|o| |a|d|j|u|s|t| |l|a|t|e|r| |h|o|o|k|s| |a|n|d| |o|r|d|e|r|i|n|g|.| |N|o| |i|t|e|m| |i|s| |m|a|r|k|e|d| |s|c|h|e|d|u|l|e|d| |o|r| |p|u|b|l|i|s|h|e|d|.|
-|
-||| |W|e|e|k| ||| |T|u|e|s|d|a|y| ||| |T|h|u|r|s|d|a|y| ||| |S|a|t|u|r|d|a|y| |||
-|+|||-|-|-|:|||-|-|-|||-|-|-|||-|-|-|||
-|+||| |1| ||| |B|u|i|l|d| |1|0|0|:| |P|u|t| |r|e|s|i|l|i|e|n|c|e| |d|e|c|i|s|i|o|n|s| |i|n| |t|h|e| |r|o|o|m| ||| |B|u|i|l|d| |0|0|1|:| |H|u|m|a|n| |R|e|v|i|e|w| |D|e|s|i|g|n| |F|r|a|m|e|w|o|r|k| ||| |B|u|i|l|d| |0|0|2|:| |M|u|l|t|i|-|A|u|d|i|e|n|c|e| |M|e|a|n|i|n|g| |A|r|c|h|i|t|e|c|t|u|r|e| |||
-||| |2| ||| |B|u|i|l|d| |0|5|0|:| |A| |r|o|o|m| |i|s| |n|o|t| |n|e|u|t|r|a|l| ||| |B|u|i|l|d| |0|8|4|:| |W|h|o| |c|r|e|a|t|e|d| |t|h|e| |v|a|l|u|e|—|a|n|d| |w|h|o| |g|e|t|s| |i|t|?| ||| |B|u|i|l|d| |0|3|8|:| |A| |b|e|n|c|h|m|a|r|k| |i|s| |n|o|t| |p|e|r|f|o|r|m|a|n|c|e| |||
-||| |3| ||| |B|u|i|l|d| |0|6|5|:| |C|o|n|t|i|n|u|i|t|y| |B|e|y|o|n|d| |t|h|e| |S|e|s|s|i|o|n| ||| |B|u|i|l|d| |0|1|4|:| |T|h|e| |A|n|s|w|e|r| |H|a|s| |L|a|y|e|r|s| ||| |B|u|i|l|d| |0|7|2|:| |W|h|y| |D|o|e|s| |A|c|c|e|s|s| |C|h|a|n|g|e| |b|y| |I|s|l|a|n|d|?| |||
-||| |4| ||| |B|u|i|l|d| |0|9|3|:| |C|o|m|p|l|i|a|n|c|e| |h|a|p|p|e|n|s| |i|n| |m|o|t|i|o|n| ||| |B|u|i|l|d| |0|2|2|:| |H|u|m|a|n| |I|m|p|a|c|t| |N|o|d|e|s| ||| |B|u|i|l|d| |0|3|5|:| |A|n| |e|x|p|o|r|t| |b|u|t|t|o|n| |i|s| |n|o|t| |a|n| |e|x|i|t| |||
-||| |5| ||| |B|u|i|l|d| |0|0|3|:| |U|n|s|e|r|v|e|d| |D|e|c|i|s|i|o|n| |D|i|s|c|o|v|e|r|y| ||| |B|u|i|l|d| |0|0|4|:| |B|e|f|o|r|e| |t|h|e| |A|u|t|o|m|a|t|i|o|n| ||| |B|u|i|l|d| |0|0|5|:| |S|e|r|v|i|c|e| |P|a|t|h| |S|p|l|i|t| |||
-||| |6| ||| |B|u|i|l|d| |0|1|0|:| |F|r|o|m| |W|o|r|d|s| |t|o| |S|t|r|u|c|t|u|r|e| ||| |B|u|i|l|d| |0|8|2|:| |H|o|w| |D|o|e|s| |T|h|i|s| |A|u|d|i|e|n|c|e| |A|c|t|u|a|l|l|y| |T|h|i|n|k|?| ||| |B|u|i|l|d| |0|0|8|:| |D|a|t|a| |I|s| |N|o|t| |a| |D|e|c|i|s|i|o|n| |||
-||| |7| ||| |B|u|i|l|d| |0|0|6|:| |F|o|r|m| |G|a|t|e| |F|i|e|l|d| ||| |B|u|i|l|d| |0|3|0|:| |I|n|t|e|r|f|a|c|e| |R|e|p|a|i|r| |i|n| |M|o|t|i|o|n| ||| |B|u|i|l|d| |0|4|6|:| |E|s|s|e|n|t|i|a|l| |s|y|s|t|e|m|s| |c|r|o|s|s| |t|h|e| |s|h|o|r|e| |||
-||| |8| ||| |B|u|i|l|d| |0|0|9|:| |T|r|a|n|s|f|e|r| |I|s| |a| |P|l|a|c|e| |Q|u|e|s|t|i|o|n| ||| |B|u|i|l|d| |0|0|7|:| |T|h|e| |P|r|o|d|u|c|t| |T|h|a|t| |L|e|a|r|n|s| ||| |B|u|i|l|d| |0|4|2|:| |A| |p|r|o|m|p|t| |i|s| |n|o|t| |a| |j|o|b| |d|e|s|c|r|i|p|t|i|o|n| |||
-||| |9| ||| |B|u|i|l|d| |0|4|7|:| |A| |g|o|o|d| |i|d|e|a| |i|s| |n|o|t| |c|o|n|t|e|x|t|-|f|r|e|e| ||| |B|u|i|l|d| |0|1|2|:| |C|o|n|t|r|o|l|s| |F|o|l|l|o|w| |C|o|n|s|e|q|u|e|n|c|e| ||| |B|u|i|l|d| |0|1|1|:| |S|a|m|e| |N|a|m|e| |I|s| |N|o|t| |S|a|m|e| |E|n|t|i|t|y| |||
-||| |1|0| ||| |B|u|i|l|d| |0|4|5|:| |A|v|a|i|l|a|b|i|l|i|t|y| |i|s| |n|o|t| |a|c|c|e|s|s| ||| |B|u|i|l|d| |0|1|3|:| |F|o|l|l|o|w| |t|h|e| |C|o|n|s|e|q|u|e|n|c|e| ||| |B|u|i|l|d| |0|1|7|:| |T|h|e| |R|i|s|k| |L|i|v|e|s| |B|e|t|w|e|e|n| |t|h|e| |B|o|x|e|s| |||
-||| |1|1| ||| |B|u|i|l|d| |0|5|4|:| |M|a|k|e| |t|h|e| |S|p|a|c|e| |A|d|a|p|t| |t|o| |t|h|e| |P|e|r|s|o|n| ||| |B|u|i|l|d| |0|1|5|:| |F|r|o|m| |M|a|t|t|e|r| |W|o|r|k| |t|o| |R|e|u|s|a|b|l|e| |S|y|s|t|e|m| ||| |B|u|i|l|d| |0|1|8|:| |T|h|e| |P|r|o|c|e|s|s| |I|s| |P|a|r|t| |o|f| |t|h|e| |O|u|t|c|o|m|e| |||
-||| |1|2| ||| |B|u|i|l|d| |0|6|0|:| |C|a|t|c|h| |t|h|e| |I|P| |B|e|f|o|r|e| |I|t| |D|i|s|a|p|p|e|a|r|s| ||| |B|u|i|l|d| |0|1|6|:| |T|h|e| |M|a|t|t|e|r| |B|e|n|e|a|t|h| |t|h|e| |M|a|t|t|e|r| ||| |B|u|i|l|d| |0|2|5|:| |R|e|a|d|i|n|e|s|s| |H|a|s| |L|a|y|e|r|s| |||
-||| |1|3| ||| |B|u|i|l|d| |0|7|3|:| |A|c|c|e|s|s| |f|o|r| |W|h|o|m|?| ||| |B|u|i|l|d| |0|1|9|:| |T|h|e| |A|l|e|r|t| |T|h|a|t| |K|n|o|w|s| |W|h|o| |C|a|r|e|s| ||| |B|u|i|l|d| |0|2|7|:| |O|w|n|e|r|s|h|i|p| |E|x|p|o|s|u|r|e| |B|o|a|r|d| |||
-||| |1|4| ||| |B|u|i|l|d| |0|8|8|:| |Y|o|u|r| |n|e|t|w|o|r|k| |i|s| |n|o|t| |a| |c|o|n|t|a|c|t| |l|i|s|t| ||| |B|u|i|l|d| |0|2|0|:| |O|p|e|n| |t|h|e| |D|e|c|i|s|i|o|n| ||| |B|u|i|l|d| |0|2|8|:| |R|a|n|k|i|n|g| |R|a|t|i|o|n|a|l|e| |||
-||| |1|5| ||| |B|u|i|l|d| |0|9|8|:| |C|a|r|e| |c|o|n|t|i|n|u|e|s| |b|e|t|w|e|e|n| |b|i|g| |m|o|m|e|n|t|s| ||| |B|u|i|l|d| |0|2|1|:| |B|r|e|a|k| |t|h|e| |P|r|o|m|i|s|e| |O|p|e|n| ||| |B|u|i|l|d| |0|2|9|:| |C|o|n|s|e|q|u|e|n|c|e| |P|r|o|p|a|g|a|t|i|o|n| |||
-||| |1|6| ||| |B|u|i|l|d| |0|2|3|:| |C|o|n|s|e|n|t| |T|h|a|t| |C|a|n| |C|h|a|n|g|e| |I|t|s| |M|i|n|d| ||| |B|u|i|l|d| |0|3|3|:| |A|t|t|a|c|k| |G|r|a|p|h| ||| |B|u|i|l|d| |0|2|4|:| |T|h|e| |B|e|s|t| |D|a|t|a| |R|i|s|k| |I|s| |D|a|t|a| |N|e|v|e|r| |C|o|l|l|e|c|t|e|d| |||
-||| |1|7| ||| |B|u|i|l|d| |0|3|6|:| |O|f|f|l|i|n|e| |i|s| |a| |p|r|o|d|u|c|t| |s|t|a|t|e| ||| |B|u|i|l|d| |0|2|6|:| |R|e|c|o|r|d|s| |N|o|r|m|a|l|i|z|e| |W|i|t|h|o|u|t| |L|o|s|i|n|g| |T|h|e|i|r| |P|a|s|t| ||| |B|u|i|l|d| |0|4|3|:| |M|o|r|e| |a|g|e|n|t|s| |c|r|e|a|t|e| |m|o|r|e| |h|a|n|d|o|f|f|s| |||
-||| |1|8| ||| |B|u|i|l|d| |0|3|1|:| |T|e|l|e|m|e|t|r|y| |P|r|i|v|a|c|y| |F|i|e|l|d| ||| |B|u|i|l|d| |0|4|9|:| |A| |p|r|e|f|e|r|e|n|c|e| |i|s| |n|o|t| |p|e|r|m|a|n|e|n|t| ||| |B|u|i|l|d| |0|3|2|:| |R|e|l|e|a|s|e| |B|l|o|c|k|e|r| |D|o|o|r| |||
-||| |1|9| ||| |B|u|i|l|d| |0|5|1|:| |T|e|a|c|h| |t|h|e| |C|a|n|n|a|b|i|s| |P|a|r|t| |I| |A|c|t|u|a|l|l|y| |N|e|e|d| ||| |B|u|i|l|d| |0|3|4|:| |I|n|c|i|d|e|n|t| |R|e|p|l|a|y| |G|r|a|p|h| ||| |B|u|i|l|d| |0|5|2|:| |B|e|y|o|n|d| |t|h|e| |S|t|r|a|i|n| |N|a|m|e| |||
-||| |2|0| ||| |B|u|i|l|d| |0|3|7|:| |F|e|e|d|b|a|c|k| |i|s| |a| |s|i|g|n|a|l|,| |n|o|t| |a| |c|o|m|m|a|n|d| ||| |B|u|i|l|d| |0|5|3|:| |R|u|n| |a| |T|i|n|y| |E|x|p|e|r|i|m|e|n|t| ||| |B|u|i|l|d| |0|3|9|:| |A| |t|r|a|c|e| |i|s| |e|v|i|d|e|n|c|e|,| |n|o|t| |t|r|u|t|h| |||
-||| |2|1| ||| |B|u|i|l|d| |0|5|5|:| |L|e|t| |t|h|e| |S|m|a|r|t| |H|o|m|e| |E|x|p|l|a|i|n| |I|t|s|e|l|f| ||| |B|u|i|l|d| |0|4|0|:| |C|o|n|f|i|d|e|n|c|e| |i|s| |n|o|t| |p|e|r|m|i|s|s|i|o|n| ||| |B|u|i|l|d| |0|5|7|:| |S|h|o|w| |M|e| |W|h|e|r|e| |T|h|i|s| |C|o|n|t|e|n|t| |C|a|m|e| |F|r|o|m| |||
-||| |2|2| ||| |B|u|i|l|d| |0|4|1|:| |A|I| |w|o|r|k| |n|e|e|d|s| |a|n| |o|w|n|e|r| ||| |B|u|i|l|d| |0|6|2|:| |T|h|e| |I|n|t|e|r|v|i|e|w| |I|s| |M|o|r|e| |T|h|a|n| |a| |T|r|a|n|s|c|r|i|p|t| ||| |B|u|i|l|d| |0|4|4|:| |R|e|q|u|i|r|e|m|e|n|t|s| |a|r|e| |n|o|t| |c|o|p|y|-|p|a|s|t|e| |b|l|o|c|k|s| |||
-||| |2|3| ||| |B|u|i|l|d| |0|6|3|:| |R|e|s|e|a|r|c|h| |T|h|a|t| |D|o|e|s| |N|o|t| |D|i|e| |i|n| |a| |F|o|l|d|e|r| ||| |B|u|i|l|d| |0|4|8|:| |T|h|e| |r|u|l|e| |a|n|d| |j|o|u|r|n|e|y| |d|i|f|f|e|r| ||| |B|u|i|l|d| |0|6|4|:| |A|n| |I|n|d|u|s|t|r|y| |W|i|t|h| |A|m|n|e|s|i|a| |||
-||| |2|4| ||| |B|u|i|l|d| |0|5|6|:| |W|h|a|t| |D|o| |Y|o|u| |A|c|t|u|a|l|l|y| |O|w|n|?| ||| |B|u|i|l|d| |0|6|7|:| |A| |D|i|g|i|t|a|l| |T|w|i|n| |B|e|g|i|n|s| |W|i|t|h| |G|a|p|s| ||| |B|u|i|l|d| |0|5|8|:| |T|r|a|c|e| |a| |C|l|a|i|m| |A|l|l| |t|h|e| |W|a|y| |B|a|c|k| |||
-||| |2|5| ||| |B|u|i|l|d| |0|7|7|:| |W|h|a|t| |D|o|e|s| |T|h|i|s| |C|h|a|n|g|e| |A|c|t|u|a|l|l|y| |D|o|?| ||| |B|u|i|l|d| |0|5|9|:| |V|e|r|i|f|y| |t|h|e| |L|e|g|a|l| |C|i|t|a|t|i|o|n| ||| |B|u|i|l|d| |0|8|1|:| |W|h|a|t| |A|r|e| |P|e|o|p|l|e| |R|e|p|e|a|t|e|d|l|y| |S|t|r|u|g|g|l|i|n|g| |W|i|t|h|?| |||
-||| |2|6| ||| |B|u|i|l|d| |0|6|1|:| |W|h|y| |D|i|d| |W|e| |D|e|c|i|d|e| |T|h|a|t|?| ||| |B|u|i|l|d| |0|8|9|:| |S|t|o|p| |b|e|i|n|g| |t|h|e| |o|n|l|y| |d|a|t|a|b|a|s|e| ||| |B|u|i|l|d| |0|6|6|:| |T|h|e| |F|i|r|m| |K|n|o|w|s| |M|o|r|e| |T|h|a|n| |I|t|s| |F|o|l|d|e|r|s| |||
-||| |2|7| ||| |B|u|i|l|d| |0|9|2|:| |T|h|e| |w|o|r|k| |l|i|v|e|s| |b|e|t|w|e|e|n| |t|h|e| |t|o|o|l|s| ||| |B|u|i|l|d| |0|6|8|:| |F|r|o|m| |K|n|o|w|i|n|g| |Y|o|u| |t|o| |A|c|t|i|n|g| |f|o|r| |Y|o|u| ||| |B|u|i|l|d| |0|9|6|:| |E|x|p|e|r|i|e|n|c|e| |i|s| |m|o|r|e| |t|h|a|n| |a| |l|a|b|e|l| |||
-||| |2|8| ||| |B|u|i|l|d| |0|6|9|:| |E|n|a|c|t|e|d| |I|s| |N|o|t| |I|m|p|l|e|m|e|n|t|e|d| ||| |B|u|i|l|d| |0|9|7|:| |P|e|r|s|o|n|a|l|i|z|a|t|i|o|n| |y|o|u| |c|a|n| |c|o|n|t|r|o|l| ||| |B|u|i|l|d| |0|7|0|:| |L|e|g|a|l|i|z|a|t|i|o|n| |I|s| |a| |L|i|f|e|c|y|c|l|e|,| |N|o|t| |a| |V|o|t|e| |||
-||| |2|9| ||| |B|u|i|l|d| |0|7|1|:| |L|e|g|a|l| |D|o|e|s| |N|o|t| |M|e|a|n| |A|c|c|e|s|s|i|b|l|e| ||| |B|u|i|l|d| |0|7|4|:| |I|s| |t|h|e| |S|y|s|t|e|m| |A|c|t|u|a|l|l|y| |R|e|a|d|y|?| ||| |B|u|i|l|d| |0|7|5|:| |S|a|m|e| |G|o|a|l|,| |D|i|f|f|e|r|e|n|t| |R|e|g|u|l|a|t|o|r|y| |M|a|c|h|i|n|e| |||
-||| |3|0| ||| |B|u|i|l|d| |0|7|6|:| |W|h|a|t| |I|s| |A|c|t|u|a|l|l|y| |D|i|f|f|e|r|e|n|t| |B|e|t|w|e|e|n| |T|h|e|s|e| |L|a|w|s|?| ||| |B|u|i|l|d| |0|7|8|:| |T|r|a|n|s|l|a|t|e| |t|h|e| |E|v|i|d|e|n|c|e| |W|i|t|h|o|u|t| |B|r|e|a|k|i|n|g| |I|t| ||| |B|u|i|l|d| |0|7|9|:| |F|i|n|d| |t|h|e| |E|v|i|d|e|n|c|e| |T|h|a|t| |A|c|t|u|a|l|l|y| |A|n|s|w|e|r|s| |Y|o|u|r| |Q|u|e|s|t|i|o|n| |||
-||| |3|1| ||| |B|u|i|l|d| |0|8|0|:| |T|u|r|n| |R|e|p|o|r|t|i|n|g| |I|n|t|o| |P|u|b|l|i|c| |I|n|f|r|a|s|t|r|u|c|t|u|r|e| ||| |B|u|i|l|d| |0|8|3|:| |T|u|r|n| |R|e|a|l| |W|o|r|k| |I|n|t|o| |P|u|b|l|i|c| |P|r|o|o|f| |W|i|t|h|o|u|t| |L|e|a|k|i|n|g| |t|h|e| |W|o|r|k| ||| |B|u|i|l|d| |0|8|5|:| |W|h|o| |i|s| |s|h|a|p|i|n|g| |t|h|i|s| |d|e|c|i|s|i|o|n|?| |||
-||| |3|2| ||| |B|u|i|l|d| |0|8|6|:| |U|s|e| |t|h|e| |p|o|s|t| |a|s| |a| |p|r|o|t|o|t|y|p|e| ||| |B|u|i|l|d| |0|8|7|:| |B|u|i|l|d| |y|o|u|r| |o|w|n| |m|e|d|i|a| |s|y|s|t|e|m| ||| |B|u|i|l|d| |0|9|0|:| |B|u|i|l|d| |a|g|e|n|t|s| |t|h|a|t| |s|h|o|w| |t|h|e|i|r| |w|o|r|k| |||
-||| |3|3| ||| |B|u|i|l|d| |0|9|1|:| |W|h|a|t| |m|a|y| |t|h|i|s| |A|I| |r|e|m|e|m|b|e|r|?| ||| |B|u|i|l|d| |0|9|4|:| |C|a|n| |y|o|u| |p|r|o|v|e| |h|o|w| |w|o|r|k| |h|a|p|p|e|n|e|d|?| ||| |B|u|i|l|d| |0|9|5|:| |G|o|v|e|r|n|a|n|c|e| |r|e|a|c|h|e|s| |t|h|e| |b|o|d|y| |||
-||| |3|4| ||| |B|u|i|l|d| |0|9|9|:| |B|u|i|l|d| |a|n| |i|s|l|a|n|d| |r|e|s|i|l|i|e|n|c|e| |c|o|m|m|o|n|s| ||| |—| ||| |—| |||
-|
-|#|#| |A|d|j|u|s|t|m|e|n|t| |r|u|l|e|
-|
-|K|e|e|p| |t|h|e| |f|i|r|s|t| |1|2| |a|s| |t|h|e| |l|a|u|n|c|h| |s|e|q|u|e|n|c|e|.| |A|f|t|e|r| |t|h|a|t|,| |p|r|e|s|e|r|v|e| |f|i|e|l|d| |d|i|v|e|r|s|i|t|y| |b|u|t| |m|o|v|e| |a| |b|u|i|l|d| |f|o|r|w|a|r|d| |w|h|e|n| |i|t| |c|o|n|n|e|c|t|s| |t|o| |a| |l|i|v|e| |c|o|n|v|e|r|s|a|t|i|o|n|,| |a|n| |o|u|t|r|e|a|c|h| |t|a|r|g|e|t|,| |a| |s|p|e|a|k|i|n|g| |e|n|g|a|g|e|m|e|n|t| |o|r| |a| |r|e|c|e|n|t| |h|i|g|h|-|p|e|r|f|o|r|m|i|n|g| |p|o|s|t|.| |N|e|v|e|r| |r|e|o|r|d|e|r| |s|o|l|e|l|y| |b|y| |b|u|i|l|d| |n|u|m|b|e|r|.|
-|
+# 100 Builds release calendar
+
+Cadence: three posts per week—Tuesday, Thursday and Saturday. This is a 34-week editorial runway, not a requirement to publish mechanically. Pause after Weeks 2, 6 and 12 to use performance and qualitative responses to adjust later hooks and ordering. No item is marked scheduled or published.
+
+| Week | Tuesday | Thursday | Saturday |
+|---:|---|---|---|
+| 1 | Build 100: Put resilience decisions in the room | Build 001: Human Review Design Framework | Build 002: Multi-Audience Meaning Architecture |
+| 2 | Build 050: A room is not neutral | Build 084: Who created the value—and who gets it? | Build 038: A benchmark is not performance |
+| 3 | Build 065: Continuity Beyond the Session | Build 014: The Answer Has Layers | Build 072: Why Does Access Change by Island? |
+| 4 | Build 093: Compliance happens in motion | Build 022: Human Impact Nodes | Build 035: An export button is not an exit |
+| 5 | Build 003: Unserved Decision Discovery | Build 004: Before the Automation | Build 005: Service Path Split |
+| 6 | Build 010: From Words to Structure | Build 082: How Does This Audience Actually Think? | Build 008: Data Is Not a Decision |
+| 7 | Build 006: Form Gate Field | Build 030: Interface Repair in Motion | Build 046: Essential systems cross the shore |
+| 8 | Build 009: Transfer Is a Place Question | Build 007: The Product That Learns | Build 042: A prompt is not a job description |
+| 9 | Build 047: A good idea is not context-free | Build 012: Controls Follow Consequence | Build 011: Same Name Is Not Same Entity |
+| 10 | Build 045: Availability is not access | Build 013: Follow the Consequence | Build 017: The Risk Lives Between the Boxes |
+| 11 | Build 054: Make the Space Adapt to the Person | Build 015: From Matter Work to Reusable System | Build 018: The Process Is Part of the Outcome |
+| 12 | Build 060: Catch the IP Before It Disappears | Build 016: The Matter Beneath the Matter | Build 025: Readiness Has Layers |
+| 13 | Build 073: Access for Whom? | Build 019: The Alert That Knows Who Cares | Build 027: Ownership Exposure Board |
+| 14 | Build 088: Your network is not a contact list | Build 020: Open the Decision | Build 028: Ranking Rationale |
+| 15 | Build 098: Care continues between big moments | Build 021: Break the Promise Open | Build 029: Consequence Propagation |
+| 16 | Build 023: Consent That Can Change Its Mind | Build 033: Attack Graph | Build 024: The Best Data Risk Is Data Never Collected |
+| 17 | Build 036: Offline is a product state | Build 026: Records Normalize Without Losing Their Past | Build 043: More agents create more handoffs |
+| 18 | Build 031: Telemetry Privacy Field | Build 049: A preference is not permanent | Build 032: Release Blocker Door |
+| 19 | Build 051: Teach the Cannabis Part I Actually Need | Build 034: Incident Replay Graph | Build 052: Beyond the Strain Name |
+| 20 | Build 037: Feedback is a signal, not a command | Build 053: Run a Tiny Experiment | Build 039: A trace is evidence, not truth |
+| 21 | Build 055: Let the Smart Home Explain Itself | Build 040: Confidence is not permission | Build 057: Show Me Where This Content Came From |
+| 22 | Build 041: AI work needs an owner | Build 062: The Interview Is More Than a Transcript | Build 044: Requirements are not copy-paste blocks |
+| 23 | Build 063: Research That Does Not Die in a Folder | Build 048: The rule and journey differ | Build 064: An Industry With Amnesia |
+| 24 | Build 056: What Do You Actually Own? | Build 067: A Digital Twin Begins With Gaps | Build 058: Trace a Claim All the Way Back |
+| 25 | Build 077: What Does This Change Actually Do? | Build 059: Verify the Legal Citation | Build 081: What Are People Repeatedly Struggling With? |
+| 26 | Build 061: Why Did We Decide That? | Build 089: Stop being the only database | Build 066: The Firm Knows More Than Its Folders |
+| 27 | Build 092: The work lives between the tools | Build 068: From Knowing You to Acting for You | Build 096: Experience is more than a label |
+| 28 | Build 069: Enacted Is Not Implemented | Build 097: Personalization you can control | Build 070: Legalization Is a Lifecycle, Not a Vote |
+| 29 | Build 071: Legal Does Not Mean Accessible | Build 074: Is the System Actually Ready? | Build 075: Same Goal, Different Regulatory Machine |
+| 30 | Build 076: What Is Actually Different Between These Laws? | Build 078: Translate the Evidence Without Breaking It | Build 079: Find the Evidence That Actually Answers Your Question |
+| 31 | Build 080: Turn Reporting Into Public Infrastructure | Build 083: Turn Real Work Into Public Proof Without Leaking the Work | Build 085: Who is shaping this decision? |
+| 32 | Build 086: Use the post as a prototype | Build 087: Build your own media system | Build 090: Build agents that show their work |
+| 33 | Build 091: What may this AI remember? | Build 094: Can you prove how work happened? | Build 095: Governance reaches the body |
+| 34 | Build 099: Build an island resilience commons | — | — |
+
+## Adjustment rule
+
+Keep the first 12 as the launch sequence. After that, preserve field diversity but move a build forward when it connects to a live conversation, an outreach target, a speaking engagement or a recent high-performing post. Never reorder solely by build number.
