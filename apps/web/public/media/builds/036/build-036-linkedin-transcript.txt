@@ -1,26 +1,8 @@
-BUILD 036-B — Resilience Mode / Offline Survival Test
+BUILD 036-B — Offline is a product state
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 036. OFFLINE IS A PRODUCT STATE—NOT AN ERROR PAGE. Essential work needs a deliberate mode for disconnection, partial service, stale data, queued actions, conflict, and recovery.
-
-SCENE 2
-BOUND ESSENTIAL WORK. WHAT MUST STILL BE POSSIBLE?. Name critical tasks, minimum evidence, local data, prohibited actions, human fallback, expiry, dependencies, and the consequence of delay.
-
-SCENE 3
-ENTER RESILIENCE MODE. DETECT · EXPLAIN · LIMIT · CONTINUE. Make network state, freshness, unavailable features, safe capabilities, queued work, support, and stop conditions explicit.
-
-SCENE 4
-PROTECT LOCAL STATE. MINIMIZE · ENCRYPT · VERSION · EXPIRE. Store only what is necessary, preserve provenance and accessibility, prevent silent overwrite, and make device loss and shared-device risk visible.
-
-SCENE 5
-RECOVER WITH EVIDENCE. RECONNECT · COMPARE · RESOLVE · CONFIRM. Revalidate identity and freshness, detect conflicts and duplicates, require accountable resolution, sync safely, and record the resulting state.
-
-SCENE 6
-SAVE THIS. FAIL SAFELY. RECOVER TRUTHFULLY.. RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY.
-
-FINAL PROPOSITION
-RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. Offline is a product state. Keep essential work safe through disconnection and recovery.
+2. Name the essential work.
+3. Cache only minimum trusted data.
+4. Queue actions with visible status.
+5. Resolve conflicts during recovery.
+6. Design disconnection before it happens.

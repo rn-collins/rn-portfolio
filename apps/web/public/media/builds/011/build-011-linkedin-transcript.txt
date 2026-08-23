@@ -1,26 +1,22 @@
-BUILD 011-B — Entity / Ownership Resolution X-Ray
-
-Silent-first LinkedIn cut transcript
+BUILD 011 — Same Name Is Not Same Entity
 
 SCENE 1
-BUILD 011. THE RECORDS LOOK THE SAME.. Similarity is a clue—not identity.
+BUILD 011. RECORDS LOOK THE SAME. Similarity is not identity.
 
 SCENE 2
-START WITH STRUCTURE. WHAT KIND OF THING IS THIS?. A valid entity model comes before matching.
+STRUCTURE. WHAT KIND OF THING? Model entities before matching.
 
 SCENE 3
-TEST THE SUPPORT. IDENTIFIER · ATTRIBUTE · RELATIONSHIP. Every signal carries evidence and source authority.
+SUPPORT. IDENTIFIER. ATTRIBUTE. RELATIONSHIP. Every signal needs evidence.
 
 SCENE 4
-KEEP THE CONFLICT. CONTRADICTION CAN SPLIT THE RECORDS.. An authoritative mismatch must not disappear into an average.
+CONFLICT. CONTRADICTIONS CAN SPLIT. Never average away authoritative mismatch.
 
 SCENE 5
-HUMAN RESOLUTION. REVIEW · RATIONALE · ROLLBACK. The score never executes the merge.
+REVIEW. RATIONALE + ROLLBACK. The score never merges records.
 
 SCENE 6
-SAVE THIS. MINIMIZE BEFORE YOU MATCH.. Use only the attributes necessary to distinguish records in context.
+MINIMIZE. MATCH ONLY WHAT IS NECESSARY. Context determines identity.
 
 FINAL PROPOSITION
-SAME NAME IS NOT THE SAME ENTITY.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Same name is not the same entity.

@@ -1,26 +1,22 @@
-BUILD 081-B — Listening for the Missing System
-
-Silent-first LinkedIn cut transcript
+BUILD 081 — What Are People Repeatedly Struggling With?
 
 SCENE 1
-BUILD 081. PEOPLE KEEP ASKING. THE SYSTEM IS MISSING.. A fixed synthetic conversation field can expose repeated decision gaps without proving a real unmet need.
+BUILD 081. PEOPLE KEEP ASKING. A system may be missing.
 
 SCENE 2
-MOVE SIGNALS THROUGH VALIDATION. PRESERVE WORDS · SOURCE · CONTEXT. Invented posts remain distinct from inferred needs, opportunities, identities, demographics, or sentiment.
+SIGNALS. PRESERVE WORDS + CONTEXT. Do not collapse posts into identities.
 
 SCENE 3
-CLASSIFY THE REPEATED DECISION. SIGNAL ≠ NEED ≠ OPPORTUNITY. Fixture repetition may be corroborated while the need remains an explicitly unvalidated hypothesis.
+CLASSIFY. SIGNAL ≠ NEED ≠ OPPORTUNITY. Keep hypotheses separate.
 
 SCENE 4
-VERIFY WHAT IS MISSING. REPETITION · ALTERNATIVES · CONTRADICTIONS. Existing alternatives, conflicts, missing evidence, and human-research requirements stay visible.
+VERIFY. REPETITION. ALTERNATIVES. CONTRADICTIONS. Require human research.
 
 SCENE 5
-BOUND THE RESULT. REPETITION CANNOT PROVE ALONE. Fixed synthetic posts only; no scraping, profiling, protected-trait inference, ranking, demand, trend, priority, recommendation, product, policy, or outcome claim.
+BOUNDARY. REPETITION CANNOT PROVE DEMAND. Synthetic posts only.
 
 SCENE 6
-SAVE THIS. LISTEN FOR THE MISSING SYSTEM.. PRESERVE THE WORDS. SEPARATE SIGNAL, NEED, AND OPPORTUNITY. REQUIRE HUMAN RESEARCH BEFORE THE HYPOTHESIS MAY MOVE.
+SAVE. LISTEN FOR THE MISSING SYSTEM. Then validate it.
 
 FINAL PROPOSITION
-LISTEN FOR THE MISSING SYSTEM.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Listen for the missing system.

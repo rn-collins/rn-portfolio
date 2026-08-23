@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 036. OFFLINE IS A PRODUCT STATE—NOT AN ERROR PAGE. Essential work needs a deliberate mode for disconnection, partial service, stale data, queued actions, conflict, and recovery.
+00:00:00.000 --> 00:00:05.000
+Offline is a product state. Keep essential work safe through disconnection and recovery.
 
 2
-00:00:03.000 --> 00:00:06.000
-BOUND ESSENTIAL WORK. WHAT MUST STILL BE POSSIBLE?. Name critical tasks, minimum evidence, local data, prohibited actions, human fallback, expiry, dependencies, and the consequence of delay.
+00:00:05.000 --> 00:00:10.000
+Name the essential work.
 
 3
-00:00:06.000 --> 00:00:09.000
-ENTER RESILIENCE MODE. DETECT · EXPLAIN · LIMIT · CONTINUE. Make network state, freshness, unavailable features, safe capabilities, queued work, support, and stop conditions explicit.
+00:00:10.000 --> 00:00:15.000
+Cache only minimum trusted data.
 
 4
-00:00:09.000 --> 00:00:12.000
-PROTECT LOCAL STATE. MINIMIZE · ENCRYPT · VERSION · EXPIRE. Store only what is necessary, preserve provenance and accessibility, prevent silent overwrite, and make device loss and shared-device risk visible.
+00:00:15.000 --> 00:00:20.000
+Queue actions with visible status.
 
 5
-00:00:12.000 --> 00:00:15.000
-RECOVER WITH EVIDENCE. RECONNECT · COMPARE · RESOLVE · CONFIRM. Revalidate identity and freshness, detect conflicts and duplicates, require accountable resolution, sync safely, and record the resulting state.
+00:00:20.000 --> 00:00:25.000
+Resolve conflicts during recovery.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. FAIL SAFELY. RECOVER TRUTHFULLY.. RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY.
-
+00:00:25.000 --> 00:00:30.000
+Design disconnection before it happens.

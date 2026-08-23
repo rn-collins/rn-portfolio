@@ -1,26 +1,22 @@
-BUILD 013-B — AI Workflow Consequence Scanner
-
-Silent-first LinkedIn cut transcript
+BUILD 013 — Follow the Consequence
 
 SCENE 1
-BUILD 013. THE MODEL IS ONE STAGE.. Consequence is produced by the full workflow around it.
+BUILD 013. THE MODEL IS ONE STAGE. The workflow produces consequence.
 
 SCENE 2
-MAP THE HANDOFFS. INTAKE → DATA → MODEL → DECISION → ACTION. Add monitoring because the workflow does not end when an action ships.
+HANDOFFS. INTAKE → DATA → MODEL → ACTION. Add decisions and monitoring.
 
 SCENE 3
-PLACE THE RISK. WHERE DOES IT ENTER?. Incorrect data, automation bias, and failed notice begin at different stages.
+RISK. WHERE DOES IT ENTER? Different failures begin at different stages.
 
 SCENE 4
-TRACE THE PATH. WHAT CAN IT REACH?. A missing control becomes a condition inherited by downstream work.
+PATH. WHAT CAN IT REACH? Downstream work inherits missing controls.
 
 SCENE 5
-CONTROL EACH STAGE. OWNER · CONTROL · STOP · MONITOR. Every handoff needs accountable power—not a generic assurance statement.
+CONTROL. OWNER. STOP. MONITOR. Every handoff needs accountable power.
 
 SCENE 6
-SAVE THIS. FOLLOW THE CONSEQUENCE THROUGH THE WORK.. A propagation score exposes gaps. It never approves deployment.
+SAVE. FOLLOW THE CONSEQUENCE. Scores expose gaps; they never approve.
 
 FINAL PROPOSITION
-FOLLOW THE CONSEQUENCE THROUGH THE WORK.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Follow the consequence through the work.

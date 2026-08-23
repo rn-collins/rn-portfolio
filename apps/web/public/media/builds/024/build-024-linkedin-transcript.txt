@@ -1,26 +1,22 @@
-BUILD 024-B — Privacy & Data Minimization Engine
-
-Silent-first LinkedIn cut transcript
+BUILD 024 — The Best Data Risk Is Data Never Collected
 
 SCENE 1
-BUILD 024. MORE DATA IS NOT MORE INTELLIGENCE. Every collected field creates exposure, retention work, access pathways, and eventual deletion duties.
+BUILD 024. MORE DATA ≠ MORE INTELLIGENCE. Every field creates exposure.
 
 SCENE 2
-START WITH PURPOSE. START WITH PURPOSE. Name the decision each field supports. Permission does not make unnecessary collection necessary.
+PURPOSE. NAME THE DECISION. Permission cannot justify unnecessary collection.
 
 SCENE 3
-TEST EVERY FIELD. TEST EVERY FIELD. NECESSARY · OPTIONAL · SENSITIVE · DERIVED · PROHIBITED — keep the reason and evidence visible.
+TEST. NECESSARY. OPTIONAL. SENSITIVE. DERIVED. PROHIBITED. Keep reasons and evidence visible.
 
 SCENE 4
-MINIMIZE. MINIMIZE BEFORE COLLECTION. Remove prohibited fields. Default optional fields off. Replace sensitive detail with the least revealing form.
+MINIMIZE. REMOVE BEFORE COLLECTION. Default optional fields off.
 
 SCENE 5
-DESIGN THE EXIT. DESIGN THE EXIT. Assign retention, deletion, redaction, and downstream handling before the data enters the workflow.
+EXIT. DESIGN DELETION FIRST. Assign retention, redaction, and downstream handling.
 
 SCENE 6
-SAVE THIS. THE SAFEST DATA HAS NO BREACH PATH. THE BEST DATA RISK IS DATA NEVER COLLECTED.
+SAFETY. NO DATA; NO BREACH PATH. The strongest minimization is absence.
 
 FINAL PROPOSITION
-THE BEST DATA RISK IS DATA NEVER COLLECTED.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+The best data risk is data never collected.

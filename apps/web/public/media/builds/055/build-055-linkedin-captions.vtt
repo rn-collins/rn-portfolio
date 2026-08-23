@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 055. A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY. A synthetic environment can change state—but every proposed action still needs purpose, authority, explanation, override, and a recoverable prior state.
+00:00:00.000 --> 00:00:05.000
+BUILD 055. A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY.
 
 2
-00:00:03.000 --> 00:00:06.000
-DECLARE THE ENVELOPE. TRIGGER · ACTION · AUTHORITY · LIMIT. Use exact-bound synthetic rooms and devices. Preserve who may authorize, affected occupants, prerequisites, conflicts, expiry, non-actions, and the safe default.
+00:00:05.000 --> 00:00:10.000
+DECLARE TRIGGER, ACTION, AUTHORITY, LIMITS, AFFECTED OCCUPANTS, AND SAFE DEFAULT.
 
 3
-00:00:06.000 --> 00:00:09.000
-SIMULATE THE ACTION. BEFORE · CHANGE · REASON · AFTER. Advance state only inside the declared fixture. Record the rule, evidence, authorization, consequence, uncertainty, and an explanation a person can inspect.
+00:00:10.000 --> 00:00:15.000
+RECORD BEFORE, CHANGE, REASON, AFTER, AUTHORIZATION, CONSEQUENCE, AND UNCERTAINTY.
 
 4
-00:00:09.000 --> 00:00:12.000
-TEST THE FAILURE PATH. CONFLICT · OUTAGE · OVERRIDE · ROLLBACK. When authority conflicts or a dependency fails, do not continue silently. Pause, preserve state, expose the blocker, accept human override, and restore a known prior state.
+00:00:15.000 --> 00:00:20.000
+CONFLICT OR OUTAGE SHOULD PAUSE ACTION, EXPOSE THE BLOCKER, AND ENABLE ROLLBACK.
 
 5
-00:00:12.000 --> 00:00:15.000
-BOUND THE SYSTEM. SIMULATION—NOT ACTUATION. No device or sensor is connected. The demo cannot infer authority or person traits, secure a home, determine safety or accessibility, decide an accommodation, or prove benefit.
+00:00:20.000 --> 00:00:25.000
+THIS SIMULATION CONNECTS TO NO DEVICES OR SENSORS AND PROVES NO BENEFIT.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. MAKE EVERY ACTION REVERSIBLE. A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE.
-
+00:00:25.000 --> 00:00:30.000
+MAKE EVERY ACTION REVERSIBLE, EXPLAINABLE, OVERRIDABLE, AND RECOVERABLE.

@@ -1,26 +1,22 @@
-BUILD 029-B — Change & Consequence Explorer
-
-Silent-first LinkedIn cut transcript
+BUILD 029 — Consequence Propagation
 
 SCENE 1
-BUILD 029. EVERY CHANGE ENTERS A SYSTEM. A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began.
+BUILD 029. CHANGE DOES NOT STAY LOCAL. Every edit enters a system.
 
 SCENE 2
-BOUND THE CHANGE. NAME WHAT WILL BE DIFFERENT. Record the actor, object, purpose, timing, assumptions, dependencies, and the prior state being replaced.
+BOUND. NAME WHAT CHANGED. Record actor, object, purpose, and prior state.
 
 SCENE 3
-TRACE CONSEQUENCE. FOLLOW WHO AND WHAT IT CAN REACH. Map direct effects, downstream handoffs, delayed effects, feedback loops, rights, and people carrying the burden.
+TRACE. FOLLOW EVERY REGISTERED PATH. Map direct and downstream effects.
 
 SCENE 4
-TEST SCENARIOS. EXPECTED · EDGE · FAILURE · MISUSE. Compare evidence, uncertainty, reversibility, scale, severity, and the conditions that would change the conclusion.
+TEST. EXPECTED. EDGE. FAILURE. MISUSE. Compare severity, scale, and reversibility.
 
 SCENE 5
-GOVERN THE MOVE. OWNER · MONITOR · STOP · REMEDY. A release needs accountable authority, observable signals, rollback criteria, notice, correction, and recourse.
+GOVERN. OWNER. MONITOR. STOP. REMEDY. Release requires observable controls.
 
 SCENE 6
-SAVE THIS. FOLLOW THE CONSEQUENCE PAST THE CHANGE. A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE.
+CONSEQUENCE. FOLLOW IT PAST THE CHANGE. Distance can make small edits large.
 
 FINAL PROPOSITION
-A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+A change is not small when its consequences travel beyond its author.

@@ -1,26 +1,22 @@
-BUILD 012-B — AI Use Consequence & Control Mapper
-
-Silent-first LinkedIn cut transcript
+BUILD 012 — Controls Follow Consequence
 
 SCENE 1
-BUILD 012. THE MODEL IS NOT THE USE.. The same capability can carry radically different consequences in different contexts.
+BUILD 012. THE MODEL IS NOT THE USE. Context changes consequence.
 
 SCENE 2
-BOUND THE USE. PURPOSE · PEOPLE · DECISION. Classify what the system will actually do—and who can be affected.
+BOUND. PURPOSE. PEOPLE. DECISION. Classify the real workflow.
 
 SCENE 3
-MAP CONSEQUENCE. SEVERITY · SCALE · RIGHTS · REVERSIBILITY. Add vulnerability, autonomy, essential services, data sensitivity, and uncertainty.
+CONSEQUENCE. SEVERITY. SCALE. RIGHTS. REVERSIBILITY. Add vulnerability, sensitivity, uncertainty.
 
 SCENE 4
-RECONFIGURE CONTROLS. OWNER · TEST · MONITOR · APPEAL. Higher consequence earns stronger authority, stop, incident, notice, and record controls.
+CONTROLS. OWNER. TEST. MONITOR. APPEAL. Higher consequence requires stronger architecture.
 
 SCENE 5
-HUMAN CONTROL. CHANGE · PAUSE · CONTEST · REMEDY. A reviewer matters only when those powers are real.
+HUMAN POWER. CHANGE. PAUSE. CONTEST. REMEDY. Review matters only when powers exist.
 
 SCENE 6
-SAVE THIS. A SCORE NEVER APPROVES DEPLOYMENT.. Use the map to expose missing architecture—and escalate when consequence outruns control.
+BOUNDARY. A SCORE NEVER APPROVES. Escalate when consequence outruns control.
 
 FINAL PROPOSITION
-CONTROLS SHOULD FOLLOW CONSEQUENCE.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Controls should follow consequence.

@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 039. A TRACE IS EVIDENCE—NOT THE TRUTH. An event log can show sequence and state without proving intent, correctness, completeness, causation, or a safe outcome.
+00:00:00.000 --> 00:00:05.000
+A trace is evidence, not truth. Inspect agent activity without overstating what logs prove.
 
 2
-00:00:03.000 --> 00:00:06.000
-BOUND THE SESSION. PURPOSE · AUTHORITY · SCOPE · STOP. Lock agent and model version, environment, permitted tools and data, accountable owner, approval gates, prohibited actions, and termination conditions.
+00:00:05.000 --> 00:00:10.000
+Bound the agent session.
 
 3
-00:00:06.000 --> 00:00:09.000
-CAPTURE SAFELY. EVENT · TIME · STATE · RESULT. Use synthetic redacted traces. Record requests, tool outcomes, approvals, errors, retries, and side effects—never credentials, secrets, or private content.
+00:00:10.000 --> 00:00:15.000
+Log tools, data and approvals.
 
 4
-00:00:09.000 --> 00:00:12.000
-KEEP LAYERS APART. OBSERVED ≠ INFERRED ≠ VERIFIED. Preserve provenance, missing events, uncertainty, contradictions, transformations, and reviewer notes instead of inventing a continuous story.
+00:00:15.000 --> 00:00:20.000
+Reconstruct sequence and state.
 
 5
-00:00:12.000 --> 00:00:15.000
-INSPECT THE CONTROL. REPLAY · CONTAIN · CORRECT · VALIDATE. Check permissions, sequence, human intervention, external change, stop behavior, and consequence before deciding whether work can stand.
+00:00:20.000 --> 00:00:25.000
+Separate observation from intent.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. INSPECTABLE WITHOUT EXPOSURE. ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT.
-
+00:00:25.000 --> 00:00:30.000
+Escalate gaps before judging the outcome.

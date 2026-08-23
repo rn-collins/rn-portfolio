@@ -1,26 +1,22 @@
-BUILD 079-B — A Search Result Is Not an Evidence Map
-
-Silent-first LinkedIn cut transcript
+BUILD 079 — Find the Evidence That Actually Answers Your Question
 
 SCENE 1
-BUILD 079. A SEARCH RESULT IS NOT AN EVIDENCE MAP.. A keyword match can surface a fictional record and still miss the question it appears to answer.
+BUILD 079. SEARCH RESULT ≠ EVIDENCE MAP. Keywords can miss the question.
 
 SCENE 2
-ASK THE QUESTION IN DIMENSIONS. QUESTION · POPULATION · CONTEXT · OUTCOME. The synthetic question opens into the exact dimensions required to test relevance without inventing certainty.
+DIMENSIONS. QUESTION. POPULATION. CONTEXT. OUTCOME. Test relevance explicitly.
 
 SCENE 3
-QUALIFY THE EVIDENCE. TYPE · QUALITY · APPLICABILITY. Evidence type, source quality, and categorical applicability remain distinct; no score or ranking is produced.
+QUALIFY. TYPE. QUALITY. APPLICABILITY. Keep these judgments separate.
 
 SCENE 4
-RETAIN WHAT DOES NOT FIT. SOURCE · LIMIT · UNKNOWN. Out-of-scope records, unmatched fields, limitations, and unknown applicability stay visible.
+RETAIN. SOURCE. LIMIT. UNKNOWN. Show what does not fit.
 
 SCENE 5
-BOUND THE RESULT. NAVIGATION DOES NOT DECIDE. Synthetic evidence only; no patient, treatment, diagnosis, dosage, safety, effectiveness, advice, or clinical-applicability claim.
+BOUNDARY. NAVIGATION DOES NOT DECIDE. Synthetic evidence only.
 
 SCENE 6
-SAVE THIS. FIND WHAT ANSWERS THE QUESTION.. AN EVIDENCE MAP ORGANIZES THE QUESTION, QUALIFIES THE RECORD, AND KEEPS EVERY SOURCE, LIMIT, AND UNKNOWN ATTACHED.
+SAVE. FIND WHAT ANSWERS. Keep every source and limit attached.
 
 FINAL PROPOSITION
-FIND WHAT ANSWERS THE QUESTION.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Find what answers the question.

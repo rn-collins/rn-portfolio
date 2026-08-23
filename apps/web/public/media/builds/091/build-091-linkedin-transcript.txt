@@ -1,26 +1,8 @@
-BUILD 091-B — What Is This AI Allowed to Remember?
+BUILD 091-B — What may this AI remember?
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 091. WHAT IS THIS AI ALLOWED TO REMEMBER?. Control what agents may remember, infer, retrieve, share or forget across contexts and time.
-
-SCENE 2
-SEE THE SYSTEM. NAME WHAT IS ACTUALLY MOVING. Make the actors, inputs, dependencies, decisions and consequences visible.
-
-SCENE 3
-TEST THE CLAIM. CHANGE ONE CONDITION. Use the interactive version to see what changes, what holds and what remains unknown.
-
-SCENE 4
-KEEP THE EVIDENCE. SHOW THE SOURCE AND THE LIMIT. Preserve provenance, uncertainty, responsibility and the path to correction.
-
-SCENE 5
-MAKE THE DECISION. TURN THE MAP INTO AN ACTION. Choose the next responsible move without hiding the tradeoff or the accountable human.
-
-SCENE 6
-SAVE THIS. CONTROL WHAT AGENTS MAY REMEMBER, INFER, RETRIEVE, SHARE OR FORGET ACROSS CONTEXTS AND TIME.. Watch the distributable film. Then test the richer web version for yourself.
-
-FINAL PROPOSITION
-CONTROL WHAT AGENTS MAY REMEMBER, INFER, RETRIEVE, SHARE OR FORGET ACROSS CONTEXTS AND TIME.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. What may this AI remember? Control retrieval, inference, sharing and forgetting.
+2. Define a memory space.
+3. Permit retrieval by context.
+4. Block unapproved inference paths.
+5. Make forgetting enforceable.
+6. Memory is a governed resource.

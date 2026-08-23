@@ -1,26 +1,22 @@
-BUILD 021-B — AI Vendor Claim / Procurement X-Ray
-
-Silent-first LinkedIn cut transcript
+BUILD 021 — Break the Promise Open
 
 SCENE 1
-BUILD 021. THE CLAIM SOUNDS CERTAIN.. Procurement still needs to know what the evidence can actually support.
+BUILD 021. THE CLAIM SOUNDS CERTAIN. Evidence may not support it.
 
 SCENE 2
-SEPARATE. PROMISE ≠ EVIDENCE. Record the vendor claim separately from the artifact offered to substantiate it.
+SEPARATE. PROMISE ≠ EVIDENCE. Store claim and proof separately.
 
 SCENE 3
-TEST. SCOPE · DATE · METHOD · OWNER. Ask whether the evidence covers this product, this use, this version, and this consequence.
+TEST. SCOPE. DATE. METHOD. OWNER. Does it cover this use?
 
 SCENE 4
-CONTROL. NAME THE FAILURE PATH.. A control is incomplete without an authorized owner, trigger, response, and retained record.
+CONTROL. NAME THE FAILURE PATH. Owner, trigger, response, retained record.
 
 SCENE 5
-VERDICT. SUPPORTED · PARTIAL · UNVERIFIED · CONTRADICTED. Nonbinary findings preserve uncertainty and identify the next verification action.
+VERDICT. SUPPORTED. PARTIAL. UNVERIFIED. CONTRADICTED. Preserve uncertainty and next action.
 
 SCENE 6
-SAVE THIS. BUY THE EVIDENCE—NOT THE ADJECTIVE.. A defensible procurement decision keeps claim, proof, control, and recourse inspectable.
+PROCUREMENT. BUY THE EVIDENCE. Keep claim, proof, control, recourse inspectable.
 
 FINAL PROPOSITION
-BUY THE EVIDENCE—NOT THE ADJECTIVE.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Buy the evidence—not the adjective.

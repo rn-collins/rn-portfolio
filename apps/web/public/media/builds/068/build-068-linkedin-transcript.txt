@@ -3,24 +3,24 @@ BUILD 068-B — From Knowing You to Acting for You
 Silent-first LinkedIn cut transcript
 
 SCENE 1
-BUILD 068. FROM KNOWING YOU TO ACTING FOR YOU. A passive fixed synthetic model can suggest context and prepare a bounded proposal. Knowledge alone never supplies authority.
+BUILD 068. KNOWING YOU IS NOT AUTHORITY TO ACT.
 
 SCENE 2
-ADD THE RUNTIME. CONTEXT → PLAN → APPROVAL. Keep retrieval, draft, recommendation, proposed action, approval, tool use, execution, refusal, and audit as separate accountable states.
+ADD THE RUNTIME: CONTEXT, PLAN, EXPLICIT APPROVAL.
 
 SCENE 3
-PLACE THE GATE. A PROPOSAL IS NOT PERMISSION. Approval must be explicit, proposal-specific, inspectable, and revocable before any modeled tool step.
+A PROPOSAL IS NOT PERMISSION. PLACE THE GATE BEFORE EVERY TOOL STEP.
 
 SCENE 4
-PRESERVE THE STOP. OUT OF SCOPE MEANS REFUSED. Missing context, denied approval, or an out-of-scope tool produces a visible hold or refusal—not invented authority.
+MISSING CONTEXT, DENIED APPROVAL, OR OUT-OF-SCOPE TOOLS PRODUCE A VISIBLE STOP.
 
 SCENE 5
-BOUND THE RESULT. SIMULATION HAS ZERO SIDE EFFECTS. No real people, personal data, accounts, credentials, tools, messages, files, transactions, advice, or external actions appear.
+THIS SIMULATION HAS ZERO SIDE EFFECTS AND USES NO REAL ACCOUNTS OR DATA.
 
 SCENE 6
-SAVE THIS. MAKE ACTION ACCOUNTABLE. AN ACTION RUNTIME IS GOVERNED WHEN EVERY TRANSITION CARRIES SCOPE, AUTHORITY, APPROVAL, OUTCOME, RECOVERY, AND AN AUDITABLE STOP.
+ACTION IS ACCOUNTABLE WHEN SCOPE, APPROVAL, OUTCOME, RECOVERY, AND AUDIT STAY CONNECTED.
 
 FINAL PROPOSITION
-MAKE ACTION ACCOUNTABLE.
+ACTION IS ACCOUNTABLE WHEN SCOPE, APPROVAL, OUTCOME, RECOVERY, AND AUDIT STAY CONNECTED.
 
 This film has no spoken audio. All meaning is presented as on-screen text.

@@ -1,26 +1,22 @@
-BUILD 082-B — An Audience Is Not a Demographic Box
-
-Silent-first LinkedIn cut transcript
+BUILD 082 — How Does This Audience Actually Think?
 
 SCENE 1
-BUILD 082. AN AUDIENCE IS NOT A DEMOGRAPHIC BOX.. A fictional persona card cannot explain a relationship, and demographic proxies cannot supply the missing context.
+BUILD 082. AUDIENCE ≠ DEMOGRAPHIC BOX. Personas cannot explain relationships.
 
 SCENE 2
-EXPAND THE CARD INTO A GRAPH. NEED · LANGUAGE · CONTEXT. Fixed synthetic sources connect to ontology nodes while evidence, caveats, and unknowns remain attached.
+GRAPH. NEED. LANGUAGE. CONTEXT. Connect sources with caveats.
 
 SCENE 3
-DESCRIBE THE RELATIONSHIPS. SOURCE · EVIDENCE · UNKNOWN. Edges record bounded fixture relationships rather than inferred identity, personality, protected traits, or behavior.
+EDGES. SOURCE. EVIDENCE. UNKNOWN. Never infer identity or personality.
 
 SCENE 4
-KEEP CLAIM TYPES SEPARATE. TRUST · INFLUENCE · ACTION. Trusted-source assertions and conversion evidence retain explicit caveats; neither becomes a prediction.
+CLAIMS. TRUST ≠ INFLUENCE ≠ ACTION. Keep evidence types separate.
 
 SCENE 5
-BOUND THE RESULT. A GRAPH DOES NOT DEFINE PEOPLE. Fixed synthetic audience only; no profiling, targeting, persuasion, surveillance, demographic, protected-trait, identity, psychographic, trustworthiness, influence, behavior, or conversion inference.
+BOUNDARY. A GRAPH DOES NOT DEFINE PEOPLE. No profiling or prediction.
 
 SCENE 6
-SAVE THIS. UNDERSTAND THE RELATIONSHIPS.. CONNECT NEED, LANGUAGE, AND CONTEXT. RETAIN SOURCE, EVIDENCE, CAVEAT, CONTRADICTION, CHANGE, AND UNKNOWN.
+SAVE. UNDERSTAND RELATIONSHIPS. Retain contradiction, change, and unknown.
 
 FINAL PROPOSITION
-UNDERSTAND THE RELATIONSHIPS.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Understand the relationships.

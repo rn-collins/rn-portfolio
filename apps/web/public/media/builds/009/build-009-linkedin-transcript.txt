@@ -1,26 +1,22 @@
-BUILD 009-B — Place-Sensitive Technology Readiness
-
-Silent-first LinkedIn cut transcript
+BUILD 009 — Transfer Is a Place Question
 
 SCENE 1
-BUILD 009. IT WORKED SOMEWHERE ELSE.. That does not mean it can work here.
+BUILD 009. IT WORKED ELSEWHERE. That proves little here.
 
 SCENE 2
-START WITH THE DECISION. WHAT MUST THIS PLACE DECIDE?. Keep the recurring decision gap visible before scoring fit.
+DECISION. WHAT MUST THIS PLACE DECIDE? Keep the local gap visible.
 
 SCENE 3
-TEST REQUIREMENTS. NETWORK · POWER · ACCESS · SUPPORT. Add hazards, governance, data, maintenance, and community authority.
+REQUIREMENTS. NETWORK. POWER. ACCESS. SUPPORT. Add hazards, governance, data, maintenance.
 
 SCENE 4
-EVIDENCE THE PLACE. CAPACITY IS NOT AN ASSUMPTION.. Name the local source, owner, gap, and mitigation.
+EVIDENCE. CAPACITY IS NOT AN ASSUMPTION. Name sources, owners, gaps, mitigation.
 
 SCENE 5
-BOUND THE PILOT. PILOT · FALLBACK · STOP · AUTHORITY. A high score permits only a controlled local test.
+PILOT. FALLBACK. STOP. AUTHORITY. High fit permits controlled testing only.
 
 SCENE 6
-SAVE THIS. CHANGE THE PLACE. THE ANSWER SHOULD MOVE.. Transferability is not a property of the technology alone.
+TRANSFER. CHANGE PLACE; CHANGE ANSWER. Technology never travels alone.
 
 FINAL PROPOSITION
-TRANSFERABILITY IS A PLACE QUESTION.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Transferability is a place question.

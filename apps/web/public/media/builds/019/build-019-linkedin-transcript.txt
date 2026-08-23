@@ -1,26 +1,22 @@
-BUILD 019-B — Consequence-Aware Escalation Router
-
-Silent-first LinkedIn cut transcript
+BUILD 019 — The Alert That Knows Who Cares
 
 SCENE 1
-BUILD 019. 100 ALERTS ≠ 100 INCIDENTS.. Repeated signals can describe one consequential event—not one hundred separate interruptions.
+BUILD 019. 100 ALERTS ≠ 100 INCIDENTS. Repeated signals may describe one event.
 
 SCENE 2
-CORRELATE. GROUP THE EVIDENCE FIRST.. Shared keys collapse repeated signals while preserving every source and state.
+CORRELATE. GROUP EVIDENCE FIRST. Preserve each source and state.
 
 SCENE 3
-ASSESS. SCORE CONSEQUENCE TRANSPARENTLY.. Severity, scale, rights, reversibility, evidence, and inherited friction remain inspectable.
+ASSESS. SCORE CONSEQUENCE TRANSPARENTLY. Keep severity, scale, rights, and reversibility visible.
 
 SCENE 4
-ROUTE. AUTHORITY BEFORE AVAILABILITY.. Notify only an authorized owner through a compatible channel, with the reason visible.
+ROUTE. AUTHORITY BEFORE AVAILABILITY. Notify the right owner, with reasons.
 
 SCENE 5
-ACKNOWLEDGE. MISSED CLOCK → NAMED BACKUP.. A recorded acknowledgement stops the timeout; otherwise a validated backup receives the chain.
+ACKNOWLEDGE. MISSED CLOCK → NAMED BACKUP. Record response or escalate.
 
 SCENE 6
-SAVE THIS. AUTHORITY · EVIDENCE · TIME · RECOURSE. Escalation is an accountable chain—not a louder notification.
+ESCALATION. CHAIN—NOT VOLUME. Authority, evidence, time, recourse.
 
 FINAL PROPOSITION
-ESCALATION IS A CHAIN OF AUTHORITY, EVIDENCE, TIME, AND RECOURSE.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Escalation is a chain of authority, evidence, time, and recourse.

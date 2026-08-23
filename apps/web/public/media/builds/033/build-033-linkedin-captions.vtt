@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 033. TEST THE SYSTEM WITHOUT TEACHING THE ATTACK. Defensive exploration should expose weak assumptions, controls, and recovery paths while withholding reusable harmful instructions.
+00:00:00.000 --> 00:00:05.000
+BUILD 033. TEST WITHOUT TEACHING ATTACKS. Expose weakness; withhold harmful instructions.
 
 2
-00:00:03.000 --> 00:00:06.000
-BOUND THE EXERCISE. ASSET · THREAT · SCOPE · AUTHORITY. Name what is protected, the permitted environment, synthetic inputs, accountable owner, stop conditions, and prohibited actions.
+00:00:05.000 --> 00:00:10.000
+BOUND. ASSET. THREAT. SCOPE. AUTHORITY. Name owners, limits, and stop conditions.
 
 3
-00:00:06.000 --> 00:00:09.000
-MODEL FAILURE. PRESSURE THE CONTROL—NOT REAL PEOPLE. Use abstract scenarios for misuse, manipulation, leakage, privilege, evasion, dependency failure, and unsafe automation.
+00:00:10.000 --> 00:00:15.000
+MODEL. PRESSURE CONTROLS—NOT PEOPLE. Use abstract defensive scenarios.
 
 4
-00:00:09.000 --> 00:00:12.000
-CONTAIN THE TEST. ISOLATE · MINIMIZE · MONITOR · STOP. Keep production data, credentials, live targets, personal information, and uncontrolled external effects outside the exercise.
+00:00:15.000 --> 00:00:20.000
+CONTAIN. ISOLATE. MINIMIZE. MONITOR. STOP. Keep live targets outside.
 
 5
-00:00:12.000 --> 00:00:15.000
-TURN FINDINGS INTO DEFENSE. DETECT · REPAIR · RETEST · RECORD. Assign severity, evidence, owner, deadline, mitigation, rollback, verification, disclosure route, and residual risk.
+00:00:20.000 --> 00:00:25.000
+DEFEND. DETECT. REPAIR. RETEST. RECORD. Assign evidence, owner, deadline, and residual risk.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. MAKE THE SYSTEM SAFER—NOT HARM EASIER. ADVERSARIAL TESTING IS USEFUL ONLY WHEN IT MAKES THE SYSTEM SAFER WITHOUT MAKING HARM EASIER.
-
+00:00:25.000 --> 00:00:30.000
+SAFETY. MAKE HARM HARDER. That is the test.

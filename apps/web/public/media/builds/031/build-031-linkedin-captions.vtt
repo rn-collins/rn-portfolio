@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 031. A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR. The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states.
+00:00:00.000 --> 00:00:05.000
+BUILD 031. THE PRODUCT IS WATCHING. Telemetry choices create privacy load.
 
 2
-00:00:03.000 --> 00:00:06.000
-OBSERVE THE JOURNEY. TRACE DATA FROM ENTRY TO EXIT. Map collection, purpose, transformation, storage, access, disclosure, reuse, model input, retention, and verified deletion.
+00:00:05.000 --> 00:00:10.000
+TRACE. FOLLOW DATA END TO END. Collection. Purpose. Storage. Sharing. Deletion.
 
 3
-00:00:06.000 --> 00:00:09.000
-TEST THE DEFAULTS. WHAT HAPPENS BEFORE A PERSON CHOOSES?. Optional collection, tracking, sharing, personalization, and sensitive inference should not quietly activate through design or fatigue.
+00:00:10.000 --> 00:00:15.000
+DEFAULTS. WHAT HAPPENS BEFORE CHOICE? Optional tracking should not quietly activate.
 
 4
-00:00:09.000 --> 00:00:12.000
-COMPARE THE PROMISE. CLAIM · CONTROL · EVIDENCE · RESULT. Test whether notice matches runtime behavior, the control changes processing, and the outcome remains visible and correctable.
+00:00:15.000 --> 00:00:20.000
+COMPARE. PROMISE → CONTROL → RESULT. Does notice match runtime behavior?
 
 5
-00:00:12.000 --> 00:00:15.000
-DESIGN RECOURSE. ACCESS · CORRECT · WITHDRAW · DELETE · APPEAL. Every route needs an owner, deadline, identity safeguards, downstream handling, exception basis, status, and escalation.
+00:00:20.000 --> 00:00:25.000
+RECOURSE. ACCESS. CORRECT. WITHDRAW. DELETE. Every route needs an owner.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. READ THE PRODUCT THROUGH ITS BEHAVIOR. PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY.
-
+00:00:25.000 --> 00:00:30.000
+BEHAVIOR. READ THE PRODUCT ITSELF. The policy is not the system.

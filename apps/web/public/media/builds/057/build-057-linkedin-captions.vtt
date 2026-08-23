@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 057. A FINISHED FILE HIDES ITS PRODUCTION HISTORY. Sources, people, tools, AI involvement, rights claims, edits, and exports can disappear behind one polished content object.
+00:00:00.000 --> 00:00:05.000
+BUILD 057. A FINISHED FILE HIDES ITS PRODUCTION HISTORY.
 
 2
-00:00:03.000 --> 00:00:06.000
-REGISTER THE ARTIFACT. OBJECT · VERSION · TIME · RECORDER. Use an exact-bound synthetic artifact. Preserve identifiers, declared timestamps, recorders, source locators, transformations, tool events, people, AI claims, rights assertions, and missing links.
+00:00:05.000 --> 00:00:10.000
+REGISTER EACH OBJECT, VERSION, TIME, RECORDER, SOURCE, TRANSFORMATION, AND RIGHTS CLAIM.
 
 3
-00:00:06.000 --> 00:00:09.000
-PEEL IT BACKWARD. SOURCE · TRANSFORM · REVIEW · EXPORT. Move from the finished version toward each recorded input and event while the provenance graph and timeline stay synchronized.
+00:00:10.000 --> 00:00:15.000
+PEEL BACKWARD FROM EXPORT THROUGH REVIEW AND TRANSFORMATION TO EACH SOURCE.
 
 4
-00:00:09.000 --> 00:00:12.000
-KEEP CLAIMS SEPARATE. RECORDED · LINKED · CORROBORATED · UNKNOWN. A record can show who asserted what and when. It cannot make an unverified source, identity, right, sequence, or AI-use claim true.
+00:00:15.000 --> 00:00:20.000
+KEEP RECORDED, LINKED, CORROBORATED, AND UNKNOWN CLAIMS SEPARATE.
 
 5
-00:00:12.000 --> 00:00:15.000
-BOUND THE RESULT. TRACE IS NOT VERIFICATION. The demo cannot conclude authorship, ownership, copyright, license, permission, authenticity, identity, completeness, chronology, admissibility, attribution, or AI detection.
+00:00:20.000 --> 00:00:25.000
+A TRACE CANNOT PROVE AUTHORSHIP, OWNERSHIP, PERMISSION, AUTHENTICITY, OR AI USE.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. MAKE THE HISTORY INSPECTABLE. PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF.
-
+00:00:25.000 --> 00:00:30.000
+MAKE EVERY VERSION, SOURCE, PERSON, TOOL, TRANSFORMATION, AND UNKNOWN TRACEABLE.
