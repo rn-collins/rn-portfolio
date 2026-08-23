@@ -795,7 +795,7 @@
     },
     {
       "id": "035",
-      "title": "Data Exit & Portability Test",
+      "title": "An export button is not an exit",
       "path": "/media/builds/035/build-035-linkedin.mp4",
       "poster": "/media/builds/035/build-035-linkedin-poster.png",
       "width": 720,
@@ -819,11 +819,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY."
+      "finalProposition": "Portability means usable independence."
     },
     {
       "id": "036",
-      "title": "Resilience Mode / Offline Survival Test",
+      "title": "Offline is a product state",
       "path": "/media/builds/036/build-036-linkedin.mp4",
       "poster": "/media/builds/036/build-036-linkedin-poster.png",
       "width": 720,
@@ -847,11 +847,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY."
+      "finalProposition": "Design disconnection before it happens."
     },
     {
       "id": "037",
-      "title": "Feedback → Change Governance Lab",
+      "title": "Feedback is a signal, not a command",
       "path": "/media/builds/037/build-037-linkedin.mp4",
       "poster": "/media/builds/037/build-037-linkedin-poster.png",
       "width": 720,
@@ -875,11 +875,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE."
+      "finalProposition": "Govern the route from signal to change."
     },
     {
       "id": "038",
-      "title": "Domain AI Evaluation Studio",
+      "title": "A benchmark is not performance",
       "path": "/media/builds/038/build-038-linkedin.mp4",
       "poster": "/media/builds/038/build-038-linkedin-poster.png",
       "width": 720,
@@ -903,11 +903,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED."
+      "finalProposition": "Bound exactly what the score proves."
     },
     {
       "id": "039",
-      "title": "Agent Work Trace Inspector",
+      "title": "A trace is evidence, not truth",
       "path": "/media/builds/039/build-039-linkedin.mp4",
       "poster": "/media/builds/039/build-039-linkedin-poster.png",
       "width": 720,
@@ -931,11 +931,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT."
+      "finalProposition": "Escalate gaps before judging the outcome."
     },
     {
       "id": "040",
-      "title": "AI Stop / Escalate Engine",
+      "title": "Confidence is not permission",
       "path": "/media/builds/040/build-040-linkedin.mp4",
       "poster": "/media/builds/040/build-040-linkedin-poster.png",
       "width": 720,
@@ -959,11 +959,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT."
+      "finalProposition": "Govern when AI must not continue."
     },
     {
       "id": "041",
-      "title": "Who Owns the AI Work?",
+      "title": "AI work needs an owner",
       "path": "/media/builds/041/build-041-linkedin.mp4",
       "poster": "/media/builds/041/build-041-linkedin-poster.png",
       "width": 720,
@@ -987,11 +987,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER."
+      "finalProposition": "Ownership must follow every decision."
     },
     {
       "id": "042",
-      "title": "Give the AI a Real Job",
+      "title": "A prompt is not a job description",
       "path": "/media/builds/042/build-042-linkedin.mp4",
       "poster": "/media/builds/042/build-042-linkedin-poster.png",
       "width": 720,
@@ -1015,11 +1015,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT."
+      "finalProposition": "Give the AI a bounded job."
     },
     {
       "id": "043",
-      "title": "Design an AI Team",
+      "title": "More agents create more handoffs",
       "path": "/media/builds/043/build-043-linkedin.mp4",
       "poster": "/media/builds/043/build-043-linkedin-poster.png",
       "width": 720,
@@ -1043,11 +1043,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH."
+      "finalProposition": "Design the team, not just agents."
     },
     {
       "id": "044",
-      "title": "Reuse the Parts That Regulation Keeps Requiring",
+      "title": "Requirements are not copy-paste blocks",
       "path": "/media/builds/044/build-044-linkedin.mp4",
       "poster": "/media/builds/044/build-044-linkedin-poster.png",
       "width": 720,
@@ -1071,11 +1071,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM."
+      "finalProposition": "Reuse structure without losing regulation."
     },
     {
       "id": "045",
-      "title": "Cannabis Care Access Journey",
+      "title": "Availability is not access",
       "path": "/media/builds/045/build-045-linkedin.mp4",
       "poster": "/media/builds/045/build-045-linkedin-poster.png",
       "width": 720,
@@ -1099,11 +1099,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "ACCESS IS THE WHOLE JOURNEY THROUGH INFORMATION, ELIGIBILITY, COST, TRAVEL, CLINICIANS, SUPPLY, AND CONTINUING CARE."
+      "finalProposition": "Design cannabis care around the journey."
     },
     {
       "id": "046",
-      "title": "What Does This Island Depend On?",
+      "title": "Essential systems cross the shore",
       "path": "/media/builds/046/build-046-linkedin.mp4",
       "poster": "/media/builds/046/build-046-linkedin-poster.png",
       "width": 720,
@@ -1127,11 +1127,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE."
+      "finalProposition": "Resilience starts with dependencies."
     },
     {
       "id": "047",
-      "title": "Will This Work Here?",
+      "title": "A good idea is not context-free",
       "path": "/media/builds/047/build-047-linkedin.mp4",
       "poster": "/media/builds/047/build-047-linkedin-poster.png",
       "width": 720,
@@ -1155,11 +1155,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES."
+      "finalProposition": "Adapt the model before importing it."
     },
     {
       "id": "048",
-      "title": "What Does This Rule Feel Like in Real Life?",
+      "title": "The rule and journey differ",
       "path": "/media/builds/048/build-048-linkedin.mp4",
       "poster": "/media/builds/048/build-048-linkedin-poster.png",
       "width": 720,
@@ -1183,11 +1183,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER."
+      "finalProposition": "Judge policy through lived navigation."
     },
     {
       "id": "049",
-      "title": "What Works for You?",
+      "title": "A preference is not permanent",
       "path": "/media/builds/049/build-049-linkedin.mp4",
       "poster": "/media/builds/049/build-049-linkedin-poster.png",
       "width": 720,
@@ -1211,7 +1211,7 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES."
+      "finalProposition": "Personalization should remain revisable."
     },
     {
       "id": "050",
@@ -1239,7 +1239,7 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A model is useful when its assumptions, tradeoffs, and unknowns stay visible."
+      "finalProposition": "MAKE THE ASSUMPTIONS VISIBLE. Use the model to form questions for real evidence and affected people."
     },
     {
       "id": "051",
@@ -1267,7 +1267,7 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "Adapt the source path—not the personal answer."
+      "finalProposition": "KEEP THE SOURCE AND LIMIT TOGETHER. Every lesson should expose issuer, date, exact section and unresolved uncertainty."
     },
     {
       "id": "052",
@@ -1295,11 +1295,11 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A responsible comparison shows what the name does not establish."
+      "finalProposition": "LOOK BEYOND THE NAME. A responsible comparison begins by showing which evidence is still missing."
     },
     {
       "id": "053",
-      "title": "Run a Tiny Experiment on Your Own Environment",
+      "title": "Run a Tiny Experiment",
       "path": "/media/builds/053/build-053-linkedin.mp4",
       "poster": "/media/builds/053/build-053-linkedin-poster.png",
       "width": 720,
@@ -1323,7 +1323,7 @@
       "certificationStatus": "machine-verified candidate; six-scene midpoint review passed; full-playback, physical-device, and LinkedIn upload QA required",
       "generator": "recovered deterministic renderer (local source: media053/render.py; source not shipped in release tree)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE."
+      "finalProposition": "MAKE THE PROTOCOL VISIBLE: ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY."
     },
     {
       "id": "054",
@@ -1352,7 +1352,7 @@
       "generator": "media054/render.py (local recovery renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
       "sourceCommit": "0bb3655e7a3f21af498273f0b54d96b87b6c4356",
-      "finalProposition": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE."
+      "finalProposition": "KEEP THE PERSON IN CONTROL: CONSENT, OVERRIDE, FALLBACK, AND HUMAN REVIEW."
     },
     {
       "id": "055",
@@ -1380,11 +1380,11 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; canonical integration, full playback, physical-device, and LinkedIn upload QA required",
       "generator": "media055/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE."
+      "finalProposition": "MAKE EVERY ACTION REVERSIBLE, EXPLAINABLE, OVERRIDABLE, AND RECOVERABLE."
     },
     {
       "id": "056",
-      "title": "What Do You Actually Own That Others Cannot Easily Copy?",
+      "title": "What Do You Actually Own?",
       "path": "/media/builds/056/build-056-linkedin.mp4",
       "poster": "/media/builds/056/build-056-linkedin-poster.png",
       "width": 720,
@@ -1408,7 +1408,7 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media056/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER."
+      "finalProposition": "TEST WHAT SURVIVES REMOVAL. MAKE RIGHTS AND FAILURE PATHS LEGIBLE."
     },
     {
       "id": "057",
@@ -1436,7 +1436,7 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media057/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF."
+      "finalProposition": "MAKE EVERY VERSION, SOURCE, PERSON, TOOL, TRANSFORMATION, AND UNKNOWN TRACEABLE."
     },
     {
       "id": "058",
@@ -1464,11 +1464,11 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media058/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER."
+      "finalProposition": "MAKE THE EVIDENCE PATH VISIBLE. KEEP EVERY MATERIAL WORD TRACEABLE."
     },
     {
       "id": "059",
-      "title": "Is This Legal Citation Real, Current, and Saying What the AI Claims?",
+      "title": "Verify the Legal Citation",
       "path": "/media/builds/059/build-059-linkedin.mp4",
       "poster": "/media/builds/059/build-059-linkedin-poster.png",
       "width": 720,
@@ -1492,11 +1492,11 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media059/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT."
+      "finalProposition": "VERIFY BEFORE YOU RELY. KEEP AUTHORITY, LANGUAGE, PROPOSITION, AND TREATMENT DISTINCT."
     },
     {
       "id": "060",
-      "title": "Catch the IP You Create Before It Disappears Into the Workday",
+      "title": "Catch the IP Before It Disappears",
       "path": "/media/builds/060/build-060-linkedin.mp4",
       "poster": "/media/builds/060/build-060-linkedin-poster.png",
       "width": 720,
@@ -1520,7 +1520,7 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media060/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "THE WORKDAY BECOMES REVIEWABLE WHEN POTENTIAL ASSETS, CONTRIBUTORS, VERSIONS, DISCLOSURES, AGREEMENTS, AND UNCERTAINTY REACH THE RIGHT HUMAN PATH."
+      "finalProposition": "CAPTURE BEFORE YOU CONCLUDE. SEND UNCERTAINTY TO THE RIGHT HUMAN PATH."
     },
     {
       "id": "061",
@@ -1548,7 +1548,7 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media061/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT."
+      "finalProposition": "KEEP THEN AND NOW DISTINCT. MAKE THE ORIGINAL DECISION REVIEWABLE."
     },
     {
       "id": "062",
@@ -1576,7 +1576,7 @@
       "certificationStatus": "machine-verified local candidate; six-scene midpoint review passed; integration/full-playback/device/platform QA required",
       "generator": "media062/render.py (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT."
+      "finalProposition": "KEEP THE SOURCE ATTACHED. MAKE EVERY CONFLICT AND FOLLOW-UP REVIEWABLE."
     },
     {
       "id": "063",
@@ -1604,7 +1604,7 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build063-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "THE RESEARCH KEEPS MOVING WHEN QUESTIONS, SOURCES, CLAIMS, GAPS, METHODS, UPDATES, AND OUTPUTS REMAIN CONNECTED."
+      "finalProposition": "RESOLVE A GAP. KEEP THE RESEARCH USABLE."
     },
     {
       "id": "064",
@@ -1632,7 +1632,7 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build064-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "MAKE THE TRAIL SURVIVE TURNOVER."
+      "finalProposition": "CHANGE EXPLAINED. THE MEMORY SURVIVES TURNOVER."
     },
     {
       "id": "065",
@@ -1660,7 +1660,7 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build065-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "A fictional pathway model must show which rules are invented and which questions remain open."
+      "finalProposition": "KEEP STATE AND LIMIT TOGETHER. A pathway record is legible when each declared rule and unknown remains visible."
     },
     {
       "id": "066",
@@ -1688,11 +1688,11 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build066-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "ASSEMBLE THE MEMORY."
+      "finalProposition": "LEGAL MEMORY WORKS WHEN RELATIONSHIPS AND LIMITS STAY VISIBLE."
     },
     {
       "id": "067",
-      "title": "A Digital Twin Should Know What It Does Not Own",
+      "title": "A Digital Twin Begins With Gaps",
       "path": "/media/builds/067/build-067-linkedin.mp4",
       "poster": "/media/builds/067/build-067-linkedin-poster.png",
       "width": 720,
@@ -1716,7 +1716,7 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build067-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "UNKNOWN IS A VALID STATE."
+      "finalProposition": "A PERSONAL MODEL WORKS WHEN UNKNOWN REMAINS VISIBLE."
     },
     {
       "id": "068",
