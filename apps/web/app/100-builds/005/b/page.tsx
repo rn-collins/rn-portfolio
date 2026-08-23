@@ -1,4 +1,5 @@
-import type {Metadata} from 'next';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('005','b');
 import Link from 'next/link';
 import ServicePathSplit from './ServicePathSplit';
 import shell from '../../001/room.module.css';
