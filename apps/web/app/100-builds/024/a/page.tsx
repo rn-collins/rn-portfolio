@@ -1,3 +1,5 @@
-import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('024','a');\nimport type {Metadata} from 'next';import Link from 'next/link';import PrivacyMinimizationLab from './PrivacyMinimizationLab';import shell from '../../001/room.module.css';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('024','a');
+import type {Metadata} from 'next';import Link from 'next/link';import PrivacyMinimizationLab from './PrivacyMinimizationLab';import shell from '../../001/room.module.css';
 
 export default function Build024A(){return <main className={shell.toolRoom}><nav className={shell.crumb}><Link href="/100-builds/024">← Build 024</Link><span>024-A / Functional build</span></nav><header className={shell.toolLabel}><div><span>BUILD 024-A</span><h1>Privacy &amp; Data Minimization Engine</h1></div><p>Make every synthetic field earn collection, retention, derivation, and disclosure before it enters a system.</p></header><PrivacyMinimizationLab/></main>}
