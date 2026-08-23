@@ -12,11 +12,12 @@ export function buildVariantMetadata(id:string,variant:BuildVariant):Metadata{
  const title=`Build ${id}-${variant.toUpperCase()}: ${build.title} — ${kind}`;
  const description=artifact.summary??build.description;
  const canonical=`/100-builds/${id}/${variant}`;
+ const socialImage=`/media/builds/${id}/build-${id}-linkedin-poster.png`;
  return {
   title,
   description,
   alternates:{canonical},
-  openGraph:{title,description,type:'website',url:canonical,images:[{url:'/og-image.png',width:1200,height:630,alt:title}]},
-  twitter:{card:'summary_large_image',title,description,images:['/og-image.png']}
+  openGraph:{title,description,type:'website',url:canonical,images:[{url:socialImage,width:720,height:900,alt:`Build ${id}: ${build.title} — visual story poster`}]},
+  twitter:{card:'summary_large_image',title,description,images:[socialImage]}
  };
 }
