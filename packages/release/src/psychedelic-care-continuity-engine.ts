@@ -16,14 +16,14 @@ type CareRecord = {
     subject: 'POST-SESSION CONTINUITY SUMMARY';
     sendingRole: 'SYNTHETIC-SESSION-TEAM';
     receivingRole: 'SYNTHETIC-FOLLOWUP-TEAM';
-    retainedResponsibility: 'FICTIONAL RULE: SENDER REMAINS MODELED OWNER UNTIL ACCEPTANCE';
+    retainedResponsibility: 'FICTIONAL RULE: FIXTURE KEEPS SENDER FIELD OPEN UNTIL RECORDED ACCEPTANCE';
     evidencePackage: readonly ['SUMMARY-065-01', 'PERMISSION-065-01', 'FOLLOWUP-065-01'];
     permissionBasis: 'PERMISSION-065-01';
     acceptanceTest: 'RECEIVER ACKNOWLEDGES SUBJECT OWNER DUE DATE AND EXCEPTION ROUTE';
     deadline: '2049-01-20';
     incidentDuty: 'USE DECLARED EMERGENCY ROUTE; THIS FIXTURE DOES NOT MONITOR OR RESPOND';
     recordLocator: 'synthetic://065/handoff-01';
-    recoursePath: 'SYNTHETIC-CONTINUITY-SUPERVISOR';
+    recoursePath: 'SYNTHETIC-REVIEW-ROUTE';
     state: 'ACCEPTED' | 'UNACCEPTED';
     acceptedAt: '2049-01-19' | null;
   };
@@ -42,18 +42,18 @@ type CareRecord = {
   followup: {
     followupId: 'FOLLOWUP-065-01';
     kind: 'SYNTHETIC CHECK-IN';
-    owner: 'SYNTHETIC-FOLLOWUP-ROLE';
+    owner: 'SYNTHETIC-FOLLOW-THROUGH-ROLE';
     dueAt: '2049-01-20';
     state: 'COMPLETED' | 'OVERDUE';
     completedAt: '2049-01-20' | null;
     completionEvidence: 'synthetic://065/followup-01' | null;
-    escalationOwner: 'SYNTHETIC-CONTINUITY-SUPERVISOR';
+    escalationOwner: 'SYNTHETIC-REVIEW-ROUTE';
   };
   safetyBoundary: {
     signal: 'NONE' | 'SYNTHETIC-CRISIS-SIGNAL';
     monitoring: 'NOT PROVIDED';
     emergencyResponse: 'NOT PROVIDED';
-    route: 'CONTACT LOCAL EMERGENCY SERVICES OR AN APPROPRIATE CRISIS SERVICE NOW';
+    route: 'USE LOCALLY APPLICABLE EMERGENCY OR CRISIS RESOURCES; THIS FIXTURE CANNOT IDENTIFY OR CONTACT THEM';
     platformInstruction: 'DO NOT RELY ON THIS FIXTURE FOR URGENT OR EMERGENCY HELP';
   };
   change: {
@@ -101,11 +101,11 @@ export type CareContinuityInput = {
 
 export type CareContinuityResult = {
   status:
-    | 'CONTINUITY CURRENT'
-    | 'HANDOFF REVIEW'
-    | 'PERMISSION HOLD'
-    | 'FOLLOWUP ESCALATION'
-    | 'EMERGENCY ROUTE REQUIRED'
+    | 'FIXTURE PATH RECORDED'
+    | 'MODELED ACCEPTANCE OPEN'
+    | 'DECLARED PERMISSION WITHDRAWN'
+    | 'MODELED FOLLOW-THROUGH OPEN'
+    | 'OUTSIDE-SCOPE SIGNAL'
     | 'INVALID';
   episode: readonly string[];
   boundaries: readonly string[];
@@ -151,14 +151,14 @@ const base: CareRecord = {
     subject: 'POST-SESSION CONTINUITY SUMMARY',
     sendingRole: 'SYNTHETIC-SESSION-TEAM',
     receivingRole: 'SYNTHETIC-FOLLOWUP-TEAM',
-    retainedResponsibility: 'FICTIONAL RULE: SENDER REMAINS MODELED OWNER UNTIL ACCEPTANCE',
+    retainedResponsibility: 'FICTIONAL RULE: FIXTURE KEEPS SENDER FIELD OPEN UNTIL RECORDED ACCEPTANCE',
     evidencePackage: ['SUMMARY-065-01', 'PERMISSION-065-01', 'FOLLOWUP-065-01'],
     permissionBasis: 'PERMISSION-065-01',
     acceptanceTest: 'RECEIVER ACKNOWLEDGES SUBJECT OWNER DUE DATE AND EXCEPTION ROUTE',
     deadline: '2049-01-20',
     incidentDuty: 'USE DECLARED EMERGENCY ROUTE; THIS FIXTURE DOES NOT MONITOR OR RESPOND',
     recordLocator: 'synthetic://065/handoff-01',
-    recoursePath: 'SYNTHETIC-CONTINUITY-SUPERVISOR',
+    recoursePath: 'SYNTHETIC-REVIEW-ROUTE',
     state: 'ACCEPTED',
     acceptedAt: '2049-01-19',
   },
@@ -177,18 +177,18 @@ const base: CareRecord = {
   followup: {
     followupId: 'FOLLOWUP-065-01',
     kind: 'SYNTHETIC CHECK-IN',
-    owner: 'SYNTHETIC-FOLLOWUP-ROLE',
+    owner: 'SYNTHETIC-FOLLOW-THROUGH-ROLE',
     dueAt: '2049-01-20',
     state: 'COMPLETED',
     completedAt: '2049-01-20',
     completionEvidence: 'synthetic://065/followup-01',
-    escalationOwner: 'SYNTHETIC-CONTINUITY-SUPERVISOR',
+    escalationOwner: 'SYNTHETIC-REVIEW-ROUTE',
   },
   safetyBoundary: {
     signal: 'NONE',
     monitoring: 'NOT PROVIDED',
     emergencyResponse: 'NOT PROVIDED',
-    route: 'CONTACT LOCAL EMERGENCY SERVICES OR AN APPROPRIATE CRISIS SERVICE NOW',
+    route: 'USE LOCALLY APPLICABLE EMERGENCY OR CRISIS RESOURCES; THIS FIXTURE CANNOT IDENTIFY OR CONTACT THEM',
     platformInstruction: 'DO NOT RELY ON THIS FIXTURE FOR URGENT OR EMERGENCY HELP',
   },
   change: { changeId: 'CHANGE-065-01', changedObject: 'NONE', state: 'NONE', affected: [] },
@@ -251,10 +251,10 @@ function evaluate(candidate: unknown): CareContinuityResult {
   if (!exact(object, input)) return invalid();
   const r = input.record;
   const status: CareContinuityResult['status'] =
-    r.safetyBoundary.signal === 'SYNTHETIC-CRISIS-SIGNAL' ? 'EMERGENCY ROUTE REQUIRED' :
-    r.permission.state === 'WITHDRAWN' ? 'PERMISSION HOLD' :
-    r.careBoundary.state === 'UNACCEPTED' ? 'HANDOFF REVIEW' :
-    r.followup.state === 'OVERDUE' ? 'FOLLOWUP ESCALATION' : 'CONTINUITY CURRENT';
+    r.safetyBoundary.signal === 'SYNTHETIC-CRISIS-SIGNAL' ? 'OUTSIDE-SCOPE SIGNAL' :
+    r.permission.state === 'WITHDRAWN' ? 'DECLARED PERMISSION WITHDRAWN' :
+    r.careBoundary.state === 'UNACCEPTED' ? 'MODELED ACCEPTANCE OPEN' :
+    r.followup.state === 'OVERDUE' ? 'MODELED FOLLOW-THROUGH OPEN' : 'FIXTURE PATH RECORDED';
   return {
     status,
     episode: [r.episodeId + ' · ' + r.stage + ' · SESSION ' + r.sessionOccurredAt],
@@ -262,7 +262,7 @@ function evaluate(candidate: unknown): CareContinuityResult {
     handoffs: [r.careBoundary.handoffId + ' · ' + r.careBoundary.state + ' · ' + r.careBoundary.sendingRole + ' → ' + r.careBoundary.receivingRole],
     permissions: [r.permission.permissionId + ' · ' + r.permission.state + ' · VALIDITY ' + r.permission.validity, 'PURPOSE · ' + r.permission.purpose],
     followups: [r.followup.followupId + ' · ' + r.followup.state + ' · DUE ' + r.followup.dueAt],
-    accountability: ['FOLLOWUP OWNER · ' + r.followup.owner, 'ESCALATION OWNER · ' + r.followup.escalationOwner, 'RECOURSE · ' + r.careBoundary.recoursePath],
+    accountability: ['MODELED FOLLOW-THROUGH FIELD · ' + r.followup.owner, 'MODELED EXCEPTION-REVIEW FIELD · ' + r.followup.escalationOwner, 'MODELED REVIEW ROUTE · ' + r.careBoundary.recoursePath],
     safety: [r.safetyBoundary.signal, r.safetyBoundary.monitoring, r.safetyBoundary.emergencyResponse, r.safetyBoundary.route, r.safetyBoundary.platformInstruction],
     changes: [r.change.changeId + ' · ' + r.change.state + ' · ' + r.change.changedObject, ...r.change.affected.map(x => 'REGISTERED POTENTIALLY AFFECTED · ' + x)],
     portability: [r.portability.packageId + ' · ' + r.portability.schemaVersion + ' · ' + r.portability.replay],
@@ -276,7 +276,7 @@ function evaluate(candidate: unknown): CareContinuityResult {
     nonClaims: [
       'CURRENT MEANS INTERNALLY CURRENT FOR THIS FIXED FICTIONAL FIXTURE ONLY; IT IS NOT A CARE OR SAFETY STATUS',
       'THIS FIXTURE DOES NOT MONITOR A PERSON PROVIDE CARE OR RESPOND TO URGENT OR EMERGENCY CONDITIONS',
-      'FOR URGENT OR EMERGENCY HELP CONTACT LOCAL EMERGENCY SERVICES OR AN APPROPRIATE CRISIS SERVICE NOW',
+      'USE LOCALLY APPLICABLE EMERGENCY OR CRISIS RESOURCES; THIS FIXTURE CANNOT IDENTIFY OR CONTACT THEM',
       'A RECORDED SAFETY SIGNAL IS NOT A DIAGNOSIS RISK ASSESSMENT TRIAGE DECISION OR PROOF OF AN EMERGENCY',
       'A PERMISSION STATE IS NOT PROOF OF INFORMED CONSENT CAPACITY IDENTITY AUTHORIZATION OR LEGAL VALIDITY',
       'WITHDRAWAL DOES NOT ERASE HISTORICAL FACTS OR DETERMINE RETENTION DUTIES EXCEPTIONS OR ANOTHER LAWFUL BASIS',
