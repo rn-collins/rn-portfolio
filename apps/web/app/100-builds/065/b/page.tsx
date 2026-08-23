@@ -1,6 +1,3 @@
 import {buildVariantMetadata} from '../../_metadata';
 export const metadata=buildVariantMetadata('065','b');
-import ContinuityStory from'./ContinuityStory';
-import s from'../continuity.module.css';
-
-export default function Page(){return <main className={s.page} data-build="065" data-variant="B"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>065-B</span></nav><p className={s.kicker}>A SESSION IS AN EVENT. CARE IS A PATHWAY.</p><h1>The care does not end when the session does.</h1><ContinuityStory/></main>}
+import ContinuityStory from'./ContinuityStory';import s from'../continuity.module.css';export default function Page(){return <main className={s.page} data-build="065" data-variant="B"><nav aria-label="Build navigation"><a href="/100-builds">100 BUILDS</a><span>065-B</span></nav><p className={s.kicker}>FICTIONAL PATHWAY · DECLARED RECORD STATES</p><h1>An Event Is Not the Whole Fictional Pathway</h1><p className={s.lede}>Advance declared fixture states without asserting what real care, consent, safety, continuity or responsibility requires.</p><ContinuityStory/></main>}
