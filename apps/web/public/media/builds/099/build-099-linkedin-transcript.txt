@@ -1,8 +1,8 @@
-BUILD 099-B — Build an island resilience commons
+BUILD 099-B — A fictional archipelago data commons
 
-1. Build an island resilience commons. Share resilience knowledge with provenance and community governance.
-2. Map capacity, assets and dependency.
-3. Preserve community ownership.
-4. Carry provenance with every record.
-5. Govern access before sharing.
-6. Shared data should strengthen sovereignty.
+1. A fictional archipelago data commons. Share resilience knowledge with provenance and community governance.
+2. Every place, steward, and dataset is invented.
+3. Model capacity, dependency, and asset metadata.
+4. Preserve asserted provenance and permissions.
+5. CARE is context—not community authorization.
+6. No real island, community, or sovereignty claim.

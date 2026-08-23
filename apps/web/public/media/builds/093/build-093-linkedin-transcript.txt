@@ -1,8 +1,8 @@
-BUILD 093-B — Compliance happens in motion
+BUILD 093-B — A fictional regulated-workflow rehearsal
 
-1. Compliance happens in motion. Execute regulated work through valid, evidenced states.
-2. Attach rules to every state.
-3. Require evidence before transition.
-4. Route approvals and deadlines.
-5. Refuse invalid handoffs.
-6. Let the rules travel with the work.
+1. A fictional regulated-workflow rehearsal. Execute regulated work through valid, evidenced states.
+2. Attach an invented rule to each modeled state.
+3. Require fixture evidence before transition.
+4. Simulate approvals and deadlines.
+5. Refuse invalid synthetic handoffs.
+6. Not compliance, legal, or regulatory proof.
