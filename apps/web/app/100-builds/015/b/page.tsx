@@ -1,3 +1,3 @@
-import type {Metadata} from 'next';import Link from 'next/link';import ProductAssembly from './ProductAssembly';import shell from '../../001/room.module.css';
-export const metadata:Metadata={title:'Build 015-B — From Matter Work to Reusable System',description:'Repeated files assemble into a governed product architecture.',alternates:{canonical:'/100-builds/015/b'}};
+import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('015','b');\nimport type {Metadata} from 'next';import Link from 'next/link';import ProductAssembly from './ProductAssembly';import shell from '../../001/room.module.css';
+
 export default function Build015B(){return <main className={shell.toolRoom}><nav className={shell.crumb}><Link href="/100-builds/015">← Build 015</Link><span>015-B / Web expression</span></nav><header className={shell.toolLabel}><div><span>BUILD 015-B</span><h1>From Matter Work to Reusable System</h1></div><p>Repeated files do not automatically become a product. Strip out client facts and conclusions; retain only reusable structure, evidence rules, controls, and review gates.</p></header><ProductAssembly/></main>}
