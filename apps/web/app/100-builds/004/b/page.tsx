@@ -1,4 +1,6 @@
-import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('004','b');\nimport type {Metadata} from 'next';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('004','b');
+import type {Metadata} from 'next';
 import Link from 'next/link';
 import IntelligenceChainStory from './IntelligenceChainStory';
 import s from './manual-intelligence-story.module.css';
