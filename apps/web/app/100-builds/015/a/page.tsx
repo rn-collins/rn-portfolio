@@ -1,3 +1,5 @@
-import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('015','a');\nimport type {Metadata} from 'next';import Link from 'next/link';import LegalProductLab from './LegalProductLab';import shell from '../../001/room.module.css';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('015','a');
+import type {Metadata} from 'next';import Link from 'next/link';import LegalProductLab from './LegalProductLab';import shell from '../../001/room.module.css';
 
 export default function Build015A(){return <main className={shell.toolRoom}><nav className={shell.crumb}><Link href="/100-builds/015">← Build 015</Link><span>015-A / Functional build</span></nav><header className={shell.toolLabel}><div><span>BUILD 015-A</span><h1>Repeated Legal Task → Product Engine</h1></div><p>Separate reusable structure from matter-specific facts, confidentiality, professional judgment, approval, and client authority before turning repeated work into a product.</p></header><LegalProductLab/></main>}
