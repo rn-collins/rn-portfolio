@@ -1,1 +1,3 @@
-import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('021','b');\nimport type {Metadata} from 'next';import Link from 'next/link';import ClaimXRay from './ClaimXRay';import shell from '../../001/room.module.css';export default function Build021B(){return <main className={shell.visualRoom}><nav className={shell.crumb}><Link href="/100-builds/021">← Build 021</Link><span>021-B / Interactive visual build</span></nav><ClaimXRay/></main>}
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('021','b');
+import type {Metadata} from 'next';import Link from 'next/link';import ClaimXRay from './ClaimXRay';import shell from '../../001/room.module.css';export default function Build021B(){return <main className={shell.visualRoom}><nav className={shell.crumb}><Link href="/100-builds/021">← Build 021</Link><span>021-B / Interactive visual build</span></nav><ClaimXRay/></main>}
