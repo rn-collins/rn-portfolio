@@ -1,8 +1,8 @@
-BUILD 098-B — Care continues between big moments
+BUILD 098-B — A fictional administrative handoff rehearsal
 
-1. Care continues between big moments. Connect preparation, care, integration, referral and follow-up.
-2. Prepare with informed consent.
-3. Coordinate care and education.
-4. Protect boundaries across referrals.
-5. Support integration and follow-up.
-6. Continuity is part of safety.
+1. A fictional administrative handoff rehearsal. Connect preparation, care, integration, referral and follow-up.
+2. Track synthetic consent purpose and scope.
+3. Care stages appear as records only.
+4. Referrals are modeled; none are placed.
+5. Follow-up ownership is an administrative signal.
+6. No clinical care, safety, or continuity outcome.

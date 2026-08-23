@@ -1971,24 +1971,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/071/build-071-linkedin.mp4",
-        "bytes": 109912,
-        "sha256": "843e40606e427577e1ed44643f1dceaddc64e564b924e55304b359560d6e13fd"
+        "bytes": 128032,
+        "sha256": "8375ea47f6cdb29b95e9b260e5c74c863fc396ab12a3b6aa9a9ab9f380981d79"
       },
       "poster": {
         "path": "/media/builds/071/build-071-linkedin-poster.png",
-        "bytes": 27475,
-        "sha256": "8ca37dd83700049a25000fa676815bd01733ea94e1f41370d5e293eb04a437d0"
+        "bytes": 26935,
+        "sha256": "7a7a917029cefc22a4da96b795fc0f31f3b327d91972c124eab3452bc5149c4e"
       },
       "captions": {
         "path": "/media/builds/071/build-071-linkedin-captions.vtt",
-        "bytes": 611,
-        "sha256": "5aad14150dd9ef7023988e014c13e61915e7d3a01339bc8c0fd8b7569d00e141",
+        "bytes": 564,
+        "sha256": "7cab7c2cf4241e6299fb98fbc1d2542be44b67dc95d6f917f4d6d24edbf65f0d",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/071/build-071-linkedin-transcript.txt",
-        "bytes": 722,
-        "sha256": "477ecbad859099971163b080226ce892b9e94c4c17b2f82142d6b0204296b463",
+        "bytes": 644,
+        "sha256": "60abbea9dcbdc9b05d8830148944ed550e61e7f24112de883e11f111b3972929",
         "scenes": 6
       }
     },
@@ -1999,24 +1999,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/072/build-072-linkedin.mp4",
-        "bytes": 365942,
-        "sha256": "9c3b99a8bd27a1c592e5c0bd14846faf97b7c45a6fadfdc4f22903c74a8edef5"
+        "bytes": 1443268,
+        "sha256": "fa206f1ca00ba1880bef2790c5d05fe215931edc267329e1a66895af018947a0"
       },
       "poster": {
         "path": "/media/builds/072/build-072-linkedin-poster.png",
-        "bytes": 32663,
-        "sha256": "fd6ac1433b35ebecd6559428e5d9dde026d15e3c577a974dc773c4b66cc3bfc3"
+        "bytes": 35911,
+        "sha256": "a251cbff08f0aa0a815552bfbe2e7f31638184a931334b94b3b8761c4a4f51f9"
       },
       "captions": {
         "path": "/media/builds/072/build-072-linkedin-captions.vtt",
-        "bytes": 669,
-        "sha256": "72c3b1f553796c32f89acc5e80dd01fd88215dfdea57ce90f107d178bed48096",
+        "bytes": 766,
+        "sha256": "34f2c18b2cc75097196ad9efb11b4db826e95336c29e0b921daa1e802cf2a78c",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/072/build-072-linkedin-transcript.txt",
-        "bytes": 612,
-        "sha256": "e8c2c49afecf2ec2ff74a30f495e56bf137122dfa3055bfe79c81118a63d9391",
+        "bytes": 716,
+        "sha256": "afdf5d68010586b0167611c1dee08eff72ea68783512ccd6930c5a404c213714",
         "scenes": 6
       }
     },
@@ -2251,24 +2251,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/081/build-081-linkedin.mp4",
-        "bytes": 374112,
-        "sha256": "0dea571dbe1722dfbe057c75e9985ec22808af43e00b35cf93d92db8bbfb8b10"
+        "bytes": 1336325,
+        "sha256": "17740475659b2f840e0eb80f504ca8936937102abd78224ae09e5be18b9f5613"
       },
       "poster": {
         "path": "/media/builds/081/build-081-linkedin-poster.png",
-        "bytes": 27911,
-        "sha256": "3b925643a864c047c62b6ccc03f9b6190c829285aea64ccbdf8caaf8434b435c"
+        "bytes": 33101,
+        "sha256": "14c85371831b686210ac07e934acb2e44256094e76a3b2316e4cca9eaef9074f"
       },
       "captions": {
         "path": "/media/builds/081/build-081-linkedin-captions.vtt",
-        "bytes": 597,
-        "sha256": "5d3353fa4d9d8791d8a67b5035f4db2de0373f0bbf6bee7784622d046827e920",
+        "bytes": 705,
+        "sha256": "af42622f962dc1ff9a18030b504cc469f760d346fdee884ab6e9879cb4c3d337",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/081/build-081-linkedin-transcript.txt",
-        "bytes": 554,
-        "sha256": "41e8386c4a74c1cfd1f37b1a6796c6aa8d0981a9a6be2a05f3a28befbda48563",
+        "bytes": 657,
+        "sha256": "affe9830328658638dd8cac5ff5772f5d035a44494cbc3ea9c9251eae4593ec9",
         "scenes": 6
       }
     },
@@ -2559,24 +2559,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/092/build-092-linkedin.mp4",
-        "bytes": 116612,
-        "sha256": "639c4e5c2dbf4fb7bc01a2d50e5f597bfbce7edda76f2619544e5843ff7e6df9"
+        "bytes": 169803,
+        "sha256": "d8e6190e5e4cb4197a5864d01dac944fdac332edebf2a579544cff9ad56d1ef4"
       },
       "poster": {
         "path": "/media/builds/092/build-092-linkedin-poster.png",
-        "bytes": 67101,
-        "sha256": "9c313df5154e76b5e24f41fbcc7f0b371fa7bbd61a86fec9892dbc2dcec5e27e"
+        "bytes": 66240,
+        "sha256": "a2196b9af60996c061182dd6330ce3096f297ccb8597f44fa655223617c20019"
       },
       "captions": {
         "path": "/media/builds/092/build-092-linkedin-captions.vtt",
-        "bytes": 471,
-        "sha256": "e4e68a788cf68e3867e33f65aef21cdf6456de9ab2d5b83f9111478d6141800b",
+        "bytes": 509,
+        "sha256": "8fd83b4f68c3c718eb51bff977df897d37a832851ec419410d5cc79f06f83599",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/092/build-092-linkedin-transcript.txt",
-        "bytes": 334,
-        "sha256": "65fa08825234d8450293bbd9f309fce6d3388de1ee49e5f58befe1b2513150e0",
+        "bytes": 368,
+        "sha256": "c52bb8b98284a5b3f00d52279e595c053bbc56492c9c38f911313ceea82329ce",
         "scenes": 6
       }
     },
@@ -2587,24 +2587,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/093/build-093-linkedin.mp4",
-        "bytes": 132319,
-        "sha256": "26eae74d8be8babc2b66c7d11983f9f062ac890f024e793bcfde6c545c29e39e"
+        "bytes": 185106,
+        "sha256": "c71f6add851cbf8521aa37bfa82d8e9055d9ad2c210e7087fd306ccb85a96375"
       },
       "poster": {
         "path": "/media/builds/093/build-093-linkedin-poster.png",
-        "bytes": 64940,
-        "sha256": "e2728f193cd4ed8729f026310d54a5044168a7e8267b04def9c046ba9e5ea926"
+        "bytes": 74861,
+        "sha256": "09381aa8571e048089d1693ec0308dbd246c4568c6af9aaa4d0402e8f0e1f56e"
       },
       "captions": {
         "path": "/media/builds/093/build-093-linkedin-captions.vtt",
-        "bytes": 448,
-        "sha256": "7a31878fbd5d36538920d083c667b365105d510557bc1371c14d3d49ac4f83dc",
+        "bytes": 507,
+        "sha256": "cde7c8e80a46a3cb5b7cc50f87e1f5ecaa9a4df975795741e2084e9c52ff50a2",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/093/build-093-linkedin-transcript.txt",
-        "bytes": 307,
-        "sha256": "f410836af23c42ebe29d6481d6354c65664b956783ed1d65f2a1c3bcf808299d",
+        "bytes": 378,
+        "sha256": "842db4ce3f72c7ee29f85dbdb5efe214b47eae25831527a20218d59737fb802f",
         "scenes": 6
       }
     },
@@ -2615,24 +2615,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/094/build-094-linkedin.mp4",
-        "bytes": 103707,
-        "sha256": "c8371e6b816f3b617bf1cc510011194569e9420f8566683164dc45d02d029a0c"
+        "bytes": 146361,
+        "sha256": "2ba01f7e29e2e4965f4cdd19e23ba67eeeee26b43e94ef07c5cf917cad2cc081"
       },
       "poster": {
         "path": "/media/builds/094/build-094-linkedin-poster.png",
-        "bytes": 67893,
-        "sha256": "f869b9f21d16ed16bf6d3a20622234925dffacfaa7d81675c8b04043e111c6f6"
+        "bytes": 64831,
+        "sha256": "d3245911e159dc77ac800b086a408eeaedcc1438ac8d025b779766728069a90a"
       },
       "captions": {
         "path": "/media/builds/094/build-094-linkedin-captions.vtt",
-        "bytes": 458,
-        "sha256": "f7099200db4e1353f48610b4cdbf63d11965004521d4105264dd89113572d3b1",
+        "bytes": 510,
+        "sha256": "8543d0a987e0eaed130b102920bcfbc1b4983e9dd5b63b4159ad78893f344130",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/094/build-094-linkedin-transcript.txt",
-        "bytes": 321,
-        "sha256": "2450c656b1cd515fc6e37cad740c5bea179a0364ae0a2ce4f4bf30c384ff5c93",
+        "bytes": 375,
+        "sha256": "8ee450eadfbc567dad1b20279ff1c7a24168848c0749522f7833be7d81ef7ecb",
         "scenes": 6
       }
     },
@@ -2643,24 +2643,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/095/build-095-linkedin.mp4",
-        "bytes": 112667,
-        "sha256": "a8ecfccb3a7638c08bddda33a41b36d6c607b2fb47a210848e7422261b63032c"
+        "bytes": 154361,
+        "sha256": "39da9aeb444d6122db15ab26f727d8fab1491400248ddc1cf95eafd0203c7573"
       },
       "poster": {
         "path": "/media/builds/095/build-095-linkedin-poster.png",
-        "bytes": 65192,
-        "sha256": "66626be630b10fb8a77814fc1c67d0fb7590a660c0b3cb496b745c209b53db52"
+        "bytes": 74644,
+        "sha256": "a2e7bf97bd1c60a29febd90211ec7f86f55be3c9b97031f60e74136cc316961e"
       },
       "captions": {
         "path": "/media/builds/095/build-095-linkedin-captions.vtt",
-        "bytes": 486,
-        "sha256": "3cb198a936e4f72d59e11f6a0f578f6c299409d6a730f88f918334f54c85c99b",
+        "bytes": 567,
+        "sha256": "b3543fcd05bebd221b587e9ce1891893c0d5aa0c1fa93c0251ffbdc644f33ece",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/095/build-095-linkedin-transcript.txt",
-        "bytes": 344,
-        "sha256": "50fce9dbb7d70634f972aa37f42dff1558388cc73ae9223d63b2594534d59bcb",
+        "bytes": 440,
+        "sha256": "eca93bda5fcfd17bd1e04bfa24f5a59ebf7a5858c089d6703cf949ccc9992bbc",
         "scenes": 6
       }
     },
@@ -2727,24 +2727,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/098/build-098-linkedin.mp4",
-        "bytes": 118730,
-        "sha256": "00453727d55fdcc6813f9b676cb6253008ea3308b1d45ff048b3d588157a0eba"
+        "bytes": 175281,
+        "sha256": "92d127317767c732c4eaf830d0d25380254224c28fe13e025fd65966ad4d9c35"
       },
       "poster": {
         "path": "/media/builds/098/build-098-linkedin-poster.png",
-        "bytes": 73662,
-        "sha256": "d04ec89e36d755eb60ec722e338d5907e485eddd95befa4e60c70e8066273589"
+        "bytes": 75183,
+        "sha256": "a49d66a9a8f918ce8c3027dedd8fca2ef4380334b93c13d9fa636a5b028518d1"
       },
       "captions": {
         "path": "/media/builds/098/build-098-linkedin-captions.vtt",
-        "bytes": 469,
-        "sha256": "c844511113728f98e1766c567b55e86eb4a19f0c3ab182decbb32a6c8be2b887",
+        "bytes": 532,
+        "sha256": "e1e087297dd2f80dfa06f6c28798ec86739e3d5cde73fab2bc8a2dc7e941fd54",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/098/build-098-linkedin-transcript.txt",
-        "bytes": 334,
-        "sha256": "986e2349c1da39b93abc95e7c2a98cec690d960a4586794e19bcdaadcd8cca3b",
+        "bytes": 407,
+        "sha256": "41dca0e2516f785aa1a855aa29f39f0389f157c66d5c60b1970f92487040436d",
         "scenes": 6
       }
     },
@@ -2755,24 +2755,24 @@
       "height": 900,
       "video": {
         "path": "/media/builds/099/build-099-linkedin.mp4",
-        "bytes": 125034,
-        "sha256": "aeca0ff8292d868794b83d7fa9fbca71c9d92c20bf7e00f599b3cbed6f58afa9"
+        "bytes": 194793,
+        "sha256": "e4e793f12ef85e0e7f8a40f73bef604bbc63c5ed1dd035e9fb8c4d3a8a4af8e5"
       },
       "poster": {
         "path": "/media/builds/099/build-099-linkedin-poster.png",
-        "bytes": 71623,
-        "sha256": "875ee99f8084fa46fbce779cb4aaab8569cf5470ff8552f5ab1f0a876429607e"
+        "bytes": 76844,
+        "sha256": "31aa1fac2da9843b9e199edb204a22300c55b073d59e3af16b0818757548c640"
       },
       "captions": {
         "path": "/media/builds/099/build-099-linkedin-captions.vtt",
-        "bytes": 486,
-        "sha256": "4c415fee9384cf87c59d7bdcb21bf7621a1c07772cf5c9aabe12abd8d5d83039",
+        "bytes": 549,
+        "sha256": "5be41cb87486dc169fd848ec44958c35039d252609cddce5183502234afd38b2",
         "cues": 6
       },
       "transcript": {
         "path": "/media/builds/099/build-099-linkedin-transcript.txt",
-        "bytes": 351,
-        "sha256": "798b0c08bf47317de105150db37913504ab348687ee4ff62e146469e04e5aad8",
+        "bytes": 416,
+        "sha256": "1e316d2c8393cfa5ff6a70dfa3ece4c62c24e2f01b0ccfb190796c3b97e8ba24",
         "scenes": 6
       }
     },

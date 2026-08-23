@@ -1804,7 +1804,7 @@
     },
     {
       "id": "071",
-      "title": "“Legal” Does Not Mean Accessible",
+      "title": "Fictional Medical-Cannabis Access Gates",
       "path": "/media/builds/071/build-071-linkedin.mp4",
       "poster": "/media/builds/071/build-071-linkedin-poster.png",
       "width": 720,
@@ -1828,11 +1828,11 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build071-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "TRACK THE DISTANCE BETWEEN LEGAL AND REACHABLE."
+      "finalProposition": "RN synthesis. No real program, person, or outcome."
     },
     {
       "id": "072",
-      "title": "One Statewide Policy, Many Island Realities",
+      "title": "Fictional Island Access Comparison",
       "path": "/media/builds/072/build-072-linkedin.mp4",
       "poster": "/media/builds/072/build-072-linkedin-poster.png",
       "width": 720,
@@ -1856,7 +1856,7 @@
       "certificationStatus": "machine-verified local candidate; contact-sheet review passed; integration/full-playback/device/platform QA required",
       "generator": "build072-media/generate.sh (actual local renderer; not repository canonical)",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "PRESERVE LOCAL DIFFERENCE."
+      "finalProposition": "Use the model to ask questions—not answer them about a community."
     },
     {
       "id": "073",
@@ -2082,7 +2082,7 @@
     },
     {
       "id": "081",
-      "title": "Listening for the Missing System",
+      "title": "What Might People Be Struggling With?",
       "path": "/media/builds/081/build-081-linkedin.mp4",
       "poster": "/media/builds/081/build-081-linkedin-poster.png",
       "captions": "/media/builds/081/build-081-linkedin-captions.vtt",
@@ -2105,7 +2105,7 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "LISTEN FOR THE MISSING SYSTEM."
+      "finalProposition": "Validate before product or policy action."
     },
     {
       "id": "082",
@@ -2379,7 +2379,7 @@
     },
     {
       "id": "092",
-      "title": "Make the Work Move Across People, AI and Software",
+      "title": "Rehearse Work Across People, AI and Software",
       "path": "/media/builds/092/build-092-linkedin.mp4",
       "poster": "/media/builds/092/build-092-linkedin-poster.png",
       "captions": "/media/builds/092/build-092-linkedin-captions.vtt",
@@ -2402,11 +2402,11 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "ORCHESTRATE EVENTS, PEOPLE, TOOLS, AGENTS, APPROVALS AND EXCEPTIONS ACROSS A REAL WORKFLOW."
+      "finalProposition": "No live system, delivery, or external effect."
     },
     {
       "id": "093",
-      "title": "Run a Regulated Workflow Without Losing the Rules",
+      "title": "Fictional Regulated-Workflow Rehearsal",
       "path": "/media/builds/093/build-093-linkedin.mp4",
       "poster": "/media/builds/093/build-093-linkedin-poster.png",
       "captions": "/media/builds/093/build-093-linkedin-captions.vtt",
@@ -2429,11 +2429,11 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "EXECUTE REGULATED WORK THROUGH VALID STATES, APPROVALS, EVIDENCE, DEADLINES AND HANDOFFS."
+      "finalProposition": "Not compliance, legal, or regulatory proof."
     },
     {
       "id": "094",
-      "title": "Can You Prove How This Work Was Done?",
+      "title": "Inspect a Fictional Evidence Chain",
       "path": "/media/builds/094/build-094-linkedin.mp4",
       "poster": "/media/builds/094/build-094-linkedin-poster.png",
       "captions": "/media/builds/094/build-094-linkedin-captions.vtt",
@@ -2456,11 +2456,11 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "RECONSTRUCT THE RULE, EVIDENCE, CONSENT, APPROVALS, ACTION AND VERSION BEHIND REGULATED WORK."
+      "finalProposition": "Not an audit, proof, or compliance certification."
     },
     {
       "id": "095",
-      "title": "What Does Governance Do to a Human Body?",
+      "title": "Institutional Conditions Observatory",
       "path": "/media/builds/095/build-095-linkedin.mp4",
       "poster": "/media/builds/095/build-095-linkedin-poster.png",
       "captions": "/media/builds/095/build-095-linkedin-captions.vtt",
@@ -2483,7 +2483,7 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "EXAMINE INSTITUTIONAL CONDITIONS FOR STRESS, ATTENTION, DIGNITY, SENSORY LOAD, CONTROL AND PARTICIPATION WITHOUT OVERSTATING NEUROSCIENCE."
+      "finalProposition": "RN synthesis—not a universal body or brain effect."
     },
     {
       "id": "096",
@@ -2541,7 +2541,7 @@
     },
     {
       "id": "098",
-      "title": "Can Care Continue Across Consent Boundaries?",
+      "title": "Psychedelic Administrative Handoff Rehearsal",
       "path": "/media/builds/098/build-098-linkedin.mp4",
       "poster": "/media/builds/098/build-098-linkedin-poster.png",
       "captions": "/media/builds/098/build-098-linkedin-captions.vtt",
@@ -2564,11 +2564,11 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "COORDINATE EDUCATION, PREPARATION, CARE, INTEGRATION, REFERRALS AND FOLLOW-UP ACROSS CONSENT BOUNDARIES."
+      "finalProposition": "No clinical care, safety, or continuity outcome."
     },
     {
       "id": "099",
-      "title": "Who Owns Island Knowledge?",
+      "title": "Fictional Archipelago Data Commons",
       "path": "/media/builds/099/build-099-linkedin.mp4",
       "poster": "/media/builds/099/build-099-linkedin-poster.png",
       "captions": "/media/builds/099/build-099-linkedin-captions.vtt",
@@ -2591,7 +2591,7 @@
       "certificationStatus": "candidate-generated; exact-head workflow and manual QA required",
       "generator": "scripts/render-linkedin-films.py",
       "spec": "data/linkedin-film-specs-v1.json",
-      "finalProposition": "SHARE ISLAND CAPACITY, DEPENDENCY, RISK, ASSET AND COMMUNITY KNOWLEDGE WITHOUT STRIPPING OWNERSHIP, PROVENANCE OR GOVERNANCE."
+      "finalProposition": "No real island, community, or sovereignty claim."
     },
     {
       "id": "100",

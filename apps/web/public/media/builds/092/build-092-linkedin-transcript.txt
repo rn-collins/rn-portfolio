@@ -1,8 +1,8 @@
-BUILD 092-B — The work lives between the tools
+BUILD 092-B — A modeled workflow rehearsal
 
-1. The work lives between the tools. Route events, people, agents, approvals and exceptions.
-2. Turn an event into a workflow.
-3. Route people, agents and software.
-4. Retry failures; block unsafe states.
-5. Escalate exceptions to a human.
-6. Orchestrate the handoffs, not just apps.
+1. A modeled workflow rehearsal. Route events, people, agents, approvals and exceptions.
+2. Turn a fictional event into a state path.
+3. Route simulated people, agents, and software.
+4. Retry modeled failures; block synthetic states.
+5. Escalate to a simulated human gate.
+6. No live system, delivery, or external effect.

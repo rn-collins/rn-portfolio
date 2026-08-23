@@ -1,8 +1,8 @@
-BUILD 094-B — Can you prove how work happened?
+BUILD 094-B — Inspect a fictional evidence chain
 
-1. Can you prove how work happened? Reconstruct the rule, consent, evidence, action and approval.
-2. Bind the rule to its version.
-3. Record evidence and consent.
-4. Name each human approval.
-5. Preserve action and timestamp.
-6. An audit trail reconstructs the decision.
+1. Inspect a fictional evidence chain. Reconstruct the rule, consent, evidence, action and approval.
+2. Connect an invented rule to its version.
+3. Record synthetic consent and evidence.
+4. Name each simulated human approval.
+5. Preserve a modeled action and timestamp.
+6. Not an audit, proof, or compliance certification.
