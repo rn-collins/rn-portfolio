@@ -1,13 +1,11 @@
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('008','b');
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import DecisionPathField from './DecisionPathField';
 import shell from '../../001/room.module.css';
 
-export const metadata:Metadata={
-  title:'Build 008-B — Data Is Not a Decision',
-  description:'A chart wall resolves into decision, owner, action and next state.',
-  alternates:{canonical:'/100-builds/008/b'}
-};
+
 
 export default function Build008B(){
   return <main className={shell.toolRoom}>
