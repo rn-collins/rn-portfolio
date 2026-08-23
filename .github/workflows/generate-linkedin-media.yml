@@ -1,6 +1,13 @@
 name: Generate and verify LinkedIn media
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - 'repo-media-generator/**'
+      - 'generate_*.mjs'
+      - 'build_*linkedin*.mjs'
+      - 'linkedin_recuts_*_data.mjs'
+      - 'linkedin-cut-pipeline/generate-final-recuts*.mjs'
   push:
     paths:
       - 'repo-media-generator/**'
@@ -15,10 +22,12 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
-      - name: Install pinned rendering dependencies
+      - name: Install rendering dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg=7:6.1.1-3ubuntu5 imagemagick=8:6.9.12.98+dfsg1-5.2build2 fonts-dejavu-core
+          sudo apt-get install -y ffmpeg imagemagick fonts-dejavu-core
+          ffmpeg -version | head -1
+          convert -version | head -1
       - name: Generate and verify all 400 assets
         run: node repo-media-generator/generate-all.mjs generated-media
       - name: Upload verified deployment payload
