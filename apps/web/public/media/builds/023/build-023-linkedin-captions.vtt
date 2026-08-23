@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-Bundled consent. BUNDLED CONSENT HIDES THE DEAL. A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal.
+00:00:00.000 --> 00:00:05.000
+BUILD 023. BUNDLED CONSENT HIDES THE DEAL. One yes explains too little.
 
 2
-00:00:03.000 --> 00:00:06.000
-Specificity. SEPARATE EVERY PURPOSE. Each purpose needs its own scope, permission state, evidence, and decision history.
+00:00:05.000 --> 00:00:10.000
+SPECIFICITY. SEPARATE EVERY PURPOSE. Each scope needs permission and history.
 
 3
-00:00:06.000 --> 00:00:09.000
-Event truth. EVENTS MUST TELL THE TRUTH. Grant and withdrawal records must form a valid, chronological, append-only state chain.
+00:00:10.000 --> 00:00:15.000
+EVENTS. RECORD THE TRUTH. Grant and withdrawal form chronological chains.
 
 4
-00:00:09.000 --> 00:00:12.000
-Withdrawal. WITHDRAWAL CHANGES WHAT HAPPENS NEXT. It stops future consent-based processing without erasing prior facts or overriding lawful obligations.
+00:00:15.000 --> 00:00:20.000
+WITHDRAWAL. CHANGE WHAT HAPPENS NEXT. Stop future consent-based processing.
 
 5
-00:00:12.000 --> 00:00:15.000
-Rights routes. ROUTE EVERY RIGHTS REQUEST. Access, correction, deletion, retention, withdrawal, and reuse need an owner, deadline, status, and escalation.
+00:00:20.000 --> 00:00:25.000
+RIGHTS. ROUTE EVERY REQUEST. Assign owner, deadline, status, escalation.
 
 6
-00:00:15.000 --> 00:00:18.000
-Save this. CONTROL REQUIRES A LIVING RECORD. Consent is specific, changeable, evidenced, and never the only possible legal basis.
-
+00:00:25.000 --> 00:00:30.000
+CONTROL. KEEP A LIVING RECORD. Consent must remain specific and changeable.

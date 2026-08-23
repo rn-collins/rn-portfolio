@@ -1,26 +1,22 @@
-BUILD 032-B — Consequential AI Release Readiness Harness
-
-Silent-first LinkedIn cut transcript
+BUILD 032 — Release Blocker Door
 
 SCENE 1
-BUILD 032. A PASSING SCORE DOES NOT AUTHORIZE RELEASE. Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.
+BUILD 032. A SCORE CANNOT AUTHORIZE RELEASE. Evidence must survive operations.
 
 SCENE 2
-BOUND THE RELEASE. NAME THE VERSION AND THE CONSEQUENCE. Lock the model, data, configuration, purpose, affected people, decision, environment, change set, and unacceptable outcomes.
+BOUND. LOCK VERSION + CONSEQUENCE. Name purpose, people, environment, and unacceptable outcomes.
 
 SCENE 3
-RUN THE GATES. EVIDENCE · CONTROL · OWNER · AUTHORITY. Test performance, workflow, privacy, security, accessibility, notice, review, appeal, incident response, monitoring, and rollback.
+GATES. EVIDENCE. CONTROL. OWNER. AUTHORITY. Test every required record.
 
 SCENE 4
-TEST FAILURE. EXPECTED · EDGE · MISUSE · OUTAGE. Use predeclared scenarios, thresholds, evidence locators, unresolved gaps, and independent challenge—not a launch-day demonstration.
+FAILURE. EXPECTED. EDGE. MISUSE. OUTAGE. Use predeclared thresholds and scenarios.
 
 SCENE 5
-DECIDE THE NEXT STATE. HOLD · REMEDIATE · PILOT · RELEASE · ROLLBACK. Record who can decide, what conditions apply, when the decision expires, what will be monitored, and what automatically stops the use.
+DECIDE. HOLD. REMEDIATE. PILOT. RELEASE. Record conditions, expiry, monitoring, and stops.
 
 SCENE 6
-SAVE THIS. READINESS MUST SURVIVE CONTACT WITH OPERATIONS. A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED.
+READINESS. MISSING EVIDENCE BLOCKS THE DOOR. Controls must be operable and owned.
 
 FINAL PROPOSITION
-A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+A release is ready only when controls are operable, evidenced, and owned.

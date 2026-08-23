@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 019. 100 ALERTS ≠ 100 INCIDENTS.. Repeated signals can describe one consequential event—not one hundred separate interruptions.
+00:00:00.000 --> 00:00:05.000
+BUILD 019. 100 ALERTS ≠ 100 INCIDENTS. Repeated signals may describe one event.
 
 2
-00:00:03.000 --> 00:00:06.000
-CORRELATE. GROUP THE EVIDENCE FIRST.. Shared keys collapse repeated signals while preserving every source and state.
+00:00:05.000 --> 00:00:10.000
+CORRELATE. GROUP EVIDENCE FIRST. Preserve each source and state.
 
 3
-00:00:06.000 --> 00:00:09.000
-ASSESS. SCORE CONSEQUENCE TRANSPARENTLY.. Severity, scale, rights, reversibility, evidence, and inherited friction remain inspectable.
+00:00:10.000 --> 00:00:15.000
+ASSESS. SCORE CONSEQUENCE TRANSPARENTLY. Keep severity, scale, rights, and reversibility visible.
 
 4
-00:00:09.000 --> 00:00:12.000
-ROUTE. AUTHORITY BEFORE AVAILABILITY.. Notify only an authorized owner through a compatible channel, with the reason visible.
+00:00:15.000 --> 00:00:20.000
+ROUTE. AUTHORITY BEFORE AVAILABILITY. Notify the right owner, with reasons.
 
 5
-00:00:12.000 --> 00:00:15.000
-ACKNOWLEDGE. MISSED CLOCK → NAMED BACKUP.. A recorded acknowledgement stops the timeout; otherwise a validated backup receives the chain.
+00:00:20.000 --> 00:00:25.000
+ACKNOWLEDGE. MISSED CLOCK → NAMED BACKUP. Record response or escalate.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. AUTHORITY · EVIDENCE · TIME · RECOURSE. Escalation is an accountable chain—not a louder notification.
-
+00:00:25.000 --> 00:00:30.000
+ESCALATION. CHAIN—NOT VOLUME. Authority, evidence, time, recourse.

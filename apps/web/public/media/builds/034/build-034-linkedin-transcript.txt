@@ -1,26 +1,22 @@
-BUILD 034-B — AI Failure & Incident Reconstruction Lab
-
-Silent-first LinkedIn cut transcript
+BUILD 034 — Incident Replay Graph
 
 SCENE 1
-BUILD 034. THE FAILURE IS MORE THAN THE ERROR MESSAGE. An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur.
+BUILD 034. FAILURE EXCEEDS THE ERROR. People, workflow, and evidence matter.
 
 SCENE 2
-PRESERVE FIRST. FREEZE THE EVIDENCE WITHOUT COPYING THE HARM. Record time, version, configuration, inputs, outputs, decisions, actions, owners, and provenance while minimizing personal and sensitive data.
+PRESERVE. FREEZE EVIDENCE FIRST. Keep time, version, actions, owners, and provenance.
 
 SCENE 3
-RECONSTRUCT THE CHAIN. EVENT · HANDOFF · CONTROL · CONSEQUENCE. Separate observed fact from inference. Trace chronology, dependencies, human actions, missing records, contradictions, and alternative explanations.
+RECONSTRUCT. FACT ≠ INFERENCE. Trace chronology, dependencies, contradictions, and gaps.
 
 SCENE 4
-RESPOND TO PEOPLE. NOTICE · STOP · CORRECT · REMEDY. Contain ongoing impact, preserve appeal and support routes, communicate uncertainty, and assign accountable deadlines.
+RESPOND. NOTICE. STOP. CORRECT. REMEDY. Contain impact and preserve appeal.
 
 SCENE 5
-PREVENT RECURRENCE. CAUSE · CONTROL · OWNER · RETEST. Distinguish root, contributing, and detection failures; change the system, verify the repair, monitor residual risk, and define rollback.
+PREVENT. CAUSE. CONTROL. OWNER. RETEST. Verify repair and monitor residual risk.
 
 SCENE 6
-SAVE THIS. RECONSTRUCTION MUST LEAD TO RECOURSE. AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE.
+RECOURSE. RECONSTRUCTION MUST LEAD SOMEWHERE. Closed means harm cannot quietly recur.
 
 FINAL PROPOSITION
-AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+An incident closes only when evidence, correction, and prevention are reconstructable.

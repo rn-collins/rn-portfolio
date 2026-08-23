@@ -1,26 +1,22 @@
-BUILD 004-B — Manual Intelligence Engine
-
-Silent-first LinkedIn cut transcript
+BUILD 004 — Before the Automation
 
 SCENE 1
-BUILD 004. A PILE OF SOURCES IS NOT INTELLIGENCE.. The transformation happens through explicit gates.
+BUILD 004. SOURCES ARE NOT INTELLIGENCE. Explicit gates create the transformation.
 
 SCENE 2
-01 · COLLECT. REGISTER THE SOURCE.. Issuer · version · source date · checked date · exact locator.
+COLLECT. REGISTER THE SOURCE. Issuer, version, dates, exact locator.
 
 SCENE 3
-02 · SEPARATE. SOURCE ≠ ANALYST CLAIM.. Interpretation gets its own object instead of silently inheriting provenance.
+SEPARATE. SOURCE ≠ ANALYST CLAIM. Interpretation needs its own object.
 
 SCENE 4
-03 · VERIFY. UNVERIFIED STAYS OUT.. Verified requires a note; contradiction and uncertainty remain visible.
+VERIFY. UNVERIFIED STAYS OUT. Keep contradiction and uncertainty visible.
 
 SCENE 5
-04 · BRIEF. SYNTHESIS FOLLOWS STATUS.. The brief cannot quietly promote unchecked assertions into findings.
+BRIEF. SYNTHESIS FOLLOWS STATUS. Never promote unchecked claims.
 
 SCENE 6
-SAVE THIS. COLLECT → SEPARATE → VERIFY → BRIEF. Make the research method inspectable before automating any part of it.
+AUTOMATION. SEE THE METHOD FIRST. Then automate the inspectable parts.
 
 FINAL PROPOSITION
-AUTOMATE THE METHOD ONLY AFTER YOU CAN SEE THE METHOD.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Automate the method only after you can see the method.

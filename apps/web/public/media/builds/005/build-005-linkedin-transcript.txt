@@ -1,26 +1,22 @@
-BUILD 005-B — Service-to-Software Discovery
-
-Silent-first LinkedIn cut transcript
+BUILD 005 — Service Path Split
 
 SCENE 1
-BUILD 005. DON’T AUTOMATE THE SERVICE.. Separate the steps first.
+BUILD 005. DO NOT AUTOMATE THE SERVICE. Separate its steps first.
 
 SCENE 2
-ONE SERVICE. THREE FUTURES.. AUTOMATE · KEEP HUMAN · REMOVE
+THREE FUTURES. SOFTWARE. HUMAN. GONE. Each step earns a disposition.
 
 SCENE 3
-REMOVE. LOW-VALUE REPETITION FIRST.. Do not automate waste just because it repeats.
+REMOVE. DELETE LOW-VALUE REPETITION. Do not automate waste.
 
 SCENE 4
-KEEP HUMAN. PROTECT JUDGMENT.. High consequence, ambiguity and exception-heavy work can remain human-led.
+KEEP HUMAN. PROTECT JUDGMENT. Retain ambiguous, consequential, exception-heavy work.
 
 SCENE 5
-AUTOMATE. PROTOTYPE STABLE RULES.. Automation is a candidate disposition—not a deployment approval.
+AUTOMATE. PROTOTYPE STABLE RULES. A candidate is not deployment approval.
 
 SCENE 6
-SAVE THIS. SOFTWARE / HUMAN / GONE. A better workflow can contain all three.
+WORKFLOW. USE ALL THREE PATHS. Map the work before automation.
 
 FINAL PROPOSITION
-MAP THE WORK BEFORE YOU AUTOMATE IT.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Map the work before you automate it.

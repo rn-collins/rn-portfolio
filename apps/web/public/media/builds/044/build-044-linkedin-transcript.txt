@@ -1,26 +1,8 @@
-BUILD 044-B — Reuse the Parts That Regulation Keeps Requiring
+BUILD 044-B — Requirements are not copy-paste blocks
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 044. RECURRING REQUIREMENTS ARE NOT COPY-PASTE BLOCKS. Approvals, consent, evidence, disclosures, and records recur, but the rule, actor, purpose, jurisdiction, risk, and effective date can change what is valid.
-
-SCENE 2
-DEFINE THE COMPONENT. PURPOSE · INPUT · OUTPUT · OWNER. Use synthetic records to bind each component to authority, evidence, required fields, accountable role, review gate, version, effective period, and prohibited reuse.
-
-SCENE 3
-ASSEMBLE THE WORKFLOW. APPROVE · CONSENT · DISCLOSE · RECORD. Compose only compatible components. Preserve order, dependencies, decisions, signatures, provenance, retention, correction, withdrawal, and human review.
-
-SCENE 4
-CHANGE THE CONTEXT. ACTOR · USE · PLACE · CONSEQUENCE. When a declared condition changes, recompute applicability, required evidence, permissions, language, review, downstream records, and every affected component.
-
-SCENE 5
-INVALIDATE EXPLICITLY. STALE · CONFLICT · MISSING · REVOKED. Fail closed on expired authority, incompatible versions, missing evidence, revoked consent, broken dependencies, or context outside the component’s declared scope.
-
-SCENE 6
-SAVE THIS. REUSE THE CONTROL—NOT THE ASSUMPTION. REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM.
-
-FINAL PROPOSITION
-REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. Requirements are not copy-paste blocks. Reuse regulated structure while preserving legal context.
+2. Bind each component to authority.
+3. Carry purpose, evidence and owner.
+4. Version rules by effective date.
+5. Block reuse outside valid context.
+6. Reuse structure without losing regulation.

@@ -1,26 +1,8 @@
-BUILD 049-B — What Works for You?
+BUILD 049-B — A preference is not permanent
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 049. A PREFERENCE IS NOT A PERMANENT TRAIT. What helps or overwhelms a person can change with setting, goal, health, energy, company, timing, access, and prior response.
-
-SCENE 2
-BUILD PRIVATE CONTEXT. PREFERENCE · SENSITIVITY · GOAL · RESPONSE. Use synthetic browser-local records. Collect only what the person chooses, name purpose and expiry, preserve source and uncertainty, and offer correction, deletion, and export.
-
-SCENE 3
-KEEP CONTEXT ATTACHED. SETTING · TIME · SUPPORT · CONSTRAINT. Bind each response to the conditions in which it occurred. Keep contradictions, unknowns, changes, and one-off experiences instead of flattening them into a fixed profile.
-
-SCENE 4
-CHANGE THE MOMENT. REORGANIZE—DO NOT DIAGNOSE. When setting, goals, sensitivities, or responses change, reorder the visible constellation without inferring identity, disability, health status, intent, or what will work next.
-
-SCENE 5
-PRESERVE HUMAN CONTROL. VIEW · CORRECT · WITHDRAW · EXIT. Let the person inspect every field, restrict reuse and sharing, revoke consent, delete local state, carry a portable record, and choose no recommendation.
-
-SCENE 6
-SAVE THIS. CONTEXT BELONGS TO THE PERSON. PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES.
-
-FINAL PROPOSITION
-PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. A preference is not permanent. Build private personalization that can change with context.
+2. Collect only chosen private context.
+3. Name purpose, source and expiry.
+4. Include setting, goal and energy.
+5. Offer correction, deletion and export.
+6. Personalization should remain revisable.

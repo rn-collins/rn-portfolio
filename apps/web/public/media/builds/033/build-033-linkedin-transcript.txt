@@ -1,26 +1,22 @@
-BUILD 033-B — Adversarial System Explorer
-
-Silent-first LinkedIn cut transcript
+BUILD 033 — Attack Graph
 
 SCENE 1
-BUILD 033. TEST THE SYSTEM WITHOUT TEACHING THE ATTACK. Defensive exploration should expose weak assumptions, controls, and recovery paths while withholding reusable harmful instructions.
+BUILD 033. TEST WITHOUT TEACHING ATTACKS. Expose weakness; withhold harmful instructions.
 
 SCENE 2
-BOUND THE EXERCISE. ASSET · THREAT · SCOPE · AUTHORITY. Name what is protected, the permitted environment, synthetic inputs, accountable owner, stop conditions, and prohibited actions.
+BOUND. ASSET. THREAT. SCOPE. AUTHORITY. Name owners, limits, and stop conditions.
 
 SCENE 3
-MODEL FAILURE. PRESSURE THE CONTROL—NOT REAL PEOPLE. Use abstract scenarios for misuse, manipulation, leakage, privilege, evasion, dependency failure, and unsafe automation.
+MODEL. PRESSURE CONTROLS—NOT PEOPLE. Use abstract defensive scenarios.
 
 SCENE 4
-CONTAIN THE TEST. ISOLATE · MINIMIZE · MONITOR · STOP. Keep production data, credentials, live targets, personal information, and uncontrolled external effects outside the exercise.
+CONTAIN. ISOLATE. MINIMIZE. MONITOR. STOP. Keep live targets outside.
 
 SCENE 5
-TURN FINDINGS INTO DEFENSE. DETECT · REPAIR · RETEST · RECORD. Assign severity, evidence, owner, deadline, mitigation, rollback, verification, disclosure route, and residual risk.
+DEFEND. DETECT. REPAIR. RETEST. RECORD. Assign evidence, owner, deadline, and residual risk.
 
 SCENE 6
-SAVE THIS. MAKE THE SYSTEM SAFER—NOT HARM EASIER. ADVERSARIAL TESTING IS USEFUL ONLY WHEN IT MAKES THE SYSTEM SAFER WITHOUT MAKING HARM EASIER.
+SAFETY. MAKE HARM HARDER. That is the test.
 
 FINAL PROPOSITION
-ADVERSARIAL TESTING IS USEFUL ONLY WHEN IT MAKES THE SYSTEM SAFER WITHOUT MAKING HARM EASIER.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Adversarial testing must make systems safer without making harm easier.

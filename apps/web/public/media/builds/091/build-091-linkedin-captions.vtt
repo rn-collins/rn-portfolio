@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 091. WHAT IS THIS AI ALLOWED TO REMEMBER?. Control what agents may remember, infer, retrieve, share or forget across contexts and time.
+00:00:00.000 --> 00:00:05.000
+What may this AI remember? Control retrieval, inference, sharing and forgetting.
 
 2
-00:00:03.000 --> 00:00:06.000
-SEE THE SYSTEM. NAME WHAT IS ACTUALLY MOVING. Make the actors, inputs, dependencies, decisions and consequences visible.
+00:00:05.000 --> 00:00:10.000
+Define a memory space.
 
 3
-00:00:06.000 --> 00:00:09.000
-TEST THE CLAIM. CHANGE ONE CONDITION. Use the interactive version to see what changes, what holds and what remains unknown.
+00:00:10.000 --> 00:00:15.000
+Permit retrieval by context.
 
 4
-00:00:09.000 --> 00:00:12.000
-KEEP THE EVIDENCE. SHOW THE SOURCE AND THE LIMIT. Preserve provenance, uncertainty, responsibility and the path to correction.
+00:00:15.000 --> 00:00:20.000
+Block unapproved inference paths.
 
 5
-00:00:12.000 --> 00:00:15.000
-MAKE THE DECISION. TURN THE MAP INTO AN ACTION. Choose the next responsible move without hiding the tradeoff or the accountable human.
+00:00:20.000 --> 00:00:25.000
+Make forgetting enforceable.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. CONTROL WHAT AGENTS MAY REMEMBER, INFER, RETRIEVE, SHARE OR FORGET ACROSS CONTEXTS AND TIME.. Watch the distributable film. Then test the richer web version for yourself.
-
+00:00:25.000 --> 00:00:30.000
+Memory is a governed resource.

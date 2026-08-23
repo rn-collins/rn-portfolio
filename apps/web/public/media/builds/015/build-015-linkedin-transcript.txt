@@ -1,26 +1,22 @@
-BUILD 015-B — Repeated Legal Task → Product Engine
-
-Silent-first LinkedIn cut transcript
+BUILD 015 — From Matter Work to Reusable System
 
 SCENE 1
-BUILD 015. REPEATED LEGAL TASK → PRODUCT ENGINE. Find which recurring supervised legal tasks can safely become reusable products or systems.
+BUILD 015. REPETITION IS A SIGNAL. Not permission to automate.
 
 SCENE 2
-SEE THE SYSTEM. NAME WHAT IS ACTUALLY MOVING. Make the actors, inputs, dependencies, decisions and consequences visible.
+OBSERVE. FIND THE PATTERN. Compare supervised matters.
 
 SCENE 3
-TEST THE CLAIM. CHANGE ONE CONDITION. Use the interactive version to see what changes, what holds and what remains unknown.
+DECOMPOSE. MAP THE WORK. Inputs. Authority. Decisions. Review.
 
 SCENE 4
-KEEP THE EVIDENCE. SHOW THE SOURCE AND THE LIMIT. Preserve provenance, uncertainty, responsibility and the path to correction.
+REMOVE. STRIP CLIENT-SPECIFIC FACTS. Keep evidence rules and controls.
 
 SCENE 5
-MAKE THE DECISION. TURN THE MAP INTO AN ACTION. Choose the next responsible move without hiding the tradeoff or the accountable human.
+ASSEMBLE. BUILD THE REUSABLE SYSTEM. Name limits, reviewers, and corrections.
 
 SCENE 6
-SAVE THIS. FIND WHICH RECURRING SUPERVISED LEGAL TASKS CAN SAFELY BECOME REUSABLE PRODUCTS OR SYSTEMS.. Watch the distributable film. Then test the richer web version for yourself.
+GOVERN. PRODUCTIZE STRUCTURE. Judgment stays with authorized humans.
 
 FINAL PROPOSITION
-FIND WHICH RECURRING SUPERVISED LEGAL TASKS CAN SAFELY BECOME REUSABLE PRODUCTS OR SYSTEMS.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Productize the reusable structure—not the legal judgment.

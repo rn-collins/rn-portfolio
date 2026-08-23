@@ -1,26 +1,8 @@
-BUILD 041-B — Who Owns the AI Work?
+BUILD 041-B — AI work needs an owner
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 041. AI WORK CAN EXIST WITHOUT AN OWNER. A tool can enter a workflow, influence a decision, or depend on a vendor while responsibility remains assumed, fragmented, or invisible.
-
-SCENE 2
-MAP THE ORGANIZATION. TOOL · DECISION · VENDOR · WORKFLOW. Use synthetic records to connect each AI component to its purpose, accountable role, approving authority, operator, affected workflow, and review date.
-
-SCENE 3
-FIND THE ORPHANS. NO OWNER · STALE OWNER · SPLIT AUTHORITY. Flag missing assignments, departed owners, conflicting roles, expired reviews, unowned vendor changes, and decisions nobody is authorized to make.
-
-SCENE 4
-REASSIGN EXPLICITLY. FROM · TO · AUTHORITY · EFFECTIVE DATE. A reassignment must preserve the prior owner, reason, approval, scope, evidence, effective time, open duties, and a path to challenge or correct it.
-
-SCENE 5
-KEEP THE CLAIM BOUNDED. A MAP IS NOT ACCOUNTABILITY. Visible assignments do not prove oversight, competence, compliance, safety, performance, or that the named person accepted and exercised the role.
-
-SCENE 6
-SAVE THIS. MAKE OWNERSHIP VISIBLE. ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER.
-
-FINAL PROPOSITION
-ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. AI work needs an owner. Connect every AI decision to accountable ownership.
+2. Map tool, vendor and workflow.
+3. Name the accountable role.
+4. Attach approval and review dates.
+5. Expose fragmented responsibility.
+6. Ownership must follow every decision.

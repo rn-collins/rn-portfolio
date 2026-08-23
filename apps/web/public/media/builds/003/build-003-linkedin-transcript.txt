@@ -1,26 +1,22 @@
-BUILD 003-B — Unserved Decision Discovery
-
-Silent-first LinkedIn cut transcript
+BUILD 003 — Unserved Decision Discovery
 
 SCENE 1
-BUILD 003. THEY HAVE INFORMATION.. But they still cannot reliably decide what to do.
+BUILD 003. THEY HAVE INFORMATION. The decision is still unresolved.
 
 SCENE 2
-LOOK FOR. THE UNRESOLVED DECISION.. Name the recurring choice—not the content category around it.
+LOOK. NAME THE RECURRING CHOICE. Do not start with content categories.
 
 SCENE 3
-TEST THE GAP. RECURRENCE · CONSEQUENCE · AMBIGUITY · FRAGMENTATION. Four signals make the missing decision structure inspectable.
+TEST. RECURRENCE. CONSEQUENCE. AMBIGUITY. FRAGMENTATION. Make the gap inspectable.
 
 SCENE 4
-DO NOT CLAIM. A SCORE IS NOT DEMAND.. It does not prove willingness to pay, product-market fit or solution correctness.
+BOUNDARY. A SCORE IS NOT DEMAND. It proves neither fit nor willingness to pay.
 
 SCENE 5
-THE OPPORTUNITY. BUILD THE DECISION PATH.. Turn scattered information into an accountable way to choose and act.
+OPPORTUNITY. BUILD THE DECISION PATH. Turn fragments into accountable choice and action.
 
 SCENE 6
-SAVE THIS. FIND THE DECISION PEOPLE STILL CANNOT MAKE.. Then investigate whether a system—not more content—is what is missing.
+SAVE. FIND THE MISSING SYSTEM. More content may not help.
 
 FINAL PROPOSITION
-MORE INFORMATION DOES NOT FIX A MISSING DECISION SYSTEM.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+More information does not fix a missing decision system.

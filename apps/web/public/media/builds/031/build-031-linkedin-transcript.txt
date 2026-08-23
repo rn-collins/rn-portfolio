@@ -1,26 +1,22 @@
-BUILD 031-B — Privacy-Conscious Product Behavior X-Ray
-
-Silent-first LinkedIn cut transcript
+BUILD 031 — Telemetry Privacy Field
 
 SCENE 1
-BUILD 031. A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR. The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states.
+BUILD 031. THE PRODUCT IS WATCHING. Telemetry choices create privacy load.
 
 SCENE 2
-OBSERVE THE JOURNEY. TRACE DATA FROM ENTRY TO EXIT. Map collection, purpose, transformation, storage, access, disclosure, reuse, model input, retention, and verified deletion.
+TRACE. FOLLOW DATA END TO END. Collection. Purpose. Storage. Sharing. Deletion.
 
 SCENE 3
-TEST THE DEFAULTS. WHAT HAPPENS BEFORE A PERSON CHOOSES?. Optional collection, tracking, sharing, personalization, and sensitive inference should not quietly activate through design or fatigue.
+DEFAULTS. WHAT HAPPENS BEFORE CHOICE? Optional tracking should not quietly activate.
 
 SCENE 4
-COMPARE THE PROMISE. CLAIM · CONTROL · EVIDENCE · RESULT. Test whether notice matches runtime behavior, the control changes processing, and the outcome remains visible and correctable.
+COMPARE. PROMISE → CONTROL → RESULT. Does notice match runtime behavior?
 
 SCENE 5
-DESIGN RECOURSE. ACCESS · CORRECT · WITHDRAW · DELETE · APPEAL. Every route needs an owner, deadline, identity safeguards, downstream handling, exception basis, status, and escalation.
+RECOURSE. ACCESS. CORRECT. WITHDRAW. DELETE. Every route needs an owner.
 
 SCENE 6
-SAVE THIS. READ THE PRODUCT THROUGH ITS BEHAVIOR. PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY.
+BEHAVIOR. READ THE PRODUCT ITSELF. The policy is not the system.
 
 FINAL PROPOSITION
-PRIVACY IS WHAT THE PRODUCT DOES WHEN NOBODY IS READING THE POLICY.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Privacy is what the product does when nobody reads the policy.

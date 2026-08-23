@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 042. A PROMPT IS NOT A JOB DESCRIPTION. An agent can produce fluent work while its purpose, authority, tools, accountable owner, prohibited actions, and required review remain undefined.
+00:00:00.000 --> 00:00:05.000
+A prompt is not a job description. Define purpose, authority, tools and human review.
 
 2
-00:00:03.000 --> 00:00:06.000
-DEFINE THE ROLE. PURPOSE · INPUT · OUTPUT · OWNER. Use a synthetic role to name the bounded task, accepted inputs, expected artifact, responsible human, affected people, success criteria, and consequence.
+00:00:05.000 --> 00:00:10.000
+Define purpose, input and output.
 
 3
-00:00:06.000 --> 00:00:09.000
-DECLARE THE TOOL ENVELOPE. ALLOW · DENY · REQUIRE APPROVAL. Assign only necessary tools and data. Separate read, draft, recommend, communicate, transact, and delete permissions; attach evidence and expiry.
+00:00:10.000 --> 00:00:15.000
+Limit tools and authority.
 
 4
-00:00:09.000 --> 00:00:12.000
-MOVE A RESPONSIBILITY. PERMISSION · RISK · EVALUATION. When work moves in or out, recompute required access, consequence, evaluation coverage, human review, inherited ownership, and the safe fallback.
+00:00:15.000 --> 00:00:20.000
+Name prohibited actions.
 
 5
-00:00:12.000 --> 00:00:15.000
-GOVERN THE EDGE. REVIEW · ESCALATE · ABSTAIN · STOP. Require review before consequential action. Preserve uncertainty, failed tools, boundary violations, escalation routes, termination rules, and exact state-only replay.
+00:00:20.000 --> 00:00:25.000
+Assign owner and review gate.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. GIVE THE AGENT A REAL JOB. AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT.
-
+00:00:25.000 --> 00:00:30.000
+Give the AI a bounded job.

@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 058. A CITATION CAN HIDE A BROKEN SUPPORT PATH. A factual claim may point to a source while the exact evidence, authority, date, version, locator, or verification state remains missing or mismatched.
+00:00:00.000 --> 00:00:05.000
+BUILD 058. A CITATION CAN HIDE A BROKEN SUPPORT PATH.
 
 2
-00:00:03.000 --> 00:00:06.000
-REGISTER THE CLAIM. TEXT · SCOPE · DATE · VERSION. Use an exact-bound synthetic claim. Preserve qualifiers, negation, population, jurisdiction, asserted date, claimant, status, and every material word that evidence must support.
+00:00:05.000 --> 00:00:10.000
+REGISTER THE EXACT CLAIM, QUALIFIERS, SCOPE, DATE, VERSION, AND CLAIMANT.
 
 3
-00:00:06.000 --> 00:00:09.000
-TRACE TO THE ROOT. EVIDENCE · SOURCE · AUTHORITY · LOCATOR. Connect the claim through recorded evidence to its source and issuing authority. Keep publication, effective and checked dates, versions, quotations, transformations, and unknowns distinct.
+00:00:10.000 --> 00:00:15.000
+TRACE EVIDENCE TO ITS SOURCE, AUTHORITY, LOCATOR, DATES, AND VERSION.
 
 4
-00:00:09.000 --> 00:00:12.000
-REMOVE ONE SOURCE. WATCH SUPPORT COLLAPSE. Delete a synthetic source or edge and recompute only declared linkage, coverage, contradiction, dependency, and unsupported claim fragments.
+00:00:15.000 --> 00:00:20.000
+REMOVE ONE SOURCE. RECOMPUTE COVERAGE, CONTRADICTION, DEPENDENCY, AND UNSUPPORTED FRAGMENTS.
 
 5
-00:00:12.000 --> 00:00:15.000
-BOUND THE RESULT. SUPPORT STATE IS NOT TRUTH. A link or status cannot prove correctness, authority, causation, completeness, admissibility, scientific validity, consensus, endorsement, currentness, or that the claim is true.
+00:00:20.000 --> 00:00:25.000
+SUPPORT STATUS CANNOT PROVE TRUTH, CAUSATION, CONSENSUS, OR CURRENTNESS.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. MAKE THE EVIDENCE PATH VISIBLE. A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER.
-
+00:00:25.000 --> 00:00:30.000
+MAKE THE EVIDENCE PATH VISIBLE. KEEP EVERY MATERIAL WORD TRACEABLE.

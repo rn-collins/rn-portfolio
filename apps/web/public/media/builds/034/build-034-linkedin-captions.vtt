@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 034. THE FAILURE IS MORE THAN THE ERROR MESSAGE. An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur.
+00:00:00.000 --> 00:00:05.000
+BUILD 034. FAILURE EXCEEDS THE ERROR. People, workflow, and evidence matter.
 
 2
-00:00:03.000 --> 00:00:06.000
-PRESERVE FIRST. FREEZE THE EVIDENCE WITHOUT COPYING THE HARM. Record time, version, configuration, inputs, outputs, decisions, actions, owners, and provenance while minimizing personal and sensitive data.
+00:00:05.000 --> 00:00:10.000
+PRESERVE. FREEZE EVIDENCE FIRST. Keep time, version, actions, owners, and provenance.
 
 3
-00:00:06.000 --> 00:00:09.000
-RECONSTRUCT THE CHAIN. EVENT · HANDOFF · CONTROL · CONSEQUENCE. Separate observed fact from inference. Trace chronology, dependencies, human actions, missing records, contradictions, and alternative explanations.
+00:00:10.000 --> 00:00:15.000
+RECONSTRUCT. FACT ≠ INFERENCE. Trace chronology, dependencies, contradictions, and gaps.
 
 4
-00:00:09.000 --> 00:00:12.000
-RESPOND TO PEOPLE. NOTICE · STOP · CORRECT · REMEDY. Contain ongoing impact, preserve appeal and support routes, communicate uncertainty, and assign accountable deadlines.
+00:00:15.000 --> 00:00:20.000
+RESPOND. NOTICE. STOP. CORRECT. REMEDY. Contain impact and preserve appeal.
 
 5
-00:00:12.000 --> 00:00:15.000
-PREVENT RECURRENCE. CAUSE · CONTROL · OWNER · RETEST. Distinguish root, contributing, and detection failures; change the system, verify the repair, monitor residual risk, and define rollback.
+00:00:20.000 --> 00:00:25.000
+PREVENT. CAUSE. CONTROL. OWNER. RETEST. Verify repair and monitor residual risk.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. RECONSTRUCTION MUST LEAD TO RECOURSE. AN INCIDENT IS NOT CLOSED UNTIL THE EVIDENCE, CONSEQUENCE, CORRECTION, AND PREVENTION PATH ARE RECONSTRUCTABLE.
-
+00:00:25.000 --> 00:00:30.000
+RECOURSE. RECONSTRUCTION MUST LEAD SOMEWHERE. Closed means harm cannot quietly recur.

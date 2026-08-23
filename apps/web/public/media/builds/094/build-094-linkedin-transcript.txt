@@ -1,26 +1,8 @@
-BUILD 094-B — Can You Prove How This Work Was Done?
+BUILD 094-B — Can you prove how work happened?
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 094. CAN YOU PROVE HOW THIS WORK WAS DONE?. Reconstruct the rule, evidence, consent, approvals, action and version behind regulated work.
-
-SCENE 2
-SEE THE SYSTEM. NAME WHAT IS ACTUALLY MOVING. Make the actors, inputs, dependencies, decisions and consequences visible.
-
-SCENE 3
-TEST THE CLAIM. CHANGE ONE CONDITION. Use the interactive version to see what changes, what holds and what remains unknown.
-
-SCENE 4
-KEEP THE EVIDENCE. SHOW THE SOURCE AND THE LIMIT. Preserve provenance, uncertainty, responsibility and the path to correction.
-
-SCENE 5
-MAKE THE DECISION. TURN THE MAP INTO AN ACTION. Choose the next responsible move without hiding the tradeoff or the accountable human.
-
-SCENE 6
-SAVE THIS. RECONSTRUCT THE RULE, EVIDENCE, CONSENT, APPROVALS, ACTION AND VERSION BEHIND REGULATED WORK.. Watch the distributable film. Then test the richer web version for yourself.
-
-FINAL PROPOSITION
-RECONSTRUCT THE RULE, EVIDENCE, CONSENT, APPROVALS, ACTION AND VERSION BEHIND REGULATED WORK.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. Can you prove how work happened? Reconstruct the rule, consent, evidence, action and approval.
+2. Bind the rule to its version.
+3. Record evidence and consent.
+4. Name each human approval.
+5. Preserve action and timestamp.
+6. An audit trail reconstructs the decision.

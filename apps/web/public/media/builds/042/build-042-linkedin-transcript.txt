@@ -1,26 +1,8 @@
-BUILD 042-B — Give the AI a Real Job
+BUILD 042-B — A prompt is not a job description
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 042. A PROMPT IS NOT A JOB DESCRIPTION. An agent can produce fluent work while its purpose, authority, tools, accountable owner, prohibited actions, and required review remain undefined.
-
-SCENE 2
-DEFINE THE ROLE. PURPOSE · INPUT · OUTPUT · OWNER. Use a synthetic role to name the bounded task, accepted inputs, expected artifact, responsible human, affected people, success criteria, and consequence.
-
-SCENE 3
-DECLARE THE TOOL ENVELOPE. ALLOW · DENY · REQUIRE APPROVAL. Assign only necessary tools and data. Separate read, draft, recommend, communicate, transact, and delete permissions; attach evidence and expiry.
-
-SCENE 4
-MOVE A RESPONSIBILITY. PERMISSION · RISK · EVALUATION. When work moves in or out, recompute required access, consequence, evaluation coverage, human review, inherited ownership, and the safe fallback.
-
-SCENE 5
-GOVERN THE EDGE. REVIEW · ESCALATE · ABSTAIN · STOP. Require review before consequential action. Preserve uncertainty, failed tools, boundary violations, escalation routes, termination rules, and exact state-only replay.
-
-SCENE 6
-SAVE THIS. GIVE THE AGENT A REAL JOB. AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT.
-
-FINAL PROPOSITION
-AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. A prompt is not a job description. Define purpose, authority, tools and human review.
+2. Define purpose, input and output.
+3. Limit tools and authority.
+4. Name prohibited actions.
+5. Assign owner and review gate.
+6. Give the AI a bounded job.

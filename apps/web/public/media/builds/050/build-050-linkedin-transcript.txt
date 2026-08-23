@@ -1,26 +1,8 @@
-BUILD 050-B — How Is This Space Affecting You?
+BUILD 050-B — A room is not neutral
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 050. A ROOM IS NOT A NEUTRAL CONTAINER. Light, sound, layout, temperature, nature, crowding, timing, task, and control may shape experience—but the same condition does not affect every person or goal the same way.
-
-SCENE 2
-READ THE CONDITIONS. LIGHT · SOUND · LAYOUT · NATURE. Use exact-bound synthetic rooms. Keep each feature visible with setting, goal, duration, available control, uncertainty, and what has not actually been measured.
-
-SCENE 3
-CHANGE ROOM OR GOAL. THE INTERPRETATION MUST MOVE. When a room or goal changes, recompute only the declared model. Preserve competing needs, interactions, unknowns, and the possibility that one feature helps one goal while complicating another.
-
-SCENE 4
-SHOW EVIDENCE STRENGTH. MODERATE · LIMITED · UNKNOWN. An evidence label must expose scope and uncertainty. It cannot turn an illustrative model, association, preference, or single experience into a causal or universal conclusion.
-
-SCENE 5
-BOUND THE RESULT. MODEL ≠ MEASUREMENT ≠ PRESCRIPTION. A synthetic load cannot diagnose harm, measure exposure, prove causation, determine accessibility or compliance, represent every person, or prescribe a real design.
-
-SCENE 6
-SAVE THIS. READ THE ROOM WITH THE PERSON. A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER.
-
-FINAL PROPOSITION
-A SPACE BECOMES LEGIBLE WHEN CONDITIONS, EXPERIENCE, EVIDENCE STRENGTH, AND TRADEOFFS CAN BE READ TOGETHER.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. A room is not neutral. Examine how environmental conditions shape different experiences.
+2. Read light, sound and layout.
+3. Include task, timing and control.
+4. Compare different people and goals.
+5. Keep uncertainty visible.
+6. Design space from lived response.

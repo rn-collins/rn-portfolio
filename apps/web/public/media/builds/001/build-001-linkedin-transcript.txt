@@ -1,26 +1,22 @@
-BUILD 001-B — Human Review Design Framework
-
-Silent-first LinkedIn cut transcript
+BUILD 001 — Human Review Design Framework
 
 SCENE 1
-BUILD 001. HUMAN IN THE LOOP?. That phrase hides the part that matters.
+BUILD 001. HUMAN IN THE LOOP? That label hides what matters.
 
 SCENE 2
-ASK 01. WHEN DO THEY SEE IT?. Before the decision, while it can still change—not after the consequence.
+TIMING. WHEN DO THEY SEE IT? Before the consequence, while change remains possible.
 
 SCENE 3
-ASK 02. WHAT CAN THEY SEE?. Evidence, uncertainty, alternatives and what the system actually did.
+EVIDENCE. WHAT CAN THEY SEE? Show uncertainty, alternatives, and system behavior.
 
 SCENE 4
-ASK 03. WHAT CAN THEY DO?. Approve is not enough. Change, stop, escalate and record must be real powers.
+AUTHORITY. WHAT CAN THEY DO? Change, stop, escalate, and record.
 
 SCENE 5
-THE ARCHITECTURE. TIMING · EVIDENCE · AUTHORITY · ESCALATION · RECORD. Human presence becomes meaningful only when these controls work together.
+ARCHITECTURE. CONTROLS MUST WORK TOGETHER. Timing. Evidence. Authority. Escalation. Record.
 
 SCENE 6
-SAVE THIS. DESIGN THE REVIEW, NOT THE LABEL.. Test whether the reviewer can actually change or stop the outcome.
+REVIEW. DESIGN THE POWER—NOT THE LABEL. Human presence alone changes nothing.
 
 FINAL PROPOSITION
-A HUMAN IS A CONTROL ONLY IF THEY CAN CHANGE THE OUTCOME.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+A human is a control only if they can change the outcome.

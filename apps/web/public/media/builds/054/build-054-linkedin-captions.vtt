@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 054. A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON. Light, quiet zones, and seating can be proposed from a synthetic task and context—but a configuration is not permission to change a real space.
+00:00:00.000 --> 00:00:05.000
+BUILD 054. A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON.
 
 2
-00:00:03.000 --> 00:00:06.000
-DECLARE THE SCENARIO. PERSON · TASK · CONTEXT · CONSTRAINT. Use only an exact-bound synthetic scenario. Keep occupants, task, preferences, conflicts, unknowns, authority, and available controls visible.
+00:00:05.000 --> 00:00:10.000
+DECLARE THE PERSON, TASK, CONTEXT, CONSTRAINTS, CONFLICTS, AUTHORITY, AND AVAILABLE CONTROLS.
 
 3
-00:00:06.000 --> 00:00:09.000
-RECOMPUTE THE PROPOSAL. SETTING · RATIONALE · TRADEOFF. When the scenario changes, recompute proposed light, quiet-zone, and seating settings. Preserve unresolved conditions and explicit non-actions.
+00:00:10.000 --> 00:00:15.000
+RECOMPUTE PROPOSED LIGHT, QUIET-ZONE, AND SEATING SETTINGS WHEN THE SCENARIO CHANGES.
 
 4
-00:00:09.000 --> 00:00:12.000
-MAKE CONFLICT REVIEWABLE. ONE PERSON · MANY PEOPLE · HUMAN REVIEW. A setting that supports one task may complicate another. Do not collapse competing needs into a score, prediction, inferred trait, or automatic accommodation.
+00:00:15.000 --> 00:00:20.000
+ONE PERSON’S SUPPORT MAY COMPLICATE ANOTHER’S TASK. KEEP TRADEOFFS REVIEWABLE.
 
 5
-00:00:12.000 --> 00:00:15.000
-BOUND THE SYSTEM. PROPOSE—DO NOT ACTUATE. The demo reads no sensors, controls no equipment, measures no effect, infers no protected trait, and cannot determine safety, accessibility, compliance, or personal need.
+00:00:20.000 --> 00:00:25.000
+PROPOSE SETTINGS—DO NOT ACTUATE, INFER TRAITS, OR CLAIM SAFETY OR ACCESSIBILITY.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. KEEP THE PERSON IN CONTROL. AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE.
-
+00:00:25.000 --> 00:00:30.000
+KEEP THE PERSON IN CONTROL: CONSENT, OVERRIDE, FALLBACK, AND HUMAN REVIEW.

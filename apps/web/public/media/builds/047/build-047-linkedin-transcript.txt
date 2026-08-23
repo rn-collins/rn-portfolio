@@ -1,26 +1,8 @@
-BUILD 047-B — Will This Work Here?
+BUILD 047-B — A good idea is not context-free
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 047. A GOOD IDEA DOES NOT ARRIVE CONTEXT-FREE. A policy, technology, service, or program can succeed somewhere else and still fail when assumptions about people, place, infrastructure, authority, and resources change.
-
-SCENE 2
-DEFINE THE INTERVENTION. PURPOSE · INPUT · WORKFORCE · COST. Use synthetic profiles to bind the intervention to its intended outcome, evidence, language, staffing, funding, technology, delivery model, dependencies, and nonnegotiable limits.
-
-SCENE 3
-MOVE IT BETWEEN PLACES. ACCESS · CAPACITY · CULTURE · INFRASTRUCTURE. Compare declared conditions without ranking communities. Expose missing workforce, connectivity, language, mobility, institutional support, local knowledge, and community authority.
-
-SCENE 4
-RECOMPUTE FIT. KEEP · ADAPT · BUILD CAPACITY · STOP. When the place changes, recompute every gap and required adaptation. Preserve uncertainty, evidence limits, affected people, tradeoffs, ownership, and conditions that block transfer.
-
-SCENE 5
-BOUND THE RESULT. A SCORE IS NOT FEASIBILITY OR CONSENT. A synthetic match cannot establish effectiveness, legality, safety, funding, procurement readiness, community acceptance, implementation capacity, or permission to proceed.
-
-SCENE 6
-SAVE THIS. MAKE TRANSFERABILITY EARN ITS NAME. TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES.
-
-FINAL PROPOSITION
-TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. A good idea is not context-free. Test whether an intervention fits a different place.
+2. Define the intervention and outcome.
+3. Compare people, place and authority.
+4. Test workforce and infrastructure.
+5. Preserve nonnegotiable limits.
+6. Adapt the model before importing it.

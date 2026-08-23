@@ -1,26 +1,8 @@
-BUILD 035-B — Data Exit & Portability Test
+BUILD 035-B — An export button is not an exit
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 035. AN EXPORT BUTTON IS NOT AN EXIT. Portability fails when the copy is incomplete, unreadable, undocumented, insecure, delayed, or impossible to use somewhere else.
-
-SCENE 2
-DEFINE THE SCOPE. WHAT MUST LEAVE WITH THE PERSON?. Map account data, content, relationships, settings, consent history, provenance, derived records, media, and lawful exclusions.
-
-SCENE 3
-RUN THE EXPORT. REQUEST · VERIFY · PREPARE · DELIVER. Test identity safeguards, status, deadline, secure transfer, expiry, retry, failure notice, support, and an auditable event record.
-
-SCENE 4
-TEST THE PACKAGE. COMPLETE · STRUCTURED · DOCUMENTED · USABLE. Check counts, checksums, schema, timestamps, encodings, relationships, metadata, accessibility, and import into an independent test environment.
-
-SCENE 5
-COMPLETE THE EXIT. REVOKE · DELETE · RETAIN · CONFIRM. Separate portable data from lawful retention, stop future processing where required, handle downstream copies, and preserve appeal and correction routes.
-
-SCENE 6
-SAVE THIS. PORTABILITY MEANS A REAL WAY OUT. DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY.
-
-FINAL PROPOSITION
-DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. An export button is not an exit. Test whether exported data creates usable independence.
+2. Map everything that must leave.
+3. Preserve provenance and consent history.
+4. Test readability in another system.
+5. Protect exclusions and sensitive data.
+6. Portability means usable independence.

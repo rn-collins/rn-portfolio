@@ -1,26 +1,22 @@
-BUILD 027-B — Creator Ownership Stack Mapper
-
-Silent-first LinkedIn cut transcript
+BUILD 027 — Ownership Exposure Board
 
 SCENE 1
-BUILD 027. POSTING IS NOT OWNERSHIP. A platform can distribute the work without giving you control of the audience, archive, identity, or future access.
+BUILD 027. POSTING IS NOT OWNERSHIP. Distribution does not equal control.
 
 SCENE 2
-INTELLECTUAL PROPERTY. NAME WHAT YOU ACTUALLY OWN. Track source files, authorship, licenses, collaborators, permissions, registrations, and every reused component.
+OWN. KEEP THE SOURCE FILES. Track authorship, licenses, and permissions.
 
 SCENE 3
-AUDIENCE. BUILD A DIRECT RELATIONSHIP. Consent-based email, portable contacts, preference history, and clear unsubscribe routes survive an algorithm change.
+OWN. BUILD DIRECT AUDIENCE ACCESS. Portable, consent-based relationships survive algorithms.
 
 SCENE 4
-INFRASTRUCTURE. KEEP THE CANONICAL COPY. Use your domain, durable archive, structured metadata, exports, backups, and migration paths as the source of truth.
+OWN. KEEP THE CANONICAL COPY. Use your domain, archive, exports, and backups.
 
 SCENE 5
-DISTRIBUTION. LET PLATFORMS BE CHANNELS. Syndicate outward, measure dependencies, preserve attribution, and keep a tested exit for every critical service.
+RENT. LET PLATFORMS DISTRIBUTE. Measure dependency and maintain exits.
 
 SCENE 6
-SAVE THIS. REACH IS NOT CONTROL. PLATFORM REACH IS RENTED. YOUR OWNERSHIP STACK MUST SURVIVE THE PLATFORM.
+DEPEND. REACH IS NOT CONTROL. Your stack must survive the platform.
 
 FINAL PROPOSITION
-PLATFORM REACH IS RENTED. YOUR OWNERSHIP STACK MUST SURVIVE THE PLATFORM.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Platform reach is rented; your ownership stack must survive the platform.

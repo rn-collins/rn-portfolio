@@ -1,26 +1,22 @@
-BUILD 007-B — Feedback Loop Product Architecture
-
-Silent-first LinkedIn cut transcript
+BUILD 007 — The Product That Learns
 
 SCENE 1
-BUILD 007. THE PRODUCT SHIPS.. But shipping is one-way. Collection alone does not make a product learn.
+BUILD 007. SHIPPING IS ONE-WAY. Collection alone is not learning.
 
 SCENE 2
-CAPTURE. HEAR FOUR DIFFERENT SIGNALS.. USE · OUTCOME · CORRECTION · UNMET NEED
+CAPTURE. USE. OUTCOME. CORRECTION. NEED. Hear distinct signals.
 
 SCENE 3
-QUALIFY + ROUTE. PURPOSE · CONSENT · CONSEQUENCE · OWNER. Urgent corrections enter human triage before the ordinary request queue.
+ROUTE. PURPOSE. CONSENT. CONSEQUENCE. OWNER. Urgent corrections enter human triage.
 
 SCENE 4
-HUMAN CONTROL. EVIDENCE · AUTHORITY · CAPACITY · ESCALATION. A person in the loop matters only if they can pause, change, record and escalate.
+CONTROL. CAN HUMANS CHANGE IT? They need evidence, authority, capacity, and escalation.
 
 SCENE 5
-CLOSE THE LOOP. CHANGE → VALIDATE → COMMUNICATE → MONITOR. The product learns when a bounded improvement safely returns to observed outcomes.
+LOOP. CHANGE → VALIDATE → COMMUNICATE → MONITOR. Return improvements to observed outcomes.
 
 SCENE 6
-SAVE THIS. COLLECTION IS NOT LEARNING.. Design the accountable path by which feedback can responsibly change the product.
+LEARNING. FEEDBACK MUST CHANGE THE PRODUCT. Responsibly, visibly, and safely.
 
 FINAL PROPOSITION
-A PRODUCT LEARNS ONLY WHEN FEEDBACK CAN RESPONSIBLY CHANGE IT.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+A product learns only when feedback can responsibly change it.

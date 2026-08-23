@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 028. STORED IS NOT FOUND. A fact can exist in the archive and still fail the person who needs it at the moment of decision.
+00:00:00.000 --> 00:00:05.000
+BUILD 028. STORED IS NOT FOUND. Archives fail when retrieval fails.
 
 2
-00:00:03.000 --> 00:00:06.000
-INTENT. START WITH THE QUESTION. Model the language people actually use, the task they are doing, and the consequence of retrieving the wrong thing.
+00:00:05.000 --> 00:00:10.000
+INTENT. START WITH THE QUESTION. Rank for the real task.
 
 3
-00:00:06.000 --> 00:00:09.000
-STRUCTURE. GIVE KNOWLEDGE MORE THAN A TITLE. Stable identity, relationships, provenance, dates, audiences, and status make retrieval inspectable.
+00:00:10.000 --> 00:00:15.000
+STRUCTURE. GIVE KNOWLEDGE RELATIONSHIPS. Connect provenance, dates, status, and audience.
 
 4
-00:00:09.000 --> 00:00:12.000
-RETRIEVAL. RANK RELEVANCE WITH AUTHORITY. Similarity alone is not enough. Preserve source quality, freshness, scope, contradiction, and uncertainty.
+00:00:15.000 --> 00:00:20.000
+RETRIEVAL. BALANCE RELEVANCE + AUTHORITY. Similarity alone is insufficient.
 
 5
-00:00:12.000 --> 00:00:15.000
-EVALUATION. TEST WHAT PEOPLE CAN ACTUALLY FIND. Use known questions, missed results, false confidence, correction paths, and human feedback to measure the system.
+00:00:20.000 --> 00:00:25.000
+EVALUATION. TEST REAL QUESTIONS. Measure misses, false confidence, and corrections.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. FINDING IS PART OF KNOWING. KNOWLEDGE YOU CANNOT RELIABLY FIND IS KNOWLEDGE YOU CANNOT RELIABLY USE.
-
+00:00:25.000 --> 00:00:30.000
+FINDING. RELIABLE USE REQUIRES RETRIEVAL. The question changes the order.

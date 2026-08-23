@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 029. EVERY CHANGE ENTERS A SYSTEM. A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began.
+00:00:00.000 --> 00:00:05.000
+BUILD 029. CHANGE DOES NOT STAY LOCAL. Every edit enters a system.
 
 2
-00:00:03.000 --> 00:00:06.000
-BOUND THE CHANGE. NAME WHAT WILL BE DIFFERENT. Record the actor, object, purpose, timing, assumptions, dependencies, and the prior state being replaced.
+00:00:05.000 --> 00:00:10.000
+BOUND. NAME WHAT CHANGED. Record actor, object, purpose, and prior state.
 
 3
-00:00:06.000 --> 00:00:09.000
-TRACE CONSEQUENCE. FOLLOW WHO AND WHAT IT CAN REACH. Map direct effects, downstream handoffs, delayed effects, feedback loops, rights, and people carrying the burden.
+00:00:10.000 --> 00:00:15.000
+TRACE. FOLLOW EVERY REGISTERED PATH. Map direct and downstream effects.
 
 4
-00:00:09.000 --> 00:00:12.000
-TEST SCENARIOS. EXPECTED · EDGE · FAILURE · MISUSE. Compare evidence, uncertainty, reversibility, scale, severity, and the conditions that would change the conclusion.
+00:00:15.000 --> 00:00:20.000
+TEST. EXPECTED. EDGE. FAILURE. MISUSE. Compare severity, scale, and reversibility.
 
 5
-00:00:12.000 --> 00:00:15.000
-GOVERN THE MOVE. OWNER · MONITOR · STOP · REMEDY. A release needs accountable authority, observable signals, rollback criteria, notice, correction, and recourse.
+00:00:20.000 --> 00:00:25.000
+GOVERN. OWNER. MONITOR. STOP. REMEDY. Release requires observable controls.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. FOLLOW THE CONSEQUENCE PAST THE CHANGE. A CHANGE IS NOT SMALL WHEN ITS CONSEQUENCES TRAVEL FARTHER THAN ITS AUTHOR CAN SEE.
-
+00:00:25.000 --> 00:00:30.000
+CONSEQUENCE. FOLLOW IT PAST THE CHANGE. Distance can make small edits large.

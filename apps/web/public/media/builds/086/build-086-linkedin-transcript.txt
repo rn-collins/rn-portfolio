@@ -1,26 +1,8 @@
-BUILD 086-B — Use the Post as a Prototype
+BUILD 086-B — Use the post as a prototype
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 086. USE THE POST AS A PROTOTYPE. Use publishing to test demand, language, evidence, collaborators and product direction.
-
-SCENE 2
-SEE THE SYSTEM. NAME WHAT IS ACTUALLY MOVING. Make the actors, inputs, dependencies, decisions and consequences visible.
-
-SCENE 3
-TEST THE CLAIM. CHANGE ONE CONDITION. Use the interactive version to see what changes, what holds and what remains unknown.
-
-SCENE 4
-KEEP THE EVIDENCE. SHOW THE SOURCE AND THE LIMIT. Preserve provenance, uncertainty, responsibility and the path to correction.
-
-SCENE 5
-MAKE THE DECISION. TURN THE MAP INTO AN ACTION. Choose the next responsible move without hiding the tradeoff or the accountable human.
-
-SCENE 6
-SAVE THIS. USE PUBLISHING TO TEST DEMAND, LANGUAGE, EVIDENCE, COLLABORATORS AND PRODUCT DIRECTION.. Watch the distributable film. Then test the richer web version for yourself.
-
-FINAL PROPOSITION
-USE PUBLISHING TO TEST DEMAND, LANGUAGE, EVIDENCE, COLLABORATORS AND PRODUCT DIRECTION.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. Use the post as a prototype. Use publishing signals to choose the next product test.
+2. Publish one clear hypothesis.
+3. Listen for the audience’s language.
+4. Record demand and contradiction.
+5. Change one product assumption.
+6. Let evidence choose the next test.

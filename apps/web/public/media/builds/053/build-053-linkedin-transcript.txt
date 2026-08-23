@@ -1,26 +1,26 @@
-BUILD 053-B — Run a Tiny Experiment on Your Own Environment
+BUILD 053-B — Run a Tiny Experiment
 
 Silent-first LinkedIn cut transcript
 
 SCENE 1
-BUILD 053. ONE DIFFERENT DAY IS NOT AN EXPERIMENT. A change in light, sound, layout, nature, timing, task, or expectation can move with the outcome and make a simple before-and-after story misleading.
+BUILD 053. ONE DIFFERENT DAY IS NOT AN EXPERIMENT.
 
 SCENE 2
-DECLARE THE PROTOCOL. CONDITION · SEQUENCE · MEASURE · STOP. Use an exact-bound synthetic protocol. Name the comparison, repeated observations, timing, confounders, missing data, human control, and conditions that end the test.
+DECLARE CONDITION, SEQUENCE, MEASURE, CONFOUNDERS, MISSING DATA, AND STOP RULES.
 
 SCENE 3
-REPAIR THE DESIGN. ALTERNATE · REPEAT · UNBLOCK. Replace a blocked, confounded sequence with a longer alternating one. Recompute only descriptive condition means, their difference, and declared design features.
+ALTERNATE CONDITIONS, REPEAT OBSERVATIONS, AND REPAIR BLOCKED OR CONFOUNDED SEQUENCES.
 
 SCENE 4
-READ STRENGTH CAREFULLY. WEAK · LIMITED · PATTERN TO RETEST. Strength reflects sequence, repetition, and confounding—not an effect, causal conclusion, health measure, universal response, or proof the environment produced change.
+READ PATTERNS CAREFULLY. DESCRIPTION IS NOT CAUSATION OR PRESCRIPTION.
 
 SCENE 5
-BOUND THE RESULT. DESCRIPTION IS NOT PRESCRIPTION. The demo cannot conduct research, diagnose, treat, measure cognition or exposure, determine safety or accessibility, infer a population effect, or recommend a real environmental change.
+THIS DEMO CANNOT MEASURE HEALTH, SAFETY, COGNITION, EXPOSURE, OR POPULATION EFFECTS.
 
 SCENE 6
-SAVE THIS. MAKE THE PROTOCOL VISIBLE. A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE.
+MAKE THE PROTOCOL VISIBLE: ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY.
 
 FINAL PROPOSITION
-A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE.
+MAKE THE PROTOCOL VISIBLE: ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY.
 
 This film has no spoken audio. All meaning is presented as on-screen text.

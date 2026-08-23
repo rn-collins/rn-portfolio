@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 032. A PASSING SCORE DOES NOT AUTHORIZE RELEASE. Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.
+00:00:00.000 --> 00:00:05.000
+BUILD 032. A SCORE CANNOT AUTHORIZE RELEASE. Evidence must survive operations.
 
 2
-00:00:03.000 --> 00:00:06.000
-BOUND THE RELEASE. NAME THE VERSION AND THE CONSEQUENCE. Lock the model, data, configuration, purpose, affected people, decision, environment, change set, and unacceptable outcomes.
+00:00:05.000 --> 00:00:10.000
+BOUND. LOCK VERSION + CONSEQUENCE. Name purpose, people, environment, and unacceptable outcomes.
 
 3
-00:00:06.000 --> 00:00:09.000
-RUN THE GATES. EVIDENCE · CONTROL · OWNER · AUTHORITY. Test performance, workflow, privacy, security, accessibility, notice, review, appeal, incident response, monitoring, and rollback.
+00:00:10.000 --> 00:00:15.000
+GATES. EVIDENCE. CONTROL. OWNER. AUTHORITY. Test every required record.
 
 4
-00:00:09.000 --> 00:00:12.000
-TEST FAILURE. EXPECTED · EDGE · MISUSE · OUTAGE. Use predeclared scenarios, thresholds, evidence locators, unresolved gaps, and independent challenge—not a launch-day demonstration.
+00:00:15.000 --> 00:00:20.000
+FAILURE. EXPECTED. EDGE. MISUSE. OUTAGE. Use predeclared thresholds and scenarios.
 
 5
-00:00:12.000 --> 00:00:15.000
-DECIDE THE NEXT STATE. HOLD · REMEDIATE · PILOT · RELEASE · ROLLBACK. Record who can decide, what conditions apply, when the decision expires, what will be monitored, and what automatically stops the use.
+00:00:20.000 --> 00:00:25.000
+DECIDE. HOLD. REMEDIATE. PILOT. RELEASE. Record conditions, expiry, monitoring, and stops.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. READINESS MUST SURVIVE CONTACT WITH OPERATIONS. A RELEASE IS READY ONLY WHEN THE CONTROLS ARE OPERABLE, EVIDENCED, AND OWNED.
-
+00:00:25.000 --> 00:00:30.000
+READINESS. MISSING EVIDENCE BLOCKS THE DOOR. Controls must be operable and owned.

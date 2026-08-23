@@ -1,26 +1,22 @@
-BUILD 008-B — Decision-Ready Dashboard Standard
-
-Silent-first LinkedIn cut transcript
+BUILD 008 — Data Is Not a Decision
 
 SCENE 1
-BUILD 008. A WALL OF CHARTS.. More information is visible. The decision is still missing.
+BUILD 008. A WALL OF CHARTS. The decision is still missing.
 
 SCENE 2
-START HERE. NAME THE DECISION.. Every retained metric must explain how it can change that decision.
+START. NAME THE DECISION. Every metric must affect it.
 
 SCENE 3
-MAKE EVIDENCE LEGIBLE. SOURCE · FRESHNESS · COMPARISON · UNCERTAINTY. A highlighted number without context is not yet decision-ready.
+EVIDENCE. SOURCE. FRESHNESS. COMPARISON. UNCERTAINTY. Context makes numbers legible.
 
 SCENE 4
-MAKE ACTION ACCOUNTABLE. DECISION → OWNER → ACTION → NEXT STATE. Add trigger, deadline, authority and escalation.
+ACTION. DECISION → OWNER → NEXT STATE. Add trigger, deadline, authority, escalation.
 
 SCENE 5
-HUMAN CONTROL. CONFLICTS NEED A PERSON.. The dashboard can expose a conflict. An accountable human must resolve it.
+CONTROL. CONFLICTS NEED A PERSON. Dashboards expose; humans resolve.
 
 SCENE 6
-SAVE THIS. DATA IS NOT A DECISION.. Build the accountable path from evidence to action and observable change.
+OUTCOME. DATA MUST ENABLE ACTION. Visibility alone is not usefulness.
 
 FINAL PROPOSITION
-DATA BECOMES USEFUL WHEN SOMEONE CAN DECIDE AND ACT.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Data becomes useful when someone can decide and act.

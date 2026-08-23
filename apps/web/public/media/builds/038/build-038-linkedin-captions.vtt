@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 038. A BENCHMARK SCORE IS NOT GENERAL PERFORMANCE. A model can look strong on synthetic examples and still fail the domain, workflow, people, conditions, or consequence that matter.
+00:00:00.000 --> 00:00:05.000
+A benchmark is not performance. Evaluate AI inside the domain and decision that matter.
 
 2
-00:00:03.000 --> 00:00:06.000
-BOUND THE CLAIM. NAME THE USE AND THE DECISION. Lock model and version, domain task, population, environment, human role, success criteria, unacceptable outcomes, and what the test cannot prove.
+00:00:05.000 --> 00:00:10.000
+Name the domain decision.
 
 3
-00:00:06.000 --> 00:00:09.000
-BUILD THE SET. REPRESENTATIVE · EDGE · FAILURE · ABSTAIN. Use synthetic cases with provenance, coverage rationale, protected challenge sets, known limitations, and competent domain review.
+00:00:10.000 --> 00:00:15.000
+Lock model, version and conditions.
 
 4
-00:00:09.000 --> 00:00:12.000
-MEASURE SEPARATELY. QUALITY · SAFETY · FAIRNESS · RELIABILITY. Keep uncertainty, subgroup behavior, calibration, refusals, consistency, latency, cost, and human-workflow effects visible instead of one average.
+00:00:15.000 --> 00:00:20.000
+Test failures that matter here.
 
 5
-00:00:12.000 --> 00:00:15.000
-INTERPRET WITH CONTROL. EVIDENCE · LIMIT · OWNER · NEXT TEST. Preserve errors and contradictions, investigate causes, compare alternatives, define monitoring and stops, and never let the score approve deployment.
+00:00:20.000 --> 00:00:25.000
+Include people and workflow consequences.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. THE CLAIM CANNOT OUTRUN THE TEST. A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED.
-
+00:00:25.000 --> 00:00:30.000
+Bound exactly what the score proves.

@@ -1,26 +1,22 @@
-BUILD 023-B — Consent & Data Rights Manager
-
-Silent-first LinkedIn cut transcript
+BUILD 023 — Consent That Can Change Its Mind
 
 SCENE 1
-Bundled consent. BUNDLED CONSENT HIDES THE DEAL. A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal.
+BUILD 023. BUNDLED CONSENT HIDES THE DEAL. One yes explains too little.
 
 SCENE 2
-Specificity. SEPARATE EVERY PURPOSE. Each purpose needs its own scope, permission state, evidence, and decision history.
+SPECIFICITY. SEPARATE EVERY PURPOSE. Each scope needs permission and history.
 
 SCENE 3
-Event truth. EVENTS MUST TELL THE TRUTH. Grant and withdrawal records must form a valid, chronological, append-only state chain.
+EVENTS. RECORD THE TRUTH. Grant and withdrawal form chronological chains.
 
 SCENE 4
-Withdrawal. WITHDRAWAL CHANGES WHAT HAPPENS NEXT. It stops future consent-based processing without erasing prior facts or overriding lawful obligations.
+WITHDRAWAL. CHANGE WHAT HAPPENS NEXT. Stop future consent-based processing.
 
 SCENE 5
-Rights routes. ROUTE EVERY RIGHTS REQUEST. Access, correction, deletion, retention, withdrawal, and reuse need an owner, deadline, status, and escalation.
+RIGHTS. ROUTE EVERY REQUEST. Assign owner, deadline, status, escalation.
 
 SCENE 6
-Save this. CONTROL REQUIRES A LIVING RECORD. Consent is specific, changeable, evidenced, and never the only possible legal basis.
+CONTROL. KEEP A LIVING RECORD. Consent must remain specific and changeable.
 
 FINAL PROPOSITION
-CONSENT IS SPECIFIC, CHANGEABLE, EVIDENCED, AND NEVER THE ONLY POSSIBLE LEGAL BASIS.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+Consent is specific, changeable, evidenced, and never the only possible legal basis.

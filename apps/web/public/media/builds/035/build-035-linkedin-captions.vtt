@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 035. AN EXPORT BUTTON IS NOT AN EXIT. Portability fails when the copy is incomplete, unreadable, undocumented, insecure, delayed, or impossible to use somewhere else.
+00:00:00.000 --> 00:00:05.000
+An export button is not an exit. Test whether exported data creates usable independence.
 
 2
-00:00:03.000 --> 00:00:06.000
-DEFINE THE SCOPE. WHAT MUST LEAVE WITH THE PERSON?. Map account data, content, relationships, settings, consent history, provenance, derived records, media, and lawful exclusions.
+00:00:05.000 --> 00:00:10.000
+Map everything that must leave.
 
 3
-00:00:06.000 --> 00:00:09.000
-RUN THE EXPORT. REQUEST · VERIFY · PREPARE · DELIVER. Test identity safeguards, status, deadline, secure transfer, expiry, retry, failure notice, support, and an auditable event record.
+00:00:10.000 --> 00:00:15.000
+Preserve provenance and consent history.
 
 4
-00:00:09.000 --> 00:00:12.000
-TEST THE PACKAGE. COMPLETE · STRUCTURED · DOCUMENTED · USABLE. Check counts, checksums, schema, timestamps, encodings, relationships, metadata, accessibility, and import into an independent test environment.
+00:00:15.000 --> 00:00:20.000
+Test readability in another system.
 
 5
-00:00:12.000 --> 00:00:15.000
-COMPLETE THE EXIT. REVOKE · DELETE · RETAIN · CONFIRM. Separate portable data from lawful retention, stop future processing where required, handle downstream copies, and preserve appeal and correction routes.
+00:00:20.000 --> 00:00:25.000
+Protect exclusions and sensitive data.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. PORTABILITY MEANS A REAL WAY OUT. DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY.
-
+00:00:25.000 --> 00:00:30.000
+Portability means usable independence.

@@ -1,26 +1,8 @@
-BUILD 040-B — AI Stop / Escalate Engine
+BUILD 040-B — Confidence is not permission
 
-Silent-first LinkedIn cut transcript
-
-SCENE 1
-BUILD 040. CONFIDENCE IS NOT PERMISSION TO CONTINUE. A fluent answer can conceal missing evidence, failed tools, high consequence, or uncertainty that should change the next action.
-
-SCENE 2
-DECLARE THE BOUNDARY. CONSEQUENCE · EVIDENCE · UNCERTAINTY. Use a dated versioned policy. Name required controls, accountable humans, tool dependencies, verified fallbacks, and expiry before selecting an action.
-
-SCENE 3
-KEEP ACTIONS DISTINCT. CONTINUE · ASK · ABSTAIN. Continue only inside the declared boundary. Ask when evidence can be repaired. Abstain when the model lacks a safe or authorized path.
-
-SCENE 4
-HANDLE FAILURE. FALL BACK · ESCALATE · STOP. Require a verified fallback after a required tool fails. Escalate high-consequence uncertainty. Stop when neither control is available.
-
-SCENE 5
-DO NOT LET URGENCY CHEAT. TIME PRESSURE NEVER LOWERS THE GATE. Preserve the rule, reason, blockers, inherited control records, and exact state-only replay without invoking tools or repeating side effects.
-
-SCENE 6
-SAVE THIS. MAKE THE NEXT ACTION EXPLICIT. A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT.
-
-FINAL PROPOSITION
-A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT.
-
-This film has no spoken audio. All meaning is presented as on-screen text.
+1. Confidence is not permission. Stop or escalate when consequence outruns evidence.
+2. Declare consequence and evidence thresholds.
+3. Stop when required controls fail.
+4. Escalate uncertainty to a human.
+5. Record the reason and fallback.
+6. Govern when AI must not continue.

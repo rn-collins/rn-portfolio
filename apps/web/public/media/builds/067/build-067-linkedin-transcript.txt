@@ -1,26 +1,26 @@
-BUILD 067-B — A Digital Twin Should Know What It Does Not Own
+BUILD 067-B — A Digital Twin Begins With Gaps
 
 Silent-first LinkedIn cut transcript
 
 SCENE 1
-BUILD 067. A DIGITAL TWIN BEGINS WITH GAPS. Fixed synthetic knowledge objects begin with missing context, undeclared ownership, blocked inference, and permission that may be withheld.
+BUILD 067. A DIGITAL TWIN BEGINS WITH GAPS.
 
 SCENE 2
-FORM A BOUNDED MODEL. OBJECTS CONNECT ONLY THROUGH EXPLICIT CONTEXT. Keep knowledge, preferences, values, roles, relationships, permissions, context, sources, and declared use limits distinct.
+KEEP KNOWLEDGE, PREFERENCES, ROLES, PERMISSIONS, SOURCES, AND USE LIMITS DISTINCT.
 
 SCENE 3
-SEPARATE THE STATES. DECLARED IS NOT INFERRED. Similarity is not authority. Possession is not ownership. A model entry is not consent, identity, truth, or permission to act.
+DECLARED IS NOT INFERRED. SIMILARITY IS NOT AUTHORITY.
 
 SCENE 4
-PRESERVE THE HOLDS. WITHHELD · EXPIRED · UNDECLARED · BLOCKED. Do not fill gaps by inventing permission, current context, ownership, personal traits, motives, diagnoses, or psychological profiles.
+WITHHELD, EXPIRED, UNDECLARED, AND BLOCKED REMAIN VALID STATES.
 
 SCENE 5
-BOUND THE RESULT. A MODEL OF BOUNDARIES, NOT A CLAIM OF RIGHTS. This fixed synthetic demonstration stores no personal data, verifies no identity, and does not persist, monitor, score, or surveil.
+NEVER INVENT PERMISSION, OWNERSHIP, PERSONAL TRAITS, MOTIVES, OR DIAGNOSES.
 
 SCENE 6
-SAVE THIS. UNKNOWN IS A VALID STATE. A PERSONAL MODEL IS USEFUL WHEN PERMISSION, SOURCE, DECLARED OR INFERRED STATE, CONTEXT, OWNERSHIP STATUS, AND LIMITS STAY CONNECTED.
+A PERSONAL MODEL WORKS WHEN UNKNOWN REMAINS VISIBLE.
 
 FINAL PROPOSITION
-UNKNOWN IS A VALID STATE.
+A PERSONAL MODEL WORKS WHEN UNKNOWN REMAINS VISIBLE.
 
 This film has no spoken audio. All meaning is presented as on-screen text.

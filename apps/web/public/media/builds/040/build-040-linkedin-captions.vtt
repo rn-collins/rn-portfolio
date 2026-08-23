@@ -1,26 +1,25 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:03.000
-BUILD 040. CONFIDENCE IS NOT PERMISSION TO CONTINUE. A fluent answer can conceal missing evidence, failed tools, high consequence, or uncertainty that should change the next action.
+00:00:00.000 --> 00:00:05.000
+Confidence is not permission. Stop or escalate when consequence outruns evidence.
 
 2
-00:00:03.000 --> 00:00:06.000
-DECLARE THE BOUNDARY. CONSEQUENCE · EVIDENCE · UNCERTAINTY. Use a dated versioned policy. Name required controls, accountable humans, tool dependencies, verified fallbacks, and expiry before selecting an action.
+00:00:05.000 --> 00:00:10.000
+Declare consequence and evidence thresholds.
 
 3
-00:00:06.000 --> 00:00:09.000
-KEEP ACTIONS DISTINCT. CONTINUE · ASK · ABSTAIN. Continue only inside the declared boundary. Ask when evidence can be repaired. Abstain when the model lacks a safe or authorized path.
+00:00:10.000 --> 00:00:15.000
+Stop when required controls fail.
 
 4
-00:00:09.000 --> 00:00:12.000
-HANDLE FAILURE. FALL BACK · ESCALATE · STOP. Require a verified fallback after a required tool fails. Escalate high-consequence uncertainty. Stop when neither control is available.
+00:00:15.000 --> 00:00:20.000
+Escalate uncertainty to a human.
 
 5
-00:00:12.000 --> 00:00:15.000
-DO NOT LET URGENCY CHEAT. TIME PRESSURE NEVER LOWERS THE GATE. Preserve the rule, reason, blockers, inherited control records, and exact state-only replay without invoking tools or repeating side effects.
+00:00:20.000 --> 00:00:25.000
+Record the reason and fallback.
 
 6
-00:00:15.000 --> 00:00:18.000
-SAVE THIS. MAKE THE NEXT ACTION EXPLICIT. A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT.
-
+00:00:25.000 --> 00:00:30.000
+Govern when AI must not continue.
