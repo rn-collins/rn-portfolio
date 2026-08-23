@@ -1,4 +1,5 @@
-import type {Metadata} from 'next';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('007','b');
 import Link from 'next/link';
 import GovernedLoopField from './GovernedLoopField';
 import shell from '../../001/room.module.css';
