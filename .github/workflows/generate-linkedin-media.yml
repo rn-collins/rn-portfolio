@@ -1,0 +1,42 @@
+name: Generate and verify LinkedIn media
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'repo-media-generator/**'
+      - 'generate_*.mjs'
+      - 'build_*linkedin*.mjs'
+      - 'linkedin_recuts_*_data.mjs'
+      - 'linkedin-cut-pipeline/generate-final-recuts*.mjs'
+permissions:
+  contents: write
+jobs:
+  media:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pinned rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg=7:6.1.1-3ubuntu5 imagemagick=8:6.9.12.98+dfsg1-5.2build2 fonts-dejavu-core
+      - name: Generate and verify all 400 assets
+        run: node repo-media-generator/generate-all.mjs generated-media
+      - name: Upload verified deployment payload
+        uses: actions/upload-artifact@v4
+        with:
+          name: rn-builds-linkedin-media
+          path: generated-media
+          if-no-files-found: error
+          retention-days: 14
+      - name: Install verified media in the application
+        run: |
+          mkdir -p apps/web/public/media/builds
+          rsync -a --delete --exclude generated-manifest.json generated-media/ apps/web/public/media/builds/
+      - name: Commit generated media to this branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apps/web/public/media/builds
+          git diff --cached --quiet && exit 0
+          git commit -m "Replace all 100 LinkedIn media packages"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
