@@ -1,4 +1,5 @@
-import type {Metadata} from 'next';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('006','b');
 import Link from 'next/link';
 import FormGateField from './FormGateField';
 import shell from '../../001/room.module.css';
