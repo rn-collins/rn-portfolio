@@ -1,6 +1,6 @@
-import type {Metadata} from 'next';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('007','a');
 import Link from 'next/link';
 import FeedbackLoopLab from './FeedbackLoopLab';
 import shell from '../../001/room.module.css';
-export const metadata:Metadata={title:'Build 007-A — Feedback Loop Product Architecture',description:'Turn use, outcomes, corrections and unmet needs into a governed product-learning loop.',alternates:{canonical:'/100-builds/007/a'},openGraph:{title:'Build 007-A — Feedback Loop Product Architecture',description:'Design the controls that let feedback become accountable product improvement.',type:'website'},twitter:{card:'summary_large_image',title:'Build 007-A — Feedback Loop Product Architecture',description:'Close one-way product flow into a governed learning loop.'}};
 export default function Build007A(){return <main className={shell.toolRoom}><nav className={shell.crumb}><Link href="/100-builds/007">← Build 007</Link><span>007-A / Functional build</span></nav><header className={shell.toolLabel}><div><span>BUILD 007-A</span><h1>Feedback Loop Product Architecture</h1></div><p>Map what the product can hear, who may act, and what must happen before feedback becomes a validated and communicated improvement.</p></header><FeedbackLoopLab/></main>}
