@@ -1,4 +1,6 @@
-import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('009','b');\nimport type {Metadata} from 'next';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('009','b');
+import type {Metadata} from 'next';
 import Link from 'next/link';
 import FeasibilityField from './FeasibilityField';
 import shell from '../../001/room.module.css';
