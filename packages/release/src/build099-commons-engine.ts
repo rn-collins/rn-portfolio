@@ -3,9 +3,9 @@ export type Access='PUBLIC'|'PARTNERS'|'STEWARDS';
 export type Dataset={id:string;name:string;island:string;steward:string;access:Access;updated:string;source:string;fields:readonly string[]};
 export type CommonsInput={datasetId:string;requester:Access;purpose:'PLANNING'|'RESEARCH'|'COMMERCIAL';acceptTerms:boolean};
 export const DATASETS:readonly Dataset[]=Object.freeze([
-{id:'water-01',name:'Community water capacity',island:'Hawaiʻi',steward:'Hāmākua Water Hui',access:'PUBLIC',updated:'2026-08-18',source:'Quarterly steward survey',fields:Object.freeze(['district','capacity_band','freshness'])},
-{id:'port-02',name:'Essential freight dependencies',island:'Maui',steward:'Maui Resilience Table',access:'PARTNERS',updated:'2026-08-11',source:'Partner-verified dependency register',fields:Object.freeze(['sector','dependency','fallback'])},
-{id:'shelter-03',name:'Community shelter knowledge',island:'Molokaʻi',steward:'Molokaʻi Steward Council',access:'STEWARDS',updated:'2026-07-29',source:'Community-held knowledge record',fields:Object.freeze(['area','capacity_band','protocol'])}
+{id:'water-01',name:'Community water capacity',island:'North Fixture Island',steward:'Cedar Commons Steward Group',access:'PUBLIC',updated:'2049-01-18',source:'Synthetic quarterly fixture',fields:Object.freeze(['district','capacity_band','freshness'])},
+{id:'port-02',name:'Essential freight dependencies',island:'East Fixture Island',steward:'Harbor Commons Steward Group',access:'PARTNERS',updated:'2049-01-11',source:'Synthetic dependency fixture',fields:Object.freeze(['sector','dependency','fallback'])},
+{id:'shelter-03',name:'Community shelter knowledge',island:'West Fixture Island',steward:'Lattice Commons Steward Group',access:'STEWARDS',updated:'2048-12-29',source:'Synthetic restricted fixture',fields:Object.freeze(['area','capacity_band','protocol'])}
 ]);
 const rank:Record<Access,number>={PUBLIC:0,PARTNERS:1,STEWARDS:2};
 export function rehearseCommons(input:CommonsInput){
