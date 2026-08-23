@@ -9,32 +9,32 @@ type CareRecord = {
   episodeId: 'SYNTHETIC-EPISODE-065';
   participantId: 'SYNTHETIC-PARTICIPANT-065';
   stage: 'POST-SESSION';
-  sessionOccurredAt: '2026-08-18';
-  continuityCheckedAt: '2026-08-21';
+  sessionOccurredAt: '2049-01-18';
+  continuityCheckedAt: '2049-01-21';
   careBoundary: {
     handoffId: 'HANDOFF-065-01';
     subject: 'POST-SESSION CONTINUITY SUMMARY';
     sendingRole: 'SYNTHETIC-SESSION-TEAM';
     receivingRole: 'SYNTHETIC-FOLLOWUP-TEAM';
-    retainedResponsibility: 'SENDER RETAINS RESPONSIBILITY UNTIL ACCEPTANCE';
+    retainedResponsibility: 'FICTIONAL RULE: SENDER REMAINS MODELED OWNER UNTIL ACCEPTANCE';
     evidencePackage: readonly ['SUMMARY-065-01', 'PERMISSION-065-01', 'FOLLOWUP-065-01'];
     permissionBasis: 'PERMISSION-065-01';
     acceptanceTest: 'RECEIVER ACKNOWLEDGES SUBJECT OWNER DUE DATE AND EXCEPTION ROUTE';
-    deadline: '2026-08-20';
+    deadline: '2049-01-20';
     incidentDuty: 'USE DECLARED EMERGENCY ROUTE; THIS FIXTURE DOES NOT MONITOR OR RESPOND';
     recordLocator: 'synthetic://065/handoff-01';
     recoursePath: 'SYNTHETIC-CONTINUITY-SUPERVISOR';
     state: 'ACCEPTED' | 'UNACCEPTED';
-    acceptedAt: '2026-08-19' | null;
+    acceptedAt: '2049-01-19' | null;
   };
   permission: {
     permissionId: 'PERMISSION-065-01';
     purpose: 'SHARE SYNTHETIC CONTINUITY SUMMARY FOR DECLARED FOLLOWUP';
     dataClasses: readonly ['SYNTHETIC SESSION SUMMARY', 'SYNTHETIC FOLLOWUP PLAN'];
     recipient: 'SYNTHETIC-FOLLOWUP-TEAM';
-    grantedAt: '2026-08-18';
+    grantedAt: '2049-01-18';
     state: 'CURRENT' | 'WITHDRAWN';
-    withdrawnAt: '2026-08-21' | null;
+    withdrawnAt: '2049-01-21' | null;
     downstreamReview: 'NONE' | 'OPEN';
     retention: 'FIXTURE SESSION ONLY; NO PERSISTENCE';
     validity: 'NOT ASSESSED';
@@ -43,9 +43,9 @@ type CareRecord = {
     followupId: 'FOLLOWUP-065-01';
     kind: 'SYNTHETIC CHECK-IN';
     owner: 'SYNTHETIC-FOLLOWUP-ROLE';
-    dueAt: '2026-08-20';
+    dueAt: '2049-01-20';
     state: 'COMPLETED' | 'OVERDUE';
-    completedAt: '2026-08-20' | null;
+    completedAt: '2049-01-20' | null;
     completionEvidence: 'synthetic://065/followup-01' | null;
     escalationOwner: 'SYNTHETIC-CONTINUITY-SUPERVISOR';
   };
@@ -81,7 +81,7 @@ type CareRecord = {
 export type CareContinuityInput = {
   fixtureId: 'SYNTHETIC-PSYCHEDELIC-CARE-065';
   scenarioId: ScenarioId;
-  assessedAt: '2026-08-21';
+  assessedAt: '2049-01-21';
   record: CareRecord;
   inherited: {
     handoffContract: 'cap:017';
@@ -144,30 +144,30 @@ const base: CareRecord = {
   episodeId: 'SYNTHETIC-EPISODE-065',
   participantId: 'SYNTHETIC-PARTICIPANT-065',
   stage: 'POST-SESSION',
-  sessionOccurredAt: '2026-08-18',
-  continuityCheckedAt: '2026-08-21',
+  sessionOccurredAt: '2049-01-18',
+  continuityCheckedAt: '2049-01-21',
   careBoundary: {
     handoffId: 'HANDOFF-065-01',
     subject: 'POST-SESSION CONTINUITY SUMMARY',
     sendingRole: 'SYNTHETIC-SESSION-TEAM',
     receivingRole: 'SYNTHETIC-FOLLOWUP-TEAM',
-    retainedResponsibility: 'SENDER RETAINS RESPONSIBILITY UNTIL ACCEPTANCE',
+    retainedResponsibility: 'FICTIONAL RULE: SENDER REMAINS MODELED OWNER UNTIL ACCEPTANCE',
     evidencePackage: ['SUMMARY-065-01', 'PERMISSION-065-01', 'FOLLOWUP-065-01'],
     permissionBasis: 'PERMISSION-065-01',
     acceptanceTest: 'RECEIVER ACKNOWLEDGES SUBJECT OWNER DUE DATE AND EXCEPTION ROUTE',
-    deadline: '2026-08-20',
+    deadline: '2049-01-20',
     incidentDuty: 'USE DECLARED EMERGENCY ROUTE; THIS FIXTURE DOES NOT MONITOR OR RESPOND',
     recordLocator: 'synthetic://065/handoff-01',
     recoursePath: 'SYNTHETIC-CONTINUITY-SUPERVISOR',
     state: 'ACCEPTED',
-    acceptedAt: '2026-08-19',
+    acceptedAt: '2049-01-19',
   },
   permission: {
     permissionId: 'PERMISSION-065-01',
     purpose: 'SHARE SYNTHETIC CONTINUITY SUMMARY FOR DECLARED FOLLOWUP',
     dataClasses: ['SYNTHETIC SESSION SUMMARY', 'SYNTHETIC FOLLOWUP PLAN'],
     recipient: 'SYNTHETIC-FOLLOWUP-TEAM',
-    grantedAt: '2026-08-18',
+    grantedAt: '2049-01-18',
     state: 'CURRENT',
     withdrawnAt: null,
     downstreamReview: 'NONE',
@@ -178,9 +178,9 @@ const base: CareRecord = {
     followupId: 'FOLLOWUP-065-01',
     kind: 'SYNTHETIC CHECK-IN',
     owner: 'SYNTHETIC-FOLLOWUP-ROLE',
-    dueAt: '2026-08-20',
+    dueAt: '2049-01-20',
     state: 'COMPLETED',
-    completedAt: '2026-08-20',
+    completedAt: '2049-01-20',
     completionEvidence: 'synthetic://065/followup-01',
     escalationOwner: 'SYNTHETIC-CONTINUITY-SUPERVISOR',
   },
@@ -203,7 +203,7 @@ const base: CareRecord = {
 };
 
 const make = (scenarioId: ScenarioId, record: CareRecord): CareContinuityInput => ({
-  fixtureId: 'SYNTHETIC-PSYCHEDELIC-CARE-065', scenarioId, assessedAt: '2026-08-21', record, inherited,
+  fixtureId: 'SYNTHETIC-PSYCHEDELIC-CARE-065', scenarioId, assessedAt: '2049-01-21', record, inherited,
 });
 
 export const CARE_CONTINUITY_SCENARIOS: Readonly<Record<ScenarioId, CareContinuityInput>> = {
@@ -214,7 +214,7 @@ export const CARE_CONTINUITY_SCENARIOS: Readonly<Record<ScenarioId, CareContinui
   }),
   'PERMISSION-WITHDRAWN': make('PERMISSION-WITHDRAWN', {
     ...base,
-    permission: { ...base.permission, state: 'WITHDRAWN', withdrawnAt: '2026-08-21', downstreamReview: 'OPEN' },
+    permission: { ...base.permission, state: 'WITHDRAWN', withdrawnAt: '2049-01-21', downstreamReview: 'OPEN' },
     change: { ...base.change, changedObject: 'PERMISSION-065-01', state: 'OPEN', affected: ['HANDOFF-065-01', 'FOLLOWUP-065-01'] },
   }),
   'FOLLOWUP-OVERDUE': make('FOLLOWUP-OVERDUE', {
@@ -258,7 +258,7 @@ function evaluate(candidate: unknown): CareContinuityResult {
   return {
     status,
     episode: [r.episodeId + ' · ' + r.stage + ' · SESSION ' + r.sessionOccurredAt],
-    boundaries: ['SESSION ENDS · CONTINUITY CONTINUES', r.careBoundary.retainedResponsibility],
+    boundaries: ['FICTIONAL EVENT ENDS · FIXTURE PATH CONTINUES', r.careBoundary.retainedResponsibility],
     handoffs: [r.careBoundary.handoffId + ' · ' + r.careBoundary.state + ' · ' + r.careBoundary.sendingRole + ' → ' + r.careBoundary.receivingRole],
     permissions: [r.permission.permissionId + ' · ' + r.permission.state + ' · VALIDITY ' + r.permission.validity, 'PURPOSE · ' + r.permission.purpose],
     followups: [r.followup.followupId + ' · ' + r.followup.state + ' · DUE ' + r.followup.dueAt],
@@ -274,7 +274,7 @@ function evaluate(candidate: unknown): CareContinuityResult {
       'UNRECORDED NEEDS RISKS CONTACTS CHANGES INCIDENTS CRISIS CONDITIONS DEPENDENCIES AND ACCOUNTABILITY GAPS',
     ],
     nonClaims: [
-      'CONTINUITY CURRENT MEANS INTERNALLY CURRENT FOR THIS FIXED SYNTHETIC FIXTURE ONLY',
+      'CURRENT MEANS INTERNALLY CURRENT FOR THIS FIXED FICTIONAL FIXTURE ONLY; IT IS NOT A CARE OR SAFETY STATUS',
       'THIS FIXTURE DOES NOT MONITOR A PERSON PROVIDE CARE OR RESPOND TO URGENT OR EMERGENCY CONDITIONS',
       'FOR URGENT OR EMERGENCY HELP CONTACT LOCAL EMERGENCY SERVICES OR AN APPROPRIATE CRISIS SERVICE NOW',
       'A RECORDED SAFETY SIGNAL IS NOT A DIAGNOSIS RISK ASSESSMENT TRIAGE DECISION OR PROOF OF AN EMERGENCY',
