@@ -1294,1255 +1294,1255 @@
     },
     {
       "id": "035",
-      "title": "Data Exit & Portability Test",
-      "final": "DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY.",
+      "title": "An export button is not an exit",
+      "final": "Portability means usable independence.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 035",
-          "headline": "AN EXPORT BUTTON IS NOT AN EXIT",
-          "body": "Portability fails when the copy is incomplete, unreadable, undocumented, insecure, delayed, or impossible to use somewhere else."
+          "eyebrow": "",
+          "headline": "An export button is not an exit. Test whether exported data creates usable independence.",
+          "body": ""
         },
         {
-          "eyebrow": "DEFINE THE SCOPE",
-          "headline": "WHAT MUST LEAVE WITH THE PERSON?",
-          "body": "Map account data, content, relationships, settings, consent history, provenance, derived records, media, and lawful exclusions."
+          "eyebrow": "",
+          "headline": "Map everything that must leave.",
+          "body": ""
         },
         {
-          "eyebrow": "RUN THE EXPORT",
-          "headline": "REQUEST · VERIFY · PREPARE · DELIVER",
-          "body": "Test identity safeguards, status, deadline, secure transfer, expiry, retry, failure notice, support, and an auditable event record."
+          "eyebrow": "",
+          "headline": "Preserve provenance and consent history.",
+          "body": ""
         },
         {
-          "eyebrow": "TEST THE PACKAGE",
-          "headline": "COMPLETE · STRUCTURED · DOCUMENTED · USABLE",
-          "body": "Check counts, checksums, schema, timestamps, encodings, relationships, metadata, accessibility, and import into an independent test environment."
+          "eyebrow": "",
+          "headline": "Test readability in another system.",
+          "body": ""
         },
         {
-          "eyebrow": "COMPLETE THE EXIT",
-          "headline": "REVOKE · DELETE · RETAIN · CONFIRM",
-          "body": "Separate portable data from lawful retention, stop future processing where required, handle downstream copies, and preserve appeal and correction routes."
+          "eyebrow": "",
+          "headline": "Protect exclusions and sensitive data.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "PORTABILITY MEANS A REAL WAY OUT",
-          "body": "DATA IS NOT PORTABLE UNTIL A PERSON CAN LEAVE WITH A COMPLETE, USABLE, AND SAFE COPY."
+          "eyebrow": "",
+          "headline": "Portability means usable independence.",
+          "body": ""
         }
       ]
     },
     {
       "id": "036",
-      "title": "Resilience Mode / Offline Survival Test",
-      "final": "RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY.",
+      "title": "Offline is a product state",
+      "final": "Design disconnection before it happens.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 036",
-          "headline": "OFFLINE IS A PRODUCT STATE—NOT AN ERROR PAGE",
-          "body": "Essential work needs a deliberate mode for disconnection, partial service, stale data, queued actions, conflict, and recovery."
+          "eyebrow": "",
+          "headline": "Offline is a product state. Keep essential work safe through disconnection and recovery.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND ESSENTIAL WORK",
-          "headline": "WHAT MUST STILL BE POSSIBLE?",
-          "body": "Name critical tasks, minimum evidence, local data, prohibited actions, human fallback, expiry, dependencies, and the consequence of delay."
+          "eyebrow": "",
+          "headline": "Name the essential work.",
+          "body": ""
         },
         {
-          "eyebrow": "ENTER RESILIENCE MODE",
-          "headline": "DETECT · EXPLAIN · LIMIT · CONTINUE",
-          "body": "Make network state, freshness, unavailable features, safe capabilities, queued work, support, and stop conditions explicit."
+          "eyebrow": "",
+          "headline": "Cache only minimum trusted data.",
+          "body": ""
         },
         {
-          "eyebrow": "PROTECT LOCAL STATE",
-          "headline": "MINIMIZE · ENCRYPT · VERSION · EXPIRE",
-          "body": "Store only what is necessary, preserve provenance and accessibility, prevent silent overwrite, and make device loss and shared-device risk visible."
+          "eyebrow": "",
+          "headline": "Queue actions with visible status.",
+          "body": ""
         },
         {
-          "eyebrow": "RECOVER WITH EVIDENCE",
-          "headline": "RECONNECT · COMPARE · RESOLVE · CONFIRM",
-          "body": "Revalidate identity and freshness, detect conflicts and duplicates, require accountable resolution, sync safely, and record the resulting state."
+          "eyebrow": "",
+          "headline": "Resolve conflicts during recovery.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "FAIL SAFELY. RECOVER TRUTHFULLY.",
-          "body": "RESILIENCE IS NOT STAYING ONLINE. IT IS FAILING SAFELY AND RECOVERING TRUTHFULLY."
+          "eyebrow": "",
+          "headline": "Design disconnection before it happens.",
+          "body": ""
         }
       ]
     },
     {
       "id": "037",
-      "title": "Feedback → Change Governance Lab",
-      "final": "FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE.",
+      "title": "Feedback is a signal, not a command",
+      "final": "Govern the route from signal to change.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 037",
-          "headline": "FEEDBACK IS A SIGNAL—NOT A PRODUCT COMMAND",
-          "body": "A comment can reveal correction, outcome, unmet need, misuse, access barrier, or preference without proving what should change."
+          "eyebrow": "",
+          "headline": "Feedback is a signal, not a command. Turn feedback into governed evidence for change.",
+          "body": ""
         },
         {
-          "eyebrow": "CAPTURE SAFELY",
-          "headline": "PURPOSE · CONSENT · MINIMIZATION · PROVENANCE",
-          "body": "Use synthetic reporting in the lab. Separate content from identity, protect sensitive detail, preserve context, and offer correction and withdrawal routes."
+          "eyebrow": "",
+          "headline": "Capture purpose, consent and context.",
+          "body": ""
         },
         {
-          "eyebrow": "QUALIFY THE SIGNAL",
-          "headline": "EVIDENCE · RECURRENCE · CONSEQUENCE · UNCERTAINTY",
-          "body": "Deduplicate carefully, keep minority and contradictory reports visible, test source limits, and route urgent harm to accountable human triage."
+          "eyebrow": "",
+          "headline": "Separate identity from sensitive detail.",
+          "body": ""
         },
         {
-          "eyebrow": "GOVERN THE CHANGE",
-          "headline": "PROPOSAL · OWNER · AUTHORITY · DECISION",
-          "body": "Link the feedback to a bounded change, alternatives, affected people, evidence, risks, dependencies, approval, dissent, conditions, and rollback."
+          "eyebrow": "",
+          "headline": "Classify correction, need or preference.",
+          "body": ""
         },
         {
-          "eyebrow": "CLOSE THE LOOP",
-          "headline": "VALIDATE · COMMUNICATE · MONITOR · CORRECT",
-          "body": "Test whether the change works, tell reporters what happened when appropriate, watch intended and unintended outcomes, and preserve the record."
+          "eyebrow": "",
+          "headline": "Test impact before changing product.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "SIGNAL → DECISION → VERIFIED CHANGE",
-          "body": "FEEDBACK BECOMES LEARNING ONLY THROUGH AN ACCOUNTABLE PATH FROM SIGNAL TO VERIFIED CHANGE."
+          "eyebrow": "",
+          "headline": "Govern the route from signal to change.",
+          "body": ""
         }
       ]
     },
     {
       "id": "038",
-      "title": "Domain AI Evaluation Studio",
-      "final": "A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED.",
+      "title": "A benchmark is not performance",
+      "final": "Bound exactly what the score proves.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 038",
-          "headline": "A BENCHMARK SCORE IS NOT GENERAL PERFORMANCE",
-          "body": "A model can look strong on synthetic examples and still fail the domain, workflow, people, conditions, or consequence that matter."
+          "eyebrow": "",
+          "headline": "A benchmark is not performance. Evaluate AI inside the domain and decision that matter.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE CLAIM",
-          "headline": "NAME THE USE AND THE DECISION",
-          "body": "Lock model and version, domain task, population, environment, human role, success criteria, unacceptable outcomes, and what the test cannot prove."
+          "eyebrow": "",
+          "headline": "Name the domain decision.",
+          "body": ""
         },
         {
-          "eyebrow": "BUILD THE SET",
-          "headline": "REPRESENTATIVE · EDGE · FAILURE · ABSTAIN",
-          "body": "Use synthetic cases with provenance, coverage rationale, protected challenge sets, known limitations, and competent domain review."
+          "eyebrow": "",
+          "headline": "Lock model, version and conditions.",
+          "body": ""
         },
         {
-          "eyebrow": "MEASURE SEPARATELY",
-          "headline": "QUALITY · SAFETY · FAIRNESS · RELIABILITY",
-          "body": "Keep uncertainty, subgroup behavior, calibration, refusals, consistency, latency, cost, and human-workflow effects visible instead of one average."
+          "eyebrow": "",
+          "headline": "Test failures that matter here.",
+          "body": ""
         },
         {
-          "eyebrow": "INTERPRET WITH CONTROL",
-          "headline": "EVIDENCE · LIMIT · OWNER · NEXT TEST",
-          "body": "Preserve errors and contradictions, investigate causes, compare alternatives, define monitoring and stops, and never let the score approve deployment."
+          "eyebrow": "",
+          "headline": "Include people and workflow consequences.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "THE CLAIM CANNOT OUTRUN THE TEST",
-          "body": "A DOMAIN EVALUATION SUPPORTS ONLY THE USE, DATA, CONDITIONS, AND CONSEQUENCES IT ACTUALLY TESTED."
+          "eyebrow": "",
+          "headline": "Bound exactly what the score proves.",
+          "body": ""
         }
       ]
     },
     {
       "id": "039",
-      "title": "Agent Work Trace Inspector",
-      "final": "ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT.",
+      "title": "A trace is evidence, not truth",
+      "final": "Escalate gaps before judging the outcome.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 039",
-          "headline": "A TRACE IS EVIDENCE—NOT THE TRUTH",
-          "body": "An event log can show sequence and state without proving intent, correctness, completeness, causation, or a safe outcome."
+          "eyebrow": "",
+          "headline": "A trace is evidence, not truth. Inspect agent activity without overstating what logs prove.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE SESSION",
-          "headline": "PURPOSE · AUTHORITY · SCOPE · STOP",
-          "body": "Lock agent and model version, environment, permitted tools and data, accountable owner, approval gates, prohibited actions, and termination conditions."
+          "eyebrow": "",
+          "headline": "Bound the agent session.",
+          "body": ""
         },
         {
-          "eyebrow": "CAPTURE SAFELY",
-          "headline": "EVENT · TIME · STATE · RESULT",
-          "body": "Use synthetic redacted traces. Record requests, tool outcomes, approvals, errors, retries, and side effects—never credentials, secrets, or private content."
+          "eyebrow": "",
+          "headline": "Log tools, data and approvals.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP LAYERS APART",
-          "headline": "OBSERVED ≠ INFERRED ≠ VERIFIED",
-          "body": "Preserve provenance, missing events, uncertainty, contradictions, transformations, and reviewer notes instead of inventing a continuous story."
+          "eyebrow": "",
+          "headline": "Reconstruct sequence and state.",
+          "body": ""
         },
         {
-          "eyebrow": "INSPECT THE CONTROL",
-          "headline": "REPLAY · CONTAIN · CORRECT · VALIDATE",
-          "body": "Check permissions, sequence, human intervention, external change, stop behavior, and consequence before deciding whether work can stand."
+          "eyebrow": "",
+          "headline": "Separate observation from intent.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "INSPECTABLE WITHOUT EXPOSURE",
-          "body": "ACCOUNTABLE AGENT WORK LEAVES AN INSPECTABLE TRAIL WITHOUT EXPOSING PRIVATE CONTENT."
+          "eyebrow": "",
+          "headline": "Escalate gaps before judging the outcome.",
+          "body": ""
         }
       ]
     },
     {
       "id": "040",
-      "title": "AI Stop / Escalate Engine",
-      "final": "A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT.",
+      "title": "Confidence is not permission",
+      "final": "Govern when AI must not continue.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 040",
-          "headline": "CONFIDENCE IS NOT PERMISSION TO CONTINUE",
-          "body": "A fluent answer can conceal missing evidence, failed tools, high consequence, or uncertainty that should change the next action."
+          "eyebrow": "",
+          "headline": "Confidence is not permission. Stop or escalate when consequence outruns evidence.",
+          "body": ""
         },
         {
-          "eyebrow": "DECLARE THE BOUNDARY",
-          "headline": "CONSEQUENCE · EVIDENCE · UNCERTAINTY",
-          "body": "Use a dated versioned policy. Name required controls, accountable humans, tool dependencies, verified fallbacks, and expiry before selecting an action."
+          "eyebrow": "",
+          "headline": "Declare consequence and evidence thresholds.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP ACTIONS DISTINCT",
-          "headline": "CONTINUE · ASK · ABSTAIN",
-          "body": "Continue only inside the declared boundary. Ask when evidence can be repaired. Abstain when the model lacks a safe or authorized path."
+          "eyebrow": "",
+          "headline": "Stop when required controls fail.",
+          "body": ""
         },
         {
-          "eyebrow": "HANDLE FAILURE",
-          "headline": "FALL BACK · ESCALATE · STOP",
-          "body": "Require a verified fallback after a required tool fails. Escalate high-consequence uncertainty. Stop when neither control is available."
+          "eyebrow": "",
+          "headline": "Escalate uncertainty to a human.",
+          "body": ""
         },
         {
-          "eyebrow": "DO NOT LET URGENCY CHEAT",
-          "headline": "TIME PRESSURE NEVER LOWERS THE GATE",
-          "body": "Preserve the rule, reason, blockers, inherited control records, and exact state-only replay without invoking tools or repeating side effects."
+          "eyebrow": "",
+          "headline": "Record the reason and fallback.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE THE NEXT ACTION EXPLICIT",
-          "body": "A SAFE BOUNDARY MAKES CONTINUE, ASK, ABSTAIN, FALL BACK, ESCALATE, AND STOP EXPLICIT."
+          "eyebrow": "",
+          "headline": "Govern when AI must not continue.",
+          "body": ""
         }
       ]
     },
     {
       "id": "041",
-      "title": "Who Owns the AI Work?",
-      "final": "ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER.",
+      "title": "AI work needs an owner",
+      "final": "Ownership must follow every decision.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 041",
-          "headline": "AI WORK CAN EXIST WITHOUT AN OWNER",
-          "body": "A tool can enter a workflow, influence a decision, or depend on a vendor while responsibility remains assumed, fragmented, or invisible."
+          "eyebrow": "",
+          "headline": "AI work needs an owner. Connect every AI decision to accountable ownership.",
+          "body": ""
         },
         {
-          "eyebrow": "MAP THE ORGANIZATION",
-          "headline": "TOOL · DECISION · VENDOR · WORKFLOW",
-          "body": "Use synthetic records to connect each AI component to its purpose, accountable role, approving authority, operator, affected workflow, and review date."
+          "eyebrow": "",
+          "headline": "Map tool, vendor and workflow.",
+          "body": ""
         },
         {
-          "eyebrow": "FIND THE ORPHANS",
-          "headline": "NO OWNER · STALE OWNER · SPLIT AUTHORITY",
-          "body": "Flag missing assignments, departed owners, conflicting roles, expired reviews, unowned vendor changes, and decisions nobody is authorized to make."
+          "eyebrow": "",
+          "headline": "Name the accountable role.",
+          "body": ""
         },
         {
-          "eyebrow": "REASSIGN EXPLICITLY",
-          "headline": "FROM · TO · AUTHORITY · EFFECTIVE DATE",
-          "body": "A reassignment must preserve the prior owner, reason, approval, scope, evidence, effective time, open duties, and a path to challenge or correct it."
+          "eyebrow": "",
+          "headline": "Attach approval and review dates.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP THE CLAIM BOUNDED",
-          "headline": "A MAP IS NOT ACCOUNTABILITY",
-          "body": "Visible assignments do not prove oversight, competence, compliance, safety, performance, or that the named person accepted and exercised the role."
+          "eyebrow": "",
+          "headline": "Expose fragmented responsibility.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE OWNERSHIP VISIBLE",
-          "body": "ACCOUNTABILITY BEGINS WHEN EVERY AI TOOL, DECISION, VENDOR, AND WORKFLOW HAS A VISIBLE OWNER."
+          "eyebrow": "",
+          "headline": "Ownership must follow every decision.",
+          "body": ""
         }
       ]
     },
     {
       "id": "042",
-      "title": "Give the AI a Real Job",
-      "final": "AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT.",
+      "title": "A prompt is not a job description",
+      "final": "Give the AI a bounded job.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 042",
-          "headline": "A PROMPT IS NOT A JOB DESCRIPTION",
-          "body": "An agent can produce fluent work while its purpose, authority, tools, accountable owner, prohibited actions, and required review remain undefined."
+          "eyebrow": "",
+          "headline": "A prompt is not a job description. Define purpose, authority, tools and human review.",
+          "body": ""
         },
         {
-          "eyebrow": "DEFINE THE ROLE",
-          "headline": "PURPOSE · INPUT · OUTPUT · OWNER",
-          "body": "Use a synthetic role to name the bounded task, accepted inputs, expected artifact, responsible human, affected people, success criteria, and consequence."
+          "eyebrow": "",
+          "headline": "Define purpose, input and output.",
+          "body": ""
         },
         {
-          "eyebrow": "DECLARE THE TOOL ENVELOPE",
-          "headline": "ALLOW · DENY · REQUIRE APPROVAL",
-          "body": "Assign only necessary tools and data. Separate read, draft, recommend, communicate, transact, and delete permissions; attach evidence and expiry."
+          "eyebrow": "",
+          "headline": "Limit tools and authority.",
+          "body": ""
         },
         {
-          "eyebrow": "MOVE A RESPONSIBILITY",
-          "headline": "PERMISSION · RISK · EVALUATION",
-          "body": "When work moves in or out, recompute required access, consequence, evaluation coverage, human review, inherited ownership, and the safe fallback."
+          "eyebrow": "",
+          "headline": "Name prohibited actions.",
+          "body": ""
         },
         {
-          "eyebrow": "GOVERN THE EDGE",
-          "headline": "REVIEW · ESCALATE · ABSTAIN · STOP",
-          "body": "Require review before consequential action. Preserve uncertainty, failed tools, boundary violations, escalation routes, termination rules, and exact state-only replay."
+          "eyebrow": "",
+          "headline": "Assign owner and review gate.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "GIVE THE AGENT A REAL JOB",
-          "body": "AN AI AGENT HAS A REAL JOB ONLY WHEN ITS ROLE, TOOLS, BOUNDARIES, REVIEW POINTS, AND STOP CONDITIONS ARE EXPLICIT."
+          "eyebrow": "",
+          "headline": "Give the AI a bounded job.",
+          "body": ""
         }
       ]
     },
     {
       "id": "043",
-      "title": "Design an AI Team",
-      "final": "AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH.",
+      "title": "More agents create more handoffs",
+      "final": "Design the team, not just agents.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 043",
-          "headline": "MORE AGENTS CREATE MORE HANDOFFS",
-          "body": "Splitting complex work can add specialization while multiplying lost context, duplicated effort, hidden permissions, coordination cost, and unowned failure."
+          "eyebrow": "",
+          "headline": "More agents create more handoffs. Coordinate specialized agents without losing context or ownership.",
+          "body": ""
         },
         {
-          "eyebrow": "DESIGN THE TEAM",
-          "headline": "ROLE · OWNER · INPUT · OUTPUT",
-          "body": "Use a synthetic topology to bind each agent and person to a bounded job, accountable owner, permitted tools, evidence contract, review point, and stop rule."
+          "eyebrow": "",
+          "headline": "Give each role one bounded job.",
+          "body": ""
         },
         {
-          "eyebrow": "GOVERN THE HANDOFF",
-          "headline": "SOURCE · TRANSFORM · RECEIVER · ACCEPTANCE",
-          "body": "Pass the smallest necessary state. Preserve provenance, uncertainty, constraints, rejected work, authority, expected response, and proof that the receiver accepted it."
+          "eyebrow": "",
+          "headline": "Define evidence contracts between agents.",
+          "body": ""
         },
         {
-          "eyebrow": "RECOMPUTE THE SYSTEM",
-          "headline": "BOTTLENECK · SUPERVISION · COST · FAILURE",
-          "body": "When a role or connection changes, recalculate queue pressure, human review, access, latency, spend, evaluation coverage, and every reachable failure path."
+          "eyebrow": "",
+          "headline": "Preserve context across transfers.",
+          "body": ""
         },
         {
-          "eyebrow": "FAIL WITHOUT CASCADING",
-          "headline": "CONTAIN · FALL BACK · ESCALATE · STOP",
-          "body": "Block loops, stale or conflicting state, unauthorized tools, missing owners, and failed required checks; preserve exact trace and accountable human intervention."
+          "eyebrow": "",
+          "headline": "Own coordination failures.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "CONTROL LIVES BETWEEN THE NODES",
-          "body": "AN AI TEAM IS GOVERNED ONLY WHEN EVERY HANDOFF PRESERVES PURPOSE, AUTHORITY, EVIDENCE, SUPERVISION, AND A SAFE FAILURE PATH."
+          "eyebrow": "",
+          "headline": "Design the team, not just agents.",
+          "body": ""
         }
       ]
     },
     {
       "id": "044",
-      "title": "Reuse the Parts That Regulation Keeps Requiring",
-      "final": "REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM.",
+      "title": "Requirements are not copy-paste blocks",
+      "final": "Reuse structure without losing regulation.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 044",
-          "headline": "RECURRING REQUIREMENTS ARE NOT COPY-PASTE BLOCKS",
-          "body": "Approvals, consent, evidence, disclosures, and records recur, but the rule, actor, purpose, jurisdiction, risk, and effective date can change what is valid."
+          "eyebrow": "",
+          "headline": "Requirements are not copy-paste blocks. Reuse regulated structure while preserving legal context.",
+          "body": ""
         },
         {
-          "eyebrow": "DEFINE THE COMPONENT",
-          "headline": "PURPOSE · INPUT · OUTPUT · OWNER",
-          "body": "Use synthetic records to bind each component to authority, evidence, required fields, accountable role, review gate, version, effective period, and prohibited reuse."
+          "eyebrow": "",
+          "headline": "Bind each component to authority.",
+          "body": ""
         },
         {
-          "eyebrow": "ASSEMBLE THE WORKFLOW",
-          "headline": "APPROVE · CONSENT · DISCLOSE · RECORD",
-          "body": "Compose only compatible components. Preserve order, dependencies, decisions, signatures, provenance, retention, correction, withdrawal, and human review."
+          "eyebrow": "",
+          "headline": "Carry purpose, evidence and owner.",
+          "body": ""
         },
         {
-          "eyebrow": "CHANGE THE CONTEXT",
-          "headline": "ACTOR · USE · PLACE · CONSEQUENCE",
-          "body": "When a declared condition changes, recompute applicability, required evidence, permissions, language, review, downstream records, and every affected component."
+          "eyebrow": "",
+          "headline": "Version rules by effective date.",
+          "body": ""
         },
         {
-          "eyebrow": "INVALIDATE EXPLICITLY",
-          "headline": "STALE · CONFLICT · MISSING · REVOKED",
-          "body": "Fail closed on expired authority, incompatible versions, missing evidence, revoked consent, broken dependencies, or context outside the component’s declared scope."
+          "eyebrow": "",
+          "headline": "Block reuse outside valid context.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "REUSE THE CONTROL—NOT THE ASSUMPTION",
-          "body": "REGULATED COMPONENTS ARE REUSABLE ONLY WHEN CONTEXT, EVIDENCE, AUTHORITY, VERSION, AND INVALIDATION TRAVEL WITH THEM."
+          "eyebrow": "",
+          "headline": "Reuse structure without losing regulation.",
+          "body": ""
         }
       ]
     },
     {
       "id": "045",
-      "title": "Cannabis Care Access Journey",
-      "final": "ACCESS IS THE WHOLE JOURNEY THROUGH INFORMATION, ELIGIBILITY, COST, TRAVEL, CLINICIANS, SUPPLY, AND CONTINUING CARE.",
+      "title": "Availability is not access",
+      "final": "Design cannabis care around the journey.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 045",
-          "headline": "AVAILABILITY IS NOT ACCESS",
-          "body": "A program or product can exist while a person still cannot understand the rules, qualify, afford the process, reach care, find supply, or continue safely."
+          "eyebrow": "",
+          "headline": "Availability is not access. Reveal barriers across the full cannabis care journey.",
+          "body": ""
         },
         {
-          "eyebrow": "MAP THE JOURNEY",
-          "headline": "LEARN · QUALIFY · PAY · TRAVEL",
-          "body": "Use synthetic people and places to trace required information, eligibility, documents, fees, appointments, distance, time, mobility, language, privacy, and support."
+          "eyebrow": "",
+          "headline": "Trace learning, eligibility and cost.",
+          "body": ""
         },
         {
-          "eyebrow": "TEST THE CARE PATH",
-          "headline": "CLINICIAN · PRODUCT · SUPPLY · FOLLOW-UP",
-          "body": "Keep clinical judgment human. Show availability, product and formulation constraints, pharmacy or dispensary steps, continuity, monitoring, and what remains unknown."
+          "eyebrow": "",
+          "headline": "Map travel, supply and support.",
+          "body": ""
         },
         {
-          "eyebrow": "CHANGE THE CONTEXT",
-          "headline": "COST · MOBILITY · ELIGIBILITY · LOCATION",
-          "body": "When one constraint changes, reroute the declared path and recompute time, expense, travel, required steps, barriers, alternatives, and unresolved dead ends."
+          "eyebrow": "",
+          "headline": "Expose privacy and language barriers.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE CLAIM",
-          "headline": "A ROUTE IS NOT CARE OR LEGAL ADVICE",
-          "body": "A modeled journey cannot verify current law, eligibility, clinical appropriateness, product safety, inventory, affordability, accessibility, or a successful outcome."
+          "eyebrow": "",
+          "headline": "Test continuity after entry.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MEASURE THE WHOLE JOURNEY",
-          "body": "ACCESS IS THE WHOLE JOURNEY THROUGH INFORMATION, ELIGIBILITY, COST, TRAVEL, CLINICIANS, SUPPLY, AND CONTINUING CARE."
+          "eyebrow": "",
+          "headline": "Design cannabis care around the journey.",
+          "body": ""
         }
       ]
     },
     {
       "id": "046",
-      "title": "What Does This Island Depend On?",
-      "final": "ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE.",
+      "title": "Essential systems cross the shore",
+      "final": "Resilience starts with dependencies.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 046",
-          "headline": "ESSENTIAL SYSTEMS DO NOT END AT THE SHORE",
-          "body": "Food, water, energy, health, communications, transport, waste, finance, and public services depend on linked local capacity and external routes."
+          "eyebrow": "",
+          "headline": "Essential systems cross the shore. Trace island systems through local and external dependencies.",
+          "body": ""
         },
         {
-          "eyebrow": "MAP THE DEPENDENCIES",
-          "headline": "SOURCE · ROUTE · SERVICE · PLACE",
-          "body": "Use synthetic infrastructure to connect each essential function to upstream supply, local assets, operators, alternatives, inventory, geography, and accountable owners."
+          "eyebrow": "",
+          "headline": "Map source, route and service.",
+          "body": ""
         },
         {
-          "eyebrow": "CUT ONE CONNECTION",
-          "headline": "PORT · CABLE · ROUTE · SERVICE",
-          "body": "Remove a declared node or edge and trace immediate loss, delayed effects, cross-sector cascades, geographic reach, duration, uncertainty, and evidence limits."
+          "eyebrow": "",
+          "headline": "Connect local assets and operators.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP PEOPLE VISIBLE",
-          "headline": "ACCESS · HEALTH · COST · MOBILITY",
-          "body": "Do not flatten island impact into one score. Preserve who is affected first, who has fewer substitutes, what burdens shift, and which communities define priority."
+          "eyebrow": "",
+          "headline": "Test inventory and alternatives.",
+          "body": ""
         },
         {
-          "eyebrow": "TEST RECOVERY",
-          "headline": "FALL BACK · ALLOCATE · RESTORE · LEARN",
-          "body": "Compare bounded alternatives, prerequisites, tradeoffs, human authority, stop rules, restoration sequence, residual risk, and changes required before the next disruption."
+          "eyebrow": "",
+          "headline": "Reveal geographic choke points.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "SEE THE SYSTEM BEFORE IT BREAKS",
-          "body": "ISLAND RESILIENCE STARTS BY MAKING DEPENDENCIES, CASCADES, UNEQUAL CONSEQUENCES, AND RECOVERY CHOICES VISIBLE."
+          "eyebrow": "",
+          "headline": "Resilience starts with dependencies.",
+          "body": ""
         }
       ]
     },
     {
       "id": "047",
-      "title": "Will This Work Here?",
-      "final": "TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES.",
+      "title": "A good idea is not context-free",
+      "final": "Adapt the model before importing it.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 047",
-          "headline": "A GOOD IDEA DOES NOT ARRIVE CONTEXT-FREE",
-          "body": "A policy, technology, service, or program can succeed somewhere else and still fail when assumptions about people, place, infrastructure, authority, and resources change."
+          "eyebrow": "",
+          "headline": "A good idea is not context-free. Test whether an intervention fits a different place.",
+          "body": ""
         },
         {
-          "eyebrow": "DEFINE THE INTERVENTION",
-          "headline": "PURPOSE · INPUT · WORKFORCE · COST",
-          "body": "Use synthetic profiles to bind the intervention to its intended outcome, evidence, language, staffing, funding, technology, delivery model, dependencies, and nonnegotiable limits."
+          "eyebrow": "",
+          "headline": "Define the intervention and outcome.",
+          "body": ""
         },
         {
-          "eyebrow": "MOVE IT BETWEEN PLACES",
-          "headline": "ACCESS · CAPACITY · CULTURE · INFRASTRUCTURE",
-          "body": "Compare declared conditions without ranking communities. Expose missing workforce, connectivity, language, mobility, institutional support, local knowledge, and community authority."
+          "eyebrow": "",
+          "headline": "Compare people, place and authority.",
+          "body": ""
         },
         {
-          "eyebrow": "RECOMPUTE FIT",
-          "headline": "KEEP · ADAPT · BUILD CAPACITY · STOP",
-          "body": "When the place changes, recompute every gap and required adaptation. Preserve uncertainty, evidence limits, affected people, tradeoffs, ownership, and conditions that block transfer."
+          "eyebrow": "",
+          "headline": "Test workforce and infrastructure.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A SCORE IS NOT FEASIBILITY OR CONSENT",
-          "body": "A synthetic match cannot establish effectiveness, legality, safety, funding, procurement readiness, community acceptance, implementation capacity, or permission to proceed."
+          "eyebrow": "",
+          "headline": "Preserve nonnegotiable limits.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE TRANSFERABILITY EARN ITS NAME",
-          "body": "TRANSFERABILITY MUST BE EARNED BY TESTING THE INTERVENTION AGAINST THE PLACE, ITS PEOPLE, AND ITS DEPENDENCIES."
+          "eyebrow": "",
+          "headline": "Adapt the model before importing it.",
+          "body": ""
         }
       ]
     },
     {
       "id": "048",
-      "title": "What Does This Rule Feel Like in Real Life?",
-      "final": "A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER.",
+      "title": "The rule and journey differ",
+      "final": "Judge policy through lived navigation.",
       "sourceCheckedOn": "2026-08-20",
       "scenes": [
         {
-          "eyebrow": "BUILD 048",
-          "headline": "THE RULE AND THE JOURNEY ARE NOT THE SAME RECORD",
-          "body": "Formal language can describe eligibility, duties, steps, and remedies while hiding the time, cost, uncertainty, exposure, and effort required to navigate them."
+          "eyebrow": "",
+          "headline": "The rule and journey differ. Compare formal policy with the burden of navigating it.",
+          "body": ""
         },
         {
-          "eyebrow": "READ THE POLICY PATH",
-          "headline": "AUTHORITY · STEP · DECISION · RECOURSE",
-          "body": "Use a dated synthetic rule to map who acts, what is required, which evidence counts, where discretion enters, what notice is given, and how a decision can be challenged."
+          "eyebrow": "",
+          "headline": "Map authority, steps and evidence.",
+          "body": ""
         },
         {
-          "eyebrow": "TRACE THE LIVED PATH",
-          "headline": "TIME · COST · ACCESS · CONSEQUENCE",
-          "body": "Use synthetic experiences to preserve actual sequence, waiting, travel, language, disability, privacy, confusion, failed attempts, support, and unequal burden without claiming representativeness."
+          "eyebrow": "",
+          "headline": "Locate discretion and notice.",
+          "body": ""
         },
         {
-          "eyebrow": "CHANGE THE PROCEDURE",
-          "headline": "PROPAGATE THE EFFECT",
-          "body": "When a step, document, deadline, channel, decision point, or recourse changes, recompute burden, access, failure points, notice, evidence, and downstream consequences."
+          "eyebrow": "",
+          "headline": "Count time, cost and exposure.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP CLAIMS DISTINCT",
-          "headline": "TEXT ≠ PRACTICE ≠ EXPERIENCE",
-          "body": "One rule, modeled path, or account cannot prove implementation, prevalence, fairness, causation, legal interpretation, remedy, or what every person experiences."
+          "eyebrow": "",
+          "headline": "Preserve challenge and recourse routes.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "READ THE RULE WITH THE JOURNEY",
-          "body": "A RULE IS NOT FULLY UNDERSTOOD UNTIL ITS PROCEDURE, BURDEN, EXPERIENCE, AND RECOURSE CAN BE READ TOGETHER."
+          "eyebrow": "",
+          "headline": "Judge policy through lived navigation.",
+          "body": ""
         }
       ]
     },
     {
       "id": "049",
-      "title": "What Works for You?",
-      "final": "PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES.",
+      "title": "A preference is not permanent",
+      "final": "Personalization should remain revisable.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 049",
-          "headline": "A PREFERENCE IS NOT A PERMANENT TRAIT",
-          "body": "What helps or overwhelms a person can change with setting, goal, health, energy, company, timing, access, and prior response."
+          "eyebrow": "",
+          "headline": "A preference is not permanent. Build private personalization that can change with context.",
+          "body": ""
         },
         {
-          "eyebrow": "BUILD PRIVATE CONTEXT",
-          "headline": "PREFERENCE · SENSITIVITY · GOAL · RESPONSE",
-          "body": "Use synthetic browser-local records. Collect only what the person chooses, name purpose and expiry, preserve source and uncertainty, and offer correction, deletion, and export."
+          "eyebrow": "",
+          "headline": "Collect only chosen private context.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP CONTEXT ATTACHED",
-          "headline": "SETTING · TIME · SUPPORT · CONSTRAINT",
-          "body": "Bind each response to the conditions in which it occurred. Keep contradictions, unknowns, changes, and one-off experiences instead of flattening them into a fixed profile."
+          "eyebrow": "",
+          "headline": "Name purpose, source and expiry.",
+          "body": ""
         },
         {
-          "eyebrow": "CHANGE THE MOMENT",
-          "headline": "REORGANIZE—DO NOT DIAGNOSE",
-          "body": "When setting, goals, sensitivities, or responses change, reorder the visible constellation without inferring identity, disability, health status, intent, or what will work next."
+          "eyebrow": "",
+          "headline": "Include setting, goal and energy.",
+          "body": ""
         },
         {
-          "eyebrow": "PRESERVE HUMAN CONTROL",
-          "headline": "VIEW · CORRECT · WITHDRAW · EXIT",
-          "body": "Let the person inspect every field, restrict reuse and sharing, revoke consent, delete local state, carry a portable record, and choose no recommendation."
+          "eyebrow": "",
+          "headline": "Offer correction, deletion and export.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "CONTEXT BELONGS TO THE PERSON",
-          "body": "PERSONAL CONTEXT BECOMES USEFUL WHEN IT STAYS PRIVATE, CORRECTABLE, SITUATIONAL, AND OWNED BY THE PERSON IT DESCRIBES."
+          "eyebrow": "",
+          "headline": "Personalization should remain revisable.",
+          "body": ""
         }
       ]
     },
     {
       "id": "050",
       "title": "Environment Assumption & Tradeoff Explorer",
-      "final": "A MODEL IS USEFUL WHEN ITS ASSUMPTIONS, TRADEOFFS, AND UNKNOWNS STAY VISIBLE.",
+      "final": "MAKE THE ASSUMPTIONS VISIBLE. Use the model to form questions for real evidence and affected people.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "SCENE 1",
-          "headline": "A ROOM MODEL IS NOT EVIDENCE",
-          "body": "A fictional room can expose assumptions without claiming how a real person will respond."
+          "eyebrow": "",
+          "headline": "A ROOM MODEL IS NOT EVIDENCE. A fictional room can expose assumptions without claiming how a real person will respond.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 2",
-          "headline": "DECLARE THE VARIABLES",
-          "body": "Light, sound, layout and nature are model inputs—not measured causes or effects."
+          "eyebrow": "",
+          "headline": "DECLARE THE VARIABLES. Light, sound, layout and nature are model inputs—not measured causes or effects.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 3",
-          "headline": "CHANGE THE FICTIONAL CONTEXT",
-          "body": "When room or goal changes, recompute only the declared tradeoff model."
+          "eyebrow": "",
+          "headline": "CHANGE THE FICTIONAL CONTEXT. When room or goal changes, recompute only the declared tradeoff model.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 4",
-          "headline": "SHOW WHAT IS UNKNOWN",
-          "body": "Real exposure, people, responses, accessibility and competing needs remain unmeasured."
+          "eyebrow": "",
+          "headline": "SHOW WHAT IS UNKNOWN. Real exposure, people, responses, accessibility and competing needs remain unmeasured.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 5",
-          "headline": "MODEL ≠ MEASUREMENT ≠ PRESCRIPTION",
-          "body": "An illustrative score cannot become a health, performance or design conclusion."
+          "eyebrow": "",
+          "headline": "MODEL ≠ MEASUREMENT ≠ PRESCRIPTION. An illustrative score cannot become a health, performance or design conclusion.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 6",
-          "headline": "MAKE THE ASSUMPTIONS VISIBLE",
-          "body": "Use the model to form questions for real evidence and affected people."
+          "eyebrow": "",
+          "headline": "MAKE THE ASSUMPTIONS VISIBLE. Use the model to form questions for real evidence and affected people.",
+          "body": ""
         }
       ]
     },
     {
       "id": "051",
       "title": "Adaptive Cannabis Source Navigator",
-      "final": "ADAPT THE SOURCE PATH—NOT THE PERSONAL ANSWER.",
+      "final": "KEEP THE SOURCE AND LIMIT TOGETHER. Every lesson should expose issuer, date, exact section and unresolved uncertainty.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "SCENE 1",
-          "headline": "ONE QUESTION DOES NOT NEED EVERY LESSON",
-          "body": "A fictional learner’s topic can change source order without creating personal advice."
+          "eyebrow": "",
+          "headline": "ONE QUESTION DOES NOT NEED EVERY LESSON. A fictional learner’s topic can change source order without creating personal advice.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 2",
-          "headline": "READ THE QUESTION—NOT THE PERSON",
-          "body": "Collect no health profile; preserve topic, source date, jurisdiction and unknowns."
+          "eyebrow": "",
+          "headline": "READ THE QUESTION—NOT THE PERSON. Collect no health profile; preserve topic, source date, jurisdiction and unknowns.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 3",
-          "headline": "REORDER SOURCES, NOT ANSWERS",
-          "body": "Adapt navigation and knowledge checks; do not recommend use, products or doses."
+          "eyebrow": "",
+          "headline": "REORDER SOURCES, NOT ANSWERS. Adapt navigation and knowledge checks; do not recommend use, products or doses.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 4",
-          "headline": "STOP AT INDIVIDUAL RISK",
-          "body": "High-risk or legal questions route to current official or professional help."
+          "eyebrow": "",
+          "headline": "STOP AT INDIVIDUAL RISK. High-risk or legal questions route to current official or professional help.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 5",
-          "headline": "EDUCATION IS NOT CLEARANCE",
-          "body": "A dated source cannot determine personal safety, effectiveness, impairment or legality."
+          "eyebrow": "",
+          "headline": "EDUCATION IS NOT CLEARANCE. A dated source cannot determine personal safety, effectiveness, impairment or legality.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 6",
-          "headline": "KEEP THE SOURCE AND LIMIT TOGETHER",
-          "body": "Every lesson should expose issuer, date, exact section and unresolved uncertainty."
+          "eyebrow": "",
+          "headline": "KEEP THE SOURCE AND LIMIT TOGETHER. Every lesson should expose issuer, date, exact section and unresolved uncertainty.",
+          "body": ""
         }
       ]
     },
     {
       "id": "052",
       "title": "Synthetic Cannabis Comparison Literacy",
-      "final": "A RESPONSIBLE COMPARISON SHOWS WHAT THE NAME DOES NOT ESTABLISH.",
+      "final": "LOOK BEYOND THE NAME. A responsible comparison begins by showing which evidence is still missing.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "SCENE 1",
-          "headline": "A NAME IS NOT A VERIFIED PRODUCT RECORD",
-          "body": "A familiar label does not supply verified identity, composition, quality, effect or safety."
+          "eyebrow": "",
+          "headline": "A NAME IS NOT A VERIFIED PRODUCT RECORD. A familiar label does not supply verified identity, composition, quality, effect or safety.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 2",
-          "headline": "OPEN THE FICTIONAL RECORD",
-          "body": "Compare declared name, format and relative bands while keeping missing evidence visible."
+          "eyebrow": "",
+          "headline": "OPEN THE FICTIONAL RECORD. Compare declared name, format and relative bands while keeping missing evidence visible.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 3",
-          "headline": "FIELDS ARE NOT FINDINGS",
-          "body": "Changing a comparison reorganizes fields; it does not create equivalence or fit."
+          "eyebrow": "",
+          "headline": "FIELDS ARE NOT FINDINGS. Changing a comparison reorganizes fields; it does not create equivalence or fit.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 4",
-          "headline": "PRESERVE THE GAPS",
-          "body": "No laboratory result, verified label, dose, batch, person or current law is represented."
+          "eyebrow": "",
+          "headline": "PRESERVE THE GAPS. No laboratory result, verified label, dose, batch, person or current law is represented.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 5",
-          "headline": "COMPARE—DO NOT RECOMMEND",
-          "body": "The demo cannot rank, match, predict, guide purchase or interpret a certificate."
+          "eyebrow": "",
+          "headline": "COMPARE—DO NOT RECOMMEND. The demo cannot rank, match, predict, guide purchase or interpret a certificate.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 6",
-          "headline": "LOOK BEYOND THE NAME",
-          "body": "A responsible comparison begins by showing which evidence is still missing."
+          "eyebrow": "",
+          "headline": "LOOK BEYOND THE NAME. A responsible comparison begins by showing which evidence is still missing.",
+          "body": ""
         }
       ]
     },
     {
       "id": "053",
-      "title": "Run a Tiny Experiment on Your Own Environment",
-      "final": "A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE.",
+      "title": "Run a Tiny Experiment",
+      "final": "MAKE THE PROTOCOL VISIBLE: ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 053",
-          "headline": "ONE DIFFERENT DAY IS NOT AN EXPERIMENT",
-          "body": "A change in light, sound, layout, nature, timing, task, or expectation can move with the outcome and make a simple before-and-after story misleading."
+          "eyebrow": "",
+          "headline": "BUILD 053. ONE DIFFERENT DAY IS NOT AN EXPERIMENT.",
+          "body": ""
         },
         {
-          "eyebrow": "DECLARE THE PROTOCOL",
-          "headline": "CONDITION · SEQUENCE · MEASURE · STOP",
-          "body": "Use an exact-bound synthetic protocol. Name the comparison, repeated observations, timing, confounders, missing data, human control, and conditions that end the test."
+          "eyebrow": "",
+          "headline": "DECLARE CONDITION, SEQUENCE, MEASURE, CONFOUNDERS, MISSING DATA, AND STOP RULES.",
+          "body": ""
         },
         {
-          "eyebrow": "REPAIR THE DESIGN",
-          "headline": "ALTERNATE · REPEAT · UNBLOCK",
-          "body": "Replace a blocked, confounded sequence with a longer alternating one. Recompute only descriptive condition means, their difference, and declared design features."
+          "eyebrow": "",
+          "headline": "ALTERNATE CONDITIONS, REPEAT OBSERVATIONS, AND REPAIR BLOCKED OR CONFOUNDED SEQUENCES.",
+          "body": ""
         },
         {
-          "eyebrow": "READ STRENGTH CAREFULLY",
-          "headline": "WEAK · LIMITED · PATTERN TO RETEST",
-          "body": "Strength reflects sequence, repetition, and confounding—not an effect, causal conclusion, health measure, universal response, or proof the environment produced change."
+          "eyebrow": "",
+          "headline": "READ PATTERNS CAREFULLY. DESCRIPTION IS NOT CAUSATION OR PRESCRIPTION.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "DESCRIPTION IS NOT PRESCRIPTION",
-          "body": "The demo cannot conduct research, diagnose, treat, measure cognition or exposure, determine safety or accessibility, infer a population effect, or recommend a real environmental change."
+          "eyebrow": "",
+          "headline": "THIS DEMO CANNOT MEASURE HEALTH, SAFETY, COGNITION, EXPOSURE, OR POPULATION EFFECTS.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE THE PROTOCOL VISIBLE",
-          "body": "A TINY EXPERIMENT BECOMES USEFUL WHEN THE PROTOCOL MAKES ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY VISIBLE."
+          "eyebrow": "",
+          "headline": "MAKE THE PROTOCOL VISIBLE: ALTERNATIVES, REPETITION, CONFOUNDING, AND UNCERTAINTY.",
+          "body": ""
         }
       ]
     },
     {
       "id": "054",
       "title": "Make the Space Adapt to the Person",
-      "final": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE.",
+      "final": "KEEP THE PERSON IN CONTROL: CONSENT, OVERRIDE, FALLBACK, AND HUMAN REVIEW.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 054",
-          "headline": "A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON",
-          "body": "Light, quiet zones, and seating can be proposed from a synthetic task and context—but a configuration is not permission to change a real space."
+          "eyebrow": "",
+          "headline": "BUILD 054. A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON.",
+          "body": ""
         },
         {
-          "eyebrow": "DECLARE THE SCENARIO",
-          "headline": "PERSON · TASK · CONTEXT · CONSTRAINT",
-          "body": "Use only an exact-bound synthetic scenario. Keep occupants, task, preferences, conflicts, unknowns, authority, and available controls visible."
+          "eyebrow": "",
+          "headline": "DECLARE THE PERSON, TASK, CONTEXT, CONSTRAINTS, CONFLICTS, AUTHORITY, AND AVAILABLE CONTROLS.",
+          "body": ""
         },
         {
-          "eyebrow": "RECOMPUTE THE PROPOSAL",
-          "headline": "SETTING · RATIONALE · TRADEOFF",
-          "body": "When the scenario changes, recompute proposed light, quiet-zone, and seating settings. Preserve unresolved conditions and explicit non-actions."
+          "eyebrow": "",
+          "headline": "RECOMPUTE PROPOSED LIGHT, QUIET-ZONE, AND SEATING SETTINGS WHEN THE SCENARIO CHANGES.",
+          "body": ""
         },
         {
-          "eyebrow": "MAKE CONFLICT REVIEWABLE",
-          "headline": "ONE PERSON · MANY PEOPLE · HUMAN REVIEW",
-          "body": "A setting that supports one task may complicate another. Do not collapse competing needs into a score, prediction, inferred trait, or automatic accommodation."
+          "eyebrow": "",
+          "headline": "ONE PERSON’S SUPPORT MAY COMPLICATE ANOTHER’S TASK. KEEP TRADEOFFS REVIEWABLE.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE SYSTEM",
-          "headline": "PROPOSE—DO NOT ACTUATE",
-          "body": "The demo reads no sensors, controls no equipment, measures no effect, infers no protected trait, and cannot determine safety, accessibility, compliance, or personal need."
+          "eyebrow": "",
+          "headline": "PROPOSE SETTINGS—DO NOT ACTUATE, INFER TRAITS, OR CLAIM SAFETY OR ACCESSIBILITY.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "KEEP THE PERSON IN CONTROL",
-          "body": "AN ADAPTIVE SPACE IS ACCOUNTABLE ONLY WHEN PROPOSALS, TRADEOFFS, AUTHORITY, CONSENT, OVERRIDE, AND FALLBACK REMAIN VISIBLE."
+          "eyebrow": "",
+          "headline": "KEEP THE PERSON IN CONTROL: CONSENT, OVERRIDE, FALLBACK, AND HUMAN REVIEW.",
+          "body": ""
         }
       ]
     },
     {
       "id": "055",
       "title": "Let the Smart Home Explain Itself",
-      "final": "A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE.",
+      "final": "MAKE EVERY ACTION REVERSIBLE, EXPLAINABLE, OVERRIDABLE, AND RECOVERABLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 055",
-          "headline": "A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY",
-          "body": "A synthetic environment can change state—but every proposed action still needs purpose, authority, explanation, override, and a recoverable prior state."
+          "eyebrow": "",
+          "headline": "BUILD 055. A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY.",
+          "body": ""
         },
         {
-          "eyebrow": "DECLARE THE ENVELOPE",
-          "headline": "TRIGGER · ACTION · AUTHORITY · LIMIT",
-          "body": "Use exact-bound synthetic rooms and devices. Preserve who may authorize, affected occupants, prerequisites, conflicts, expiry, non-actions, and the safe default."
+          "eyebrow": "",
+          "headline": "DECLARE TRIGGER, ACTION, AUTHORITY, LIMITS, AFFECTED OCCUPANTS, AND SAFE DEFAULT.",
+          "body": ""
         },
         {
-          "eyebrow": "SIMULATE THE ACTION",
-          "headline": "BEFORE · CHANGE · REASON · AFTER",
-          "body": "Advance state only inside the declared fixture. Record the rule, evidence, authorization, consequence, uncertainty, and an explanation a person can inspect."
+          "eyebrow": "",
+          "headline": "RECORD BEFORE, CHANGE, REASON, AFTER, AUTHORIZATION, CONSEQUENCE, AND UNCERTAINTY.",
+          "body": ""
         },
         {
-          "eyebrow": "TEST THE FAILURE PATH",
-          "headline": "CONFLICT · OUTAGE · OVERRIDE · ROLLBACK",
-          "body": "When authority conflicts or a dependency fails, do not continue silently. Pause, preserve state, expose the blocker, accept human override, and restore a known prior state."
+          "eyebrow": "",
+          "headline": "CONFLICT OR OUTAGE SHOULD PAUSE ACTION, EXPOSE THE BLOCKER, AND ENABLE ROLLBACK.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE SYSTEM",
-          "headline": "SIMULATION—NOT ACTUATION",
-          "body": "No device or sensor is connected. The demo cannot infer authority or person traits, secure a home, determine safety or accessibility, decide an accommodation, or prove benefit."
+          "eyebrow": "",
+          "headline": "THIS SIMULATION CONNECTS TO NO DEVICES OR SENSORS AND PROVES NO BENEFIT.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE EVERY ACTION REVERSIBLE",
-          "body": "A SMART ENVIRONMENT IS ACCOUNTABLE ONLY WHEN AUTHORITY, EXPLANATION, OVERRIDE, FAILURE, AND RECOVERY TRAVEL WITH EVERY STATE CHANGE."
+          "eyebrow": "",
+          "headline": "MAKE EVERY ACTION REVERSIBLE, EXPLAINABLE, OVERRIDABLE, AND RECOVERABLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "056",
-      "title": "What Do You Actually Own That Others Cannot Easily Copy?",
-      "final": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER.",
+      "title": "What Do You Actually Own?",
+      "final": "TEST WHAT SURVIVES REMOVAL. MAKE RIGHTS AND FAILURE PATHS LEGIBLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 056",
-          "headline": "A LIST OF ASSETS IS NOT A MOAT",
-          "body": "Data, rights, relationships, workflows, trust, knowledge, and feedback may matter—but possession or access does not establish ownership, control, or durable advantage."
+          "eyebrow": "",
+          "headline": "BUILD 056. A LIST OF ASSETS IS NOT A MOAT.",
+          "body": ""
         },
         {
-          "eyebrow": "MAP THE TOPOLOGY",
-          "headline": "ASSET · RIGHT · RELATIONSHIP · DEPENDENCY",
-          "body": "Use an exact-bound synthetic organization. Connect each claimed asset to source, permission, control, replaceability, transfer limits, upkeep, evidence, and dependent capabilities."
+          "eyebrow": "",
+          "headline": "MAP EACH ASSET TO RIGHTS, PERMISSIONS, DEPENDENCIES, SUBSTITUTES, AND EVIDENCE.",
+          "body": ""
         },
         {
-          "eyebrow": "DISTINGUISH THE CLAIM",
-          "headline": "POSSESS · ACCESS · PERMISSION · CONTROL",
-          "body": "Keep legal ownership separate from holding a copy, reaching a resource, receiving limited permission, or controlling a workflow. Name expiry, revocation, and uncertainty."
+          "eyebrow": "",
+          "headline": "POSSESSION, ACCESS, PERMISSION, CONTROL, AND OWNERSHIP ARE DIFFERENT CLAIMS.",
+          "body": ""
         },
         {
-          "eyebrow": "REMOVE A SUPPOSED MOAT",
-          "headline": "WATCH THE TOPOLOGY CHANGE",
-          "body": "Delete one illustrative node or edge and recompute only declared dependencies, substitutes, feedback paths, concentration, fragility, and what remains unsupported."
+          "eyebrow": "",
+          "headline": "REMOVE ONE SUPPOSED MOAT. RECOMPUTE FRAGILITY, SUBSTITUTES, AND UNSUPPORTED DEPENDENCIES.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A MAP IS NOT A VERDICT",
-          "body": "The demo cannot determine title, ownership, IP rights, legality, valuation, investability, competitive advantage, durability, defensibility, or commercial success."
+          "eyebrow": "",
+          "headline": "A MAP CANNOT DETERMINE OWNERSHIP, VALUE, DEFENSIBILITY, OR COMMERCIAL SUCCESS.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "TEST WHAT SURVIVES REMOVAL",
-          "body": "DEFENSIBILITY BECOMES LEGIBLE WHEN CLAIMED ASSETS, RIGHTS, DEPENDENCIES, SUBSTITUTES, EVIDENCE, AND FAILURE PATHS CAN BE READ TOGETHER."
+          "eyebrow": "",
+          "headline": "TEST WHAT SURVIVES REMOVAL. MAKE RIGHTS AND FAILURE PATHS LEGIBLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "057",
       "title": "Show Me Where This Content Came From",
-      "final": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF.",
+      "final": "MAKE EVERY VERSION, SOURCE, PERSON, TOOL, TRANSFORMATION, AND UNKNOWN TRACEABLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 057",
-          "headline": "A FINISHED FILE HIDES ITS PRODUCTION HISTORY",
-          "body": "Sources, people, tools, AI involvement, rights claims, edits, and exports can disappear behind one polished content object."
+          "eyebrow": "",
+          "headline": "BUILD 057. A FINISHED FILE HIDES ITS PRODUCTION HISTORY.",
+          "body": ""
         },
         {
-          "eyebrow": "REGISTER THE ARTIFACT",
-          "headline": "OBJECT · VERSION · TIME · RECORDER",
-          "body": "Use an exact-bound synthetic artifact. Preserve identifiers, declared timestamps, recorders, source locators, transformations, tool events, people, AI claims, rights assertions, and missing links."
+          "eyebrow": "",
+          "headline": "REGISTER EACH OBJECT, VERSION, TIME, RECORDER, SOURCE, TRANSFORMATION, AND RIGHTS CLAIM.",
+          "body": ""
         },
         {
-          "eyebrow": "PEEL IT BACKWARD",
-          "headline": "SOURCE · TRANSFORM · REVIEW · EXPORT",
-          "body": "Move from the finished version toward each recorded input and event while the provenance graph and timeline stay synchronized."
+          "eyebrow": "",
+          "headline": "PEEL BACKWARD FROM EXPORT THROUGH REVIEW AND TRANSFORMATION TO EACH SOURCE.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP CLAIMS SEPARATE",
-          "headline": "RECORDED · LINKED · CORROBORATED · UNKNOWN",
-          "body": "A record can show who asserted what and when. It cannot make an unverified source, identity, right, sequence, or AI-use claim true."
+          "eyebrow": "",
+          "headline": "KEEP RECORDED, LINKED, CORROBORATED, AND UNKNOWN CLAIMS SEPARATE.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "TRACE IS NOT VERIFICATION",
-          "body": "The demo cannot conclude authorship, ownership, copyright, license, permission, authenticity, identity, completeness, chronology, admissibility, attribution, or AI detection."
+          "eyebrow": "",
+          "headline": "A TRACE CANNOT PROVE AUTHORSHIP, OWNERSHIP, PERMISSION, AUTHENTICITY, OR AI USE.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE THE HISTORY INSPECTABLE",
-          "body": "PROVENANCE BECOMES USEFUL WHEN EVERY VERSION, SOURCE, PERSON, TOOL, CLAIM, TRANSFORMATION, AND UNKNOWN CAN BE TRACED WITHOUT BECOMING PROOF."
+          "eyebrow": "",
+          "headline": "MAKE EVERY VERSION, SOURCE, PERSON, TOOL, TRANSFORMATION, AND UNKNOWN TRACEABLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "058",
       "title": "Trace a Claim All the Way Back",
-      "final": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER.",
+      "final": "MAKE THE EVIDENCE PATH VISIBLE. KEEP EVERY MATERIAL WORD TRACEABLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 058",
-          "headline": "A CITATION CAN HIDE A BROKEN SUPPORT PATH",
-          "body": "A factual claim may point to a source while the exact evidence, authority, date, version, locator, or verification state remains missing or mismatched."
+          "eyebrow": "",
+          "headline": "BUILD 058. A CITATION CAN HIDE A BROKEN SUPPORT PATH.",
+          "body": ""
         },
         {
-          "eyebrow": "REGISTER THE CLAIM",
-          "headline": "TEXT · SCOPE · DATE · VERSION",
-          "body": "Use an exact-bound synthetic claim. Preserve qualifiers, negation, population, jurisdiction, asserted date, claimant, status, and every material word that evidence must support."
+          "eyebrow": "",
+          "headline": "REGISTER THE EXACT CLAIM, QUALIFIERS, SCOPE, DATE, VERSION, AND CLAIMANT.",
+          "body": ""
         },
         {
-          "eyebrow": "TRACE TO THE ROOT",
-          "headline": "EVIDENCE · SOURCE · AUTHORITY · LOCATOR",
-          "body": "Connect the claim through recorded evidence to its source and issuing authority. Keep publication, effective and checked dates, versions, quotations, transformations, and unknowns distinct."
+          "eyebrow": "",
+          "headline": "TRACE EVIDENCE TO ITS SOURCE, AUTHORITY, LOCATOR, DATES, AND VERSION.",
+          "body": ""
         },
         {
-          "eyebrow": "REMOVE ONE SOURCE",
-          "headline": "WATCH SUPPORT COLLAPSE",
-          "body": "Delete a synthetic source or edge and recompute only declared linkage, coverage, contradiction, dependency, and unsupported claim fragments."
+          "eyebrow": "",
+          "headline": "REMOVE ONE SOURCE. RECOMPUTE COVERAGE, CONTRADICTION, DEPENDENCY, AND UNSUPPORTED FRAGMENTS.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "SUPPORT STATE IS NOT TRUTH",
-          "body": "A link or status cannot prove correctness, authority, causation, completeness, admissibility, scientific validity, consensus, endorsement, currentness, or that the claim is true."
+          "eyebrow": "",
+          "headline": "SUPPORT STATUS CANNOT PROVE TRUTH, CAUSATION, CONSENSUS, OR CURRENTNESS.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE THE EVIDENCE PATH VISIBLE",
-          "body": "A CLAIM BECOMES AUDITABLE WHEN ITS EXACT WORDS, EVIDENCE, SOURCE, AUTHORITY, DATE, VERSION, LOCATOR, AND VERIFICATION STATE CAN BE TRACED TOGETHER."
+          "eyebrow": "",
+          "headline": "MAKE THE EVIDENCE PATH VISIBLE. KEEP EVERY MATERIAL WORD TRACEABLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "059",
-      "title": "Is This Legal Citation Real, Current, and Saying What the AI Claims?",
-      "final": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT.",
+      "title": "Verify the Legal Citation",
+      "final": "VERIFY BEFORE YOU RELY. KEEP AUTHORITY, LANGUAGE, PROPOSITION, AND TREATMENT DISTINCT.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 059",
-          "headline": "A LEGAL CITATION CAN LOOK CONVINCING AND STILL FAIL",
-          "body": "An AI-generated citation may be nonexistent, misquoted, out of jurisdiction, outdated, negatively treated, or irrelevant to the proposition it appears to support."
+          "eyebrow": "",
+          "headline": "BUILD 059. A CONVINCING LEGAL CITATION CAN STILL FAIL.",
+          "body": ""
         },
         {
-          "eyebrow": "USE A FICTIONAL RECORD",
-          "headline": "IN RE NORTHSTAR · 999 F.9TH 101",
-          "body": "The citation, court, reporter, quotation, proposition, dates, jurisdiction, and treatment in this film are synthetic teaching fixtures—not real legal authority."
+          "eyebrow": "",
+          "headline": "CHECK EXISTENCE, EXACT LANGUAGE, PROPOSITION SUPPORT, JURISDICTION, STATUS, AND TREATMENT.",
+          "body": ""
         },
         {
-          "eyebrow": "PASS EACH GATE",
-          "headline": "EXISTENCE · QUOTE · PROPOSITION",
-          "body": "Check separately whether the authority exists, the quoted language appears at the exact locator, and the source actually supports the precise claim made."
+          "eyebrow": "",
+          "headline": "VERIFY EACH GATE SEPARATELY. NEVER LET ONE PASS MASK ANOTHER FAILURE.",
+          "body": ""
         },
         {
-          "eyebrow": "CHECK THE LEGAL CONTEXT",
-          "headline": "JURISDICTION · STATUS · TREATMENT",
-          "body": "Keep court, hierarchy, date, version, subsequent history, negative treatment, citator coverage, and unresolved conflicts visible rather than collapsing them into one badge."
+          "eyebrow": "",
+          "headline": "KEEP COURT, HIERARCHY, DATE, HISTORY, NEGATIVE TREATMENT, AND CONFLICTS VISIBLE.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A GATE IS NOT GOOD LAW",
-          "body": "The demo performs no legal research or advice and cannot establish real existence, currentness, precedential value, proposition support, treatment, completeness, reliability, or safe reliance."
+          "eyebrow": "",
+          "headline": "A GATE IS NOT GOOD LAW OR PERMISSION TO RELY.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "VERIFY BEFORE YOU RELY",
-          "body": "A LEGAL CITATION BECOMES REVIEWABLE ONLY WHEN EXISTENCE, EXACT LANGUAGE, PROPOSITION, JURISDICTION, STATUS, TREATMENT, AND COVERAGE STAY DISTINCT."
+          "eyebrow": "",
+          "headline": "VERIFY BEFORE YOU RELY. KEEP AUTHORITY, LANGUAGE, PROPOSITION, AND TREATMENT DISTINCT.",
+          "body": ""
         }
       ]
     },
     {
       "id": "060",
-      "title": "Catch the IP You Create Before It Disappears Into the Workday",
-      "final": "THE WORKDAY BECOMES REVIEWABLE WHEN POTENTIAL ASSETS, CONTRIBUTORS, VERSIONS, DISCLOSURES, AGREEMENTS, AND UNCERTAINTY REACH THE RIGHT HUMAN PATH.",
+      "title": "Catch the IP Before It Disappears",
+      "final": "CAPTURE BEFORE YOU CONCLUDE. SEND UNCERTAINTY TO THE RIGHT HUMAN PATH.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 060",
-          "headline": "VALUABLE WORK CAN DISAPPEAR INTO THE WORKDAY",
-          "body": "A name, invention note, creative draft, method, dataset, or confidential know-how record can be created, shared, overwritten, or published before anyone reviews what happened."
+          "eyebrow": "",
+          "headline": "BUILD 060. VALUABLE WORK CAN DISAPPEAR INTO THE WORKDAY.",
+          "body": ""
         },
         {
-          "eyebrow": "CAPTURE THE ARTIFACT",
-          "headline": "WHAT · WHO · WHEN · WHERE",
-          "body": "Use an exact-bound synthetic workday. Preserve the artifact, declared contributors, source, version, timestamp, audience, disclosure state, agreement pointer, dependencies, and uncertainty."
+          "eyebrow": "",
+          "headline": "CAPTURE THE ARTIFACT, CONTRIBUTORS, SOURCE, VERSION, AUDIENCE, DISCLOSURE, AND AGREEMENT POINTER.",
+          "body": ""
         },
         {
-          "eyebrow": "ROUTE—DO NOT CLASSIFY",
-          "headline": "BRAND · INVENTION · CREATIVE · METHOD · DATA",
-          "body": "Send a potential artifact to the right accountable review path. Keep confidential handling, preservation, correction, access limits, conflicts, and urgent human escalation visible."
+          "eyebrow": "",
+          "headline": "ROUTE POTENTIAL BRAND, INVENTION, CREATIVE, METHOD, OR DATA ASSETS FOR REVIEW.",
+          "body": ""
         },
         {
-          "eyebrow": "WATCH THE MAP CHANGE",
-          "headline": "CAPTURED · SHARED · PUBLIC · LOST",
-          "body": "As a synthetic item is recorded, disclosed, overwritten, or left uncaptured, update only the declared map, provenance, exposure, dependencies, and unresolved review needs."
+          "eyebrow": "",
+          "headline": "UPDATE PROVENANCE AND EXPOSURE WHEN WORK IS SHARED, OVERWRITTEN, PUBLISHED, OR LOST.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A ROUTE IS NOT AN IP DECISION",
-          "body": "The demo cannot determine ownership, title, inventorship, authorship, protectability, confidentiality, trade-secret status, assignment, infringement, filing deadlines, value, or legal rights."
+          "eyebrow": "",
+          "headline": "A ROUTE CANNOT DETERMINE OWNERSHIP, INVENTORSHIP, PROTECTABILITY, RIGHTS, OR VALUE.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "CAPTURE BEFORE YOU CONCLUDE",
-          "body": "THE WORKDAY BECOMES REVIEWABLE WHEN POTENTIAL ASSETS, CONTRIBUTORS, VERSIONS, DISCLOSURES, AGREEMENTS, AND UNCERTAINTY REACH THE RIGHT HUMAN PATH."
+          "eyebrow": "",
+          "headline": "CAPTURE BEFORE YOU CONCLUDE. SEND UNCERTAINTY TO THE RIGHT HUMAN PATH.",
+          "body": ""
         }
       ]
     },
     {
       "id": "061",
       "title": "Why Did We Decide That?",
-      "final": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT.",
+      "final": "KEEP THEN AND NOW DISTINCT. MAKE THE ORIGINAL DECISION REVIEWABLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 061",
-          "headline": "A DECISION RECORD CAN LOSE ITS REASONS",
-          "body": "The final choice may survive while evidence, assumptions, alternatives, dissent, uncertainty, authority, expected outcomes, and later learning disappear."
+          "eyebrow": "",
+          "headline": "BUILD 061. A DECISION RECORD CAN LOSE ITS REASONS.",
+          "body": ""
         },
         {
-          "eyebrow": "REBUILD THE THEN RECORD",
-          "headline": "EVIDENCE · ASSUMPTION · ALTERNATIVE · DISSENT",
-          "body": "Use an exact-bound synthetic decision. Preserve what was recorded as available, who asserted it, versions, dates, unknowns, constraints, options, objections, approvals, and expected outcomes."
+          "eyebrow": "",
+          "headline": "PRESERVE EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, AND EXPECTED OUTCOMES.",
+          "body": ""
         },
         {
-          "eyebrow": "OPEN THE TIME MACHINE",
-          "headline": "KNOWN THEN · KNOWN NOW · HINDSIGHT",
-          "body": "Keep later evidence and outcomes outside the original decision frame. Compare timelines without rewriting what the record shows was known or claimed then."
+          "eyebrow": "",
+          "headline": "SEPARATE WHAT WAS KNOWN THEN FROM WHAT HINDSIGHT ADDS NOW.",
+          "body": ""
         },
         {
-          "eyebrow": "TRACE WHAT CHANGED",
-          "headline": "SOURCE · ASSUMPTION · OUTCOME · INTERPRETATION",
-          "body": "When a source, assumption, alternative, dissent note, or observed outcome changes, update only declared links and preserve contradictions, gaps, and unresolved attribution."
+          "eyebrow": "",
+          "headline": "TRACE CHANGED SOURCES, ASSUMPTIONS, OUTCOMES, CONTRADICTIONS, GAPS, AND ATTRIBUTION.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "RECOVERY IS NOT JUDGMENT",
-          "body": "The demo cannot establish truth, causation, reasonableness, authority, completeness, correctness, legality, negligence, intent, accountability, or who caused an outcome."
+          "eyebrow": "",
+          "headline": "RECOVERY CANNOT ESTABLISH TRUTH, REASONABLENESS, LEGALITY, INTENT, OR ACCOUNTABILITY.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "SEPARATE THEN FROM NOW",
-          "body": "A DECISION BECOMES REVIEWABLE WHEN ITS EVIDENCE, ASSUMPTIONS, ALTERNATIVES, DISSENT, AUTHORITY, EXPECTATIONS, OUTCOMES, AND HINDSIGHT STAY DISTINCT."
+          "eyebrow": "",
+          "headline": "KEEP THEN AND NOW DISTINCT. MAKE THE ORIGINAL DECISION REVIEWABLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "062",
       "title": "The Interview Is More Than a Transcript",
-      "final": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT.",
+      "final": "KEEP THE SOURCE ATTACHED. MAKE EVERY CONFLICT AND FOLLOW-UP REVIEWABLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 062",
-          "headline": "A TRANSCRIPT IS NOT THE WHOLE INTERVIEW",
-          "body": "Text alone can hide who labeled a passage, which claim was asserted, what evidence was linked, where accounts conflict, and what still needs follow-up."
+          "eyebrow": "",
+          "headline": "BUILD 062. A TRANSCRIPT IS NOT THE WHOLE INTERVIEW.",
+          "body": ""
         },
         {
-          "eyebrow": "USE A SYNTHETIC RECORD",
-          "headline": "PASSAGE · ASSERTION · SOURCE · LABEL",
-          "body": "No real person, audio, or voice is present. Preserve fictional speaker labels, transcript segments, timestamps, recorder, version, provenance, uncertainty, and missing material."
+          "eyebrow": "",
+          "headline": "PRESERVE PASSAGES, ASSERTIONS, SOURCES, LABELS, TIMESTAMPS, PROVENANCE, AND MISSING MATERIAL.",
+          "body": ""
         },
         {
-          "eyebrow": "BUILD THE NETWORK",
-          "headline": "PEOPLE · CLAIMS · THEMES · EVIDENCE",
-          "body": "Connect each recorded assertion to its exact passage and declared source. Keep analyst themes, source evidence, contradictions, and unresolved follow-up questions as different object types."
+          "eyebrow": "",
+          "headline": "CONNECT EACH ASSERTION TO ITS EXACT PASSAGE AND DECLARED SOURCE.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP CONFLICT VISIBLE",
-          "headline": "SUPPORTS · CONTRADICTS · UNKNOWN · ASK",
-          "body": "Do not resolve disagreement by averaging or choosing a speaker. Preserve competing accounts, provenance, scope, uncertainty, and the next question required."
+          "eyebrow": "",
+          "headline": "KEEP SUPPORT, CONTRADICTION, UNKNOWN STATE, AND FOLLOW-UP QUESTIONS DISTINCT.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A NETWORK IS NOT VERIFICATION",
-          "body": "The demo cannot identify a person or speaker, verify transcription, intent, truth, causation, consent, rights, credibility, endorsement, admissibility, representativeness, or theme completeness."
+          "eyebrow": "",
+          "headline": "A NETWORK CANNOT VERIFY IDENTITY, TRUTH, CONSENT, CREDIBILITY, OR COMPLETENESS.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "KEEP THE SOURCE ATTACHED",
-          "body": "AN INTERVIEW BECOMES REVIEWABLE WHEN PASSAGES, ASSERTIONS, THEMES, EVIDENCE, CONTRADICTIONS, PROVENANCE, AND FOLLOW-UPS REMAIN DISTINCT."
+          "eyebrow": "",
+          "headline": "KEEP THE SOURCE ATTACHED. MAKE EVERY CONFLICT AND FOLLOW-UP REVIEWABLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "063",
       "title": "Research That Does Not Die in a Folder",
-      "final": "THE RESEARCH KEEPS MOVING WHEN QUESTIONS, SOURCES, CLAIMS, GAPS, METHODS, UPDATES, AND OUTPUTS REMAIN CONNECTED.",
+      "final": "RESOLVE A GAP. KEEP THE RESEARCH USABLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 063",
-          "headline": "RESEARCH SHOULD NOT DIE IN A FOLDER",
-          "body": "A folder can store files while questions, sources, claims, gaps, methods, changes, and outputs lose their relationships."
+          "eyebrow": "",
+          "headline": "BUILD 063. RESEARCH THAT DOES NOT DIE IN A FOLDER.",
+          "body": ""
         },
         {
-          "eyebrow": "REGISTER THE QUESTION",
-          "headline": "QUESTION · SOURCE · NOTE · CLAIM",
-          "body": "Use exact-bound synthetic research objects. Preserve identifiers, source versions, check dates, locators, notes, claims, methods, gaps, updates, and dependent outputs."
+          "eyebrow": "",
+          "headline": "WHAT CHANGED, AND WHY? KEEP SOURCES AND CLAIMS CONNECTED.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP THE TRAIL ALIVE",
-          "headline": "GAP · CHANGE · REVIEW · OUTPUT",
-          "body": "When a source grows stale, support disappears, a method changes, or an output ages, retain the relationship and expose the required review state."
+          "eyebrow": "",
+          "headline": "NOT A FOLDER. CONNECT QUESTION, EVIDENCE, GAPS, AND OUTPUTS.",
+          "body": ""
         },
         {
-          "eyebrow": "DO NOT COLLAPSE THE RECORD",
-          "headline": "CHECKED · LINKED · CURRENT · OPEN",
-          "body": "Keep each label bounded to the fixed fixture. A repository state does not establish truth, authority, quality, validity, rights, or publication readiness."
+          "eyebrow": "",
+          "headline": "EVERY UPDATE PRESERVES THE TRAIL.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A REPOSITORY IS NOT PROOF",
-          "body": "The demo cannot determine truth, authority, completeness, causation, scientific validity, legal duty, ownership, permission, or approval to publish."
+          "eyebrow": "",
+          "headline": "THE RESEARCH KEEPS MOVING. ADD A SOURCE. REVISE A CLAIM.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "THE RESEARCH KEEPS MOVING",
-          "body": "THE RESEARCH KEEPS MOVING WHEN QUESTIONS, SOURCES, CLAIMS, GAPS, METHODS, UPDATES, AND OUTPUTS REMAIN CONNECTED."
+          "eyebrow": "",
+          "headline": "RESOLVE A GAP. KEEP THE RESEARCH USABLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "064",
       "title": "An Industry With Amnesia",
-      "final": "MAKE THE TRAIL SURVIVE TURNOVER.",
+      "final": "CHANGE EXPLAINED. THE MEMORY SURVIVES TURNOVER.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 064",
-          "headline": "AN INDUSTRY CAN HAVE RECORDS AND STILL HAVE AMNESIA",
-          "body": "Policies, decisions, terminology, corrections, rights, and context can disappear when people leave or systems change."
+          "eyebrow": "",
+          "headline": "BUILD 064. WHEN PEOPLE LEAVE, WHAT DOES THE INSTITUTION REMEMBER?",
+          "body": ""
         },
         {
-          "eyebrow": "USE SYNTHETIC RECORDS",
-          "headline": "EVENT · POLICY · ACTOR · TERM",
-          "body": "No real person, patient, company, agency, law, product, study, or community record appears in this fixed archive."
+          "eyebrow": "",
+          "headline": "KNOWLEDGE HELD BY ONE PERSON OR AN INBOX IS AT RISK.",
+          "body": ""
         },
         {
-          "eyebrow": "BUILD THE MEMORY",
-          "headline": "RECORD · CONTEXT · SOURCE · CHANGE",
-          "body": "Keep each archived object connected to its version, source, context, rights state, correction history, and later change."
+          "eyebrow": "",
+          "headline": "MEMORY NEEDS STRUCTURE: RECORD, CONTEXT, SOURCE, AND CHANGE.",
+          "body": ""
         },
         {
-          "eyebrow": "PRESERVE DISAGREEMENT",
-          "headline": "CURRENT · SUPERSEDED · CONTESTED · RESTRICTED",
-          "body": "Do not erase earlier policy, select a winning account, expose restricted material, or invent missing context."
+          "eyebrow": "",
+          "headline": "NO PERSONAL RECORDS. NO INVENTED CERTAINTY.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "AN ARCHIVE IS NOT AUTHORITY",
-          "body": "The demo cannot establish historical truth, current law, medical validity, identity, consent, ownership, cultural permission, or completeness."
+          "eyebrow": "",
+          "headline": "MAKE THE TRAIL. CAPTURE THE DECISION. CONNECT ITS CONTEXT.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "MAKE THE TRAIL SURVIVE TURNOVER",
-          "body": "INSTITUTIONAL MEMORY IS USABLE WHEN THE RECORD, CONTEXT, SOURCE, CHANGE, AND LIMIT REMAIN CONNECTED."
+          "eyebrow": "",
+          "headline": "CHANGE EXPLAINED. THE MEMORY SURVIVES TURNOVER.",
+          "body": ""
         }
       ]
     },
     {
       "id": "065",
       "title": "Fictional Psychedelic Pathway Record",
-      "final": "A FICTIONAL PATHWAY MODEL MUST SHOW WHICH RULES ARE INVENTED AND WHICH QUESTIONS REMAIN OPEN.",
+      "final": "KEEP STATE AND LIMIT TOGETHER. A pathway record is legible when each declared rule and unknown remains visible.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "SCENE 1",
-          "headline": "ONE EVENT DOES NOT SHOW THE WHOLE RECORD",
-          "body": "A fictional session can sit inside a longer modeled pathway without defining care."
+          "eyebrow": "",
+          "headline": "ONE EVENT DOES NOT SHOW THE WHOLE RECORD. A fictional session can sit inside a longer modeled pathway without defining care.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 2",
-          "headline": "EXPAND THE FIXTURE",
-          "body": "Connect declared purpose, permission, handoff, follow-up, evidence and recourse states."
+          "eyebrow": "",
+          "headline": "EXPAND THE FIXTURE. Connect declared purpose, permission, handoff, follow-up, evidence and recourse states.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 3",
-          "headline": "KEEP STATES DISTINCT",
-          "body": "Unaccepted, withdrawn and overdue remain separate fictional states with no legal effect."
+          "eyebrow": "",
+          "headline": "KEEP STATES DISTINCT. Unaccepted, withdrawn and overdue remain separate fictional states with no legal effect.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 4",
-          "headline": "A RECORD IS NOT A LIFELINE",
-          "body": "The fixture does not monitor, diagnose, triage, treat or provide emergency response."
+          "eyebrow": "",
+          "headline": "A RECORD IS NOT A LIFELINE. The fixture does not monitor, diagnose, triage, treat or provide emergency response.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 5",
-          "headline": "MAKE THE FICTIONAL RULES VISIBLE",
-          "body": "Owners and transitions belong to this model—not a clinical or legal standard."
+          "eyebrow": "",
+          "headline": "MAKE THE FICTIONAL RULES VISIBLE. Owners and transitions belong to this model—not a clinical or legal standard.",
+          "body": ""
         },
         {
-          "eyebrow": "SCENE 6",
-          "headline": "KEEP STATE AND LIMIT TOGETHER",
-          "body": "A pathway record is legible when each declared rule and unknown remains visible."
+          "eyebrow": "",
+          "headline": "KEEP STATE AND LIMIT TOGETHER. A pathway record is legible when each declared rule and unknown remains visible.",
+          "body": ""
         }
       ]
     },
     {
       "id": "066",
       "title": "The Firm Knows More Than Its Folders",
-      "final": "ASSEMBLE THE MEMORY.",
+      "final": "LEGAL MEMORY WORKS WHEN RELATIONSHIPS AND LIMITS STAY VISIBLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 066",
-          "headline": "THE WORK IS EVERYWHERE",
-          "body": "Synthetic matters, authorities, arguments, documents, expert roles, outcomes, workflows, and lessons begin as disconnected fragments."
+          "eyebrow": "",
+          "headline": "BUILD 066. THE FIRM KNOWS MORE THAN ITS FOLDERS.",
+          "body": ""
         },
         {
-          "eyebrow": "CONNECT THE OBJECTS",
-          "headline": "ASSEMBLE THE MEMORY",
-          "body": "Link each fixed object by declared relationship, source, verification, access, review state, and matter context."
+          "eyebrow": "",
+          "headline": "CONNECT MATTERS, AUTHORITIES, ARGUMENTS, DOCUMENTS, OUTCOMES, WORKFLOWS, AND LESSONS.",
+          "body": ""
         },
         {
-          "eyebrow": "KEEP GOVERNANCE VISIBLE",
-          "headline": "SOURCE · STATUS · ACCESS · OWNER",
-          "body": "Finding a record does not establish current law, citation validity, privilege, confidentiality, relevance, or permission to reuse."
+          "eyebrow": "",
+          "headline": "LINK EACH OBJECT TO SOURCE, ACCESS, REVIEW STATE, AND CONTEXT.",
+          "body": ""
         },
         {
-          "eyebrow": "PRESERVE REVIEW STATES",
-          "headline": "UNVERIFIED · RESTRICTED · CONTESTED · UNREVIEWED",
-          "body": "Do not flatten distinct authority, access, outcome, and lesson-review failures into one generic warning."
+          "eyebrow": "",
+          "headline": "UNVERIFIED, RESTRICTED, CONTESTED, AND UNREVIEWED ARE DIFFERENT STATES.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "INSTITUTIONAL MEMORY, NOT A LEGAL CONCLUSION",
-          "body": "This fixed synthetic graph provides no legal advice and contains no real client, matter, person, citation, or protected information."
+          "eyebrow": "",
+          "headline": "SEARCH DOES NOT ESTABLISH CURRENT LAW, PRIVILEGE, RELEVANCE, OR REUSE PERMISSION.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "THE FIRM KNOWS MORE THAN ITS FOLDERS",
-          "body": "LEGAL MEMORY BECOMES USABLE WHEN OBJECTS, RELATIONSHIPS, SOURCES, STATES, ACCESS, AND LIMITS STAY CONNECTED."
+          "eyebrow": "",
+          "headline": "LEGAL MEMORY WORKS WHEN RELATIONSHIPS AND LIMITS STAY VISIBLE.",
+          "body": ""
         }
       ]
     },
     {
       "id": "067",
-      "title": "A Digital Twin Should Know What It Does Not Own",
-      "final": "UNKNOWN IS A VALID STATE.",
+      "title": "A Digital Twin Begins With Gaps",
+      "final": "A PERSONAL MODEL WORKS WHEN UNKNOWN REMAINS VISIBLE.",
       "sourceCheckedOn": "2026-08-21",
       "scenes": [
         {
-          "eyebrow": "BUILD 067",
-          "headline": "A DIGITAL TWIN BEGINS WITH GAPS",
-          "body": "Fixed synthetic knowledge objects begin with missing context, undeclared ownership, blocked inference, and permission that may be withheld."
+          "eyebrow": "",
+          "headline": "BUILD 067. A DIGITAL TWIN BEGINS WITH GAPS.",
+          "body": ""
         },
         {
-          "eyebrow": "FORM A BOUNDED MODEL",
-          "headline": "OBJECTS CONNECT ONLY THROUGH EXPLICIT CONTEXT",
-          "body": "Keep knowledge, preferences, values, roles, relationships, permissions, context, sources, and declared use limits distinct."
+          "eyebrow": "",
+          "headline": "KEEP KNOWLEDGE, PREFERENCES, ROLES, PERMISSIONS, SOURCES, AND USE LIMITS DISTINCT.",
+          "body": ""
         },
         {
-          "eyebrow": "SEPARATE THE STATES",
-          "headline": "DECLARED IS NOT INFERRED",
-          "body": "Similarity is not authority. Possession is not ownership. A model entry is not consent, identity, truth, or permission to act."
+          "eyebrow": "",
+          "headline": "DECLARED IS NOT INFERRED. SIMILARITY IS NOT AUTHORITY.",
+          "body": ""
         },
         {
-          "eyebrow": "PRESERVE THE HOLDS",
-          "headline": "WITHHELD · EXPIRED · UNDECLARED · BLOCKED",
-          "body": "Do not fill gaps by inventing permission, current context, ownership, personal traits, motives, diagnoses, or psychological profiles."
+          "eyebrow": "",
+          "headline": "WITHHELD, EXPIRED, UNDECLARED, AND BLOCKED REMAIN VALID STATES.",
+          "body": ""
         },
         {
-          "eyebrow": "BOUND THE RESULT",
-          "headline": "A MODEL OF BOUNDARIES, NOT A CLAIM OF RIGHTS",
-          "body": "This fixed synthetic demonstration stores no personal data, verifies no identity, and does not persist, monitor, score, or surveil."
+          "eyebrow": "",
+          "headline": "NEVER INVENT PERMISSION, OWNERSHIP, PERSONAL TRAITS, MOTIVES, OR DIAGNOSES.",
+          "body": ""
         },
         {
-          "eyebrow": "SAVE THIS",
-          "headline": "UNKNOWN IS A VALID STATE",
-          "body": "A PERSONAL MODEL IS USEFUL WHEN PERMISSION, SOURCE, DECLARED OR INFERRED STATE, CONTEXT, OWNERSHIP STATUS, AND LIMITS STAY CONNECTED."
+          "eyebrow": "",
+          "headline": "A PERSONAL MODEL WORKS WHEN UNKNOWN REMAINS VISIBLE.",
+          "body": ""
         }
       ]
     },
