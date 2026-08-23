@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "RN Builds claim-to-source certification",
+  "requiredFields": {
+    "claimId": "Stable build-scoped identifier",
+    "buildId": "Three-digit build identifier",
+    "publicClaim": "Exact public wording",
+    "surface": "overview | a | b | film | transcript | archive | metadata | distribution",
+    "claimType": "external-fact | implementation-fact | synthesis | inference | synthetic | aspiration",
+    "sourceTitle": "Full source title",
+    "sourceAuthorOrInstitution": "Responsible author or institution",
+    "sourcePublisher": "Publisher",
+    "sourceUrl": "Stable public URL or lawful public surrogate",
+    "sourceLocator": "Page, section, table, figure, paragraph, or timestamp",
+    "publishedOrRevised": "ISO date where available",
+    "retrieved": "ISO audit date",
+    "support": "direct | partial | contextual | contradictory | none",
+    "supportReasoning": "Why the evidence supports the precise wording",
+    "limitations": "Scope, population, jurisdiction, freshness, and uncertainty",
+    "disposition": "certify | qualify | remove | hold",
+    "reviewer": "Reviewer identity",
+    "secondReview": "Reproduced | failed | pending"
+  },
+  "failClosedRules": [
+    "A repository path or working interface certifies implementation only, never an external factual proposition.",
+    "A named source without a stable locator cannot receive a certify disposition.",
+    "Inference, synthesis, synthetic scenarios, and aspirations must be visually distinguished from facts.",
+    "Contradictory evidence must be recorded.",
+    "Archive, overview, A, B, film, transcript, metadata, and distribution copy must agree before promotion.",
+    "Every material external factual claim requires successful second review."
+  ],
+  "buildGate": [
+    "Complete surface inventory",
+    "Exact claim extraction",
+    "Claim-type classification",
+    "Primary or authoritative source attached",
+    "Exact locator and freshness recorded",
+    "Support reasoning and limitations recorded",
+    "Contradictions evaluated",
+    "Cross-surface wording reconciled",
+    "Second reviewer reproduced mapping",
+    "Public status updated only after every material claim passes"
+  ]
+}
