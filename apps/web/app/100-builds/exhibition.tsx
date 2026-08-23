@@ -28,7 +28,7 @@ export default function Exhibition(){
  const[format,setFormat]=useState<Format>('all');
  const visible=useMemo(()=>builds.filter(build=>{
   const matchesQuery=!query.trim()||searchable(build).includes(query.trim().toLowerCase());
-  const matchesPath=pathways[pathway].phases.includes(build.phase as never);
+  const matchesPath=pathways[pathway].phases.some(value=>value===build.phase);
   const matchesPhase=phase==='all'||String(build.phase)===phase;
   const matchesFormat=format!=='featured'||featuredIds.has(build.id);
   return matchesQuery&&matchesPath&&matchesPhase&&matchesFormat;
