@@ -9,9 +9,9 @@ const current = CARE_CONTINUITY_SCENARIOS['CONTINUITY-CURRENT'];
 test('065 keeps continuity failures distinct', () => {
   expect(buildPsychedelicCareContinuityRecord(current)).toMatchObject({ status: 'CONTINUITY CURRENT', engineVersion: '065.1.0' });
   expect(buildPsychedelicCareContinuityRecord(CARE_CONTINUITY_SCENARIOS['HANDOFF-UNACCEPTED']).status).toBe('HANDOFF REVIEW');
-  expect(buildPsychedelicCareContinuityRecord(CARE_CONTINUITY_SCENARIOS['PERMISSION-WITHDRAWN']).status).toBe('PERMISSION HOLD');
+  expect(buildPsychedelicCareContinuityRecord(CARE_CONTINUITY_SCENARIOS['PERMISSION-WITHDRAWN']).status).toBe('DECLARED PERMISSION WITHDRAWN');
   expect(buildPsychedelicCareContinuityRecord(CARE_CONTINUITY_SCENARIOS['FOLLOWUP-OVERDUE']).status).toBe('FOLLOWUP ESCALATION');
-  expect(buildPsychedelicCareContinuityRecord(CARE_CONTINUITY_SCENARIOS['CRISIS-OUTSIDE-SCOPE']).status).toBe('EMERGENCY ROUTE REQUIRED');
+  expect(buildPsychedelicCareContinuityRecord(CARE_CONTINUITY_SCENARIOS['CRISIS-OUTSIDE-SCOPE']).status).toBe('OUTSIDE-SCOPE SIGNAL');
 });
 
 test('065 fails closed hostile and drift', () => {
@@ -40,13 +40,13 @@ test('065 fails closed hostile and drift', () => {
 
 test('065-A blocks withdrawn permission and exports lineage', async ({ page }) => {
   await page.goto('/100-builds/065/a');
-  await page.getByLabel('CONTINUITY STATE').selectOption('PERMISSION-WITHDRAWN');
-  await expect(page.getByRole('heading', { name: 'PERMISSION HOLD' })).toBeVisible();
+  await page.getByLabel('FIXTURE STATE').selectOption('PERMISSION-WITHDRAWN');
+  await expect(page.getByRole('heading', { name: 'DECLARED PERMISSION WITHDRAWN' })).toBeVisible();
   await expect(page.getByText('VALIDITY NOT ASSESSED', { exact: false })).toBeVisible();
   const event = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'EXPORT CONTINUITY RECORD' }).click();
+  await page.getByRole('button', { name: 'EXPORT FIXTURE RECORD' }).click();
   const download = await event;
-  expect(download.suggestedFilename()).toBe('synthetic-psychedelic-care-continuity-record.json');
+  expect(download.suggestedFilename()).toBe('fictional-cross-setting-workflow-record.json');
   const parsed = JSON.parse(await (await import('node:fs/promises')).readFile(await download.path() as string, 'utf8'));
   expect(parsed.version).toBe('065.1.0');
   expect(parsed.canonical.uses).toEqual(['017', '023', '029', '035', '036']);
@@ -57,10 +57,10 @@ test('065-A blocks withdrawn permission and exports lineage', async ({ page }) =
 
 test('065-A presents emergency limitation without implying monitoring', async ({ page }) => {
   await page.goto('/100-builds/065/a');
-  await page.getByLabel('CONTINUITY STATE').selectOption('CRISIS-OUTSIDE-SCOPE');
-  await expect(page.getByRole('heading', { name: 'EMERGENCY ROUTE REQUIRED' })).toBeVisible();
+  await page.getByLabel('FIXTURE STATE').selectOption('CRISIS-OUTSIDE-SCOPE');
+  await expect(page.getByRole('heading', { name: 'OUTSIDE-SCOPE SIGNAL' })).toBeVisible();
   await expect(page.getByText('DO NOT RELY ON THIS FIXTURE FOR URGENT OR EMERGENCY HELP')).toBeVisible();
-  await expect(page.getByText('CONTACT LOCAL EMERGENCY SERVICES OR AN APPROPRIATE CRISIS SERVICE NOW')).toBeVisible();
+  await expect(page.getByText('USE LOCALLY APPLICABLE EMERGENCY OR CRISIS RESOURCES; THIS FIXTURE CANNOT IDENTIFY OR CONTACT THEM')).toBeVisible();
   await expect(page.getByText('MONITORING · NOT PROVIDED', { exact: false })).toBeVisible();
 });
 
@@ -69,6 +69,6 @@ test('065 reflows and B advances past the session boundary', async ({ page }) =>
   await page.goto('/100-builds/065/a');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth)).toBeTruthy();
   await page.goto('/100-builds/065/b');
-  await page.getByRole('button', { name: 'ADVANCE CARE CLOCK' }).click();
+  await page.getByRole('button', { name: 'ADVANCE FIXTURE STATE' }).click();
   await expect(page.getByRole('status')).toContainText('HANDOFF-UNACCEPTED');
 });
