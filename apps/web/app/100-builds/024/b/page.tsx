@@ -1,3 +1,5 @@
-import {buildVariantMetadata} from '../../_metadata';\nexport const metadata=buildVariantMetadata('024','b');\nimport type {Metadata} from 'next';import Link from 'next/link';import NeverCollected from './NeverCollected';import shell from '../../001/room.module.css';
+import {buildVariantMetadata} from '../../_metadata';
+export const metadata=buildVariantMetadata('024','b');
+import type {Metadata} from 'next';import Link from 'next/link';import NeverCollected from './NeverCollected';import shell from '../../001/room.module.css';
 
 export default function Build024B(){return <main className={shell.visualRoom}><nav className={shell.crumb}><Link href="/100-builds/024">← Build 024</Link><span>024-B / Interactive visual build</span></nav><NeverCollected/></main>}
