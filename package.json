@@ -16,7 +16,9 @@
     "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
     "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs",
     "validate:canonical-lineage": "node scripts/validate-canonical-lineage.mjs",
-    "validate:media": "node scripts/validate-linkedin-media.mjs"
+    "validate:media": "node scripts/validate-linkedin-media.mjs",
+    "validate:visual-source": "node scripts/validate-visual-source-packages.mjs",
+    "test:visual-source-validator": "node scripts/test-visual-source-validator.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",
