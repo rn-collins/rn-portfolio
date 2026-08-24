@@ -55,7 +55,9 @@
             "altText": "Official NIST AI Risk Management Framework 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -289,7 +291,9 @@
             "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.gov.uk/service-manual/service-standard",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -413,7 +417,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -482,7 +488,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -551,7 +559,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -620,7 +630,9 @@
             "altText": "Official W3C SHACL Recommendation source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.w3.org/TR/shacl/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -689,7 +701,9 @@
             "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.w3.org/TR/prov-primer/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -758,7 +772,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -827,7 +843,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -896,7 +914,9 @@
             "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -965,7 +985,9 @@
             "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1034,7 +1056,9 @@
             "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1103,7 +1127,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1172,7 +1198,9 @@
             "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.gov.uk/service-manual/service-standard",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1241,7 +1269,9 @@
             "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.SP.800-61r3",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1310,7 +1340,9 @@
             "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.w3.org/TR/prov-primer/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1379,7 +1411,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1448,7 +1482,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1517,7 +1553,9 @@
             "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1586,7 +1624,9 @@
             "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1655,7 +1695,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1724,7 +1766,9 @@
             "altText": "Official W3C PROV Primer and PROV-O source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1793,7 +1837,9 @@
             "altText": "Official Copyright Basics, Circular 1 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.copyright.gov/circs/circ01.pdf",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1862,7 +1908,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1931,7 +1979,9 @@
             "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.w3.org/TR/prov-primer/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2000,7 +2050,9 @@
             "altText": "Official WCAG 2.2 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.w3.org/TR/WCAG22/",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2069,7 +2121,9 @@
             "altText": "Official NIST Privacy Framework v1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://www.nist.gov/privacy-framework/privacy-framework",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2138,7 +2192,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2207,7 +2263,9 @@
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2276,7 +2334,9 @@
             "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
             "orientationDimensions": "verify exact candidate after acquisition",
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
-            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
+            "sourceLocator": "https://doi.org/10.6028/NIST.SP.800-61r3",
+            "decision": "HOLD"
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2350,7 +2410,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2424,7 +2493,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.w3.org/TR/service-workers/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2498,7 +2576,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2572,7 +2659,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2646,7 +2742,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2720,7 +2825,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2794,7 +2908,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2868,7 +2991,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2942,7 +3074,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3016,7 +3157,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3090,7 +3240,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://health.hawaii.gov/medicalcannabis/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3164,7 +3323,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3238,7 +3406,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.cdc.gov/evaluation/php/evaluation-framework/index.html",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3312,7 +3489,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://health.hawaii.gov/medicalcannabis/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3386,7 +3572,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3460,7 +3655,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.cdc.gov/niosh/noise/about/index.html",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3534,7 +3738,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "Cannabis and Public Health — Health Effects",
@@ -3552,7 +3765,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.cdc.gov/cannabis/health-effects/index.html",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "Medical Cannabis Registry Program",
@@ -3570,7 +3792,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://health.hawaii.gov/medicalcannabis/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3644,7 +3875,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "Cannabis and Public Health — Health Effects",
@@ -3662,7 +3902,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.cdc.gov/cannabis/health-effects/index.html",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "Medical Cannabis Registry Program",
@@ -3680,7 +3929,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://health.hawaii.gov/medicalcannabis/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3754,7 +4012,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://clinicaltrials.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3828,7 +4095,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3902,7 +4178,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.IR.8259A",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3976,7 +4261,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.uspto.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "United States Copyright Office",
@@ -3994,7 +4288,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.copyright.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4068,7 +4371,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4142,7 +4454,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4216,7 +4537,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.supremecourt.gov/opinions/opinions.aspx",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "Congress.gov legislation and legislative information",
@@ -4234,7 +4564,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.congress.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4308,7 +4647,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.uspto.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           },
           {
             "label": "United States Copyright Office",
@@ -4326,7 +4674,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.copyright.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4400,7 +4757,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.archives.gov/records-mgmt",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4474,7 +4840,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.loc.gov/collections/veterans-history-project-collection/about-this-collection/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4548,7 +4923,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://pubmed.ncbi.nlm.nih.gov/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4622,7 +5006,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://health.hawaii.gov/medicalcannabis/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4696,7 +5089,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/psychedelic-drugs-considerations-clinical-investigations",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4770,7 +5172,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4844,7 +5255,16 @@
             },
             "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented."
+            "decision": "REJECT external substitution until an exact official asset, creator, rights basis, permission, credit, alt text and dimensions are documented.",
+            "candidateType": "official-or-primary-context-candidate",
+            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "rightsStatement": "not cleared for reuse",
+            "permissionDecision": "No asset-specific license or permission established in this audit.",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null
+            }
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
