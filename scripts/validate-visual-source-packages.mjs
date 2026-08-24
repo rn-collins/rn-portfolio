@@ -1,1 +1,39 @@
-import fs from'node:fs';export function validate(d){const errors=[];const expected=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0'));if(d.records.length!==100)errors.push('Expected exactly 100 records');if(JSON.stringify(d.records.map(r=>r.buildId))!==JSON.stringify(expected))errors.push('IDs must be exactly 001–100 in order');const req=['recognizableEntity','entityLedHook','cover','visualCandidateSearch','canva','platformAdaptations','cta','productionStatus'];const entity=['label','type','relevance','authorizationBoundary'];const cover=['kind','assetUrl','openingFrame','issuerCreator','rightsStatus','licensePermission','credit','altText','orientation','dimensions','cropGuidance','claimToVisualSupport'];const cand=['candidateType','sourcePageUrl','sourceLocator','exactAssetUrl','issuerCreator','rightsStatement','permissionDecision','credit','altText','orientationDimensions','cropGuidance','claimToVisualSupport','decision'];for(const r of d.records){for(const k of req)if(!r[k])errors.push(r.buildId+': missing '+k);for(const k of entity)if(!r.recognizableEntity?.[k])errors.push(r.buildId+': entity missing '+k);for(const k of cover)if(!r.cover||!(k in r.cover)||r.cover[k]===''||r.cover[k]===null)errors.push(r.buildId+': cover missing '+k);if(!Number.isFinite(r.cover?.dimensions?.width)||!Number.isFinite(r.cover?.dimensions?.height))errors.push(r.buildId+': invalid cover dimensions');if(r.canva?.generationAuthorized!==false)errors.push(r.buildId+': Canva generation must be false');for(const x of r.visualCandidateSearch?.searched||[]){for(const k of cand)if(!(k in x))errors.push(r.buildId+': candidate missing '+k);if(!x.orientationDimensions||!('orientation'in x.orientationDimensions)||!('width'in x.orientationDimensions)||!('height'in x.orientationDimensions))errors.push(r.buildId+': candidate orientationDimensions incomplete');const unresolved=x.exactAssetUrl===null||x.rightsStatement===null||x.permissionDecision===null;if(unresolved&&!/HOLD|REJECT|not cleared/i.test(String(x.decision)))errors.push(r.buildId+': unresolved candidate must HOLD');if(x.exactAssetUrl!==null){if(!x.sourcePageUrl||!x.sourceLocator||!x.issuerCreator||!x.rightsStatement||!x.permissionDecision||!x.credit||!x.altText||!x.orientationDimensions.orientation||!Number.isFinite(x.orientationDimensions.width)||!Number.isFinite(x.orientationDimensions.height)||!x.cropGuidance||!x.claimToVisualSupport||!/CLEARED|APPROVED/i.test(String(x.decision)))errors.push(r.buildId+': external candidate lacks asset-level clearance');}}if(r.cover.rightsStatus!=='creator-owned'){const x=r.cover;if(!/^https?:/.test(x.assetUrl)||!x.licensePermission||!x.credit||!x.altText||!x.orientation||!Number.isFinite(x.dimensions.width)||!Number.isFinite(x.dimensions.height)||!x.cropGuidance||!x.claimToVisualSupport||!x.clearanceDecision)errors.push(r.buildId+': external cover lacks exact clearance');}}return errors}if(import.meta.url===new URL('file:'+process.argv[1]).href){const d=JSON.parse(fs.readFileSync(process.argv[2]??'docs/builds/visual-source-audit-001-100/packages.json','utf8'));const e=validate(d);if(e.length){console.error(e.join('\n'));process.exit(1)}console.log('PASS: 100 visual-source records; candidate, cover and Canva gates fail closed.')}
+import fs from 'node:fs';
+const packageFile=process.argv[2]??'docs/builds/visual-source-audit-001-100/packages.json';
+const filmFile=process.argv[3]??'data/linkedin-film-specs-v1.json';
+const data=JSON.parse(fs.readFileSync(packageFile,'utf8'));
+const films=JSON.parse(fs.readFileSync(filmFile,'utf8')).builds;
+const expected=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0'));
+const canonicalStatus='CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED';
+const clean=s=>String(s||'').replace(/\s+/g,' ').replace(/\s+([,.;:!?])/g,'$1').replace(/([.!?])\1+/g,'$1').trim();
+const errors=[];
+if(data.records.length!==100)errors.push('Expected exactly 100 records');
+if(JSON.stringify(data.records.map(r=>r.buildId))!==JSON.stringify(expected))errors.push('IDs must be exactly 001–100');
+const templates=new Set(),linkedin=new Set(),instagram=new Set(),x=new Set(),carousel=new Set();
+for(const r of data.records){
+ const film=films.find(f=>f.id===r.buildId);if(!film){errors.push(r.buildId+': missing film spec');continue}
+ const headline=clean(film.scenes?.[0]?.headline).replace(/^BUILD \d+\.\s*/i,'');
+ const body=clean(film.scenes?.[0]?.body);const visible=clean([headline,body].filter(Boolean).join('. '));
+ for(const k of ['label','type','relevance','authorizationBoundary'])if(!r.recognizableEntity?.[k]?.trim())errors.push(r.buildId+': entity missing '+k);
+ if(clean(r.entityLedHook)!==visible)errors.push(r.buildId+': public hook does not equal opening-frame text');
+ if(!r.cover?.altText?.includes('Visible text: “'+visible.replace(/[.?!]+$/,'')+'”'))errors.push(r.buildId+': alt does not transcribe opening frame');
+ for(const k of ['assetUrl','openingFrame','issuerCreator','rightsStatus','licensePermission','credit','orientation','dimensions','cropGuidance','claimToVisualSupport'])if(!r.cover?.[k])errors.push(r.buildId+': cover missing '+k);
+ if(r.cover?.rightsStatus!=='creator-owned')errors.push(r.buildId+': current cover is not creator-owned');
+ if(r.cover?.dimensions?.width!==720||r.cover?.dimensions?.height!==900||!/4:5/.test(r.cover?.orientation||''))errors.push(r.buildId+': cover geometry drift');
+ if(r.canva?.generationAuthorized!==false)errors.push(r.buildId+': Canva must remain false');
+ if(!Array.isArray(r.canva?.slideTypes)||r.canva.slideTypes.length!==6)errors.push(r.buildId+': requires six build-specific slide types');
+ templates.add(r.canva?.template);for(const [k,set] of [['linkedin',linkedin],['instagram',instagram],['x',x],['carousel',carousel]]){if(!r.platformAdaptations?.[k]?.includes('Build '+r.buildId))errors.push(r.buildId+': '+k+' is not build-specific');set.add(r.platformAdaptations?.[k])}
+ if(r.productionStatus!==canonicalStatus)errors.push(r.buildId+': noncanonical production status');
+ const search=r.visualCandidateSearch;if(!search)errors.push(r.buildId+': missing search');
+ if((search?.searched||[]).length===0){if(r.recognizableEntity?.type!=='research-open subject'||!/^RESEARCH OPEN/.test(search?.status||''))errors.push(r.buildId+': empty search must be explicit research-open')}
+ else if(search?.status!=='CONTEXT SOURCE FOUND / EXTERNAL ASSET HOLD')errors.push(r.buildId+': sourced context must use canonical HOLD status');
+ for(const c of search?.searched||[]){
+  for(const k of ['candidateType','sourcePageUrl','sourceLocator','exactAssetUrl','issuerCreator','rightsStatement','permissionDecision','credit','altText','orientationDimensions','cropGuidance','claimToVisualSupport','decision'])if(!(k in c))errors.push(r.buildId+': candidate missing '+k);
+  if(c.exactAssetUrl!==null)errors.push(r.buildId+': external asset unexpectedly selected');
+  if(!/HOLD|REJECT|not cleared/i.test(String(c.decision)))errors.push(r.buildId+': candidate does not fail closed');
+ }
+ if(/[.!?]{2,}|[.!?][”"]\./.test(r.entityLedHook+' '+r.cover.altText))errors.push(r.buildId+': malformed punctuation');
+}
+for(const [label,set] of [['template',templates],['linkedin',linkedin],['instagram',instagram],['x',x],['carousel',carousel]])if(set.size!==100)errors.push(label+': expected 100 build-specific assignments, got '+set.size);
+if(errors.length){console.error(errors.join('\n'));process.exit(1)}
+console.log('PASS: 100 normalized records; 100 hook/alt opening-frame matches; 37 explicit research-open; 70 context candidates on HOLD; 100 creator-owned covers; 100 build-specific platform/Canva specs; 0 Canva authorization; 0 external clearance.');
