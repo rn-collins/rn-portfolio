@@ -14,7 +14,7 @@ function validateCleared(r){
  for(const k of ['sourcePageUrl','sourceLocator','issuerCreator','rightsStatement','permissionDecision','credit','cropGuidance','claimToVisualSupport'])if(!nonempty(c[k]))throw Error(r.buildId+': cleared missing '+k);
  const asset=url(c.exactAssetUrl),source=url(c.sourcePageUrl),terms=url(c.termsUrl);if(!asset||!source||!terms)throw Error(r.buildId+': invalid asset/source/terms URL');
  const issuer=(c.issuerCreator||'').toLowerCase();const ah=asset.hostname,th=terms.hostname;
- if(issuer.includes('nist')&&(!/nist\.gov$/.test(ah)||!/nist\.gov$/.test(th)))throw Error(r.buildId+': NIST host mismatch');
+ if((issuer.includes('nist')||issuer.includes('national institute of standards'))&&(!/nist\.gov$/.test(ah)||!/nist\.gov$/.test(th)))throw Error(r.buildId+': NIST host mismatch');
  if(issuer.includes('w3c')&&(!/w3\.org$/.test(ah)||!/w3\.org$/.test(th)))throw Error(r.buildId+': W3C host mismatch');
  if(issuer.includes('government digital service')&&(!/gov\.uk$/.test(ah)||th!=='www.nationalarchives.gov.uk'))throw Error(r.buildId+': OGL host mismatch');
  const version=c.assetDate||c.assetDateVersion;if(!nonempty(version)||!/\d{4}/.test(version)||/unknown|unspecified/i.test(version))throw Error(r.buildId+': missing/wrong date-version');
