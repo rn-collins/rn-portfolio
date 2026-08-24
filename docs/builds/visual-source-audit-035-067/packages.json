@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2.0.0",
+  "schemaVersion": "2.1.0",
   "range": "035-067",
   "auditedAt": "2026-08-23",
   "baseCommit": "10576aded48cec338c85664d836502a50f489653",
@@ -28,7 +28,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 035, An export button is not an exit. Creator-owned 4:5 typographic opening frame. Visible text: “An export button is not an exit. Test whether exported data creates usable independence”.",
+        "altText": "Build 035, An export button is not an exit. Creator-owned 4:5 typographic opening frame. Visible text: “An export button is not an exit. Test whether exported data creates usable independence.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -65,7 +65,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 035, An export button is not an exit; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 035.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -111,7 +116,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 036, Offline is a product state. Creator-owned 4:5 typographic opening frame. Visible text: “Offline is a product state. Keep essential work safe through disconnection and recovery”.",
+        "altText": "Build 036, Offline is a product state. Creator-owned 4:5 typographic opening frame. Visible text: “Offline is a product state. Keep essential work safe through disconnection and recovery.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -148,7 +153,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 036, Offline is a product state; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 036.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -194,7 +204,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 037, Feedback is a signal, not a command. Creator-owned 4:5 typographic opening frame. Visible text: “Feedback is a signal, not a command. Turn feedback into governed evidence for change”.",
+        "altText": "Build 037, Feedback is a signal, not a command. Creator-owned 4:5 typographic opening frame. Visible text: “Feedback is a signal, not a command. Turn feedback into governed evidence for change.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -231,7 +241,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 037, Feedback is a signal, not a command; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 037.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -277,7 +292,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 038, A benchmark is not performance. Creator-owned 4:5 typographic opening frame. Visible text: “A benchmark is not performance. Evaluate AI inside the domain and decision that matter”.",
+        "altText": "Build 038, A benchmark is not performance. Creator-owned 4:5 typographic opening frame. Visible text: “A benchmark is not performance. Evaluate AI inside the domain and decision that matter.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -314,7 +329,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 038, A benchmark is not performance; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 038.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -360,7 +380,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 039, A trace is evidence, not truth. Creator-owned 4:5 typographic opening frame. Visible text: “A trace is evidence, not truth. Inspect agent activity without overstating what logs prove”.",
+        "altText": "Build 039, A trace is evidence, not truth. Creator-owned 4:5 typographic opening frame. Visible text: “A trace is evidence, not truth. Inspect agent activity without overstating what logs prove.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -397,7 +417,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 039, A trace is evidence, not truth; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 039.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -443,7 +468,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 040, Confidence is not permission. Creator-owned 4:5 typographic opening frame. Visible text: “Confidence is not permission. Stop or escalate when consequence outruns evidence”.",
+        "altText": "Build 040, Confidence is not permission. Creator-owned 4:5 typographic opening frame. Visible text: “Confidence is not permission. Stop or escalate when consequence outruns evidence.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -480,7 +505,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 040, Confidence is not permission; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 040.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -526,7 +556,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 041, AI work needs an owner. Creator-owned 4:5 typographic opening frame. Visible text: “AI work needs an owner. Connect every AI decision to accountable ownership”.",
+        "altText": "Build 041, AI work needs an owner. Creator-owned 4:5 typographic opening frame. Visible text: “AI work needs an owner. Connect every AI decision to accountable ownership.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -563,7 +593,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 041, AI work needs an owner; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 041.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -609,7 +644,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 042, A prompt is not a job description. Creator-owned 4:5 typographic opening frame. Visible text: “A prompt is not a job description. Define purpose, authority, tools and human review”.",
+        "altText": "Build 042, A prompt is not a job description. Creator-owned 4:5 typographic opening frame. Visible text: “A prompt is not a job description. Define purpose, authority, tools and human review.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -646,7 +681,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 042, A prompt is not a job description; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 042.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -692,7 +732,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 043, More agents create more handoffs. Creator-owned 4:5 typographic opening frame. Visible text: “More agents create more handoffs. Coordinate specialized agents without losing context or ownership”.",
+        "altText": "Build 043, More agents create more handoffs. Creator-owned 4:5 typographic opening frame. Visible text: “More agents create more handoffs. Coordinate specialized agents without losing context or ownership.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -729,7 +769,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 043, More agents create more handoffs; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 043.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -775,7 +820,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 044, Requirements are not copy-paste blocks. Creator-owned 4:5 typographic opening frame. Visible text: “Requirements are not copy-paste blocks. Reuse regulated structure while preserving legal context”.",
+        "altText": "Build 044, Requirements are not copy-paste blocks. Creator-owned 4:5 typographic opening frame. Visible text: “Requirements are not copy-paste blocks. Reuse regulated structure while preserving legal context.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -812,7 +857,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 044, Requirements are not copy-paste blocks; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 044.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -858,7 +908,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 045, Availability is not access. Creator-owned 4:5 typographic opening frame. Visible text: “Availability is not access. Reveal barriers across the full cannabis care journey”.",
+        "altText": "Build 045, Availability is not access. Creator-owned 4:5 typographic opening frame. Visible text: “Availability is not access. Reveal barriers across the full cannabis care journey.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -895,7 +945,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 045, Availability is not access; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 045.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -941,7 +996,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 046, Essential systems cross the shore. Creator-owned 4:5 typographic opening frame. Visible text: “Essential systems cross the shore. Trace island systems through local and external dependencies”.",
+        "altText": "Build 046, Essential systems cross the shore. Creator-owned 4:5 typographic opening frame. Visible text: “Essential systems cross the shore. Trace island systems through local and external dependencies.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -978,7 +1033,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 046, Essential systems cross the shore; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 046.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1024,7 +1084,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 047, A good idea is not context-free. Creator-owned 4:5 typographic opening frame. Visible text: “A good idea is not context-free. Test whether an intervention fits a different place”.",
+        "altText": "Build 047, A good idea is not context-free. Creator-owned 4:5 typographic opening frame. Visible text: “A good idea is not context-free. Test whether an intervention fits a different place.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1061,7 +1121,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 047, A good idea is not context-free; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 047.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1107,7 +1172,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 048, The rule and journey differ. Creator-owned 4:5 typographic opening frame. Visible text: “The rule and journey differ. Compare formal policy with the burden of navigating it”.",
+        "altText": "Build 048, The rule and journey differ. Creator-owned 4:5 typographic opening frame. Visible text: “The rule and journey differ. Compare formal policy with the burden of navigating it.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1144,7 +1209,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 048, The rule and journey differ; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 048.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1190,7 +1260,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 049, A preference is not permanent. Creator-owned 4:5 typographic opening frame. Visible text: “A preference is not permanent. Build private personalization that can change with context”.",
+        "altText": "Build 049, A preference is not permanent. Creator-owned 4:5 typographic opening frame. Visible text: “A preference is not permanent. Build private personalization that can change with context.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1227,7 +1297,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 049, A preference is not permanent; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 049.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1273,7 +1348,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 050, Environment Assumption & Tradeoff Explorer. Creator-owned 4:5 typographic opening frame. Visible text: “A ROOM MODEL IS NOT EVIDENCE. A fictional room can expose assumptions without claiming how a real person will respond”.",
+        "altText": "Build 050, Environment Assumption & Tradeoff Explorer. Creator-owned 4:5 typographic opening frame. Visible text: “A ROOM MODEL IS NOT EVIDENCE. A fictional room can expose assumptions without claiming how a real person will respond.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1310,7 +1385,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 050, Environment Assumption & Tradeoff Explorer; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 050.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1356,7 +1436,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 051, Adaptive Cannabis Source Navigator. Creator-owned 4:5 typographic opening frame. Visible text: “ONE QUESTION DOES NOT NEED EVERY LESSON. A fictional learner’s topic can change source order without creating personal advice”.",
+        "altText": "Build 051, Adaptive Cannabis Source Navigator. Creator-owned 4:5 typographic opening frame. Visible text: “ONE QUESTION DOES NOT NEED EVERY LESSON. A fictional learner’s topic can change source order without creating personal advice.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1393,7 +1473,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 051, Adaptive Cannabis Source Navigator; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 051.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "Cannabis and Public Health — Health Effects",
@@ -1420,7 +1505,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 051, Adaptive Cannabis Source Navigator; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 051.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "Medical Cannabis Registry Program",
@@ -1447,7 +1537,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 051, Adaptive Cannabis Source Navigator; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 051.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1493,7 +1588,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 052, Synthetic Cannabis Comparison Literacy. Creator-owned 4:5 typographic opening frame. Visible text: “A NAME IS NOT A VERIFIED PRODUCT RECORD. A familiar label does not supply verified identity, composition, quality, effect or safety”.",
+        "altText": "Build 052, Synthetic Cannabis Comparison Literacy. Creator-owned 4:5 typographic opening frame. Visible text: “A NAME IS NOT A VERIFIED PRODUCT RECORD. A familiar label does not supply verified identity, composition, quality, effect or safety.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1530,7 +1625,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 052, Synthetic Cannabis Comparison Literacy; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 052.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "Cannabis and Public Health — Health Effects",
@@ -1557,7 +1657,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 052, Synthetic Cannabis Comparison Literacy; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 052.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "Medical Cannabis Registry Program",
@@ -1584,7 +1689,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 052, Synthetic Cannabis Comparison Literacy; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 052.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1630,7 +1740,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 053, Run a Tiny Experiment. Creator-owned 4:5 typographic opening frame. Visible text: “ONE DIFFERENT DAY IS NOT AN EXPERIMENT”.",
+        "altText": "Build 053, Run a Tiny Experiment. Creator-owned 4:5 typographic opening frame. Visible text: “ONE DIFFERENT DAY IS NOT AN EXPERIMENT.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1667,7 +1777,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 053, Run a Tiny Experiment; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 053.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1713,7 +1828,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 054, Make the Space Adapt to the Person. Creator-owned 4:5 typographic opening frame. Visible text: “A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON”.",
+        "altText": "Build 054, Make the Space Adapt to the Person. Creator-owned 4:5 typographic opening frame. Visible text: “A ROOM CAN ADAPT WITHOUT DECIDING FOR A PERSON.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1750,7 +1865,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 054, Make the Space Adapt to the Person; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 054.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1796,7 +1916,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 055, Let the Smart Home Explain Itself. Creator-owned 4:5 typographic opening frame. Visible text: “A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY”.",
+        "altText": "Build 055, Let the Smart Home Explain Itself. Creator-owned 4:5 typographic opening frame. Visible text: “A SMART HOME ACTION NEEDS AN ACCOUNTABLE STORY.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1833,7 +1953,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 055, Let the Smart Home Explain Itself; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 055.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1879,7 +2004,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 056, What Do You Actually Own?. Creator-owned 4:5 typographic opening frame. Visible text: “A LIST OF ASSETS IS NOT A MOAT”.",
+        "altText": "Build 056, What Do You Actually Own? Creator-owned 4:5 typographic opening frame. Visible text: “A LIST OF ASSETS IS NOT A MOAT.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1916,7 +2041,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 056, What Do You Actually Own?; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 056.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "United States Copyright Office",
@@ -1943,7 +2073,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 056, What Do You Actually Own?; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 056.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -1989,7 +2124,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 057, Show Me Where This Content Came From. Creator-owned 4:5 typographic opening frame. Visible text: “A FINISHED FILE HIDES ITS PRODUCTION HISTORY”.",
+        "altText": "Build 057, Show Me Where This Content Came From. Creator-owned 4:5 typographic opening frame. Visible text: “A FINISHED FILE HIDES ITS PRODUCTION HISTORY.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2026,7 +2161,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 057, Show Me Where This Content Came From; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 057.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2072,7 +2212,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 058, Trace a Claim All the Way Back. Creator-owned 4:5 typographic opening frame. Visible text: “A CITATION CAN HIDE A BROKEN SUPPORT PATH”.",
+        "altText": "Build 058, Trace a Claim All the Way Back. Creator-owned 4:5 typographic opening frame. Visible text: “A CITATION CAN HIDE A BROKEN SUPPORT PATH.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2109,7 +2249,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 058, Trace a Claim All the Way Back; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 058.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2155,7 +2300,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 059, Verify the Legal Citation. Creator-owned 4:5 typographic opening frame. Visible text: “A CONVINCING LEGAL CITATION CAN STILL FAIL”.",
+        "altText": "Build 059, Verify the Legal Citation. Creator-owned 4:5 typographic opening frame. Visible text: “A CONVINCING LEGAL CITATION CAN STILL FAIL.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2192,7 +2337,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 059, Verify the Legal Citation; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 059.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "Congress.gov legislation and legislative information",
@@ -2219,7 +2369,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 059, Verify the Legal Citation; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 059.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2265,7 +2420,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 060, Catch the IP Before It Disappears. Creator-owned 4:5 typographic opening frame. Visible text: “VALUABLE WORK CAN DISAPPEAR INTO THE WORKDAY”.",
+        "altText": "Build 060, Catch the IP Before It Disappears. Creator-owned 4:5 typographic opening frame. Visible text: “VALUABLE WORK CAN DISAPPEAR INTO THE WORKDAY.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2302,7 +2457,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 060, Catch the IP Before It Disappears; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 060.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           },
           {
             "label": "United States Copyright Office",
@@ -2329,7 +2489,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 060, Catch the IP Before It Disappears; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 060.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2375,7 +2540,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 061, Why Did We Decide That?. Creator-owned 4:5 typographic opening frame. Visible text: “A DECISION RECORD CAN LOSE ITS REASONS”.",
+        "altText": "Build 061, Why Did We Decide That? Creator-owned 4:5 typographic opening frame. Visible text: “A DECISION RECORD CAN LOSE ITS REASONS.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2412,7 +2577,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 061, Why Did We Decide That?; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 061.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2458,7 +2628,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 062, The Interview Is More Than a Transcript. Creator-owned 4:5 typographic opening frame. Visible text: “A TRANSCRIPT IS NOT THE WHOLE INTERVIEW”.",
+        "altText": "Build 062, The Interview Is More Than a Transcript. Creator-owned 4:5 typographic opening frame. Visible text: “A TRANSCRIPT IS NOT THE WHOLE INTERVIEW.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2495,7 +2665,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 062, The Interview Is More Than a Transcript; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 062.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2541,7 +2716,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 063, Research That Does Not Die in a Folder. Creator-owned 4:5 typographic opening frame. Visible text: “RESEARCH THAT DOES NOT DIE IN A FOLDER”.",
+        "altText": "Build 063, Research That Does Not Die in a Folder. Creator-owned 4:5 typographic opening frame. Visible text: “RESEARCH THAT DOES NOT DIE IN A FOLDER.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2578,7 +2753,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 063, Research That Does Not Die in a Folder; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 063.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2624,7 +2804,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 064, An Industry With Amnesia. Creator-owned 4:5 typographic opening frame. Visible text: “WHEN PEOPLE LEAVE, WHAT DOES THE INSTITUTION REMEMBER”.",
+        "altText": "Build 064, An Industry With Amnesia. Creator-owned 4:5 typographic opening frame. Visible text: “WHEN PEOPLE LEAVE, WHAT DOES THE INSTITUTION REMEMBER?”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2661,7 +2841,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 064, An Industry With Amnesia; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 064.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2707,7 +2892,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 065, Fictional Psychedelic Pathway Record. Creator-owned 4:5 typographic opening frame. Visible text: “ONE EVENT DOES NOT SHOW THE WHOLE RECORD. A fictional session can sit inside a longer modeled pathway without defining care”.",
+        "altText": "Build 065, Fictional Psychedelic Pathway Record. Creator-owned 4:5 typographic opening frame. Visible text: “ONE EVENT DOES NOT SHOW THE WHOLE RECORD. A fictional session can sit inside a longer modeled pathway without defining care.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2744,7 +2929,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 065, Fictional Psychedelic Pathway Record; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 065.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2790,7 +2980,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 066, The Firm Knows More Than Its Folders. Creator-owned 4:5 typographic opening frame. Visible text: “THE FIRM KNOWS MORE THAN ITS FOLDERS”.",
+        "altText": "Build 066, The Firm Knows More Than Its Folders. Creator-owned 4:5 typographic opening frame. Visible text: “THE FIRM KNOWS MORE THAN ITS FOLDERS.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2827,7 +3017,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 066, The Firm Knows More Than Its Folders; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 066.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2873,7 +3068,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 067, A Digital Twin Begins With Gaps. Creator-owned 4:5 typographic opening frame. Visible text: “A DIGITAL TWIN BEGINS WITH GAPS”.",
+        "altText": "Build 067, A Digital Twin Begins With Gaps. Creator-owned 4:5 typographic opening frame. Visible text: “A DIGITAL TWIN BEGINS WITH GAPS.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2910,7 +3105,12 @@
               "orientation": null,
               "width": null,
               "height": null
-            }
+            },
+            "context": "Contextual source-page review for Build 067, A Digital Twin Begins With Gaps; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 067.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -2940,8 +3140,8 @@
     }
   ],
   "normalization": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "normalizedAt": "2026-08-23",
-    "policy": "Hooks and alt text match the exact opening frame; contextual authorities never appear as implied cover subjects; research-open packages remain explicit; external and Canva use fail closed."
+    "policy": "Hooks and alt text preserve exact opening-frame wording without malformed punctuation; every research-open record has a limited negative search log; contextual authorities never become implied cover subjects; external assets and Canva fail closed."
   }
 }
