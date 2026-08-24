@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2.0.0",
+  "schemaVersion": "2.1.0",
   "range": "001-034",
   "auditedAt": "2026-08-23",
   "baseCommit": "10576aded48cec338c85664d836502a50f489653",
@@ -18,7 +18,7 @@
         "relevance": "NIST AI Risk Management Framework 1.0 is a directly relevant contextual authority or primary-source anchor for Human Review Design Framework; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI Risk Management Framework 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "HUMAN IN THE LOOP?. That phrase hides the part that matters.",
+      "entityLedHook": "HUMAN IN THE LOOP? That phrase hides the part that matters.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/001/build-001-linkedin-poster.png",
@@ -27,7 +27,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 001, Human Review Design Framework. Creator-owned 4:5 typographic opening frame. Visible text: “HUMAN IN THE LOOP?. That phrase hides the part that matters”.",
+        "altText": "Build 001, Human Review Design Framework. Creator-owned 4:5 typographic opening frame. Visible text: “HUMAN IN THE LOOP? That phrase hides the part that matters.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -48,11 +48,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: National Institute of Standards and Technology",
             "altText": "Official NIST AI Risk Management Framework 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 001, Human Review Design Framework; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 001.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -98,7 +108,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 002, Multi-Audience Meaning Architecture. Creator-owned 4:5 typographic opening frame. Visible text: “ONE IDEA. MANY AUDIENCES. Adaptation is useful only if the factual core survives”.",
+        "altText": "Build 002, Multi-Audience Meaning Architecture. Creator-owned 4:5 typographic opening frame. Visible text: “ONE IDEA. MANY AUDIENCES. Adaptation is useful only if the factual core survives.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -108,8 +118,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/002/record/",
+            "sourceLocator": "Build 002 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 002, Multi-Audience Meaning Architecture; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -153,7 +189,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 003, Unserved Decision Discovery. Creator-owned 4:5 typographic opening frame. Visible text: “THEY HAVE INFORMATION. But they still cannot reliably decide what to do”.",
+        "altText": "Build 003, Unserved Decision Discovery. Creator-owned 4:5 typographic opening frame. Visible text: “THEY HAVE INFORMATION. But they still cannot reliably decide what to do.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -163,8 +199,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/003/record/",
+            "sourceLocator": "Build 003 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 003, Unserved Decision Discovery; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -208,7 +270,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 004, Before the Automation. Creator-owned 4:5 typographic opening frame. Visible text: “A PILE OF SOURCES IS NOT INTELLIGENCE. The transformation happens through explicit gates”.",
+        "altText": "Build 004, Before the Automation. Creator-owned 4:5 typographic opening frame. Visible text: “A PILE OF SOURCES IS NOT INTELLIGENCE. The transformation happens through explicit gates.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -218,8 +280,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/004/record/",
+            "sourceLocator": "Build 004 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 004, Before the Automation; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -263,7 +351,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 005, Service Path Split. Creator-owned 4:5 typographic opening frame. Visible text: “DON’T AUTOMATE THE SERVICE. Separate the steps first”.",
+        "altText": "Build 005, Service Path Split. Creator-owned 4:5 typographic opening frame. Visible text: “DON’T AUTOMATE THE SERVICE. Separate the steps first.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -284,11 +372,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: UK Government Digital Service",
             "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.gov.uk/service-manual/service-standard",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 005, Service Path Split; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 005.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -334,7 +432,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 006, Form Gate Field. Creator-owned 4:5 typographic opening frame. Visible text: “SOFTWARE IS NOT THE DEFAULT. It is one form the problem may—or may not—earn”.",
+        "altText": "Build 006, Form Gate Field. Creator-owned 4:5 typographic opening frame. Visible text: “SOFTWARE IS NOT THE DEFAULT. It is one form the problem may—or may not—earn.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -344,8 +442,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/006/record/",
+            "sourceLocator": "Build 006 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 006, Form Gate Field; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -389,7 +513,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 007, The Product That Learns. Creator-owned 4:5 typographic opening frame. Visible text: “THE PRODUCT SHIPS. But shipping is one-way. Collection alone does not make a product learn”.",
+        "altText": "Build 007, The Product That Learns. Creator-owned 4:5 typographic opening frame. Visible text: “THE PRODUCT SHIPS. But shipping is one-way. Collection alone does not make a product learn.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -410,11 +534,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 007, The Product That Learns; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 007.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -460,7 +594,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 008, Data Is Not a Decision. Creator-owned 4:5 typographic opening frame. Visible text: “A WALL OF CHARTS. More information is visible. The decision is still missing”.",
+        "altText": "Build 008, Data Is Not a Decision. Creator-owned 4:5 typographic opening frame. Visible text: “A WALL OF CHARTS. More information is visible. The decision is still missing.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -481,11 +615,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 008, Data Is Not a Decision; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 008.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -531,7 +675,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 009, Transfer Is a Place Question. Creator-owned 4:5 typographic opening frame. Visible text: “IT WORKED SOMEWHERE ELSE. That does not mean it can work here”.",
+        "altText": "Build 009, Transfer Is a Place Question. Creator-owned 4:5 typographic opening frame. Visible text: “IT WORKED SOMEWHERE ELSE. That does not mean it can work here.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -552,11 +696,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 009, Transfer Is a Place Question; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 009.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -602,7 +756,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 010, From Words to Structure. Creator-owned 4:5 typographic opening frame. Visible text: “THE IDEA SOUNDS CLEAR. Until two people mean different things by the same noun”.",
+        "altText": "Build 010, From Words to Structure. Creator-owned 4:5 typographic opening frame. Visible text: “THE IDEA SOUNDS CLEAR. Until two people mean different things by the same noun.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -623,11 +777,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: World Wide Web Consortium",
             "altText": "Official W3C SHACL Recommendation source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.w3.org/TR/shacl/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 010, From Words to Structure; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 010.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -673,7 +837,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 011, Same Name Is Not Same Entity. Creator-owned 4:5 typographic opening frame. Visible text: “THE RECORDS LOOK THE SAME. Similarity is a clue—not identity”.",
+        "altText": "Build 011, Same Name Is Not Same Entity. Creator-owned 4:5 typographic opening frame. Visible text: “THE RECORDS LOOK THE SAME. Similarity is a clue—not identity.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -694,11 +858,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: World Wide Web Consortium",
             "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.w3.org/TR/prov-primer/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 011, Same Name Is Not Same Entity; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 011.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -744,7 +918,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 012, Controls Follow Consequence. Creator-owned 4:5 typographic opening frame. Visible text: “THE MODEL IS NOT THE USE. The same capability can carry radically different consequences in different contexts”.",
+        "altText": "Build 012, Controls Follow Consequence. Creator-owned 4:5 typographic opening frame. Visible text: “THE MODEL IS NOT THE USE. The same capability can carry radically different consequences in different contexts.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -765,11 +939,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 012, Controls Follow Consequence; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 012.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -815,7 +999,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 013, Follow the Consequence. Creator-owned 4:5 typographic opening frame. Visible text: “THE MODEL IS ONE STAGE. Consequence is produced by the full workflow around it”.",
+        "altText": "Build 013, Follow the Consequence. Creator-owned 4:5 typographic opening frame. Visible text: “THE MODEL IS ONE STAGE. Consequence is produced by the full workflow around it.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -836,11 +1020,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 013, Follow the Consequence; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 013.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -886,7 +1080,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 014, The Answer Has Layers. Creator-owned 4:5 typographic opening frame. Visible text: “THE TOOL PRODUCED AN ANSWER. That does not tell you who researched, interpreted, inferred, decided, or approved”.",
+        "altText": "Build 014, The Answer Has Layers. Creator-owned 4:5 typographic opening frame. Visible text: “THE TOOL PRODUCED AN ANSWER. That does not tell you who researched, interpreted, inferred, decided, or approved.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -907,11 +1101,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: American Bar Association",
             "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 014, The Answer Has Layers; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 014.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -948,7 +1152,7 @@
         "relevance": "ABA Model Rules of Professional Conduct is a directly relevant contextual authority or primary-source anchor for From Matter Work to Reusable System; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: ABA Model Rules of Professional Conduct is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "REPEATED LEGAL TASK → PRODUCT ENGINE. Find which recurring supervised legal tasks can safely become reusable products or systems.",
+      "entityLedHook": "REPEATED LEGAL TASK → PRODUCT ENGINE — Find which recurring supervised legal tasks can safely become reusable products or systems.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/015/build-015-linkedin-poster.png",
@@ -957,7 +1161,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 015, From Matter Work to Reusable System. Creator-owned 4:5 typographic opening frame. Visible text: “REPEATED LEGAL TASK → PRODUCT ENGINE. Find which recurring supervised legal tasks can safely become reusable products or systems”.",
+        "altText": "Build 015, From Matter Work to Reusable System. Creator-owned 4:5 typographic opening frame. Visible text: “REPEATED LEGAL TASK → PRODUCT ENGINE — Find which recurring supervised legal tasks can safely become reusable products or systems.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -978,11 +1182,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: American Bar Association",
             "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 015, From Matter Work to Reusable System; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 015.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1019,7 +1233,7 @@
         "relevance": "ABA Model Rules of Professional Conduct is a directly relevant contextual authority or primary-source anchor for The Matter Beneath the Matter; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: ABA Model Rules of Professional Conduct is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "LEGAL WORKFLOW MAPPING. Map actors, documents, authorities, handoffs, deadlines, decisions, risks and records across legal work.",
+      "entityLedHook": "LEGAL WORKFLOW MAPPING — Map actors, documents, authorities, handoffs, deadlines, decisions, risks and records across legal work.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/016/build-016-linkedin-poster.png",
@@ -1028,7 +1242,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 016, The Matter Beneath the Matter. Creator-owned 4:5 typographic opening frame. Visible text: “LEGAL WORKFLOW MAPPING. Map actors, documents, authorities, handoffs, deadlines, decisions, risks and records across legal work”.",
+        "altText": "Build 016, The Matter Beneath the Matter. Creator-owned 4:5 typographic opening frame. Visible text: “LEGAL WORKFLOW MAPPING — Map actors, documents, authorities, handoffs, deadlines, decisions, risks and records across legal work.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1049,11 +1263,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: American Bar Association",
             "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 016, The Matter Beneath the Matter; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 016.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1090,7 +1314,7 @@
         "relevance": "NIST AI RMF 1.0 is a directly relevant contextual authority or primary-source anchor for The Risk Lives Between the Boxes; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI RMF 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "REGULATED-MARKET HANDOFF MAPPER. Find where responsibility, evidence, consent and accountability disappear between organizations.",
+      "entityLedHook": "REGULATED-MARKET HANDOFF MAPPER — Find where responsibility, evidence, consent and accountability disappear between organizations.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/017/build-017-linkedin-poster.png",
@@ -1099,7 +1323,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 017, The Risk Lives Between the Boxes. Creator-owned 4:5 typographic opening frame. Visible text: “REGULATED-MARKET HANDOFF MAPPER. Find where responsibility, evidence, consent and accountability disappear between organizations”.",
+        "altText": "Build 017, The Risk Lives Between the Boxes. Creator-owned 4:5 typographic opening frame. Visible text: “REGULATED-MARKET HANDOFF MAPPER — Find where responsibility, evidence, consent and accountability disappear between organizations.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1120,11 +1344,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 017, The Risk Lives Between the Boxes; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 017.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1161,7 +1395,7 @@
         "relevance": "GOV.UK Service Standard is a directly relevant contextual authority or primary-source anchor for The Process Is Part of the Outcome; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: GOV.UK Service Standard is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "INSTITUTIONAL FRICTION DETECTOR. Find bottlenecks, dead ends, repeated loops and avoidable burden inside institutional processes.",
+      "entityLedHook": "INSTITUTIONAL FRICTION DETECTOR — Find bottlenecks, dead ends, repeated loops and avoidable burden inside institutional processes.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/018/build-018-linkedin-poster.png",
@@ -1170,7 +1404,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 018, The Process Is Part of the Outcome. Creator-owned 4:5 typographic opening frame. Visible text: “INSTITUTIONAL FRICTION DETECTOR. Find bottlenecks, dead ends, repeated loops and avoidable burden inside institutional processes”.",
+        "altText": "Build 018, The Process Is Part of the Outcome. Creator-owned 4:5 typographic opening frame. Visible text: “INSTITUTIONAL FRICTION DETECTOR — Find bottlenecks, dead ends, repeated loops and avoidable burden inside institutional processes.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1191,11 +1425,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: UK Government Digital Service",
             "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.gov.uk/service-manual/service-standard",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 018, The Process Is Part of the Outcome; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 018.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1241,7 +1485,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 019, The Alert That Knows Who Cares. Creator-owned 4:5 typographic opening frame. Visible text: “100 ALERTS ≠ 100 INCIDENTS. Repeated signals can describe one consequential event—not one hundred separate interruptions”.",
+        "altText": "Build 019, The Alert That Knows Who Cares. Creator-owned 4:5 typographic opening frame. Visible text: “100 ALERTS ≠ 100 INCIDENTS. Repeated signals can describe one consequential event—not one hundred separate interruptions.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1262,11 +1506,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.SP.800-61r3",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 019, The Alert That Knows Who Cares; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 019.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1312,7 +1566,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 020, Open the Decision. Creator-owned 4:5 typographic opening frame. Visible text: “A DECISION IS NOT A SNAPSHOT. Accountability requires the actor, authority, time, evidence, alternatives, acknowledgement, result, and corrections”.",
+        "altText": "Build 020, Open the Decision. Creator-owned 4:5 typographic opening frame. Visible text: “A DECISION IS NOT A SNAPSHOT. Accountability requires the actor, authority, time, evidence, alternatives, acknowledgement, result, and corrections.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1333,11 +1587,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: World Wide Web Consortium",
             "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.w3.org/TR/prov-primer/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 020, Open the Decision; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 020.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1383,7 +1647,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 021, Break the Promise Open. Creator-owned 4:5 typographic opening frame. Visible text: “THE CLAIM SOUNDS CERTAIN. Procurement still needs to know what the evidence can actually support”.",
+        "altText": "Build 021, Break the Promise Open. Creator-owned 4:5 typographic opening frame. Visible text: “THE CLAIM SOUNDS CERTAIN. Procurement still needs to know what the evidence can actually support.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1404,11 +1668,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 021, Break the Promise Open; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 021.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1445,7 +1719,7 @@
         "relevance": "NIST AI RMF 1.0 is a directly relevant contextual authority or primary-source anchor for Human Impact Nodes; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI RMF 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "HUMAN CONSEQUENCE MAP FOR AI WORKFLOWS. Show who can be affected by an AI workflow and how consequences travel to them.",
+      "entityLedHook": "HUMAN CONSEQUENCE MAP FOR AI WORKFLOWS — Show who can be affected by an AI workflow and how consequences travel to them.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/022/build-022-linkedin-poster.png",
@@ -1454,7 +1728,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 022, Human Impact Nodes. Creator-owned 4:5 typographic opening frame. Visible text: “HUMAN CONSEQUENCE MAP FOR AI WORKFLOWS. Show who can be affected by an AI workflow and how consequences travel to them”.",
+        "altText": "Build 022, Human Impact Nodes. Creator-owned 4:5 typographic opening frame. Visible text: “HUMAN CONSEQUENCE MAP FOR AI WORKFLOWS — Show who can be affected by an AI workflow and how consequences travel to them.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1475,11 +1749,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 022, Human Impact Nodes; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 022.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1516,7 +1800,7 @@
         "relevance": "Regulation (EU) 2016/679 is a directly relevant contextual authority or primary-source anchor for Consent That Can Change Its Mind; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: Regulation (EU) 2016/679 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "BUNDLED CONSENT HIDES THE DEAL. A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal.",
+      "entityLedHook": "BUNDLED CONSENT HIDES THE DEAL — A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/023/build-023-linkedin-poster.png",
@@ -1525,7 +1809,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 023, Consent That Can Change Its Mind. Creator-owned 4:5 typographic opening frame. Visible text: “BUNDLED CONSENT HIDES THE DEAL. A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal”.",
+        "altText": "Build 023, Consent That Can Change Its Mind. Creator-owned 4:5 typographic opening frame. Visible text: “BUNDLED CONSENT HIDES THE DEAL — A single yes cannot show purpose, data, recipient, retention, reuse, or withdrawal.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1546,11 +1830,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: European Parliament and Council",
             "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 023, Consent That Can Change Its Mind; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 023.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1587,7 +1881,7 @@
         "relevance": "Regulation (EU) 2016/679 is a directly relevant contextual authority or primary-source anchor for The Best Data Risk Is Data Never Collected; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: Regulation (EU) 2016/679 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "MORE DATA IS NOT MORE INTELLIGENCE. Every collected field creates exposure, retention work, access pathways, and eventual deletion duties.",
+      "entityLedHook": "MORE DATA IS NOT MORE INTELLIGENCE — Every collected field creates exposure, retention work, access pathways, and eventual deletion duties.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/024/build-024-linkedin-poster.png",
@@ -1596,7 +1890,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 024, The Best Data Risk Is Data Never Collected. Creator-owned 4:5 typographic opening frame. Visible text: “MORE DATA IS NOT MORE INTELLIGENCE. Every collected field creates exposure, retention work, access pathways, and eventual deletion duties”.",
+        "altText": "Build 024, The Best Data Risk Is Data Never Collected. Creator-owned 4:5 typographic opening frame. Visible text: “MORE DATA IS NOT MORE INTELLIGENCE — Every collected field creates exposure, retention work, access pathways, and eventual deletion duties.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1617,11 +1911,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: European Parliament and Council",
             "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 024, The Best Data Risk Is Data Never Collected; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 024.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1658,7 +1962,7 @@
         "relevance": "NIST AI RMF 1.0 is a directly relevant contextual authority or primary-source anchor for Readiness Has Layers; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI RMF 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "A USE CASE IS NOT AN IMPLEMENTATION PLAN. A promising capability can still outrun the organization expected to operate it.",
+      "entityLedHook": "A USE CASE IS NOT AN IMPLEMENTATION PLAN — A promising capability can still outrun the organization expected to operate it.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/025/build-025-linkedin-poster.png",
@@ -1667,7 +1971,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 025, Readiness Has Layers. Creator-owned 4:5 typographic opening frame. Visible text: “A USE CASE IS NOT AN IMPLEMENTATION PLAN. A promising capability can still outrun the organization expected to operate it”.",
+        "altText": "Build 025, Readiness Has Layers. Creator-owned 4:5 typographic opening frame. Visible text: “A USE CASE IS NOT AN IMPLEMENTATION PLAN — A promising capability can still outrun the organization expected to operate it.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1688,11 +1992,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 025, Readiness Has Layers; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 025.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1729,7 +2043,7 @@
         "relevance": "W3C PROV Primer and PROV-O is a directly relevant contextual authority or primary-source anchor for Records Normalize Without Losing Their Past; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: W3C PROV Primer and PROV-O is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "A CLEAN TABLE CAN HIDE A MESSY HISTORY. Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision.",
+      "entityLedHook": "A CLEAN TABLE CAN HIDE A MESSY HISTORY — Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/026/build-026-linkedin-poster.png",
@@ -1738,7 +2052,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 026, Records Normalize Without Losing Their Past. Creator-owned 4:5 typographic opening frame. Visible text: “A CLEAN TABLE CAN HIDE A MESSY HISTORY. Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision”.",
+        "altText": "Build 026, Records Normalize Without Losing Their Past. Creator-owned 4:5 typographic opening frame. Visible text: “A CLEAN TABLE CAN HIDE A MESSY HISTORY — Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1759,11 +2073,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: World Wide Web Consortium",
             "altText": "Official W3C PROV Primer and PROV-O source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.w3.org/TR/prov-o/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 026, Records Normalize Without Losing Their Past; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 026.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1800,7 +2124,7 @@
         "relevance": "Copyright Basics, Circular 1 is a directly relevant contextual authority or primary-source anchor for Ownership Exposure Board; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: Copyright Basics, Circular 1 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "POSTING IS NOT OWNERSHIP. A platform can distribute the work without giving you control of the audience, archive, identity, or future access.",
+      "entityLedHook": "POSTING IS NOT OWNERSHIP — A platform can distribute the work without giving you control of the audience, archive, identity, or future access.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/027/build-027-linkedin-poster.png",
@@ -1809,7 +2133,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 027, Ownership Exposure Board. Creator-owned 4:5 typographic opening frame. Visible text: “POSTING IS NOT OWNERSHIP. A platform can distribute the work without giving you control of the audience, archive, identity, or future access”.",
+        "altText": "Build 027, Ownership Exposure Board. Creator-owned 4:5 typographic opening frame. Visible text: “POSTING IS NOT OWNERSHIP — A platform can distribute the work without giving you control of the audience, archive, identity, or future access.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1830,11 +2154,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: U.S. Copyright Office",
             "altText": "Official Copyright Basics, Circular 1 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.copyright.gov/circs/circ01.pdf",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 027, Ownership Exposure Board; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 027.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1871,7 +2205,7 @@
         "relevance": "NIST AI RMF 1.0 is a directly relevant contextual authority or primary-source anchor for Ranking Rationale; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI RMF 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "STORED IS NOT FOUND. A fact can exist in the archive and still fail the person who needs it at the moment of decision.",
+      "entityLedHook": "STORED IS NOT FOUND — A fact can exist in the archive and still fail the person who needs it at the moment of decision.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/028/build-028-linkedin-poster.png",
@@ -1880,7 +2214,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 028, Ranking Rationale. Creator-owned 4:5 typographic opening frame. Visible text: “STORED IS NOT FOUND. A fact can exist in the archive and still fail the person who needs it at the moment of decision”.",
+        "altText": "Build 028, Ranking Rationale. Creator-owned 4:5 typographic opening frame. Visible text: “STORED IS NOT FOUND — A fact can exist in the archive and still fail the person who needs it at the moment of decision.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1901,11 +2235,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 028, Ranking Rationale; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 028.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -1942,7 +2286,7 @@
         "relevance": "W3C PROV Primer is a directly relevant contextual authority or primary-source anchor for Consequence Propagation; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: W3C PROV Primer is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "EVERY CHANGE ENTERS A SYSTEM. A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began.",
+      "entityLedHook": "EVERY CHANGE ENTERS A SYSTEM — A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/029/build-029-linkedin-poster.png",
@@ -1951,7 +2295,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 029, Consequence Propagation. Creator-owned 4:5 typographic opening frame. Visible text: “EVERY CHANGE ENTERS A SYSTEM. A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began”.",
+        "altText": "Build 029, Consequence Propagation. Creator-owned 4:5 typographic opening frame. Visible text: “EVERY CHANGE ENTERS A SYSTEM — A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1972,11 +2316,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: World Wide Web Consortium",
             "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.w3.org/TR/prov-primer/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 029, Consequence Propagation; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 029.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2013,7 +2367,7 @@
         "relevance": "WCAG 2.2 is a directly relevant contextual authority or primary-source anchor for Interface Repair in Motion; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: WCAG 2.2 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "PASSING A CHECKLIST IS NOT AN INCLUSIVE EXPERIENCE. A screen can satisfy isolated rules while real people still cannot perceive, understand, navigate, recover, or finish.",
+      "entityLedHook": "PASSING A CHECKLIST IS NOT AN INCLUSIVE EXPERIENCE — A screen can satisfy isolated rules while real people still cannot perceive, understand, navigate, recover, or finish.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/030/build-030-linkedin-poster.png",
@@ -2022,7 +2376,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 030, Interface Repair in Motion. Creator-owned 4:5 typographic opening frame. Visible text: “PASSING A CHECKLIST IS NOT AN INCLUSIVE EXPERIENCE. A screen can satisfy isolated rules while real people still cannot perceive, understand, navigate, recover, or finish”.",
+        "altText": "Build 030, Interface Repair in Motion. Creator-owned 4:5 typographic opening frame. Visible text: “PASSING A CHECKLIST IS NOT AN INCLUSIVE EXPERIENCE — A screen can satisfy isolated rules while real people still cannot perceive, understand, navigate, recover, or finish.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2043,11 +2397,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: World Wide Web Consortium",
             "altText": "Official WCAG 2.2 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.w3.org/TR/WCAG22/",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 030, Interface Repair in Motion; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 030.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2084,7 +2448,7 @@
         "relevance": "NIST Privacy Framework v1.0 is a directly relevant contextual authority or primary-source anchor for Telemetry Privacy Field; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST Privacy Framework v1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR. The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states.",
+      "entityLedHook": "A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR — The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/031/build-031-linkedin-poster.png",
@@ -2093,7 +2457,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 031, Telemetry Privacy Field. Creator-owned 4:5 typographic opening frame. Visible text: “A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR. The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states”.",
+        "altText": "Build 031, Telemetry Privacy Field. Creator-owned 4:5 typographic opening frame. Visible text: “A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR — The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2114,11 +2478,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST Privacy Framework v1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://www.nist.gov/privacy-framework/privacy-framework",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 031, Telemetry Privacy Field; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 031.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2155,7 +2529,7 @@
         "relevance": "NIST AI RMF 1.0 is a directly relevant contextual authority or primary-source anchor for Release Blocker Door; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI RMF 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "A PASSING SCORE DOES NOT AUTHORIZE RELEASE. Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.",
+      "entityLedHook": "A PASSING SCORE DOES NOT AUTHORIZE RELEASE — Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/032/build-032-linkedin-poster.png",
@@ -2164,7 +2538,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 032, Release Blocker Door. Creator-owned 4:5 typographic opening frame. Visible text: “A PASSING SCORE DOES NOT AUTHORIZE RELEASE. Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure”.",
+        "altText": "Build 032, Release Blocker Door. Creator-owned 4:5 typographic opening frame. Visible text: “A PASSING SCORE DOES NOT AUTHORIZE RELEASE — Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2185,11 +2559,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 032, Release Blocker Door; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 032.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2226,7 +2610,7 @@
         "relevance": "NIST AI RMF 1.0 is a directly relevant contextual authority or primary-source anchor for Attack Graph; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST AI RMF 1.0 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "TEST THE SYSTEM WITHOUT TEACHING THE ATTACK. Defensive exploration should expose weak assumptions, controls, and recovery paths while withholding reusable harmful instructions.",
+      "entityLedHook": "TEST THE SYSTEM WITHOUT TEACHING THE ATTACK — Defensive exploration should expose weak assumptions, controls, and recovery paths while withholding reusable harmful instructions.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/033/build-033-linkedin-poster.png",
@@ -2235,7 +2619,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 033, Attack Graph. Creator-owned 4:5 typographic opening frame. Visible text: “TEST THE SYSTEM WITHOUT TEACHING THE ATTACK. Defensive exploration should expose weak assumptions, controls, and recovery paths while withholding reusable harmful instructions”.",
+        "altText": "Build 033, Attack Graph. Creator-owned 4:5 typographic opening frame. Visible text: “TEST THE SYSTEM WITHOUT TEACHING THE ATTACK — Defensive exploration should expose weak assumptions, controls, and recovery paths while withholding reusable harmful instructions.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2256,11 +2640,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 033, Attack Graph; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 033.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2297,7 +2691,7 @@
         "relevance": "NIST SP 800-61 Rev. 3 is a directly relevant contextual authority or primary-source anchor for Incident Replay Graph; it is selected for domain relevance, not fame. It is not the cover subject and does not endorse RN or the build.",
         "authorizationBoundary": "Context only: NIST SP 800-61 Rev. 3 is not shown on the current cover and is not part of the public hook. Recognition does not authorize a logo, seal, screenshot, portrait, photograph, trademark use or endorsement claim."
       },
-      "entityLedHook": "THE FAILURE IS MORE THAN THE ERROR MESSAGE. An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur.",
+      "entityLedHook": "THE FAILURE IS MORE THAN THE ERROR MESSAGE — An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/034/build-034-linkedin-poster.png",
@@ -2306,7 +2700,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 034, Incident Replay Graph. Creator-owned 4:5 typographic opening frame. Visible text: “THE FAILURE IS MORE THAN THE ERROR MESSAGE. An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur”.",
+        "altText": "Build 034, Incident Replay Graph. Creator-owned 4:5 typographic opening frame. Visible text: “THE FAILURE IS MORE THAN THE ERROR MESSAGE — An AI incident includes what happened, who was affected, how the workflow responded, what evidence survived, and whether harm can recur.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -2327,11 +2721,21 @@
             "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
             "credit": "Source context: NIST",
             "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
-            "orientationDimensions": "verify exact candidate after acquisition",
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "verify exact candidate after acquisition"
+            },
             "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
             "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes.",
             "sourceLocator": "https://doi.org/10.6028/NIST.SP.800-61r3",
-            "decision": "HOLD"
+            "decision": "HOLD",
+            "context": "Contextual source-page review for Build 034, Incident Replay Graph; the page is not itself a selected visual asset.",
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 034.",
+            "result": "A relevant context source was found, but no exact external asset with complete creator, rights, permission, credit, alt, dimensions, crop and claim-scope metadata was selected.",
+            "searchBreadth": "Limited to the recorded source page and its immediately identified publication context; not represented as an exhaustive archive search.",
+            "nextStep": "Search the issuing body’s official media/publication archive, select an exact asset, and obtain or verify asset-level permission before substitution."
           }
         ],
         "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
@@ -2361,8 +2765,8 @@
     }
   ],
   "normalization": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "normalizedAt": "2026-08-23",
-    "policy": "Hooks and alt text match the exact opening frame; contextual authorities never appear as implied cover subjects; research-open packages remain explicit; external and Canva use fail closed."
+    "policy": "Hooks and alt text preserve exact opening-frame wording without malformed punctuation; every research-open record has a limited negative search log; contextual authorities never become implied cover subjects; external assets and Canva fail closed."
   }
 }
