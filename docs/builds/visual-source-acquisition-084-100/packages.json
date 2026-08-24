@@ -1,0 +1,1390 @@
+{
+  "schemaVersion": "1.0.0",
+  "range": "084-100",
+  "auditedAt": "2026-08-23",
+  "baseCommit": "8a1160ca2d37135e59068bdc3c573462a1b49f3f",
+  "policy": {
+    "externalVisuals": "Fail closed without exact asset-level authorization.",
+    "endorsement": "Recognition never implies affiliation or endorsement.",
+    "canva": "No Canva generation authorized."
+  },
+  "records": [
+    {
+      "buildId": "084",
+      "title": "Who Created the Value—and Who Gets It?",
+      "recognizableEntity": {
+        "label": "U.S. Copyright Office",
+        "type": "official/primary contextual authority",
+        "relevance": "U.S. Copyright Office directly frames the domain question in Who Created the Value—and Who Gets It?; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by U.S. Copyright Office. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "U.S. Copyright Office provides bounded context for Build 084; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/084/build-084-linkedin-poster.png",
+        "openingFrame": "/media/builds/084/build-084-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 084, Who Created the Value—and Who Gets It?: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "U.S. Copyright Office",
+            "sourcePageUrl": "https://www.copyright.gov/what-is-copyright/",
+            "sourceLocator": "https://www.copyright.gov/circs/circ01.pdf",
+            "exactAssetUrl": null,
+            "issuerCreator": "U.S. Copyright Office",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.copyright.gov/about/; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: U.S. Copyright Office; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Authorship and rights context; not proof of contribution or allocation",
+            "context": "Primary contextual authority for Who Created the Value—and Who Gets It?.",
+            "query": "Official U.S. Copyright Office primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 084: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "085",
+      "title": "Who Is Shaping This Decision?",
+      "recognizableEntity": {
+        "label": "Federal Register notice-and-comment process",
+        "type": "official/primary contextual authority",
+        "relevance": "Federal Register notice-and-comment process directly frames the domain question in Who Is Shaping This Decision?; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by Office of the Federal Register. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "Federal Register notice-and-comment process provides bounded context for Build 085; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/085/build-085-linkedin-poster.png",
+        "openingFrame": "/media/builds/085/build-085-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 085, Who Is Shaping This Decision?: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "Federal Register notice-and-comment process",
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+            "sourceLocator": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+            "exactAssetUrl": null,
+            "issuerCreator": "Office of the Federal Register",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.federalregister.gov/policy/legal-status; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: Office of the Federal Register; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Participation context; not proof of influence or representation",
+            "context": "Primary contextual authority for Who Is Shaping This Decision?.",
+            "query": "Official Federal Register notice-and-comment process primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 085: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "086",
+      "title": "Use the Post as a Prototype",
+      "recognizableEntity": {
+        "label": "U.S. Web Design System",
+        "type": "official/primary contextual authority",
+        "relevance": "U.S. Web Design System directly frames the domain question in Use the Post as a Prototype; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by General Services Administration. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "U.S. Web Design System provides bounded context for Build 086; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/086/build-086-linkedin-poster.png",
+        "openingFrame": "/media/builds/086/build-086-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 086, Use the Post as a Prototype: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "U.S. Web Design System",
+            "sourcePageUrl": "https://designsystem.digital.gov/",
+            "sourceLocator": "https://designsystem.digital.gov/",
+            "exactAssetUrl": null,
+            "issuerCreator": "General Services Administration",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.gsa.gov/website-information/website-policies; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: General Services Administration; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Prototype and public-service design context; not performance evidence",
+            "context": "Primary contextual authority for Use the Post as a Prototype.",
+            "query": "Official U.S. Web Design System primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 086: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "087",
+      "title": "Build Your Own Media System",
+      "recognizableEntity": {
+        "label": "Digital.gov content guide",
+        "type": "official/primary contextual authority",
+        "relevance": "Digital.gov content guide directly frames the domain question in Build Your Own Media System; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by General Services Administration. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "Digital.gov content guide provides bounded context for Build 087; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/087/build-087-linkedin-poster.png",
+        "openingFrame": "/media/builds/087/build-087-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 087, Build Your Own Media System: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "Digital.gov content guide",
+            "sourcePageUrl": "https://digital.gov/resources/",
+            "sourceLocator": "https://digital.gov/resources/",
+            "exactAssetUrl": null,
+            "issuerCreator": "General Services Administration",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.gsa.gov/website-information/website-policies; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: General Services Administration; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Media-system context; RN workflow remains a design proposition",
+            "context": "Primary contextual authority for Build Your Own Media System.",
+            "query": "Official Digital.gov content guide primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 087: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "088",
+      "title": "Your Network Is Not a Contact List",
+      "recognizableEntity": {
+        "label": "LinkedIn data portability context",
+        "type": "official/primary contextual authority",
+        "relevance": "LinkedIn data portability context directly frames the domain question in Your Network Is Not a Contact List; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by Federal Trade Commission. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "LinkedIn data portability context provides bounded context for Build 088; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/088/build-088-linkedin-poster.png",
+        "openingFrame": "/media/builds/088/build-088-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 088, Your Network Is Not a Contact List: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "LinkedIn data portability context",
+            "sourcePageUrl": "https://consumer.ftc.gov/articles/how-protect-your-privacy-apps",
+            "sourceLocator": "https://consumer.ftc.gov/articles/how-protect-your-privacy-apps",
+            "exactAssetUrl": null,
+            "issuerCreator": "Federal Trade Commission",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.ftc.gov/site-information/privacy-policy; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: Federal Trade Commission; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Privacy context; no platform endorsement or network-value proof",
+            "context": "Primary contextual authority for Your Network Is Not a Contact List.",
+            "query": "Official LinkedIn data portability context primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 088: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "089",
+      "title": "Stop Being the Only Database in Your Company",
+      "recognizableEntity": {
+        "label": "NIST data integrity guidance",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST data integrity guidance directly frames the domain question in Stop Being the Only Database in Your Company; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST data integrity guidance provides bounded context for Build 089; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/089/build-089-linkedin-poster.png",
+        "openingFrame": "/media/builds/089/build-089-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 089, Stop Being the Only Database in Your Company: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST data integrity guidance",
+            "sourcePageUrl": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+            "sourceLocator": "https://doi.org/10.6028/NIST.SP.1800-25",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Data-integrity context; not proof of organizational outcomes",
+            "context": "Primary contextual authority for Stop Being the Only Database in Your Company.",
+            "query": "Official NIST data integrity guidance primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 089: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "090",
+      "title": "Build a Research Team of AI Agents That Can Show Their Work",
+      "recognizableEntity": {
+        "label": "NIST AI Risk Management Framework",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST AI Risk Management Framework directly frames the domain question in Build a Research Team of AI Agents That Can Show Their Work; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST AI Risk Management Framework provides bounded context for Build 090; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/090/build-090-linkedin-poster.png",
+        "openingFrame": "/media/builds/090/build-090-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 090, Build a Research Team of AI Agents That Can Show Their Work: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST AI Risk Management Framework",
+            "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Traceable AI-risk context; agent team remains RN prototype",
+            "context": "Primary contextual authority for Build a Research Team of AI Agents That Can Show Their Work.",
+            "query": "Official NIST AI Risk Management Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 090: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "091",
+      "title": "What Is This AI Allowed to Remember?",
+      "recognizableEntity": {
+        "label": "NIST Privacy Framework",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST Privacy Framework directly frames the domain question in What Is This AI Allowed to Remember?; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST Privacy Framework provides bounded context for Build 091; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/091/build-091-linkedin-poster.png",
+        "openingFrame": "/media/builds/091/build-091-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 091, What Is This AI Allowed to Remember?: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST Privacy Framework",
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Privacy-risk context; not proof of memory safety",
+            "context": "Primary contextual authority for What Is This AI Allowed to Remember?.",
+            "query": "Official NIST Privacy Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 091: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "092",
+      "title": "Rehearse Work Across People, AI and Software",
+      "recognizableEntity": {
+        "label": "NIST AI Risk Management Framework",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST AI Risk Management Framework directly frames the domain question in Rehearse Work Across People, AI and Software; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST AI Risk Management Framework provides bounded context for Build 092; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/092/build-092-linkedin-poster.png",
+        "openingFrame": "/media/builds/092/build-092-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 092, Rehearse Work Across People, AI and Software: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST AI Risk Management Framework",
+            "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Human-AI governance context; workflow is synthetic rehearsal",
+            "context": "Primary contextual authority for Rehearse Work Across People, AI and Software.",
+            "query": "Official NIST AI Risk Management Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 092: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "093",
+      "title": "Fictional Regulated-Workflow Rehearsal",
+      "recognizableEntity": {
+        "label": "FDA Quality Systems guidance",
+        "type": "official/primary contextual authority",
+        "relevance": "FDA Quality Systems guidance directly frames the domain question in Fictional Regulated-Workflow Rehearsal; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by U.S. Food and Drug Administration. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "FDA Quality Systems guidance provides bounded context for Build 093; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/093/build-093-linkedin-poster.png",
+        "openingFrame": "/media/builds/093/build-093-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 093, Fictional Regulated-Workflow Rehearsal: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "FDA Quality Systems guidance",
+            "sourcePageUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations",
+            "sourceLocator": "https://www.fda.gov/media/71023/download",
+            "exactAssetUrl": null,
+            "issuerCreator": "U.S. Food and Drug Administration",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.fda.gov/about-fda/about-website; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: U.S. Food and Drug Administration; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Regulated-workflow context only; scenario remains fictional",
+            "context": "Primary contextual authority for Fictional Regulated-Workflow Rehearsal.",
+            "query": "Official FDA Quality Systems guidance primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 093: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "094",
+      "title": "Inspect a Fictional Evidence Chain",
+      "recognizableEntity": {
+        "label": "NIST data integrity guidance",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST data integrity guidance directly frames the domain question in Inspect a Fictional Evidence Chain; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST data integrity guidance provides bounded context for Build 094; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/094/build-094-linkedin-poster.png",
+        "openingFrame": "/media/builds/094/build-094-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 094, Inspect a Fictional Evidence Chain: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST data integrity guidance",
+            "sourcePageUrl": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+            "sourceLocator": "https://doi.org/10.6028/NIST.SP.1800-25",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Integrity/provenance context; evidence chain remains fictional",
+            "context": "Primary contextual authority for Inspect a Fictional Evidence Chain.",
+            "query": "Official NIST data integrity guidance primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 094: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "095",
+      "title": "Institutional Conditions Observatory",
+      "recognizableEntity": {
+        "label": "Federal Register official document system",
+        "type": "official/primary contextual authority",
+        "relevance": "Federal Register official document system directly frames the domain question in Institutional Conditions Observatory; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by Office of the Federal Register. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "Federal Register official document system provides bounded context for Build 095; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/095/build-095-linkedin-poster.png",
+        "openingFrame": "/media/builds/095/build-095-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 095, Institutional Conditions Observatory: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "Federal Register official document system",
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/understanding-the-federal-register",
+            "sourceLocator": "https://www.federalregister.gov/reader-aids/understanding-the-federal-register",
+            "exactAssetUrl": null,
+            "issuerCreator": "Office of the Federal Register",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.federalregister.gov/policy/legal-status; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: Office of the Federal Register; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Institutional-condition context; observatory is RN synthesis",
+            "context": "Primary contextual authority for Institutional Conditions Observatory.",
+            "query": "Official Federal Register official document system primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 095: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "096",
+      "title": "Learn From Cannabis Experience Without Reducing People to Labels",
+      "recognizableEntity": {
+        "label": "CDC Principles of Community Engagement",
+        "type": "official/primary contextual authority",
+        "relevance": "CDC Principles of Community Engagement directly frames the domain question in Learn From Cannabis Experience Without Reducing People to Labels; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by Centers for Disease Control and Prevention. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "CDC Principles of Community Engagement provides bounded context for Build 096; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/096/build-096-linkedin-poster.png",
+        "openingFrame": "/media/builds/096/build-096-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 096, Learn From Cannabis Experience Without Reducing People to Labels: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "CDC Principles of Community Engagement",
+            "sourcePageUrl": "https://www.atsdr.cdc.gov/community-engagement-playbook/php/about/index.html",
+            "sourceLocator": "https://www.atsdr.cdc.gov/community-engagement-playbook/php/about/index.html",
+            "exactAssetUrl": null,
+            "issuerCreator": "Centers for Disease Control and Prevention",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.cdc.gov/other/agencymaterials.html; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: Centers for Disease Control and Prevention; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Engagement context; no lived-experience representation or community authority",
+            "context": "Primary contextual authority for Learn From Cannabis Experience Without Reducing People to Labels.",
+            "query": "Official CDC Principles of Community Engagement primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 096: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "097",
+      "title": "Can Personalization Respect the Off Switch?",
+      "recognizableEntity": {
+        "label": "NIST Privacy Framework",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST Privacy Framework directly frames the domain question in Can Personalization Respect the Off Switch?; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST Privacy Framework provides bounded context for Build 097; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/097/build-097-linkedin-poster.png",
+        "openingFrame": "/media/builds/097/build-097-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 097, Can Personalization Respect the Off Switch?: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST Privacy Framework",
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Privacy-control context; not proof that personalization respects withdrawal",
+            "context": "Primary contextual authority for Can Personalization Respect the Off Switch?.",
+            "query": "Official NIST Privacy Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 097: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "098",
+      "title": "Psychedelic Administrative Handoff Rehearsal",
+      "recognizableEntity": {
+        "label": "FDA drug development process",
+        "type": "official/primary contextual authority",
+        "relevance": "FDA drug development process directly frames the domain question in Psychedelic Administrative Handoff Rehearsal; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by U.S. Food and Drug Administration. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "FDA drug development process provides bounded context for Build 098; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/098/build-098-linkedin-poster.png",
+        "openingFrame": "/media/builds/098/build-098-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 098, Psychedelic Administrative Handoff Rehearsal: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "FDA drug development process",
+            "sourcePageUrl": "https://www.fda.gov/patients/drug-development-process/step-5-fda-post-market-drug-safety-monitoring",
+            "sourceLocator": "https://www.fda.gov/patients/drug-development-process/step-5-fda-post-market-drug-safety-monitoring",
+            "exactAssetUrl": null,
+            "issuerCreator": "U.S. Food and Drug Administration",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.fda.gov/about-fda/about-website; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: U.S. Food and Drug Administration; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Administrative handoff context only; psychedelic scenario is fictional and nonclinical",
+            "context": "Primary contextual authority for Psychedelic Administrative Handoff Rehearsal.",
+            "query": "Official FDA drug development process primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 098: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "099",
+      "title": "Fictional Archipelago Data Commons",
+      "recognizableEntity": {
+        "label": "NIST Privacy Framework",
+        "type": "official/primary contextual authority",
+        "relevance": "NIST Privacy Framework directly frames the domain question in Fictional Archipelago Data Commons; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by National Institute of Standards and Technology. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "NIST Privacy Framework provides bounded context for Build 099; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/099/build-099-linkedin-poster.png",
+        "openingFrame": "/media/builds/099/build-099-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 099, Fictional Archipelago Data Commons: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "NIST Privacy Framework",
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.nist.gov/nist-research-library/nist-publications; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Data-governance context; archipelago and commons are fictional",
+            "context": "Primary contextual authority for Fictional Archipelago Data Commons.",
+            "query": "Official NIST Privacy Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 099: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    },
+    {
+      "buildId": "100",
+      "title": "Island Resilience Scenario & Decision Room",
+      "recognizableEntity": {
+        "label": "FEMA Supply Chain Resilience Guide",
+        "type": "official/primary contextual authority",
+        "relevance": "FEMA Supply Chain Resilience Guide directly frames the domain question in Island Resilience Scenario & Decision Room; relevance is contextual, not promotional.",
+        "authorizationBoundary": "No affiliation or endorsement by Federal Emergency Management Agency. Recognition does not authorize marks, screenshots, portraits, or trade dress."
+      },
+      "entityLedHook": "FEMA Supply Chain Resilience Guide provides bounded context for Build 100; the proposition, scenario, and prototype are RN synthesis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/100/build-100-linkedin-poster.png",
+        "openingFrame": "/media/builds/100/build-100-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned; no third-party visual used.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 100, Island Resilience Scenario & Decision Room: creator-owned 4:5 typographic cover.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use full frame; preserve headline, build number, safe margins, and evidence boundary.",
+        "claimToVisualSupport": "Build identity and RN proposition only; not documentary evidence or endorsement."
+      },
+      "visualCandidateSearch": {
+        "status": "official/primary candidate reviewed; external substitution HOLD",
+        "searched": [
+          {
+            "label": "FEMA Supply Chain Resilience Guide",
+            "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+            "sourceLocator": "https://www.fema.gov/sites/default/files/2020-07/supply-chain-resilience-guide.pdf",
+            "exactAssetUrl": null,
+            "issuerCreator": "Federal Emergency Management Agency",
+            "rightsStatus": "asset-level reuse not established",
+            "rightsStatement": "Issuer terms reviewed at https://www.fema.gov/about/website-information; an official page or publication does not clear an unspecified visual.",
+            "permissionDecision": "HOLD — NOT CLEARED",
+            "credit": "Context source: Federal Emergency Management Agency; no asset credit because none selected.",
+            "altText": null,
+            "orientation": null,
+            "dimensions": {
+              "width": null,
+              "height": null
+            },
+            "cropGuidance": "Not applicable until an exact asset is selected.",
+            "claimToVisualSupport": "Resilience-planning context; island scenario and decisions remain synthetic",
+            "context": "Primary contextual authority for Island Resilience Scenario & Decision Room.",
+            "query": "Official FEMA Supply Chain Resilience Guide primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search.",
+            "nextStep": "Search item-level issuer media/archive records or request written permission; document exact asset before substitution.",
+            "decision": "HOLD external substitution; retain RN-owned cover."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Exact item URL, creator, rights, permission, credit, dimensions, alt, crop, and bounded claim support.",
+        "generatedFallbackReason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity/context",
+          "problem",
+          "mechanism",
+          "evidence boundary",
+          "limitations",
+          "CTA"
+        ],
+        "notes": "No Canva generation authorized."
+      },
+      "platformAdaptations": {
+        "linkedin": "Use creator-owned 4:5 poster/video; disclose RN synthesis.",
+        "instagram": "Preserve safe area and non-endorsement context.",
+        "x": "Use creator-owned poster; no institutional marks.",
+        "carousel": "Editorial specification ready; external visual production HOLD."
+      },
+      "cta": "Explore Build 100: inspect the source boundary, motion argument, and interactive prototype.",
+      "productionStatus": "CONDITIONALLY READY — RN-owned cover release-eligible; external visual substitution HOLD."
+    }
+  ]
+}
