@@ -3,7 +3,7 @@ const clean=s=>String(s||'').replace(/\s+/g,' ').replace(/\s+([,.;:!?])/g,'$1').
 const isPositive=s=>/\b(SELECTED\/CLEARED|CLEARED|APPROVED|AUTHORIZED)\b/i.test(String(s||''))&&!/\b(not|un|no)\s*[- ]?(cleared|approved|authorized)\b/i.test(String(s||''));
 const isHold=s=>/\b(HOLD|REJECT|not[- ]?cleared|not authorized|unresolved)\b/i.test(String(s||''));
 export function validate(data,films){
- const errors=[],expected=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0')),sets={template:new Set(),linkedin:new Set(),instagram:new Set(),x:new Set(),carousel:new Set()};let cleared=0,held=0;
+ const errors=[],mandatoryHolds=new Set(['010','014','015','016','023','024','027','030','033','034']),expected=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0')),sets={template:new Set(),linkedin:new Set(),instagram:new Set(),x:new Set(),carousel:new Set()};let cleared=0,held=0;
  if(data.records?.length!==100)errors.push('Expected exactly 100 records');
  if(JSON.stringify(data.records?.map(r=>r.buildId))!==JSON.stringify(expected))errors.push('IDs must be exactly 001–100');
  for(const r of data.records||[]){
@@ -21,7 +21,7 @@ export function validate(data,films){
   const list=r.visualCandidateSearch?.searched;if(!Array.isArray(list)||!list.length){errors.push(r.buildId+': candidate search log required');continue}
   for(const c of list){
    for(const k of ['candidateType','sourcePageUrl','sourceLocator','issuerCreator','rightsStatement','permissionDecision','credit','cropGuidance','claimToVisualSupport','context','query','result','searchBreadth','nextStep','decision'])if(typeof c[k]!=='string'||!c[k].trim())errors.push(r.buildId+': candidate '+k+' must be nonempty');
-   const positive=isPositive(c.permissionDecision)||isPositive(c.decision);
+   const positive=isPositive(c.permissionDecision)||isPositive(c.decision);if(mandatoryHolds.has(r.buildId)&&positive)errors.push(r.buildId+': mandatory independent-review HOLD was promoted');
    if(positive){
     cleared++;for(const k of ['exactAssetUrl','assetDate','assetFormat','termsUrl','altText'])if(typeof c[k]!=='string'||!c[k].trim())errors.push(r.buildId+': cleared candidate '+k+' must be nonempty');
     if(!/^https?:\/\//.test(c.exactAssetUrl||'')||!/^https?:\/\//.test(c.termsUrl||''))errors.push(r.buildId+': cleared candidate requires exact asset and terms URLs');
@@ -37,11 +37,13 @@ export function validate(data,films){
   }
  }
  for(const [k,set] of Object.entries(sets))if(set.size!==100)errors.push(k+': expected 100 build-specific assignments, got '+set.size);
- if(cleared!==30)errors.push('Expected exactly 30 cleared candidates, got '+cleared);
- if(held!==77)errors.push('Expected exactly 77 held candidates, got '+held);
+ if(cleared!==24)errors.push('Expected exactly 24 cleared candidates, got '+cleared);
+ if(held!==83)errors.push('Expected exactly 83 held candidates, got '+held);
  const clearIds=data.records?.filter(r=>(r.visualCandidateSearch?.searched||[]).some(c=>isPositive(c.permissionDecision)||isPositive(c.decision))).map(r=>r.buildId)||[];
  if(JSON.stringify(clearIds)!==JSON.stringify(data.acquisitionRange001_034?.clearedBuilds||[]))errors.push('Cleared build ledger mismatch');
- if(data.acquisitionRange001_034?.permissionHold!==4)errors.push('Expected four acquisition holds in Builds 001–034');
+ if(data.acquisitionRange001_034?.permissionHold!==10)errors.push('Expected ten acquisition holds in Builds 001–034');
+ const expectedHolds=['010','014','015','016','023','024','027','030','033','034'];if(JSON.stringify(data.acquisitionRange001_034?.holdBuilds)!==JSON.stringify(expectedHolds))errors.push('Independent-review hold ledger mismatch');
+ for(const id of ['010','023','024','030','033','034']){const c=data.records?.find(r=>r.buildId===id)?.visualCandidateSearch?.searched?.[0];if(!c?.holdReasonCode||!c?.reAuditDecision)errors.push(id+': independent downgrade reason missing')}
  return errors;
 }
-if(process.argv[1]&&import.meta.url===new URL('file:'+process.argv[1]).href){const data=JSON.parse(fs.readFileSync(process.argv[2]??'docs/builds/visual-source-audit-001-100/packages.json','utf8'));const films=JSON.parse(fs.readFileSync(process.argv[3]??'data/linkedin-film-specs-v1.json','utf8')).builds;const errors=validate(data,films);if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log('PASS: 100 records; 30 exact official candidates cleared but not substituted; 77 candidate checks on HOLD; 100 creator-owned live covers; 0 Canva authorization.')}
+if(process.argv[1]&&import.meta.url===new URL('file:'+process.argv[1]).href){const data=JSON.parse(fs.readFileSync(process.argv[2]??'docs/builds/visual-source-audit-001-100/packages.json','utf8'));const films=JSON.parse(fs.readFileSync(process.argv[3]??'data/linkedin-film-specs-v1.json','utf8')).builds;const errors=validate(data,films);if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log('PASS: 100 records; 24 exact official candidates cleared but not substituted; 83 candidate checks on HOLD; 100 creator-owned live covers; 0 Canva authorization.')}
