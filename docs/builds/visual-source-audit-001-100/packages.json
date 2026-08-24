@@ -798,7 +798,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -810,7 +810,7 @@
             "assetFormat": "HTML technical report",
             "termsUrl": "https://www.w3.org/copyright/document-license-2023/",
             "rightsStatement": "W3C Document License permits copying and distribution of the linked document or portions in any medium when the original URI, copyright notice and status are retained and context is not misleading.",
-            "permissionDecision": "CLEARED — exact document asset may be reused under the recorded public-domain/open-license terms, subject to the stated attribution, exclusion and no-endorsement conditions.",
+            "permissionDecision": "HOLD — The exact SHACL asset is a 2017 Recommendation, but the ledger cited the 2023 W3C Document License rather than the asset-linked document-use rules. Reuse may be resolvable, but this record does not yet prove the governing terms exactly.",
             "credit": "Copyright © 2017 W3C®. Material reproduced from Shapes Constraint Language (SHACL), https://www.w3.org/TR/shacl/ under the W3C Document License.",
             "altText": "Official W3C SHACL Recommendation document or guidance page, selected as contextual evidence for Build 010, From Words to Structure.",
             "orientationDimensions": {
@@ -825,11 +825,13 @@
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to From Words to Structure.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "nextStep": "Follow the copyright/document-use link embedded in the 2017 Recommendation, record the exact governing notice and required attribution, then re-audit the proposed crop.",
+            "decision": "HOLD — The exact SHACL asset is a 2017 Recommendation, but the ledger cited the 2023 W3C Document License rather than the asset-linked document-use rules. Reuse may be resolvable, but this record does not yet prove the governing terms exactly.",
+            "holdReasonCode": "GOVERNING_LICENSE_VERSION_MISMATCH",
+            "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
+        "requiredBeforeExternalSubstitution": "Follow the copyright/document-use link embedded in the 2017 Recommendation, record the exact governing notice and required attribution, then re-audit the proposed crop.",
         "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
       },
       "canva": {
@@ -852,7 +854,7 @@
         "carousel": "Build 010 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 010, From Words to Structure: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED"
+      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED"
     },
     {
       "buildId": "011",
@@ -1890,7 +1892,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1902,7 +1904,7 @@
             "assetFormat": "PDF, Official Journal text",
             "termsUrl": "https://commission.europa.eu/legal-notice_en",
             "rightsStatement": "EU-owned website content is licensed CC BY 4.0 unless otherwise indicated, with credit and change indication; logos, names, trademarks, third-party works and identifiable-person rights are excluded.",
-            "permissionDecision": "CLEARED — exact document asset may be reused under the recorded public-domain/open-license terms, subject to the stated attribution, exclusion and no-endorsement conditions.",
+            "permissionDecision": "HOLD — The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
             "credit": "© European Union. Source: Regulation (EU) 2016/679, EUR-Lex. Reused under CC BY 4.0; crop/change must be indicated.",
             "altText": "Official Regulation (EU) 2016/679 document or guidance page, selected as contextual evidence for Build 023, Consent That Can Change Its Mind.",
             "orientationDimensions": {
@@ -1917,11 +1919,13 @@
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Consent That Can Change Its Mind.",
             "result": "Exact official PDF, Official Journal text asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "nextStep": "Obtain the exact Official Journal PDF through an auditable EUR-Lex/Publications Office route and record the service-specific reuse notice or written permission.",
+            "decision": "HOLD — The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
+            "holdReasonCode": "ASSET_TERMS_HOST_MISMATCH",
+            "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
+        "requiredBeforeExternalSubstitution": "Obtain the exact Official Journal PDF through an auditable EUR-Lex/Publications Office route and record the service-specific reuse notice or written permission.",
         "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
       },
       "canva": {
@@ -1944,7 +1948,7 @@
         "carousel": "Build 023 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 023, Consent That Can Change Its Mind: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED"
+      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED"
     },
     {
       "buildId": "024",
@@ -1974,7 +1978,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1986,7 +1990,7 @@
             "assetFormat": "PDF, Official Journal text",
             "termsUrl": "https://commission.europa.eu/legal-notice_en",
             "rightsStatement": "EU-owned website content is licensed CC BY 4.0 unless otherwise indicated, with credit and change indication; logos, names, trademarks, third-party works and identifiable-person rights are excluded.",
-            "permissionDecision": "CLEARED — exact document asset may be reused under the recorded public-domain/open-license terms, subject to the stated attribution, exclusion and no-endorsement conditions.",
+            "permissionDecision": "HOLD — The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
             "credit": "© European Union. Source: Regulation (EU) 2016/679, EUR-Lex. Reused under CC BY 4.0; crop/change must be indicated.",
             "altText": "Official Regulation (EU) 2016/679 document or guidance page, selected as contextual evidence for Build 024, The Best Data Risk Is Data Never Collected.",
             "orientationDimensions": {
@@ -2001,11 +2005,13 @@
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to The Best Data Risk Is Data Never Collected.",
             "result": "Exact official PDF, Official Journal text asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "nextStep": "Obtain the exact Official Journal PDF through an auditable EUR-Lex/Publications Office route and record the service-specific reuse notice or written permission.",
+            "decision": "HOLD — The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
+            "holdReasonCode": "ASSET_TERMS_HOST_MISMATCH",
+            "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
+        "requiredBeforeExternalSubstitution": "Obtain the exact Official Journal PDF through an auditable EUR-Lex/Publications Office route and record the service-specific reuse notice or written permission.",
         "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
       },
       "canva": {
@@ -2028,7 +2034,7 @@
         "carousel": "Build 024 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 024, The Best Data Risk Is Data Never Collected: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED"
+      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED"
     },
     {
       "buildId": "025",
@@ -2478,7 +2484,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2490,7 +2496,7 @@
             "assetFormat": "HTML technical report",
             "termsUrl": "https://www.w3.org/copyright/document-license-2023/",
             "rightsStatement": "W3C Document License permits copying and distribution of the linked document or portions with URI, copyright and status retained; no misleading context or endorsement.",
-            "permissionDecision": "CLEARED — exact document asset may be reused under the recorded public-domain/open-license terms, subject to the stated attribution, exclusion and no-endorsement conditions.",
+            "permissionDecision": "HOLD — The exact latest WCAG 2.2 asset resolves to the 12 December 2024 Recommendation, while the ledger recorded 5 October 2023. The asset/version/date tuple is not exact.",
             "credit": "Copyright © 2023 W3C®. Material reproduced from Web Content Accessibility Guidelines (WCAG) 2.2, https://www.w3.org/TR/WCAG22/, under the W3C Document License.",
             "altText": "Official WCAG 2.2 document or guidance page, selected as contextual evidence for Build 030, Interface Repair in Motion.",
             "orientationDimensions": {
@@ -2505,11 +2511,13 @@
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Interface Repair in Motion.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "nextStep": "Choose and record either the immutable 2023 Recommendation URL with its date and governing notice or the immutable 2024 Recommendation URL and matching metadata, then re-audit.",
+            "decision": "HOLD — The exact latest WCAG 2.2 asset resolves to the 12 December 2024 Recommendation, while the ledger recorded 5 October 2023. The asset/version/date tuple is not exact.",
+            "holdReasonCode": "ASSET_VERSION_DATE_MISMATCH",
+            "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
+        "requiredBeforeExternalSubstitution": "Choose and record either the immutable 2023 Recommendation URL with its date and governing notice or the immutable 2024 Recommendation URL and matching metadata, then re-audit.",
         "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
       },
       "canva": {
@@ -2532,7 +2540,7 @@
         "carousel": "Build 030 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 030, Interface Repair in Motion: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED"
+      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED"
     },
     {
       "buildId": "031",
@@ -2730,7 +2738,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2742,7 +2750,7 @@
             "assetFormat": "PDF",
             "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications",
             "rightsStatement": "NIST Technical Series works authored by NIST employees are not subject to U.S. copyright; NIST grants a worldwide royalty-free reprint and derivative-work right where it may assert foreign rights, subject to citation and third-party-material review.",
-            "permissionDecision": "CLEARED — exact document asset may be reused under the recorded public-domain/open-license terms, subject to the stated attribution, exclusion and no-endorsement conditions.",
+            "permissionDecision": "HOLD — NIST AI RMF 1.0 is reusable and broadly relevant to AI security, but it does not specifically support an Attack Graph as the recognizable visual. Generic framework context is insufficient for selection.",
             "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
             "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 033, Attack Graph.",
             "orientationDimensions": {
@@ -2757,11 +2765,13 @@
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Attack Graph.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "nextStep": "Search an official primary cybersecurity source containing an actual attack-graph model or retain creator-owned typography.",
+            "decision": "HOLD — NIST AI RMF 1.0 is reusable and broadly relevant to AI security, but it does not specifically support an Attack Graph as the recognizable visual. Generic framework context is insufficient for selection.",
+            "holdReasonCode": "WEAK_CLAIM_TO_VISUAL_FIT",
+            "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
+        "requiredBeforeExternalSubstitution": "Search an official primary cybersecurity source containing an actual attack-graph model or retain creator-owned typography.",
         "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
       },
       "canva": {
@@ -2784,7 +2794,7 @@
         "carousel": "Build 033 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 033, Attack Graph: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED"
+      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED"
     },
     {
       "buildId": "034",
@@ -2814,7 +2824,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2826,7 +2836,7 @@
             "assetFormat": "PDF",
             "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications",
             "rightsStatement": "NIST Technical Series reuse policy grants reprint in all formats and derivative works with citation; review the selected page for third-party material before production.",
-            "permissionDecision": "CLEARED — exact document asset may be reused under the recorded public-domain/open-license terms, subject to the stated attribution, exclusion and no-endorsement conditions.",
+            "permissionDecision": "HOLD — NIST SP 800-61 Rev. 3 is reusable and relevant to incident response, but it does not specifically support an Incident Replay Graph as the recognizable visual. Generic incident-response context is insufficient for selection.",
             "credit": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
             "altText": "Official NIST SP 800-61 Rev. 3 document or guidance page, selected as contextual evidence for Build 034, Incident Replay Graph.",
             "orientationDimensions": {
@@ -2841,11 +2851,13 @@
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Incident Replay Graph.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "nextStep": "Search an official primary incident-forensics source containing an actual replay/timeline graph or retain creator-owned typography.",
+            "decision": "HOLD — NIST SP 800-61 Rev. 3 is reusable and relevant to incident response, but it does not specifically support an Incident Replay Graph as the recognizable visual. Generic incident-response context is insufficient for selection.",
+            "holdReasonCode": "WEAK_CLAIM_TO_VISUAL_FIT",
+            "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
+        "requiredBeforeExternalSubstitution": "Search an official primary incident-forensics source containing an actual replay/timeline graph or retain creator-owned typography.",
         "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
       },
       "canva": {
@@ -2868,7 +2880,7 @@
         "carousel": "Build 034 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 034, Incident Replay Graph: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED"
+      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED"
     },
     {
       "buildId": "035",
@@ -8679,8 +8691,8 @@
   },
   "acquisitionRange001_034": {
     "baseCommit": "8a1160ca2d37135e59068bdc3c573462a1b49f3f",
-    "selectedCleared": 30,
-    "permissionHold": 4,
+    "selectedCleared": 24,
+    "permissionHold": 10,
     "clearedBuilds": [
       "001",
       "002",
@@ -8691,7 +8703,6 @@
       "007",
       "008",
       "009",
-      "010",
       "011",
       "012",
       "013",
@@ -8701,24 +8712,66 @@
       "020",
       "021",
       "022",
-      "023",
-      "024",
       "025",
       "026",
       "028",
       "029",
-      "030",
       "031",
-      "032",
-      "033",
-      "034"
+      "032"
     ],
     "holdBuilds": [
+      "010",
       "014",
       "015",
       "016",
-      "027"
+      "023",
+      "024",
+      "027",
+      "030",
+      "033",
+      "034"
     ],
-    "policy": "A cleared candidate is an exact official document asset with explicit public-domain/open-license reuse evidence. It is not deployed and does not imply endorsement."
+    "policy": "A cleared candidate is an exact official document asset with explicit public-domain/open-license reuse evidence. It is not deployed and does not imply endorsement.",
+    "independentReAudit": {
+      "decision": "HOLD overall / 24 PASS / 10 HOLD",
+      "mandatoryDowngrades": [
+        {
+          "buildId": "010",
+          "code": "GOVERNING_LICENSE_VERSION_MISMATCH",
+          "reason": "The exact SHACL asset is a 2017 Recommendation, but the ledger cited the 2023 W3C Document License rather than the asset-linked document-use rules. Reuse may be resolvable, but this record does not yet prove the governing terms exactly.",
+          "next": "Follow the copyright/document-use link embedded in the 2017 Recommendation, record the exact governing notice and required attribution, then re-audit the proposed crop."
+        },
+        {
+          "buildId": "023",
+          "code": "ASSET_TERMS_HOST_MISMATCH",
+          "reason": "The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
+          "next": "Obtain the exact Official Journal PDF through an auditable EUR-Lex/Publications Office route and record the service-specific reuse notice or written permission."
+        },
+        {
+          "buildId": "024",
+          "code": "ASSET_TERMS_HOST_MISMATCH",
+          "reason": "The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
+          "next": "Obtain the exact Official Journal PDF through an auditable EUR-Lex/Publications Office route and record the service-specific reuse notice or written permission."
+        },
+        {
+          "buildId": "030",
+          "code": "ASSET_VERSION_DATE_MISMATCH",
+          "reason": "The exact latest WCAG 2.2 asset resolves to the 12 December 2024 Recommendation, while the ledger recorded 5 October 2023. The asset/version/date tuple is not exact.",
+          "next": "Choose and record either the immutable 2023 Recommendation URL with its date and governing notice or the immutable 2024 Recommendation URL and matching metadata, then re-audit."
+        },
+        {
+          "buildId": "033",
+          "code": "WEAK_CLAIM_TO_VISUAL_FIT",
+          "reason": "NIST AI RMF 1.0 is reusable and broadly relevant to AI security, but it does not specifically support an Attack Graph as the recognizable visual. Generic framework context is insufficient for selection.",
+          "next": "Search an official primary cybersecurity source containing an actual attack-graph model or retain creator-owned typography."
+        },
+        {
+          "buildId": "034",
+          "code": "WEAK_CLAIM_TO_VISUAL_FIT",
+          "reason": "NIST SP 800-61 Rev. 3 is reusable and relevant to incident response, but it does not specifically support an Incident Replay Graph as the recognizable visual. Generic incident-response context is insufficient for selection.",
+          "next": "Search an official primary incident-forensics source containing an actual replay/timeline graph or retain creator-owned typography."
+        }
+      ]
+    }
   }
 }
