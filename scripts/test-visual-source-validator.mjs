@@ -7,7 +7,9 @@ const cases=[
  ['cleared unresolved geometry',x=>x.records[0].visualCandidateSearch.searched[0].orientationDimensions={orientation:null,width:null,height:null},'geometry unresolved'],
  ['hold falsely cleared without asset',x=>{const c=x.records[13].visualCandidateSearch.searched[0];c.permissionDecision='CLEARED';c.decision='SELECTED/CLEARED';x.records[13].productionStatus='CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED';x.acquisitionRange001_034.clearedBuilds.splice(13,0,'014')},'cleared candidate exactAssetUrl must be nonempty'],
  ['hold loses explicit permission decision',x=>x.records[13].visualCandidateSearch.searched[0].permissionDecision='unknown','must explicitly HOLD'],
+ ['license-mismatch hold promoted',x=>{const r=x.records[9],c=r.visualCandidateSearch.searched[0];c.permissionDecision='CLEARED';c.decision='SELECTED/CLEARED';r.productionStatus='CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED'},'mandatory independent-review HOLD was promoted'],
+ ['weak-fit hold promoted',x=>{const r=x.records[32],c=r.visualCandidateSearch.searched[0];c.permissionDecision='CLEARED';c.decision='SELECTED/CLEARED';r.productionStatus='CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED'},'mandatory independent-review HOLD was promoted'],
  ['Canva true',x=>x.records[0].canva.generationAuthorized=true,'Canva must remain false']
 ];
 for(const [name,mutate,needle] of cases){const x=clone(data);mutate(x);const e=validate(x,films);if(!e.some(v=>v.includes(needle)))throw new Error(name+' mutation did not fail: '+e.join(' | '))}
-console.log('PASS: clean acquisition ledger plus 6 adversarial rights/asset/Canva mutations.');
+console.log('PASS: clean acquisition ledger plus 8 adversarial rights/asset/Canva mutations.');
