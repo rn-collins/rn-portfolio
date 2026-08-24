@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "baseCommit",
+    "range",
+    "clearanceRule",
+    "records"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "rn.visual-source-package.v1"
+    },
+    "records": {
+      "type": "array",
+      "minItems": 34,
+      "maxItems": 34,
+      "items": {
+        "type": "object",
+        "required": [
+          "buildId",
+          "recognizableEntity",
+          "entityLedHook",
+          "coverConcept",
+          "visualCandidates",
+          "carousel",
+          "platformAdaptations",
+          "productionStatus"
+        ],
+        "properties": {
+          "buildId": {
+            "pattern": "^(00[1-9]|0[12][0-9]|03[0-4])$"
+          },
+          "productionStatus": {
+            "enum": [
+              "cleared",
+              "usable-with-review",
+              "acquisition-needed",
+              "prohibited-or-unknown"
+            ]
+          },
+          "visualCandidates": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}

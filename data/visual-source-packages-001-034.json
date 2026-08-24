@@ -1,0 +1,1959 @@
+{
+  "schemaVersion": "rn.visual-source-package.v1",
+  "baseCommit": "10576aded48cec338c85664d836502a50f489653",
+  "range": "001-034",
+  "generatedAt": "2026-08-23",
+  "clearanceRule": "No visual is cleared unless authorization is explicit for the exact asset and intended use.",
+  "records": [
+    {
+      "buildId": "001",
+      "title": "Human Review Design Framework",
+      "recognizableEntity": "NIST AI Risk Management Framework 1.0",
+      "relevance": "A stranger can enter through NIST AI Risk Management Framework 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI Risk Management Framework 1.0: A human is a control only if they can change the outcome.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/001/b/",
+        "posterUrl": "/media/builds/001/build-001-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI Risk Management Framework 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "National Institute of Standards and Technology",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: National Institute of Standards and Technology",
+          "altText": "Official NIST AI Risk Management Framework 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "TIMING. WHEN DO THEY SEE IT? Before the consequence, while change remains possible.",
+      "cta": "Watch the LinkedIn cut, then explore Build 001.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "002",
+      "title": "Multi-Audience Meaning Architecture",
+      "recognizableEntity": "the same claim across audiences",
+      "relevance": "A stranger can enter through the same claim across audiences before meeting RN's abstract method.",
+      "entityLedHook": "the same claim across audiences: Change the language. Keep the truth anchored.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/002/b/",
+        "posterUrl": "/media/builds/002/build-002-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with the same claim across audiences; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [],
+      "carousel": {
+        "readiness": "outline-ready; recognizable visual acquisition needed",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "SOURCE TRUTH. LOCK WHAT CANNOT MOVE. Names, numbers, negation, uncertainty, material facts.",
+      "cta": "Watch the LinkedIn cut, then explore Build 002.",
+      "productionStatus": "acquisition-needed",
+      "clearanceDecision": "No defensible recognizable third-party visual candidate recorded; commission or generate an original visual fallback.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "003",
+      "title": "Unserved Decision Discovery",
+      "recognizableEntity": "the unresolved decision",
+      "relevance": "A stranger can enter through the unresolved decision before meeting RN's abstract method.",
+      "entityLedHook": "the unresolved decision: More information does not fix a missing decision system.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/003/b/",
+        "posterUrl": "/media/builds/003/build-003-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with the unresolved decision; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [],
+      "carousel": {
+        "readiness": "outline-ready; recognizable visual acquisition needed",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "LOOK. NAME THE RECURRING CHOICE. Do not start with content categories.",
+      "cta": "Watch the LinkedIn cut, then explore Build 003.",
+      "productionStatus": "acquisition-needed",
+      "clearanceDecision": "No defensible recognizable third-party visual candidate recorded; commission or generate an original visual fallback.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "004",
+      "title": "Before the Automation",
+      "recognizableEntity": "a source-and-claim register",
+      "relevance": "A stranger can enter through a source-and-claim register before meeting RN's abstract method.",
+      "entityLedHook": "a source-and-claim register: Automate the method only after you can see the method.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/004/b/",
+        "posterUrl": "/media/builds/004/build-004-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with a source-and-claim register; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [],
+      "carousel": {
+        "readiness": "outline-ready; recognizable visual acquisition needed",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "COLLECT. REGISTER THE SOURCE. Issuer, version, dates, exact locator.",
+      "cta": "Watch the LinkedIn cut, then explore Build 004.",
+      "productionStatus": "acquisition-needed",
+      "clearanceDecision": "No defensible recognizable third-party visual candidate recorded; commission or generate an original visual fallback.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "005",
+      "title": "Service Path Split",
+      "recognizableEntity": "GOV.UK Service Standard",
+      "relevance": "A stranger can enter through GOV.UK Service Standard before meeting RN's abstract method.",
+      "entityLedHook": "GOV.UK Service Standard: Map the work before you automate it.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/005/b/",
+        "posterUrl": "/media/builds/005/build-005-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with GOV.UK Service Standard; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.gov.uk/service-manual/service-standard",
+          "issuerCreator": "UK Government Digital Service",
+          "assetPageUrl": "https://www.gov.uk/service-manual/service-standard",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: UK Government Digital Service",
+          "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "THREE FUTURES. SOFTWARE. HUMAN. GONE. Each step earns a disposition.",
+      "cta": "Watch the LinkedIn cut, then explore Build 005.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "006",
+      "title": "Form Gate Field",
+      "recognizableEntity": "the software-or-not decision",
+      "relevance": "A stranger can enter through the software-or-not decision before meeting RN's abstract method.",
+      "entityLedHook": "the software-or-not decision: Build the form the problem earns.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/006/b/",
+        "posterUrl": "/media/builds/006/build-006-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with the software-or-not decision; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [],
+      "carousel": {
+        "readiness": "outline-ready; recognizable visual acquisition needed",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "FORMS. SOFTWARE. SERVICE. DATASET. COMPANY. SIMPLE. One idea has many futures.",
+      "cta": "Watch the LinkedIn cut, then explore Build 006.",
+      "productionStatus": "acquisition-needed",
+      "clearanceDecision": "No defensible recognizable third-party visual candidate recorded; commission or generate an original visual fallback.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "007",
+      "title": "The Product That Learns",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: A product learns only when feedback can responsibly change it.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/007/b/",
+        "posterUrl": "/media/builds/007/build-007-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "CAPTURE. USE. OUTCOME. CORRECTION. NEED. Hear distinct signals.",
+      "cta": "Watch the LinkedIn cut, then explore Build 007.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "008",
+      "title": "Data Is Not a Decision",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Data becomes useful when someone can decide and act.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/008/b/",
+        "posterUrl": "/media/builds/008/build-008-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "START. NAME THE DECISION. Every metric must affect it.",
+      "cta": "Watch the LinkedIn cut, then explore Build 008.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "009",
+      "title": "Transfer Is a Place Question",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Transferability is a place question.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/009/b/",
+        "posterUrl": "/media/builds/009/build-009-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "DECISION. WHAT MUST THIS PLACE DECIDE? Keep the local gap visible.",
+      "cta": "Watch the LinkedIn cut, then explore Build 009.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "010",
+      "title": "From Words to Structure",
+      "recognizableEntity": "W3C SHACL Recommendation",
+      "relevance": "A stranger can enter through W3C SHACL Recommendation before meeting RN's abstract method.",
+      "entityLedHook": "W3C SHACL Recommendation: If the idea has no structure, it cannot be tested.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/010/b/",
+        "posterUrl": "/media/builds/010/build-010-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with W3C SHACL Recommendation; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.w3.org/TR/shacl/",
+          "issuerCreator": "World Wide Web Consortium",
+          "assetPageUrl": "https://www.w3.org/TR/shacl/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: World Wide Web Consortium",
+          "altText": "Official W3C SHACL Recommendation source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "ENTITIES. GIVE THINGS STABLE IDENTITIES. Place is not Project.",
+      "cta": "Watch the LinkedIn cut, then explore Build 010.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "011",
+      "title": "Same Name Is Not Same Entity",
+      "recognizableEntity": "W3C PROV Primer",
+      "relevance": "A stranger can enter through W3C PROV Primer before meeting RN's abstract method.",
+      "entityLedHook": "W3C PROV Primer: Same name is not the same entity.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/011/b/",
+        "posterUrl": "/media/builds/011/build-011-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with W3C PROV Primer; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.w3.org/TR/prov-primer/",
+          "issuerCreator": "World Wide Web Consortium",
+          "assetPageUrl": "https://www.w3.org/TR/prov-primer/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: World Wide Web Consortium",
+          "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "STRUCTURE. WHAT KIND OF THING? Model entities before matching.",
+      "cta": "Watch the LinkedIn cut, then explore Build 011.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "012",
+      "title": "Controls Follow Consequence",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Controls should follow consequence.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/012/b/",
+        "posterUrl": "/media/builds/012/build-012-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "BOUND. PURPOSE. PEOPLE. DECISION. Classify the real workflow.",
+      "cta": "Watch the LinkedIn cut, then explore Build 012.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "013",
+      "title": "Follow the Consequence",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Follow the consequence through the work.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/013/b/",
+        "posterUrl": "/media/builds/013/build-013-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "HANDOFFS. INTAKE → DATA → MODEL → ACTION. Add decisions and monitoring.",
+      "cta": "Watch the LinkedIn cut, then explore Build 013.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "014",
+      "title": "The Answer Has Layers",
+      "recognizableEntity": "ABA Model Rules of Professional Conduct",
+      "relevance": "A stranger can enter through ABA Model Rules of Professional Conduct before meeting RN's abstract method.",
+      "entityLedHook": "ABA Model Rules of Professional Conduct: Responsibility does not move with the text.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/014/b/",
+        "posterUrl": "/media/builds/014/build-014-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with ABA Model Rules of Professional Conduct; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+          "issuerCreator": "American Bar Association",
+          "assetPageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: American Bar Association",
+          "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "LAYERS. RESEARCH. INTERPRETATION. INFERENCE. Each needs sources, authority, supervision, record.",
+      "cta": "Watch the LinkedIn cut, then explore Build 014.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "015",
+      "title": "From Matter Work to Reusable System",
+      "recognizableEntity": "ABA Model Rules of Professional Conduct",
+      "relevance": "A stranger can enter through ABA Model Rules of Professional Conduct before meeting RN's abstract method.",
+      "entityLedHook": "ABA Model Rules of Professional Conduct: Productize the reusable structure—not the legal judgment.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/015/b/",
+        "posterUrl": "/media/builds/015/build-015-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with ABA Model Rules of Professional Conduct; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+          "issuerCreator": "American Bar Association",
+          "assetPageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: American Bar Association",
+          "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "OBSERVE. FIND THE PATTERN. Compare supervised matters.",
+      "cta": "Watch the LinkedIn cut, then explore Build 015.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "016",
+      "title": "The Matter Beneath the Matter",
+      "recognizableEntity": "ABA Model Rules of Professional Conduct",
+      "relevance": "A stranger can enter through ABA Model Rules of Professional Conduct before meeting RN's abstract method.",
+      "entityLedHook": "ABA Model Rules of Professional Conduct: A legal task becomes manageable only when its hidden workflow is visible.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/016/b/",
+        "posterUrl": "/media/builds/016/build-016-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with ABA Model Rules of Professional Conduct; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+          "issuerCreator": "American Bar Association",
+          "assetPageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: American Bar Association",
+          "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "ACTORS. WHO CAN ACT? Name owners, reviewers, and authority.",
+      "cta": "Watch the LinkedIn cut, then explore Build 016.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "017",
+      "title": "The Risk Lives Between the Boxes",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Control the handoff, not just each organization.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/017/b/",
+        "posterUrl": "/media/builds/017/build-017-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "WORK. WHO OWNS THE TRANSFER? Name responsibility before movement.",
+      "cta": "Watch the LinkedIn cut, then explore Build 017.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "018",
+      "title": "The Process Is Part of the Outcome",
+      "recognizableEntity": "GOV.UK Service Standard",
+      "relevance": "A stranger can enter through GOV.UK Service Standard before meeting RN's abstract method.",
+      "entityLedHook": "GOV.UK Service Standard: Institutional burden is a design variable, not background noise.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/018/b/",
+        "posterUrl": "/media/builds/018/build-018-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with GOV.UK Service Standard; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.gov.uk/service-manual/service-standard",
+          "issuerCreator": "UK Government Digital Service",
+          "assetPageUrl": "https://www.gov.uk/service-manual/service-standard",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: UK Government Digital Service",
+          "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "SUBMIT. WHERE DOES IT GO? A process needs a visible owner.",
+      "cta": "Watch the LinkedIn cut, then explore Build 018.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "019",
+      "title": "The Alert That Knows Who Cares",
+      "recognizableEntity": "NIST SP 800-61 Rev. 3",
+      "relevance": "A stranger can enter through NIST SP 800-61 Rev. 3 before meeting RN's abstract method.",
+      "entityLedHook": "NIST SP 800-61 Rev. 3: Escalation is a chain of authority, evidence, time, and recourse.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/019/b/",
+        "posterUrl": "/media/builds/019/build-019-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST SP 800-61 Rev. 3; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "CORRELATE. GROUP EVIDENCE FIRST. Preserve each source and state.",
+      "cta": "Watch the LinkedIn cut, then explore Build 019.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "020",
+      "title": "Open the Decision",
+      "recognizableEntity": "W3C PROV Primer",
+      "relevance": "A stranger can enter through W3C PROV Primer before meeting RN's abstract method.",
+      "entityLedHook": "W3C PROV Primer: An accountable decision remains reconstructable after the moment passes.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/020/b/",
+        "posterUrl": "/media/builds/020/build-020-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with W3C PROV Primer; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.w3.org/TR/prov-primer/",
+          "issuerCreator": "World Wide Web Consortium",
+          "assetPageUrl": "https://www.w3.org/TR/prov-primer/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: World Wide Web Consortium",
+          "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "RECONSTRUCT. LINK THE COMPLETE RECORD. Actor, authority, time, evidence, alternatives, result.",
+      "cta": "Watch the LinkedIn cut, then explore Build 020.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "021",
+      "title": "Break the Promise Open",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Buy the evidence—not the adjective.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/021/b/",
+        "posterUrl": "/media/builds/021/build-021-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "SEPARATE. PROMISE ≠ EVIDENCE. Store claim and proof separately.",
+      "cta": "Watch the LinkedIn cut, then explore Build 021.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "022",
+      "title": "Human Impact Nodes",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: An AI workflow ends; its consequences keep traveling.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/022/b/",
+        "posterUrl": "/media/builds/022/build-022-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "APPLICANT. WHO RECEIVES THE DECISION? Trace direct effects first.",
+      "cta": "Watch the LinkedIn cut, then explore Build 022.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "023",
+      "title": "Consent That Can Change Its Mind",
+      "recognizableEntity": "Regulation (EU) 2016/679",
+      "relevance": "A stranger can enter through Regulation (EU) 2016/679 before meeting RN's abstract method.",
+      "entityLedHook": "Regulation (EU) 2016/679: Consent is specific, changeable, evidenced, and never the only possible legal basis.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/023/b/",
+        "posterUrl": "/media/builds/023/build-023-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with Regulation (EU) 2016/679; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "issuerCreator": "European Parliament and Council",
+          "assetPageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: European Parliament and Council",
+          "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "SPECIFICITY. SEPARATE EVERY PURPOSE. Each scope needs permission and history.",
+      "cta": "Watch the LinkedIn cut, then explore Build 023.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "024",
+      "title": "The Best Data Risk Is Data Never Collected",
+      "recognizableEntity": "Regulation (EU) 2016/679",
+      "relevance": "A stranger can enter through Regulation (EU) 2016/679 before meeting RN's abstract method.",
+      "entityLedHook": "Regulation (EU) 2016/679: The best data risk is data never collected.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/024/b/",
+        "posterUrl": "/media/builds/024/build-024-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with Regulation (EU) 2016/679; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "issuerCreator": "European Parliament and Council",
+          "assetPageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: European Parliament and Council",
+          "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "PURPOSE. NAME THE DECISION. Permission cannot justify unnecessary collection.",
+      "cta": "Watch the LinkedIn cut, then explore Build 024.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "025",
+      "title": "Readiness Has Layers",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Readiness is the ability to operate controls—not the desire to deploy.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/025/b/",
+        "posterUrl": "/media/builds/025/build-025-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "PEOPLE. WHO CAN RUN THE CONTROL? Name owners, authority, skill, and time.",
+      "cta": "Watch the LinkedIn cut, then explore Build 025.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "026",
+      "title": "Records Normalize Without Losing Their Past",
+      "recognizableEntity": "W3C PROV Primer and PROV-O",
+      "relevance": "A stranger can enter through W3C PROV Primer and PROV-O before meeting RN's abstract method.",
+      "entityLedHook": "W3C PROV Primer and PROV-O: Messy data can support decisions only when its limits remain visible.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/026/b/",
+        "posterUrl": "/media/builds/026/build-026-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with W3C PROV Primer and PROV-O; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.w3.org/TR/prov-o/",
+          "issuerCreator": "World Wide Web Consortium",
+          "assetPageUrl": "https://www.w3.org/TR/prov-o/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: World Wide Web Consortium",
+          "altText": "Official W3C PROV Primer and PROV-O source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "RAW. PRESERVE THE SOURCE. Keep collection, time, owner, and permitted use.",
+      "cta": "Watch the LinkedIn cut, then explore Build 026.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "027",
+      "title": "Ownership Exposure Board",
+      "recognizableEntity": "Copyright Basics, Circular 1",
+      "relevance": "A stranger can enter through Copyright Basics, Circular 1 before meeting RN's abstract method.",
+      "entityLedHook": "Copyright Basics, Circular 1: Platform reach is rented; your ownership stack must survive the platform.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/027/b/",
+        "posterUrl": "/media/builds/027/build-027-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with Copyright Basics, Circular 1; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.copyright.gov/circs/circ01.pdf",
+          "issuerCreator": "U.S. Copyright Office",
+          "assetPageUrl": "https://www.copyright.gov/circs/circ01.pdf",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: U.S. Copyright Office",
+          "altText": "Official Copyright Basics, Circular 1 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "OWN. KEEP THE SOURCE FILES. Track authorship, licenses, and permissions.",
+      "cta": "Watch the LinkedIn cut, then explore Build 027.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "028",
+      "title": "Ranking Rationale",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Knowledge you cannot reliably find is knowledge you cannot reliably use.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/028/b/",
+        "posterUrl": "/media/builds/028/build-028-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "INTENT. START WITH THE QUESTION. Rank for the real task.",
+      "cta": "Watch the LinkedIn cut, then explore Build 028.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "029",
+      "title": "Consequence Propagation",
+      "recognizableEntity": "W3C PROV Primer",
+      "relevance": "A stranger can enter through W3C PROV Primer before meeting RN's abstract method.",
+      "entityLedHook": "W3C PROV Primer: A change is not small when its consequences travel beyond its author.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/029/b/",
+        "posterUrl": "/media/builds/029/build-029-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with W3C PROV Primer; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.w3.org/TR/prov-primer/",
+          "issuerCreator": "World Wide Web Consortium",
+          "assetPageUrl": "https://www.w3.org/TR/prov-primer/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: World Wide Web Consortium",
+          "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "BOUND. NAME WHAT CHANGED. Record actor, object, purpose, and prior state.",
+      "cta": "Watch the LinkedIn cut, then explore Build 029.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "030",
+      "title": "Interface Repair in Motion",
+      "recognizableEntity": "WCAG 2.2",
+      "relevance": "A stranger can enter through WCAG 2.2 before meeting RN's abstract method.",
+      "entityLedHook": "WCAG 2.2: Accessibility is whether people can complete the work.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/030/b/",
+        "posterUrl": "/media/builds/030/build-030-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with WCAG 2.2; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.w3.org/TR/WCAG22/",
+          "issuerCreator": "World Wide Web Consortium",
+          "assetPageUrl": "https://www.w3.org/TR/WCAG22/",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: World Wide Web Consortium",
+          "altText": "Official WCAG 2.2 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "TASK. TEST THE WHOLE JOURNEY. Entry. Action. Feedback. Recovery. Completion.",
+      "cta": "Watch the LinkedIn cut, then explore Build 030.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "031",
+      "title": "Telemetry Privacy Field",
+      "recognizableEntity": "NIST Privacy Framework v1.0",
+      "relevance": "A stranger can enter through NIST Privacy Framework v1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST Privacy Framework v1.0: Privacy is what the product does when nobody reads the policy.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/031/b/",
+        "posterUrl": "/media/builds/031/build-031-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST Privacy Framework v1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST Privacy Framework v1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "TRACE. FOLLOW DATA END TO END. Collection. Purpose. Storage. Sharing. Deletion.",
+      "cta": "Watch the LinkedIn cut, then explore Build 031.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "032",
+      "title": "Release Blocker Door",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: A release is ready only when controls are operable, evidenced, and owned.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/032/b/",
+        "posterUrl": "/media/builds/032/build-032-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "BOUND. LOCK VERSION + CONSEQUENCE. Name purpose, people, environment, and unacceptable outcomes.",
+      "cta": "Watch the LinkedIn cut, then explore Build 032.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "033",
+      "title": "Attack Graph",
+      "recognizableEntity": "NIST AI RMF 1.0",
+      "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+      "entityLedHook": "NIST AI RMF 1.0: Adversarial testing must make systems safer without making harm easier.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/033/b/",
+        "posterUrl": "/media/builds/033/build-033-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST AI RMF 1.0; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "BOUND. ASSET. THREAT. SCOPE. AUTHORITY. Name owners, limits, and stop conditions.",
+      "cta": "Watch the LinkedIn cut, then explore Build 033.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    },
+    {
+      "buildId": "034",
+      "title": "Incident Replay Graph",
+      "recognizableEntity": "NIST SP 800-61 Rev. 3",
+      "relevance": "A stranger can enter through NIST SP 800-61 Rev. 3 before meeting RN's abstract method.",
+      "entityLedHook": "NIST SP 800-61 Rev. 3: An incident closes only when evidence, correction, and prevention are reconstructable.",
+      "existingLinkedIn": {
+        "url": "https://rn-portfolio-khaki.vercel.app/100-builds/034/b/",
+        "posterUrl": "/media/builds/034/build-034-linkedin-poster.png",
+        "openingFrame": "",
+        "orientation": "4:5",
+        "dimensions": "1080×1350 reported by production pipeline",
+        "audit": "existing standardized asset; individual editorial review still required"
+      },
+      "coverConcept": "Lead with NIST SP 800-61 Rev. 3; pair one recognizable official/document cue with the build's central decision, then disclose prototype status.",
+      "visualCandidates": [
+        {
+          "candidateType": "official source page/document cover",
+          "sourceUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+          "issuerCreator": "NIST",
+          "assetPageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+          "rightsStatus": "unknown-at-asset-level",
+          "permissionStatus": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+          "credit": "Source context: NIST",
+          "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
+          "orientationDimensions": "verify exact candidate after acquisition",
+          "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+          "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+        }
+      ],
+      "carousel": {
+        "readiness": "outline-ready; visual acquisition review pending",
+        "canvaTemplate": "RN Builds / 6-slide evidence explainer",
+        "slides": [
+          "entity-led cover",
+          "why it matters",
+          "prototype mechanism",
+          "source + scope",
+          "interactive proof",
+          "watch/explore CTA"
+        ]
+      },
+      "platformAdaptations": {
+        "linkedin": "4:5 cover + 6-slide document carousel + 30-second film",
+        "instagram": "4:5 carousel; shorten source scope on-slide and retain full caption credit",
+        "x": "16:9 crop only after legibility check; link to B experience",
+        "web": "retain poster, transcript, captions and interactive progression"
+      },
+      "hook": "PRESERVE. FREEZE EVIDENCE FIRST. Keep time, version, actions, owners, and provenance.",
+      "cta": "Watch the LinkedIn cut, then explore Build 034.",
+      "productionStatus": "usable-with-review",
+      "clearanceDecision": "Official candidate found; asset-level authorization and final credit review required.",
+      "prohibitedUses": [
+        "unrelated celebrity likeness",
+        "decorative logo use",
+        "implied endorsement",
+        "visual that exceeds claim scope"
+      ]
+    }
+  ]
+}
