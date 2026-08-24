@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2.0.0",
+  "schemaVersion": "2.1.0",
   "range": "068-100",
   "auditedAt": "2026-08-23",
   "baseCommit": "10576aded48cec338c85664d836502a50f489653",
@@ -18,7 +18,7 @@
         "relevance": "Build 068 currently leads with its own proposition, “FROM KNOWING YOU TO ACTING FOR YOU”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "FROM KNOWING YOU TO ACTING FOR YOU. A passive fixed synthetic model can suggest context and prepare a bounded proposal. Knowledge alone never supplies authority.",
+      "entityLedHook": "FROM KNOWING YOU TO ACTING FOR YOU — A passive fixed synthetic model can suggest context and prepare a bounded proposal. Knowledge alone never supplies authority.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/068/build-068-linkedin-poster.png",
@@ -27,7 +27,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 068, From Knowing You to Acting for You. Creator-owned 4:5 typographic opening frame. Visible text: “FROM KNOWING YOU TO ACTING FOR YOU. A passive fixed synthetic model can suggest context and prepare a bounded proposal. Knowledge alone never supplies authority”.",
+        "altText": "Build 068, From Knowing You to Acting for You. Creator-owned 4:5 typographic opening frame. Visible text: “FROM KNOWING YOU TO ACTING FOR YOU — A passive fixed synthetic model can suggest context and prepare a bounded proposal. Knowledge alone never supplies authority.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -37,8 +37,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/068/record/",
+            "sourceLocator": "Build 068 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 068, From Knowing You to Acting for You; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -73,7 +99,7 @@
         "relevance": "Build 069 currently leads with its own proposition, “ENACTED IS NOT IMPLEMENTED”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "ENACTED IS NOT IMPLEMENTED. A fictional enactment marker and effective date begin the record. They do not prove that an operational program exists.",
+      "entityLedHook": "ENACTED IS NOT IMPLEMENTED — A fictional enactment marker and effective date begin the record. They do not prove that an operational program exists.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/069/build-069-linkedin-poster.png",
@@ -82,7 +108,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 069, Enacted Is Not Implemented. Creator-owned 4:5 typographic opening frame. Visible text: “ENACTED IS NOT IMPLEMENTED. A fictional enactment marker and effective date begin the record. They do not prove that an operational program exists”.",
+        "altText": "Build 069, Enacted Is Not Implemented. Creator-owned 4:5 typographic opening frame. Visible text: “ENACTED IS NOT IMPLEMENTED — A fictional enactment marker and effective date begin the record. They do not prove that an operational program exists.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -92,8 +118,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/069/record/",
+            "sourceLocator": "Build 069 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 069, Enacted Is Not Implemented; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -128,7 +180,7 @@
         "relevance": "Build 070 currently leads with its own proposition, “LEGALIZATION IS A LIFECYCLE, NOT A VOTE”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "LEGALIZATION IS A LIFECYCLE, NOT A VOTE. A fictional vote opens a long regulatory record. It does not prove implementation, access, equity, safety, effectiveness, legitimacy, or completion.",
+      "entityLedHook": "LEGALIZATION IS A LIFECYCLE, NOT A VOTE — A fictional vote opens a long regulatory record. It does not prove implementation, access, equity, safety, effectiveness, legitimacy, or completion.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/070/build-070-linkedin-poster.png",
@@ -137,7 +189,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 070, Legalization Is a Lifecycle, Not a Vote. Creator-owned 4:5 typographic opening frame. Visible text: “LEGALIZATION IS A LIFECYCLE, NOT A VOTE. A fictional vote opens a long regulatory record. It does not prove implementation, access, equity, safety, effectiveness, legitimacy, or completion”.",
+        "altText": "Build 070, Legalization Is a Lifecycle, Not a Vote. Creator-owned 4:5 typographic opening frame. Visible text: “LEGALIZATION IS A LIFECYCLE, NOT A VOTE — A fictional vote opens a long regulatory record. It does not prove implementation, access, equity, safety, effectiveness, legitimacy, or completion.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -147,8 +199,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/070/record/",
+            "sourceLocator": "Build 070 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 070, Legalization Is a Lifecycle, Not a Vote; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -192,7 +270,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 071, Fictional Medical-Cannabis Access Gates. Creator-owned 4:5 typographic opening frame. Visible text: “A FICTIONAL ACCESS-GATE REHEARSAL”.",
+        "altText": "Build 071, Fictional Medical-Cannabis Access Gates. Creator-owned 4:5 typographic opening frame. Visible text: “A FICTIONAL ACCESS-GATE REHEARSAL.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -202,8 +280,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/071/record/",
+            "sourceLocator": "Build 071 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 071, Fictional Medical-Cannabis Access Gates; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -238,7 +342,7 @@
         "relevance": "Build 072 currently leads with its own proposition, “A FICTIONAL ISLAND COMPARISON”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "A FICTIONAL ISLAND COMPARISON. No real island or community is represented.",
+      "entityLedHook": "A FICTIONAL ISLAND COMPARISON — No real island or community is represented.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/072/build-072-linkedin-poster.png",
@@ -247,7 +351,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 072, Fictional Island Access Comparison. Creator-owned 4:5 typographic opening frame. Visible text: “A FICTIONAL ISLAND COMPARISON. No real island or community is represented”.",
+        "altText": "Build 072, Fictional Island Access Comparison. Creator-owned 4:5 typographic opening frame. Visible text: “A FICTIONAL ISLAND COMPARISON — No real island or community is represented.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -257,8 +361,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/072/record/",
+            "sourceLocator": "Build 072 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 072, Fictional Island Access Comparison; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -293,7 +423,7 @@
         "relevance": "Build 073 currently leads with its own proposition, “ACCESS FOR WHOM?”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "ACCESS FOR WHOM?. A celebratory reform signal is only the first layer. Legal change is not the same as usable access.",
+      "entityLedHook": "ACCESS FOR WHOM? A celebratory reform signal is only the first layer. Legal change is not the same as usable access.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/073/build-073-linkedin-poster.png",
@@ -302,7 +432,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 073, Access for Whom?. Creator-owned 4:5 typographic opening frame. Visible text: “ACCESS FOR WHOM?. A celebratory reform signal is only the first layer. Legal change is not the same as usable access”.",
+        "altText": "Build 073, Access for Whom? Creator-owned 4:5 typographic opening frame. Visible text: “ACCESS FOR WHOM? A celebratory reform signal is only the first layer. Legal change is not the same as usable access.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -312,8 +442,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/073/record/",
+            "sourceLocator": "Build 073 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 073, Access for Whom?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -357,7 +513,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 074, The Law Says Yes. The System Says Not Yet.. Creator-owned 4:5 typographic opening frame. Visible text: “THE LAW SAYS YES. A synthetic authorization signal opens the comparison. It does not prove that a system is operating or usable”.",
+        "altText": "Build 074, The Law Says Yes. The System Says Not Yet. Creator-owned 4:5 typographic opening frame. Visible text: “THE LAW SAYS YES. A synthetic authorization signal opens the comparison. It does not prove that a system is operating or usable.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -367,8 +523,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/074/record/",
+            "sourceLocator": "Build 074 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 074, The Law Says Yes. The System Says Not Yet.; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -412,7 +594,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 075, Same Goal, Different Regulatory Machine. Creator-owned 4:5 typographic opening frame. Visible text: “SAME GOAL. DIFFERENT MACHINE. One stated aim can travel through very different synthetic regulatory designs”.",
+        "altText": "Build 075, Same Goal, Different Regulatory Machine. Creator-owned 4:5 typographic opening frame. Visible text: “SAME GOAL. DIFFERENT MACHINE. One stated aim can travel through very different synthetic regulatory designs.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -422,8 +604,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/075/record/",
+            "sourceLocator": "Build 075 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 075, Same Goal, Different Regulatory Machine; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -467,7 +675,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 076, The Map That Knows the Difference Between Similar Laws. Creator-owned 4:5 typographic opening frame. Visible text: “SIMILAR LAWS. DIFFERENT SYSTEMS. A fictional global map can make labels look alike while the source-level structure remains different”.",
+        "altText": "Build 076, The Map That Knows the Difference Between Similar Laws. Creator-owned 4:5 typographic opening frame. Visible text: “SIMILAR LAWS. DIFFERENT SYSTEMS. A fictional global map can make labels look alike while the source-level structure remains different.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -477,8 +685,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/076/record/",
+            "sourceLocator": "Build 076 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 076, The Map That Knows the Difference Between Similar Laws; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -513,7 +747,7 @@
         "relevance": "Build 077 currently leads with its own proposition, “A RULE CHANGES. WHAT MOVES NEXT?”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "A RULE CHANGES. WHAT MOVES NEXT?. One fictional regulatory notice enters an inspectable consequence system.",
+      "entityLedHook": "A RULE CHANGES. WHAT MOVES NEXT? One fictional regulatory notice enters an inspectable consequence system.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/077/build-077-linkedin-poster.png",
@@ -522,7 +756,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 077, What Does This Change Actually Do?. Creator-owned 4:5 typographic opening frame. Visible text: “A RULE CHANGES. WHAT MOVES NEXT?. One fictional regulatory notice enters an inspectable consequence system”.",
+        "altText": "Build 077, What Does This Change Actually Do? Creator-owned 4:5 typographic opening frame. Visible text: “A RULE CHANGES. WHAT MOVES NEXT? One fictional regulatory notice enters an inspectable consequence system.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -532,8 +766,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/077/record/",
+            "sourceLocator": "Build 077 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 077, What Does This Change Actually Do?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -577,7 +837,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 078, Evidence Does Not Travel Intact by Accident. Creator-owned 4:5 typographic opening frame. Visible text: “A STUDY TRAVELS. EVIDENCE CAN FRAY. Translation needs an evidence-preservation protocol, even when every record and audience is fictional”.",
+        "altText": "Build 078, Evidence Does Not Travel Intact by Accident. Creator-owned 4:5 typographic opening frame. Visible text: “A STUDY TRAVELS. EVIDENCE CAN FRAY. Translation needs an evidence-preservation protocol, even when every record and audience is fictional.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -587,8 +847,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/078/record/",
+            "sourceLocator": "Build 078 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 078, Evidence Does Not Travel Intact by Accident; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -632,7 +918,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 079, A Search Result Is Not an Evidence Map. Creator-owned 4:5 typographic opening frame. Visible text: “A SEARCH RESULT IS NOT AN EVIDENCE MAP. A keyword match can surface a fictional record and still miss the question it appears to answer”.",
+        "altText": "Build 079, A Search Result Is Not an Evidence Map. Creator-owned 4:5 typographic opening frame. Visible text: “A SEARCH RESULT IS NOT AN EVIDENCE MAP. A keyword match can surface a fictional record and still miss the question it appears to answer.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -642,8 +928,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/079/record/",
+            "sourceLocator": "Build 079 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 079, A Search Result Is Not an Evidence Map; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -687,7 +999,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 080, The Article Was Only the First Output. Creator-owned 4:5 typographic opening frame. Visible text: “THE ARTICLE WAS ONLY THE FIRST OUTPUT. A fictional story can open into reusable public infrastructure without becoming a completeness claim”.",
+        "altText": "Build 080, The Article Was Only the First Output. Creator-owned 4:5 typographic opening frame. Visible text: “THE ARTICLE WAS ONLY THE FIRST OUTPUT. A fictional story can open into reusable public infrastructure without becoming a completeness claim.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -697,8 +1009,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/080/record/",
+            "sourceLocator": "Build 080 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 080, The Article Was Only the First Output; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -733,7 +1071,7 @@
         "relevance": "Build 081 currently leads with its own proposition, “A SYNTHETIC LISTENING REHEARSAL”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "A SYNTHETIC LISTENING REHEARSAL. No real conversation or person is represented.",
+      "entityLedHook": "A SYNTHETIC LISTENING REHEARSAL — No real conversation or person is represented.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/081/build-081-linkedin-poster.png",
@@ -742,7 +1080,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 081, What Might People Be Struggling With?. Creator-owned 4:5 typographic opening frame. Visible text: “A SYNTHETIC LISTENING REHEARSAL. No real conversation or person is represented”.",
+        "altText": "Build 081, What Might People Be Struggling With? Creator-owned 4:5 typographic opening frame. Visible text: “A SYNTHETIC LISTENING REHEARSAL — No real conversation or person is represented.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -752,8 +1090,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/081/record/",
+            "sourceLocator": "Build 081 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 081, What Might People Be Struggling With?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -797,7 +1161,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 082, An Audience Is Not a Demographic Box. Creator-owned 4:5 typographic opening frame. Visible text: “AN AUDIENCE IS NOT A DEMOGRAPHIC BOX. A fictional persona card cannot explain a relationship, and demographic proxies cannot supply the missing context”.",
+        "altText": "Build 082, An Audience Is Not a Demographic Box. Creator-owned 4:5 typographic opening frame. Visible text: “AN AUDIENCE IS NOT A DEMOGRAPHIC BOX. A fictional persona card cannot explain a relationship, and demographic proxies cannot supply the missing context.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -807,8 +1171,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/082/record/",
+            "sourceLocator": "Build 082 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 082, An Audience Is Not a Demographic Box; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -852,7 +1242,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 083, Your Work Is Already Full of Content. Creator-owned 4:5 typographic opening frame. Visible text: “YOUR WORK IS ALREADY FULL OF CONTENT. The challenge is extracting proof from fictional work without leaking the work”.",
+        "altText": "Build 083, Your Work Is Already Full of Content. Creator-owned 4:5 typographic opening frame. Visible text: “YOUR WORK IS ALREADY FULL OF CONTENT. The challenge is extracting proof from fictional work without leaking the work.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -862,8 +1252,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/083/record/",
+            "sourceLocator": "Build 083 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 083, Your Work Is Already Full of Content; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -898,7 +1314,7 @@
         "relevance": "Build 084 currently leads with its own proposition, “WHO CREATED THE VALUE—AND WHO GETS IT?”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "WHO CREATED THE VALUE—AND WHO GETS IT?. Trace value creation, knowledge sources, rights, communities, agreements and benefit distribution.",
+      "entityLedHook": "WHO CREATED THE VALUE—AND WHO GETS IT? Trace value creation, knowledge sources, rights, communities, agreements and benefit distribution.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/084/build-084-linkedin-poster.png",
@@ -907,7 +1323,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 084, Who Created the Value—and Who Gets It?. Creator-owned 4:5 typographic opening frame. Visible text: “WHO CREATED THE VALUE—AND WHO GETS IT?. Trace value creation, knowledge sources, rights, communities, agreements and benefit distribution”.",
+        "altText": "Build 084, Who Created the Value—and Who Gets It? Creator-owned 4:5 typographic opening frame. Visible text: “WHO CREATED THE VALUE—AND WHO GETS IT? Trace value creation, knowledge sources, rights, communities, agreements and benefit distribution.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -917,8 +1333,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/084/record/",
+            "sourceLocator": "Build 084 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 084, Who Created the Value—and Who Gets It?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -953,7 +1395,7 @@
         "relevance": "Build 085 currently leads with its own proposition, “WHO IS SHAPING THIS DECISION?”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "WHO IS SHAPING THIS DECISION?. Map source-linked ownership, funding, lobbying, advisory, procurement and standards influence without unsupported accusations.",
+      "entityLedHook": "WHO IS SHAPING THIS DECISION? Map source-linked ownership, funding, lobbying, advisory, procurement and standards influence without unsupported accusations.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/085/build-085-linkedin-poster.png",
@@ -962,7 +1404,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 085, Who Is Shaping This Decision?. Creator-owned 4:5 typographic opening frame. Visible text: “WHO IS SHAPING THIS DECISION?. Map source-linked ownership, funding, lobbying, advisory, procurement and standards influence without unsupported accusations”.",
+        "altText": "Build 085, Who Is Shaping This Decision? Creator-owned 4:5 typographic opening frame. Visible text: “WHO IS SHAPING THIS DECISION? Map source-linked ownership, funding, lobbying, advisory, procurement and standards influence without unsupported accusations.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -972,8 +1414,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/085/record/",
+            "sourceLocator": "Build 085 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 085, Who Is Shaping This Decision?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1008,7 +1476,7 @@
         "relevance": "Build 086 currently leads with its own proposition, “USE THE POST AS A PROTOTYPE”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "USE THE POST AS A PROTOTYPE. Use publishing to test demand, language, evidence, collaborators and product direction.",
+      "entityLedHook": "USE THE POST AS A PROTOTYPE — Use publishing to test demand, language, evidence, collaborators and product direction.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/086/build-086-linkedin-poster.png",
@@ -1017,7 +1485,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 086, Use the Post as a Prototype. Creator-owned 4:5 typographic opening frame. Visible text: “USE THE POST AS A PROTOTYPE. Use publishing to test demand, language, evidence, collaborators and product direction”.",
+        "altText": "Build 086, Use the Post as a Prototype. Creator-owned 4:5 typographic opening frame. Visible text: “USE THE POST AS A PROTOTYPE — Use publishing to test demand, language, evidence, collaborators and product direction.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1027,8 +1495,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/086/record/",
+            "sourceLocator": "Build 086 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 086, Use the Post as a Prototype; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1063,7 +1557,7 @@
         "relevance": "Build 087 currently leads with its own proposition, “BUILD YOUR OWN MEDIA SYSTEM”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "BUILD YOUR OWN MEDIA SYSTEM. Coordinate ideas, research, production, rights, versions, publishing, reuse and learning across channels.",
+      "entityLedHook": "BUILD YOUR OWN MEDIA SYSTEM — Coordinate ideas, research, production, rights, versions, publishing, reuse and learning across channels.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/087/build-087-linkedin-poster.png",
@@ -1072,7 +1566,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 087, Build Your Own Media System. Creator-owned 4:5 typographic opening frame. Visible text: “BUILD YOUR OWN MEDIA SYSTEM. Coordinate ideas, research, production, rights, versions, publishing, reuse and learning across channels”.",
+        "altText": "Build 087, Build Your Own Media System. Creator-owned 4:5 typographic opening frame. Visible text: “BUILD YOUR OWN MEDIA SYSTEM — Coordinate ideas, research, production, rights, versions, publishing, reuse and learning across channels.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1082,8 +1576,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/087/record/",
+            "sourceLocator": "Build 087 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 087, Build Your Own Media System; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1118,7 +1638,7 @@
         "relevance": "Build 088 currently leads with its own proposition, “YOUR NETWORK IS NOT A CONTACT LIST”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "YOUR NETWORK IS NOT A CONTACT LIST. Track relationships, context, commitments, introductions, opportunities and open loops.",
+      "entityLedHook": "YOUR NETWORK IS NOT A CONTACT LIST — Track relationships, context, commitments, introductions, opportunities and open loops.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/088/build-088-linkedin-poster.png",
@@ -1127,7 +1647,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 088, Your Network Is Not a Contact List. Creator-owned 4:5 typographic opening frame. Visible text: “YOUR NETWORK IS NOT A CONTACT LIST. Track relationships, context, commitments, introductions, opportunities and open loops”.",
+        "altText": "Build 088, Your Network Is Not a Contact List. Creator-owned 4:5 typographic opening frame. Visible text: “YOUR NETWORK IS NOT A CONTACT LIST — Track relationships, context, commitments, introductions, opportunities and open loops.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1137,8 +1657,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/088/record/",
+            "sourceLocator": "Build 088 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 088, Your Network Is Not a Contact List; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1173,7 +1719,7 @@
         "relevance": "Build 089 currently leads with its own proposition, “STOP BEING THE ONLY DATABASE IN YOUR COMPANY”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "STOP BEING THE ONLY DATABASE IN YOUR COMPANY. Externalize founder decisions, relationships, research, IP, signals, risks and priorities into one operating intelligence layer.",
+      "entityLedHook": "STOP BEING THE ONLY DATABASE IN YOUR COMPANY — Externalize founder decisions, relationships, research, IP, signals, risks and priorities into one operating intelligence layer.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/089/build-089-linkedin-poster.png",
@@ -1182,7 +1728,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 089, Stop Being the Only Database in Your Company. Creator-owned 4:5 typographic opening frame. Visible text: “STOP BEING THE ONLY DATABASE IN YOUR COMPANY. Externalize founder decisions, relationships, research, IP, signals, risks and priorities into one operating intelligence layer”.",
+        "altText": "Build 089, Stop Being the Only Database in Your Company. Creator-owned 4:5 typographic opening frame. Visible text: “STOP BEING THE ONLY DATABASE IN YOUR COMPANY — Externalize founder decisions, relationships, research, IP, signals, risks and priorities into one operating intelligence layer.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1192,8 +1738,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/089/record/",
+            "sourceLocator": "Build 089 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 089, Stop Being the Only Database in Your Company; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1228,7 +1800,7 @@
         "relevance": "Build 090 currently leads with its own proposition, “BUILD A RESEARCH TEAM OF AI AGENTS THAT CAN SHOW THEIR WORK”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "BUILD A RESEARCH TEAM OF AI AGENTS THAT CAN SHOW THEIR WORK. Govern agents that discover, retrieve, verify, challenge, synthesize, cite and escalate research.",
+      "entityLedHook": "BUILD A RESEARCH TEAM OF AI AGENTS THAT CAN SHOW THEIR WORK — Govern agents that discover, retrieve, verify, challenge, synthesize, cite and escalate research.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/090/build-090-linkedin-poster.png",
@@ -1237,7 +1809,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 090, Build a Research Team of AI Agents That Can Show Their Work. Creator-owned 4:5 typographic opening frame. Visible text: “BUILD A RESEARCH TEAM OF AI AGENTS THAT CAN SHOW THEIR WORK. Govern agents that discover, retrieve, verify, challenge, synthesize, cite and escalate research”.",
+        "altText": "Build 090, Build a Research Team of AI Agents That Can Show Their Work. Creator-owned 4:5 typographic opening frame. Visible text: “BUILD A RESEARCH TEAM OF AI AGENTS THAT CAN SHOW THEIR WORK — Govern agents that discover, retrieve, verify, challenge, synthesize, cite and escalate research.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1247,8 +1819,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/090/record/",
+            "sourceLocator": "Build 090 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 090, Build a Research Team of AI Agents That Can Show Their Work; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1283,7 +1881,7 @@
         "relevance": "Build 091 currently leads with its own proposition, “WHAT IS THIS AI ALLOWED TO REMEMBER?”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "WHAT IS THIS AI ALLOWED TO REMEMBER?. Control what agents may remember, infer, retrieve, share or forget across contexts and time.",
+      "entityLedHook": "WHAT IS THIS AI ALLOWED TO REMEMBER? Control what agents may remember, infer, retrieve, share or forget across contexts and time.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/091/build-091-linkedin-poster.png",
@@ -1292,7 +1890,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 091, What Is This AI Allowed to Remember?. Creator-owned 4:5 typographic opening frame. Visible text: “WHAT IS THIS AI ALLOWED TO REMEMBER?. Control what agents may remember, infer, retrieve, share or forget across contexts and time”.",
+        "altText": "Build 091, What Is This AI Allowed to Remember? Creator-owned 4:5 typographic opening frame. Visible text: “WHAT IS THIS AI ALLOWED TO REMEMBER? Control what agents may remember, infer, retrieve, share or forget across contexts and time.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1302,8 +1900,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/091/record/",
+            "sourceLocator": "Build 091 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 091, What Is This AI Allowed to Remember?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1347,7 +1971,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 092, Rehearse Work Across People, AI and Software. Creator-owned 4:5 typographic opening frame. Visible text: “A modeled workflow rehearsal”.",
+        "altText": "Build 092, Rehearse Work Across People, AI and Software. Creator-owned 4:5 typographic opening frame. Visible text: “A modeled workflow rehearsal”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1357,8 +1981,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/092/record/",
+            "sourceLocator": "Build 092 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 092, Rehearse Work Across People, AI and Software; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1402,7 +2052,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 093, Fictional Regulated-Workflow Rehearsal. Creator-owned 4:5 typographic opening frame. Visible text: “A fictional regulated-workflow rehearsal”.",
+        "altText": "Build 093, Fictional Regulated-Workflow Rehearsal. Creator-owned 4:5 typographic opening frame. Visible text: “A fictional regulated-workflow rehearsal”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1412,8 +2062,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/093/record/",
+            "sourceLocator": "Build 093 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 093, Fictional Regulated-Workflow Rehearsal; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1457,7 +2133,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 094, Inspect a Fictional Evidence Chain. Creator-owned 4:5 typographic opening frame. Visible text: “Inspect a fictional evidence chain”.",
+        "altText": "Build 094, Inspect a Fictional Evidence Chain. Creator-owned 4:5 typographic opening frame. Visible text: “Inspect a fictional evidence chain”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1467,8 +2143,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/094/record/",
+            "sourceLocator": "Build 094 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 094, Inspect a Fictional Evidence Chain; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1512,7 +2214,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 095, Institutional Conditions Observatory. Creator-owned 4:5 typographic opening frame. Visible text: “Observe fictional institutional conditions”.",
+        "altText": "Build 095, Institutional Conditions Observatory. Creator-owned 4:5 typographic opening frame. Visible text: “Observe fictional institutional conditions”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1522,8 +2224,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/095/record/",
+            "sourceLocator": "Build 095 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 095, Institutional Conditions Observatory; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1558,7 +2286,7 @@
         "relevance": "Build 096 currently leads with its own proposition, “LEARN FROM CANNABIS EXPERIENCE WITHOUT REDUCING PEOPLE TO LABELS”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "LEARN FROM CANNABIS EXPERIENCE WITHOUT REDUCING PEOPLE TO LABELS. Learn responsible longitudinal patterns across product composition, person, context and time.",
+      "entityLedHook": "LEARN FROM CANNABIS EXPERIENCE WITHOUT REDUCING PEOPLE TO LABELS — Learn responsible longitudinal patterns across product composition, person, context and time.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/096/build-096-linkedin-poster.png",
@@ -1567,7 +2295,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 096, Learn From Cannabis Experience Without Reducing People to Labels. Creator-owned 4:5 typographic opening frame. Visible text: “LEARN FROM CANNABIS EXPERIENCE WITHOUT REDUCING PEOPLE TO LABELS. Learn responsible longitudinal patterns across product composition, person, context and time”.",
+        "altText": "Build 096, Learn From Cannabis Experience Without Reducing People to Labels. Creator-owned 4:5 typographic opening frame. Visible text: “LEARN FROM CANNABIS EXPERIENCE WITHOUT REDUCING PEOPLE TO LABELS — Learn responsible longitudinal patterns across product composition, person, context and time.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1577,8 +2305,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/096/record/",
+            "sourceLocator": "Build 096 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 096, Learn From Cannabis Experience Without Reducing People to Labels; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1613,7 +2367,7 @@
         "relevance": "Build 097 currently leads with its own proposition, “CAN PERSONALIZATION RESPECT THE OFF SWITCH?”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "CAN PERSONALIZATION RESPECT THE OFF SWITCH?. Let a system adapt using only consented context while exposing every input, explanation and off switch.",
+      "entityLedHook": "CAN PERSONALIZATION RESPECT THE OFF SWITCH? Let a system adapt using only consented context while exposing every input, explanation and off switch.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/097/build-097-linkedin-poster.png",
@@ -1622,7 +2376,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 097, Can Personalization Respect the Off Switch?. Creator-owned 4:5 typographic opening frame. Visible text: “CAN PERSONALIZATION RESPECT THE OFF SWITCH?. Let a system adapt using only consented context while exposing every input, explanation and off switch”.",
+        "altText": "Build 097, Can Personalization Respect the Off Switch? Creator-owned 4:5 typographic opening frame. Visible text: “CAN PERSONALIZATION RESPECT THE OFF SWITCH? Let a system adapt using only consented context while exposing every input, explanation and off switch.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1632,8 +2386,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/097/record/",
+            "sourceLocator": "Build 097 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 097, Can Personalization Respect the Off Switch?; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1677,7 +2457,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 098, Psychedelic Administrative Handoff Rehearsal. Creator-owned 4:5 typographic opening frame. Visible text: “A fictional administrative handoff rehearsal”.",
+        "altText": "Build 098, Psychedelic Administrative Handoff Rehearsal. Creator-owned 4:5 typographic opening frame. Visible text: “A fictional administrative handoff rehearsal”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1687,8 +2467,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/098/record/",
+            "sourceLocator": "Build 098 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 098, Psychedelic Administrative Handoff Rehearsal; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1732,7 +2538,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 099, Fictional Archipelago Data Commons. Creator-owned 4:5 typographic opening frame. Visible text: “A fictional archipelago data commons”.",
+        "altText": "Build 099, Fictional Archipelago Data Commons. Creator-owned 4:5 typographic opening frame. Visible text: “A fictional archipelago data commons”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1742,8 +2548,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/099/record/",
+            "sourceLocator": "Build 099 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 099, Fictional Archipelago Data Commons; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1778,7 +2610,7 @@
         "relevance": "Build 100 currently leads with its own proposition, “ISLAND RESILIENCE SCENARIO & DECISION ROOM”. No independent person, institution, place, product or cultural symbol has yet passed relevance and rights review; fame alone will not qualify one.",
         "authorizationBoundary": "The current cover uses only RN-created typography. No external entity, logo, seal, screenshot, portrait, community, place or endorsement is represented."
       },
-      "entityLedHook": "ISLAND RESILIENCE SCENARIO & DECISION ROOM. Model an island shock, cascading consequences, intervention options, tradeoffs and accountable decisions.",
+      "entityLedHook": "ISLAND RESILIENCE SCENARIO & DECISION ROOM — Model an island shock, cascading consequences, intervention options, tradeoffs and accountable decisions.",
       "cover": {
         "kind": "creator-owned generated typography",
         "assetUrl": "/media/builds/100/build-100-linkedin-poster.png",
@@ -1787,7 +2619,7 @@
         "rightsStatus": "creator-owned",
         "licensePermission": "Creator-owned production asset; no third-party visual identified.",
         "credit": "© RN Collins · RN Builds",
-        "altText": "Build 100, Island Resilience Scenario & Decision Room. Creator-owned 4:5 typographic opening frame. Visible text: “ISLAND RESILIENCE SCENARIO & DECISION ROOM. Model an island shock, cascading consequences, intervention options, tradeoffs and accountable decisions”.",
+        "altText": "Build 100, Island Resilience Scenario & Decision Room. Creator-owned 4:5 typographic opening frame. Visible text: “ISLAND RESILIENCE SCENARIO & DECISION ROOM — Model an island shock, cascading consequences, intervention options, tradeoffs and accountable decisions.”",
         "orientation": "4:5 portrait",
         "dimensions": {
           "width": 720,
@@ -1797,8 +2629,34 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "RESEARCH OPEN — no official/primary external visual candidate selected",
-        "searched": [],
+        "status": "RESEARCH OPEN / LIMITED FIRST-PARTY CHECK LOGGED / EXTERNAL ASSET HOLD",
+        "searched": [
+          {
+            "candidateType": "limited first-party inventory search log",
+            "sourcePageUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/100/record/",
+            "sourceLocator": "Build 100 public evidence record, source display, current poster and opening frame",
+            "exactAssetUrl": null,
+            "issuerCreator": "RN Collins / RN Builds editorial audit",
+            "rightsStatement": "The reviewed record and current typography are RN-created; no independent external visual asset or third-party reuse right was identified.",
+            "permissionDecision": "HOLD — limited first-party check does not establish permission for any external visual.",
+            "credit": "Audit record: RN Collins / RN Builds; no external asset credit because no asset was selected.",
+            "altText": null,
+            "orientationDimensions": {
+              "orientation": null,
+              "width": null,
+              "height": null,
+              "note": "No external asset selected."
+            },
+            "cropGuidance": "Not applicable until an exact external asset is selected and its native dimensions are verified.",
+            "claimToVisualSupport": "The first-party record documents the build and its evidence boundary only. It does not turn the current typography into documentary evidence or authorize an external entity visual.",
+            "context": "Limited first-party inventory check for Build 100, Island Resilience Scenario & Decision Room; this is not an exhaustive official, archival or web-wide visual search.",
+            "query": "Review the public evidence record, source display, current poster and opening frame for an independent recognizable entity paired with an exact reusable visual and asset-level rights evidence.",
+            "result": "No independent external visual with complete asset-level rights metadata was identified or selected. The creator-owned typographic opening frame remains the only release-eligible visual.",
+            "searchBreadth": "Limited to the build’s public first-party evidence and media inventory. No claim of exhaustive external research.",
+            "nextStep": "Identify the most relevant independent issuing body or primary repository, search its official asset/archive pages, then document exact asset URL, creator, rights, permission, credit, alt, dimensions, crop and limited claim scope.",
+            "decision": "HOLD — limited search logged; external visual acquisition and permission research remain open."
+          }
+        ],
         "requiredBeforeExternalSubstitution": "Search official issuer archives and authoritative primary repositories for any proposed recognizable entity. Record exact asset URL, creator/issuer, rights statement, permission and credit before use. For Indigenous, place or community imagery, direct authorization may still be required even when an image is publicly visible.",
         "generatedFallbackReason": "No independent recognizable entity has passed both editorial relevance and asset-level rights review. The creator-owned typographic opening frame remains the only release-eligible visual."
       },
@@ -1826,8 +2684,8 @@
     }
   ],
   "normalization": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "normalizedAt": "2026-08-23",
-    "policy": "Hooks and alt text match the exact opening frame; contextual authorities never appear as implied cover subjects; research-open packages remain explicit; external and Canva use fail closed."
+    "policy": "Hooks and alt text preserve exact opening-frame wording without malformed punctuation; every research-open record has a limited negative search log; contextual authorities never become implied cover subjects; external assets and Canva fail closed."
   }
 }
