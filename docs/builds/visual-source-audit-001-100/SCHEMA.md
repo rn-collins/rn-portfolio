@@ -1,14 +1,18 @@
 # Canonical recognizable-entity and visual-source schema
 
-Version 2 normalizes all 100 records to one editorial and release contract.
+Version 2.1 normalizes all 100 records to one fail-closed editorial and release contract.
 
-- `entityLedHook` must equal the visible opening-frame headline/body. A contextual authority that is absent from the cover may not be prepended to the public hook.
-- `cover.altText` must transcribe the visible opening-frame text and identify the current asset as creator-owned typography.
-- `recognizableEntity` is either a directly relevant contextual authority with a documented source search or an explicit `research-open subject`. Fame alone is never sufficient.
-- Empty candidate arrays are permitted only for explicit research-open records.
-- Context pages are not cleared assets. Every candidate remains on HOLD until an exact asset URL, creator, rights statement, permission, credit, alt text, dimensions, crop and claim scope are complete.
-- Every build has a unique platform package and Canva editorial template/slide assignment.
-- `canva.generationAuthorized` is always false in this audit.
-- Canonical production status is `CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED`.
+- Public hook and alt text preserve the actual opening-frame wording without invented authority prefixes or malformed terminal punctuation.
+- Every record contains at least one candidate-search log. A research-open log may document a limited negative first-party inventory check, but must state its breadth and next external research step; it may not claim exhaustive completion.
+- Each candidate requires nonempty source page, locator, issuer/creator, rights statement, permission decision, credit, crop guidance, claim scope, context, query, result and decision.
+- Permission and decision fields must explicitly say HOLD, REJECT or not-cleared. Positive cleared/approved/authorized semantics fail validation.
+- When `exactAssetUrl` is null, alt and dimensions may remain null. A selected exact asset requires complete asset-level alt, orientation and numeric dimensions.
+- Context pages are not cleared assets. No external asset is selected in this audit.
+- Every build has unique LinkedIn, Instagram, X, carousel and Canva editorial assignments.
+- `canva.generationAuthorized` is always false.
+- Canonical production status: `CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED`.
 
-Run `node scripts/validate-visual-source-packages.mjs`.
+Run:
+
+- `node scripts/validate-visual-source-packages.mjs`
+- `node scripts/test-visual-source-validator.mjs`
