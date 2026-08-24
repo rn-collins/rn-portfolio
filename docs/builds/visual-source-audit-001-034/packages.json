@@ -1,0 +1,2303 @@
+{
+  "schemaVersion": "1.0.0",
+  "range": "001-034",
+  "auditedAt": "2026-08-23",
+  "baseCommit": "10576aded48cec338c85664d836502a50f489653",
+  "policy": {
+    "externalVisuals": "No external visual may be used without exact source URL, asset URL, issuer/creator, rights basis, required permission, credit, alt text, dimensions and crop guidance.",
+    "fallback": "Creator-owned generated typography is allowed only as an explicitly identified fallback; it is not documentary evidence of the subject.",
+    "clickbait": "Unrelated celebrity, logo or institutional imagery is prohibited."
+  },
+  "records": [
+    {
+      "buildId": "001",
+      "title": "Human Review Design Framework",
+      "recognizableEntity": {
+        "label": "NIST AI Risk Management Framework 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI Risk Management Framework 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI Risk Management Framework 1.0: A human is a control only if they can change the outcome.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/001/build-001-linkedin-poster.png",
+        "openingFrame": "/media/builds/001/build-001-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 001, Human Review Design Framework: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "National Institute of Standards and Technology",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: National Institute of Standards and Technology",
+            "altText": "Official NIST AI Risk Management Framework 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 001.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "002",
+      "title": "Multi-Audience Meaning Architecture",
+      "recognizableEntity": {
+        "label": "the same claim across audiences",
+        "type": "conceptual subject",
+        "relevance": "A stranger can enter through the same claim across audiences before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "the same claim across audiences: Change the language. Keep the truth anchored.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/002/build-002-linkedin-poster.png",
+        "openingFrame": "/media/builds/002/build-002-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 002, Multi-Audience Meaning Architecture: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "open; acquisition needed",
+        "searched": [],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 002.",
+      "productionStatus": "ACQUISITION NEEDED — creator-owned cover cleared; no official/primary recognizable visual candidate documented."
+    },
+    {
+      "buildId": "003",
+      "title": "Unserved Decision Discovery",
+      "recognizableEntity": {
+        "label": "the unresolved decision",
+        "type": "conceptual subject",
+        "relevance": "A stranger can enter through the unresolved decision before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "the unresolved decision: More information does not fix a missing decision system.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/003/build-003-linkedin-poster.png",
+        "openingFrame": "/media/builds/003/build-003-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 003, Unserved Decision Discovery: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "open; acquisition needed",
+        "searched": [],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 003.",
+      "productionStatus": "ACQUISITION NEEDED — creator-owned cover cleared; no official/primary recognizable visual candidate documented."
+    },
+    {
+      "buildId": "004",
+      "title": "Before the Automation",
+      "recognizableEntity": {
+        "label": "a source-and-claim register",
+        "type": "conceptual subject",
+        "relevance": "A stranger can enter through a source-and-claim register before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "a source-and-claim register: Automate the method only after you can see the method.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/004/build-004-linkedin-poster.png",
+        "openingFrame": "/media/builds/004/build-004-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 004, Before the Automation: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "open; acquisition needed",
+        "searched": [],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 004.",
+      "productionStatus": "ACQUISITION NEEDED — creator-owned cover cleared; no official/primary recognizable visual candidate documented."
+    },
+    {
+      "buildId": "005",
+      "title": "Service Path Split",
+      "recognizableEntity": {
+        "label": "GOV.UK Service Standard",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through GOV.UK Service Standard before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "GOV.UK Service Standard: Map the work before you automate it.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/005/build-005-linkedin-poster.png",
+        "openingFrame": "/media/builds/005/build-005-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 005, Service Path Split: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
+            "exactAssetUrl": null,
+            "issuerCreator": "UK Government Digital Service",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: UK Government Digital Service",
+            "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 005.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "006",
+      "title": "Form Gate Field",
+      "recognizableEntity": {
+        "label": "the software-or-not decision",
+        "type": "conceptual subject",
+        "relevance": "A stranger can enter through the software-or-not decision before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "the software-or-not decision: Build the form the problem earns.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/006/build-006-linkedin-poster.png",
+        "openingFrame": "/media/builds/006/build-006-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 006, Form Gate Field: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "open; acquisition needed",
+        "searched": [],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 006.",
+      "productionStatus": "ACQUISITION NEEDED — creator-owned cover cleared; no official/primary recognizable visual candidate documented."
+    },
+    {
+      "buildId": "007",
+      "title": "The Product That Learns",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: A product learns only when feedback can responsibly change it.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/007/build-007-linkedin-poster.png",
+        "openingFrame": "/media/builds/007/build-007-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 007, The Product That Learns: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 007.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "008",
+      "title": "Data Is Not a Decision",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Data becomes useful when someone can decide and act.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/008/build-008-linkedin-poster.png",
+        "openingFrame": "/media/builds/008/build-008-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 008, Data Is Not a Decision: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 008.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "009",
+      "title": "Transfer Is a Place Question",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Transferability is a place question.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/009/build-009-linkedin-poster.png",
+        "openingFrame": "/media/builds/009/build-009-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 009, Transfer Is a Place Question: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 009.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "010",
+      "title": "From Words to Structure",
+      "recognizableEntity": {
+        "label": "W3C SHACL Recommendation",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through W3C SHACL Recommendation before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "W3C SHACL Recommendation: If the idea has no structure, it cannot be tested.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/010/build-010-linkedin-poster.png",
+        "openingFrame": "/media/builds/010/build-010-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 010, From Words to Structure: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.w3.org/TR/shacl/",
+            "exactAssetUrl": null,
+            "issuerCreator": "World Wide Web Consortium",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: World Wide Web Consortium",
+            "altText": "Official W3C SHACL Recommendation source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 010.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "011",
+      "title": "Same Name Is Not Same Entity",
+      "recognizableEntity": {
+        "label": "W3C PROV Primer",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through W3C PROV Primer before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "W3C PROV Primer: Same name is not the same entity.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/011/build-011-linkedin-poster.png",
+        "openingFrame": "/media/builds/011/build-011-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 011, Same Name Is Not Same Entity: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
+            "exactAssetUrl": null,
+            "issuerCreator": "World Wide Web Consortium",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: World Wide Web Consortium",
+            "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 011.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "012",
+      "title": "Controls Follow Consequence",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Controls should follow consequence.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/012/build-012-linkedin-poster.png",
+        "openingFrame": "/media/builds/012/build-012-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 012, Controls Follow Consequence: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 012.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "013",
+      "title": "Follow the Consequence",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Follow the consequence through the work.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/013/build-013-linkedin-poster.png",
+        "openingFrame": "/media/builds/013/build-013-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 013, Follow the Consequence: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 013.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "014",
+      "title": "The Answer Has Layers",
+      "recognizableEntity": {
+        "label": "ABA Model Rules of Professional Conduct",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through ABA Model Rules of Professional Conduct before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "ABA Model Rules of Professional Conduct: Responsibility does not move with the text.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/014/build-014-linkedin-poster.png",
+        "openingFrame": "/media/builds/014/build-014-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 014, The Answer Has Layers: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "issuerCreator": "American Bar Association",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: American Bar Association",
+            "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 014.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "015",
+      "title": "From Matter Work to Reusable System",
+      "recognizableEntity": {
+        "label": "ABA Model Rules of Professional Conduct",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through ABA Model Rules of Professional Conduct before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "ABA Model Rules of Professional Conduct: Productize the reusable structure—not the legal judgment.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/015/build-015-linkedin-poster.png",
+        "openingFrame": "/media/builds/015/build-015-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 015, From Matter Work to Reusable System: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "issuerCreator": "American Bar Association",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: American Bar Association",
+            "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 015.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "016",
+      "title": "The Matter Beneath the Matter",
+      "recognizableEntity": {
+        "label": "ABA Model Rules of Professional Conduct",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through ABA Model Rules of Professional Conduct before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "ABA Model Rules of Professional Conduct: A legal task becomes manageable only when its hidden workflow is visible.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/016/build-016-linkedin-poster.png",
+        "openingFrame": "/media/builds/016/build-016-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 016, The Matter Beneath the Matter: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "issuerCreator": "American Bar Association",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: American Bar Association",
+            "altText": "Official ABA Model Rules of Professional Conduct source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 016.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "017",
+      "title": "The Risk Lives Between the Boxes",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Control the handoff, not just each organization.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/017/build-017-linkedin-poster.png",
+        "openingFrame": "/media/builds/017/build-017-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 017, The Risk Lives Between the Boxes: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 017.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "018",
+      "title": "The Process Is Part of the Outcome",
+      "recognizableEntity": {
+        "label": "GOV.UK Service Standard",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through GOV.UK Service Standard before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "GOV.UK Service Standard: Institutional burden is a design variable, not background noise.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/018/build-018-linkedin-poster.png",
+        "openingFrame": "/media/builds/018/build-018-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 018, The Process Is Part of the Outcome: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
+            "exactAssetUrl": null,
+            "issuerCreator": "UK Government Digital Service",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: UK Government Digital Service",
+            "altText": "Official GOV.UK Service Standard source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 018.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "019",
+      "title": "The Alert That Knows Who Cares",
+      "recognizableEntity": {
+        "label": "NIST SP 800-61 Rev. 3",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST SP 800-61 Rev. 3 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST SP 800-61 Rev. 3: Escalation is a chain of authority, evidence, time, and recourse.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/019/build-019-linkedin-poster.png",
+        "openingFrame": "/media/builds/019/build-019-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 019, The Alert That Knows Who Cares: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 019.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "020",
+      "title": "Open the Decision",
+      "recognizableEntity": {
+        "label": "W3C PROV Primer",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through W3C PROV Primer before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "W3C PROV Primer: An accountable decision remains reconstructable after the moment passes.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/020/build-020-linkedin-poster.png",
+        "openingFrame": "/media/builds/020/build-020-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 020, Open the Decision: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
+            "exactAssetUrl": null,
+            "issuerCreator": "World Wide Web Consortium",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: World Wide Web Consortium",
+            "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 020.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "021",
+      "title": "Break the Promise Open",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Buy the evidence—not the adjective.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/021/build-021-linkedin-poster.png",
+        "openingFrame": "/media/builds/021/build-021-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 021, Break the Promise Open: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 021.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "022",
+      "title": "Human Impact Nodes",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: An AI workflow ends; its consequences keep traveling.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/022/build-022-linkedin-poster.png",
+        "openingFrame": "/media/builds/022/build-022-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 022, Human Impact Nodes: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 022.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "023",
+      "title": "Consent That Can Change Its Mind",
+      "recognizableEntity": {
+        "label": "Regulation (EU) 2016/679",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through Regulation (EU) 2016/679 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "Regulation (EU) 2016/679: Consent is specific, changeable, evidenced, and never the only possible legal basis.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/023/build-023-linkedin-poster.png",
+        "openingFrame": "/media/builds/023/build-023-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 023, Consent That Can Change Its Mind: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "exactAssetUrl": null,
+            "issuerCreator": "European Parliament and Council",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: European Parliament and Council",
+            "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 023.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "024",
+      "title": "The Best Data Risk Is Data Never Collected",
+      "recognizableEntity": {
+        "label": "Regulation (EU) 2016/679",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through Regulation (EU) 2016/679 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "Regulation (EU) 2016/679: The best data risk is data never collected.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/024/build-024-linkedin-poster.png",
+        "openingFrame": "/media/builds/024/build-024-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 024, The Best Data Risk Is Data Never Collected: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "exactAssetUrl": null,
+            "issuerCreator": "European Parliament and Council",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: European Parliament and Council",
+            "altText": "Official Regulation (EU) 2016/679 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 024.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "025",
+      "title": "Readiness Has Layers",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Readiness is the ability to operate controls—not the desire to deploy.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/025/build-025-linkedin-poster.png",
+        "openingFrame": "/media/builds/025/build-025-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 025, Readiness Has Layers: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 025.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "026",
+      "title": "Records Normalize Without Losing Their Past",
+      "recognizableEntity": {
+        "label": "W3C PROV Primer and PROV-O",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through W3C PROV Primer and PROV-O before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "W3C PROV Primer and PROV-O: Messy data can support decisions only when its limits remain visible.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/026/build-026-linkedin-poster.png",
+        "openingFrame": "/media/builds/026/build-026-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 026, Records Normalize Without Losing Their Past: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
+            "exactAssetUrl": null,
+            "issuerCreator": "World Wide Web Consortium",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: World Wide Web Consortium",
+            "altText": "Official W3C PROV Primer and PROV-O source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 026.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "027",
+      "title": "Ownership Exposure Board",
+      "recognizableEntity": {
+        "label": "Copyright Basics, Circular 1",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through Copyright Basics, Circular 1 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "Copyright Basics, Circular 1: Platform reach is rented; your ownership stack must survive the platform.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/027/build-027-linkedin-poster.png",
+        "openingFrame": "/media/builds/027/build-027-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 027, Ownership Exposure Board: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.copyright.gov/circs/circ01.pdf",
+            "exactAssetUrl": null,
+            "issuerCreator": "U.S. Copyright Office",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: U.S. Copyright Office",
+            "altText": "Official Copyright Basics, Circular 1 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 027.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "028",
+      "title": "Ranking Rationale",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Knowledge you cannot reliably find is knowledge you cannot reliably use.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/028/build-028-linkedin-poster.png",
+        "openingFrame": "/media/builds/028/build-028-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 028, Ranking Rationale: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 028.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "029",
+      "title": "Consequence Propagation",
+      "recognizableEntity": {
+        "label": "W3C PROV Primer",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through W3C PROV Primer before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "W3C PROV Primer: A change is not small when its consequences travel beyond its author.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/029/build-029-linkedin-poster.png",
+        "openingFrame": "/media/builds/029/build-029-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 029, Consequence Propagation: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
+            "exactAssetUrl": null,
+            "issuerCreator": "World Wide Web Consortium",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: World Wide Web Consortium",
+            "altText": "Official W3C PROV Primer source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 029.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "030",
+      "title": "Interface Repair in Motion",
+      "recognizableEntity": {
+        "label": "WCAG 2.2",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through WCAG 2.2 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "WCAG 2.2: Accessibility is whether people can complete the work.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/030/build-030-linkedin-poster.png",
+        "openingFrame": "/media/builds/030/build-030-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 030, Interface Repair in Motion: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.w3.org/TR/WCAG22/",
+            "exactAssetUrl": null,
+            "issuerCreator": "World Wide Web Consortium",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: World Wide Web Consortium",
+            "altText": "Official WCAG 2.2 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 030.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "031",
+      "title": "Telemetry Privacy Field",
+      "recognizableEntity": {
+        "label": "NIST Privacy Framework v1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST Privacy Framework v1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST Privacy Framework v1.0: Privacy is what the product does when nobody reads the policy.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/031/build-031-linkedin-poster.png",
+        "openingFrame": "/media/builds/031/build-031-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 031, Telemetry Privacy Field: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST Privacy Framework v1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 031.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "032",
+      "title": "Release Blocker Door",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: A release is ready only when controls are operable, evidenced, and owned.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/032/build-032-linkedin-poster.png",
+        "openingFrame": "/media/builds/032/build-032-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 032, Release Blocker Door: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 032.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "033",
+      "title": "Attack Graph",
+      "recognizableEntity": {
+        "label": "NIST AI RMF 1.0",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST AI RMF 1.0 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST AI RMF 1.0: Adversarial testing must make systems safer without making harm easier.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/033/build-033-linkedin-poster.png",
+        "openingFrame": "/media/builds/033/build-033-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 033, Attack Graph: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST AI RMF 1.0 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 033.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    },
+    {
+      "buildId": "034",
+      "title": "Incident Replay Graph",
+      "recognizableEntity": {
+        "label": "NIST SP 800-61 Rev. 3",
+        "type": "official framework/document contextual anchor",
+        "relevance": "A stranger can enter through NIST SP 800-61 Rev. 3 before meeting RN's abstract method.",
+        "authorizationBoundary": "No real person, community, place, organization, logo or endorsement is represented by the creator-owned typographic cover."
+      },
+      "entityLedHook": "NIST SP 800-61 Rev. 3: An incident closes only when evidence, correction, and prevention are reconstructable.",
+      "cover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/034/build-034-linkedin-poster.png",
+        "openingFrame": "/media/builds/034/build-034-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 034, Incident Replay Graph: creator-owned typographic poster presenting the opening proposition.",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "Represents only the build title/opening proposition; it does not evidence an institution, endorsement, performance, compliance, safety or outcome."
+      },
+      "visualCandidateSearch": {
+        "status": "official candidate found; asset clearance open",
+        "searched": [
+          {
+            "candidateType": "official source page/document cover",
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+            "exactAssetUrl": null,
+            "issuerCreator": "NIST",
+            "rightsStatement": "unknown-at-asset-level",
+            "permissionDecision": "not-cleared; official publication does not itself authorize reuse of logos, screenshots or cover treatments",
+            "credit": "Source context: NIST",
+            "altText": "Official NIST SP 800-61 Rev. 3 source page or document used as contextual visual reference",
+            "orientationDimensions": "verify exact candidate after acquisition",
+            "cropGuidance": "Crop document title/section only after permission review; exclude seals/logos unless separately authorized.",
+            "claimToVisualSupport": "Supports recognition of the cited contextual authority; does not validate RN's interface or outcomes."
+          }
+        ],
+        "requiredBeforeExternalSubstitution": "Record exact asset URL, creator/issuer, rights statement, intended-use permission and credit before use. Public visibility is not authorization.",
+        "generatedFallbackReason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "canva": {
+        "generationAuthorized": false,
+        "template": "4:5 RN Builds social cover",
+        "slideTypes": [
+          "entity-led cover",
+          "problem/context",
+          "mechanism",
+          "source + scope",
+          "boundary",
+          "CTA"
+        ],
+        "notes": "No Canva generation in this audit. Preserve creator-owned typography unless a separately rights-cleared visual is approved."
+      },
+      "platformAdaptations": {
+        "linkedin": "720×900 MP4/poster; silent-first captions; optional six-slide document carousel after editorial review",
+        "instagram": "4:5 feed/carousel; retain safe area and full credit in caption",
+        "x": "Poster plus concise hook; no logo/endorsement implication",
+        "carousel": "Six-slide sequence follows the canonical scenes and adds source/scope before CTA."
+      },
+      "cta": "Watch the LinkedIn cut, then explore Build 034.",
+      "productionStatus": "USABLE WITH REVIEW — creator-owned cover cleared; official candidate asset permission unresolved."
+    }
+  ]
+}
