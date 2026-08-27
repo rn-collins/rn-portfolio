@@ -16,7 +16,7 @@
     "fallback": "All 100 RN-owned covers remain release-eligible.",
     "canva": "Canva generation is false for all 100.",
     "staging": "Nine unique remote official sources have source, rights, crop, attribution, alt, caption and assignment metadata staged; no source binary is present in the repository, so externalStaged remains false.",
-    "promotion": "Eleven strong direct source-context mappings are live; thirteen cleared candidates remain review-only because their official title/intro treatment is less contextually specific than the RN hook. Every promoted record retains the prior RN cover for immediate rollback."
+    "promotion": "Twenty strong direct source-context mappings are live; four cleared candidates remain review-only. Every promoted record retains the RN cover and prior review artifact."
   },
   "expected": {
     "records": 100,
@@ -26,8 +26,8 @@
     "externalSelected": 24,
     "externalStaged": 0,
     "canvaAuthorized": 0,
-    "liveCoverSubstituted": 11,
-    "reviewOnlyCleared": 13
+    "liveCoverSubstituted": 20,
+    "reviewOnlyCleared": 4
   },
   "records": [
     {
@@ -199,7 +199,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -232,23 +232,27 @@
             "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
           "sourcePageUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "HTML faithful text-only composite",
-          "cropBoundary": "Crop boundary: Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
-          "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+          "cropBoundary": "Faithful text-only composite: the paragraph beginning ‘You must understand the needs of all kinds of users’ and the sentence ‘Write user needs from a personal perspective using words that users would recognise and use themselves.’ Exclude links, example identity/visa content, marks, header, navigation and footer.",
+          "caption": "GOV.UK guidance: include all kinds of users and preserve words users recognise.",
           "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
           "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
-          "altText": "Official GOV.UK Learning about users and their needs document or guidance page, selected as contextual evidence for Build 002, Multi-Audience Meaning Architecture.",
+          "altText": "Official GOV.UK user-research guidance stating that teams must understand all kinds of users and write needs using words users recognise, shown as source context for Build 002.",
           "contextualFit": "GOV.UK Learning about users and their needs is directly relevant to Multi-Audience Meaning Architecture and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 002."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 002.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-002-replacement-source-context.svg",
+          "reviewArtifactSha256": "1993428206fd445cb88da2003fc3e9f5b36239b1e5f42e4a22be83ef71aa8c70",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-002-official-excerpt-cover.svg",
+          "liveAssetSha256": "543891c290bc4e54b05811286391117d66f98c1a8df543a965230c07e70b73e8"
         }
       },
       "canva": {
@@ -271,13 +275,46 @@
         "carousel": "Build 002 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 002, Multi-Audience Meaning Architecture: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/002/build-002-linkedin-poster.png",
+        "openingFrame": "/media/builds/002/build-002-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 002, Multi-Audience Meaning Architecture. Creator-owned 4:5 typographic opening frame. Visible text: “ONE IDEA. MANY AUDIENCES. Adaptation is useful only if the factual core survives.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-002-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "543891c290bc4e54b05811286391117d66f98c1a8df543a965230c07e70b73e8",
+        "altText": "Official GOV.UK user-research guidance stating that teams must understand all kinds of users and write needs using words users recognise, shown as source context for Build 002.",
+        "caption": "GOV.UK guidance: include all kinds of users and preserve words users recognise.",
+        "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
+        "sourceUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+        "claimBoundary": "Supports the need to represent multiple audiences and preserve user-recognisable language; it does not validate RN’s architecture, prove outcomes or imply endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 002.",
+        "rightsLine": "OGL v3.0 Crown-copyright text; logo and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-002-replacement-source-context.svg",
+        "reviewArtifactSha256": "1993428206fd445cb88da2003fc3e9f5b36239b1e5f42e4a22be83ef71aa8c70",
+        "rollbackAssetUrl": "/media/builds/002/build-002-linkedin-poster.png"
+      }
     },
     {
       "buildId": "003",
@@ -871,7 +908,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -904,23 +941,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "GOVERN 5 category and subcategories 5.1–5.2 only: collect, prioritize and integrate external feedback; regularly incorporate adjudicated feedback into system design and implementation. Exclude GOVERN 4 and GOVERN 6 rows.",
+          "caption": "NIST AI RMF GOVERN 5: external feedback is collected, adjudicated and incorporated into system design and implementation.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 007, The Product That Learns.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF GOVERN 5 excerpt describing a governed feedback loop that incorporates adjudicated external feedback into AI-system design and implementation.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to The Product That Learns and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 007."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 007.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-007-replacement-source-context.svg",
+          "reviewArtifactSha256": "4e5abd082511818d56679d0eb0befeb5903df9ee2596ce2e9a67e3eb65accb1c",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-007-official-excerpt-cover.svg",
+          "liveAssetSha256": "aa8db797bbb2e314b42a6a4e2247c2e1614c6301d41d694b73da6b22d03a2de2"
         }
       },
       "canva": {
@@ -943,13 +984,46 @@
         "carousel": "Build 007 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 007, The Product That Learns: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/007/build-007-linkedin-poster.png",
+        "openingFrame": "/media/builds/007/build-007-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 007, The Product That Learns. Creator-owned 4:5 typographic opening frame. Visible text: “THE PRODUCT SHIPS. But shipping is one-way. Collection alone does not make a product learn.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-007-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "aa8db797bbb2e314b42a6a4e2247c2e1614c6301d41d694b73da6b22d03a2de2",
+        "altText": "Official NIST AI RMF GOVERN 5 excerpt describing a governed feedback loop that incorporates adjudicated external feedback into AI-system design and implementation.",
+        "caption": "NIST AI RMF GOVERN 5: external feedback is collected, adjudicated and incorporated into system design and implementation.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports a governed product-learning feedback loop; it does not show that Build 007 implements NIST, learns correctly or improves outcomes.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 007.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-007-replacement-source-context.svg",
+        "reviewArtifactSha256": "4e5abd082511818d56679d0eb0befeb5903df9ee2596ce2e9a67e3eb65accb1c",
+        "rollbackAssetUrl": "/media/builds/007/build-007-linkedin-poster.png"
+      }
     },
     {
       "buildId": "008",
@@ -979,7 +1053,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1012,23 +1086,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "MAP 2.2 row only, including the complete sentences on knowledge limits, human utilization and oversight, and sufficient information for subsequent decisions/actions. Exclude MAP 2.1, MAP 2.3 and adjacent categories.",
+          "caption": "NIST AI RMF MAP 2.2 distinguishes system output from the human decisions and subsequent actions it informs.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 008, Data Is Not a Decision.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 26. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF MAP 2.2 excerpt requiring documentation of system knowledge limits and how output may be used and overseen by humans making decisions.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Data Is Not a Decision and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 008."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 008.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-008-replacement-source-context.svg",
+          "reviewArtifactSha256": "533356556a9a29d9c3347dbf48b4ec5248a9851d7300b97e2bcac53ffe631d80",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-008-official-excerpt-cover.svg",
+          "liveAssetSha256": "12e6ddc583fcd70768ac04679b013c9c79a0ced74f7cf7b22b57ed8a83ddbca1"
         }
       },
       "canva": {
@@ -1051,13 +1129,46 @@
         "carousel": "Build 008 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 008, Data Is Not a Decision: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/008/build-008-linkedin-poster.png",
+        "openingFrame": "/media/builds/008/build-008-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 008, Data Is Not a Decision. Creator-owned 4:5 typographic opening frame. Visible text: “A WALL OF CHARTS. More information is visible. The decision is still missing.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-008-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "12e6ddc583fcd70768ac04679b013c9c79a0ced74f7cf7b22b57ed8a83ddbca1",
+        "altText": "Official NIST AI RMF MAP 2.2 excerpt requiring documentation of system knowledge limits and how output may be used and overseen by humans making decisions.",
+        "caption": "NIST AI RMF MAP 2.2 distinguishes system output from the human decisions and subsequent actions it informs.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 26. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports separating output from decision and documenting human use and oversight; it does not prove the Build 008 interface produces correct decisions.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 008.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-008-replacement-source-context.svg",
+        "reviewArtifactSha256": "533356556a9a29d9c3347dbf48b4ec5248a9851d7300b97e2bcac53ffe631d80",
+        "rollbackAssetUrl": "/media/builds/008/build-008-linkedin-poster.png"
+      }
     },
     {
       "buildId": "009",
@@ -1566,7 +1677,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1599,23 +1710,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "Faithful two-sentence text composite from the MAP introduction: the sentence beginning ‘The interdependencies between these activities’ and the final sentence beginning ‘As a result’. Mark the intervening example as omitted. Exclude Figure 3, tables and subsequent paragraph.",
+          "caption": "NIST AI RMF: interdependent lifecycle activities can carry early decisions into later system impacts.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 013, Follow the Consequence.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF MAP excerpt explaining how interdependent lifecycle activities and early decisions can alter later behavior, capabilities and impacts.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Follow the Consequence and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 013."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 013.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-013-replacement-source-context.svg",
+          "reviewArtifactSha256": "f7f01d71ab3e46b1677033e4a8cad0b64971b51dd826aebe6b0546c26ddaff97",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-013-official-excerpt-cover.svg",
+          "liveAssetSha256": "f1911694ad444f39d7fe45466515dcd9a55f2e005707c04562ad68c1a5661552"
         }
       },
       "canva": {
@@ -1638,13 +1753,46 @@
         "carousel": "Build 013 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 013, Follow the Consequence: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/013/build-013-linkedin-poster.png",
+        "openingFrame": "/media/builds/013/build-013-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 013, Follow the Consequence. Creator-owned 4:5 typographic opening frame. Visible text: “THE MODEL IS ONE STAGE. Consequence is produced by the full workflow around it.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-013-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "f1911694ad444f39d7fe45466515dcd9a55f2e005707c04562ad68c1a5661552",
+        "altText": "Official NIST AI RMF MAP excerpt explaining how interdependent lifecycle activities and early decisions can alter later behavior, capabilities and impacts.",
+        "caption": "NIST AI RMF: interdependent lifecycle activities can carry early decisions into later system impacts.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports the general possibility of consequence propagation across an AI lifecycle; it does not establish the causal model or performance of Build 013.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 013.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-013-replacement-source-context.svg",
+        "reviewArtifactSha256": "f7f01d71ab3e46b1677033e4a8cad0b64971b51dd826aebe6b0546c26ddaff97",
+        "rollbackAssetUrl": "/media/builds/013/build-013-linkedin-poster.png"
+      }
     },
     {
       "buildId": "014",
@@ -1941,7 +2089,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1974,23 +2122,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "GOVERN 2 category and complete subcategories 2.1–2.3 only. Exclude GOVERN 1.5–1.7 and GOVERN 3.",
+          "caption": "NIST AI RMF GOVERN 2 assigns clear communication lines, partner duties and executive responsibility across organizational handoffs.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 017, The Risk Lives Between the Boxes.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 23. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF GOVERN 2 excerpt requiring clear roles and communication lines, trained personnel and partners, and executive responsibility for AI-risk decisions.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to The Risk Lives Between the Boxes and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 017."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 017.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-017-replacement-source-context.svg",
+          "reviewArtifactSha256": "69eab1522f033a2145f7a4311717b808b9cb782651107c3c755550c5673eee39",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-017-official-excerpt-cover.svg",
+          "liveAssetSha256": "a3ea3270ea124f38548559430bccd3beee85ab810b7d82b4ac3fa8bf8a1f4185"
         }
       },
       "canva": {
@@ -2013,13 +2165,46 @@
         "carousel": "Build 017 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 017, The Risk Lives Between the Boxes: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/017/build-017-linkedin-poster.png",
+        "openingFrame": "/media/builds/017/build-017-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 017, The Risk Lives Between the Boxes. Creator-owned 4:5 typographic opening frame. Visible text: “REGULATED-MARKET HANDOFF MAPPER — Find where responsibility, evidence, consent and accountability disappear between organizations.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-017-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "a3ea3270ea124f38548559430bccd3beee85ab810b7d82b4ac3fa8bf8a1f4185",
+        "altText": "Official NIST AI RMF GOVERN 2 excerpt requiring clear roles and communication lines, trained personnel and partners, and executive responsibility for AI-risk decisions.",
+        "caption": "NIST AI RMF GOVERN 2 assigns clear communication lines, partner duties and executive responsibility across organizational handoffs.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 23. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports documenting responsibility and communication across teams and partners; it does not prove Build 017 resolves organizational handoff risk.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 017.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-017-replacement-source-context.svg",
+        "reviewArtifactSha256": "69eab1522f033a2145f7a4311717b808b9cb782651107c3c755550c5673eee39",
+        "rollbackAssetUrl": "/media/builds/017/build-017-linkedin-poster.png"
+      }
     },
     {
       "buildId": "018",
@@ -2870,7 +3055,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2903,23 +3088,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "AI RMF Profiles section: the complete temporal-profiles paragraph defining Current and Target Profiles plus the first two sentences of the following paragraph, ending with action plans developed to address gaps. Exclude the preceding use-case paragraph, remaining resource-comparison prose and following cross-sectoral paragraph.",
+          "caption": "NIST AI RMF Current and Target Profiles expose readiness gaps and the resources required to close them.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 025, Readiness Has Layers.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 33. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF Profiles excerpt explaining current state, target state, gaps, action plans, prioritization and resources.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Readiness Has Layers and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 025."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 025.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-025-replacement-source-context.svg",
+          "reviewArtifactSha256": "45b6857be228994ac273b64d1b1091dad68f6d137ad0c344e22a98f204971dba",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-025-official-excerpt-cover.svg",
+          "liveAssetSha256": "ca0eb0e40bf56f2818726883b2f676ca54648fcd99b238c1397e616c6c196b71"
         }
       },
       "canva": {
@@ -2942,13 +3131,46 @@
         "carousel": "Build 025 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 025, Readiness Has Layers: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/025/build-025-linkedin-poster.png",
+        "openingFrame": "/media/builds/025/build-025-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 025, Readiness Has Layers. Creator-owned 4:5 typographic opening frame. Visible text: “A USE CASE IS NOT AN IMPLEMENTATION PLAN — A promising capability can still outrun the organization expected to operate it.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-025-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "ca0eb0e40bf56f2818726883b2f676ca54648fcd99b238c1397e616c6c196b71",
+        "altText": "Official NIST AI RMF Profiles excerpt explaining current state, target state, gaps, action plans, prioritization and resources.",
+        "caption": "NIST AI RMF Current and Target Profiles expose readiness gaps and the resources required to close them.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 33. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports layered current-to-target readiness analysis; it does not certify an organization or validate Build 025’s scoring.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 025.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-025-replacement-source-context.svg",
+        "reviewArtifactSha256": "45b6857be228994ac273b64d1b1091dad68f6d137ad0c344e22a98f204971dba",
+        "rollbackAssetUrl": "/media/builds/025/build-025-linkedin-poster.png"
+      }
     },
     {
       "buildId": "026",
@@ -3208,7 +3430,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -3241,23 +3463,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "MANAGE 1 category statement and complete subcategories 1.1–1.2 only. Exclude MANAGE 1.3–1.4, MANAGE 2 and adjacent prose.",
+          "caption": "NIST AI RMF MANAGE 1 ties prioritization to intended purpose, impact, likelihood, resources and documented residual risk.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 028, Ranking Rationale.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF MANAGE 1 excerpt describing how assessed AI risks are prioritized, responded to and documented using impact, likelihood and available resources.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Ranking Rationale and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 028."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 028.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-028-replacement-source-context.svg",
+          "reviewArtifactSha256": "63d2b14f5c91599c4e01cce396b7ff37e7a1d313808b25524997c4f8dfd91daa",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-028-official-excerpt-cover.svg",
+          "liveAssetSha256": "d15d2d345acb22d1945244991292d2ed9945f6733eebd4552ecb3f6ea1a522fc"
         }
       },
       "canva": {
@@ -3280,13 +3506,46 @@
         "carousel": "Build 028 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 028, Ranking Rationale: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/028/build-028-linkedin-poster.png",
+        "openingFrame": "/media/builds/028/build-028-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 028, Ranking Rationale. Creator-owned 4:5 typographic opening frame. Visible text: “STORED IS NOT FOUND — A fact can exist in the archive and still fail the person who needs it at the moment of decision.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-028-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "d15d2d345acb22d1945244991292d2ed9945f6733eebd4552ecb3f6ea1a522fc",
+        "altText": "Official NIST AI RMF MANAGE 1 excerpt describing how assessed AI risks are prioritized, responded to and documented using impact, likelihood and available resources.",
+        "caption": "NIST AI RMF MANAGE 1 ties prioritization to intended purpose, impact, likelihood, resources and documented residual risk.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports explaining the dimensions behind a risk ranking; it does not validate Build 028’s ranking method or any particular result.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 028.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-028-replacement-source-context.svg",
+        "reviewArtifactSha256": "63d2b14f5c91599c4e01cce396b7ff37e7a1d313808b25524997c4f8dfd91daa",
+        "rollbackAssetUrl": "/media/builds/028/build-028-linkedin-poster.png"
+      }
     },
     {
       "buildId": "029",
@@ -3316,7 +3575,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -3349,23 +3608,27 @@
             "sourceLink": "https://www.w3.org/TR/prov-primer/"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
           "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "HTML faithful text-only composite",
-          "cropBoundary": "Crop boundary: Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
-          "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
-          "sourceLink": "https://www.w3.org/TR/prov-primer/",
-          "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
-          "altText": "Official W3C PROV Primer document or guidance page, selected as contextual evidence for Build 029, Consequence Propagation.",
+          "cropBoundary": "Faithful text-only capture of the single summary paragraph beginning ‘The examples also illustrate how PROV enables many uses of provenance’ and ending ‘inspecting sources and attribution.’ Exclude examples, lists, figures, code, W3C marks and navigation.",
+          "caption": "W3C PROV Primer: provenance supports error checking, responsibility tracing, process repetition, version relationships, sources and attribution.",
+          "sourceLink": "https://www.w3.org/TR/prov-primer/#summary",
+          "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/#summary, under the W3C Document License.",
+          "altText": "Official W3C PROV Primer summary describing error checking, tracing responsible parties, regenerating datasets, relating document versions, and inspecting sources and attribution.",
           "contextualFit": "W3C PROV Primer is directly relevant to Consequence Propagation and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 029."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 029.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-029-replacement-source-context.svg",
+          "reviewArtifactSha256": "8a24d51c806197c72858374219c879bba1355a745a4a48c79a6ae2b8b29f35f4",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-029-official-excerpt-cover.svg",
+          "liveAssetSha256": "f6b672451c0b3fe8ffd157ad0549428d6ebe85ad04dcf030040b78e173134ffc"
         }
       },
       "canva": {
@@ -3388,13 +3651,46 @@
         "carousel": "Build 029 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 029, Consequence Propagation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/029/build-029-linkedin-poster.png",
+        "openingFrame": "/media/builds/029/build-029-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 029, Consequence Propagation. Creator-owned 4:5 typographic opening frame. Visible text: “EVERY CHANGE ENTERS A SYSTEM — A policy edit, model update, data field, or workflow shortcut can alter outcomes far beyond the place it began.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-029-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "f6b672451c0b3fe8ffd157ad0549428d6ebe85ad04dcf030040b78e173134ffc",
+        "altText": "Official W3C PROV Primer summary describing error checking, tracing responsible parties, regenerating datasets, relating document versions, and inspecting sources and attribution.",
+        "caption": "W3C PROV Primer: provenance supports error checking, responsibility tracing, process repetition, version relationships, sources and attribution.",
+        "credit": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/#summary, under the W3C Document License.",
+        "sourceUrl": "https://www.w3.org/TR/prov-primer/#summary",
+        "claimBoundary": "Supports tracing how outputs, versions, responsible parties and sources relate; it does not demonstrate Build 029’s propagation logic or imply W3C endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 029.",
+        "rightsLine": "W3C Document License; faithful portion with URL, copyright/status notice; logo excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-029-replacement-source-context.svg",
+        "reviewArtifactSha256": "8a24d51c806197c72858374219c879bba1355a745a4a48c79a6ae2b8b29f35f4",
+        "rollbackAssetUrl": "/media/builds/029/build-029-linkedin-poster.png"
+      }
     },
     {
       "buildId": "030",
@@ -3687,7 +3983,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL SOURCE SELECTED + STAGED · BOUNDED EXCERPT PROMOTED LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -3720,23 +4016,27 @@
             "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "requiredBeforeExternalSubstitution": "Complete: exact excerpt, rights, attribution, no-endorsement, accessibility, legibility, checksum and rollback gates passed.",
+        "generatedFallbackReason": "The creator-owned RN cover remains preserved as the immediate rollback asset.",
         "selection": {
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "EXACT OFFICIAL SOURCE PRESERVED; BOUNDED EXCERPT RENDERED, CHECKSUMMED, REVIEWED AND PROMOTED LIVE",
           "captureMode": "PDF text-region capture",
-          "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
-          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "cropBoundary": "Faithful two-row text composite of MANAGE 1.1 and MANAGE 2.4 only. Preserve labels and full sentences; explicitly mark omitted intervening rows. Exclude all other table content.",
+          "caption": "NIST AI RMF release boundary: decide whether deployment should proceed and deactivate systems whose outcomes conflict with intended use.",
           "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
-          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
-          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 032, Release Blocker Door.",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF excerpts requiring a proceed-or-stop determination and mechanisms to supersede, disengage or deactivate systems with outcomes inconsistent with intended use.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Release Blocker Door and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 032."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 032.",
+          "reviewArtifactPublicUrl": "/media/100-builds/replacement-source-context/build-032-replacement-source-context.svg",
+          "reviewArtifactSha256": "917baa426652460e6e6d41971b7dc7e4c01af38e6c5442adb22747c4fce97857",
+          "liveAssetPublicUrl": "/media/100-builds/replacement-production-covers/build-032-official-excerpt-cover.svg",
+          "liveAssetSha256": "273680f07d5ba441b2dfbc7c0065aa960bdb0b4f207d5aecb0f3ebf4bc35df5c"
         }
       },
       "canva": {
@@ -3759,13 +4059,46 @@
         "carousel": "Build 032 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 032, Release Blocker Door: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
+      "productionStatus": "OFFICIAL BOUNDED EXCERPT COVER LIVE · REVIEW ARTIFACT + RN ROLLBACK PRESERVED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
-      "liveCoverSubstituted": false
+      "dispositionBasis": "A materially stronger exact excerpt from the selected official source passed semantic fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveCoverSubstituted": true,
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/032/build-032-linkedin-poster.png",
+        "openingFrame": "/media/builds/032/build-032-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 032, Release Blocker Door. Creator-owned 4:5 typographic opening frame. Visible text: “A PASSING SCORE DOES NOT AUTHORIZE RELEASE — Consequential AI needs inspectable evidence that the use, workflow, people, vendor, data, and operating controls can hold under pressure.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCover": {
+        "assetUrl": "/media/100-builds/replacement-production-covers/build-032-official-excerpt-cover.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "273680f07d5ba441b2dfbc7c0065aa960bdb0b4f207d5aecb0f3ebf4bc35df5c",
+        "altText": "Official NIST AI RMF excerpts requiring a proceed-or-stop determination and mechanisms to supersede, disengage or deactivate systems with outcomes inconsistent with intended use.",
+        "caption": "NIST AI RMF release boundary: decide whether deployment should proceed and deactivate systems whose outcomes conflict with intended use.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports a go/no-go and deactivate release boundary; it does not certify Build 032’s blocker logic or any release decision.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 032.",
+        "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+        "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-032-replacement-source-context.svg",
+        "reviewArtifactSha256": "917baa426652460e6e6d41971b7dc7e4c01af38e6c5442adb22747c4fce97857",
+        "rollbackAssetUrl": "/media/builds/032/build-032-linkedin-poster.png"
+      }
     },
     {
       "buildId": "033",
@@ -11912,5 +12245,6 @@
       "rnFallbackReady": true,
       "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
     }
-  ]
+  ],
+  "status": "24 OFFICIAL ASSETS SELECTED + STAGED; 20 OFFICIAL-SOURCE COVERS LIVE; 4 REVIEW-ONLY; 24 RN ROLLBACKS PRESERVED"
 }
