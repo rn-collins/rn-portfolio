@@ -1,0 +1,21 @@
+{
+  "buildId": "028",
+  "title": "Ranking Rationale",
+  "sourceAssetPath": "apps/web/public/media/100-builds/replacement-production-covers/build-028-official-excerpt-cover.svg",
+  "sourceAssetUrl": "/media/100-builds/replacement-production-covers/build-028-official-excerpt-cover.svg",
+  "sourceSha256": "d15d2d345acb22d1945244991292d2ed9945f6733eebd4552ecb3f6ea1a522fc",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-028-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-028-canva-ready.svg",
+  "exportSha256": "d15d2d345acb22d1945244991292d2ed9945f6733eebd4552ecb3f6ea1a522fc",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST AI RMF MANAGE 1 excerpt describing how assessed AI risks are prioritized, responded to and documented using impact, likelihood and available resources.",
+  "caption": "NIST AI RMF MANAGE 1 ties prioritization to intended purpose, impact, likelihood, resources and documented residual risk.",
+  "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+  "claimBoundary": "Supports explaining the dimensions behind a risk ranking; it does not validate Build 028’s ranking method or any particular result.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 028.",
+  "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+  "rollbackAssetUrl": "/media/builds/028/build-028-linkedin-poster.png",
+  "liveStatePreserved": true
+}

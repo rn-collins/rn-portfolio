@@ -1,0 +1,21 @@
+{
+  "buildId": "030",
+  "title": "Interface Repair in Motion",
+  "sourceAssetPath": "apps/web/public/media/100-builds/source-excerpts/build-030-source-excerpt-hold.svg",
+  "sourceAssetUrl": "/media/100-builds/source-excerpts/build-030-source-excerpt-hold.svg",
+  "sourceSha256": "0a078474218afc3d8befef466aea7568001590aaecc3aa239efdb11339dfbc8f",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-030-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-030-canva-ready.svg",
+  "exportSha256": "0a078474218afc3d8befef466aea7568001590aaecc3aa239efdb11339dfbc8f",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Sequential text composite from the immutable 5 October 2023 WCAG 2.2 Recommendation: title and status, one abstract sentence, then a separately labeled principles passage.",
+  "caption": "WCAG 2.2 — immutable 2023 Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+  "credit": "Copyright © 2023 W3C®. Excerpt under the 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+  "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+  "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+  "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+  "rightsLine": "",
+  "rollbackAssetUrl": "/media/builds/030/build-030-linkedin-poster.png",
+  "liveStatePreserved": true
+}

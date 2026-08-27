@@ -1,0 +1,21 @@
+{
+  "buildId": "010",
+  "title": "From Words to Structure",
+  "sourceAssetPath": "apps/web/public/media/100-builds/source-excerpts/build-010-source-excerpt-hold.svg",
+  "sourceAssetUrl": "/media/100-builds/source-excerpts/build-010-source-excerpt-hold.svg",
+  "sourceSha256": "8a6f2c3bac1d914f82b77d48b0f990fa4de4758c1e0e739376f3685a4cefa02f",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-010-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-010-canva-ready.svg",
+  "exportSha256": "8a6f2c3bac1d914f82b77d48b0f990fa4de4758c1e0e739376f3685a4cefa02f",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Sequential text excerpt containing the title, 20 July 2017 Recommendation status, and opening abstract sentences of the official W3C SHACL specification.",
+  "caption": "W3C SHACL Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+  "credit": "Copyright © 2017 W3C®. Excerpt under the W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
+  "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+  "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+  "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+  "rightsLine": "",
+  "rollbackAssetUrl": "/media/builds/010/build-010-linkedin-poster.png",
+  "liveStatePreserved": true
+}

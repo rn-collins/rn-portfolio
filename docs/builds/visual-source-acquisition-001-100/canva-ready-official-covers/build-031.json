@@ -1,0 +1,21 @@
+{
+  "buildId": "031",
+  "title": "Telemetry Privacy Field",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-context/build-031-official-source-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-context/build-031-official-source-context.svg",
+  "sourceSha256": "631f7e870d8afd8d5baa759dc2bb330c95c927065612efb4b9df065d65eeece0",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-031-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-031-canva-ready.svg",
+  "exportSha256": "631f7e870d8afd8d5baa759dc2bb330c95c927065612efb4b9df065d65eeece0",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official Version 1.0 title-page text, selected as contextual evidence for Build 031, Telemetry Privacy Field. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+  "caption": "Official NIST Privacy Framework 1.0, shown as privacy-risk context.",
+  "credit": "NIST (2020), NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0. Republished courtesy of NIST.",
+  "sourceUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
+  "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+  "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+  "rightsLine": "NIST public information · no endorsement",
+  "rollbackAssetUrl": "/media/builds/031/build-031-linkedin-poster.png",
+  "liveStatePreserved": true
+}

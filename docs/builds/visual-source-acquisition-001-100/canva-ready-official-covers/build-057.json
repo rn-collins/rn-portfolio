@@ -1,0 +1,21 @@
+{
+  "buildId": "057",
+  "title": "Show Me Where This Content Came From",
+  "sourceAssetPath": "apps/web/public/media/100-builds/source-excerpts/build-057-source-excerpt-hold.svg",
+  "sourceAssetUrl": "/media/100-builds/source-excerpts/build-057-source-excerpt-hold.svg",
+  "sourceSha256": "80fd5a79479c3febbec6625b19cc8a2b464e4fabb8d296cb3e869499f48a5181",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-057-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-057-canva-ready.svg",
+  "exportSha256": "80fd5a79479c3febbec6625b19cc8a2b464e4fabb8d296cb3e869499f48a5181",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Sequential text composite from PROV-O Starting Point Terms: the introductory provenance-description passage, then separately labeled Entity and Activity definitions.",
+  "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+  "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+  "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+  "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+  "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+  "rightsLine": "",
+  "rollbackAssetUrl": "/media/builds/057/build-057-linkedin-poster.png",
+  "liveStatePreserved": true
+}

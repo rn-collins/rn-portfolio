@@ -1,0 +1,21 @@
+{
+  "buildId": "032",
+  "title": "Release Blocker Door",
+  "sourceAssetPath": "apps/web/public/media/100-builds/replacement-production-covers/build-032-official-excerpt-cover.svg",
+  "sourceAssetUrl": "/media/100-builds/replacement-production-covers/build-032-official-excerpt-cover.svg",
+  "sourceSha256": "273680f07d5ba441b2dfbc7c0065aa960bdb0b4f207d5aecb0f3ebf4bc35df5c",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-032-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-032-canva-ready.svg",
+  "exportSha256": "273680f07d5ba441b2dfbc7c0065aa960bdb0b4f207d5aecb0f3ebf4bc35df5c",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST AI RMF excerpts requiring a proceed-or-stop determination and mechanisms to supersede, disengage or deactivate systems with outcomes inconsistent with intended use.",
+  "caption": "NIST AI RMF release boundary: decide whether deployment should proceed and deactivate systems whose outcomes conflict with intended use.",
+  "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+  "claimBoundary": "Supports a go/no-go and deactivate release boundary; it does not certify Build 032’s blocker logic or any release decision.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 032.",
+  "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+  "rollbackAssetUrl": "/media/builds/032/build-032-linkedin-poster.png",
+  "liveStatePreserved": true
+}

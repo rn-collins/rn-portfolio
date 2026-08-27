@@ -1,0 +1,21 @@
+{
+  "buildId": "006",
+  "title": "Form Gate Field",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-variants/build-006-official-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-variants/build-006-official-context.svg",
+  "sourceSha256": "e7b34a7d431cddbf81b3fe19b4c3894ac4182f6c014bdeb02f971d130e82b922",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-006-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-006-canva-ready.svg",
+  "exportSha256": "e7b34a7d431cddbf81b3fe19b4c3894ac4182f6c014bdeb02f971d130e82b922",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Build 006, Form Gate Field. Official GOV.UK Assisted digital support document or guidance page, selected as contextual evidence for Build 006, Form Gate Field.",
+  "caption": "GOV.UK Service Manual guidance on assisted digital support.",
+  "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Assisted digital support.",
+  "sourceUrl": "https://www.gov.uk/service-manual/assisted-digital/",
+  "claimBoundary": "Supports recognition of GOV.UK Assisted digital support and the limited source context adjacent to Build 006; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / Assisted digital and digital take-up community endorses RN or Build 006.",
+  "rightsLine": "Open Government Licence v3.0 · Crown copyright source",
+  "rollbackAssetUrl": "/media/builds/006/build-006-linkedin-poster.png",
+  "liveStatePreserved": true
+}

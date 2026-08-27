@@ -1,0 +1,21 @@
+{
+  "buildId": "041",
+  "title": "AI work needs an owner",
+  "sourceAssetPath": "apps/web/public/media/100-builds/source-excerpts/build-041-source-excerpt-hold.svg",
+  "sourceAssetUrl": "/media/100-builds/source-excerpts/build-041-source-excerpt-hold.svg",
+  "sourceSha256": "1db13c1837162306e9c5056f735b7231edcd8de43c932563fc22e34502aa70bb",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-041-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-041-canva-ready.svg",
+  "exportSha256": "1db13c1837162306e9c5056f735b7231edcd8de43c932563fc22e34502aa70bb",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Sequential text composite from NIST AI RMF GOVERN 2 containing the accountability statement and separately labeled subcategories 2.1 and 2.3 about roles and executive responsibility.",
+  "caption": "NIST AI RMF 1.0, p. 23. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+  "credit": "Official NIST-authored publication excerpt; not subject to copyright in the United States. Third-party material excluded. Policy: https://www.nist.gov/open",
+  "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+  "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+  "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+  "rightsLine": "",
+  "rollbackAssetUrl": "/media/builds/041/build-041-linkedin-poster.png",
+  "liveStatePreserved": true
+}

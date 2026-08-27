@@ -1,0 +1,21 @@
+{
+  "buildId": "012",
+  "title": "Controls Follow Consequence",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-context/build-012-official-source-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-context/build-012-official-source-context.svg",
+  "sourceSha256": "fb4b8cc508a37b5ca07a0344ffab1d71a25a89d54aeb308035a01d777cc6ceb8",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-012-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-012-canva-ready.svg",
+  "exportSha256": "fb4b8cc508a37b5ca07a0344ffab1d71a25a89d54aeb308035a01d777cc6ceb8",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 012, Controls Follow Consequence. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+  "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+  "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+  "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+  "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+  "rightsLine": "NIST public information · no endorsement",
+  "rollbackAssetUrl": "/media/builds/012/build-012-linkedin-poster.png",
+  "liveStatePreserved": true
+}

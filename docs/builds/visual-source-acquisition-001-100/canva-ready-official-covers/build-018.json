@@ -1,0 +1,21 @@
+{
+  "buildId": "018",
+  "title": "The Process Is Part of the Outcome",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-variants/build-018-official-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-variants/build-018-official-context.svg",
+  "sourceSha256": "9c0e1971a95d7580946b93b55a504f51451d7877a7cd1ca2dca5d892019939c9",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-018-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-018-canva-ready.svg",
+  "exportSha256": "9c0e1971a95d7580946b93b55a504f51451d7877a7cd1ca2dca5d892019939c9",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Build 018, The Process Is Part of the Outcome. Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 018, The Process Is Part of the Outcome.",
+  "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+  "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
+  "sourceUrl": "https://www.gov.uk/service-manual/service-standard",
+  "claimBoundary": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 018; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 018.",
+  "rightsLine": "Open Government Licence v3.0 · Crown copyright source",
+  "rollbackAssetUrl": "/media/builds/018/build-018-linkedin-poster.png",
+  "liveStatePreserved": true
+}

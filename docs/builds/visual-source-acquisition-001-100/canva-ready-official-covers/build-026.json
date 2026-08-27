@@ -1,0 +1,21 @@
+{
+  "buildId": "026",
+  "title": "Records Normalize Without Losing Their Past",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-variants/build-026-official-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-variants/build-026-official-context.svg",
+  "sourceSha256": "c9f0cbb53260705ca0392eef4db28578732f5b05b9cf6145ea344cfcec9e7528",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-026-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-026-canva-ready.svg",
+  "exportSha256": "c9f0cbb53260705ca0392eef4db28578732f5b05b9cf6145ea344cfcec9e7528",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Build 026, Records Normalize Without Losing Their Past. Official W3C PROV-O document or guidance page, selected as contextual evidence for Build 026, Records Normalize Without Losing Their Past.",
+  "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
+  "credit": "Copyright © 2013 W3C®. Material reproduced from PROV-O, https://www.w3.org/TR/prov-o/, under the W3C Document License.",
+  "sourceUrl": "https://www.w3.org/TR/prov-o/",
+  "claimBoundary": "Supports recognition of W3C PROV-O and the limited source context adjacent to Build 026; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 026.",
+  "rightsLine": "W3C Document License · © 2013 W3C®",
+  "rollbackAssetUrl": "/media/builds/026/build-026-linkedin-poster.png",
+  "liveStatePreserved": true
+}

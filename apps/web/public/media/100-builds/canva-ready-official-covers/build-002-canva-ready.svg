@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Build 002: Multi-Audience Meaning Architecture — official-source context cover</title>
+<desc id="desc">Official GOV.UK user-research guidance stating that teams must understand all kinds of users and write needs using words users recognise, shown as source context for Build 002. Bounded official-source excerpt; not evidence of prototype performance or institutional endorsement.</desc>
+<rect width="1200" height="1500" fill="#F6F1E7"/><rect x="46" y="46" width="1108" height="1408" rx="22" fill="#FFFDF8" stroke="#172126" stroke-width="4"/>
+<rect x="46" y="46" width="1108" height="118" rx="22" fill="#172126"/><text x="94" y="119" class="eyebrow" fill="#FFFDF8">OFFICIAL SOURCE CONTEXT · BOUNDED EXCERPT</text>
+<text x="94" y="220" class="kicker">BUILD 002</text><text x="94" y="278" class="title">Multi-Audience Meaning Architecture</text>
+<line x1="94" y1="300" x2="1106" y2="300" stroke="#D46B42" stroke-width="8"/>
+<text x="96" y="330" class="quote">You must understand the needs of all kinds of users,</text>
+<text x="96" y="380" class="quote">not just &#8216;typical&#8217; users.</text>
+
+<text x="96" y="453" class="quote">Write user needs from a personal perspective using</text>
+<text x="96" y="503" class="quote">words that users would recognise and use themselves.</text>
+<rect x="78" y="1010" width="1044" height="165" rx="16" fill="#E8F0EE"/><text x="104" y="1052" class="label">WHY THIS FITS</text>
+<text x="104" y="1094" class="small">GOV.UK guidance: include all kinds of users and preserve words users recognise.</text>
+<rect x="78" y="1195" width="1044" height="178" rx="16" fill="#F6E7DF"/><text x="104" y="1237" class="label">CLAIM LIMIT</text>
+<text x="104" y="1279" class="fine">Supports the need to represent multiple audiences and preserve user-recognisable language; it</text>
+<text x="104" y="1311" class="fine">does not validate RN&#8217;s architecture, prove outcomes or imply endorsement.</text>
+<text x="94" y="1410" class="source">GOV.UK SERVICE MANUAL · FAITHFUL TEXT COMPOSITE</text><text x="1106" y="1410" text-anchor="end" class="source">NO LOGO · NO ENDORSEMENT</text>
+<style>.eyebrow{font:700 25px Arial,sans-serif;letter-spacing:2px}.kicker{font:700 23px Arial,sans-serif;fill:#A64325;letter-spacing:2px}.title{font:700 40px Arial,sans-serif;fill:#172126}.quote{font:500 26px Georgia,serif;fill:#172126}.label{font:700 18px Arial,sans-serif;fill:#172126;letter-spacing:1.5px}.small{font:500 23px Arial,sans-serif;fill:#172126}.fine{font:500 20px Arial,sans-serif;fill:#172126}.source{font:700 16px Arial,sans-serif;fill:#4B5559;letter-spacing:.8px}</style></svg>

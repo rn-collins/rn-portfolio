@@ -1,0 +1,21 @@
+{
+  "buildId": "001",
+  "title": "Human Review Design Framework",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-context/build-001-official-source-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-context/build-001-official-source-context.svg",
+  "sourceSha256": "88f2b8b92c9c65b0fd0ce66c324bf4936652022bd3193bb70cd3928d2e94b50a",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-001-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-001-canva-ready.svg",
+  "exportSha256": "88f2b8b92c9c65b0fd0ce66c324bf4936652022bd3193bb70cd3928d2e94b50a",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 001, Human Review Design Framework. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+  "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+  "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+  "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+  "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+  "rightsLine": "NIST public information · no endorsement",
+  "rollbackAssetUrl": "/media/builds/001/build-001-linkedin-poster.png",
+  "liveStatePreserved": true
+}

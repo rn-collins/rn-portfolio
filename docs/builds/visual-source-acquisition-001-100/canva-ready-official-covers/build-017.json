@@ -1,0 +1,21 @@
+{
+  "buildId": "017",
+  "title": "The Risk Lives Between the Boxes",
+  "sourceAssetPath": "apps/web/public/media/100-builds/replacement-production-covers/build-017-official-excerpt-cover.svg",
+  "sourceAssetUrl": "/media/100-builds/replacement-production-covers/build-017-official-excerpt-cover.svg",
+  "sourceSha256": "a3ea3270ea124f38548559430bccd3beee85ab810b7d82b4ac3fa8bf8a1f4185",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-017-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-017-canva-ready.svg",
+  "exportSha256": "a3ea3270ea124f38548559430bccd3beee85ab810b7d82b4ac3fa8bf8a1f4185",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST AI RMF GOVERN 2 excerpt requiring clear roles and communication lines, trained personnel and partners, and executive responsibility for AI-risk decisions.",
+  "caption": "NIST AI RMF GOVERN 2 assigns clear communication lines, partner duties and executive responsibility across organizational handoffs.",
+  "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 23. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+  "claimBoundary": "Supports documenting responsibility and communication across teams and partners; it does not prove Build 017 resolves organizational handoff risk.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 017.",
+  "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+  "rollbackAssetUrl": "/media/builds/017/build-017-linkedin-poster.png",
+  "liveStatePreserved": true
+}

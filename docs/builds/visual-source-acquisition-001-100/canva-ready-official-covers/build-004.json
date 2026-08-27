@@ -1,0 +1,21 @@
+{
+  "buildId": "004",
+  "title": "Before the Automation",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-variants/build-004-official-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-variants/build-004-official-context.svg",
+  "sourceSha256": "3f2a42c766b40cacf2e3382f32422d4c8111b4d31138d23cf1976281687b0136",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-004-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-004-canva-ready.svg",
+  "exportSha256": "3f2a42c766b40cacf2e3382f32422d4c8111b4d31138d23cf1976281687b0136",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Build 004, Before the Automation. Official NIST AI RMF Playbook document or guidance page, selected as contextual evidence for Build 004, Before the Automation.",
+  "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
+  "credit": "Source: National Institute of Standards and Technology, NIST AI RMF Playbook. Republished courtesy of NIST.",
+  "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+  "claimBoundary": "Supports recognition of NIST AI RMF Playbook and the limited source context adjacent to Build 004; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 004.",
+  "rightsLine": "Official NIST public information · Republished courtesy of NIST",
+  "rollbackAssetUrl": "/media/builds/004/build-004-linkedin-poster.png",
+  "liveStatePreserved": true
+}

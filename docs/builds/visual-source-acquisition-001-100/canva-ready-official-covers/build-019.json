@@ -1,0 +1,21 @@
+{
+  "buildId": "019",
+  "title": "The Alert That Knows Who Cares",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-context/build-019-official-source-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-context/build-019-official-source-context.svg",
+  "sourceSha256": "42c23ea73c840b9c81c062eea3d69dfd7d168051277eeed547fb546dd635eeb8",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-019-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-019-canva-ready.svg",
+  "exportSha256": "42c23ea73c840b9c81c062eea3d69dfd7d168051277eeed547fb546dd635eeb8",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST SP 800-61r3 title-page text, selected as contextual evidence for Build 019, The Alert That Knows Who Cares. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+  "caption": "Official NIST SP 800-61 Rev. 3, shown as incident-response context.",
+  "credit": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+  "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+  "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+  "rightsLine": "NIST public information · no endorsement",
+  "rollbackAssetUrl": "/media/builds/019/build-019-linkedin-poster.png",
+  "liveStatePreserved": true
+}

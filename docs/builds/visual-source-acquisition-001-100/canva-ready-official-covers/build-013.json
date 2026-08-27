@@ -1,0 +1,21 @@
+{
+  "buildId": "013",
+  "title": "Follow the Consequence",
+  "sourceAssetPath": "apps/web/public/media/100-builds/replacement-production-covers/build-013-official-excerpt-cover.svg",
+  "sourceAssetUrl": "/media/100-builds/replacement-production-covers/build-013-official-excerpt-cover.svg",
+  "sourceSha256": "f1911694ad444f39d7fe45466515dcd9a55f2e005707c04562ad68c1a5661552",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-013-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-013-canva-ready.svg",
+  "exportSha256": "f1911694ad444f39d7fe45466515dcd9a55f2e005707c04562ad68c1a5661552",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Official NIST AI RMF MAP excerpt explaining how interdependent lifecycle activities and early decisions can alter later behavior, capabilities and impacts.",
+  "caption": "NIST AI RMF: interdependent lifecycle activities can carry early decisions into later system impacts.",
+  "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+  "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+  "claimBoundary": "Supports the general possibility of consequence propagation across an AI lifecycle; it does not establish the causal model or performance of Build 013.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 013.",
+  "rightsLine": "NIST-authored technical-series text; citation retained; insignia and third-party material excluded.",
+  "rollbackAssetUrl": "/media/builds/013/build-013-linkedin-poster.png",
+  "liveStatePreserved": true
+}

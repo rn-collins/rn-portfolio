@@ -1,0 +1,21 @@
+{
+  "buildId": "005",
+  "title": "Service Path Split",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-variants/build-005-official-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-variants/build-005-official-context.svg",
+  "sourceSha256": "e7cf889fb1a8745b78d5171955cbb16761a7cb1597b0289cdd791b1f87ae273b",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-005-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-005-canva-ready.svg",
+  "exportSha256": "e7cf889fb1a8745b78d5171955cbb16761a7cb1597b0289cdd791b1f87ae273b",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Build 005, Service Path Split. Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 005, Service Path Split.",
+  "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+  "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
+  "sourceUrl": "https://www.gov.uk/service-manual/service-standard",
+  "claimBoundary": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 005; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 005.",
+  "rightsLine": "Open Government Licence v3.0 · Crown copyright source",
+  "rollbackAssetUrl": "/media/builds/005/build-005-linkedin-poster.png",
+  "liveStatePreserved": true
+}

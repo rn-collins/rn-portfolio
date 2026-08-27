@@ -1,0 +1,21 @@
+{
+  "buildId": "003",
+  "title": "Unserved Decision Discovery",
+  "sourceAssetPath": "apps/web/public/media/100-builds/production-source-variants/build-003-official-context.svg",
+  "sourceAssetUrl": "/media/100-builds/production-source-variants/build-003-official-context.svg",
+  "sourceSha256": "bfc83eee4bedd4d1308107e41561ae69a7c19be0416b17a5f7a17005b3e34dc0",
+  "exportPath": "apps/web/public/media/100-builds/canva-ready-official-covers/build-003-canva-ready.svg",
+  "exportUrl": "/media/100-builds/canva-ready-official-covers/build-003-canva-ready.svg",
+  "exportSha256": "bfc83eee4bedd4d1308107e41561ae69a7c19be0416b17a5f7a17005b3e34dc0",
+  "width": 1200,
+  "height": 1500,
+  "altText": "Build 003, Unserved Decision Discovery. Official GOV.UK Learning about users and their needs document or guidance page, selected as contextual evidence for Build 003, Unserved Decision Discovery.",
+  "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+  "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
+  "sourceUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+  "claimBoundary": "Supports recognition of GOV.UK Learning about users and their needs and the limited source context adjacent to Build 003; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+  "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 003.",
+  "rightsLine": "Open Government Licence v3.0 · Crown copyright source",
+  "rollbackAssetUrl": "/media/builds/003/build-003-linkedin-poster.png",
+  "liveStatePreserved": true
+}
