@@ -25,6 +25,13 @@ for (const record of review.records) {
     if (record.controls[key] !== false) fail(`${record.buildId}: ${key} must be false`);
   }
   if (record.fallback.decision !== "RETAIN_RN_ORIGINAL") fail(`${record.buildId}: RN fallback not retained`);
+  if (!record.searchEvidence || record.searchEvidence.canonicalEvidenceSource !== "packages.json visualCandidateSearch.searched") fail(`${record.buildId}: missing canonical search evidence`);
+  if (!Array.isArray(record.searchEvidence.attemptedOfficialRoutes) || record.searchEvidence.attemptedOfficialRoutes.length < 1) fail(`${record.buildId}: no attempted official route recorded`);
+  if (record.searchEvidence.attemptedRouteCount !== record.searchEvidence.attemptedOfficialRoutes.length) fail(`${record.buildId}: attempted route count is stale`);
+  for (const attempt of record.searchEvidence.attemptedOfficialRoutes) {
+    if (!attempt.sourcePageUrl || !/^https:\/\//.test(attempt.sourcePageUrl)) fail(`${record.buildId}: attempted route lacks an HTTPS official source`);
+    if (!attempt.query || !attempt.result || !attempt.searchBreadth) fail(`${record.buildId}: attempted route evidence is incomplete`);
+  }
   const url = record.candidate.sourcePageUrl;
   if (url && !/^https:\/\//.test(url)) fail(`${record.buildId}: source URL must use https`);
   if (record.candidate.fetched === false && record.candidate.sha256 !== null) fail(`${record.buildId}: unfetched source must not claim a hash`);
