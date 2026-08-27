@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Build 008: Data Is Not a Decision — official-source context cover</title>
+<desc id="desc">Official NIST AI RMF MAP 2.2 excerpt requiring documentation of system knowledge limits and how output may be used and overseen by humans making decisions. Bounded official-source excerpt; not evidence of prototype performance or institutional endorsement.</desc>
+<rect width="1200" height="1500" fill="#F6F1E7"/><rect x="46" y="46" width="1108" height="1408" rx="22" fill="#FFFDF8" stroke="#172126" stroke-width="4"/>
+<rect x="46" y="46" width="1108" height="118" rx="22" fill="#172126"/><text x="94" y="119" class="eyebrow" fill="#FFFDF8">OFFICIAL SOURCE CONTEXT · BOUNDED EXCERPT</text>
+<text x="94" y="220" class="kicker">BUILD 008</text><text x="94" y="278" class="title">Data Is Not a Decision</text>
+<line x1="94" y1="300" x2="1106" y2="300" stroke="#D46B42" stroke-width="8"/>
+<text x="96" y="330" class="quote">MAP 2.2</text>
+<text x="96" y="380" class="quote">Information about the AI system&#8217;s knowledge limits and how</text>
+<text x="96" y="430" class="quote">system output may be utilized and overseen by humans is documented.</text>
+
+<text x="96" y="503" class="quote">Documentation provides sufficient information to assist relevant</text>
+<text x="96" y="553" class="quote">AI actors when making decisions and taking subsequent actions.</text>
+<rect x="78" y="1010" width="1044" height="165" rx="16" fill="#E8F0EE"/><text x="104" y="1052" class="label">WHY THIS FITS</text>
+<text x="104" y="1094" class="small">NIST AI RMF MAP 2.2 distinguishes system output from the human decisions and</text>
+<text x="104" y="1128" class="small">subsequent actions it informs.</text>
+<rect x="78" y="1195" width="1044" height="178" rx="16" fill="#F6E7DF"/><text x="104" y="1237" class="label">CLAIM LIMIT</text>
+<text x="104" y="1279" class="fine">Supports separating output from decision and documenting human use and oversight; it does not</text>
+<text x="104" y="1311" class="fine">prove the Build 008 interface produces correct decisions.</text>
+<text x="94" y="1410" class="source">NIST AI RMF 1.0 · PDF 31 · PRINTED 26</text><text x="1106" y="1410" text-anchor="end" class="source">NO LOGO · NO ENDORSEMENT</text>
+<style>.eyebrow{font:700 25px Arial,sans-serif;letter-spacing:2px}.kicker{font:700 23px Arial,sans-serif;fill:#A64325;letter-spacing:2px}.title{font:700 40px Arial,sans-serif;fill:#172126}.quote{font:500 26px Georgia,serif;fill:#172126}.label{font:700 18px Arial,sans-serif;fill:#172126;letter-spacing:1.5px}.small{font:500 23px Arial,sans-serif;fill:#172126}.fine{font:500 20px Arial,sans-serif;fill:#172126}.source{font:700 16px Arial,sans-serif;fill:#4B5559;letter-spacing:.8px}</style></svg>

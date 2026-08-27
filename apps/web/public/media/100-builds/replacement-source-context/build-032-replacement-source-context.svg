@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Build 032: Release Blocker Door — official-source context candidate</title>
+<desc id="desc">Official NIST AI RMF excerpts requiring a proceed-or-stop determination and mechanisms to supersede, disengage or deactivate systems with outcomes inconsistent with intended use. Review candidate only; not evidence of prototype performance or institutional endorsement.</desc>
+<rect width="1200" height="1500" fill="#F6F1E7"/><rect x="46" y="46" width="1108" height="1408" rx="22" fill="#FFFDF8" stroke="#172126" stroke-width="4"/>
+<rect x="46" y="46" width="1108" height="118" rx="22" fill="#172126"/><text x="94" y="119" class="eyebrow" fill="#FFFDF8">OFFICIAL SOURCE CONTEXT · REVIEW CANDIDATE</text>
+<text x="94" y="220" class="kicker">BUILD 032</text><text x="94" y="278" class="title">Release Blocker Door</text>
+<line x1="94" y1="300" x2="1106" y2="300" stroke="#D46B42" stroke-width="8"/>
+<text x="96" y="330" class="quote">RELEASE BOUNDARY</text>
+
+<text x="96" y="387" class="quote">MANAGE 1.1: A determination is made as to whether the AI system</text>
+<text x="96" y="426" class="quote">achieves</text>
+<text x="96" y="465" class="quote">its intended purposes and stated objectives and whether its</text>
+<text x="96" y="504" class="quote">development or</text>
+<text x="96" y="543" class="quote">deployment should proceed.</text>
+
+<text x="96" y="600" class="quote">[intervening rows omitted]</text>
+
+<text x="96" y="657" class="quote">MANAGE 2.4: Mechanisms are in place and applied, and</text>
+<text x="96" y="696" class="quote">responsibilities are</text>
+<text x="96" y="735" class="quote">assigned and understood, to supersede, disengage, or deactivate AI</text>
+<text x="96" y="774" class="quote">systems</text>
+<text x="96" y="813" class="quote">that demonstrate performance or outcomes inconsistent with intended</text>
+<text x="96" y="852" class="quote">use.</text>
+<rect x="78" y="1010" width="1044" height="165" rx="16" fill="#E8F0EE"/><text x="104" y="1052" class="label">WHY THIS FITS</text>
+<text x="104" y="1094" class="small">NIST AI RMF release boundary: decide whether deployment should proceed and</text>
+<text x="104" y="1128" class="small">deactivate systems whose outcomes conflict with intended use.</text>
+<rect x="78" y="1195" width="1044" height="178" rx="16" fill="#F6E7DF"/><text x="104" y="1237" class="label">CLAIM LIMIT</text>
+<text x="104" y="1279" class="fine">Supports a go/no-go and deactivate release boundary; it does not certify Build 032&#8217;s blocker</text>
+<text x="104" y="1311" class="fine">logic or any release decision.</text>
+<text x="94" y="1410" class="source">NIST AI RMF 1.0 · PDF 37 · PRINTED 32</text><text x="1106" y="1410" text-anchor="end" class="source">NO LOGO · NO ENDORSEMENT</text>
+<style>.eyebrow{font:700 25px Arial,sans-serif;letter-spacing:2px}.kicker{font:700 23px Arial,sans-serif;fill:#A64325;letter-spacing:2px}.title{font:700 40px Arial,sans-serif;fill:#172126}.quote{font:500 22px Georgia,serif;fill:#172126}.label{font:700 18px Arial,sans-serif;fill:#172126;letter-spacing:1.5px}.small{font:500 23px Arial,sans-serif;fill:#172126}.fine{font:500 20px Arial,sans-serif;fill:#172126}.source{font:700 16px Arial,sans-serif;fill:#4B5559;letter-spacing:.8px}</style></svg>

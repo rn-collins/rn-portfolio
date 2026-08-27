@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Build 025: Readiness Has Layers — official-source context candidate</title>
+<desc id="desc">Official NIST AI RMF Profiles excerpt explaining current state, target state, gaps, action plans, prioritization and resources. Review candidate only; not evidence of prototype performance or institutional endorsement.</desc>
+<rect width="1200" height="1500" fill="#F6F1E7"/><rect x="46" y="46" width="1108" height="1408" rx="22" fill="#FFFDF8" stroke="#172126" stroke-width="4"/>
+<rect x="46" y="46" width="1108" height="118" rx="22" fill="#172126"/><text x="94" y="119" class="eyebrow" fill="#FFFDF8">OFFICIAL SOURCE CONTEXT · REVIEW CANDIDATE</text>
+<text x="94" y="220" class="kicker">BUILD 025</text><text x="94" y="278" class="title">Readiness Has Layers</text>
+<line x1="94" y1="300" x2="1106" y2="300" stroke="#D46B42" stroke-width="8"/>
+<text x="96" y="330" class="quote">AI RMF temporal profiles are descriptions of either the current</text>
+<text x="96" y="364" class="quote">state or the</text>
+<text x="96" y="398" class="quote">desired, target state of specific AI risk management activities</text>
+<text x="96" y="432" class="quote">within a given</text>
+<text x="96" y="466" class="quote">sector, industry, organization, or application context.</text>
+
+<text x="96" y="515" class="quote">A Current Profile indicates how AI is currently being managed and</text>
+<text x="96" y="549" class="quote">the related</text>
+<text x="96" y="583" class="quote">risks in terms of current outcomes. A Target Profile indicates the</text>
+<text x="96" y="617" class="quote">outcomes needed</text>
+<text x="96" y="651" class="quote">to achieve the desired or target AI risk management goals.</text>
+
+<text x="96" y="700" class="quote">Comparing Current and Target Profiles likely reveals gaps to be</text>
+<text x="96" y="734" class="quote">addressed to</text>
+<text x="96" y="768" class="quote">meet AI risk management objectives. Action plans can be developed to</text>
+<text x="96" y="802" class="quote">address</text>
+<text x="96" y="836" class="quote">these gaps to fulfill outcomes in a given category or subcategory.</text>
+<rect x="78" y="1010" width="1044" height="165" rx="16" fill="#E8F0EE"/><text x="104" y="1052" class="label">WHY THIS FITS</text>
+<text x="104" y="1094" class="small">NIST AI RMF Current and Target Profiles expose readiness gaps and the resources</text>
+<text x="104" y="1128" class="small">required to close them.</text>
+<rect x="78" y="1195" width="1044" height="178" rx="16" fill="#F6E7DF"/><text x="104" y="1237" class="label">CLAIM LIMIT</text>
+<text x="104" y="1279" class="fine">Supports layered current-to-target readiness analysis; it does not certify an organization or</text>
+<text x="104" y="1311" class="fine">validate Build 025&#8217;s scoring.</text>
+<text x="94" y="1410" class="source">NIST AI RMF 1.0 · PDF 38 · PRINTED 33</text><text x="1106" y="1410" text-anchor="end" class="source">NO LOGO · NO ENDORSEMENT</text>
+<style>.eyebrow{font:700 25px Arial,sans-serif;letter-spacing:2px}.kicker{font:700 23px Arial,sans-serif;fill:#A64325;letter-spacing:2px}.title{font:700 40px Arial,sans-serif;fill:#172126}.quote{font:500 20px Georgia,serif;fill:#172126}.label{font:700 18px Arial,sans-serif;fill:#172126;letter-spacing:1.5px}.small{font:500 23px Arial,sans-serif;fill:#172126}.fine{font:500 20px Arial,sans-serif;fill:#172126}.source{font:700 16px Arial,sans-serif;fill:#4B5559;letter-spacing:.8px}</style></svg>

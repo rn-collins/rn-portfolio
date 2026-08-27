@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0.0",
+  "auditedAt": "2026-08-27",
+  "scope": "13 cleared assignments rejected for weak live-hook or contextual fit",
+  "decisionRule": "A replacement passes only when a faithful, bounded excerpt from the already selected and preserved official source is materially more specific to the build claim than the rejected title/abstract candidate. A pass is not a live promotion; rendering, checksum recording, visual QA and the existing rollback controls remain required.",
+  "counts": {
+    "audited": 13,
+    "strongerExactExcerptFound": 9,
+    "noMateriallyBetterExcerpt": 4,
+    "livePromotionsAuthorizedByThisAudit": 0
+  },
+  "sourceIntegrity": {
+    "nistAiRmf": {
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "sourcePage": "https://doi.org/10.6028/NIST.AI.100-1",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "bytes": 1946127,
+      "pages": 48
+    },
+    "govUkUserNeeds": {
+      "url": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "repositoryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+      "sha256": "96bd362e5c203cb0ba31a168e94e95ff562fa75b7cd0549285525865b6578513"
+    },
+    "w3cProvPrimer": {
+      "url": "https://www.w3.org/TR/prov-primer/",
+      "repositoryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+      "sha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a"
+    }
+  },
+  "records": [
+    {
+      "buildId": "002",
+      "title": "Multi-Audience Meaning Architecture",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "selector": "#who-to-research-with plus #writing-user-needs",
+      "cropBoundary": "Faithful text-only composite: the paragraph beginning ‘You must understand the needs of all kinds of users’ and the sentence ‘Write user needs from a personal perspective using words that users would recognise and use themselves.’ Exclude links, example identity/visa content, marks, header, navigation and footer.",
+      "caption": "GOV.UK guidance: include all kinds of users and preserve words users recognise.",
+      "altText": "Official GOV.UK user-research guidance stating that teams must understand all kinds of users and write needs using words users recognise, shown as source context for Build 002.",
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
+      "claimBoundary": "Supports the need to represent multiple audiences and preserve user-recognisable language; it does not validate RN’s architecture, prove outcomes or imply endorsement."
+    },
+    {
+      "buildId": "007",
+      "title": "The Product That Learns",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 29,
+      "printedPage": 24,
+      "cropBoundary": "GOVERN 5 category and subcategories 5.1–5.2 only: collect, prioritize and integrate external feedback; regularly incorporate adjudicated feedback into system design and implementation. Exclude GOVERN 4 and GOVERN 6 rows.",
+      "caption": "NIST AI RMF GOVERN 5: external feedback is collected, adjudicated and incorporated into system design and implementation.",
+      "altText": "Official NIST AI RMF GOVERN 5 excerpt describing a governed feedback loop that incorporates adjudicated external feedback into AI-system design and implementation.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+      "claimBoundary": "Supports a governed product-learning feedback loop; it does not show that Build 007 implements NIST, learns correctly or improves outcomes."
+    },
+    {
+      "buildId": "008",
+      "title": "Data Is Not a Decision",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 31,
+      "printedPage": 26,
+      "cropBoundary": "MAP 2.2 row only, including the complete sentences on knowledge limits, human utilization and oversight, and sufficient information for subsequent decisions/actions. Exclude MAP 2.1, MAP 2.3 and adjacent categories.",
+      "caption": "NIST AI RMF MAP 2.2 distinguishes system output from the human decisions and subsequent actions it informs.",
+      "altText": "Official NIST AI RMF MAP 2.2 excerpt requiring documentation of system knowledge limits and how output may be used and overseen by humans making decisions.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 26. Republished courtesy of NIST.",
+      "claimBoundary": "Supports separating output from decision and documenting human use and oversight; it does not prove the Build 008 interface produces correct decisions."
+    },
+    {
+      "buildId": "009",
+      "title": "Transfer Is a Place Question",
+      "decision": "NO_MATERIALLY_BETTER_EXCERPT_KEEP_RN_LIVE",
+      "reason": "MAP 1.1 discusses deployment settings and context, but the selected AI RMF contains no sufficiently specific treatment of place-dependent technology transfer. A crop would remain indirect and less recognizable than the RN hook."
+    },
+    {
+      "buildId": "011",
+      "title": "Same Name Is Not Same Entity",
+      "decision": "NO_MATERIALLY_BETTER_EXCERPT_KEEP_RN_LIVE",
+      "reason": "PROV Primer §3.9 distinguishes versions using specializationOf and alternateOf, but it does not address same-name entity resolution or identity conflicts. The apparent semantic similarity is insufficient for promotion."
+    },
+    {
+      "buildId": "013",
+      "title": "Follow the Consequence",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 29,
+      "printedPage": 24,
+      "cropBoundary": "Faithful two-sentence text composite from the MAP introduction: the sentence beginning ‘The interdependencies between these activities’ and the final sentence beginning ‘As a result’. Mark the intervening example as omitted. Exclude Figure 3, tables and subsequent paragraph.",
+      "caption": "NIST AI RMF: interdependent lifecycle activities can carry early decisions into later system impacts.",
+      "altText": "Official NIST AI RMF MAP excerpt explaining how interdependent lifecycle activities and early decisions can alter later behavior, capabilities and impacts.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 24. Republished courtesy of NIST.",
+      "claimBoundary": "Supports the general possibility of consequence propagation across an AI lifecycle; it does not establish the causal model or performance of Build 013."
+    },
+    {
+      "buildId": "017",
+      "title": "The Risk Lives Between the Boxes",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 28,
+      "printedPage": 23,
+      "cropBoundary": "GOVERN 2 category and complete subcategories 2.1–2.3 only. Exclude GOVERN 1.5–1.7 and GOVERN 3.",
+      "caption": "NIST AI RMF GOVERN 2 assigns clear communication lines, partner duties and executive responsibility across organizational handoffs.",
+      "altText": "Official NIST AI RMF GOVERN 2 excerpt requiring clear roles and communication lines, trained personnel and partners, and executive responsibility for AI-risk decisions.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 23. Republished courtesy of NIST.",
+      "claimBoundary": "Supports documenting responsibility and communication across teams and partners; it does not prove Build 017 resolves organizational handoff risk."
+    },
+    {
+      "buildId": "020",
+      "title": "Open the Decision",
+      "decision": "NO_MATERIALLY_BETTER_EXCERPT_KEEP_RN_LIVE",
+      "reason": "PROV Primer contains strong provenance examples, but no exact decision-record or decision-opening example. Using its chart/article examples as the main hook would overstate contextual fit."
+    },
+    {
+      "buildId": "021",
+      "title": "Break the Promise Open",
+      "decision": "NO_MATERIALLY_BETTER_EXCERPT_KEEP_RN_LIVE",
+      "reason": "AI RMF MAP 1.6 addresses eliciting system requirements, but it does not visualize promise decomposition or trace a public promise into operational commitments. Retain the RN hook."
+    },
+    {
+      "buildId": "025",
+      "title": "Readiness Has Layers",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 38,
+      "printedPage": 33,
+      "cropBoundary": "AI RMF Profiles section: the complete temporal-profiles paragraph defining Current and Target Profiles plus the first two sentences of the following paragraph, ending with action plans developed to address gaps. Exclude the preceding use-case paragraph, remaining resource-comparison prose and following cross-sectoral paragraph.",
+      "caption": "NIST AI RMF Current and Target Profiles expose readiness gaps and the resources required to close them.",
+      "altText": "Official NIST AI RMF Profiles excerpt explaining current state, target state, gaps, action plans, prioritization and resources.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 33. Republished courtesy of NIST.",
+      "claimBoundary": "Supports layered current-to-target readiness analysis; it does not certify an organization or validate Build 025’s scoring."
+    },
+    {
+      "buildId": "028",
+      "title": "Ranking Rationale",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 37,
+      "printedPage": 32,
+      "cropBoundary": "MANAGE 1 category statement and complete subcategories 1.1–1.2 only. Exclude MANAGE 1.3–1.4, MANAGE 2 and adjacent prose.",
+      "caption": "NIST AI RMF MANAGE 1 ties prioritization to intended purpose, impact, likelihood, resources and documented residual risk.",
+      "altText": "Official NIST AI RMF MANAGE 1 excerpt describing how assessed AI risks are prioritized, responded to and documented using impact, likelihood and available resources.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+      "claimBoundary": "Supports explaining the dimensions behind a risk ranking; it does not validate Build 028’s ranking method or any particular result."
+    },
+    {
+      "buildId": "029",
+      "title": "Consequence Propagation",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://www.w3.org/TR/prov-primer/#summary",
+      "selector": "section#summary > p:nth-of-type(2)",
+      "cropBoundary": "Faithful text-only capture of the single summary paragraph beginning ‘The examples also illustrate how PROV enables many uses of provenance’ and ending ‘inspecting sources and attribution.’ Exclude examples, lists, figures, code, W3C marks and navigation.",
+      "caption": "W3C PROV Primer: provenance supports error checking, responsibility tracing, process repetition, version relationships, sources and attribution.",
+      "altText": "Official W3C PROV Primer summary describing error checking, tracing responsible parties, regenerating datasets, relating document versions, and inspecting sources and attribution.",
+      "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/#summary, under the W3C Document License.",
+      "claimBoundary": "Supports tracing how outputs, versions, responsible parties and sources relate; it does not demonstrate Build 029’s propagation logic or imply W3C endorsement."
+    },
+    {
+      "buildId": "032",
+      "title": "Release Blocker Door",
+      "decision": "STRONGER_EXACT_EXCERPT_FOUND_NOT_LIVE",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "pdfPageIndex": 37,
+      "printedPage": 32,
+      "cropBoundary": "Faithful two-row text composite of MANAGE 1.1 and MANAGE 2.4 only. Preserve labels and full sentences; explicitly mark omitted intervening rows. Exclude all other table content.",
+      "caption": "NIST AI RMF release boundary: decide whether deployment should proceed and deactivate systems whose outcomes conflict with intended use.",
+      "altText": "Official NIST AI RMF excerpts requiring a proceed-or-stop determination and mechanisms to supersede, disengage or deactivate systems with outcomes inconsistent with intended use.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, p. 32. Republished courtesy of NIST.",
+      "claimBoundary": "Supports a go/no-go and deactivate release boundary; it does not certify Build 032’s blocker logic or any release decision."
+    }
+  ],
+  "rights": {
+    "nist": "Use the recorded NIST public-information/reprint terms; include full citation and no-endorsement language; exclude insignia, marks and third-party material.",
+    "govUk": "OGL v3.0 applies to Crown-copyright text with attribution and accurate, non-misleading context; exclude logos and third-party material.",
+    "w3c": "Use only faithful portions with original URL, W3C copyright/status/license notice and no endorsement; exclude the W3C logo and do not modify quoted text."
+  }
+}

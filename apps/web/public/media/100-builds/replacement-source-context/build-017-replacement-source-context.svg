@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+<title id="title">Build 017: The Risk Lives Between the Boxes — official-source context candidate</title>
+<desc id="desc">Official NIST AI RMF GOVERN 2 excerpt requiring clear roles and communication lines, trained personnel and partners, and executive responsibility for AI-risk decisions. Review candidate only; not evidence of prototype performance or institutional endorsement.</desc>
+<rect width="1200" height="1500" fill="#F6F1E7"/><rect x="46" y="46" width="1108" height="1408" rx="22" fill="#FFFDF8" stroke="#172126" stroke-width="4"/>
+<rect x="46" y="46" width="1108" height="118" rx="22" fill="#172126"/><text x="94" y="119" class="eyebrow" fill="#FFFDF8">OFFICIAL SOURCE CONTEXT · REVIEW CANDIDATE</text>
+<text x="94" y="220" class="kicker">BUILD 017</text><text x="94" y="278" class="title">The Risk Lives Between the Boxes</text>
+<line x1="94" y1="300" x2="1106" y2="300" stroke="#D46B42" stroke-width="8"/>
+<text x="96" y="330" class="quote">GOVERN 2</text>
+<text x="96" y="364" class="quote">Accountability structures are in place so that the appropriate teams</text>
+<text x="96" y="398" class="quote">and</text>
+<text x="96" y="432" class="quote">individuals are empowered, responsible, and trained for mapping,</text>
+<text x="96" y="466" class="quote">measuring,</text>
+<text x="96" y="500" class="quote">and managing AI risks.</text>
+
+<text x="96" y="549" class="quote">GOVERN 2.1: Roles and responsibilities and lines of communication</text>
+<text x="96" y="583" class="quote">related to</text>
+<text x="96" y="617" class="quote">mapping, measuring, and managing AI risks are documented and are</text>
+<text x="96" y="651" class="quote">clear to</text>
+<text x="96" y="685" class="quote">individuals and teams throughout the organization.</text>
+
+<text x="96" y="734" class="quote">GOVERN 2.2: The organization&#8217;s personnel and partners receive AI</text>
+<text x="96" y="768" class="quote">risk</text>
+<text x="96" y="802" class="quote">management training to enable them to perform their duties and</text>
+<text x="96" y="836" class="quote">responsibilities</text>
+<text x="96" y="870" class="quote">consistent with related policies, procedures, and agreements.</text>
+
+<text x="96" y="919" class="quote">GOVERN 2.3: Executive leadership takes responsibility for decisions</text>
+<text x="96" y="953" class="quote">about risks</text>
+<text x="96" y="987" class="quote">associated with AI system development and deployment.</text>
+<rect x="78" y="1010" width="1044" height="165" rx="16" fill="#E8F0EE"/><text x="104" y="1052" class="label">WHY THIS FITS</text>
+<text x="104" y="1094" class="small">NIST AI RMF GOVERN 2 assigns clear communication lines, partner duties and executive</text>
+<text x="104" y="1128" class="small">responsibility across organizational handoffs.</text>
+<rect x="78" y="1195" width="1044" height="178" rx="16" fill="#F6E7DF"/><text x="104" y="1237" class="label">CLAIM LIMIT</text>
+<text x="104" y="1279" class="fine">Supports documenting responsibility and communication across teams and partners; it does not</text>
+<text x="104" y="1311" class="fine">prove Build 017 resolves organizational handoff risk.</text>
+<text x="94" y="1410" class="source">NIST AI RMF 1.0 · PDF 28 · PRINTED 23</text><text x="1106" y="1410" text-anchor="end" class="source">NO LOGO · NO ENDORSEMENT</text>
+<style>.eyebrow{font:700 25px Arial,sans-serif;letter-spacing:2px}.kicker{font:700 23px Arial,sans-serif;fill:#A64325;letter-spacing:2px}.title{font:700 40px Arial,sans-serif;fill:#172126}.quote{font:500 20px Georgia,serif;fill:#172126}.label{font:700 18px Arial,sans-serif;fill:#172126;letter-spacing:1.5px}.small{font:500 23px Arial,sans-serif;fill:#172126}.fine{font:500 20px Arial,sans-serif;fill:#172126}.source{font:700 16px Arial,sans-serif;fill:#4B5559;letter-spacing:.8px}</style></svg>
