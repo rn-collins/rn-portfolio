@@ -13,7 +13,7 @@ export default function sitemap():MetadataRoute.Sitemap{
   `/100-builds/${build.id}/b`
  ]),'/100-builds/archive','/lineage',...Object.keys(buildArchives).map(id=>`/100-builds/${id}/archive`)];
  return paths.map(path=>({
-  url:new URL(path,siteUrl).toString(),
+  url:new URL(path==='/'?path:`${path}/`,siteUrl).toString(),
   lastModified:updatedAt,
   changeFrequency:path==='/'?'weekly':'monthly',
   priority:path==='/'?1:path==='/100-builds'?0.9:path.endsWith('/a')||path.endsWith('/b')?0.7:path==='/100-builds/archive'||path==='/lineage'?0.65:0.6
