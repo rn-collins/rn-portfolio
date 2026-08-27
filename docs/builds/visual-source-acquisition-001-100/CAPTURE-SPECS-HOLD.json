@@ -40,16 +40,20 @@
     },
     {
       "buildId": "036",
-      "asset": "Service Workers specification",
-      "url": "https://www.w3.org/TR/service-workers/",
-      "sha256": "b1a39e9bd9c0427cb93a0cef2ffb2fc7e86d1d7be53c9f0a68fb3fcab623dffe",
-      "region": null,
+      "asset": "Service Workers 1 — W3C Candidate Recommendation Snapshot, 19 November 2019",
+      "url": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
+      "sha256": "9bf4121df576f08a49606cd98885c48755ee8b70e98c7907463a98f0d2879d13",
+      "region": "Title/status plus the motivation text explaining offline responses and persistent background processing; faithful text-only excerpt",
       "exclude": [
-        "entire live/nightly document"
+        "W3C logo and marks",
+        "navigation",
+        "editor details",
+        "code or figures unless separately cleared",
+        "browser chrome"
       ],
-      "alt": null,
-      "claimBoundary": "Diagnostic context only.",
-      "blocker": "HARD STOP: select immutable dated snapshot and governing terms before capture."
+      "alt": "Title, Candidate Recommendation status, and excerpt from the 19 November 2019 W3C Service Workers 1 snapshot describing offline-capable responses and background processing.",
+      "claimBoundary": "Context only: documents offline-capable service-worker behavior in a 2019 Candidate Recommendation Snapshot; not final Recommendation status, current completeness, safety, recovery, performance or endorsement.",
+      "blocker": "Immutable-source blocker resolved; HOLD until exact render, dimensions, full user-viewable W3C license notice, attribution, no-logo crop and visual review are completed."
     },
     {
       "buildId": "038",
