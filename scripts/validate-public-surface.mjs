@@ -25,6 +25,28 @@ for(const needle of ['generateMetadata','alternates:{canonical:`/100-builds/${id
 const dossierNav=read('apps/web/app/100-builds/001/DossierNav.tsx');
 for(const route of ['/100-builds/001/record','/100-builds/001/making','/100-builds/001/method','/100-builds/001/evidence'])check(dossierNav.includes(`href="${route}"`),'dossier navigation missing '+route);
 
+const assetPanel=read('apps/web/app/100-builds/AssetReviewPanel.tsx');
+for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
+check(recordPage.includes('<AssetReviewPanel id={id}/>'),'every public build record must render the canonical asset review panel');
+const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
+check(Array.isArray(visualPackages.records)&&visualPackages.records.length===100,'visual package ledger must contain 100 records');
+const visualIds=visualPackages.records.map(record=>record.buildId);
+check(JSON.stringify(visualIds)===JSON.stringify(ids),'visual package ledger must be ordered 001-100');
+for(const record of visualPackages.records){
+ check(record.rnFallbackReady===true,'RN fallback must remain ready for '+record.buildId);
+ check(typeof record.externalSelected==='boolean'&&typeof record.externalStaged==='boolean','selection/staging status must be explicit for '+record.buildId);
+ const expectedCover=`/media/builds/${record.buildId}/build-${record.buildId}-linkedin-poster.png`;
+ check(record.cover?.assetUrl===expectedCover,'unexpected creator-owned cover path for '+record.buildId);
+ const coverRel='apps/web/public'+expectedCover;
+ try{const st=fs.lstatSync(path.join(root,coverRel));check(st.isFile()&&!st.isSymbolicLink(),coverRel+' must be a regular non-symlink file')}catch{fail.push(coverRel+' missing')}
+ check(Number.isInteger(record.cover?.dimensions?.width)&&record.cover.dimensions.width>0&&Number.isInteger(record.cover?.dimensions?.height)&&record.cover.dimensions.height>0,'cover dimensions missing for '+record.buildId);
+ check(typeof record.cover?.altText==='string'&&record.cover.altText.trim().length>20,'cover alt text missing for '+record.buildId);
+ check(typeof record.cover?.credit==='string'&&record.cover.credit.trim(),'cover credit missing for '+record.buildId);
+ for(const candidate of record.visualCandidateSearch?.searched||[]){
+  for(const key of ['sourcePageUrl','exactAssetUrl'])if(candidate[key]){try{const u=new URL(candidate[key]);check(u.protocol==='https:','candidate URL must use HTTPS for '+record.buildId)}catch{fail.push('invalid candidate '+key+' for '+record.buildId)}}
+ }
+}
+
 const archiveData=read('apps/web/app/100-builds/_archive/archive-data.ts');
 const archiveIds=[...archiveData.matchAll(/^\s*'(\d{3})':\{id:'\1',title:/gm)].map(m=>m[1]);
 check(archiveIds.length===44,'expected 44 build archives');
@@ -59,4 +81,4 @@ for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews with explicit release gates; fail-closed source reader.');
