@@ -3,7 +3,7 @@ import {fileURLToPath} from 'node:url';
 const path=fileURLToPath(new URL('../docs/builds/visual-source-acquisition-001-100/packages.json',import.meta.url));
 const p=JSON.parse(fs.readFileSync(path,'utf8'));
 const CLEAR=['001','002','003','004','005','006','007','008','009','011','012','013','017','018','019','020','021','022','025','026','028','029','031','032'];
-const STAGED=['002','003','004','005','006','011','018','020','026','029'];
+const STAGED=['001','002','003','004','005','006','007','008','009','011','012','013','017','018','019','020','021','022','025','026','028','029','031','032'];
 const EARLY_HOLD=['010','014','015','016','023','024','027','030','033','034'];
 const ALL=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0'));
 const HOLD=ALL.filter(id=>!CLEAR.includes(id));
@@ -33,7 +33,7 @@ function validate(p){
  if(JSON.stringify(ids('HOLD'))!==JSON.stringify(HOLD))throw Error('mandatory hold set drift');
  for(const id of EARLY_HOLD)if(p.records.find(r=>r.buildId===id)?.acquisitionDisposition!=='HOLD')throw Error(id+': mandatory early HOLD promoted');
  for(const r of p.records){if(!r.dispositionBasis)throw Error(r.buildId+': no basis');const cleared=r.acquisitionDisposition==='CLEARED-NOT-SUBSTITUTED';const staged=STAGED.includes(r.buildId);if(r.externalSelected!==cleared||r.externalStaged!==staged||r.rnFallbackReady!==true||r.canva?.generationAuthorized!==false)throw Error(r.buildId+': estate safety state');if(cleared){const s=r.visualCandidateSearch?.selection;if(!s||s.binaryPresent!==staged||(staged?!/^apps\/web\/public\/100-builds\/official-sources\/official-\d{2}-.+\.html\.source\.txt$/.test(s.binaryRepositoryPath||''):s.binaryRepositoryPath!==null))throw Error(r.buildId+': selected source preservation truth boundary absent');if(staged&&(!/NOT APPROVED/.test(s.stagingStatus||'')||r.liveCoverSubstituted===true))throw Error(r.buildId+': staged source promoted without render approval');validateCleared(r);}else{const s=r.visualCandidateSearch?.searched||[];if(!s.length||!s.some(c=>nonempty(c.nextStep)||nonempty(c.acquisitionNextStep)))throw Error(r.buildId+': HOLD lacks next route');}if(JSON.stringify(r).match(/"selectedForUse":\s*true|"stagedAssetPath":\s*"|"provenanceSidecarPath":\s*"/))throw Error(r.buildId+': hidden selection/staging');}
- return {records:100,clear:24,hold:76,fallback:100,selected:24,staged:10,uniquePreservedSources:6,canva:0};
+ return {records:100,clear:24,hold:76,fallback:100,selected:24,staged:24,uniquePreservedSources:9,canva:0};
 }
 const got=validate(p);const c0=()=>{const q=structuredClone(p);return[q,q.records.find(r=>r.acquisitionDisposition==='CLEARED-NOT-SUBSTITUTED'),q.records.find(r=>r.acquisitionDisposition==='HOLD')]};
 const mutations=[
