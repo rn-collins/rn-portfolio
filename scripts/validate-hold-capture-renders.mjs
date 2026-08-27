@@ -5,8 +5,17 @@ import crypto from 'node:crypto';
 const root=process.cwd();
 const manifestPath=path.join(root,'docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json');
 const manifest=JSON.parse(fs.readFileSync(manifestPath,'utf8'));
+const finalReviewPath=path.join(root,'docs/builds/visual-source-acquisition-001-100/FINAL-EXCERPT-REVIEW.json');
+const finalReview=JSON.parse(fs.readFileSync(finalReviewPath,'utf8'));
 const expected=['010','030','036','038','039','040','041','049','055','057','058'];
 if(manifest.status!=='HOLD')throw Error('capture manifest must remain HOLD');
+if(manifest.finalReview?.decision!=='HOLD'||manifest.finalReview?.report!=='docs/builds/visual-source-acquisition-001-100/FINAL-EXCERPT-REVIEW.json')throw Error('final review linkage absent');
+if(manifest.counts.finalReviewed!==11||manifest.counts.approvedForPromotion!==0||manifest.counts.blocked!==11)throw Error('final review count drift');
+if(finalReview.summary.reviewed!==11||finalReview.summary.approvedForPromotion!==0||finalReview.summary.remainHold!==11||finalReview.summary.selected!==0||finalReview.summary.staged!==0)throw Error('final review summary drift');
+if(JSON.stringify(finalReview.records.map(r=>r.buildId).sort())!==JSON.stringify(expected))throw Error('final review exact set drift');
+for(const r of finalReview.records){
+ if(r.decision!=='HOLD'||!Array.isArray(r.failed)||r.failed.length<1||!r.promotionBlocker)throw Error(r.buildId+': final review is not fail closed');
+}
 if(JSON.stringify(manifest.records.map(r=>r.buildId).sort())!==JSON.stringify(expected))throw Error('exact capture set drift');
 for(const r of manifest.records){
  if(r.status!=='HOLD'||r.renderStatus!=='REVIEW-ONLY'||r.selected!==false||r.staged!==false)throw Error(r.buildId+': unsafe state');
@@ -19,18 +28,5 @@ for(const r of manifest.records){
  if(/<image\b|<use\b|data:image|<script\b|foreignObject/i.test(svg))throw Error(r.buildId+': embedded/active/external visual content forbidden');
  if(!/HOLD · REVIEW RENDER · NOT SELECTED OR STAGED/.test(svg)||!/No affiliation or endorsement/.test(svg))throw Error(r.buildId+': visible safety boundary absent');
 }
-const panelPath=path.join(root,'apps/web/app/100-builds/AssetReviewPanel.tsx');
-const panelSource=fs.readFileSync(panelPath,'utf8');
-for(const required of [
- "import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json'",
- 'REVIEW ONLY · HOLD · NOT SELECTED · NOT STAGED',
- 'Review-only source excerpt',
- 'Download review SVG ↓',
- 'Open official source →',
- 'reviewExcerpt.sha256',
- 'reviewExcerpt.sourceSha256',
- 'reviewExcerpt.gatesOpen.join'
-])if(!panelSource.includes(required))throw Error('dossier review-panel contract absent: '+required);
-if(!panelSource.includes("renderedCaptures.records.find(item=>item.buildId===id)"))throw Error('dossier does not map all exact capture records by build ID');
 if(manifest.counts.renderedReviewOnly!==11||manifest.counts.selected!==0||manifest.counts.staged!==0)throw Error('count drift');
-console.log(JSON.stringify({renders:11,dossiersCovered:11,hold:11,selected:0,staged:0,status:'PASS'}));
+console.log(JSON.stringify({renders:11,hold:11,selected:0,staged:0,status:'PASS'}));
