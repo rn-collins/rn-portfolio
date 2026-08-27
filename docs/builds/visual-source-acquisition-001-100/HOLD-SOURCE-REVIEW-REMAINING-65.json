@@ -1,0 +1,2959 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-27",
+  "scope": {
+    "total": 65,
+    "excludedExactSourceHoldIds": [
+      "010",
+      "030",
+      "036",
+      "038",
+      "039",
+      "040",
+      "041",
+      "049",
+      "055",
+      "057",
+      "058"
+    ],
+    "rule": "All records remain HOLD. This review manifest does not select, stage, substitute, promote, or authorize Canva generation."
+  },
+  "classifications": {
+    "EXACT_CANDIDATE_FOUND_HOLD": "An exact official asset URL exists but review is incomplete; keep HOLD.",
+    "RIGHTS_BLOCKED": "An exact official asset exists but asset-level reuse authority is unresolved.",
+    "CONTEXTUAL_MISMATCH": "The official source is authoritative but does not visually support the build-specific proposition.",
+    "NO_EXACT_SOURCE": "An official context page was found, but no exact recognizable asset passed identification and fit review."
+  },
+  "counts": {
+    "NO_EXACT_SOURCE": 60,
+    "RIGHTS_BLOCKED": 3,
+    "CONTEXTUAL_MISMATCH": 2
+  },
+  "records": [
+    {
+      "buildId": "014",
+      "title": "The Answer Has Layers",
+      "recognizableEntity": "ABA Model Rules of Professional Conduct",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "exactAssetUrl": null,
+        "issuerCreator": "American Bar Association",
+        "assetDate": "current page; exact publication edition unresolved",
+        "format": "HTML collection / commercial publication",
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": "https://www.americanbar.org/about_the_aba/aba-publication-copyrights/",
+        "decision": "HOLD — no exact downloadable asset with explicit social-reuse authorization was found.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Prospective source credit: American Bar Association; exact asset credit unresolved.",
+        "altText": "Review record for ABA Model Rules of Professional Conduct in relation to Build 014, The Answer Has Layers. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 014; external visual remains on HOLD.",
+        "sourceLink": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "claimBoundary": "Would contextualize professional-conduct source material relevant to Build 014; would not prove RN's legal system, advice quality, compliance or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "015",
+      "title": "From Matter Work to Reusable System",
+      "recognizableEntity": "ABA Model Rules of Professional Conduct",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "exactAssetUrl": null,
+        "issuerCreator": "American Bar Association",
+        "assetDate": "current page; exact publication edition unresolved",
+        "format": "HTML collection / commercial publication",
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": "https://www.americanbar.org/about_the_aba/aba-publication-copyrights/",
+        "decision": "HOLD — no exact downloadable asset with explicit social-reuse authorization was found.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Prospective source credit: American Bar Association; exact asset credit unresolved.",
+        "altText": "Review record for ABA Model Rules of Professional Conduct in relation to Build 015, From Matter Work to Reusable System. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 015; external visual remains on HOLD.",
+        "sourceLink": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "claimBoundary": "Would contextualize professional-conduct source material relevant to Build 015; would not prove RN's legal system, advice quality, compliance or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "016",
+      "title": "The Matter Beneath the Matter",
+      "recognizableEntity": "ABA Model Rules of Professional Conduct",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "exactAssetUrl": null,
+        "issuerCreator": "American Bar Association",
+        "assetDate": "current page; exact publication edition unresolved",
+        "format": "HTML collection / commercial publication",
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": "https://www.americanbar.org/about_the_aba/aba-publication-copyrights/",
+        "decision": "HOLD — no exact downloadable asset with explicit social-reuse authorization was found.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Prospective source credit: American Bar Association; exact asset credit unresolved.",
+        "altText": "Review record for ABA Model Rules of Professional Conduct in relation to Build 016, The Matter Beneath the Matter. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 016; external visual remains on HOLD.",
+        "sourceLink": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "claimBoundary": "Would contextualize professional-conduct source material relevant to Build 016; would not prove RN's legal system, advice quality, compliance or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "023",
+      "title": "Consent That Can Change Its Mind",
+      "recognizableEntity": "Regulation (EU) 2016/679",
+      "classification": "RIGHTS_BLOCKED",
+      "candidate": {
+        "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "exactAssetUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679",
+        "issuerCreator": "European Union / EUR-Lex",
+        "assetDate": "2016-04-27",
+        "format": "PDF, Official Journal text",
+        "immutableVersionUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+        "excluded": "Logos, seals, marks, portraits, unrelated adjacent material, and third-party content.",
+        "status": "SPECIFICATION INCOMPLETE — HOLD"
+      },
+      "rights": {
+        "termsUrl": "https://commission.europa.eu/legal-notice_en",
+        "decision": "HOLD — The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "© European Union. Source: Regulation (EU) 2016/679, EUR-Lex. Reused under CC BY 4.0; crop/change must be indicated.",
+        "altText": "Official Regulation (EU) 2016/679 document or guidance page, selected as contextual evidence for Build 023, Consent That Can Change Its Mind.",
+        "caption": "Official-source context reviewed for Build 023; external visual remains on HOLD.",
+        "sourceLink": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "claimBoundary": "Supports recognition of Regulation (EU) 2016/679 and the limited source context adjacent to Build 023; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "024",
+      "title": "The Best Data Risk Is Data Never Collected",
+      "recognizableEntity": "Regulation (EU) 2016/679",
+      "classification": "RIGHTS_BLOCKED",
+      "candidate": {
+        "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "exactAssetUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679",
+        "issuerCreator": "European Union / EUR-Lex",
+        "assetDate": "2016-04-27",
+        "format": "PDF, Official Journal text",
+        "immutableVersionUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+        "excluded": "Logos, seals, marks, portraits, unrelated adjacent material, and third-party content.",
+        "status": "SPECIFICATION INCOMPLETE — HOLD"
+      },
+      "rights": {
+        "termsUrl": "https://commission.europa.eu/legal-notice_en",
+        "decision": "HOLD — The exact EUR-Lex PDF endpoint could not be independently decoded during audit, and the recorded European Commission legal notice governs a different host/service. Asset-specific Official Journal/EUR-Lex reuse terms were not verified.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "© European Union. Source: Regulation (EU) 2016/679, EUR-Lex. Reused under CC BY 4.0; crop/change must be indicated.",
+        "altText": "Official Regulation (EU) 2016/679 document or guidance page, selected as contextual evidence for Build 024, The Best Data Risk Is Data Never Collected.",
+        "caption": "Official-source context reviewed for Build 024; external visual remains on HOLD.",
+        "sourceLink": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "claimBoundary": "Supports recognition of Regulation (EU) 2016/679 and the limited source context adjacent to Build 024; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "027",
+      "title": "Ownership Exposure Board",
+      "recognizableEntity": "Copyright Basics, Circular 1",
+      "classification": "RIGHTS_BLOCKED",
+      "candidate": {
+        "sourcePageUrl": "https://www.copyright.gov/circs/",
+        "exactAssetUrl": "https://www.copyright.gov/circs/circ01.pdf",
+        "issuerCreator": "United States Copyright Office",
+        "assetDate": "current Circular 1 edition; verify PDF revision date before use",
+        "format": "PDF",
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": "Do not publish the cover/page crop until the Office confirms reuse terms or a documented statutory/public-domain basis is approved; exclude seal and marks.",
+        "excluded": "Logos, seals, marks, portraits, unrelated adjacent material, and third-party content.",
+        "status": "SPECIFICATION INCOMPLETE — HOLD"
+      },
+      "rights": {
+        "termsUrl": "https://copyright.gov/about/ip-dmca.html",
+        "decision": "HOLD — exact file acquired, but affirmative asset-level permission for the designed cover/page crop was not established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Prospective credit: U.S. Copyright Office, Copyright Basics, Circular 1; final edition/date credit required.",
+        "altText": "Official U.S. Copyright Office Copyright Basics, Circular 1 PDF cover.",
+        "caption": "Official-source context reviewed for Build 027; external visual remains on HOLD.",
+        "sourceLink": "https://www.copyright.gov/circs/",
+        "claimBoundary": "Supports recognition of the Copyright Office circular and copyright-basics context; does not establish ownership, registration, infringement, legal advice or RN product outcomes."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic poster predates this audit and remains the only cleared fallback until an external asset is explicitly authorized."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "033",
+      "title": "Attack Graph",
+      "recognizableEntity": "NIST AI Risk Management Framework 1.0",
+      "classification": "CONTEXTUAL_MISMATCH",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": "2023-01-26",
+        "format": "PDF",
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+        "excluded": "Logos, seals, marks, portraits, unrelated adjacent material, and third-party content.",
+        "status": "SPECIFICATION INCOMPLETE — HOLD"
+      },
+      "rights": {
+        "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications",
+        "decision": "HOLD — NIST AI RMF 1.0 is reusable and broadly relevant to AI security, but it does not specifically support an Attack Graph as the recognizable visual. Generic framework context is insufficient for selection.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+        "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 033, Attack Graph.",
+        "caption": "Official-source context reviewed for Build 033; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 033; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "034",
+      "title": "Incident Replay Graph",
+      "recognizableEntity": "NIST SP 800-61 Rev. 3",
+      "classification": "CONTEXTUAL_MISMATCH",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+        "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": "2025-04",
+        "format": "PDF",
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+        "excluded": "Logos, seals, marks, portraits, unrelated adjacent material, and third-party content.",
+        "status": "SPECIFICATION INCOMPLETE — HOLD"
+      },
+      "rights": {
+        "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications",
+        "decision": "HOLD — NIST SP 800-61 Rev. 3 is reusable and relevant to incident response, but it does not specifically support an Incident Replay Graph as the recognizable visual. Generic incident-response context is insufficient for selection.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
+        "altText": "Official NIST SP 800-61 Rev. 3 document or guidance page, selected as contextual evidence for Build 034, Incident Replay Graph.",
+        "caption": "Official-source context reviewed for Build 034; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.SP.800-61r3",
+        "claimBoundary": "Supports recognition of NIST SP 800-61 Rev. 3 and the limited source context adjacent to Build 034; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "035",
+      "title": "An export button is not an exit",
+      "recognizableEntity": "European Union / EUR-Lex",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "exactAssetUrl": null,
+        "issuerCreator": "European Union / EUR-Lex",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: European Union / EUR-Lex; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for European Union / EUR-Lex in relation to Build 035, An export button is not an exit. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 035; external visual remains on HOLD.",
+        "sourceLink": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "037",
+      "title": "Feedback is a signal, not a command",
+      "recognizableEntity": "National Institute of Standards and Technology",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: National Institute of Standards and Technology; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for National Institute of Standards and Technology in relation to Build 037, Feedback is a signal, not a command. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 037; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "042",
+      "title": "A prompt is not a job description",
+      "recognizableEntity": "National Institute of Standards and Technology",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: National Institute of Standards and Technology; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for National Institute of Standards and Technology in relation to Build 042, A prompt is not a job description. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 042; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "043",
+      "title": "More agents create more handoffs",
+      "recognizableEntity": "National Institute of Standards and Technology",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: National Institute of Standards and Technology; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for National Institute of Standards and Technology in relation to Build 043, More agents create more handoffs. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 043; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "044",
+      "title": "Requirements are not copy-paste blocks",
+      "recognizableEntity": "European Union / EUR-Lex",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "exactAssetUrl": null,
+        "issuerCreator": "European Union / EUR-Lex",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: European Union / EUR-Lex; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for European Union / EUR-Lex in relation to Build 044, Requirements are not copy-paste blocks. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 044; external visual remains on HOLD.",
+        "sourceLink": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "045",
+      "title": "Availability is not access",
+      "recognizableEntity": "Hawai‘i State Department of Health",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+        "exactAssetUrl": null,
+        "issuerCreator": "Hawai‘i State Department of Health",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Hawai‘i State Department of Health; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Hawai‘i State Department of Health in relation to Build 045, Availability is not access. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 045; external visual remains on HOLD.",
+        "sourceLink": "https://health.hawaii.gov/medicalcannabis/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "046",
+      "title": "Essential systems cross the shore",
+      "recognizableEntity": "Federal Emergency Management Agency",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Emergency Management Agency",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Federal Emergency Management Agency; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Federal Emergency Management Agency in relation to Build 046, Essential systems cross the shore. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 046; external visual remains on HOLD.",
+        "sourceLink": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "047",
+      "title": "A good idea is not context-free",
+      "recognizableEntity": "Centers for Disease Control and Prevention",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.cdc.gov/evaluation/php/evaluation-framework/index.html",
+        "exactAssetUrl": null,
+        "issuerCreator": "Centers for Disease Control and Prevention",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Centers for Disease Control and Prevention; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Centers for Disease Control and Prevention in relation to Build 047, A good idea is not context-free. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 047; external visual remains on HOLD.",
+        "sourceLink": "https://www.cdc.gov/evaluation/php/evaluation-framework/index.html",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "048",
+      "title": "The rule and journey differ",
+      "recognizableEntity": "Hawai‘i State Department of Health",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+        "exactAssetUrl": null,
+        "issuerCreator": "Hawai‘i State Department of Health",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Hawai‘i State Department of Health; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Hawai‘i State Department of Health in relation to Build 048, The rule and journey differ. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 048; external visual remains on HOLD.",
+        "sourceLink": "https://health.hawaii.gov/medicalcannabis/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "050",
+      "title": "Environment Assumption & Tradeoff Explorer",
+      "recognizableEntity": "CDC / NIOSH",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.cdc.gov/niosh/noise/about/index.html",
+        "exactAssetUrl": null,
+        "issuerCreator": "CDC / NIOSH",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: CDC / NIOSH; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for CDC / NIOSH in relation to Build 050, Environment Assumption & Tradeoff Explorer. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 050; external visual remains on HOLD.",
+        "sourceLink": "https://www.cdc.gov/niosh/noise/about/index.html",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "051",
+      "title": "Adaptive Cannabis Source Navigator",
+      "recognizableEntity": "U.S. Food and Drug Administration + Centers for Disease Control and Prevention + Hawai‘i State Department of Health",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Food and Drug Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. Food and Drug Administration; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. Food and Drug Administration + Centers for Disease Control and Prevention + Hawai‘i State Department of Health in relation to Build 051, Adaptive Cannabis Source Navigator. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 051; external visual remains on HOLD.",
+        "sourceLink": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "052",
+      "title": "Synthetic Cannabis Comparison Literacy",
+      "recognizableEntity": "U.S. Food and Drug Administration + Centers for Disease Control and Prevention + Hawai‘i State Department of Health",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Food and Drug Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. Food and Drug Administration; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. Food and Drug Administration + Centers for Disease Control and Prevention + Hawai‘i State Department of Health in relation to Build 052, Synthetic Cannabis Comparison Literacy. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 052; external visual remains on HOLD.",
+        "sourceLink": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "053",
+      "title": "Run a Tiny Experiment",
+      "recognizableEntity": "U.S. National Library of Medicine",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://clinicaltrials.gov/",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. National Library of Medicine",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. National Library of Medicine; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. National Library of Medicine in relation to Build 053, Run a Tiny Experiment. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 053; external visual remains on HOLD.",
+        "sourceLink": "https://clinicaltrials.gov/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "054",
+      "title": "Make the Space Adapt to the Person",
+      "recognizableEntity": "National Institute of Standards and Technology",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: National Institute of Standards and Technology; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for National Institute of Standards and Technology in relation to Build 054, Make the Space Adapt to the Person. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 054; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.CSWP.01162020",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "056",
+      "title": "What Do You Actually Own?",
+      "recognizableEntity": "U.S. Patent and Trademark Office + U.S. Copyright Office",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.uspto.gov/",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Patent and Trademark Office",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. Patent and Trademark Office; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. Patent and Trademark Office + U.S. Copyright Office in relation to Build 056, What Do You Actually Own?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 056; external visual remains on HOLD.",
+        "sourceLink": "https://www.uspto.gov/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "059",
+      "title": "Verify the Legal Citation",
+      "recognizableEntity": "Supreme Court of the United States + Library of Congress",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.supremecourt.gov/opinions/opinions.aspx",
+        "exactAssetUrl": null,
+        "issuerCreator": "Supreme Court of the United States",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Supreme Court of the United States; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Supreme Court of the United States + Library of Congress in relation to Build 059, Verify the Legal Citation. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 059; external visual remains on HOLD.",
+        "sourceLink": "https://www.supremecourt.gov/opinions/opinions.aspx",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "060",
+      "title": "Catch the IP Before It Disappears",
+      "recognizableEntity": "U.S. Patent and Trademark Office + U.S. Copyright Office",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.uspto.gov/",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Patent and Trademark Office",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. Patent and Trademark Office; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. Patent and Trademark Office + U.S. Copyright Office in relation to Build 060, Catch the IP Before It Disappears. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 060; external visual remains on HOLD.",
+        "sourceLink": "https://www.uspto.gov/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "061",
+      "title": "Why Did We Decide That?",
+      "recognizableEntity": "U.S. National Archives and Records Administration",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.archives.gov/records-mgmt",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. National Archives and Records Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. National Archives and Records Administration; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. National Archives and Records Administration in relation to Build 061, Why Did We Decide That?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 061; external visual remains on HOLD.",
+        "sourceLink": "https://www.archives.gov/records-mgmt",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "062",
+      "title": "The Interview Is More Than a Transcript",
+      "recognizableEntity": "Library of Congress",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.loc.gov/collections/veterans-history-project-collection/about-this-collection/",
+        "exactAssetUrl": null,
+        "issuerCreator": "Library of Congress",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Library of Congress; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Library of Congress in relation to Build 062, The Interview Is More Than a Transcript. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 062; external visual remains on HOLD.",
+        "sourceLink": "https://www.loc.gov/collections/veterans-history-project-collection/about-this-collection/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "063",
+      "title": "Research That Does Not Die in a Folder",
+      "recognizableEntity": "U.S. National Library of Medicine",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. National Library of Medicine",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. National Library of Medicine; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. National Library of Medicine in relation to Build 063, Research That Does Not Die in a Folder. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 063; external visual remains on HOLD.",
+        "sourceLink": "https://pubmed.ncbi.nlm.nih.gov/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "064",
+      "title": "An Industry With Amnesia",
+      "recognizableEntity": "Hawai‘i State Department of Health",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+        "exactAssetUrl": null,
+        "issuerCreator": "Hawai‘i State Department of Health",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: Hawai‘i State Department of Health; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for Hawai‘i State Department of Health in relation to Build 064, An Industry With Amnesia. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 064; external visual remains on HOLD.",
+        "sourceLink": "https://health.hawaii.gov/medicalcannabis/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "065",
+      "title": "Fictional Psychedelic Pathway Record",
+      "recognizableEntity": "U.S. Food and Drug Administration",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/psychedelic-drugs-considerations-clinical-investigations",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Food and Drug Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: U.S. Food and Drug Administration; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for U.S. Food and Drug Administration in relation to Build 065, Fictional Psychedelic Pathway Record. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 065; external visual remains on HOLD.",
+        "sourceLink": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/psychedelic-drugs-considerations-clinical-investigations",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "066",
+      "title": "The Firm Knows More Than Its Folders",
+      "recognizableEntity": "American Bar Association",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "exactAssetUrl": null,
+        "issuerCreator": "American Bar Association",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: American Bar Association; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for American Bar Association in relation to Build 066, The Firm Knows More Than Its Folders. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 066; external visual remains on HOLD.",
+        "sourceLink": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "067",
+      "title": "A Digital Twin Begins With Gaps",
+      "recognizableEntity": "National Institute of Standards and Technology",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Source-page issuer: National Institute of Standards and Technology; asset credit unresolved because no asset is selected.",
+        "altText": "Review record for National Institute of Standards and Technology in relation to Build 067, A Digital Twin Begins With Gaps. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 067; external visual remains on HOLD.",
+        "sourceLink": "https://doi.org/10.6028/NIST.CSWP.01162020",
+        "claimBoundary": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement."
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "068",
+      "title": "From Knowing You to Acting for You",
+      "recognizableEntity": "NIST AI Risk Management Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for NIST AI Risk Management Framework in relation to Build 068, From Knowing You to Acting for You. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 068; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "claimBoundary": "AI system governance and human oversight context"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "069",
+      "title": "Enacted Is Not Implemented",
+      "recognizableEntity": "Federal Register Document Drafting Handbook",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.archives.gov/federal-register/write/handbook",
+        "exactAssetUrl": null,
+        "issuerCreator": "Office of the Federal Register",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Office of the Federal Register; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for Federal Register Document Drafting Handbook in relation to Build 069, Enacted Is Not Implemented. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 069; external visual remains on HOLD.",
+        "sourceLink": "https://www.archives.gov/federal-register/write/handbook",
+        "claimBoundary": "Federal rulemaking publication and implementation context"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "070",
+      "title": "Legalization Is a Lifecycle, Not a Vote",
+      "recognizableEntity": "The Federal Rulemaking Process",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Register / National Archives",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Federal Register / National Archives; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for The Federal Rulemaking Process in relation to Build 070, Legalization Is a Lifecycle, Not a Vote. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 070; external visual remains on HOLD.",
+        "sourceLink": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "claimBoundary": "Rulemaking lifecycle context; not evidence of any jurisdiction’s legalization outcome"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "071",
+      "title": "Fictional Medical-Cannabis Access Gates",
+      "recognizableEntity": "Medical Cannabis Registry Program",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+        "exactAssetUrl": null,
+        "issuerCreator": "Hawai‘i Department of Health",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Hawai‘i Department of Health; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for Medical Cannabis Registry Program in relation to Build 071, Fictional Medical-Cannabis Access Gates. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 071; external visual remains on HOLD.",
+        "sourceLink": "https://health.hawaii.gov/medicalcannabis/",
+        "claimBoundary": "Real program context only; build records and gates remain explicitly fictional/synthetic"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "072",
+      "title": "Fictional Island Access Comparison",
+      "recognizableEntity": "Supply Chain Resilience Guide",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Emergency Management Agency",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Federal Emergency Management Agency; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for Supply Chain Resilience Guide in relation to Build 072, Fictional Island Access Comparison. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 072; external visual remains on HOLD.",
+        "sourceLink": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+        "claimBoundary": "Resilience-planning context only; fictional island comparison is RN synthesis"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "073",
+      "title": "Access for Whom?",
+      "recognizableEntity": "CDC Program Evaluation Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+        "exactAssetUrl": null,
+        "issuerCreator": "Centers for Disease Control and Prevention",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Centers for Disease Control and Prevention; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for CDC Program Evaluation Framework in relation to Build 073, Access for Whom?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 073; external visual remains on HOLD.",
+        "sourceLink": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+        "claimBoundary": "Stakeholder and context evaluation; not proof of equitable access"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "074",
+      "title": "The Law Says Yes. The System Says Not Yet.",
+      "recognizableEntity": "The Federal Rulemaking Process",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Register / National Archives",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Federal Register / National Archives; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for The Federal Rulemaking Process in relation to Build 074, The Law Says Yes. The System Says Not Yet.. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 074; external visual remains on HOLD.",
+        "sourceLink": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "claimBoundary": "Formal rulemaking stages; not proof of a specific implementation gap"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "075",
+      "title": "Same Goal, Different Regulatory Machine",
+      "recognizableEntity": "Regulations.gov About",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.regulations.gov/about",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. General Services Administration / eRulemaking Program",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: U.S. General Services Administration / eRulemaking Program; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for Regulations.gov About in relation to Build 075, Same Goal, Different Regulatory Machine. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 075; external visual remains on HOLD.",
+        "sourceLink": "https://www.regulations.gov/about",
+        "claimBoundary": "Regulatory-system comparison context; does not establish equivalence or outcomes"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "076",
+      "title": "The Map That Knows the Difference Between Similar Laws",
+      "recognizableEntity": "Congress.gov Legislation Help",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.congress.gov/help/legislation",
+        "exactAssetUrl": null,
+        "issuerCreator": "Library of Congress",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Library of Congress; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for Congress.gov Legislation Help in relation to Build 076, The Map That Knows the Difference Between Similar Laws. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 076; external visual remains on HOLD.",
+        "sourceLink": "https://www.congress.gov/help/legislation",
+        "claimBoundary": "Legislative metadata and status context; map and comparisons remain RN synthesis"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "077",
+      "title": "What Does This Change Actually Do?",
+      "recognizableEntity": "The Federal Rulemaking Process",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Register / National Archives",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Federal Register / National Archives; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for The Federal Rulemaking Process in relation to Build 077, What Does This Change Actually Do?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 077; external visual remains on HOLD.",
+        "sourceLink": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "claimBoundary": "Rule-change mechanism context; not evidence of predicted effects"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "078",
+      "title": "Evidence Does Not Travel Intact by Accident",
+      "recognizableEntity": "PubMed User Guide",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://pubmed.ncbi.nlm.nih.gov/help/",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Library of Medicine",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Library of Medicine; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for PubMed User Guide in relation to Build 078, Evidence Does Not Travel Intact by Accident. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 078; external visual remains on HOLD.",
+        "sourceLink": "https://pubmed.ncbi.nlm.nih.gov/help/",
+        "claimBoundary": "Bibliographic retrieval context; not proof that interpretation remains intact"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "079",
+      "title": "A Search Result Is Not an Evidence Map",
+      "recognizableEntity": "PubMed User Guide",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://pubmed.ncbi.nlm.nih.gov/help/",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Library of Medicine",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Library of Medicine; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for PubMed User Guide in relation to Build 079, A Search Result Is Not an Evidence Map. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 079; external visual remains on HOLD.",
+        "sourceLink": "https://pubmed.ncbi.nlm.nih.gov/help/",
+        "claimBoundary": "Search and record structure context; evidence-map design is RN synthesis"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "080",
+      "title": "The Article Was Only the First Output",
+      "recognizableEntity": "U.S. Web Design System documentation",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://designsystem.digital.gov/",
+        "exactAssetUrl": null,
+        "issuerCreator": "General Services Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: General Services Administration; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for U.S. Web Design System documentation in relation to Build 080, The Article Was Only the First Output. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 080; external visual remains on HOLD.",
+        "sourceLink": "https://designsystem.digital.gov/",
+        "claimBoundary": "Public-service publishing context; not proof of distribution performance"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "081",
+      "title": "What Might People Be Struggling With?",
+      "recognizableEntity": "CDC Program Evaluation Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+        "exactAssetUrl": null,
+        "issuerCreator": "Centers for Disease Control and Prevention",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Centers for Disease Control and Prevention; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for CDC Program Evaluation Framework in relation to Build 081, What Might People Be Struggling With?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 081; external visual remains on HOLD.",
+        "sourceLink": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+        "claimBoundary": "Stakeholder inquiry context; portrayed needs remain synthetic and not community testimony"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "082",
+      "title": "An Audience Is Not a Demographic Box",
+      "recognizableEntity": "About the Census Bureau",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.census.gov/about.html",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Census Bureau",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: U.S. Census Bureau; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for About the Census Bureau in relation to Build 082, An Audience Is Not a Demographic Box. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 082; external visual remains on HOLD.",
+        "sourceLink": "https://www.census.gov/about.html",
+        "claimBoundary": "Population-statistics context; audience strategy and personas remain RN synthesis"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "083",
+      "title": "Your Work Is Already Full of Content",
+      "recognizableEntity": "NIST Privacy Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; asset credit unresolved because no external asset is selected.",
+        "altText": "Review record for NIST Privacy Framework in relation to Build 083, Your Work Is Already Full of Content. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 083; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/privacy-framework",
+        "claimBoundary": "Privacy-risk context for reusing work artifacts; not proof that any content is publication-ready"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed the item-level rights gate; the RN-owned typographic cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "084",
+      "title": "Who Created the Value—and Who Gets It?",
+      "recognizableEntity": "U.S. Copyright Office",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.copyright.gov/what-is-copyright/",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Copyright Office",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: U.S. Copyright Office; no asset credit because none selected.",
+        "altText": "Review record for U.S. Copyright Office in relation to Build 084, Who Created the Value—and Who Gets It?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 084; external visual remains on HOLD.",
+        "sourceLink": "https://www.copyright.gov/what-is-copyright/",
+        "claimBoundary": "Authorship and rights context; not proof of contribution or allocation"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "085",
+      "title": "Who Is Shaping This Decision?",
+      "recognizableEntity": "Federal Register notice-and-comment process",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "exactAssetUrl": null,
+        "issuerCreator": "Office of the Federal Register",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Office of the Federal Register; no asset credit because none selected.",
+        "altText": "Review record for Federal Register notice-and-comment process in relation to Build 085, Who Is Shaping This Decision?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 085; external visual remains on HOLD.",
+        "sourceLink": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+        "claimBoundary": "Participation context; not proof of influence or representation"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "086",
+      "title": "Use the Post as a Prototype",
+      "recognizableEntity": "U.S. Web Design System",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://designsystem.digital.gov/",
+        "exactAssetUrl": null,
+        "issuerCreator": "General Services Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: General Services Administration; no asset credit because none selected.",
+        "altText": "Review record for U.S. Web Design System in relation to Build 086, Use the Post as a Prototype. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 086; external visual remains on HOLD.",
+        "sourceLink": "https://designsystem.digital.gov/",
+        "claimBoundary": "Prototype and public-service design context; not performance evidence"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "087",
+      "title": "Build Your Own Media System",
+      "recognizableEntity": "Digital.gov content guide",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://digital.gov/resources/",
+        "exactAssetUrl": null,
+        "issuerCreator": "General Services Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: General Services Administration; no asset credit because none selected.",
+        "altText": "Review record for Digital.gov content guide in relation to Build 087, Build Your Own Media System. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 087; external visual remains on HOLD.",
+        "sourceLink": "https://digital.gov/resources/",
+        "claimBoundary": "Media-system context; RN workflow remains a design proposition"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "088",
+      "title": "Your Network Is Not a Contact List",
+      "recognizableEntity": "LinkedIn data portability context",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://consumer.ftc.gov/articles/how-protect-your-privacy-apps",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Trade Commission",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Federal Trade Commission; no asset credit because none selected.",
+        "altText": "Review record for LinkedIn data portability context in relation to Build 088, Your Network Is Not a Contact List. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 088; external visual remains on HOLD.",
+        "sourceLink": "https://consumer.ftc.gov/articles/how-protect-your-privacy-apps",
+        "claimBoundary": "Privacy context; no platform endorsement or network-value proof"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "089",
+      "title": "Stop Being the Only Database in Your Company",
+      "recognizableEntity": "NIST data integrity guidance",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST data integrity guidance in relation to Build 089, Stop Being the Only Database in Your Company. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 089; external visual remains on HOLD.",
+        "sourceLink": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+        "claimBoundary": "Data-integrity context; not proof of organizational outcomes"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "090",
+      "title": "Build a Research Team of AI Agents That Can Show Their Work",
+      "recognizableEntity": "NIST AI Risk Management Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST AI Risk Management Framework in relation to Build 090, Build a Research Team of AI Agents That Can Show Their Work. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 090; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "claimBoundary": "Traceable AI-risk context; agent team remains RN prototype"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "091",
+      "title": "What Is This AI Allowed to Remember?",
+      "recognizableEntity": "NIST Privacy Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST Privacy Framework in relation to Build 091, What Is This AI Allowed to Remember?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 091; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/privacy-framework",
+        "claimBoundary": "Privacy-risk context; not proof of memory safety"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "092",
+      "title": "Rehearse Work Across People, AI and Software",
+      "recognizableEntity": "NIST AI Risk Management Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST AI Risk Management Framework in relation to Build 092, Rehearse Work Across People, AI and Software. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 092; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/itl/ai-risk-management-framework",
+        "claimBoundary": "Human-AI governance context; workflow is synthetic rehearsal"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "093",
+      "title": "Fictional Regulated-Workflow Rehearsal",
+      "recognizableEntity": "FDA Quality Systems guidance",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Food and Drug Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: U.S. Food and Drug Administration; no asset credit because none selected.",
+        "altText": "Review record for FDA Quality Systems guidance in relation to Build 093, Fictional Regulated-Workflow Rehearsal. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 093; external visual remains on HOLD.",
+        "sourceLink": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations",
+        "claimBoundary": "Regulated-workflow context only; scenario remains fictional"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "094",
+      "title": "Inspect a Fictional Evidence Chain",
+      "recognizableEntity": "NIST data integrity guidance",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST data integrity guidance in relation to Build 094, Inspect a Fictional Evidence Chain. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 094; external visual remains on HOLD.",
+        "sourceLink": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+        "claimBoundary": "Integrity/provenance context; evidence chain remains fictional"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "095",
+      "title": "Institutional Conditions Observatory",
+      "recognizableEntity": "Federal Register official document system",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.federalregister.gov/reader-aids/understanding-the-federal-register",
+        "exactAssetUrl": null,
+        "issuerCreator": "Office of the Federal Register",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Office of the Federal Register; no asset credit because none selected.",
+        "altText": "Review record for Federal Register official document system in relation to Build 095, Institutional Conditions Observatory. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 095; external visual remains on HOLD.",
+        "sourceLink": "https://www.federalregister.gov/reader-aids/understanding-the-federal-register",
+        "claimBoundary": "Institutional-condition context; observatory is RN synthesis"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "096",
+      "title": "Learn From Cannabis Experience Without Reducing People to Labels",
+      "recognizableEntity": "CDC Principles of Community Engagement",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.atsdr.cdc.gov/community-engagement-playbook/php/about/index.html",
+        "exactAssetUrl": null,
+        "issuerCreator": "Centers for Disease Control and Prevention",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Centers for Disease Control and Prevention; no asset credit because none selected.",
+        "altText": "Review record for CDC Principles of Community Engagement in relation to Build 096, Learn From Cannabis Experience Without Reducing People to Labels. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 096; external visual remains on HOLD.",
+        "sourceLink": "https://www.atsdr.cdc.gov/community-engagement-playbook/php/about/index.html",
+        "claimBoundary": "Engagement context; no lived-experience representation or community authority"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "097",
+      "title": "Can Personalization Respect the Off Switch?",
+      "recognizableEntity": "NIST Privacy Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST Privacy Framework in relation to Build 097, Can Personalization Respect the Off Switch?. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 097; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/privacy-framework",
+        "claimBoundary": "Privacy-control context; not proof that personalization respects withdrawal"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "098",
+      "title": "Psychedelic Administrative Handoff Rehearsal",
+      "recognizableEntity": "FDA drug development process",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fda.gov/patients/drug-development-process/step-5-fda-post-market-drug-safety-monitoring",
+        "exactAssetUrl": null,
+        "issuerCreator": "U.S. Food and Drug Administration",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: U.S. Food and Drug Administration; no asset credit because none selected.",
+        "altText": "Review record for FDA drug development process in relation to Build 098, Psychedelic Administrative Handoff Rehearsal. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 098; external visual remains on HOLD.",
+        "sourceLink": "https://www.fda.gov/patients/drug-development-process/step-5-fda-post-market-drug-safety-monitoring",
+        "claimBoundary": "Administrative handoff context only; psychedelic scenario is fictional and nonclinical"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "099",
+      "title": "Fictional Archipelago Data Commons",
+      "recognizableEntity": "NIST Privacy Framework",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+        "exactAssetUrl": null,
+        "issuerCreator": "National Institute of Standards and Technology",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: National Institute of Standards and Technology; no asset credit because none selected.",
+        "altText": "Review record for NIST Privacy Framework in relation to Build 099, Fictional Archipelago Data Commons. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 099; external visual remains on HOLD.",
+        "sourceLink": "https://www.nist.gov/privacy-framework",
+        "claimBoundary": "Data-governance context; archipelago and commons are fictional"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    },
+    {
+      "buildId": "100",
+      "title": "Island Resilience Scenario & Decision Room",
+      "recognizableEntity": "FEMA Supply Chain Resilience Guide",
+      "classification": "NO_EXACT_SOURCE",
+      "candidate": {
+        "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+        "exactAssetUrl": null,
+        "issuerCreator": "Federal Emergency Management Agency",
+        "assetDate": null,
+        "format": null,
+        "immutableVersionUrl": null,
+        "sha256": null,
+        "fetched": false
+      },
+      "capture": {
+        "pageOrSelector": null,
+        "cropBoundary": null,
+        "excluded": null,
+        "status": "NOT APPLICABLE — NO EXACT ASSET"
+      },
+      "rights": {
+        "termsUrl": null,
+        "decision": "HOLD — NOT CLEARED",
+        "status": "HOLD"
+      },
+      "reviewCopy": {
+        "attribution": "Context source: Federal Emergency Management Agency; no asset credit because none selected.",
+        "altText": "Review record for FEMA Supply Chain Resilience Guide in relation to Build 100, Island Resilience Scenario & Decision Room. No external asset is selected or staged.",
+        "caption": "Official-source context reviewed for Build 100; external visual remains on HOLD.",
+        "sourceLink": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+        "claimBoundary": "Resilience-planning context; island scenario and decisions remain synthetic"
+      },
+      "fallback": {
+        "decision": "RETAIN_RN_ORIGINAL",
+        "reason": "No external asset passed item-level rights review; RN-owned cover remains release-eligible."
+      },
+      "controls": {
+        "externalSelected": false,
+        "externalStaged": false,
+        "liveCoverSubstituted": false,
+        "canvaGenerated": false,
+        "promotionAuthorized": false
+      }
+    }
+  ]
+}
