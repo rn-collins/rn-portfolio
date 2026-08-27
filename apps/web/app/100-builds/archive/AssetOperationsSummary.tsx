@@ -59,6 +59,11 @@ export default function AssetOperationsSummary(){
    <div><dt>Live substitutions</dt><dd>{substituted}</dd></div>
   </dl>
   <p className={s.reviewFinding}><b>Capture-review disposition:</b> {renderedCaptures.finalReview.reason}</p>
+  <section className={s.reviewFinding} aria-labelledby="canva-package-heading">
+   <h3 id="canva-package-heading">Canva-ready 100-cover distribution</h3>
+   <p>The deterministic handoff contains the current cover decision for every build: 26 live official source-context covers and 74 RN-owned covers. It includes one metadata sidecar per cover, a CSV/JSON inventory, credits, alt text, captions, source and rollback links, claim and no-endorsement boundaries, checksums, and import instructions. Packaging does not change any canonical cover decision.</p>
+   <p><a href="/100-builds/canva-package/rn-100-builds-canva-ready.zip" download>DOWNLOAD 100-COVER ZIP ↓</a> · <a href="/100-builds/canva-package/inventory.json">JSON INVENTORY →</a> · <a href="/100-builds/canva-package/inventory.csv" download>CSV INVENTORY ↓</a> · <a href="/100-builds/canva-package/README.md">IMPORT INSTRUCTIONS →</a> · <a href="/100-builds/canva-package/PACKAGE-CHECKSUMS.json">PACKAGE CHECKSUM →</a></p>
+  </section>
   <div className={s.tableWrap} tabIndex={0} role="region" aria-label="Asset status for all 100 builds">
    <table className={s.assetTable}>
     <caption>Canonical visual-asset state by build. Open a dossier for previews, exact sources, downloads, integrity records and review gates.</caption>
