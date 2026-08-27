@@ -3231,25 +3231,25 @@
         "searched": [
           {
             "label": "Service Workers specification",
-            "sourcePageUrl": "https://www.w3.org/TR/service-workers/",
-            "exactAssetUrl": null,
+            "sourcePageUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
+            "exactAssetUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
-            "credit": "Source-page issuer: W3C; asset credit unresolved because no asset is selected.",
+            "credit": "Service Workers 1, W3C Candidate Recommendation Snapshot, 19 November 2019, https://www.w3.org/TR/2019/CR-service-workers-1-20191119/. Copyright © W3C; reproduced subject to the applicable W3C Software and Document License notice.",
             "altText": null,
             "orientation": null,
             "dimensions": {
               "width": null,
               "height": null
             },
-            "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
-            "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
+            "cropGuidance": "Use only a faithful text excerpt covering offline/background-processing behavior. Exclude W3C logo and marks, navigation, editor details, code/figures unless separately cleared, and browser chrome. Do not recolor, rewrite or modify source content.",
+            "claimToVisualSupport": "The excerpt supports only that this 2019 W3C Candidate Recommendation Snapshot documents service-worker behavior capable of supporting offline content and background processing. It does not establish final Recommendation status, current completeness, product safety, preservation, recovery, performance, compliance, endorsement or Build 036 outcomes.",
+            "decision": "HOLD — immutable-source blocker resolved; retain creator-owned fallback until exact excerpt capture, notice, attribution, alt text and visual review pass.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://www.w3.org/TR/service-workers/",
-            "rightsStatement": "not cleared for reuse",
-            "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+            "sourceLocator": "Immutable W3C Service Workers 1 Candidate Recommendation Snapshot, 19 November 2019, at https://www.w3.org/TR/2019/CR-service-workers-1-20191119/; publication history at https://www.w3.org/standards/history/service-workers/; governing software/document license notice must remain user-viewable.",
+            "rightsStatement": "The immutable W3C Candidate Recommendation Snapshot links W3C software/document terms permitting copying and distribution, including portions, subject to preservation of the full applicable notice, pre-existing notices and terms, source URI/status, and modification disclosures where applicable. W3C trademark and publicity restrictions remain separate.",
+            "permissionDecision": "HOLD — immutable official snapshot and reuse route are identified, but no exact rendered excerpt, full user-viewable license notice, dimensions, alt text or final no-logo visual review has been completed.",
             "orientationDimensions": {
               "orientation": null,
               "width": null,
@@ -3259,7 +3259,7 @@
             "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 036.",
             "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
             "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected.",
-            "nextStep": "Request or locate an item-level official asset record with explicit rights metadata; separately review trademarks, seals, identifiable people, privacy/publicity, third-party components and endorsement risk before selection.",
+            "nextStep": "Render a faithful excerpt from the immutable 2019 Candidate Recommendation Snapshot at the recorded viewport, attach the full applicable W3C license notice in a user-viewable credits surface, exclude W3C marks, record dimensions/hash/alt, and complete final visual review.",
             "sourceContextPage": "https://www.w3.org/TR/service-workers/",
             "assetDateVersion": "Living W3C source; rights page accessed 2026-08-23",
             "rightsTermsUrl": "https://www.w3.org/copyright/",
@@ -3301,7 +3301,10 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2019-11-19",
+            "assetFormat": "HTML technical report",
+            "termsUrl": "https://www.w3.org/copyright/software-license-2023/"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
