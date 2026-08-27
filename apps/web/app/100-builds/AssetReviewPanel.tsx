@@ -1,14 +1,14 @@
-import packages from '../../../../../docs/builds/visual-source-acquisition-001-100/packages.json';
+import packages from '../../../../docs/builds/visual-source-acquisition-001-100/packages.json';
 
 type Candidate={
-  sourcePageUrl?:string;
+  sourcePageUrl:string;
   exactAssetUrl?:string;
-  credit?:string;
-  altText?:string;
+  credit:string;
+  altText:string;
   orientationDimensions?:{orientation?:string;width?:number;height?:number;note?:string};
-  cropGuidance?:string;
-  claimToVisualSupport?:string;
-  permissionDecision?:string;
+  cropGuidance:string;
+  claimToVisualSupport:string;
+  permissionDecision:string;
 };
 type AssetRecord={
   buildId:string;
