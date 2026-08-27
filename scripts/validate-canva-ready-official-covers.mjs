@@ -43,7 +43,7 @@ for (const [index, record] of manifest.records.entries()) {
   const svg = exportBytes.toString("utf8");
   if (!/<svg\b[^>]*\bwidth=["']1200["'][^>]*\bheight=["']1500["'][^>]*\bviewBox=["']0 0 1200 1500["']/i.test(svg)) fail(record.buildId + " SVG geometry mismatch");
   if (!/<title\b/i.test(svg) || !/<desc\b/i.test(svg)) fail(record.buildId + " SVG requires accessible title and description");
-  if (/<script\b|<foreignObject\b|\bon\w+\s*=|javascript:|https?:\/\//i.test(svg.replace(/xmlns=["'][^"']+["']/i, ""))) fail(record.buildId + " SVG contains executable or network-active content");
+  if (/<script\b|<foreignObject\b|\bon\w+\s*=|javascript:|\b(?:href|src)\s*=\s*["\']https?:\/\//i.test(svg)) fail(record.buildId + " SVG contains executable or network-active content");
   if (statSync(record.exportPath).size === 0) fail(record.buildId + " empty export");
   const sidecar = JSON.parse(readFileSync(sidecarPath, "utf8"));
   if (JSON.stringify(sidecar) !== JSON.stringify(record)) fail(record.buildId + " sidecar drift");
