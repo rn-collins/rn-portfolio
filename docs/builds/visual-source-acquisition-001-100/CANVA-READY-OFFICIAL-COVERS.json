@@ -201,7 +201,7 @@
       "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
       "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
       "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-      "rightsLine": "",
+      "rightsLine": "Copyright © 2017 W3C®. W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
       "rollbackAssetUrl": "/media/builds/010/build-010-linkedin-poster.png",
       "liveStatePreserved": true
     },
@@ -432,7 +432,7 @@
       "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
       "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
       "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-      "rightsLine": "",
+      "rightsLine": "Copyright © 2023 W3C®. 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "rollbackAssetUrl": "/media/builds/030/build-030-linkedin-poster.png",
       "liveStatePreserved": true
     },
@@ -495,7 +495,7 @@
       "sourceUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
       "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
       "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-      "rightsLine": "",
+      "rightsLine": "Copyright © 2019 W3C®. W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
       "rollbackAssetUrl": "/media/builds/036/build-036-linkedin-poster.png",
       "liveStatePreserved": true
     },
@@ -516,7 +516,7 @@
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
       "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
       "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-      "rightsLine": "",
+      "rightsLine": "Official NIST-authored publication text; not subject to copyright in the United States. Third-party material excluded. NIST open-use policy: https://www.nist.gov/open",
       "rollbackAssetUrl": "/media/builds/041/build-041-linkedin-poster.png",
       "liveStatePreserved": true
     },
@@ -537,7 +537,7 @@
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
       "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
       "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-      "rightsLine": "",
+      "rightsLine": "Copyright © 2013 W3C®. W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
       "rollbackAssetUrl": "/media/builds/057/build-057-linkedin-poster.png",
       "liveStatePreserved": true
     },
@@ -558,7 +558,7 @@
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
       "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
       "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-      "rightsLine": "",
+      "rightsLine": "Copyright © 2013 W3C®. W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
       "rollbackAssetUrl": "/media/builds/058/build-058-linkedin-poster.png",
       "liveStatePreserved": true
     }

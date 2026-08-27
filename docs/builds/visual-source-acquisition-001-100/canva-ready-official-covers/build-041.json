@@ -15,7 +15,7 @@
   "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
   "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
   "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-  "rightsLine": "",
+  "rightsLine": "Official NIST-authored publication text; not subject to copyright in the United States. Third-party material excluded. NIST open-use policy: https://www.nist.gov/open",
   "rollbackAssetUrl": "/media/builds/041/build-041-linkedin-poster.png",
   "liveStatePreserved": true
 }

@@ -1397,7 +1397,8 @@
         "credit": "Copyright © 2017 W3C®. Excerpt under the W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
         "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
         "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
-        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+        "rightsLine": "Copyright © 2017 W3C®. W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license"
       }
     },
     {
@@ -3811,7 +3812,8 @@
         "credit": "Copyright © 2023 W3C®. Excerpt under the 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
         "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
         "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
-        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+        "rightsLine": "Copyright © 2023 W3C®. 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/"
       }
     },
     {
@@ -4584,7 +4586,8 @@
         "credit": "Copyright © 2019 W3C®. Excerpt under the W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
         "sourceUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
         "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
-        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+        "rightsLine": "Copyright © 2019 W3C®. W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
       }
     },
     {
@@ -5302,7 +5305,8 @@
         "credit": "Official NIST-authored publication excerpt; not subject to copyright in the United States. Third-party material excluded. Policy: https://www.nist.gov/open",
         "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
         "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
-        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+        "rightsLine": "Official NIST-authored publication text; not subject to copyright in the United States. Third-party material excluded. NIST open-use policy: https://www.nist.gov/open"
       }
     },
     {
@@ -7872,7 +7876,8 @@
         "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
         "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
         "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
-        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+        "rightsLine": "Copyright © 2013 W3C®. W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231"
       }
     },
     {
@@ -8041,7 +8046,8 @@
         "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
         "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
         "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
-        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
+        "rightsLine": "Copyright © 2013 W3C®. W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231"
       }
     },
     {

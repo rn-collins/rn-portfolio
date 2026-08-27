@@ -15,7 +15,7 @@
   "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
   "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
   "noEndorsement": "Context excerpt only. No affiliation or endorsement.",
-  "rightsLine": "",
+  "rightsLine": "Copyright © 2017 W3C®. W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
   "rollbackAssetUrl": "/media/builds/010/build-010-linkedin-poster.png",
   "liveStatePreserved": true
 }
