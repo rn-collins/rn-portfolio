@@ -16,7 +16,7 @@ const officialRecords=official.records.map(r=>({
  buildId:r.buildId,coverDecision:'OFFICIAL_SOURCE_CONTEXT',status:'LIVE',assetUrl:r.exportUrl,
  repositoryPath:r.exportPath,sha256:r.exportSha256,width:r.width,height:r.height,
  altText:r.altText,caption:r.caption,credit:r.credit,sourceUrl:r.sourceUrl,
- claimBoundary:r.claimBoundary,noEndorsement:r.noEndorsement,rightsLine:r.rightsLine,
+ claimBoundary:r.claimBoundary,noEndorsement:r.noEndorsement,rightsLine:r.rightsLine||r.credit,
  rollbackAssetUrl:r.rollbackAssetUrl
 }));
 const rnRecords=rn.records.map(r=>({
