@@ -27,6 +27,9 @@ for(const r of manifest.records){
  if(!svg.includes('width="1200" height="1500"')||!svg.includes('role="img" aria-labelledby="title desc"')||!svg.includes('<title id="title">')||!svg.includes('<desc id="desc">'))throw Error(r.buildId+': SVG accessibility/dimension contract');
  if(/<image\b|<use\b|data:image|<script\b|foreignObject/i.test(svg))throw Error(r.buildId+': embedded/active/external visual content forbidden');
  if(!/HOLD · REVIEW RENDER · NOT SELECTED OR STAGED/.test(svg)||!/No affiliation or endorsement/.test(svg))throw Error(r.buildId+': visible safety boundary absent');
+ if(!/\.body\{font:40px/.test(svg)||!/\.foot\{font:32px/.test(svg))throw Error(r.buildId+': mobile-readable font contract absent');
+ if(/<text x="616"/.test(svg))throw Error(r.buildId+': nonsequential second-column reading order returned');
+ if(/w3\.org/.test(r.sourceUrl)&&!/(Copyright © 20(13|17|19|23) W3C®)/.test(r.notice))throw Error(r.buildId+': W3C copyright/status notice absent');
 }
 if(manifest.counts.renderedReviewOnly!==11||manifest.counts.selected!==0||manifest.counts.staged!==0)throw Error('count drift');
 console.log(JSON.stringify({renders:11,hold:11,selected:0,staged:0,status:'PASS'}));

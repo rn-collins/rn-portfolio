@@ -15,7 +15,7 @@
   "finalReview": {
     "decision": "HOLD",
     "report": "docs/builds/visual-source-acquisition-001-100/FINAL-EXCERPT-REVIEW.json",
-    "reason": "All 11 renders fail at least one objective promotion gate. Every render fails mobile legibility; individual records also retain governing-notice, reading-order, alt-disclosure, or contextual-fit blockers.",
+    "reason": "Mechanical visual failures are rectified: all renders now use sequential single-column layouts, minimum 40px body text, minimum 32px notices, and explicit composite/context-limit labels. All 11 still fail at least one independent governing-rights or contextual-fit promotion gate recorded in the final review report.",
     "reviewedAt": "2026-08-27"
   },
   "records": [
@@ -29,23 +29,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "851acd7956635298cc300fc0251257aa0c9bb4c02f61d3ecb57bee9423d146f9",
+      "sha256": "7fa9cba915b74f9229286db578fb6b45cc6485b647de8e0f56f23cbf531f7d04",
       "sourceSha256": "ccca77caed771f42ea649c03d190b9c7ea0b82286c22c457b9edc8087c9ad0f8",
       "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
-      "alt": "Title, Recommendation status, and abstract of the official 20 July 2017 W3C SHACL specification.",
-      "caption": "W3C SHACL Recommendation. Context excerpt only; no affiliation or endorsement.",
-      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "alt": "Sequential text excerpt containing the title, 20 July 2017 Recommendation status, and opening abstract sentences of the official W3C SHACL specification.",
+      "caption": "W3C SHACL Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright \u00a9 2017 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -59,23 +60,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "b92888d577699441a652480e062ff6e418f2dc3fc3a0d2e742f12c2b225bc4dd",
+      "sha256": "3f927c28cb6b9754099274d4725b3e234ec8049bbf4eb6b2d4bf135f096a0973",
       "sourceSha256": "9307b40f5dcd8d988444184de6d07efdf384ba744bf364bae3fd712282868508",
       "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
-      "alt": "Title, Recommendation status, abstract, and four accessibility principles from WCAG 2.2.",
-      "caption": "WCAG 2.2 immutable 2023 Recommendation. Context excerpt only; no affiliation or endorsement.",
-      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "alt": "Sequential text composite from the immutable 5 October 2023 WCAG 2.2 Recommendation: title and status, one abstract sentence, then a separately labeled principles passage.",
+      "caption": "WCAG 2.2 \u2014 immutable 2023 Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright \u00a9 2023 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -89,23 +91,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "a5ae77502fef53478244dec2d056947ae3bb4c59cb8c18f479c5acf4f01d0cd1",
+      "sha256": "1465f78f6923a039c67e96d21726df5f784d177fbba783f65ff23521c71a005c",
       "sourceSha256": "9bf4121df576f08a49606cd98885c48755ee8b70e98c7907463a98f0d2879d13",
       "sourceUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
-      "alt": "Title, Candidate Recommendation status, abstract, and offline-capability motivation from the 19 November 2019 Service Workers 1 snapshot.",
-      "caption": "Service Workers 1 \u2014 2019 Candidate Recommendation. Context excerpt only; no affiliation or endorsement.",
-      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "alt": "Sequential text excerpt containing the title, 19 November 2019 Candidate Recommendation status, and offline-capability motivation passage from Service Workers 1.",
+      "caption": "Service Workers 1 \u2014 2019 Candidate Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright \u00a9 2019 W3C\u00ae. Excerpt subject to the snapshot\u2019s W3C Software and Document License notice.",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -119,23 +122,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "c05718921cdbe4f11f05edb36b4910527a73c4c22f19f43aa13175a0e4bc1cc7",
+      "sha256": "39ecfc28e353b79cbdbe7f970b4d22d5675a9ad5e8a53681bc09bf8afb440f41",
       "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
-      "alt": "Title, Recommendation status, and abstract of the official 30 April 2013 PROV-O Recommendation.",
-      "caption": "W3C PROV-O Recommendation. Context excerpt only; no affiliation or endorsement.",
-      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "alt": "Sequential text excerpt containing the title, 30 April 2013 Recommendation status, and opening PROV-O abstract sentences, followed by an editorial warning that provenance is not proof of truth.",
+      "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright \u00a9 2013 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -149,23 +153,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "2aa166323c6855c228d41e8ad80d2f56ec25795643a1d6ebf8524d87e6c0a6f0",
+      "sha256": "210aebd7670571abb8153df455be6dd3599d648a5dacf5034b6b23937b8efa19",
       "sourceSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      "alt": "Excerpt from NIST AI RMF 1.0 describing its voluntary, use-case-agnostic risk-management approach.",
-      "caption": "NIST AI RMF 1.0. Context excerpt only; no affiliation or endorsement.",
-      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "alt": "NIST AI RMF 1.0 scope excerpt stating that the Framework is voluntary and use-case agnostic, followed by an editorial warning that it does not address benchmark performance.",
+      "caption": "NIST AI RMF 1.0, p. 2. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Official NIST publication excerpt; third-party material excluded. Publication notices and source control: https://www.nist.gov/open",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -179,23 +184,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "8df102a71cd0ce8a905fe9b25085e25f3f8b641dac42def2e5c71487db690780",
+      "sha256": "78247417c0e13b97674c114770e84609a2cd32a4b39062ebeb1f8630bc6d1a04",
       "sourceSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      "alt": "NIST AI RMF excerpt explaining that trustworthiness characteristics are interrelated and involve tradeoffs.",
-      "caption": "NIST AI RMF 1.0. Context excerpt only; no affiliation or endorsement.",
-      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "alt": "NIST AI RMF 1.0 excerpt about tradeoffs among trustworthiness characteristics, followed by an editorial warning that the passage does not define permission.",
+      "caption": "NIST AI RMF 1.0, p. 13. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Official NIST publication excerpt; third-party material excluded. Publication notices and source control: https://www.nist.gov/open",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -209,23 +215,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "8b0b467fcd808fe4f3c09526f96d8c08e7cda61b9e7c66babd01c29fdbeef3a4",
+      "sha256": "e5130e7a03a799ce5b1a9214460fe5c2003ce72f32179b22dd8aafe27147a6be",
       "sourceSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
-      "alt": "NIST AI RMF GOVERN excerpt describing accountability structures, roles, and responsibilities.",
-      "caption": "NIST AI RMF 1.0. Context excerpt only; no affiliation or endorsement.",
-      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "alt": "Sequential text composite from NIST AI RMF GOVERN 2 containing the accountability statement and separately labeled subcategories 2.1 and 2.3 about roles and executive responsibility.",
+      "caption": "NIST AI RMF 1.0, p. 23. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Official NIST publication excerpt; third-party material excluded. Publication notices and source control: https://www.nist.gov/open",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -239,23 +246,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "2d0974ddb7721afae37aa803c233065661b87aa503fd629f3c18d9cbcef2ea45",
+      "sha256": "c2ff494e63d83b0da807f9b04c592af53c943e1e0d11a9d7dae95a8ebf980dc7",
       "sourceSha256": "58e1f2373e1c8a5782f7ddfce677fa9fc15e2d920ec0ab97ee754697e91bc2f0",
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
-      "alt": "NIST Privacy Framework excerpt explaining current and target privacy Profiles.",
-      "caption": "NIST Privacy Framework 1.0. Context excerpt only; no affiliation or endorsement.",
-      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "alt": "NIST Privacy Framework excerpt explaining current and target organizational privacy Profiles, followed by an editorial warning that Profiles are not individual user preferences.",
+      "caption": "NIST Privacy Framework 1.0, p. 8. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Official NIST publication excerpt; third-party material excluded. Publication notices and source control: https://www.nist.gov/open",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -269,23 +277,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "bd49f3cf93adf6e5d04d5b0fbd0b54870bcb7599376a6c79e7dbee6e77b86963",
+      "sha256": "accff7e7e15c29675126a05c32035dc606362a8738dc7b7909c311d2c514fc86",
       "sourceSha256": "b3b54b00b5ac3f3582a3e3fd17d3f25b18f848a51f113000b6489adbcce374b4",
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf",
-      "alt": "NISTIR 8259A excerpt describing IoT cybersecurity state awareness.",
-      "caption": "NISTIR 8259A. Context excerpt only; no affiliation or endorsement.",
-      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "alt": "NISTIR 8259A excerpt describing IoT cybersecurity state reporting and differentiation, followed by an editorial warning that state reporting is not natural-language explainability.",
+      "caption": "NISTIR 8259A, p. 10. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Official NIST publication excerpt; third-party material excluded. Publication notices and source control: https://www.nist.gov/open",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -299,23 +308,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "3d6f3f8e1be1ea5e6ad91f65ddb7d9c077455a6d7ad235981faf338f7536c5fd",
+      "sha256": "50ae2190878a96181360d8df673321732789ece47cd0953a325fb63bb540eade",
       "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
-      "alt": "PROV-O excerpt introducing entities, activities, agents, and provenance relationships.",
-      "caption": "W3C PROV-O Recommendation. Context excerpt only; no affiliation or endorsement.",
-      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "alt": "Sequential text composite from PROV-O Starting Point Terms: the introductory provenance-description passage, then separately labeled Entity and Activity definitions.",
+      "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright \u00a9 2013 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
@@ -329,23 +339,24 @@
       "width": 1200,
       "height": 1500,
       "mimeType": "image/svg+xml",
-      "sha256": "3e371f1b7e428b310375461208c705e1ab6ec5866dad7fe633c392eab18342f3",
+      "sha256": "dad0d04c1e27c84c2889469cffef3e5121a95acde71c78b118c53c5394afdd65",
       "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
-      "alt": "PROV-O definitions for entities, activities, generation, and derivation relationships.",
-      "caption": "W3C PROV-O Recommendation. Context excerpt only; no affiliation or endorsement.",
-      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "alt": "Sequential text composite from PROV-O Starting Point Terms containing an Entity definition and separately labeled generation and derivation relation passages.",
+      "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright \u00a9 2013 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
-        "exact source wording preserved",
+        "selected exact source wording preserved",
+        "composites and editorial context limits visibly labeled",
+        "sequential single-column reading order",
+        "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "dimensions recorded",
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "human visual review",
-        "rights/notice sufficiency review",
-        "contextual-fit approval"
+        "final rights/notice sufficiency review",
+        "final contextual-fit approval"
       ],
       "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     }
