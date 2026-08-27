@@ -16,6 +16,7 @@ on:
       - '.github/workflows/platform-ci.yml'
   push:
     branches:
+      - 'main'
       - 'feature/100-builds-platform-foundation'
       - 'workstream/build-*'
       - 'build-*'
@@ -36,6 +37,7 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - run: pnpm validate:public-surface
       - run: pnpm validate:lineage
       - run: pnpm validate:canonical-lineage
       - run: pnpm validate:media
