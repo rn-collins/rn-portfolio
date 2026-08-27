@@ -27,13 +27,17 @@ const dossierNav=read('apps/web/app/100-builds/001/DossierNav.tsx');
 for(const route of ['/100-builds/001/record','/100-builds/001/making','/100-builds/001/method','/100-builds/001/evidence'])check(dossierNav.includes(`href="${route}"`),'dossier navigation missing '+route);
 
 const assetPanel=read('apps/web/app/100-builds/AssetReviewPanel.tsx');
-for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','Original HOLD fallback graphic','Open the full fallback SVG','Download SVG ↓','download={`${id}-original-rn-fallback.svg`}','fallbackSpec?.accessibility.alt','fallbackSpec.caption','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
+for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','Original HOLD fallback graphic','Open the full fallback SVG','Download SVG ↓','download={`${id}-original-rn-fallback.svg`}','fallbackSpec?.accessibility.alt','fallbackSpec.caption','External candidate formally selected','External asset staged','readOnly disabled','Final hook-image decision','Promoted after direct-fit review','Rollback:'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
 check(recordPage.includes('<AssetReviewPanel id={id}/>'),'every public build record must render the canonical asset review panel');
 const assetOperations=read('apps/web/app/100-builds/archive/AssetOperationsSummary.tsx');
 for(const needle of ["import packages from '../../../../../docs/builds/visual-source-acquisition-001-100/packages.json'","import fallbackManifest from '../../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json'","import renderedCaptures from '../../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json'","records.map(record=>","aria-label=\"Asset status for all 100 builds\"","OPEN DOSSIER →","FALLBACK SVG ↓","record.liveCoverSubstituted===true","renderedCaptures.counts.finalReviewed","renderedCaptures.finalReview.reason"])check(assetOperations.includes(needle),'asset operations surface must derive from canonical records: '+needle);
 const programArchivePage=read('apps/web/app/100-builds/archive/page.tsx');
 check(programArchivePage.includes("import AssetOperationsSummary from './AssetOperationsSummary'")&&programArchivePage.includes('<AssetOperationsSummary/>'),'program archive must expose canonical asset operations surface');
 const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
+const promotionReview=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json'));
+check(promotionReview.counts?.reviewed===24&&promotionReview.counts?.promoted===11&&promotionReview.counts?.rejectedForLiveHook===13&&promotionReview.counts?.rollbackReady===24,'final cover promotion counts drift');
+const promotedIds=new Set(promotionReview.promotedBuilds);
+check(promotedIds.size===11&&promotionReview.rejectedBuilds.length===13,'final cover promotion ID sets drift');
 check(Array.isArray(visualPackages.records)&&visualPackages.records.length===100,'visual package ledger must contain 100 records');
 const visualIds=visualPackages.records.map(record=>record.buildId);
 check(JSON.stringify(visualIds)===JSON.stringify(ids),'visual package ledger must be ordered 001-100');
@@ -76,6 +80,13 @@ for(const fallback of fallbackManifest.files){
 for(const record of visualPackages.records){
  check(record.rnFallbackReady===true,'RN fallback must remain ready for '+record.buildId);
  check(typeof record.externalSelected==='boolean'&&typeof record.externalStaged==='boolean','selection/staging status must be explicit for '+record.buildId);
+ check(record.liveCoverSubstituted===promotedIds.has(record.buildId),'live promotion state drift for '+record.buildId);
+ if(promotedIds.has(record.buildId)){
+  check(record.rollbackCover?.assetUrl===record.cover?.assetUrl,'rollback must preserve RN cover for '+record.buildId);
+  check(/^\/media\/100-builds\/(?:production-source-variants|production-source-context)\/.+\.svg$/.test(record.liveCover?.assetUrl||''),'invalid live source cover path for '+record.buildId);
+  const liveRel='apps/web/public'+record.liveCover.assetUrl;
+  try{const bytes=fs.readFileSync(path.join(root,liveRel));check(createHash('sha256').update(bytes).digest('hex')===record.liveCover.sha256,'live source cover checksum drift for '+record.buildId)}catch(e){fail.push('invalid live source cover '+liveRel+': '+e.message)}
+ }
  const expectedCover=`/media/builds/${record.buildId}/build-${record.buildId}-linkedin-poster.png`;
  check(record.cover?.assetUrl===expectedCover,'unexpected creator-owned cover path for '+record.buildId);
  const coverRel='apps/web/public'+expectedCover;
@@ -122,4 +133,4 @@ for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews plus one canonical 100-row asset-operations surface with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews, 11 promoted official source-context covers with preserved RN rollback, plus one canonical 100-row asset-operations surface with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
