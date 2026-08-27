@@ -20,14 +20,14 @@ const officialRecords=official.records.map(r=>({
  rollbackAssetUrl:r.rollbackAssetUrl
 }));
 const rnRecords=rn.records.map(r=>({
- buildId:r.buildId,coverDecision:'RN_OWNED',status:r.status,assetUrl:r.assetUrl||r.svgUrl||r.exportUrl,
+ buildId:r.buildId,coverDecision:'RN_OWNED',status:r.status,assetUrl:r.file||r.assetUrl||r.svgUrl||r.exportUrl,
  repositoryPath:r.path||r.svgPath||r.exportPath,sha256:r.sha256,width:r.width,height:r.height,
- altText:r.altText||r.accessibility?.alt||r.description,caption:r.caption||r.claimBoundary,
+ altText:r.altText||r.accessibility?.alt||r.accessibleDescription,caption:r.caption||r.fallbackStatus,
  credit:r.credit||'Original RN-owned cover',sourceUrl:null,
  claimBoundary:r.claimBoundary||r.rights?.claimBoundary,
- noEndorsement:r.noEndorsement||r.rights?.noEndorsement,
- rightsLine:r.rightsLine||r.rights?.ownership,
- rollbackAssetUrl:r.assetUrl||r.svgUrl||r.exportUrl
+ noEndorsement:r.noEndorsement||'No third-party affiliation or institutional endorsement is stated or implied.',
+ rightsLine:r.rightsLine||r.rights,
+ rollbackAssetUrl:r.file||r.assetUrl||r.svgUrl||r.exportUrl
 }));
 const records=[...officialRecords,...rnRecords].sort((a,b)=>a.buildId.localeCompare(b.buildId));
 const ids=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0'));
