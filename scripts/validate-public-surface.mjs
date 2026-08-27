@@ -18,6 +18,12 @@ for(const id of ids)for(const variant of ['a','b']){
 }
 const overview=read('apps/web/app/100-builds/[id]/page.tsx');
 check(overview.includes('builds.find(b=>b.id===id)'),'overview must resolve through registry');
+const recordPage=read('apps/web/app/100-builds/[id]/record/page.tsx');
+const recordIds=[...recordPage.matchAll(/^\\s*'(\\d{3})':/gm)].map(m=>m[1]);
+check(recordIds.length===100&&new Set(recordIds).size===100&&ids.every(id=>recordIds.includes(id)),'public build records must cover 001-100 exactly');
+for(const needle of ['generateMetadata','alternates:{canonical:`/100-builds/${id}/record`}','robots:{index:true,follow:true}','robots:{index:false,follow:false}'])check(recordPage.includes(needle),'record metadata contract missing '+needle);
+const dossierNav=read('apps/web/app/100-builds/001/DossierNav.tsx');
+for(const route of ['/100-builds/001/record','/100-builds/001/making','/100-builds/001/method','/100-builds/001/evidence'])check(dossierNav.includes(`href="${route}"`),'dossier navigation missing '+route);
 
 const archiveData=read('apps/web/app/100-builds/_archive/archive-data.ts');
 const archiveIds=[...archiveData.matchAll(/^\s*'(\d{3})':\{id:'\1',title:/gm)].map(m=>m[1]);
@@ -45,12 +51,12 @@ for(const denied of ['package.json','../package.json','/etc/passwd','.env','docs
 
 const sitemap=read('apps/web/app/sitemap.ts');
 for(const needle of ["'/100-builds/archive','/lineage'","...Object.keys(buildArchives).map(id=>`/100-builds/${id}/archive`)","path==='/'?path:`${path}/`"])check(sitemap.includes(needle),'sitemap contract missing '+needle);
-const expected=['/','/100-builds',...ids.flatMap(id=>[`/100-builds/${id}`,`/100-builds/${id}/a`,`/100-builds/${id}/b`]),'/100-builds/archive','/lineage',...archiveIds.map(id=>`/100-builds/${id}/archive`)];
-check(expected.length===348&&new Set(expected).size===348,'expected 348 unique sitemap paths');
+const expected=['/','/100-builds',...ids.flatMap(id=>[`/100-builds/${id}`,`/100-builds/${id}/a`,`/100-builds/${id}/b`,`/100-builds/${id}/record`]),'/100-builds/001/evidence','/100-builds/001/making','/100-builds/001/method','/100-builds/archive','/lineage',...archiveIds.map(id=>`/100-builds/${id}/archive`)];
+check(expected.length===451&&new Set(expected).size===451,'expected 348 unique sitemap paths');
 
 const reader=read('apps/web/app/100-builds/archive/source/[...path]/page.tsx');
 for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot,file)','absolute.startsWith(repoRoot+path.sep)','fs.existsSync(absolute)','fs.lstatSync(absolute)','isSymbolicLink()','fs.realpathSync(absolute)','new TextDecoder(\'utf-8\',{fatal:true})','robots:{index:false,follow:true}','robots:{index:false,follow:false}'])check(reader.includes(needle),'archive reader invariant missing '+needle);
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 348 canonical sitemap paths; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; fail-closed source reader.');
