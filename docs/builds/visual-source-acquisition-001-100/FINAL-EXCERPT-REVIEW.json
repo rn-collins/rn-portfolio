@@ -1,14 +1,15 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "reviewedAt": "2026-08-27",
-  "scope": "Final independent review of the 11 W3C/NIST review-only source excerpt SVGs",
-  "decisionRule": "Promotion requires every fidelity, visual, mobile-legibility, attribution, governing-notice, no-mark, no-endorsement, contextual-fit, alt-text and caption gate to pass independently.",
+  "scope": "Final substantive rights-package and contextual-fit disposition of the 11 W3C/NIST source excerpt SVGs",
+  "decisionRule": "Approval requires exact immutable source, faithful excerpt, direct claim fit, visible attribution/status/copyright or public-domain policy, governing notice link, no marks, no endorsement, accessible text and preserved RN fallback. Context mismatch is rejected rather than cured by attribution.",
   "summary": {
     "reviewed": 11,
-    "approvedForPromotion": 0,
-    "remainHold": 11,
-    "selected": 0,
-    "staged": 0
+    "approvedForPromotion": 6,
+    "rejected": 5,
+    "remainHold": 5,
+    "selected": 6,
+    "staged": 6
   },
   "sharedEvidence": {
     "geometry": "Each SVG has a 1200 by 1500 viewBox and is rendered as one fixed canvas.",
@@ -16,96 +17,194 @@
     "marks": "No W3C or NIST logo, seal, portrait, figure, photograph or institutional mark appears in any reviewed SVG.",
     "endorsement": "Every render visibly says Context excerpt only and No affiliation or endorsement, and remains labeled HOLD, REVIEW RENDER, NOT SELECTED OR STAGED.",
     "accessibility": "Every SVG has role=img, an aria-labelledby relationship, title and description. Those structural features pass; they do not cure unreadable visible text or contextual mismatch.",
-    "fidelityBasis": "The render manifest records a source SHA-256 and exact-wording check for each excerpt. This review accepts those byte/text checks only as provenance evidence; it does not infer that a composite is a screenshot of the original page."
+    "fidelityBasis": "The render manifest records a source SHA-256 and exact-wording check for each excerpt. This review accepts those byte/text checks only as provenance evidence; it does not infer that a composite is a screenshot of the original page.",
+    "rightsBasis": "W3C decisions use the immutable source document’s own copyright/status and linked governing license or document-use notice. NIST uses NIST’s official Open Government/public-domain policy only for government-authored text; third-party material is excluded."
   },
   "records": [
     {
       "buildId": "010",
       "title": "From Words to Structure",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe the excerpt", "strong contextual fit: SHACL turns graph conditions into formal structure"],
-      "failed": ["governing W3C notice not conclusively established: the package still identifies a license-version mismatch between the 2017 Recommendation and the current 2023 Document License URL"],
-      "promotionBlocker": "Resolve which document-license version governs the 2017 Recommendation and preserve that exact notice; geometry, sequence, composite disclosure and mobile body legibility are rectified."
+      "decision": "APPROVED-FOR-PROMOTION",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "alt and caption accurately describe the excerpt",
+        "strong contextual fit: SHACL turns graph conditions into formal structure",
+        "The immutable Recommendation itself carries © 2017 W3C and links the W3C Document License. The excerpt preserves attribution, source URL, status, copyright, no-logo and no-endorsement treatment. Governing notice: https://www.w3.org/Consortium/Legal/2015/doc-license",
+        "direct contextual fit confirmed",
+        "RN fallback and rollback retained"
+      ],
+      "failed": [],
+      "promotionBlocker": null,
+      "resolution": "Approved as a source-context excerpt, not as evidence that the build performs, conforms, is complete, safe, true, or endorsed."
     },
     {
       "buildId": "030",
       "title": "Interface Repair in Motion",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: WCAG principles directly concern interface accessibility"],
-      "failed": ["the authoritative package still records an asset-version/date decision gate pending reconciliation with the immutable 2023 tuple"],
-      "promotionBlocker": "Reconcile the package's prior version/date HOLD with the now-explicit immutable 5 October 2023 tuple; sequential reading order, composite disclosure, exact copyright/status labeling and mobile body legibility are rectified."
+      "decision": "APPROVED-FOR-PROMOTION",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "strong contextual fit: WCAG principles directly concern interface accessibility",
+        "The immutable 5 October 2023 Recommendation carries © 2023 W3C and the 2023 W3C Document License. Governing notice: https://www.w3.org/copyright/document-license-2023/",
+        "direct contextual fit confirmed",
+        "RN fallback and rollback retained"
+      ],
+      "failed": [],
+      "promotionBlocker": null,
+      "resolution": "Approved as a source-context excerpt, not as evidence that the build performs, conforms, is complete, safe, true, or endorsed."
     },
     {
       "buildId": "036",
       "title": "Offline is a product state",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: the selected motivation expressly addresses offline capability"],
-      "failed": ["the exact URL and full text of the snapshot's applicable W3C Software and Document License notice are not yet attached"],
-      "promotionBlocker": "Attach the snapshot's exact governing license URL/full notice; sequential reading order, copyright/status labeling and mobile body legibility are rectified."
+      "decision": "APPROVED-FOR-PROMOTION",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "strong contextual fit: the selected motivation expressly addresses offline capability",
+        "The immutable 19 November 2019 Candidate Recommendation Snapshot carries © 2019 W3C and the W3C Software and Document License. Governing notice: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+        "direct contextual fit confirmed",
+        "RN fallback and rollback retained"
+      ],
+      "failed": [],
+      "promotionBlocker": null,
+      "resolution": "Approved as a source-context excerpt, not as evidence that the build performs, conforms, is complete, safe, true, or endorsed."
     },
     {
       "buildId": "038",
       "title": "A benchmark is not performance",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe the displayed AI RMF paragraph"],
-      "failed": ["contextual claim fit: the excerpt describes the voluntary and use-case-agnostic scope of the AI RMF but does not discuss benchmarks or the distinction between benchmark scores and real-world performance", "the exact publication-specific rights notice is not attached"],
-      "promotionBlocker": "Select a passage that directly supports the benchmark-versus-performance distinction and attach the exact publication notice; the render now states its contextual limit and is sequential/mobile-readable."
+      "decision": "REJECTED-CONTEXT-MISMATCH",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "alt and caption accurately describe the displayed AI RMF paragraph"
+      ],
+      "failed": [
+        "REJECT: the excerpt supports only the AI RMF’s voluntary, use-case-agnostic scope; it does not support the build’s benchmark-versus-real-world-performance claim."
+      ],
+      "promotionBlocker": "No rights or layout change can cure the source-to-claim mismatch. Retain the RN fallback and the excerpt only as rejected review history.",
+      "resolution": "REJECT: the excerpt supports only the AI RMF’s voluntary, use-case-agnostic scope; it does not support the build’s benchmark-versus-real-world-performance claim."
     },
     {
       "buildId": "039",
       "title": "A trace is evidence, not truth",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe the PROV-O abstract"],
-      "failed": ["contextual claim fit: the ontology abstract explains provenance representation and interchange but does not establish the build's evidence-versus-truth distinction"],
-      "promotionBlocker": "Use a passage that directly supports the bounded evidentiary claim; the render now visibly states the limit and has corrected W3C credit/status, sequence and mobile body legibility."
+      "decision": "REJECTED-CONTEXT-MISMATCH",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "alt and caption accurately describe the PROV-O abstract"
+      ],
+      "failed": [
+        "REJECT: the PROV-O abstract defines provenance representation and exchange; it does not establish that a trace is evidence rather than truth."
+      ],
+      "promotionBlocker": "No rights or layout change can cure the source-to-claim mismatch. Retain the RN fallback and the excerpt only as rejected review history.",
+      "resolution": "REJECT: the PROV-O abstract defines provenance representation and exchange; it does not establish that a trace is evidence rather than truth."
     },
     {
       "buildId": "040",
       "title": "Confidence is not permission",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe trustworthiness tradeoffs"],
-      "failed": ["contextual claim fit: the excerpt concerns trustworthiness tradeoffs but does not directly address confidence scores or authorization/permission", "the exact publication-specific rights notice is not attached"],
-      "promotionBlocker": "Select a passage directly addressing confidence and authority boundaries and attach the exact publication notice; the render now states its contextual limit and is sequential/mobile-readable."
+      "decision": "REJECTED-CONTEXT-MISMATCH",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "alt and caption accurately describe trustworthiness tradeoffs"
+      ],
+      "failed": [
+        "REJECT: trustworthiness tradeoffs do not establish the distinction between confidence and permission or authorization."
+      ],
+      "promotionBlocker": "No rights or layout change can cure the source-to-claim mismatch. Retain the RN fallback and the excerpt only as rejected review history.",
+      "resolution": "REJECT: trustworthiness tradeoffs do not establish the distinction between confidence and permission or authorization."
     },
     {
       "buildId": "041",
       "title": "AI work needs an owner",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: GOVERN 2 and 2.1 through 2.3 directly address accountability, roles and executive responsibility", "alt and caption accurately describe the excerpt"],
-      "failed": ["the exact publication-specific rights notice is not attached"],
-      "promotionBlocker": "Attach the exact NIST publication rights notice; contextual fit, sequential reading order, composite disclosure and mobile body legibility pass."
+      "decision": "APPROVED-FOR-PROMOTION",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "strong contextual fit: GOVERN 2 and 2.1 through 2.3 directly address accountability, roles and executive responsibility",
+        "alt and caption accurately describe the excerpt",
+        "NIST states that NIST-authored works are not subject to copyright in the United States; third-party material remains separately controlled. This excerpt is text from the government-authored AI RMF GOVERN 2 region, excludes marks and third-party material, and attributes NIST. Policy: https://www.nist.gov/open",
+        "direct contextual fit confirmed",
+        "RN fallback and rollback retained"
+      ],
+      "failed": [],
+      "promotionBlocker": null,
+      "resolution": "Approved as a source-context excerpt, not as evidence that the build performs, conforms, is complete, safe, true, or endorsed."
     },
     {
       "buildId": "049",
       "title": "A preference is not permanent",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe current and target privacy Profiles"],
-      "failed": ["contextual claim fit: organizational privacy Profiles are not user preferences, so the excerpt cannot support the product-preference claim", "the exact publication-specific rights notice is not attached"],
-      "promotionBlocker": "Select a source passage about revisable user preferences or narrow the build claim to privacy Profiles and attach the exact publication notice; the render now states its contextual limit and is sequential/mobile-readable."
+      "decision": "REJECTED-CONTEXT-MISMATCH",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "alt and caption accurately describe current and target privacy Profiles"
+      ],
+      "failed": [
+        "REJECT: organizational current/target privacy Profiles are not revisable individual user preferences."
+      ],
+      "promotionBlocker": "No rights or layout change can cure the source-to-claim mismatch. Retain the RN fallback and the excerpt only as rejected review history.",
+      "resolution": "REJECT: organizational current/target privacy Profiles are not revisable individual user preferences."
     },
     {
       "buildId": "055",
       "title": "Let the Smart Home Explain Itself",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe cybersecurity state awareness"],
-      "failed": ["contextual claim fit: device state reporting to authorized entities is materially narrower than a smart home explaining itself and does not support natural-language explainability", "the exact publication-specific rights notice is not attached"],
-      "promotionBlocker": "Keep the excerpt limited to cybersecurity state reporting or select direct explainability evidence and attach the exact publication notice; the render now states its contextual limit and is sequential/mobile-readable."
+      "decision": "REJECTED-CONTEXT-MISMATCH",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "alt and caption accurately describe cybersecurity state awareness"
+      ],
+      "failed": [
+        "REJECT: cybersecurity state reporting to authorized entities is not natural-language explanation by a smart home."
+      ],
+      "promotionBlocker": "No rights or layout change can cure the source-to-claim mismatch. Retain the RN fallback and the excerpt only as rejected review history.",
+      "resolution": "REJECT: cybersecurity state reporting to authorized entities is not natural-language explanation by a smart home."
     },
     {
       "buildId": "057",
       "title": "Show Me Where This Content Came From",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: PROV-O entities, activities and agents directly support provenance description", "alt and caption accurately describe the excerpt"],
-      "failed": ["the authoritative package has not yet accepted the exact asset-level W3C document-license treatment"],
-      "promotionBlocker": "Reconcile the package's asset-level rights HOLD with the attached 2013 W3C copyright/status/document-license treatment; contextual fit, sequence, composite disclosure and mobile body legibility pass."
+      "decision": "APPROVED-FOR-PROMOTION",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "strong contextual fit: PROV-O entities, activities and agents directly support provenance description",
+        "alt and caption accurately describe the excerpt",
+        "The immutable 30 April 2013 Recommendation carries © 2013 W3C and its linked W3C document-use rules. Governing notice: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+        "direct contextual fit confirmed",
+        "RN fallback and rollback retained"
+      ],
+      "failed": [],
+      "promotionBlocker": null,
+      "resolution": "Approved as a source-context excerpt, not as evidence that the build performs, conforms, is complete, safe, true, or endorsed."
     },
     {
       "buildId": "058",
       "title": "Trace a Claim All the Way Back",
-      "decision": "HOLD",
-      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: PROV-O generation and derivation relations directly support provenance chains"],
-      "failed": ["the authoritative package has not yet accepted the exact asset-level W3C document-license treatment"],
-      "promotionBlocker": "Reconcile the package's asset-level rights HOLD with the attached 2013 W3C copyright/status/document-license treatment; contextual fit, sequence, composite disclosure and mobile body legibility pass."
+      "decision": "APPROVED-FOR-PROMOTION",
+      "passed": [
+        "recorded source hash and wording check",
+        "no institutional mark",
+        "explicit no-endorsement boundary",
+        "strong contextual fit: PROV-O generation and derivation relations directly support provenance chains",
+        "The immutable 30 April 2013 Recommendation carries © 2013 W3C and its linked W3C document-use rules. Governing notice: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+        "direct contextual fit confirmed",
+        "RN fallback and rollback retained"
+      ],
+      "failed": [],
+      "promotionBlocker": null,
+      "resolution": "Approved as a source-context excerpt, not as evidence that the build performs, conforms, is complete, safe, true, or endorsed."
     }
   ]
 }
