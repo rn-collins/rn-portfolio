@@ -1,6 +1,7 @@
 import packages from '../../../../docs/builds/visual-source-acquisition-001-100/packages.json';
 import fallbackManifest from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json';
 import fallbackSpecs from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-SPECS-HOLD.json';
+import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
 
 type Candidate={
   sourcePageUrl:string;
@@ -35,6 +36,7 @@ export default function AssetReviewPanel({id}:{id:string}){
  const candidate=record.visualCandidateSearch.searched[0];
  const originalFallback=fallbackManifest.files.find(item=>item.buildId===id);
  const fallbackSpec=fallbackSpecs.records.find(item=>item.buildId===id);
+ const reviewExcerpt=renderedCaptures.records.find(item=>item.buildId===id);
  return <section aria-labelledby="asset-review-heading" style={panel}>
   <p><b>VISUAL ASSET REVIEW</b></p>
   <h2 id="asset-review-heading">Hook image, source candidate, and release gates</h2>
@@ -66,6 +68,15 @@ export default function AssetReviewPanel({id}:{id:string}){
    <p>This generated RN-owned fallback is available for review while the third-party candidate remains on HOLD. It is not selected external evidence and does not change staging status.</p>
    <p><a href={originalFallback.path}>Open the full fallback SVG →</a> · <a href={originalFallback.path} download={`${id}-original-rn-fallback.svg`}>Download SVG ↓</a></p>
    <details><summary>Integrity record</summary><p><b>SHA-256:</b> <code>{originalFallback.sha256}</code></p><p><b>Dimensions:</b> {originalFallback.width} × {originalFallback.height}; {originalFallback.mediaType}; {originalFallback.bytes} bytes.</p></details>
+  </article>}
+  {reviewExcerpt&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`source-excerpt-${id}-heading`}>
+   <p><b>REVIEW ONLY · HOLD · NOT SELECTED · NOT STAGED</b></p>
+   <h3 id={`source-excerpt-${id}-heading`}>Review-only source excerpt</h3>
+   <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}><img src={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} width={reviewExcerpt.width} height={reviewExcerpt.height} alt={reviewExcerpt.alt} loading="lazy" style={image}/></a>
+   <p>{reviewExcerpt.caption}</p>
+   <p>{reviewExcerpt.claimState}</p>
+   <p><a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}>Open the full review SVG →</a> · <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} download={`${id}-source-excerpt-review-hold.svg`}>Download review SVG ↓</a> · <a href={reviewExcerpt.sourceUrl} rel="noreferrer">Open official source →</a></p>
+   <details><summary>Review integrity and open gates</summary><p><b>SHA-256:</b> <code>{reviewExcerpt.sha256}</code></p><p><b>Source SHA-256:</b> <code>{reviewExcerpt.sourceSha256}</code></p><p><b>Dimensions:</b> {reviewExcerpt.width} × {reviewExcerpt.height}; {reviewExcerpt.mimeType}.</p><p><b>Notice:</b> {reviewExcerpt.notice}</p><p><b>Open gates:</b> {reviewExcerpt.gatesOpen.join('; ')}.</p></details>
   </article>}
   <fieldset style={{...card,marginTop:'1rem'}}>
    <legend><b>Canonical review gates</b></legend>
