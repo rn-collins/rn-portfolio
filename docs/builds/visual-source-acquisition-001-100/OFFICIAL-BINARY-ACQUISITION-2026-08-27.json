@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0.0",
+  "verifiedAt": "2026-08-27",
+  "scope": "Nine unique official sources selected for 24 cleared builds",
+  "truthBoundary": "All nine URLs returned exact parseable source bytes during this acquisition pass. No source byte is repository-preserved or staged: the available authenticated GitHub write surface accepts UTF-8 text only and cannot safely transfer the three PDF binaries or guarantee byte-identical snapshot transfer. Counts therefore remain binariesPresent=0 and externalStaged=0.",
+  "counts": {
+    "sourcesFetchedAndVerified": 9,
+    "temporaryBytesVerified": 4682411,
+    "repositoryBinariesPresent": 0,
+    "externalStaged": 0,
+    "assignmentsAffected": 24
+  },
+  "assets": [
+    {
+      "assetId": "official-01",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "assignedBuildIds": [
+        "001",
+        "007",
+        "008",
+        "009",
+        "012",
+        "013",
+        "017",
+        "021",
+        "022",
+        "025",
+        "028",
+        "032"
+      ],
+      "mimeContainer": "application/pdf; PDF 1.7",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "bytes": 1946127,
+      "pages": 48,
+      "pageSizePoints": "612 x 792 (US Letter)",
+      "rights": "NIST Technical Series reuse policy; citation required; review any third-party material.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-02",
+      "url": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "assignedBuildIds": [
+        "002",
+        "003"
+      ],
+      "mimeContainer": "text/html; charset=utf-8",
+      "sha256": "96bd362e5c203cb0ba31a168e94e95ff562fa75b7cd0549285525865b6578513",
+      "bytes": 79329,
+      "documentTitle": "GOV.UK",
+      "rights": "Open Government Licence v3.0; exclude logos and third-party material; attribute source.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-03",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+      "assignedBuildIds": [
+        "004"
+      ],
+      "mimeContainer": "text/html; charset=UTF-8",
+      "sha256": "3f7ac6fb68d9342c856bc16b056dc0a9ebbda6b55c11a990588f19a129a5baba",
+      "bytes": 79932,
+      "documentTitle": "NIST AI RMF Playbook | NIST",
+      "rights": "Unmarked NIST web information may be distributed or copied with credit; exclude marks and third-party material.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-04",
+      "url": "https://www.gov.uk/service-manual/service-standard",
+      "assignedBuildIds": [
+        "005",
+        "018"
+      ],
+      "mimeContainer": "text/html; charset=utf-8",
+      "sha256": "8d5d98fe0231fbf242381b3edf223d4976d85d7767b5e3ee953917df872cf07a",
+      "bytes": 65077,
+      "documentTitle": "GOV.UK",
+      "rights": "Open Government Licence v3.0; exclude logos and third-party material; attribute source.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-05",
+      "url": "https://www.gov.uk/service-manual/assisted-digital/",
+      "assignedBuildIds": [
+        "006"
+      ],
+      "mimeContainer": "text/html; charset=utf-8",
+      "sha256": "901b35044d26b43649dcff4452dcc98bd7847bb84cc3869b4847e9f63591bafc",
+      "bytes": 69792,
+      "documentTitle": "GOV.UK",
+      "rights": "Open Government Licence v3.0; exclude logos and third-party material; attribute source.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-06",
+      "url": "https://www.w3.org/TR/prov-primer/",
+      "assignedBuildIds": [
+        "011",
+        "020",
+        "029"
+      ],
+      "mimeContainer": "text/html; charset=utf-8",
+      "sha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a",
+      "bytes": 109524,
+      "documentTitle": "PROV Model Primer",
+      "rights": "W3C Document License; retain URI, copyright and status; no endorsement.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-07",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+      "assignedBuildIds": [
+        "019"
+      ],
+      "mimeContainer": "application/pdf; PDF 1.6",
+      "sha256": "e5593d6bb85daecec7e8d9549400c7b3473bcc3f06e469c82218073afa7fba2d",
+      "bytes": 1040566,
+      "pages": 48,
+      "pageSizePoints": "612 x 792 (US Letter)",
+      "rights": "NIST Technical Series reuse policy; citation required; review any third-party material.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-08",
+      "url": "https://www.w3.org/TR/prov-o/",
+      "assignedBuildIds": [
+        "026"
+      ],
+      "mimeContainer": "text/html; charset=utf-8",
+      "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "bytes": 464179,
+      "documentTitle": "PROV-O: The PROV Ontology",
+      "rights": "W3C Document License; retain URI, copyright and status; no endorsement.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    },
+    {
+      "assetId": "official-09",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+      "assignedBuildIds": [
+        "031"
+      ],
+      "mimeContainer": "application/pdf; PDF 1.6",
+      "sha256": "58e1f2373e1c8a5782f7ddfce677fa9fc15e2d920ec0ab97ee754697e91bc2f0",
+      "bytes": 827885,
+      "pages": 43,
+      "pageSizePoints": "612 x 792 (US Letter)",
+      "rights": "NIST Technical Series reuse policy; citation required; review any third-party material.",
+      "repositoryBinaryPath": null,
+      "staged": false
+    }
+  ],
+  "verificationRules": [
+    "HTTP GET completed without an error response.",
+    "Container signature was checked locally; HTML was parsed as UTF-8 and PDFs identified as PDFs.",
+    "SHA-256 and byte length were computed from the fetched response body.",
+    "PDF page count and page size were read with pdfinfo.",
+    "A URL, hash or temporary fetch is not a staged repository binary."
+  ]
+}
