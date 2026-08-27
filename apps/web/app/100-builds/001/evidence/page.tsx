@@ -1,9 +1,10 @@
 import type {Metadata} from 'next';
-import Link from 'next/link';import s from '../story.module.css';
+import Link from 'next/link';
+import s from '../story.module.css';
 import DossierNav from '../DossierNav';
 
 
-export const metadata:Metadata={title:'Build 001 evidence: Human Review Design Framework',description:'undefined',alternates:{canonical:'/100-builds/001/evidence'},robots:{index:true,follow:true}};
+export const metadata:Metadata={title:'Build 001 evidence: Human Review Design Framework',description:'Claim-to-source evidence map, provenance, and limits for Build 001, the Human Review Design Framework.',alternates:{canonical:'/100-builds/001/evidence'},robots:{index:true,follow:true}};
 const sources=[
  {id:'NIST-AI-RMF-1.0',body:'NIST',title:'AI Risk Management Framework 1.0 — Core + Human-AI Interaction',date:'2023-01-26',checked:'2026-08-15',href:'https://airc.nist.gov/airmf-resources/airmf/5-sec-core/',sections:'GOVERN 2.1; GOVERN 3.2; MAP 2.2; MAP 3.4–3.5; MEASURE 1.2–1.3; Appendix C',status:'AI RMF 1.0 remains published; NIST states a revision is in progress.',supports:'defined roles and responsibilities; differentiated human-AI oversight roles; sufficient information for human decisions; operator proficiency; defined/assessed oversight; evaluation of control effectiveness; independent/domain review.'},
  {id:'EU-AI-ACT-ART14',body:'European Union',title:'Regulation (EU) 2024/1689 — Article 14, Human oversight',date:'2024-07-12',checked:'2026-08-15',href:'https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng',sections:'Article 14; related deployer-information requirements in Article 13',status:'Binding EU regulation; applicability depends on system, role, jurisdiction, and dates of application.',supports:'effective oversight of high-risk AI; appropriate human-machine interfaces; understanding capabilities/limitations; awareness of automation bias; correct interpretation; ability to disregard/override/reverse output or interrupt the system where provided by Article 14.'},
