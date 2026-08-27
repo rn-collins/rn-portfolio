@@ -26,12 +26,22 @@ const dossierNav=read('apps/web/app/100-builds/001/DossierNav.tsx');
 for(const route of ['/100-builds/001/record','/100-builds/001/making','/100-builds/001/method','/100-builds/001/evidence'])check(dossierNav.includes(`href="${route}"`),'dossier navigation missing '+route);
 
 const assetPanel=read('apps/web/app/100-builds/AssetReviewPanel.tsx');
-for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
+for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','Original HOLD fallback graphic','Open the full fallback SVG','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
 check(recordPage.includes('<AssetReviewPanel id={id}/>'),'every public build record must render the canonical asset review panel');
 const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
 check(Array.isArray(visualPackages.records)&&visualPackages.records.length===100,'visual package ledger must contain 100 records');
 const visualIds=visualPackages.records.map(record=>record.buildId);
 check(JSON.stringify(visualIds)===JSON.stringify(ids),'visual package ledger must be ordered 001-100');
+const fallbackManifest=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json'));
+check(fallbackManifest.state?.status==='HOLD'&&fallbackManifest.state?.externalSelected===false&&fallbackManifest.state?.externalStaged===false&&fallbackManifest.state?.evidence===false,'fallback manifest must preserve HOLD/non-evidence state');
+check(Array.isArray(fallbackManifest.files)&&fallbackManifest.files.length===76,'fallback manifest must contain 76 files');
+for(const fallback of fallbackManifest.files){
+ const expected=`/100-builds/fallbacks/${fallback.buildId}-original-fallback.svg`;
+ check(fallback.path===expected,'unexpected fallback URL for '+fallback.buildId);
+ const rel='apps/web/public'+fallback.path;
+ try{const st=fs.lstatSync(path.join(root,rel));check(st.isFile()&&!st.isSymbolicLink(),rel+' must be a regular non-symlink file')}catch{fail.push(rel+' missing')}
+ check(fallback.label==='ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE','fallback label drift for '+fallback.buildId);
+}
 for(const record of visualPackages.records){
  check(record.rnFallbackReady===true,'RN fallback must remain ready for '+record.buildId);
  check(typeof record.externalSelected==='boolean'&&typeof record.externalStaged==='boolean','selection/staging status must be explicit for '+record.buildId);
@@ -81,4 +91,4 @@ for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews with explicit release gates; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews with explicit release gates and 76 original HOLD fallback previews; fail-closed source reader.');
