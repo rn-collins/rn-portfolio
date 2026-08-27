@@ -1,4 +1,5 @@
 import packages from '../../../../docs/builds/visual-source-acquisition-001-100/packages.json';
+import fallbackManifest from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json';
 
 type Candidate={
   sourcePageUrl:string;
@@ -31,6 +32,7 @@ export default function AssetReviewPanel({id}:{id:string}){
  const record=records.find(item=>item.buildId===id);
  if(!record)return null;
  const candidate=record.visualCandidateSearch.searched[0];
+ const originalFallback=fallbackManifest.files.find(item=>item.buildId===id);
  return <section aria-labelledby="asset-review-heading" style={panel}>
   <p><b>VISUAL ASSET REVIEW</b></p>
   <h2 id="asset-review-heading">Hook image, source candidate, and release gates</h2>
@@ -54,6 +56,14 @@ export default function AssetReviewPanel({id}:{id:string}){
      </details></>:<p>No external candidate is approved. Use the creator-owned fallback.</p>}
    </article>
   </div>
+  {originalFallback&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`fallback-${id}-heading`}>
+   <h3 id={`fallback-${id}-heading`}>Original HOLD fallback graphic</h3>
+   <a href={originalFallback.path}><img src={originalFallback.path} width={originalFallback.width} height={originalFallback.height} alt={`Build ${id} original RN fallback graphic. HOLD; not evidence.`} loading="lazy" style={image}/></a>
+   <p><b>{originalFallback.label}</b></p>
+   <p>This generated RN-owned fallback is available for review while the third-party candidate remains on HOLD. It is not selected external evidence and does not change staging status.</p>
+   <p><a href={originalFallback.path}>Open the full fallback SVG →</a></p>
+   <details><summary>Integrity record</summary><p><b>SHA-256:</b> <code>{originalFallback.sha256}</code></p><p><b>Dimensions:</b> {originalFallback.width} × {originalFallback.height}; {originalFallback.mediaType}; {originalFallback.bytes} bytes.</p></details>
+  </article>}
   <fieldset style={{...card,marginTop:'1rem'}}>
    <legend><b>Canonical review gates</b></legend>
    <label style={{display:'block'}}><input type="checkbox" checked={record.rnFallbackReady} readOnly disabled/> Creator-owned fallback ready</label>
