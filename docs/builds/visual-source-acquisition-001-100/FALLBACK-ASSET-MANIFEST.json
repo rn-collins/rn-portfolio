@@ -1,0 +1,775 @@
+{
+  "schemaVersion": "1.0.0",
+  "algorithm": "sha256",
+  "generatedFrom": "docs/builds/visual-source-acquisition-001-100/FALLBACK-SPECS-HOLD.json",
+  "state": {
+    "status": "HOLD",
+    "assetClass": "ORIGINAL-RN-FALLBACK",
+    "externalSelected": false,
+    "externalStaged": false,
+    "evidence": false
+  },
+  "count": 76,
+  "files": [
+    {
+      "buildId": "010",
+      "path": "/100-builds/fallbacks/010-original-fallback.svg",
+      "sha256": "c6ee5803e1a7c2a5ffc6532764be1dbf092873efe420d4a2fbab8288ec7f44d3",
+      "bytes": 2050,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "014",
+      "path": "/100-builds/fallbacks/014-original-fallback.svg",
+      "sha256": "9f098d51e831d4015722e8ec6e11e7b400a5d52095fb638f4765269d4449f583",
+      "bytes": 2203,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "015",
+      "path": "/100-builds/fallbacks/015-original-fallback.svg",
+      "sha256": "dfb613de6b63b1e0c4a8358e5ebff5221dc1dd579d2508c333acd4ca266a545f",
+      "bytes": 2089,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "016",
+      "path": "/100-builds/fallbacks/016-original-fallback.svg",
+      "sha256": "5f5ccd3f2c1831cea074c94a6d41a46319afd5c1d36fcae29508c3baba8c69e5",
+      "bytes": 2115,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "023",
+      "path": "/100-builds/fallbacks/023-original-fallback.svg",
+      "sha256": "93215849e5335ca21bfc0939111b5f7c527dd7c0731cb58908a1d44e3c2fc07f",
+      "bytes": 2195,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "024",
+      "path": "/100-builds/fallbacks/024-original-fallback.svg",
+      "sha256": "419b6ece8778404cf1698254ac7d4b9b327a7a716db80c7262ad9d0f479b8600",
+      "bytes": 2042,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "027",
+      "path": "/100-builds/fallbacks/027-original-fallback.svg",
+      "sha256": "8be1033a470e568daea2d9202122e21c2c54b39e64658cf171fb8bbc538a207c",
+      "bytes": 2087,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "030",
+      "path": "/100-builds/fallbacks/030-original-fallback.svg",
+      "sha256": "ccfe07a93ea1d44922732a0a287c20f2f2d13756d90ebaac0d72372301581afb",
+      "bytes": 2175,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "033",
+      "path": "/100-builds/fallbacks/033-original-fallback.svg",
+      "sha256": "c8f5da6d4ba9ee15cc36c6b01a1ae744dbee8852320552fa5e21a7ad41e83747",
+      "bytes": 2083,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "034",
+      "path": "/100-builds/fallbacks/034-original-fallback.svg",
+      "sha256": "ac5728c59c5485b43cd138a6ddf1dc38fa7a6b4346f122856c7d27631ccb98a5",
+      "bytes": 2192,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "035",
+      "path": "/100-builds/fallbacks/035-original-fallback.svg",
+      "sha256": "79ea07b371c32051936875c3696e708679922ecd613934efca27caa9bb2f3ca6",
+      "bytes": 2305,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "036",
+      "path": "/100-builds/fallbacks/036-original-fallback.svg",
+      "sha256": "4e731fb554e169cc18e9555ae387a4d745243f6474e1443750587df056a8eb6a",
+      "bytes": 2110,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "037",
+      "path": "/100-builds/fallbacks/037-original-fallback.svg",
+      "sha256": "8e1edc182e949bbca0eab6ccee2f671a6e68ad629bcef5660c2984f1bef17193",
+      "bytes": 2116,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "038",
+      "path": "/100-builds/fallbacks/038-original-fallback.svg",
+      "sha256": "b3b7ba453a773b4d179651dcfcc4cac7055bc0edf0f60435e53e01c79ae28686",
+      "bytes": 2251,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "039",
+      "path": "/100-builds/fallbacks/039-original-fallback.svg",
+      "sha256": "d513910107f4102381a2be962a3fc62b45645ec17a7eca5cfe9bb404cd8ac498",
+      "bytes": 2074,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "040",
+      "path": "/100-builds/fallbacks/040-original-fallback.svg",
+      "sha256": "3e9efadc644594741d1613de00f26eda48b41106d70b081d910e02fb654d22cb",
+      "bytes": 2130,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "041",
+      "path": "/100-builds/fallbacks/041-original-fallback.svg",
+      "sha256": "fe6818e1d5bc50f9099f6b0a28a5a2ae7a23d2197fe4aab9fb3093ee22316a77",
+      "bytes": 2300,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "042",
+      "path": "/100-builds/fallbacks/042-original-fallback.svg",
+      "sha256": "3d72e8a433b9ffb535344fdbc77f331ab9b183b5cd8c306cbb24ea3dcf343f79",
+      "bytes": 2061,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "043",
+      "path": "/100-builds/fallbacks/043-original-fallback.svg",
+      "sha256": "1ad54474bf48aefc92924856effdc2d8c68faedd288f37557daf24583308f5c8",
+      "bytes": 2086,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "044",
+      "path": "/100-builds/fallbacks/044-original-fallback.svg",
+      "sha256": "2827435e21586841669a211294afe276910495afa224adef81101d3e6e81b3d0",
+      "bytes": 2233,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "045",
+      "path": "/100-builds/fallbacks/045-original-fallback.svg",
+      "sha256": "5d7d876e7e3892c05416cdb8914d4e1c2bdb7a3eeeeac5c3bf7b6e29ff67d943",
+      "bytes": 2141,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "046",
+      "path": "/100-builds/fallbacks/046-original-fallback.svg",
+      "sha256": "394e158cd5875b7e667b281b3bdc8d03104d9194655c5d8c2feba8f7a3bda738",
+      "bytes": 2136,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "047",
+      "path": "/100-builds/fallbacks/047-original-fallback.svg",
+      "sha256": "7bc72779b353996826f10bfeb05fdc8b01d6f36ff4353e88d57b941f8df5e6b0",
+      "bytes": 2313,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "048",
+      "path": "/100-builds/fallbacks/048-original-fallback.svg",
+      "sha256": "0606d6ed8491ac22109c2f0b8ac42f64c1906d62d06dce60eeab35cfb75158eb",
+      "bytes": 2092,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "049",
+      "path": "/100-builds/fallbacks/049-original-fallback.svg",
+      "sha256": "544718520a29bd6f02786b4fc6a6dc902b6431a71531b154a1b147eef1c4a337",
+      "bytes": 2179,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "050",
+      "path": "/100-builds/fallbacks/050-original-fallback.svg",
+      "sha256": "8bf7c2161416c900d949b9b73cedc93873c2b4ad524093cffcfec97a4a15957c",
+      "bytes": 2384,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "051",
+      "path": "/100-builds/fallbacks/051-original-fallback.svg",
+      "sha256": "b54e17c1cd0fb7a1d3d1b8fe5da8873bb12f86ddae931221b403f751d8473c43",
+      "bytes": 2174,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "052",
+      "path": "/100-builds/fallbacks/052-original-fallback.svg",
+      "sha256": "ee9b147c8b53d89b13a60da2fb4b62dfb816020640a150896246fe490c68b219",
+      "bytes": 2186,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "053",
+      "path": "/100-builds/fallbacks/053-original-fallback.svg",
+      "sha256": "e9e684c75a629172909e8752192d0891c68edbf3cec8fe98a5da99c33d052d11",
+      "bytes": 2300,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "054",
+      "path": "/100-builds/fallbacks/054-original-fallback.svg",
+      "sha256": "be54282a0f2f87d31cdc0249229a8815d28e740632a00949e8aa6616dfc9504c",
+      "bytes": 2078,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "055",
+      "path": "/100-builds/fallbacks/055-original-fallback.svg",
+      "sha256": "4b25c997f0f7633f069f65d6d2faa42002599bee76b1b50fa63bddbc81cd912e",
+      "bytes": 2144,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "056",
+      "path": "/100-builds/fallbacks/056-original-fallback.svg",
+      "sha256": "1d1102e041c51c2be07a4b1fbbbe4683042bed6828efc83af3bd501b741858f5",
+      "bytes": 2254,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "057",
+      "path": "/100-builds/fallbacks/057-original-fallback.svg",
+      "sha256": "ec9276c92061d281a7612df2276b08be62cb4539d4314d93352b69b7ed841acf",
+      "bytes": 2096,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "058",
+      "path": "/100-builds/fallbacks/058-original-fallback.svg",
+      "sha256": "32efebc6b5d1039beb5365b623b9aefb197a4603e8721e1bce0723b3f0dcf2c0",
+      "bytes": 2058,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "059",
+      "path": "/100-builds/fallbacks/059-original-fallback.svg",
+      "sha256": "474dda51254a6e99112ccf6e43cb17869c944114393cb5ed84202dfd3ff47228",
+      "bytes": 2290,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "060",
+      "path": "/100-builds/fallbacks/060-original-fallback.svg",
+      "sha256": "cec65a01f032c5e2662b4f6187e4a5f117e35449108b20e56869f89dd7c31c20",
+      "bytes": 2091,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "061",
+      "path": "/100-builds/fallbacks/061-original-fallback.svg",
+      "sha256": "85dc0430cbb9b1f3a60159b84549605a16b7e885856f1091b3414fbf67d19f61",
+      "bytes": 2102,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "062",
+      "path": "/100-builds/fallbacks/062-original-fallback.svg",
+      "sha256": "a45478f2f5099baa8edbdb3b5bd872d5349a77d12d49956ca00ed605a18947e0",
+      "bytes": 2218,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "063",
+      "path": "/100-builds/fallbacks/063-original-fallback.svg",
+      "sha256": "511752392089d4c356f951544d00765b95591c1efbdd68cbdc64e2022cbcab62",
+      "bytes": 2121,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "064",
+      "path": "/100-builds/fallbacks/064-original-fallback.svg",
+      "sha256": "8965df3d81787165e787ba782b4139cc9001ced2faa8b83f07dd1e63196f8839",
+      "bytes": 2105,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "065",
+      "path": "/100-builds/fallbacks/065-original-fallback.svg",
+      "sha256": "86e4eab6a274e44dd499013da566b81f48ba3c1f5f8994b2312a5f44c4512786",
+      "bytes": 2430,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "066",
+      "path": "/100-builds/fallbacks/066-original-fallback.svg",
+      "sha256": "b11031b5344e723d7612ab98c1551026f0842566dd5c6ecf12b79571bdae2154",
+      "bytes": 2115,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "067",
+      "path": "/100-builds/fallbacks/067-original-fallback.svg",
+      "sha256": "74e9c5fe537f2cd624a4ff1d743eb40703d4bdd8fda8e015ae7417ccdb4c8473",
+      "bytes": 2152,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "068",
+      "path": "/100-builds/fallbacks/068-original-fallback.svg",
+      "sha256": "61e00e61b7f9e4be1a034914fdbc676e1431225e27e68b97bdf7b3f21c5d7ab8",
+      "bytes": 2226,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "069",
+      "path": "/100-builds/fallbacks/069-original-fallback.svg",
+      "sha256": "2893edcc9dbca315787327e3238274a5a73606b518b72c3c1bf738b7cdbcca16",
+      "bytes": 2088,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "070",
+      "path": "/100-builds/fallbacks/070-original-fallback.svg",
+      "sha256": "dd81d000076b7c6a0219b21a6c8a9b34e49fbb80b1b3f89f89b84546b659deac",
+      "bytes": 2141,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "071",
+      "path": "/100-builds/fallbacks/071-original-fallback.svg",
+      "sha256": "f9ac1c0e36f803ea8ec096dbe6338840380bbb7a2e7fe1ac2c7bd5950672e402",
+      "bytes": 2297,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "072",
+      "path": "/100-builds/fallbacks/072-original-fallback.svg",
+      "sha256": "1708e4d8c72c41719ddcd75ec40fabe44009b8420769878b85060d7743745e4d",
+      "bytes": 2044,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "073",
+      "path": "/100-builds/fallbacks/073-original-fallback.svg",
+      "sha256": "18adbd23cac6cb7fc15afaac3e47ae610e8a564a16aeef50cc1cf5f14dc18bd1",
+      "bytes": 2051,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "074",
+      "path": "/100-builds/fallbacks/074-original-fallback.svg",
+      "sha256": "87a7fd1428577a8a9ae682955a973b18d85e339ab10bf78d6e8de8b034d618c3",
+      "bytes": 2285,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "075",
+      "path": "/100-builds/fallbacks/075-original-fallback.svg",
+      "sha256": "9e7c4c549f367d79b0a1dedb980c5d1f355a9d449cd46187ae1e86dd9eff0ed3",
+      "bytes": 2150,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "076",
+      "path": "/100-builds/fallbacks/076-original-fallback.svg",
+      "sha256": "3748480b7551bab9fb0a139198c768cb71077c28af95f761ffa563357d49606b",
+      "bytes": 2205,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "077",
+      "path": "/100-builds/fallbacks/077-original-fallback.svg",
+      "sha256": "24fa2a9cbc1479870c7100737bc3e71251274080f143784e4c9d9edcbcad9849",
+      "bytes": 2271,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "078",
+      "path": "/100-builds/fallbacks/078-original-fallback.svg",
+      "sha256": "f14c4cbc68ec60cd0337e03a043a702f239dd16068b894927f469f15d618760b",
+      "bytes": 2102,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "079",
+      "path": "/100-builds/fallbacks/079-original-fallback.svg",
+      "sha256": "917f2d2bc7e58854bbb21c1be75c6881f595673a7ed7363a31a84017334bf726",
+      "bytes": 2156,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "080",
+      "path": "/100-builds/fallbacks/080-original-fallback.svg",
+      "sha256": "e89c4a91ef80ba2b5a1032a0b4aa8eb460aabb400f1389d6035e34a76b41e642",
+      "bytes": 2249,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "081",
+      "path": "/100-builds/fallbacks/081-original-fallback.svg",
+      "sha256": "d3de7b36cc8703cae0009265d309102ac2eb93543cb492e2ed0c0194345bfb4a",
+      "bytes": 2125,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "082",
+      "path": "/100-builds/fallbacks/082-original-fallback.svg",
+      "sha256": "08a28e0e2bcdbc9bd5fda7aedf8907e6cca3b6f2f00c6c1280cc2449b8cddde9",
+      "bytes": 2124,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "083",
+      "path": "/100-builds/fallbacks/083-original-fallback.svg",
+      "sha256": "ff99b74cbe1b17360365bf585d5cbcc5d926377c2ed51b97eb2b9c5aef07c5b5",
+      "bytes": 2240,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "084",
+      "path": "/100-builds/fallbacks/084-original-fallback.svg",
+      "sha256": "991a88b3085e86e3e48eaec2170232296d3937d53ea4e0610c4f6ffaff5a95ed",
+      "bytes": 2090,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "085",
+      "path": "/100-builds/fallbacks/085-original-fallback.svg",
+      "sha256": "71dc722fc22e5148f77d9321b3b34d5fee7b73302730bcbe33d9025312698b7a",
+      "bytes": 2078,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "086",
+      "path": "/100-builds/fallbacks/086-original-fallback.svg",
+      "sha256": "7114e10049ea326c72d30265cc0f67a3e9a25e73ab66b7390ebe920de13dab59",
+      "bytes": 2221,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "087",
+      "path": "/100-builds/fallbacks/087-original-fallback.svg",
+      "sha256": "0b8a6da20d19913d30079017dcb9af7a02a55f02793da35340e20aa2bcefebf3",
+      "bytes": 2120,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "088",
+      "path": "/100-builds/fallbacks/088-original-fallback.svg",
+      "sha256": "d84d082ff77debcde78b9b355af35f85ad70152ffccb3924e02784f63eaaa688",
+      "bytes": 2166,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "089",
+      "path": "/100-builds/fallbacks/089-original-fallback.svg",
+      "sha256": "f4724edb1daa865124c3e5294bf65cfce415e05c9a42b287712cfd7da2348aef",
+      "bytes": 2289,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "090",
+      "path": "/100-builds/fallbacks/090-original-fallback.svg",
+      "sha256": "3be860a7d9664366986843291b8c3b99ecdf9ae4638e7b7b2eae639432844ea4",
+      "bytes": 2082,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "091",
+      "path": "/100-builds/fallbacks/091-original-fallback.svg",
+      "sha256": "5b588ae313fe23f628c6f3d13e31f1c61a4f6775ffe63b3767bf3c3b0022c003",
+      "bytes": 2145,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "092",
+      "path": "/100-builds/fallbacks/092-original-fallback.svg",
+      "sha256": "2eebd1e2d4d8580dfbd08e6f04057077b08c631209ad3c398a6fd8e02930be5e",
+      "bytes": 2284,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "093",
+      "path": "/100-builds/fallbacks/093-original-fallback.svg",
+      "sha256": "1ff744ba1db56093040119e94a99bfd995b2abb0336efe6f245f672d5dd9e20b",
+      "bytes": 2067,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "094",
+      "path": "/100-builds/fallbacks/094-original-fallback.svg",
+      "sha256": "1fe8e0ab0bcd04b3f69abb856e56d5a0e610482ce935224ece94254b8e361f94",
+      "bytes": 2157,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "095",
+      "path": "/100-builds/fallbacks/095-original-fallback.svg",
+      "sha256": "7c590bfd5e49e1e33a7b22c8fc6fd8948e42ea79b89e9c4d25d6a49dea0ec5db",
+      "bytes": 2316,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "096",
+      "path": "/100-builds/fallbacks/096-original-fallback.svg",
+      "sha256": "18db461fda40a42c919e773c820b19c953bd9297dcf53d8dc3e7e94063948b93",
+      "bytes": 2101,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "097",
+      "path": "/100-builds/fallbacks/097-original-fallback.svg",
+      "sha256": "9e3bf36fc5b9decea024675ce1f0798df59183524f059b2897fdec324177ba74",
+      "bytes": 2159,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "098",
+      "path": "/100-builds/fallbacks/098-original-fallback.svg",
+      "sha256": "f9daf02c9ca8b9cb9612bfc37aa325f627782b8f1ddf3245d35c375f6cf1f0aa",
+      "bytes": 2258,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "099",
+      "path": "/100-builds/fallbacks/099-original-fallback.svg",
+      "sha256": "7288892869572bb9ac45eef57558d0e871aa0613400c90e5db59fcb48c2cda72",
+      "bytes": 2126,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    },
+    {
+      "buildId": "100",
+      "path": "/100-builds/fallbacks/100-original-fallback.svg",
+      "sha256": "7b1aa38d7288fcc791827cb2295f8ce5b100207b3cd59e92c8540216ecd400fe",
+      "bytes": 2316,
+      "width": 1200,
+      "height": 1500,
+      "mediaType": "image/svg+xml",
+      "label": "ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE"
+    }
+  ]
+}
