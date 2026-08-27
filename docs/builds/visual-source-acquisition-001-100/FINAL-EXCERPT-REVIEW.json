@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewedAt": "2026-08-27",
+  "scope": "Final independent review of the 11 W3C/NIST review-only source excerpt SVGs",
+  "decisionRule": "Promotion requires every fidelity, visual, mobile-legibility, attribution, governing-notice, no-mark, no-endorsement, contextual-fit, alt-text and caption gate to pass independently.",
+  "summary": {
+    "reviewed": 11,
+    "approvedForPromotion": 0,
+    "remainHold": 11,
+    "selected": 0,
+    "staged": 0
+  },
+  "sharedEvidence": {
+    "geometry": "Each SVG has a 1200 by 1500 viewBox and is rendered as one fixed canvas.",
+    "mobileLegibility": "At a 360 CSS pixel display width the 24px SVG body font scales to approximately 7.2 CSS pixels and the 18px notice font to approximately 5.4 CSS pixels. The excerpt and required notice are not independently readable without zoom.",
+    "marks": "No W3C or NIST logo, seal, portrait, figure, photograph or institutional mark appears in any reviewed SVG.",
+    "endorsement": "Every render visibly says Context excerpt only and No affiliation or endorsement, and remains labeled HOLD, REVIEW RENDER, NOT SELECTED OR STAGED.",
+    "accessibility": "Every SVG has role=img, an aria-labelledby relationship, title and description. Those structural features pass; they do not cure unreadable visible text or contextual mismatch.",
+    "fidelityBasis": "The render manifest records a source SHA-256 and exact-wording check for each excerpt. This review accepts those byte/text checks only as provenance evidence; it does not infer that a composite is a screenshot of the original page."
+  },
+  "records": [
+    {
+      "buildId": "010",
+      "title": "From Words to Structure",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe the excerpt", "strong contextual fit: SHACL turns graph conditions into formal structure"],
+      "failed": ["mobile legibility", "governing W3C notice not established: the package identifies a license-version mismatch while the render cites the 2023 Software and Document License", "required original URI, copyright notice and document status treatment not yet proven complete as a single attached notice"],
+      "promotionBlocker": "Resolve the exact document-use terms linked by the 2017 Recommendation, attach the required copyright/status notice, and redesign the excerpt for readable mobile presentation."
+    },
+    {
+      "buildId": "030",
+      "title": "Interface Repair in Motion",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: WCAG principles directly concern interface accessibility"],
+      "failed": ["mobile legibility", "visual reading order: the abstract continues from the bottom of the left column to the top of the right column, then returns to a later principles excerpt", "the package still records an asset-version/date decision gate", "the alt text does not disclose that the principles are a noncontiguous composite from outside the abstract"],
+      "promotionBlocker": "Choose one immutable WCAG version/date/notice tuple, use an explicit sequential reading order, disclose the composite in alt/caption, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "036",
+      "title": "Offline is a product state",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: the selected motivation expressly addresses offline capability"],
+      "failed": ["mobile legibility", "visual reading order: the final motivation line jumps to the top of the right column", "asset-level authorization and complete governing notice remain unresolved in the package"],
+      "promotionBlocker": "Reflow the excerpt sequentially, establish and attach the applicable snapshot notice, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "038",
+      "title": "A benchmark is not performance",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe the displayed AI RMF paragraph"],
+      "failed": ["mobile legibility", "contextual claim fit: the excerpt describes the voluntary and use-case-agnostic scope of the AI RMF but does not discuss benchmarks or the distinction between benchmark scores and real-world performance", "publication-specific notice treatment is not attached"],
+      "promotionBlocker": "Select a passage that directly supports the benchmark-versus-performance distinction, attach the exact publication notice, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "039",
+      "title": "A trace is evidence, not truth",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe the PROV-O abstract"],
+      "failed": ["mobile legibility", "contextual claim fit: the ontology abstract explains provenance representation and interchange but does not establish the build's evidence-versus-truth distinction", "complete governing W3C copyright/status notice not proven attached"],
+      "promotionBlocker": "Use a passage that directly supports the bounded evidentiary claim, attach the exact document notice, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "040",
+      "title": "Confidence is not permission",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe trustworthiness tradeoffs"],
+      "failed": ["mobile legibility", "contextual claim fit: the excerpt concerns trustworthiness tradeoffs and whether AI is appropriate, but does not directly address confidence scores or authorization/permission", "publication-specific notice treatment is not attached"],
+      "promotionBlocker": "Select a passage directly addressing confidence and authority boundaries, attach the exact publication notice, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "041",
+      "title": "AI work needs an owner",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: GOVERN 2 and 2.1 through 2.3 directly address accountability, roles and executive responsibility", "alt and caption accurately describe the excerpt"],
+      "failed": ["mobile legibility", "publication-specific notice treatment is not attached"],
+      "promotionBlocker": "Attach the exact publication notice and produce a mobile-readable render."
+    },
+    {
+      "buildId": "049",
+      "title": "A preference is not permanent",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe current and target privacy Profiles"],
+      "failed": ["mobile legibility", "contextual claim fit: organizational privacy Profiles are not user preferences, so the excerpt risks converting a framework term into a product-preference claim", "publication-specific notice treatment is not attached"],
+      "promotionBlocker": "Select a source passage about revisable user preferences or narrow the build claim to privacy Profiles, attach the exact publication notice, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "055",
+      "title": "Let the Smart Home Explain Itself",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "alt and caption accurately describe cybersecurity state awareness"],
+      "failed": ["mobile legibility", "contextual claim fit: device state reporting to authorized entities is materially narrower than a smart home explaining itself and does not support natural-language explainability", "publication-specific notice treatment is not attached"],
+      "promotionBlocker": "Keep the excerpt limited to cybersecurity state reporting or select direct explainability evidence, attach the exact publication notice, and produce a mobile-readable render."
+    },
+    {
+      "buildId": "057",
+      "title": "Show Me Where This Content Came From",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: PROV-O entities, activities and agents directly support provenance description", "alt and caption accurately describe the excerpt"],
+      "failed": ["mobile legibility", "complete governing W3C copyright/status notice not proven attached"],
+      "promotionBlocker": "Attach the exact document notice and produce a mobile-readable render."
+    },
+    {
+      "buildId": "058",
+      "title": "Trace a Claim All the Way Back",
+      "decision": "HOLD",
+      "passed": ["recorded source hash and wording check", "no institutional mark", "explicit no-endorsement boundary", "strong contextual fit: PROV-O generation and derivation relations directly support provenance chains"],
+      "failed": ["mobile legibility", "visual reading order: the final derivation sentence jumps to the top of the right column", "the alt text does not disclose that the terms are a noncontiguous composite", "complete governing W3C copyright/status notice not proven attached"],
+      "promotionBlocker": "Reflow the excerpt sequentially, disclose the composite in alt/caption, attach the exact document notice, and produce a mobile-readable render."
+    }
+  ]
+}
