@@ -20,7 +20,7 @@ if(r.width!==1200||r.height!==1500||side.width!==1200||side.height!==1500)fail(r
 if(!svg.includes('width="1200" height="1500" viewBox="0 0 1200 1500"'))fail(r.buildId+" geometry");
 if(!svg.includes('role="img" aria-labelledby="title desc"')||!svg.includes('<title id="title">')||!svg.includes('<desc id="desc">'))fail(r.buildId+" accessibility");
 if(!svg.includes("FRAME - TRACE - TEST")||!svg.includes("NOT DOCUMENTARY EVIDENCE"))fail(r.buildId+" boundary");
-if(/<(image|script|foreignObject)\\b|data:/i.test(svg)||/https?:\\/\\/(?!www\\.w3\\.org\\/2000\\/svg)/i.test(svg))fail(r.buildId+" external/executable content");
+const body=svg.replace('xmlns="http://www.w3.org/2000/svg"',""); if(/<(image|script|foreignObject)\b|data:/i.test(body)||body.includes("http://")||body.includes("https://"))fail(r.buildId+" external/executable content");
 if(side.thirdPartyVisuals!==false||side.liveCover!=="RN_OWNED"||side.canvaReady!==true)fail(r.buildId+" metadata");
 if(!side.colorPalette?.colorIndependentMeaning)fail(r.buildId+" color semantics");}
 console.log("RN cover exports valid: 74 records (70 HOLD + 4 selected/review-only), 148 files.");
