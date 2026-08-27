@@ -29,6 +29,10 @@ for(const route of ['/100-builds/001/record','/100-builds/001/making','/100-buil
 const assetPanel=read('apps/web/app/100-builds/AssetReviewPanel.tsx');
 for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','Original HOLD fallback graphic','Open the full fallback SVG','Download SVG ↓','download={`${id}-original-rn-fallback.svg`}','fallbackSpec?.accessibility.alt','fallbackSpec.caption','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
 check(recordPage.includes('<AssetReviewPanel id={id}/>'),'every public build record must render the canonical asset review panel');
+const assetOperations=read('apps/web/app/100-builds/archive/AssetOperationsSummary.tsx');
+for(const needle of ["import packages from '../../../../docs/builds/visual-source-acquisition-001-100/packages.json'","import fallbackManifest from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json'","import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json'","records.map(record=>","aria-label=\"Asset status for all 100 builds\"","OPEN DOSSIER →","FALLBACK SVG ↓","record.liveCoverSubstituted===true"])check(assetOperations.includes(needle),'asset operations surface must derive from canonical records: '+needle);
+const programArchivePage=read('apps/web/app/100-builds/archive/page.tsx');
+check(programArchivePage.includes("import AssetOperationsSummary from './AssetOperationsSummary'")&&programArchivePage.includes('<AssetOperationsSummary/>'),'program archive must expose canonical asset operations surface');
 const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
 check(Array.isArray(visualPackages.records)&&visualPackages.records.length===100,'visual package ledger must contain 100 records');
 const visualIds=visualPackages.records.map(record=>record.buildId);
@@ -118,4 +122,4 @@ for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews plus one canonical 100-row asset-operations surface with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
