@@ -859,9 +859,9 @@
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
-            "sourcePageUrl": "https://www.w3.org/TR/shacl/",
-            "sourceLocator": "Official publication/document at https://www.w3.org/TR/shacl/; rights evidence at https://www.w3.org/copyright/document-license-2023/",
-            "exactAssetUrl": "https://www.w3.org/TR/shacl/",
+            "sourcePageUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+            "sourceLocator": "Immutable W3C SHACL Recommendation dated 20 July 2017 at https://www.w3.org/TR/2017/REC-shacl-20170720/; document-use link redirects to the current W3C document-license page.",
+            "exactAssetUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
             "issuerCreator": "World Wide Web Consortium",
             "assetDate": "2017-07-20",
             "assetFormat": "HTML technical report",
@@ -2645,9 +2645,9 @@
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
-            "sourcePageUrl": "https://www.w3.org/TR/WCAG22/",
-            "sourceLocator": "Official publication/document at https://www.w3.org/TR/WCAG22/; rights evidence at https://www.w3.org/copyright/document-license-2023/",
-            "exactAssetUrl": "https://www.w3.org/TR/WCAG22/",
+            "sourcePageUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+            "sourceLocator": "Immutable W3C WCAG 2.2 Recommendation dated 5 October 2023 at https://www.w3.org/TR/2023/REC-WCAG22-20231005/; current /TR/WCAG22/ resolves to a later 2024 version.",
+            "exactAssetUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
             "issuerCreator": "World Wide Web Consortium",
             "assetDate": "2023-10-05",
             "assetFormat": "HTML technical report",
@@ -3502,7 +3502,7 @@
           {
             "label": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
             "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
-            "exactAssetUrl": null,
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
             "issuerCreator": "National Institute of Standards and Technology",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -3517,7 +3517,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "sourceLocator": "Official DOI record at https://doi.org/10.6028/NIST.AI.100-1; exact PDF at https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf; NIST publication-rights policy at https://www.nist.gov/nist-research-library/nist-publications.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -3571,7 +3571,10 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2023-01-26",
+            "assetFormat": "PDF",
+            "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3636,8 +3639,8 @@
         "searched": [
           {
             "label": "PROV-O: The PROV Ontology",
-            "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
-            "exactAssetUrl": null,
+            "sourcePageUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+            "exactAssetUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -3652,7 +3655,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "sourceLocator": "Immutable W3C PROV-O Recommendation dated 30 April 2013 at https://www.w3.org/TR/2013/REC-prov-o-20130430/; governing W3C document-use terms must remain attached to any final excerpt.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -3706,7 +3709,9 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2013-04-30",
+            "assetFormat": "HTML technical report"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3772,7 +3777,7 @@
           {
             "label": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
             "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
-            "exactAssetUrl": null,
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
             "issuerCreator": "National Institute of Standards and Technology",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -3787,7 +3792,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "sourceLocator": "Official DOI record at https://doi.org/10.6028/NIST.AI.100-1; exact PDF at https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf; NIST publication-rights policy at https://www.nist.gov/nist-research-library/nist-publications.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -3841,7 +3846,10 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2023-01-26",
+            "assetFormat": "PDF",
+            "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -3907,7 +3915,7 @@
           {
             "label": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
             "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
-            "exactAssetUrl": null,
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
             "issuerCreator": "National Institute of Standards and Technology",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -3922,7 +3930,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://doi.org/10.6028/NIST.AI.100-1",
+            "sourceLocator": "Official DOI record at https://doi.org/10.6028/NIST.AI.100-1; exact PDF at https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf; NIST publication-rights policy at https://www.nist.gov/nist-research-library/nist-publications.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -3976,7 +3984,10 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2023-01-26",
+            "assetFormat": "PDF",
+            "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -4987,7 +4998,7 @@
           {
             "label": "NIST Privacy Framework 1.0",
             "sourcePageUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
-            "exactAssetUrl": null,
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
             "issuerCreator": "National Institute of Standards and Technology",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -5002,7 +5013,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "sourceLocator": "Official DOI record at https://doi.org/10.6028/NIST.CSWP.01162020; exact PDF at https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf; NIST publication-rights policy at https://www.nist.gov/nist-research-library/nist-publications.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -5056,7 +5067,10 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2020-01-16",
+            "assetFormat": "PDF",
+            "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -6093,7 +6107,7 @@
           {
             "label": "IoT Device Cybersecurity Capability Core Baseline (NISTIR 8259A)",
             "sourcePageUrl": "https://doi.org/10.6028/NIST.IR.8259A",
-            "exactAssetUrl": null,
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf",
             "issuerCreator": "National Institute of Standards and Technology",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -6108,7 +6122,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://doi.org/10.6028/NIST.IR.8259A",
+            "sourceLocator": "Official DOI record at https://doi.org/10.6028/NIST.IR.8259A; exact PDF at https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf; NIST publication-rights policy at https://www.nist.gov/nist-research-library/nist-publications.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -6162,7 +6176,10 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2020-05",
+            "assetFormat": "PDF",
+            "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -6436,8 +6453,8 @@
         "searched": [
           {
             "label": "PROV-O: The PROV Ontology",
-            "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
-            "exactAssetUrl": null,
+            "sourcePageUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+            "exactAssetUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -6452,7 +6469,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "sourceLocator": "Immutable W3C PROV-O Recommendation dated 30 April 2013 at https://www.w3.org/TR/2013/REC-prov-o-20130430/; governing W3C document-use terms must remain attached to any final excerpt.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -6506,7 +6523,9 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2013-04-30",
+            "assetFormat": "HTML technical report"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
@@ -6571,8 +6590,8 @@
         "searched": [
           {
             "label": "PROV-O: The PROV Ontology",
-            "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
-            "exactAssetUrl": null,
+            "sourcePageUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+            "exactAssetUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
@@ -6587,7 +6606,7 @@
             "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
             "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
             "candidateType": "official-or-primary-context-candidate",
-            "sourceLocator": "https://www.w3.org/TR/prov-o/",
+            "sourceLocator": "Immutable W3C PROV-O Recommendation dated 30 April 2013 at https://www.w3.org/TR/2013/REC-prov-o-20130430/; governing W3C document-use terms must remain attached to any final excerpt.",
             "rightsStatement": "not cleared for reuse",
             "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
             "orientationDimensions": {
@@ -6641,7 +6660,9 @@
                 "result": "REJECT — recognition alone does not justify trademark, seal or endorsement-bearing use.",
                 "decision": "Do not use without express mark-specific authorization."
               }
-            ]
+            ],
+            "assetDate": "2013-04-30",
+            "assetFormat": "HTML technical report"
           }
         ],
         "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
