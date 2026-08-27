@@ -1195,7 +1195,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
+        "status": "EXACT SOURCE EXCERPT APPROVED / SELECTED / STAGED / LIVE",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1206,30 +1206,30 @@
             "assetDate": "2017-07-20",
             "assetFormat": "HTML technical report",
             "termsUrl": "https://www.w3.org/copyright/document-license-2023/",
-            "rightsStatement": "W3C Document License permits copying and distribution of the linked document or portions in any medium when the original URI, copyright notice and status are retained and context is not misleading.",
-            "permissionDecision": "HOLD — The exact SHACL asset is a 2017 Recommendation, but the ledger cited the 2023 W3C Document License rather than the asset-linked document-use rules. Reuse may be resolvable, but this record does not yet prove the governing terms exactly.",
-            "credit": "Copyright © 2017 W3C®. Material reproduced from Shapes Constraint Language (SHACL), https://www.w3.org/TR/shacl/ under the W3C Document License.",
-            "altText": "Official W3C SHACL Recommendation document or guidance page, selected as contextual evidence for Build 010, From Words to Structure.",
+            "rightsStatement": "Copyright © 2017 W3C®. Excerpt under the W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
+            "permissionDecision": "APPROVED — exact source-context excerpt passed final rights, fidelity, contextual-fit and accessibility review.",
+            "credit": "Copyright © 2017 W3C®. Excerpt under the W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
+            "altText": "Sequential text excerpt containing the title, 20 July 2017 Recommendation status, and opening abstract sentences of the official W3C SHACL specification.",
             "orientationDimensions": {
-              "orientation": "responsive document; no intrinsic pixel dimensions",
-              "width": null,
-              "height": null,
-              "note": "Exact HTML document; capture dimensions must be specified at production time."
+              "orientation": "4:5 portrait",
+              "width": 1200,
+              "height": 1500,
+              "note": "Approved accessible SVG source-context excerpt."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
-            "claimToVisualSupport": "Supports recognition of W3C SHACL Recommendation and the limited source context adjacent to Build 010; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+            "cropGuidance": "Use the complete approved 1200×1500 excerpt SVG. Do not crop attribution, status, contextual-limit, license/policy or no-endorsement text.",
+            "claimToVisualSupport": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 010.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to From Words to Structure.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Follow the copyright/document-use link embedded in the 2017 Recommendation, record the exact governing notice and required attribution, then re-audit the proposed crop.",
-            "decision": "HOLD — The exact SHACL asset is a 2017 Recommendation, but the ledger cited the 2023 W3C Document License rather than the asset-linked document-use rules. Reuse may be resolvable, but this record does not yet prove the governing terms exactly.",
+            "nextStep": "No open promotion gate. Re-review only if source, excerpt wording, rights notice, claim, crop or rendering changes.",
+            "decision": "PROMOTED — exact source-context excerpt live with RN rollback preserved.",
             "holdReasonCode": "GOVERNING_LICENSE_VERSION_MISMATCH",
             "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Follow the copyright/document-use link embedded in the 2017 Recommendation, record the exact governing notice and required attribution, then re-audit the proposed crop.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "requiredBeforeExternalSubstitution": "Completed: final excerpt review approved direct contextual fit and governing rights/notice treatment.",
+        "generatedFallbackReason": "RN creator-owned cover remains preserved solely as rollback."
       },
       "canva": {
         "generationAuthorized": false,
@@ -1251,12 +1251,43 @@
         "carousel": "Build 010 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 010, From Words to Structure: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED",
-      "acquisitionDisposition": "HOLD",
-      "externalSelected": false,
-      "externalStaged": false,
+      "productionStatus": "SOURCE-CONTEXT COVER LIVE / RN ROLLBACK PRESERVED / CANVA NOT AUTHORIZED",
+      "acquisitionDisposition": "EXCERPT-PROMOTED",
+      "externalSelected": true,
+      "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
+      "dispositionBasis": "Exact immutable source excerpt passed independent fidelity, rights/notice, direct contextual-fit, accessibility, attribution, no-mark and no-endorsement review; RN fallback remains preserved for rollback.",
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/010/build-010-linkedin-poster.png",
+        "openingFrame": "/media/builds/010/build-010-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 010, From Words to Structure. Creator-owned 4:5 typographic opening frame. Visible text: “THE IDEA SOUNDS CLEAR. Until two people mean different things by the same noun.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "assetUrl": "/media/100-builds/source-excerpts/build-010-source-excerpt-hold.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/source-excerpts/build-010-source-excerpt-hold.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "8a6f2c3bac1d914f82b77d48b0f990fa4de4758c1e0e739376f3685a4cefa02f",
+        "altText": "Sequential text excerpt containing the title, 20 July 2017 Recommendation status, and opening abstract sentences of the official W3C SHACL specification.",
+        "caption": "W3C SHACL Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+        "credit": "Copyright © 2017 W3C®. Excerpt under the W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
+        "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+        "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+      }
     },
     {
       "buildId": "011",
@@ -3393,7 +3424,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "EXACT ASSET OR CONTEXT FOUND / INDEPENDENT REVIEW HOLD",
+        "status": "EXACT SOURCE EXCERPT APPROVED / SELECTED / STAGED / LIVE",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -3404,30 +3435,30 @@
             "assetDate": "2023-10-05",
             "assetFormat": "HTML technical report",
             "termsUrl": "https://www.w3.org/copyright/document-license-2023/",
-            "rightsStatement": "W3C Document License permits copying and distribution of the linked document or portions with URI, copyright and status retained; no misleading context or endorsement.",
-            "permissionDecision": "HOLD — The exact latest WCAG 2.2 asset resolves to the 12 December 2024 Recommendation, while the ledger recorded 5 October 2023. The asset/version/date tuple is not exact.",
-            "credit": "Copyright © 2023 W3C®. Material reproduced from Web Content Accessibility Guidelines (WCAG) 2.2, https://www.w3.org/TR/WCAG22/, under the W3C Document License.",
-            "altText": "Official WCAG 2.2 document or guidance page, selected as contextual evidence for Build 030, Interface Repair in Motion.",
+            "rightsStatement": "Copyright © 2023 W3C®. Excerpt under the 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+            "permissionDecision": "APPROVED — exact source-context excerpt passed final rights, fidelity, contextual-fit and accessibility review.",
+            "credit": "Copyright © 2023 W3C®. Excerpt under the 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+            "altText": "Sequential text composite from the immutable 5 October 2023 WCAG 2.2 Recommendation: title and status, one abstract sentence, then a separately labeled principles passage.",
             "orientationDimensions": {
-              "orientation": "responsive document; no intrinsic pixel dimensions",
-              "width": null,
-              "height": null,
-              "note": "Exact HTML document; capture dimensions must be specified at production time."
+              "orientation": "4:5 portrait",
+              "width": 1200,
+              "height": 1500,
+              "note": "Approved accessible SVG source-context excerpt."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
-            "claimToVisualSupport": "Supports recognition of WCAG 2.2 and the limited source context adjacent to Build 030; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+            "cropGuidance": "Use the complete approved 1200×1500 excerpt SVG. Do not crop attribution, status, contextual-limit, license/policy or no-endorsement text.",
+            "claimToVisualSupport": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 030.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Interface Repair in Motion.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
-            "nextStep": "Choose and record either the immutable 2023 Recommendation URL with its date and governing notice or the immutable 2024 Recommendation URL and matching metadata, then re-audit.",
-            "decision": "HOLD — The exact latest WCAG 2.2 asset resolves to the 12 December 2024 Recommendation, while the ledger recorded 5 October 2023. The asset/version/date tuple is not exact.",
+            "nextStep": "No open promotion gate. Re-review only if source, excerpt wording, rights notice, claim, crop or rendering changes.",
+            "decision": "PROMOTED — exact source-context excerpt live with RN rollback preserved.",
             "holdReasonCode": "ASSET_VERSION_DATE_MISMATCH",
             "reAuditDecision": "DOWNGRADED BY INDEPENDENT RIGHTS/EDITORIAL REVIEW"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Choose and record either the immutable 2023 Recommendation URL with its date and governing notice or the immutable 2024 Recommendation URL and matching metadata, then re-audit.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "requiredBeforeExternalSubstitution": "Completed: final excerpt review approved direct contextual fit and governing rights/notice treatment.",
+        "generatedFallbackReason": "RN creator-owned cover remains preserved solely as rollback."
       },
       "canva": {
         "generationAuthorized": false,
@@ -3449,12 +3480,43 @@
         "carousel": "Build 030 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 030, Interface Repair in Motion: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED",
-      "acquisitionDisposition": "HOLD",
-      "externalSelected": false,
-      "externalStaged": false,
+      "productionStatus": "SOURCE-CONTEXT COVER LIVE / RN ROLLBACK PRESERVED / CANVA NOT AUTHORIZED",
+      "acquisitionDisposition": "EXCERPT-PROMOTED",
+      "externalSelected": true,
+      "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
+      "dispositionBasis": "Exact immutable source excerpt passed independent fidelity, rights/notice, direct contextual-fit, accessibility, attribution, no-mark and no-endorsement review; RN fallback remains preserved for rollback.",
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/030/build-030-linkedin-poster.png",
+        "openingFrame": "/media/builds/030/build-030-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 030, Interface Repair in Motion. Creator-owned 4:5 typographic opening frame. Visible text: “PASSING A CHECKLIST IS NOT AN INCLUSIVE EXPERIENCE — A screen can satisfy isolated rules while real people still cannot perceive, understand, navigate, recover, or finish.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "assetUrl": "/media/100-builds/source-excerpts/build-030-source-excerpt-hold.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/source-excerpts/build-030-source-excerpt-hold.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "0a078474218afc3d8befef466aea7568001590aaecc3aa239efdb11339dfbc8f",
+        "altText": "Sequential text composite from the immutable 5 October 2023 WCAG 2.2 Recommendation: title and status, one abstract sentence, then a separately labeled principles passage.",
+        "caption": "WCAG 2.2 — immutable 2023 Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+        "credit": "Copyright © 2023 W3C®. Excerpt under the 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+        "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+        "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+      }
     },
     {
       "buildId": "031",
@@ -4050,7 +4112,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "PRIMARY-SOURCE ACQUISITION REVIEW COMPLETE / 0 EXTERNAL ASSETS SELECTED / FALLBACK READY",
+        "status": "EXACT SOURCE EXCERPT APPROVED / SELECTED / STAGED / LIVE",
         "searched": [
           {
             "label": "Service Workers specification",
@@ -4059,30 +4121,31 @@
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
-            "credit": "Service Workers 1, W3C Candidate Recommendation Snapshot, 19 November 2019, https://www.w3.org/TR/2019/CR-service-workers-1-20191119/. Copyright © W3C; reproduced subject to the applicable W3C Software and Document License notice.",
-            "altText": null,
+            "credit": "Copyright © 2019 W3C®. Excerpt under the W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+            "altText": "Sequential text excerpt containing the title, 19 November 2019 Candidate Recommendation status, and offline-capability motivation passage from Service Workers 1.",
             "orientation": null,
             "dimensions": {
               "width": null,
               "height": null
             },
-            "cropGuidance": "Use only a faithful text excerpt covering offline/background-processing behavior. Exclude W3C logo and marks, navigation, editor details, code/figures unless separately cleared, and browser chrome. Do not recolor, rewrite or modify source content.",
-            "claimToVisualSupport": "The excerpt supports only that this 2019 W3C Candidate Recommendation Snapshot documents service-worker behavior capable of supporting offline content and background processing. It does not establish final Recommendation status, current completeness, product safety, preservation, recovery, performance, compliance, endorsement or Build 036 outcomes.",
-            "decision": "HOLD — immutable-source blocker resolved; retain creator-owned fallback until exact excerpt capture, notice, attribution, alt text and visual review pass.",
+            "cropGuidance": "Use the complete approved 1200×1500 excerpt SVG. Do not crop attribution, status, contextual-limit, license/policy or no-endorsement text.",
+            "claimToVisualSupport": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+            "decision": "PROMOTED — exact source-context excerpt live with RN rollback preserved.",
             "candidateType": "official-or-primary-context-candidate",
             "sourceLocator": "Immutable W3C Service Workers 1 Candidate Recommendation Snapshot, 19 November 2019, at https://www.w3.org/TR/2019/CR-service-workers-1-20191119/; publication history at https://www.w3.org/standards/history/service-workers/; governing software/document license notice must remain user-viewable.",
-            "rightsStatement": "The immutable W3C Candidate Recommendation Snapshot links W3C software/document terms permitting copying and distribution, including portions, subject to preservation of the full applicable notice, pre-existing notices and terms, source URI/status, and modification disclosures where applicable. W3C trademark and publicity restrictions remain separate.",
-            "permissionDecision": "HOLD — immutable official snapshot and reuse route are identified, but no exact rendered excerpt, full user-viewable license notice, dimensions, alt text or final no-logo visual review has been completed.",
+            "rightsStatement": "Copyright © 2019 W3C®. Excerpt under the W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+            "permissionDecision": "APPROVED — exact source-context excerpt passed final rights, fidelity, contextual-fit and accessibility review.",
             "orientationDimensions": {
-              "orientation": null,
-              "width": null,
-              "height": null
+              "orientation": "4:5 portrait",
+              "width": 1200,
+              "height": 1500,
+              "note": "Approved accessible SVG source-context excerpt."
             },
             "context": "Contextual source-page review for Build 036, Offline is a product state; the page is not itself a selected visual asset.",
             "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 036.",
             "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
             "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected.",
-            "nextStep": "Render a faithful excerpt from the immutable 2019 Candidate Recommendation Snapshot at the recorded viewport, attach the full applicable W3C license notice in a user-viewable credits surface, exclude W3C marks, record dimensions/hash/alt, and complete final visual review.",
+            "nextStep": "No open promotion gate. Re-review only if source, excerpt wording, rights notice, claim, crop or rendering changes.",
             "sourceContextPage": "https://www.w3.org/TR/service-workers/",
             "assetDateVersion": "Living W3C source; rights page accessed 2026-08-23",
             "rightsTermsUrl": "https://www.w3.org/copyright/",
@@ -4130,8 +4193,8 @@
             "termsUrl": "https://www.w3.org/copyright/software-license-2023/"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
-        "generatedFallbackReason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+        "requiredBeforeExternalSubstitution": "Completed: final excerpt review approved direct contextual fit and governing rights/notice treatment.",
+        "generatedFallbackReason": "RN creator-owned cover remains preserved solely as rollback."
       },
       "canva": {
         "generationAuthorized": false,
@@ -4153,12 +4216,43 @@
         "carousel": "Build 036 · AI-and-product-governance: opening proposition → AI/product risk → bounded mechanism → accountable owner → evidence boundary → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 036, Offline is a product state: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED",
-      "acquisitionDisposition": "HOLD",
-      "externalSelected": false,
-      "externalStaged": false,
+      "productionStatus": "SOURCE-CONTEXT COVER LIVE / RN ROLLBACK PRESERVED / CANVA NOT AUTHORIZED",
+      "acquisitionDisposition": "EXCERPT-PROMOTED",
+      "externalSelected": true,
+      "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
+      "dispositionBasis": "Exact immutable source excerpt passed independent fidelity, rights/notice, direct contextual-fit, accessibility, attribution, no-mark and no-endorsement review; RN fallback remains preserved for rollback.",
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/036/build-036-linkedin-poster.png",
+        "openingFrame": "/media/builds/036/build-036-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 036, Offline is a product state. Creator-owned 4:5 typographic opening frame. Visible text: “Offline is a product state. Keep essential work safe through disconnection and recovery.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the build number, headline, safe margins or boundary language.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "assetUrl": "/media/100-builds/source-excerpts/build-036-source-excerpt-hold.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/source-excerpts/build-036-source-excerpt-hold.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "87f6bd9173c0b256de2d8d9591833abd7c115022592a3f1784acaca79ce65137",
+        "altText": "Sequential text excerpt containing the title, 19 November 2019 Candidate Recommendation status, and offline-capability motivation passage from Service Workers 1.",
+        "caption": "Service Workers 1 — 2019 Candidate Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+        "credit": "Copyright © 2019 W3C®. Excerpt under the W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+        "sourceUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
+        "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+      }
     },
     {
       "buildId": "037",
@@ -4736,7 +4830,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "PRIMARY-SOURCE ACQUISITION REVIEW COMPLETE / 0 EXTERNAL ASSETS SELECTED / FALLBACK READY",
+        "status": "EXACT SOURCE EXCERPT APPROVED / SELECTED / STAGED / LIVE",
         "searched": [
           {
             "label": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
@@ -4745,30 +4839,31 @@
             "issuerCreator": "National Institute of Standards and Technology",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
-            "credit": "Source-page issuer: National Institute of Standards and Technology; asset credit unresolved because no asset is selected.",
-            "altText": null,
+            "credit": "Official NIST-authored publication excerpt; not subject to copyright in the United States. Third-party material excluded. Policy: https://www.nist.gov/open",
+            "altText": "Sequential text composite from NIST AI RMF GOVERN 2 containing the accountability statement and separately labeled subcategories 2.1 and 2.3 about roles and executive responsibility.",
             "orientation": null,
             "dimensions": {
               "width": null,
               "height": null
             },
-            "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
-            "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
+            "cropGuidance": "Use the complete approved 1200×1500 excerpt SVG. Do not crop attribution, status, contextual-limit, license/policy or no-endorsement text.",
+            "claimToVisualSupport": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+            "decision": "PROMOTED — exact source-context excerpt live with RN rollback preserved.",
             "candidateType": "official-or-primary-context-candidate",
             "sourceLocator": "Official DOI record at https://doi.org/10.6028/NIST.AI.100-1; exact PDF at https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf; NIST publication-rights policy at https://www.nist.gov/nist-research-library/nist-publications.",
-            "rightsStatement": "not cleared for reuse",
-            "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+            "rightsStatement": "Official NIST-authored publication excerpt; not subject to copyright in the United States. Third-party material excluded. Policy: https://www.nist.gov/open",
+            "permissionDecision": "APPROVED — exact source-context excerpt passed final rights, fidelity, contextual-fit and accessibility review.",
             "orientationDimensions": {
-              "orientation": null,
-              "width": null,
-              "height": null
+              "orientation": "4:5 portrait",
+              "width": 1200,
+              "height": 1500,
+              "note": "Approved accessible SVG source-context excerpt."
             },
             "context": "Contextual source-page review for Build 041, AI work needs an owner; the page is not itself a selected visual asset.",
             "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 041.",
             "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
             "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected.",
-            "nextStep": "Request or locate an item-level official asset record with explicit rights metadata; separately review trademarks, seals, identifiable people, privacy/publicity, third-party components and endorsement risk before selection.",
+            "nextStep": "No open promotion gate. Re-review only if source, excerpt wording, rights notice, claim, crop or rendering changes.",
             "sourceContextPage": "https://doi.org/10.6028/NIST.AI.100-1",
             "assetDateVersion": "Exact DOI/version on source page; NIST licensing page accessed 2026-08-23",
             "rightsTermsUrl": "https://www.nist.gov/nist-research-library/nist-publications",
@@ -4816,8 +4911,8 @@
             "termsUrl": "https://www.nist.gov/nist-research-library/nist-publications"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
-        "generatedFallbackReason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+        "requiredBeforeExternalSubstitution": "Completed: final excerpt review approved direct contextual fit and governing rights/notice treatment.",
+        "generatedFallbackReason": "RN creator-owned cover remains preserved solely as rollback."
       },
       "canva": {
         "generationAuthorized": false,
@@ -4839,12 +4934,43 @@
         "carousel": "Build 041 · AI-and-product-governance: opening proposition → AI/product risk → bounded mechanism → accountable owner → evidence boundary → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 041, AI work needs an owner: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED",
-      "acquisitionDisposition": "HOLD",
-      "externalSelected": false,
-      "externalStaged": false,
+      "productionStatus": "SOURCE-CONTEXT COVER LIVE / RN ROLLBACK PRESERVED / CANVA NOT AUTHORIZED",
+      "acquisitionDisposition": "EXCERPT-PROMOTED",
+      "externalSelected": true,
+      "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
+      "dispositionBasis": "Exact immutable source excerpt passed independent fidelity, rights/notice, direct contextual-fit, accessibility, attribution, no-mark and no-endorsement review; RN fallback remains preserved for rollback.",
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/041/build-041-linkedin-poster.png",
+        "openingFrame": "/media/builds/041/build-041-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 041, AI work needs an owner. Creator-owned 4:5 typographic opening frame. Visible text: “AI work needs an owner. Connect every AI decision to accountable ownership.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the build number, headline, safe margins or boundary language.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "assetUrl": "/media/100-builds/source-excerpts/build-041-source-excerpt-hold.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/source-excerpts/build-041-source-excerpt-hold.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "1db13c1837162306e9c5056f735b7231edcd8de43c932563fc22e34502aa70bb",
+        "altText": "Sequential text composite from NIST AI RMF GOVERN 2 containing the accountability statement and separately labeled subcategories 2.1 and 2.3 about roles and executive responsibility.",
+        "caption": "NIST AI RMF 1.0, p. 23. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+        "credit": "Official NIST-authored publication excerpt; not subject to copyright in the United States. Third-party material excluded. Policy: https://www.nist.gov/open",
+        "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+      }
     },
     {
       "buildId": "042",
@@ -7275,7 +7401,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "PRIMARY-SOURCE ACQUISITION REVIEW COMPLETE / 0 EXTERNAL ASSETS SELECTED / FALLBACK READY",
+        "status": "EXACT SOURCE EXCERPT APPROVED / SELECTED / STAGED / LIVE",
         "searched": [
           {
             "label": "PROV-O: The PROV Ontology",
@@ -7284,30 +7410,31 @@
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
-            "credit": "Source-page issuer: W3C; asset credit unresolved because no asset is selected.",
-            "altText": null,
+            "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+            "altText": "Sequential text composite from PROV-O Starting Point Terms: the introductory provenance-description passage, then separately labeled Entity and Activity definitions.",
             "orientation": null,
             "dimensions": {
               "width": null,
               "height": null
             },
-            "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
-            "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
+            "cropGuidance": "Use the complete approved 1200×1500 excerpt SVG. Do not crop attribution, status, contextual-limit, license/policy or no-endorsement text.",
+            "claimToVisualSupport": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+            "decision": "PROMOTED — exact source-context excerpt live with RN rollback preserved.",
             "candidateType": "official-or-primary-context-candidate",
             "sourceLocator": "Immutable W3C PROV-O Recommendation dated 30 April 2013 at https://www.w3.org/TR/2013/REC-prov-o-20130430/; governing W3C document-use terms must remain attached to any final excerpt.",
-            "rightsStatement": "not cleared for reuse",
-            "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+            "rightsStatement": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+            "permissionDecision": "APPROVED — exact source-context excerpt passed final rights, fidelity, contextual-fit and accessibility review.",
             "orientationDimensions": {
-              "orientation": null,
-              "width": null,
-              "height": null
+              "orientation": "4:5 portrait",
+              "width": 1200,
+              "height": 1500,
+              "note": "Approved accessible SVG source-context excerpt."
             },
             "context": "Contextual source-page review for Build 057, Show Me Where This Content Came From; the page is not itself a selected visual asset.",
             "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 057.",
             "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
             "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected.",
-            "nextStep": "Request or locate an item-level official asset record with explicit rights metadata; separately review trademarks, seals, identifiable people, privacy/publicity, third-party components and endorsement risk before selection.",
+            "nextStep": "No open promotion gate. Re-review only if source, excerpt wording, rights notice, claim, crop or rendering changes.",
             "sourceContextPage": "https://www.w3.org/TR/prov-o/",
             "assetDateVersion": "Living W3C source; rights page accessed 2026-08-23",
             "rightsTermsUrl": "https://www.w3.org/copyright/",
@@ -7354,8 +7481,8 @@
             "assetFormat": "HTML technical report"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
-        "generatedFallbackReason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+        "requiredBeforeExternalSubstitution": "Completed: final excerpt review approved direct contextual fit and governing rights/notice treatment.",
+        "generatedFallbackReason": "RN creator-owned cover remains preserved solely as rollback."
       },
       "canva": {
         "generationAuthorized": false,
@@ -7377,12 +7504,43 @@
         "carousel": "Build 057 · evidence-IP-and-institutional-memory: opening proposition → knowledge loss → record mechanism → authority/source path → uncertainty → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 057, Show Me Where This Content Came From: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED",
-      "acquisitionDisposition": "HOLD",
-      "externalSelected": false,
-      "externalStaged": false,
+      "productionStatus": "SOURCE-CONTEXT COVER LIVE / RN ROLLBACK PRESERVED / CANVA NOT AUTHORIZED",
+      "acquisitionDisposition": "EXCERPT-PROMOTED",
+      "externalSelected": true,
+      "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
+      "dispositionBasis": "Exact immutable source excerpt passed independent fidelity, rights/notice, direct contextual-fit, accessibility, attribution, no-mark and no-endorsement review; RN fallback remains preserved for rollback.",
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/057/build-057-linkedin-poster.png",
+        "openingFrame": "/media/builds/057/build-057-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 057, Show Me Where This Content Came From. Creator-owned 4:5 typographic opening frame. Visible text: “A FINISHED FILE HIDES ITS PRODUCTION HISTORY.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the build number, headline, safe margins or boundary language.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "assetUrl": "/media/100-builds/source-excerpts/build-057-source-excerpt-hold.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/source-excerpts/build-057-source-excerpt-hold.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "80fd5a79479c3febbec6625b19cc8a2b464e4fabb8d296cb3e869499f48a5181",
+        "altText": "Sequential text composite from PROV-O Starting Point Terms: the introductory provenance-description passage, then separately labeled Entity and Activity definitions.",
+        "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+        "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+        "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+        "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+      }
     },
     {
       "buildId": "058",
@@ -7412,7 +7570,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "PRIMARY-SOURCE ACQUISITION REVIEW COMPLETE / 0 EXTERNAL ASSETS SELECTED / FALLBACK READY",
+        "status": "EXACT SOURCE EXCERPT APPROVED / SELECTED / STAGED / LIVE",
         "searched": [
           {
             "label": "PROV-O: The PROV Ontology",
@@ -7421,30 +7579,31 @@
             "issuerCreator": "W3C",
             "rightsStatus": "not cleared for reuse",
             "licensePermission": "No asset-specific license or permission established in this audit.",
-            "credit": "Source-page issuer: W3C; asset credit unresolved because no asset is selected.",
-            "altText": null,
+            "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+            "altText": "Sequential text composite from PROV-O Starting Point Terms containing an Entity definition and separately labeled generation and derivation relation passages.",
             "orientation": null,
             "dimensions": {
               "width": null,
               "height": null
             },
-            "cropGuidance": "Not applicable until an exact asset is selected and its integrity and rights are verified.",
-            "claimToVisualSupport": "The official page is relevant context only. It does not make an unspecified image evidence of the build, its outcomes, safety, compliance, effectiveness, or endorsement.",
-            "decision": "HOLD — keep creator-owned fallback; external acquisition remains open.",
+            "cropGuidance": "Use the complete approved 1200×1500 excerpt SVG. Do not crop attribution, status, contextual-limit, license/policy or no-endorsement text.",
+            "claimToVisualSupport": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+            "decision": "PROMOTED — exact source-context excerpt live with RN rollback preserved.",
             "candidateType": "official-or-primary-context-candidate",
             "sourceLocator": "Immutable W3C PROV-O Recommendation dated 30 April 2013 at https://www.w3.org/TR/2013/REC-prov-o-20130430/; governing W3C document-use terms must remain attached to any final excerpt.",
-            "rightsStatement": "not cleared for reuse",
-            "permissionDecision": "HOLD — primary-source terms reviewed; no exact asset-level authorization established.",
+            "rightsStatement": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+            "permissionDecision": "APPROVED — exact source-context excerpt passed final rights, fidelity, contextual-fit and accessibility review.",
             "orientationDimensions": {
-              "orientation": null,
-              "width": null,
-              "height": null
+              "orientation": "4:5 portrait",
+              "width": 1200,
+              "height": 1500,
+              "note": "Approved accessible SVG source-context excerpt."
             },
             "context": "Contextual source-page review for Build 058, Trace a Claim All the Way Back; the page is not itself a selected visual asset.",
             "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 058.",
             "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
             "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected.",
-            "nextStep": "Request or locate an item-level official asset record with explicit rights metadata; separately review trademarks, seals, identifiable people, privacy/publicity, third-party components and endorsement risk before selection.",
+            "nextStep": "No open promotion gate. Re-review only if source, excerpt wording, rights notice, claim, crop or rendering changes.",
             "sourceContextPage": "https://www.w3.org/TR/prov-o/",
             "assetDateVersion": "Living W3C source; rights page accessed 2026-08-23",
             "rightsTermsUrl": "https://www.w3.org/copyright/",
@@ -7491,8 +7650,8 @@
             "assetFormat": "HTML technical report"
           }
         ],
-        "requiredBeforeExternalSubstitution": "Before substitution, select an exact asset from an official/primary repository and record its stable asset URL, creator/issuer, rights statement, permission decision, credit, alt text, intrinsic dimensions, crop plan and limited claim scope. Trademark, seal and publicity/privacy review may still be required.",
-        "generatedFallbackReason": "Official/primary context pages were identified, but no exact external asset had complete permission evidence. The RN-created typographic poster is therefore the only release-eligible fallback."
+        "requiredBeforeExternalSubstitution": "Completed: final excerpt review approved direct contextual fit and governing rights/notice treatment.",
+        "generatedFallbackReason": "RN creator-owned cover remains preserved solely as rollback."
       },
       "canva": {
         "generationAuthorized": false,
@@ -7514,12 +7673,43 @@
         "carousel": "Build 058 · evidence-IP-and-institutional-memory: opening proposition → knowledge loss → record mechanism → authority/source path → uncertainty → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 058, Trace a Claim All the Way Back: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL VISUAL HOLD / CANVA NOT AUTHORIZED",
-      "acquisitionDisposition": "HOLD",
-      "externalSelected": false,
-      "externalStaged": false,
+      "productionStatus": "SOURCE-CONTEXT COVER LIVE / RN ROLLBACK PRESERVED / CANVA NOT AUTHORIZED",
+      "acquisitionDisposition": "EXCERPT-PROMOTED",
+      "externalSelected": true,
+      "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "No external asset passed every item-level relevance, rights, creator, permission, credit, geometry, crop and bounded-claim gate; follow the recorded next route."
+      "dispositionBasis": "Exact immutable source excerpt passed independent fidelity, rights/notice, direct contextual-fit, accessibility, attribution, no-mark and no-endorsement review; RN fallback remains preserved for rollback.",
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/058/build-058-linkedin-poster.png",
+        "openingFrame": "/media/builds/058/build-058-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual identified or implied.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 058, Trace a Claim All the Way Back. Creator-owned 4:5 typographic opening frame. Visible text: “A CITATION CAN HIDE A BROKEN SUPPORT PATH.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the build number, headline, safe margins or boundary language.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      },
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "assetUrl": "/media/100-builds/source-excerpts/build-058-source-excerpt-hold.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/source-excerpts/build-058-source-excerpt-hold.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "75b3e6a5a996a86a97adcfb42b75f76a902647993d790560b291169dfdc87f6d",
+        "altText": "Sequential text composite from PROV-O Starting Point Terms containing an Entity definition and separately labeled generation and derivation relation passages.",
+        "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+        "credit": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
+        "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+        "claimBoundary": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement.",
+        "noEndorsement": "Context excerpt only. No affiliation or endorsement."
+      }
     },
     {
       "buildId": "059",
