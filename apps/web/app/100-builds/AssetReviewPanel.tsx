@@ -110,6 +110,11 @@ export default function AssetReviewPanel({id}:{id:string}){
    <p><a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}>Open the full review SVG →</a> · <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} download={`${id}-source-excerpt-review-hold.svg`}>Download review SVG ↓</a> · <a href={reviewExcerpt.sourceUrl} rel="noreferrer">Open official source →</a></p>
    <details><summary>Integrity, rights, and disposition</summary><p><b>SHA-256:</b> <code>{reviewExcerpt.sha256}</code></p><p><b>Source SHA-256:</b> <code>{reviewExcerpt.sourceSha256}</code></p><p><b>Dimensions:</b> {reviewExcerpt.width} × {reviewExcerpt.height}; {reviewExcerpt.mimeType}.</p><p><b>Notice:</b> {reviewExcerpt.notice}</p><p><b>{reviewExcerpt.gatesOpen.length?'Disposition':'Gates'}:</b> {reviewExcerpt.gatesOpen.length?reviewExcerpt.gatesOpen.join('; '):'All excerpt promotion gates passed'}.</p></details>
   </article>}
+  <article style={{...card,marginTop:'1rem'}} aria-labelledby={`canva-package-${id}-heading`}>
+   <h3 id={`canva-package-${id}-heading`}>Canva-ready distribution</h3>
+   <p>This build’s current cover and complete metadata are included in the deterministic 100-cover handoff. The package preserves this dossier’s official/RN decision, source, rights, claim boundary, and rollback state.</p>
+   <p><a href="/100-builds/canva-package/rn-100-builds-canva-ready.zip" download>Download the complete Canva-ready ZIP ↓</a> · <a href="/100-builds/canva-package/inventory.json">Open package inventory →</a> · <a href="/100-builds/canva-package/README.md">Read import instructions →</a></p>
+  </article>
   <fieldset style={{...card,marginTop:'1rem'}}>
    <legend><b>Canonical review gates</b></legend>
    <label style={{display:'block'}}><input type="checkbox" checked={record.rnFallbackReady} readOnly disabled/> Creator-owned fallback ready</label>
