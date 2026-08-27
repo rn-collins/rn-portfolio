@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewedAt": "2026-08-27",
+  "scope": "24 selected and staged official-source assignments",
+  "criteria": [
+    "recognizable source hook",
+    "direct contextual fit",
+    "desktop/mobile/carousel legibility",
+    "exact crop and exclusions",
+    "attribution and source link",
+    "claim boundary and no endorsement",
+    "RN rollback retained"
+  ],
+  "counts": {
+    "reviewed": 24,
+    "promoted": 11,
+    "rejectedForLiveHook": 13,
+    "rollbackReady": 24
+  },
+  "promotedBuilds": [
+    "001",
+    "003",
+    "004",
+    "005",
+    "006",
+    "012",
+    "018",
+    "019",
+    "022",
+    "026",
+    "031"
+  ],
+  "rejectedBuilds": [
+    "002",
+    "007",
+    "008",
+    "009",
+    "011",
+    "013",
+    "017",
+    "020",
+    "021",
+    "025",
+    "028",
+    "029",
+    "032"
+  ],
+  "records": [
+    {
+      "buildId": "001",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-context/build-001-official-source-context.svg",
+      "liveAssetSha256": "88f2b8b92c9c65b0fd0ce66c324bf4936652022bd3193bb70cd3928d2e94b50a",
+      "rollbackAssetUrl": "/media/builds/001/build-001-linkedin-poster.png",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1"
+    },
+    {
+      "buildId": "002",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "GOV.UK user-needs guidance is recognizable but does not directly visualize audience adaptation or semantic preservation; the RN hook is more specific.",
+      "liveAssetUrl": "/media/builds/002/build-002-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/002/build-002-linkedin-poster.png"
+    },
+    {
+      "buildId": "003",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-variants/build-003-official-context.svg",
+      "liveAssetSha256": "bfc83eee4bedd4d1308107e41561ae69a7c19be0416b17a5f7a17005b3e34dc0",
+      "rollbackAssetUrl": "/media/builds/003/build-003-linkedin-poster.png",
+      "sourceUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
+    },
+    {
+      "buildId": "004",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-variants/build-004-official-context.svg",
+      "liveAssetSha256": "3f2a42c766b40cacf2e3382f32422d4c8111b4d31138d23cf1976281687b0136",
+      "rollbackAssetUrl": "/media/builds/004/build-004-linkedin-poster.png",
+      "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook"
+    },
+    {
+      "buildId": "005",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-variants/build-005-official-context.svg",
+      "liveAssetSha256": "e7cf889fb1a8745b78d5171955cbb16761a7cb1597b0289cdd791b1f87ae273b",
+      "rollbackAssetUrl": "/media/builds/005/build-005-linkedin-poster.png",
+      "sourceUrl": "https://www.gov.uk/service-manual/service-standard"
+    },
+    {
+      "buildId": "006",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-variants/build-006-official-context.svg",
+      "liveAssetSha256": "e7b34a7d431cddbf81b3fe19b4c3894ac4182f6c014bdeb02f971d130e82b922",
+      "rollbackAssetUrl": "/media/builds/006/build-006-linkedin-poster.png",
+      "sourceUrl": "https://www.gov.uk/service-manual/assisted-digital/"
+    },
+    {
+      "buildId": "007",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page is authoritative but too generic to visualize a governed product-learning loop; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/007/build-007-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/007/build-007-linkedin-poster.png"
+    },
+    {
+      "buildId": "008",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page does not directly visualize dashboard-to-decision architecture; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/008/build-008-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/008/build-008-linkedin-poster.png"
+    },
+    {
+      "buildId": "009",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page does not directly visualize place-dependent technology transfer; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/009/build-009-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/009/build-009-linkedin-poster.png"
+    },
+    {
+      "buildId": "011",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "PROV Primer supplies provenance context but does not directly explain entity-resolution identity conflicts; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/011/build-011-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/011/build-011-linkedin-poster.png"
+    },
+    {
+      "buildId": "012",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-context/build-012-official-source-context.svg",
+      "liveAssetSha256": "fb4b8cc508a37b5ca07a0344ffab1d71a25a89d54aeb308035a01d777cc6ceb8",
+      "rollbackAssetUrl": "/media/builds/012/build-012-linkedin-poster.png",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1"
+    },
+    {
+      "buildId": "013",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page is too generic to visualize downstream consequence propagation; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/013/build-013-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/013/build-013-linkedin-poster.png"
+    },
+    {
+      "buildId": "017",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page is too generic to visualize cross-organization responsibility handoffs; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/017/build-017-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/017/build-017-linkedin-poster.png"
+    },
+    {
+      "buildId": "018",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-variants/build-018-official-context.svg",
+      "liveAssetSha256": "9c0e1971a95d7580946b93b55a504f51451d7877a7cd1ca2dca5d892019939c9",
+      "rollbackAssetUrl": "/media/builds/018/build-018-linkedin-poster.png",
+      "sourceUrl": "https://www.gov.uk/service-manual/service-standard"
+    },
+    {
+      "buildId": "019",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-context/build-019-official-source-context.svg",
+      "liveAssetSha256": "42c23ea73c840b9c81c062eea3d69dfd7d168051277eeed547fb546dd635eeb8",
+      "rollbackAssetUrl": "/media/builds/019/build-019-linkedin-poster.png",
+      "sourceUrl": "https://doi.org/10.6028/NIST.SP.800-61r3"
+    },
+    {
+      "buildId": "020",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "PROV Primer is only indirect context for opening a decision record; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/020/build-020-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/020/build-020-linkedin-poster.png"
+    },
+    {
+      "buildId": "021",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page does not directly visualize promise decomposition; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/021/build-021-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/021/build-021-linkedin-poster.png"
+    },
+    {
+      "buildId": "022",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-context/build-022-official-source-context.svg",
+      "liveAssetSha256": "4d7b30bcedad7c36c89b08ef511a3e8f784b91b4deb7185b0332b4d0a99dde74",
+      "rollbackAssetUrl": "/media/builds/022/build-022-linkedin-poster.png",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1"
+    },
+    {
+      "buildId": "025",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page does not directly visualize layered readiness; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/025/build-025-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/025/build-025-linkedin-poster.png"
+    },
+    {
+      "buildId": "026",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-variants/build-026-official-context.svg",
+      "liveAssetSha256": "c9f0cbb53260705ca0392eef4db28578732f5b05b9cf6145ea344cfcec9e7528",
+      "rollbackAssetUrl": "/media/builds/026/build-026-linkedin-poster.png",
+      "sourceUrl": "https://www.w3.org/TR/prov-o/"
+    },
+    {
+      "buildId": "028",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page does not directly visualize ranking rationale; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/028/build-028-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/028/build-028-linkedin-poster.png"
+    },
+    {
+      "buildId": "029",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "PROV Primer is indirect context for consequence propagation and is weaker than the RN hook.",
+      "liveAssetUrl": "/media/builds/029/build-029-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/029/build-029-linkedin-poster.png"
+    },
+    {
+      "buildId": "031",
+      "decision": "PROMOTED",
+      "reason": "Direct recognizable-source mapping; readable 1200×1500 production derivative; required attribution, source, claim boundary, rights line and no-endorsement notice remain visible.",
+      "liveAssetUrl": "/media/100-builds/production-source-context/build-031-official-source-context.svg",
+      "liveAssetSha256": "631f7e870d8afd8d5baa759dc2bb330c95c927065612efb4b9df065d65eeece0",
+      "rollbackAssetUrl": "/media/builds/031/build-031-linkedin-poster.png",
+      "sourceUrl": "https://www.nist.gov/privacy-framework/privacy-framework"
+    },
+    {
+      "buildId": "032",
+      "decision": "REJECTED_FOR_LIVE_HOOK",
+      "reason": "The AI RMF title page is too generic to visualize a release-blocker gate; retain the build-specific RN hook.",
+      "liveAssetUrl": "/media/builds/032/build-032-linkedin-poster.png",
+      "rollbackAssetUrl": "/media/builds/032/build-032-linkedin-poster.png"
+    }
+  ]
+}
