@@ -35,7 +35,7 @@ const programArchivePage=read('apps/web/app/100-builds/archive/page.tsx');
 check(programArchivePage.includes("import AssetOperationsSummary from './AssetOperationsSummary'")&&programArchivePage.includes('<AssetOperationsSummary/>'),'program archive must expose canonical asset operations surface');
 const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
 const promotionReview=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json'));
-check(promotionReview.counts?.reviewed===24&&promotionReview.counts?.promoted===11&&promotionReview.counts?.rejectedForLiveHook===13&&promotionReview.counts?.rollbackReady===24,'final cover promotion counts drift');
+check(promotionReview.counts?.reviewed===24&&promotionReview.counts?.promoted===20&&promotionReview.counts?.rejectedForLiveHook===4&&promotionReview.counts?.rollbackReady===24,'final cover promotion counts drift');
 const excerptPromotedIds=['010','030','036','041','057','058'];
 const promotedIds=new Set([...promotionReview.promotedBuilds,...excerptPromotedIds]);
 check(promotedIds.size===17&&promotionReview.rejectedBuilds.length===13,'final cover promotion ID sets drift');
@@ -134,4 +134,4 @@ for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews, 11 promoted official source-context covers with preserved RN rollback, plus one canonical 100-row asset-operations surface with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews, 20 promoted official source-context covers with preserved RN rollback, plus one canonical 100-row asset-operations surface with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
