@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "HOLD",
+  "captureDefaults": {
+    "html": "Chromium 1440x1800 CSS px; DPR 1; 100% zoom; light; animations disabled",
+    "pdf": "240 dpi; 2040x2640 px; sRGB",
+    "externalSelected": false,
+    "externalStaged": false
+  },
+  "records": [
+    {
+      "buildId": "010",
+      "asset": "W3C SHACL Recommendation",
+      "url": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+      "sha256": "ccca77caed771f42ea649c03d190b9c7ea0b82286c22c457b9edc8087c9ad0f8",
+      "region": "Title, Recommendation status, Abstract; stop before TOC",
+      "exclude": [
+        "W3C marks",
+        "navigation",
+        "examples"
+      ],
+      "alt": "Title, Recommendation status, and abstract of the official 20 July 2017 W3C SHACL specification.",
+      "claimBoundary": "Context for machine-readable graph constraints only; not validation of Build 010.",
+      "blocker": "Confirm governing 2017 document-use notice and final crop."
+    },
+    {
+      "buildId": "030",
+      "asset": "WCAG 2.2 immutable 2023 Recommendation",
+      "url": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+      "sha256": "9307b40f5dcd8d988444184de6d07efdf384ba744bf364bae3fd712282868508",
+      "region": "Title, 5 Oct 2023 status, Abstract through four principles",
+      "exclude": [
+        "W3C/WAI marks",
+        "2024 metadata",
+        "TOC"
+      ],
+      "alt": "Title, 5 October 2023 Recommendation status, and abstract of WCAG 2.2.",
+      "claimBoundary": "Accessibility-guidance context only; not proof of conformance or outcomes.",
+      "blocker": "Final immutable-version rights and visual review."
+    },
+    {
+      "buildId": "036",
+      "asset": "Service Workers specification",
+      "url": "https://www.w3.org/TR/service-workers/",
+      "sha256": "b1a39e9bd9c0427cb93a0cef2ffb2fc7e86d1d7be53c9f0a68fb3fcab623dffe",
+      "region": null,
+      "exclude": [
+        "entire live/nightly document"
+      ],
+      "alt": null,
+      "claimBoundary": "Diagnostic context only.",
+      "blocker": "HARD STOP: select immutable dated snapshot and governing terms before capture."
+    },
+    {
+      "buildId": "038",
+      "asset": "NIST AI RMF 1.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "region": "Executive Summary voluntary/use-case-agnostic paragraph; verify page mapping",
+      "exclude": [
+        "NIST marks",
+        "third-party material"
+      ],
+      "alt": "Excerpt from NIST AI RMF 1.0 describing its voluntary, use-case-agnostic risk-management approach.",
+      "claimBoundary": "Risk context only; not evidence of benchmark or deployed performance.",
+      "blocker": "Verify page mapping, third-party status, crop and fit."
+    },
+    {
+      "buildId": "039",
+      "asset": "W3C PROV-O Recommendation",
+      "url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "region": "Abstract only",
+      "exclude": [
+        "W3C marks",
+        "diagrams",
+        "examples"
+      ],
+      "alt": "Abstract of the official 30 April 2013 W3C PROV-O Recommendation.",
+      "claimBoundary": "Provenance vocabulary only; not independent proof of truth.",
+      "blocker": "Confirm 2013 document-use notice and final crop."
+    },
+    {
+      "buildId": "040",
+      "asset": "NIST AI RMF 1.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "region": "Section 3.2 trustworthiness tradeoffs; verify page mapping",
+      "exclude": [
+        "NIST marks",
+        "third-party material"
+      ],
+      "alt": "NIST AI RMF excerpt explaining that trustworthiness characteristics are interrelated and involve tradeoffs.",
+      "claimBoundary": "Risk-evaluation context; not permission or authorization.",
+      "blocker": "Verify page mapping, excerpt and visual fit."
+    },
+    {
+      "buildId": "041",
+      "asset": "NIST AI RMF 1.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "region": "GOVERN 2 accountability structures block; verify page mapping",
+      "exclude": [
+        "NIST marks",
+        "adjacent categories",
+        "third-party material"
+      ],
+      "alt": "NIST AI RMF GOVERN excerpt describing accountability structures, roles, and responsibilities.",
+      "claimBoundary": "Governance context only; not legal ownership or compliance proof.",
+      "blocker": "Verify exact page, completeness and visual fit."
+    },
+    {
+      "buildId": "049",
+      "asset": "NIST Privacy Framework 1.0",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+      "sha256": "58e1f2373e1c8a5782f7ddfce677fa9fc15e2d920ec0ab97ee754697e91bc2f0",
+      "region": "Section 2.1 Profiles current/target states paragraph; verify page mapping",
+      "exclude": [
+        "NIST marks",
+        "diagrams",
+        "third-party material"
+      ],
+      "alt": "NIST Privacy Framework excerpt explaining current and target privacy Profiles.",
+      "claimBoundary": "Profile-revision context; not authority for preference expiration.",
+      "blocker": "Verify page mapping and guard against overclaiming."
+    },
+    {
+      "buildId": "055",
+      "asset": "NISTIR 8259A",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf",
+      "sha256": "b3b54b00b5ac3f3582a3e3fd17d3f25b18f848a51f113000b6489adbcce374b4",
+      "region": "Cybersecurity State Awareness capability block; verify page mapping",
+      "exclude": [
+        "NIST marks",
+        "other capability blocks",
+        "third-party material"
+      ],
+      "alt": "NISTIR 8259A excerpt describing IoT cybersecurity state awareness.",
+      "claimBoundary": "State-reporting context; not proof of natural-language explainability.",
+      "blocker": "Verify page, third-party status and claim fit."
+    },
+    {
+      "buildId": "057",
+      "asset": "W3C PROV-O Recommendation",
+      "url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "region": "PROV-O at a glance: Entity-Activity-Agent prose; exclude figures unless separately cleared",
+      "exclude": [
+        "W3C marks",
+        "uncleared figures",
+        "examples"
+      ],
+      "alt": "PROV-O excerpt introducing entities, activities, agents, and provenance relationships.",
+      "claimBoundary": "Vocabulary context; not completeness, ownership or truth proof.",
+      "blocker": "Confirm terms and final prose-only crop."
+    },
+    {
+      "buildId": "058",
+      "asset": "W3C PROV-O Recommendation",
+      "url": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "sha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "region": "Starting Point Terms: Entity, Activity, wasGeneratedBy, wasDerivedFrom",
+      "exclude": [
+        "W3C marks",
+        "diagrams",
+        "other terms"
+      ],
+      "alt": "PROV-O definitions for entities, activities, generation, and derivation relationships.",
+      "claimBoundary": "Trace vocabulary only; not evidence that a claim path is complete or true.",
+      "blocker": "Confirm terms, exact block and legibility."
+    }
+  ]
+}
