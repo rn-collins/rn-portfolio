@@ -80,7 +80,7 @@ for(const fallback of fallbackManifest.files){
 for(const record of visualPackages.records){
  check(record.rnFallbackReady===true,'RN fallback must remain ready for '+record.buildId);
  check(typeof record.externalSelected==='boolean'&&typeof record.externalStaged==='boolean','selection/staging status must be explicit for '+record.buildId);
- check(record.liveCoverSubstituted===promotedIds.has(record.buildId),'live promotion state drift for '+record.buildId);
+ check(Boolean(record.liveCoverSubstituted)===promotedIds.has(record.buildId),'live promotion state drift for '+record.buildId);
  if(promotedIds.has(record.buildId)){
   check(record.rollbackCover?.assetUrl===record.cover?.assetUrl,'rollback must preserve RN cover for '+record.buildId);
   check(/^\/media\/100-builds\/(?:production-source-variants|production-source-context)\/.+\.svg$/.test(record.liveCover?.assetUrl||''),'invalid live source cover path for '+record.buildId);
