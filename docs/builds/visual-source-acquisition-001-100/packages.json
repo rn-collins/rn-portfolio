@@ -12,16 +12,17 @@
   "policy": {
     "clearedNotSubstituted": "Clearance is a bounded candidate decision, not permission to replace the live RN cover without final crop/editorial approval.",
     "holds": "HOLD is mandatory wherever an item-level chain is incomplete.",
-    "selection": "No external asset is selected or staged in this ledger.",
+    "selection": "The 24 bounded cleared candidates are formally selected. Selection does not replace the live RN cover.",
     "fallback": "All 100 RN-owned covers remain release-eligible.",
-    "canva": "Canva generation is false for all 100."
+    "canva": "Canva generation is false for all 100.",
+    "staging": "Nine unique remote official sources have source, rights, crop, attribution, alt, caption and assignment metadata staged; no source binary is present in the repository, so externalStaged remains false."
   },
   "expected": {
     "records": 100,
     "clearedNotSubstituted": 24,
     "hold": 76,
     "rnFallbackReady": 100,
-    "externalSelected": 0,
+    "externalSelected": 24,
     "externalStaged": 0,
     "canvaAuthorized": 0
   },
@@ -54,7 +55,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -75,18 +76,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 001; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 001.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Human Review Design Framework.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 001, Human Review Design Framework.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Human Review Design Framework and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 001."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -108,9 +127,9 @@
         "carousel": "Build 001 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 001, Human Review Design Framework: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -143,7 +162,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -164,18 +183,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
             "claimToVisualSupport": "Supports recognition of GOV.UK Learning about users and their needs and the limited source context adjacent to Build 002; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 002.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Multi-Audience Meaning Architecture.",
             "result": "Exact official HTML guidance page asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+            "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+          "sourcePageUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
+          "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+          "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+          "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
+          "altText": "Official GOV.UK Learning about users and their needs document or guidance page, selected as contextual evidence for Build 002, Multi-Audience Meaning Architecture.",
+          "contextualFit": "GOV.UK Learning about users and their needs is directly relevant to Multi-Audience Meaning Architecture and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 002."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -197,9 +234,9 @@
         "carousel": "Build 002 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 002, Multi-Audience Meaning Architecture: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -232,7 +269,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -253,18 +290,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
             "claimToVisualSupport": "Supports recognition of GOV.UK Learning about users and their needs and the limited source context adjacent to Build 003; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 003.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Unserved Decision Discovery.",
             "result": "Exact official HTML guidance page asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+            "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+          "sourcePageUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
+          "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+          "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+          "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
+          "altText": "Official GOV.UK Learning about users and their needs document or guidance page, selected as contextual evidence for Build 003, Unserved Decision Discovery.",
+          "contextualFit": "GOV.UK Learning about users and their needs is directly relevant to Unserved Decision Discovery and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 003."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -286,9 +341,9 @@
         "carousel": "Build 003 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 003, Unserved Decision Discovery: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -321,7 +376,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -342,18 +397,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Main content only: H1 “NIST AI RMF Playbook” plus the introductory description of suggested actions; exclude NIST marks, site header/navigation, promotional panels and footer.",
             "claimToVisualSupport": "Supports recognition of NIST AI RMF Playbook and the limited source context adjacent to Build 004; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 004.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Before the Automation.",
             "result": "Exact official HTML guidance page asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
+            "sourceLink": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+          "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Main content only: H1 “NIST AI RMF Playbook” plus the introductory description of suggested actions; exclude NIST marks, site header/navigation, promotional panels and footer.",
+          "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
+          "sourceLink": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+          "attribution": "Source: National Institute of Standards and Technology, NIST AI RMF Playbook. Republished courtesy of NIST.",
+          "altText": "Official NIST AI RMF Playbook document or guidance page, selected as contextual evidence for Build 004, Before the Automation.",
+          "contextualFit": "NIST AI RMF Playbook is directly relevant to Before the Automation and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 004."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -375,9 +448,9 @@
         "carousel": "Build 004 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 004, Before the Automation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -410,7 +483,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -431,18 +504,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
             "claimToVisualSupport": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 005; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 005.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Service Path Split.",
             "result": "Exact official HTML guidance page asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+            "sourceLink": "https://www.gov.uk/service-manual/service-standard"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.gov.uk/service-manual/service-standard",
+          "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
+          "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+          "sourceLink": "https://www.gov.uk/service-manual/service-standard",
+          "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
+          "altText": "Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 005, Service Path Split.",
+          "contextualFit": "GOV.UK Service Standard is directly relevant to Service Path Split and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 005."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -464,9 +555,9 @@
         "carousel": "Build 005 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 005, Service Path Split: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -499,7 +590,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -520,18 +611,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Main article only: page H1 “Assisted digital support” and the first explanatory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
             "claimToVisualSupport": "Supports recognition of GOV.UK Assisted digital support and the limited source context adjacent to Build 006; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 006.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Form Gate Field.",
             "result": "Exact official HTML guidance page asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "GOV.UK Service Manual guidance on assisted digital support.",
+            "sourceLink": "https://www.gov.uk/service-manual/assisted-digital/"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.gov.uk/service-manual/assisted-digital/",
+          "sourcePageUrl": "https://www.gov.uk/service-manual/assisted-digital/",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Main article only: page H1 “Assisted digital support” and the first explanatory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
+          "caption": "GOV.UK Service Manual guidance on assisted digital support.",
+          "sourceLink": "https://www.gov.uk/service-manual/assisted-digital/",
+          "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Assisted digital support.",
+          "altText": "Official GOV.UK Assisted digital support document or guidance page, selected as contextual evidence for Build 006, Form Gate Field.",
+          "contextualFit": "GOV.UK Assisted digital support is directly relevant to Form Gate Field and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / Assisted digital and digital take-up community endorses RN or Build 006."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -553,9 +662,9 @@
         "carousel": "Build 006 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 006, Form Gate Field: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -588,7 +697,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -609,18 +718,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 007; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 007.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to The Product That Learns.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 007, The Product That Learns.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to The Product That Learns and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 007."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -642,9 +769,9 @@
         "carousel": "Build 007 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 007, The Product That Learns: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -677,7 +804,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -698,18 +825,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 008; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 008.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Data Is Not a Decision.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 008, Data Is Not a Decision.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Data Is Not a Decision and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 008."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -731,9 +876,9 @@
         "carousel": "Build 008 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 008, Data Is Not a Decision: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -766,7 +911,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -787,18 +932,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 009; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 009.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Transfer Is a Place Question.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 009, Transfer Is a Place Question.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Transfer Is a Place Question and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 009."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -820,9 +983,9 @@
         "carousel": "Build 009 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 009, Transfer Is a Place Question: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -946,7 +1109,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -967,18 +1130,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
             "claimToVisualSupport": "Supports recognition of W3C PROV Primer and the limited source context adjacent to Build 011; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 011.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Same Name Is Not Same Entity.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
+            "sourceLink": "https://www.w3.org/TR/prov-primer/"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
+          "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
+          "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
+          "sourceLink": "https://www.w3.org/TR/prov-primer/",
+          "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
+          "altText": "Official W3C PROV Primer document or guidance page, selected as contextual evidence for Build 011, Same Name Is Not Same Entity.",
+          "contextualFit": "W3C PROV Primer is directly relevant to Same Name Is Not Same Entity and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 011."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1000,9 +1181,9 @@
         "carousel": "Build 011 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 011, Same Name Is Not Same Entity: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1035,7 +1216,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1056,18 +1237,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 012; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 012.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Controls Follow Consequence.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 012, Controls Follow Consequence.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Controls Follow Consequence and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 012."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1089,9 +1288,9 @@
         "carousel": "Build 012 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 012, Controls Follow Consequence: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1124,7 +1323,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1145,18 +1344,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 013; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 013.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Follow the Consequence.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 013, Follow the Consequence.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Follow the Consequence and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 013."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1178,9 +1395,9 @@
         "carousel": "Build 013 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 013, Follow the Consequence: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1480,7 +1697,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1501,18 +1718,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 017; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 017.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to The Risk Lives Between the Boxes.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 017, The Risk Lives Between the Boxes.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to The Risk Lives Between the Boxes and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 017."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1534,9 +1769,9 @@
         "carousel": "Build 017 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 017, The Risk Lives Between the Boxes: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1569,7 +1804,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1590,18 +1825,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
             "claimToVisualSupport": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 018; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 018.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to The Process Is Part of the Outcome.",
             "result": "Exact official HTML guidance page asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+            "sourceLink": "https://www.gov.uk/service-manual/service-standard"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.gov.uk/service-manual/service-standard",
+          "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
+          "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+          "sourceLink": "https://www.gov.uk/service-manual/service-standard",
+          "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
+          "altText": "Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 018, The Process Is Part of the Outcome.",
+          "contextualFit": "GOV.UK Service Standard is directly relevant to The Process Is Part of the Outcome and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 018."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1623,9 +1876,9 @@
         "carousel": "Build 018 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 018, The Process Is Part of the Outcome: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1658,7 +1911,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1679,18 +1932,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, complete title, revision number, authorship line and publication date text; omit all insignia/marks and decorative field.",
             "claimToVisualSupport": "Supports recognition of NIST SP 800-61 Rev. 3 and the limited source context adjacent to Build 019; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 019.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to The Alert That Knows Who Cares.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST SP 800-61 Rev. 3, shown as incident-response context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.SP.800-61r3"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, complete title, revision number, authorship line and publication date text; omit all insignia/marks and decorative field.",
+          "caption": "Official NIST SP 800-61 Rev. 3, shown as incident-response context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.SP.800-61r3",
+          "attribution": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
+          "altText": "Official NIST SP 800-61 Rev. 3 document or guidance page, selected as contextual evidence for Build 019, The Alert That Knows Who Cares.",
+          "contextualFit": "NIST SP 800-61 Rev. 3 is directly relevant to The Alert That Knows Who Cares and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 019."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1712,9 +1983,9 @@
         "carousel": "Build 019 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 019, The Alert That Knows Who Cares: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1747,7 +2018,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1768,18 +2039,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
             "claimToVisualSupport": "Supports recognition of W3C PROV Primer and the limited source context adjacent to Build 020; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 020.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Open the Decision.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
+            "sourceLink": "https://www.w3.org/TR/prov-primer/"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
+          "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
+          "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
+          "sourceLink": "https://www.w3.org/TR/prov-primer/",
+          "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
+          "altText": "Official W3C PROV Primer document or guidance page, selected as contextual evidence for Build 020, Open the Decision.",
+          "contextualFit": "W3C PROV Primer is directly relevant to Open the Decision and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 020."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1801,9 +2090,9 @@
         "carousel": "Build 020 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 020, Open the Decision: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1836,7 +2125,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1857,18 +2146,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 021; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 021.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Break the Promise Open.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 021, Break the Promise Open.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Break the Promise Open and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 021."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1890,9 +2197,9 @@
         "carousel": "Build 021 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 021, Break the Promise Open: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -1925,7 +2232,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1946,18 +2253,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 022; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 022.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Human Impact Nodes.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 022, Human Impact Nodes.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Human Impact Nodes and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 022."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -1979,9 +2304,9 @@
         "carousel": "Build 022 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 022, Human Impact Nodes: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -2196,7 +2521,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2217,18 +2542,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 025; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 025.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Readiness Has Layers.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 025, Readiness Has Layers.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Readiness Has Layers and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 025."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -2250,9 +2593,9 @@
         "carousel": "Build 025 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 025, Readiness Has Layers: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -2285,7 +2628,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2306,18 +2649,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Document text only: title, Recommendation status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
             "claimToVisualSupport": "Supports recognition of W3C PROV-O and the limited source context adjacent to Build 026; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 026.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Records Normalize Without Losing Their Past.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
+            "sourceLink": "https://www.w3.org/TR/prov-o/"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.w3.org/TR/prov-o/",
+          "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Document text only: title, Recommendation status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
+          "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
+          "sourceLink": "https://www.w3.org/TR/prov-o/",
+          "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV-O, https://www.w3.org/TR/prov-o/, under the W3C Document License.",
+          "altText": "Official W3C PROV-O document or guidance page, selected as contextual evidence for Build 026, Records Normalize Without Losing Their Past.",
+          "contextualFit": "W3C PROV-O is directly relevant to Records Normalize Without Losing Their Past and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 026."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -2339,9 +2700,9 @@
         "carousel": "Build 026 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 026, Records Normalize Without Losing Their Past: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -2463,7 +2824,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2484,18 +2845,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 028; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 028.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Ranking Rationale.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 028, Ranking Rationale.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Ranking Rationale and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 028."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -2517,9 +2896,9 @@
         "carousel": "Build 028 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 028, Ranking Rationale: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -2552,7 +2931,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2573,18 +2952,36 @@
               "height": null,
               "note": "Exact HTML document; capture dimensions must be specified at production time."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
             "claimToVisualSupport": "Supports recognition of W3C PROV Primer and the limited source context adjacent to Build 029; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 029.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Consequence Propagation.",
             "result": "Exact official HTML technical report asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
+            "sourceLink": "https://www.w3.org/TR/prov-primer/"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
+          "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "HTML faithful text-only composite",
+          "cropBoundary": "Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
+          "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
+          "sourceLink": "https://www.w3.org/TR/prov-primer/",
+          "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
+          "altText": "Official W3C PROV Primer document or guidance page, selected as contextual evidence for Build 029, Consequence Propagation.",
+          "contextualFit": "W3C PROV Primer is directly relevant to Consequence Propagation and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 029."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -2606,9 +3003,9 @@
         "carousel": "Build 029 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 029, Consequence Propagation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -2732,7 +3129,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2753,18 +3150,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: complete Privacy Framework title, version number and publication date text; omit all insignia/marks and decorative field.",
             "claimToVisualSupport": "Supports recognition of NIST Privacy Framework v1.0 and the limited source context adjacent to Build 031; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 031.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Telemetry Privacy Field.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST Privacy Framework 1.0, shown as privacy-risk context.",
+            "sourceLink": "https://www.nist.gov/privacy-framework/privacy-framework"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+          "sourcePageUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: complete Privacy Framework title, version number and publication date text; omit all insignia/marks and decorative field.",
+          "caption": "Official NIST Privacy Framework 1.0, shown as privacy-risk context.",
+          "sourceLink": "https://www.nist.gov/privacy-framework/privacy-framework",
+          "attribution": "NIST (2020), NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0. Republished courtesy of NIST.",
+          "altText": "Official NIST Privacy Framework v1.0 document or guidance page, selected as contextual evidence for Build 031, Telemetry Privacy Field.",
+          "contextualFit": "NIST Privacy Framework v1.0 is directly relevant to Telemetry Privacy Field and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 031."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -2786,9 +3201,9 @@
         "carousel": "Build 031 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 031, Telemetry Privacy Field: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
@@ -2821,7 +3236,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "ASSET SELECTED / RIGHTS CLEARED / NOT YET SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2842,18 +3257,36 @@
               "height": 792,
               "note": "PDF page box in points; verify page 1 before production crop."
             },
-            "cropGuidance": "Use only the publication title and directly relevant text/diagram area. Exclude seals, logos, personal imagery and third-party material. Preserve source/status credit; label any crop and do not imply endorsement.",
+            "cropGuidance": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
             "claimToVisualSupport": "Supports recognition of NIST AI Risk Management Framework 1.0 and the limited source context adjacent to Build 032; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
             "context": "Exact official/primary document selected after source, file and reuse-term review for Build 032.",
             "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Release Blocker Door.",
             "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
             "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive.",
             "nextStep": "Before substitution, perform a page-level third-party-content check, select the precise crop, retain the recorded credit and no-endorsement boundary, and complete stranger-level editorial review.",
-            "decision": "SELECTED/CLEARED — exact official document asset and explicit reuse basis recorded; current RN-created cover remains in production until separately approved."
+            "decision": "FORMALLY SELECTED/CLEARED — source, rights, attribution, alt, caption and semantic crop are staged as metadata. No binary is present and no live-cover substitution is authorized.",
+            "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+            "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1"
           }
         ],
         "requiredBeforeExternalSubstitution": "Page-level third-party-content check, final crop specification, complete attribution, no-endorsement review and editorial approval remain required before replacing the creator-owned cover.",
-        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved."
+        "generatedFallbackReason": "The existing creator-owned typographic cover remains the live fallback until the cleared candidate is intentionally cropped and approved.",
+        "selection": {
+          "selectedAt": "2026-08-27",
+          "selectedAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+          "binaryRepositoryPath": null,
+          "binaryPresent": false,
+          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "captureMode": "PDF text-region capture",
+          "cropBoundary": "PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed.",
+          "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+          "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+          "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+          "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 032, Release Blocker Door.",
+          "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Release Blocker Door and offers professional recognition through an authoritative primary document, not fame or clickbait.",
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 032."
+        }
       },
       "canva": {
         "generationAuthorized": false,
@@ -2875,9 +3308,9 @@
         "carousel": "Build 032 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 032, Release Blocker Door: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL CANDIDATE CLEARED / NOT YET SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
-      "externalSelected": false,
+      "externalSelected": true,
       "externalStaged": false,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
