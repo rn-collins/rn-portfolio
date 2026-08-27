@@ -10,12 +10,13 @@ export default function sitemap():MetadataRoute.Sitemap{
  const paths=['/','/100-builds',...builds.flatMap(build=>[
   `/100-builds/${build.id}`,
   `/100-builds/${build.id}/a`,
-  `/100-builds/${build.id}/b`
- ]),'/100-builds/archive','/lineage',...Object.keys(buildArchives).map(id=>`/100-builds/${id}/archive`)];
+  `/100-builds/${build.id}/b`,
+  `/100-builds/${build.id}/record`
+ ]),'/100-builds/001/evidence','/100-builds/001/making','/100-builds/001/method','/100-builds/archive','/lineage',...Object.keys(buildArchives).map(id=>`/100-builds/${id}/archive`)];
  return paths.map(path=>({
   url:new URL(path==='/'?path:`${path}/`,siteUrl).toString(),
   lastModified:updatedAt,
   changeFrequency:path==='/'?'weekly':'monthly',
-  priority:path==='/'?1:path==='/100-builds'?0.9:path.endsWith('/a')||path.endsWith('/b')?0.7:path==='/100-builds/archive'||path==='/lineage'?0.65:0.6
+  priority:path==='/'?1:path==='/100-builds'?0.9:path.endsWith('/a')||path.endsWith('/b')?0.7:path.endsWith('/record')||path==='/100-builds/001/evidence'||path==='/100-builds/001/making'||path==='/100-builds/001/method'?0.65:path==='/100-builds/archive'||path==='/lineage'?0.65:0.6
  }));
 }
