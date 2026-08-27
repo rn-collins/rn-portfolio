@@ -13,37 +13,37 @@
   ],
   "counts": {
     "reviewed": 24,
-    "promoted": 11,
-    "rejectedForLiveHook": 13,
+    "promoted": 20,
+    "rejectedForLiveHook": 4,
     "rollbackReady": 24
   },
   "promotedBuilds": [
     "001",
+    "002",
     "003",
     "004",
     "005",
     "006",
+    "007",
+    "008",
     "012",
+    "013",
+    "017",
     "018",
     "019",
     "022",
-    "026",
-    "031"
-  ],
-  "rejectedBuilds": [
-    "002",
-    "007",
-    "008",
-    "009",
-    "011",
-    "013",
-    "017",
-    "020",
-    "021",
     "025",
+    "026",
     "028",
     "029",
+    "031",
     "032"
+  ],
+  "rejectedBuilds": [
+    "009",
+    "011",
+    "020",
+    "021"
   ],
   "records": [
     {
@@ -57,10 +57,14 @@
     },
     {
       "buildId": "002",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "GOV.UK user-needs guidance is recognizable but does not directly visualize audience adaptation or semantic preservation; the RN hook is more specific.",
-      "liveAssetUrl": "/media/builds/002/build-002-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/002/build-002-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-002-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/002/build-002-linkedin-poster.png",
+      "liveAssetSha256": "543891c290bc4e54b05811286391117d66f98c1a8df543a965230c07e70b73e8",
+      "sourceUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-002-replacement-source-context.svg",
+      "reviewArtifactSha256": "1993428206fd445cb88da2003fc3e9f5b36239b1e5f42e4a22be83ef71aa8c70"
     },
     {
       "buildId": "003",
@@ -100,17 +104,25 @@
     },
     {
       "buildId": "007",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page is authoritative but too generic to visualize a governed product-learning loop; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/007/build-007-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/007/build-007-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-007-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/007/build-007-linkedin-poster.png",
+      "liveAssetSha256": "aa8db797bbb2e314b42a6a4e2247c2e1614c6301d41d694b73da6b22d03a2de2",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-007-replacement-source-context.svg",
+      "reviewArtifactSha256": "4e5abd082511818d56679d0eb0befeb5903df9ee2596ce2e9a67e3eb65accb1c"
     },
     {
       "buildId": "008",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page does not directly visualize dashboard-to-decision architecture; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/008/build-008-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/008/build-008-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-008-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/008/build-008-linkedin-poster.png",
+      "liveAssetSha256": "12e6ddc583fcd70768ac04679b013c9c79a0ced74f7cf7b22b57ed8a83ddbca1",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-008-replacement-source-context.svg",
+      "reviewArtifactSha256": "533356556a9a29d9c3347dbf48b4ec5248a9851d7300b97e2bcac53ffe631d80"
     },
     {
       "buildId": "009",
@@ -137,17 +149,25 @@
     },
     {
       "buildId": "013",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page is too generic to visualize downstream consequence propagation; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/013/build-013-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/013/build-013-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-013-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/013/build-013-linkedin-poster.png",
+      "liveAssetSha256": "f1911694ad444f39d7fe45466515dcd9a55f2e005707c04562ad68c1a5661552",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-013-replacement-source-context.svg",
+      "reviewArtifactSha256": "f7f01d71ab3e46b1677033e4a8cad0b64971b51dd826aebe6b0546c26ddaff97"
     },
     {
       "buildId": "017",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page is too generic to visualize cross-organization responsibility handoffs; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/017/build-017-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/017/build-017-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-017-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/017/build-017-linkedin-poster.png",
+      "liveAssetSha256": "a3ea3270ea124f38548559430bccd3beee85ab810b7d82b4ac3fa8bf8a1f4185",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-017-replacement-source-context.svg",
+      "reviewArtifactSha256": "69eab1522f033a2145f7a4311717b808b9cb782651107c3c755550c5673eee39"
     },
     {
       "buildId": "018",
@@ -192,10 +212,14 @@
     },
     {
       "buildId": "025",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page does not directly visualize layered readiness; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/025/build-025-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/025/build-025-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-025-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/025/build-025-linkedin-poster.png",
+      "liveAssetSha256": "ca0eb0e40bf56f2818726883b2f676ca54648fcd99b238c1397e616c6c196b71",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-025-replacement-source-context.svg",
+      "reviewArtifactSha256": "45b6857be228994ac273b64d1b1091dad68f6d137ad0c344e22a98f204971dba"
     },
     {
       "buildId": "026",
@@ -208,17 +232,25 @@
     },
     {
       "buildId": "028",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page does not directly visualize ranking rationale; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/028/build-028-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/028/build-028-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-028-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/028/build-028-linkedin-poster.png",
+      "liveAssetSha256": "d15d2d345acb22d1945244991292d2ed9945f6733eebd4552ecb3f6ea1a522fc",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-028-replacement-source-context.svg",
+      "reviewArtifactSha256": "63d2b14f5c91599c4e01cce396b7ff37e7a1d313808b25524997c4f8dfd91daa"
     },
     {
       "buildId": "029",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "PROV Primer is indirect context for consequence propagation and is weaker than the RN hook.",
-      "liveAssetUrl": "/media/builds/029/build-029-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/029/build-029-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-029-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/029/build-029-linkedin-poster.png",
+      "liveAssetSha256": "f6b672451c0b3fe8ffd157ad0549428d6ebe85ad04dcf030040b78e173134ffc",
+      "sourceUrl": "https://www.w3.org/TR/prov-primer/#summary",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-029-replacement-source-context.svg",
+      "reviewArtifactSha256": "8a24d51c806197c72858374219c879bba1355a745a4a48c79a6ae2b8b29f35f4"
     },
     {
       "buildId": "031",
@@ -231,10 +263,14 @@
     },
     {
       "buildId": "032",
-      "decision": "REJECTED_FOR_LIVE_HOOK",
-      "reason": "The AI RMF title page is too generic to visualize a release-blocker gate; retain the build-specific RN hook.",
-      "liveAssetUrl": "/media/builds/032/build-032-linkedin-poster.png",
-      "rollbackAssetUrl": "/media/builds/032/build-032-linkedin-poster.png"
+      "decision": "PROMOTED",
+      "reason": "A stronger exact bounded excerpt from the selected official source passed contextual-fit, rights, attribution, claim-boundary, accessibility, legibility and checksum review.",
+      "liveAssetUrl": "/media/100-builds/replacement-production-covers/build-032-official-excerpt-cover.svg",
+      "rollbackAssetUrl": "/media/builds/032/build-032-linkedin-poster.png",
+      "liveAssetSha256": "273680f07d5ba441b2dfbc7c0065aa960bdb0b4f207d5aecb0f3ebf4bc35df5c",
+      "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+      "reviewArtifactUrl": "/media/100-builds/replacement-source-context/build-032-replacement-source-context.svg",
+      "reviewArtifactSha256": "917baa426652460e6e6d41971b7dc7e4c01af38e6c5442adb22747c4fce97857"
     }
   ]
 }
