@@ -1,11 +1,15 @@
 #!/usr/bin/env node
 import { createHash } from "node:crypto";
 import { readFileSync, statSync } from "node:fs";
+import { resolve } from "node:path";
+
+const root = resolve(import.meta.dirname, "..");
+const atRoot = path => resolve(root, path);
 
 const ledgerPath = "docs/builds/visual-source-acquisition-001-100/packages.json";
 const manifestPath = "docs/builds/visual-source-acquisition-001-100/CANVA-READY-OFFICIAL-COVERS.json";
-const ledger = JSON.parse(readFileSync(ledgerPath, "utf8"));
-const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
+const ledger = JSON.parse(readFileSync(atRoot(ledgerPath), "utf8"));
+const manifest = JSON.parse(readFileSync(atRoot(manifestPath), "utf8"));
 const fail = message => { throw new Error("[canva-ready-official-covers] " + message); };
 const sha256 = value => createHash("sha256").update(value).digest("hex");
 const requireText = (value, label) => {
@@ -36,16 +40,16 @@ for (const [index, record] of manifest.records.entries()) {
     if (record[key] !== source.liveCover[key]) fail(record.buildId + "." + key + " drifted from live ledger");
   }
   if (!/^https:\/\//.test(record.sourceUrl)) fail(record.buildId + " sourceUrl must be HTTPS");
-  const sourceBytes = readFileSync(record.sourceAssetPath);
-  const exportBytes = readFileSync(record.exportPath);
+  const sourceBytes = readFileSync(atRoot(record.sourceAssetPath));
+  const exportBytes = readFileSync(atRoot(record.exportPath));
   if (sha256(sourceBytes) !== record.sourceSha256 || sha256(exportBytes) !== record.exportSha256) fail(record.buildId + " byte hash mismatch");
   if (!sourceBytes.equals(exportBytes)) fail(record.buildId + " export must be byte-identical to approved live source cover");
   const svg = exportBytes.toString("utf8");
   if (!/<svg\b[^>]*\bwidth=["']1200["'][^>]*\bheight=["']1500["'][^>]*\bviewBox=["']0 0 1200 1500["']/i.test(svg)) fail(record.buildId + " SVG geometry mismatch");
   if (!/<title\b/i.test(svg) || !/<desc\b/i.test(svg)) fail(record.buildId + " SVG requires accessible title and description");
   if (/<script\b|<foreignObject\b|\bon\w+\s*=|javascript:|\b(?:href|src)\s*=\s*["\']https?:\/\//i.test(svg)) fail(record.buildId + " SVG contains executable or network-active content");
-  if (statSync(record.exportPath).size === 0) fail(record.buildId + " empty export");
-  const sidecar = JSON.parse(readFileSync(sidecarPath, "utf8"));
+  if (statSync(atRoot(record.exportPath)).size === 0) fail(record.buildId + " empty export");
+  const sidecar = JSON.parse(readFileSync(atRoot(sidecarPath), "utf8"));
   if (JSON.stringify(sidecar) !== JSON.stringify(record)) fail(record.buildId + " sidecar drift");
 }
 console.log(`Validated ${manifest.records.length} Canva-ready official/source-context covers (1200x1500, byte-identical, metadata-complete, inert).`);
