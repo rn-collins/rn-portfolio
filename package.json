@@ -12,12 +12,13 @@
     "lint": "turbo lint",
     "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm validate:public-surface && pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "ci": "pnpm validate:public-surface && pnpm validate:hold-captures && pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
     "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
     "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs",
     "validate:canonical-lineage": "node scripts/validate-canonical-lineage.mjs",
     "validate:media": "node scripts/validate-linkedin-media.mjs",
-    "validate:public-surface": "node scripts/validate-public-surface.mjs"
+    "validate:public-surface": "node scripts/validate-public-surface.mjs",
+    "validate:hold-captures": "node scripts/validate-hold-capture-renders.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",

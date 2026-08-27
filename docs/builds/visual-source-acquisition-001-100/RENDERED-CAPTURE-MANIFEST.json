@@ -1,0 +1,345 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "HOLD",
+  "generatedAt": "2026-08-27",
+  "counts": {
+    "specified": 11,
+    "renderedReviewOnly": 11,
+    "rejected": 0,
+    "blocked": 0,
+    "selected": 0,
+    "staged": 0
+  },
+  "records": [
+    {
+      "buildId": "010",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-010-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "851acd7956635298cc300fc0251257aa0c9bb4c02f61d3ecb57bee9423d146f9",
+      "sourceSha256": "ccca77caed771f42ea649c03d190b9c7ea0b82286c22c457b9edc8087c9ad0f8",
+      "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+      "alt": "Title, Recommendation status, and abstract of the official 20 July 2017 W3C SHACL specification.",
+      "caption": "W3C SHACL Recommendation. Context excerpt only; no affiliation or endorsement.",
+      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "030",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-030-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "b92888d577699441a652480e062ff6e418f2dc3fc3a0d2e742f12c2b225bc4dd",
+      "sourceSha256": "9307b40f5dcd8d988444184de6d07efdf384ba744bf364bae3fd712282868508",
+      "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+      "alt": "Title, Recommendation status, abstract, and four accessibility principles from WCAG 2.2.",
+      "caption": "WCAG 2.2 immutable 2023 Recommendation. Context excerpt only; no affiliation or endorsement.",
+      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "036",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-036-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "a5ae77502fef53478244dec2d056947ae3bb4c59cb8c18f479c5acf4f01d0cd1",
+      "sourceSha256": "9bf4121df576f08a49606cd98885c48755ee8b70e98c7907463a98f0d2879d13",
+      "sourceUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
+      "alt": "Title, Candidate Recommendation status, abstract, and offline-capability motivation from the 19 November 2019 Service Workers 1 snapshot.",
+      "caption": "Service Workers 1 \u2014 2019 Candidate Recommendation. Context excerpt only; no affiliation or endorsement.",
+      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "039",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-039-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "c05718921cdbe4f11f05edb36b4910527a73c4c22f19f43aa13175a0e4bc1cc7",
+      "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "alt": "Title, Recommendation status, and abstract of the official 30 April 2013 PROV-O Recommendation.",
+      "caption": "W3C PROV-O Recommendation. Context excerpt only; no affiliation or endorsement.",
+      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "038",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-038-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "2aa166323c6855c228d41e8ad80d2f56ec25795643a1d6ebf8524d87e6c0a6f0",
+      "sourceSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "alt": "Excerpt from NIST AI RMF 1.0 describing its voluntary, use-case-agnostic risk-management approach.",
+      "caption": "NIST AI RMF 1.0. Context excerpt only; no affiliation or endorsement.",
+      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "040",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-040-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "8df102a71cd0ce8a905fe9b25085e25f3f8b641dac42def2e5c71487db690780",
+      "sourceSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "alt": "NIST AI RMF excerpt explaining that trustworthiness characteristics are interrelated and involve tradeoffs.",
+      "caption": "NIST AI RMF 1.0. Context excerpt only; no affiliation or endorsement.",
+      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "041",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-041-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "8b0b467fcd808fe4f3c09526f96d8c08e7cda61b9e7c66babd01c29fdbeef3a4",
+      "sourceSha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "alt": "NIST AI RMF GOVERN excerpt describing accountability structures, roles, and responsibilities.",
+      "caption": "NIST AI RMF 1.0. Context excerpt only; no affiliation or endorsement.",
+      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "049",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-049-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "2d0974ddb7721afae37aa803c233065661b87aa503fd629f3c18d9cbcef2ea45",
+      "sourceSha256": "58e1f2373e1c8a5782f7ddfce677fa9fc15e2d920ec0ab97ee754697e91bc2f0",
+      "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+      "alt": "NIST Privacy Framework excerpt explaining current and target privacy Profiles.",
+      "caption": "NIST Privacy Framework 1.0. Context excerpt only; no affiliation or endorsement.",
+      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "055",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-055-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "bd49f3cf93adf6e5d04d5b0fbd0b54870bcb7599376a6c79e7dbee6e77b86963",
+      "sourceSha256": "b3b54b00b5ac3f3582a3e3fd17d3f25b18f848a51f113000b6489adbcce374b4",
+      "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf",
+      "alt": "NISTIR 8259A excerpt describing IoT cybersecurity state awareness.",
+      "caption": "NISTIR 8259A. Context excerpt only; no affiliation or endorsement.",
+      "notice": "NIST work excerpt; see source publication notices and policies: https://www.nist.gov/open",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "057",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-057-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "3d6f3f8e1be1ea5e6ad91f65ddb7d9c077455a6d7ad235981faf338f7536c5fd",
+      "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "alt": "PROV-O excerpt introducing entities, activities, agents, and provenance relationships.",
+      "caption": "W3C PROV-O Recommendation. Context excerpt only; no affiliation or endorsement.",
+      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    },
+    {
+      "buildId": "058",
+      "status": "HOLD",
+      "renderStatus": "REVIEW-ONLY",
+      "selected": false,
+      "staged": false,
+      "path": "apps/web/public/media/100-builds/source-excerpts/build-058-source-excerpt-hold.svg",
+      "width": 1200,
+      "height": 1500,
+      "mimeType": "image/svg+xml",
+      "sha256": "3e371f1b7e428b310375461208c705e1ab6ec5866dad7fe633c392eab18342f3",
+      "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+      "alt": "PROV-O definitions for entities, activities, generation, and derivation relationships.",
+      "caption": "W3C PROV-O Recommendation. Context excerpt only; no affiliation or endorsement.",
+      "notice": "W3C Software and Document License: https://www.w3.org/copyright/software-license-2023/",
+      "gatesPassed": [
+        "source bytes matched recorded SHA-256",
+        "exact source wording preserved",
+        "excluded logos/figures/examples absent",
+        "dimensions recorded",
+        "accessible title and description present"
+      ],
+      "gatesOpen": [
+        "human visual review",
+        "rights/notice sufficiency review",
+        "contextual-fit approval"
+      ],
+      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+    }
+  ]
+}
