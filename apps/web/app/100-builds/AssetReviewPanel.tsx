@@ -3,6 +3,7 @@ import fallbackManifest from '../../../../docs/builds/visual-source-acquisition-
 import fallbackSpecs from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-SPECS-HOLD.json';
 import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
 import promotionReview from '../../../../docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json';
+import remainingHoldReview from '../../../../docs/builds/visual-source-acquisition-001-100/HOLD-SOURCE-REVIEW-REMAINING-65.json';
 
 type Candidate={
   sourcePageUrl:string;
@@ -42,6 +43,7 @@ export default function AssetReviewPanel({id}:{id:string}){
  const fallbackSpec=fallbackSpecs.records.find(item=>item.buildId===id);
  const reviewExcerpt=renderedCaptures.records.find(item=>item.buildId===id);
  const promotion=promotionReview.records.find(item=>item.buildId===id);
+ const holdSourceReview=remainingHoldReview.records.find(item=>item.buildId===id);
  return <section aria-labelledby="asset-review-heading" style={panel}>
   <p><b>VISUAL ASSET REVIEW</b></p>
   <h2 id="asset-review-heading">Hook image, source candidate, and release gates</h2>
@@ -72,6 +74,23 @@ export default function AssetReviewPanel({id}:{id:string}){
    <p><b>{promotion.decision==='PROMOTED'?'PROMOTED · LIVE':'RETAINED RN COVER · OFFICIAL CANDIDATE REVIEW-ONLY'}</b></p>
    <p>{promotion.reason}</p>
    <p><b>Rollback:</b> The prior RN cover remains preserved at <a href={promotion.rollbackAssetUrl}>its canonical asset URL</a>.</p>
+  </article>}
+  {holdSourceReview&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`hold-source-${id}-heading`}>
+   <p><b>EXTERNAL SOURCE REVIEW · HOLD · NOT SELECTED · NOT STAGED</b></p>
+   <h3 id={`hold-source-${id}-heading`}>Exact-source acquisition decision</h3>
+   <p><b>Classification:</b> {holdSourceReview.classification.replaceAll('_',' ')}</p>
+   <p>{holdSourceReview.rights.decision}</p>
+   {holdSourceReview.candidate.sourcePageUrl&&<p><a href={holdSourceReview.candidate.sourcePageUrl} rel="noreferrer">Open authoritative context source →</a></p>}
+   {holdSourceReview.candidate.exactAssetUrl&&<p><a href={holdSourceReview.candidate.exactAssetUrl} rel="noreferrer">Open exact candidate asset →</a></p>}
+   <details><summary>Capture, attribution, and claim boundaries</summary>
+    <p><b>Capture status:</b> {holdSourceReview.capture.status}</p>
+    {holdSourceReview.capture.cropBoundary&&<p><b>Crop:</b> {holdSourceReview.capture.cropBoundary}</p>}
+    <p><b>Attribution:</b> {holdSourceReview.reviewCopy.attribution}</p>
+    <p><b>Alt text:</b> {holdSourceReview.reviewCopy.altText}</p>
+    <p><b>Caption:</b> {holdSourceReview.reviewCopy.caption}</p>
+    <p><b>Claim boundary:</b> {holdSourceReview.reviewCopy.claimBoundary}</p>
+   </details>
+   <p><b>Fallback decision:</b> Retain the original RN cover. No external promotion is authorized.</p>
   </article>}
   {originalFallback&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`fallback-${id}-heading`}>
    <h3 id={`fallback-${id}-heading`}>Original HOLD fallback graphic</h3>
