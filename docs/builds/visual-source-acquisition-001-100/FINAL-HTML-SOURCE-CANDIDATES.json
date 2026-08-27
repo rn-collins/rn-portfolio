@@ -4,7 +4,9 @@
   "counts": {
     "builds": 10,
     "uniqueSources": 6,
-    "liveSubstitutions": 0
+    "liveSubstitutions": 0,
+    "checksummedOutputs": 10,
+    "sourceLinked": 10
   },
   "records": [
     {
@@ -23,7 +25,19 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
       "claimBoundary": "Supports recognition of GOV.UK Learning about users and their needs and the limited source context adjacent to Build 002; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 002.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "6e072d434ca6d58b2a72ede53b6126b6cc1aad614dd09132d68675cacb6fc7fd",
+      "sourceBlobSha": "0c7e06360029b32fe36bd47a1053bc986776ff37",
+      "sourceSha256": "96bd362e5c203cb0ba31a168e94e95ff562fa75b7cd0549285525865b6578513",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "003",
@@ -41,7 +55,19 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
       "claimBoundary": "Supports recognition of GOV.UK Learning about users and their needs and the limited source context adjacent to Build 003; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 003.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "469501197ab6e7eff3fb86a2a126fa8e25f43ad7308fe0824c635319ed112f06",
+      "sourceBlobSha": "0c7e06360029b32fe36bd47a1053bc986776ff37",
+      "sourceSha256": "96bd362e5c203cb0ba31a168e94e95ff562fa75b7cd0549285525865b6578513",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "004",
@@ -59,7 +85,19 @@
       "attribution": "Source: National Institute of Standards and Technology, NIST AI RMF Playbook. Republished courtesy of NIST.",
       "claimBoundary": "Supports recognition of NIST AI RMF Playbook and the limited source context adjacent to Build 004; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 004.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "650cdcd30049d95cf67eb3e4b0688d043192b89c0dfee86b81e040eb26484df1",
+      "sourceBlobSha": "a34ffabf9fe9467e49ba9dfe10f2103c0ef99e8e",
+      "sourceSha256": "3f7ac6fb68d9342c856bc16b056dc0a9ebbda6b55c11a990588f19a129a5baba",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "005",
@@ -77,7 +115,19 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
       "claimBoundary": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 005; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 005.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "5aaa409b1c96c4bea569ea7f0f7f3d903d32eeaedb0369355b059ee656ff7a6f",
+      "sourceBlobSha": "ac84eb55d7dadc9bfb9d2da42d3784ea1c4a8007",
+      "sourceSha256": "8d5d98fe0231fbf242381b3edf223d4976d85d7767b5e3ee953917df872cf07a",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "006",
@@ -95,7 +145,19 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Assisted digital support.",
       "claimBoundary": "Supports recognition of GOV.UK Assisted digital support and the limited source context adjacent to Build 006; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / Assisted digital and digital take-up community endorses RN or Build 006.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "633dbc993b91c092a23af66345f665bb8b8f5d0e0334b32e4affb90059037e08",
+      "sourceBlobSha": "92eb95eb5f0db4d7d7b8683f620f83dfc939325b",
+      "sourceSha256": "901b35044d26b43649dcff4452dcc98bd7847bb84cc3869b4847e9f63591bafc",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "011",
@@ -113,7 +175,19 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
       "claimBoundary": "Supports recognition of W3C PROV Primer and the limited source context adjacent to Build 011; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 011.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "9bb1896379eecbce61aa26d017a6c0cc3ae072d8c78072c3f65c535e113a4e84",
+      "sourceBlobSha": "68c65a10712245612c180a4446a42b7665cf2e6b",
+      "sourceSha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "018",
@@ -131,7 +205,19 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
       "claimBoundary": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 018; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 018.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "b80ed467a448d583d7dbd9cd070ed31212e619af3c81ff858a5eba6086aecab3",
+      "sourceBlobSha": "ac84eb55d7dadc9bfb9d2da42d3784ea1c4a8007",
+      "sourceSha256": "8d5d98fe0231fbf242381b3edf223d4976d85d7767b5e3ee953917df872cf07a",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "020",
@@ -149,7 +235,19 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
       "claimBoundary": "Supports recognition of W3C PROV Primer and the limited source context adjacent to Build 020; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 020.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "4d0611680be8ddc8da43ac5656ff23c16ac7158fd26e9c67d3a80b83ad5f97cd",
+      "sourceBlobSha": "68c65a10712245612c180a4446a42b7665cf2e6b",
+      "sourceSha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "026",
@@ -167,7 +265,19 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV-O, https://www.w3.org/TR/prov-o/, under the W3C Document License.",
       "claimBoundary": "Supports recognition of W3C PROV-O and the limited source context adjacent to Build 026; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 026.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "5721931b0a9725d42cf11147b123a9cbab172b1ae7ea71497da4c365e5ee3d38",
+      "sourceBlobSha": "e3a641e842128354a7a97145baf4091b2583b7dc",
+      "sourceSha256": "6b96671ab84faf12ce3f041aca12c3f93a6df2ed242348810743179a68e69555",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     },
     {
       "buildId": "029",
@@ -185,7 +295,19 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
       "claimBoundary": "Supports recognition of W3C PROV Primer and the limited source context adjacent to Build 029; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
       "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 029.",
-      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED"
+      "reviewState": "FINAL CANDIDATE · NOT LIVE · NOT SUBSTITUTED",
+      "sha256": "5b0f1d0b1e24c391bccd888e2f80985eda7356f3f7b789a988b5e1d7c3ec499f",
+      "sourceBlobSha": "68c65a10712245612c180a4446a42b7665cf2e6b",
+      "sourceSha256": "4db54135a6f06bbee1983e079c6d9bd3d54e5b45eb6ed0f5686e922c665b8c4a",
+      "checks": {
+        "outputChecksumRecorded": true,
+        "sourceBlobLinked": true,
+        "sourceSha256Recorded": true,
+        "canonicalCropComplete": true,
+        "accessibleSvg": true,
+        "logosMarksExcluded": true,
+        "liveSubstitution": false
+      }
     }
   ]
 }
