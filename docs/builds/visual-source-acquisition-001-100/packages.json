@@ -15,7 +15,8 @@
     "selection": "The 24 bounded cleared candidates are formally selected. Selection does not replace the live RN cover.",
     "fallback": "All 100 RN-owned covers remain release-eligible.",
     "canva": "Canva generation is false for all 100.",
-    "staging": "Nine unique remote official sources have source, rights, crop, attribution, alt, caption and assignment metadata staged; no source binary is present in the repository, so externalStaged remains false."
+    "staging": "Nine unique remote official sources have source, rights, crop, attribution, alt, caption and assignment metadata staged; no source binary is present in the repository, so externalStaged remains false.",
+    "promotion": "Eleven strong direct source-context mappings are live; thirteen cleared candidates remain review-only because their official title/intro treatment is less contextually specific than the RN hook. Every promoted record retains the prior RN cover for immediate rollback."
   },
   "expected": {
     "records": 100,
@@ -24,7 +25,9 @@
     "rnFallbackReady": 100,
     "externalSelected": 24,
     "externalStaged": 0,
-    "canvaAuthorized": 0
+    "canvaAuthorized": 0,
+    "liveCoverSubstituted": 11,
+    "reviewOnlyCleared": 13
   },
   "records": [
     {
@@ -96,7 +99,7 @@
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "PDF text-region capture",
           "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
           "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
@@ -104,7 +107,8 @@
           "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
           "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 001, Human Review Design Framework.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Human Review Design Framework and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 001."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 001.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -127,12 +131,45 @@
         "carousel": "Build 001 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 001, Human Review Design Framework: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-context/build-001-official-source-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-context/build-001-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "88f2b8b92c9c65b0fd0ce66c324bf4936652022bd3193bb70cd3928d2e94b50a",
+        "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 001, Human Review Design Framework. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+        "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+        "rightsLine": "NIST public information · no endorsement"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/001/build-001-linkedin-poster.png",
+        "openingFrame": "/media/builds/001/build-001-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 001, Human Review Design Framework. Creator-owned 4:5 typographic opening frame. Visible text: “HUMAN IN THE LOOP? That phrase hides the part that matters.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "002",
@@ -234,12 +271,13 @@
         "carousel": "Build 002 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 002, Multi-Audience Meaning Architecture: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "003",
@@ -310,7 +348,7 @@
           "sourcePageUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
@@ -318,7 +356,8 @@
           "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
           "altText": "Official GOV.UK Learning about users and their needs document or guidance page, selected as contextual evidence for Build 003, Unserved Decision Discovery.",
           "contextualFit": "GOV.UK Learning about users and their needs is directly relevant to Unserved Decision Discovery and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 003."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 003.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -341,12 +380,45 @@
         "carousel": "Build 003 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 003, Unserved Decision Discovery: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-variants/build-003-official-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-variants/build-003-official-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "bfc83eee4bedd4d1308107e41561ae69a7c19be0416b17a5f7a17005b3e34dc0",
+        "altText": "Build 003, Unserved Decision Discovery. Official GOV.UK Learning about users and their needs document or guidance page, selected as contextual evidence for Build 003, Unserved Decision Discovery.",
+        "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
+        "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
+        "sourceUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+        "claimBoundary": "Supports recognition of GOV.UK Learning about users and their needs and the limited source context adjacent to Build 003; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / User research community endorses RN or Build 003.",
+        "rightsLine": "Open Government Licence v3.0 · Crown copyright source"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/003/build-003-linkedin-poster.png",
+        "openingFrame": "/media/builds/003/build-003-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 003, Unserved Decision Discovery. Creator-owned 4:5 typographic opening frame. Visible text: “THEY HAVE INFORMATION. But they still cannot reliably decide what to do.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "004",
@@ -417,7 +489,7 @@
           "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-03-ai-rmf-playbook.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main content only: H1 “NIST AI RMF Playbook” plus the introductory description of suggested actions; exclude NIST marks, site header/navigation, promotional panels and footer.",
           "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
@@ -425,7 +497,8 @@
           "attribution": "Source: National Institute of Standards and Technology, NIST AI RMF Playbook. Republished courtesy of NIST.",
           "altText": "Official NIST AI RMF Playbook document or guidance page, selected as contextual evidence for Build 004, Before the Automation.",
           "contextualFit": "NIST AI RMF Playbook is directly relevant to Before the Automation and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 004."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 004.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -448,12 +521,45 @@
         "carousel": "Build 004 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 004, Before the Automation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-variants/build-004-official-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-variants/build-004-official-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "3f2a42c766b40cacf2e3382f32422d4c8111b4d31138d23cf1976281687b0136",
+        "altText": "Build 004, Before the Automation. Official NIST AI RMF Playbook document or guidance page, selected as contextual evidence for Build 004, Before the Automation.",
+        "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
+        "credit": "Source: National Institute of Standards and Technology, NIST AI RMF Playbook. Republished courtesy of NIST.",
+        "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+        "claimBoundary": "Supports recognition of NIST AI RMF Playbook and the limited source context adjacent to Build 004; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 004.",
+        "rightsLine": "Official NIST public information · Republished courtesy of NIST"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/004/build-004-linkedin-poster.png",
+        "openingFrame": "/media/builds/004/build-004-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 004, Before the Automation. Creator-owned 4:5 typographic opening frame. Visible text: “A PILE OF SOURCES IS NOT INTELLIGENCE. The transformation happens through explicit gates.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "005",
@@ -524,7 +630,7 @@
           "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "The GOV.UK Service Standard, shown as public-service design context.",
@@ -532,7 +638,8 @@
           "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
           "altText": "Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 005, Service Path Split.",
           "contextualFit": "GOV.UK Service Standard is directly relevant to Service Path Split and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 005."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 005.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -555,12 +662,45 @@
         "carousel": "Build 005 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 005, Service Path Split: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-variants/build-005-official-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-variants/build-005-official-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "e7cf889fb1a8745b78d5171955cbb16761a7cb1597b0289cdd791b1f87ae273b",
+        "altText": "Build 005, Service Path Split. Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 005, Service Path Split.",
+        "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+        "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
+        "sourceUrl": "https://www.gov.uk/service-manual/service-standard",
+        "claimBoundary": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 005; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 005.",
+        "rightsLine": "Open Government Licence v3.0 · Crown copyright source"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/005/build-005-linkedin-poster.png",
+        "openingFrame": "/media/builds/005/build-005-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 005, Service Path Split. Creator-owned 4:5 typographic opening frame. Visible text: “DON’T AUTOMATE THE SERVICE. Separate the steps first.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "006",
@@ -631,7 +771,7 @@
           "sourcePageUrl": "https://www.gov.uk/service-manual/assisted-digital/",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-05-assisted-digital.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Assisted digital support” and the first explanatory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "GOV.UK Service Manual guidance on assisted digital support.",
@@ -639,7 +779,8 @@
           "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Assisted digital support.",
           "altText": "Official GOV.UK Assisted digital support document or guidance page, selected as contextual evidence for Build 006, Form Gate Field.",
           "contextualFit": "GOV.UK Assisted digital support is directly relevant to Form Gate Field and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / Assisted digital and digital take-up community endorses RN or Build 006."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / Assisted digital and digital take-up community endorses RN or Build 006.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -662,12 +803,45 @@
         "carousel": "Build 006 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 006, Form Gate Field: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-variants/build-006-official-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-variants/build-006-official-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "e7b34a7d431cddbf81b3fe19b4c3894ac4182f6c014bdeb02f971d130e82b922",
+        "altText": "Build 006, Form Gate Field. Official GOV.UK Assisted digital support document or guidance page, selected as contextual evidence for Build 006, Form Gate Field.",
+        "caption": "GOV.UK Service Manual guidance on assisted digital support.",
+        "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Assisted digital support.",
+        "sourceUrl": "https://www.gov.uk/service-manual/assisted-digital/",
+        "claimBoundary": "Supports recognition of GOV.UK Assisted digital support and the limited source context adjacent to Build 006; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service / Assisted digital and digital take-up community endorses RN or Build 006.",
+        "rightsLine": "Open Government Licence v3.0 · Crown copyright source"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/006/build-006-linkedin-poster.png",
+        "openingFrame": "/media/builds/006/build-006-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 006, Form Gate Field. Creator-owned 4:5 typographic opening frame. Visible text: “SOFTWARE IS NOT THE DEFAULT. It is one form the problem may—or may not—earn.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "007",
@@ -769,12 +943,13 @@
         "carousel": "Build 007 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 007, The Product That Learns: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "008",
@@ -876,12 +1051,13 @@
         "carousel": "Build 008 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 008, Data Is Not a Decision: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "009",
@@ -983,12 +1159,13 @@
         "carousel": "Build 009 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 009, Transfer Is a Place Question: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "010",
@@ -1181,12 +1358,13 @@
         "carousel": "Build 011 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 011, Same Name Is Not Same Entity: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "012",
@@ -1257,7 +1435,7 @@
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "PDF text-region capture",
           "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
           "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
@@ -1265,7 +1443,8 @@
           "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
           "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 012, Controls Follow Consequence.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Controls Follow Consequence and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 012."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 012.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -1288,12 +1467,45 @@
         "carousel": "Build 012 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 012, Controls Follow Consequence: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-context/build-012-official-source-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-context/build-012-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "fb4b8cc508a37b5ca07a0344ffab1d71a25a89d54aeb308035a01d777cc6ceb8",
+        "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 012, Controls Follow Consequence. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+        "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+        "rightsLine": "NIST public information · no endorsement"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/012/build-012-linkedin-poster.png",
+        "openingFrame": "/media/builds/012/build-012-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 012, Controls Follow Consequence. Creator-owned 4:5 typographic opening frame. Visible text: “THE MODEL IS NOT THE USE. The same capability can carry radically different consequences in different contexts.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "013",
@@ -1395,12 +1607,13 @@
         "carousel": "Build 013 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 013, Follow the Consequence: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "014",
@@ -1769,12 +1982,13 @@
         "carousel": "Build 017 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 017, The Risk Lives Between the Boxes: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "018",
@@ -1845,7 +2059,7 @@
           "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "The GOV.UK Service Standard, shown as public-service design context.",
@@ -1853,7 +2067,8 @@
           "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
           "altText": "Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 018, The Process Is Part of the Outcome.",
           "contextualFit": "GOV.UK Service Standard is directly relevant to The Process Is Part of the Outcome and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 018."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 018.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -1876,12 +2091,45 @@
         "carousel": "Build 018 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 018, The Process Is Part of the Outcome: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-variants/build-018-official-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-variants/build-018-official-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "9c0e1971a95d7580946b93b55a504f51451d7877a7cd1ca2dca5d892019939c9",
+        "altText": "Build 018, The Process Is Part of the Outcome. Official GOV.UK Service Standard document or guidance page, selected as contextual evidence for Build 018, The Process Is Part of the Outcome.",
+        "caption": "The GOV.UK Service Standard, shown as public-service design context.",
+        "credit": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
+        "sourceUrl": "https://www.gov.uk/service-manual/service-standard",
+        "claimBoundary": "Supports recognition of GOV.UK Service Standard and the limited source context adjacent to Build 018; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that UK Government Digital Service endorses RN or Build 018.",
+        "rightsLine": "Open Government Licence v3.0 · Crown copyright source"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/018/build-018-linkedin-poster.png",
+        "openingFrame": "/media/builds/018/build-018-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 018, The Process Is Part of the Outcome. Creator-owned 4:5 typographic opening frame. Visible text: “INSTITUTIONAL FRICTION DETECTOR — Find bottlenecks, dead ends, repeated loops and avoidable burden inside institutional processes.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "019",
@@ -1952,7 +2200,7 @@
           "sourcePageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-07-sp-800-61r3.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "PDF text-region capture",
           "cropBoundary": "Crop boundary: PDF page 1: publication identifier, complete title, revision number, authorship line and publication date text; omit all insignia/marks and decorative field. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
           "caption": "Official NIST SP 800-61 Rev. 3, shown as incident-response context.",
@@ -1960,7 +2208,8 @@
           "attribution": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
           "altText": "Official NIST SP 800-61 Rev. 3 document or guidance page, selected as contextual evidence for Build 019, The Alert That Knows Who Cares.",
           "contextualFit": "NIST SP 800-61 Rev. 3 is directly relevant to The Alert That Knows Who Cares and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 019."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 019.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -1983,12 +2232,45 @@
         "carousel": "Build 019 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 019, The Alert That Knows Who Cares: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-context/build-019-official-source-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-context/build-019-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "42c23ea73c840b9c81c062eea3d69dfd7d168051277eeed547fb546dd635eeb8",
+        "altText": "Official NIST SP 800-61r3 title-page text, selected as contextual evidence for Build 019, The Alert That Knows Who Cares. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "caption": "Official NIST SP 800-61 Rev. 3, shown as incident-response context.",
+        "credit": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+        "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+        "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+        "rightsLine": "NIST public information · no endorsement"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/019/build-019-linkedin-poster.png",
+        "openingFrame": "/media/builds/019/build-019-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 019, The Alert That Knows Who Cares. Creator-owned 4:5 typographic opening frame. Visible text: “100 ALERTS ≠ 100 INCIDENTS. Repeated signals can describe one consequential event—not one hundred separate interruptions.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "020",
@@ -2090,12 +2372,13 @@
         "carousel": "Build 020 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 020, Open the Decision: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "021",
@@ -2197,12 +2480,13 @@
         "carousel": "Build 021 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 021, Break the Promise Open: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "022",
@@ -2273,7 +2557,7 @@
           "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "PDF text-region capture",
           "cropBoundary": "Crop boundary: PDF page 1: publication identifier, full title, subtitle/version and publication date text; omit all insignia/marks and decorative field. Do not include any interior figure until separately reviewed. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
           "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
@@ -2281,7 +2565,8 @@
           "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
           "altText": "Official NIST AI Risk Management Framework 1.0 document or guidance page, selected as contextual evidence for Build 022, Human Impact Nodes.",
           "contextualFit": "NIST AI Risk Management Framework 1.0 is directly relevant to Human Impact Nodes and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 022."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 022.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -2304,12 +2589,45 @@
         "carousel": "Build 022 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 022, Human Impact Nodes: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-context/build-022-official-source-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-context/build-022-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "4d7b30bcedad7c36c89b08ef511a3e8f784b91b4deb7185b0332b4d0a99dde74",
+        "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 022, Human Impact Nodes. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+        "credit": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+        "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+        "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+        "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+        "rightsLine": "NIST public information · no endorsement"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/022/build-022-linkedin-poster.png",
+        "openingFrame": "/media/builds/022/build-022-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 022, Human Impact Nodes. Creator-owned 4:5 typographic opening frame. Visible text: “HUMAN CONSEQUENCE MAP FOR AI WORKFLOWS — Show who can be affected by an AI workflow and how consequences travel to them.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "023",
@@ -2593,12 +2911,13 @@
         "carousel": "Build 025 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 025, Readiness Has Layers: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "026",
@@ -2669,7 +2988,7 @@
           "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-08-prov-o.html.source.txt",
           "binaryPresent": true,
-          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Document text only: title, Recommendation status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
           "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
@@ -2677,7 +2996,8 @@
           "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV-O, https://www.w3.org/TR/prov-o/, under the W3C Document License.",
           "altText": "Official W3C PROV-O document or guidance page, selected as contextual evidence for Build 026, Records Normalize Without Losing Their Past.",
           "contextualFit": "W3C PROV-O is directly relevant to Records Normalize Without Losing Their Past and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 026."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 026.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -2700,12 +3020,45 @@
         "carousel": "Build 026 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 026, Records Normalize Without Losing Their Past: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-variants/build-026-official-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-variants/build-026-official-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "c9f0cbb53260705ca0392eef4db28578732f5b05b9cf6145ea344cfcec9e7528",
+        "altText": "Build 026, Records Normalize Without Losing Their Past. Official W3C PROV-O document or guidance page, selected as contextual evidence for Build 026, Records Normalize Without Losing Their Past.",
+        "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
+        "credit": "Copyright © 2013 W3C®. Material reproduced from PROV-O, https://www.w3.org/TR/prov-o/, under the W3C Document License.",
+        "sourceUrl": "https://www.w3.org/TR/prov-o/",
+        "claimBoundary": "Supports recognition of W3C PROV-O and the limited source context adjacent to Build 026; it does not prove RN's prototype performance, compliance, safety, effectiveness or institutional endorsement.",
+        "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that World Wide Web Consortium endorses RN or Build 026.",
+        "rightsLine": "W3C Document License · © 2013 W3C®"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/026/build-026-linkedin-poster.png",
+        "openingFrame": "/media/builds/026/build-026-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 026, Records Normalize Without Losing Their Past. Creator-owned 4:5 typographic opening frame. Visible text: “A CLEAN TABLE CAN HIDE A MESSY HISTORY — Completeness on screen does not prove the records are accurate, representative, current, or fit for this decision.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "027",
@@ -2896,12 +3249,13 @@
         "carousel": "Build 028 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 028, Ranking Rationale: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "029",
@@ -3003,12 +3357,13 @@
         "carousel": "Build 029 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 029, Consequence Propagation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "030",
@@ -3170,7 +3525,7 @@
           "sourcePageUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
           "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-09-privacy-framework.pdf",
           "binaryPresent": true,
-          "stagingStatus": "EXACT OFFICIAL PDF MATERIALIZED DURING BUILD AND VERIFIED BY BYTE LENGTH, SHA-256, PDF VERSION, PAGE COUNT AND CONTAINER BOUNDARIES; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
+          "stagingStatus": "LIVE SOURCE-CONTEXT DERIVATIVE APPROVED; RN COVER RETAINED FOR ROLLBACK",
           "captureMode": "PDF text-region capture",
           "cropBoundary": "Crop boundary: PDF page 1: complete Privacy Framework title, version number and publication date text; omit all insignia/marks and decorative field. Exclude institutional marks, logos, seals, personal imagery and third-party material.",
           "caption": "Official NIST Privacy Framework 1.0, shown as privacy-risk context.",
@@ -3178,7 +3533,8 @@
           "attribution": "NIST (2020), NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0. Republished courtesy of NIST.",
           "altText": "Official NIST Privacy Framework v1.0 document or guidance page, selected as contextual evidence for Build 031, Telemetry Privacy Field.",
           "contextualFit": "NIST Privacy Framework v1.0 is directly relevant to Telemetry Privacy Field and offers professional recognition through an authoritative primary document, not fame or clickbait.",
-          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 031."
+          "noEndorsement": "Use only the exact document treatment under its recorded terms. Exclude logos, seals, people and third-party material; attribution does not imply that National Institute of Standards and Technology endorses RN or Build 031.",
+          "renderApproved": true
         }
       },
       "canva": {
@@ -3201,12 +3557,45 @@
         "carousel": "Build 031 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 031, Telemetry Privacy Field: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "LIVE OFFICIAL SOURCE-CONTEXT COVER · RN COVER RETAINED FOR ROLLBACK",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": true,
+      "liveCover": {
+        "kind": "official source-context derivative",
+        "assetUrl": "/media/100-builds/production-source-context/build-031-official-source-context.svg",
+        "repositoryPath": "apps/web/public/media/100-builds/production-source-context/build-031-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "631f7e870d8afd8d5baa759dc2bb330c95c927065612efb4b9df065d65eeece0",
+        "altText": "Official Version 1.0 title-page text, selected as contextual evidence for Build 031, Telemetry Privacy Field. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "caption": "Official NIST Privacy Framework 1.0, shown as privacy-risk context.",
+        "credit": "NIST (2020), NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0. Republished courtesy of NIST.",
+        "sourceUrl": "https://www.nist.gov/privacy-framework/privacy-framework",
+        "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+        "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+        "rightsLine": "NIST public information · no endorsement"
+      },
+      "rollbackCover": {
+        "kind": "creator-owned generated typography",
+        "assetUrl": "/media/builds/031/build-031-linkedin-poster.png",
+        "openingFrame": "/media/builds/031/build-031-linkedin.mp4",
+        "issuerCreator": "RN Collins / deterministic RN Builds renderer",
+        "rightsStatus": "creator-owned",
+        "licensePermission": "Creator-owned production asset; no third-party visual incorporated.",
+        "credit": "© RN Collins · RN Builds",
+        "altText": "Build 031, Telemetry Privacy Field. Creator-owned 4:5 typographic opening frame. Visible text: “A PRIVACY POLICY IS NOT PRODUCT BEHAVIOR — The real privacy posture appears in defaults, data flows, permissions, retention, inference, sharing, deletion, and failure states.”",
+        "orientation": "4:5 portrait",
+        "dimensions": {
+          "width": 720,
+          "height": 900
+        },
+        "cropGuidance": "Use the complete 720×900 frame. Do not crop the headline, build number, safe margins or prototype boundary.",
+        "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
+      }
     },
     {
       "buildId": "032",
@@ -3308,12 +3697,13 @@
         "carousel": "Build 032 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 032, Release Blocker Door: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "RN COVER LIVE · OFFICIAL SOURCE CANDIDATE RETAINED FOR REVIEW",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
       "externalStaged": true,
       "rnFallbackReady": true,
-      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
+      "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition.",
+      "liveCoverSubstituted": false
     },
     {
       "buildId": "033",
