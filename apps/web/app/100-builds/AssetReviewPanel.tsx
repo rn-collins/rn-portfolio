@@ -2,6 +2,7 @@ import packages from '../../../../docs/builds/visual-source-acquisition-001-100/
 import fallbackManifest from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json';
 import fallbackSpecs from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-SPECS-HOLD.json';
 import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
+import promotionReview from '../../../../docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json';
 
 type Candidate={
   sourcePageUrl:string;
@@ -22,6 +23,9 @@ type AssetRecord={
   externalStaged:boolean;
   rnFallbackReady:boolean;
   productionStatus:string;
+  liveCoverSubstituted?:boolean;
+  liveCover?:{assetUrl:string;width:number;height:number;sha256:string;altText:string;caption:string;credit:string;sourceUrl:string;claimBoundary:string;noEndorsement:string;rightsLine?:string};
+  rollbackCover?:{assetUrl:string;altText:string;credit:string;cropGuidance:string;dimensions:{width:number;height:number};claimToVisualSupport:string};
 };
 const records=(packages.records as AssetRecord[]);
 
@@ -37,17 +41,20 @@ export default function AssetReviewPanel({id}:{id:string}){
  const originalFallback=fallbackManifest.files.find(item=>item.buildId===id);
  const fallbackSpec=fallbackSpecs.records.find(item=>item.buildId===id);
  const reviewExcerpt=renderedCaptures.records.find(item=>item.buildId===id);
+ const promotion=promotionReview.records.find(item=>item.buildId===id);
  return <section aria-labelledby="asset-review-heading" style={panel}>
   <p><b>VISUAL ASSET REVIEW</b></p>
   <h2 id="asset-review-heading">Hook image, source candidate, and release gates</h2>
   <p>The creator-owned cover remains live unless every external-candidate gate is explicitly complete. Disabled controls report canonical status; they do not imply an approval action occurred here.</p>
   <div style={grid}>
    <article style={card}>
-    <h3>Live creator-owned cover</h3>
-    <img src={record.cover.assetUrl} width={record.cover.dimensions.width} height={record.cover.dimensions.height} alt={record.cover.altText} loading="lazy" style={image}/>
-    <p><b>Status:</b> {record.rnFallbackReady?'Release-eligible fallback':'Not release-eligible'}</p>
-    <p><b>Credit:</b> {record.cover.credit}</p>
-    <details><summary>Crop and claim boundary</summary><p>{record.cover.cropGuidance}</p><p>{record.cover.claimToVisualSupport}</p></details>
+    <h3>{record.liveCoverSubstituted?'Live official source-context cover':'Live creator-owned cover'}</h3>
+    {record.liveCoverSubstituted&&record.liveCover?<><img src={record.liveCover.assetUrl} width={record.liveCover.width} height={record.liveCover.height} alt={record.liveCover.altText} loading="lazy" style={image}/>
+     <p><b>Status:</b> Promoted after direct-fit review</p><p>{record.liveCover.caption}</p><p><b>Credit:</b> {record.liveCover.credit}</p><p><a href={record.liveCover.sourceUrl} rel="noreferrer">Open official source →</a></p>
+     <details><summary>Integrity, rights, and claim boundary</summary><p><b>SHA-256:</b> <code>{record.liveCover.sha256}</code></p>{record.liveCover.rightsLine&&<p><b>Rights:</b> {record.liveCover.rightsLine}</p>}<p>{record.liveCover.claimBoundary}</p><p>{record.liveCover.noEndorsement}</p></details>
+    </>:<><img src={record.cover.assetUrl} width={record.cover.dimensions.width} height={record.cover.dimensions.height} alt={record.cover.altText} loading="lazy" style={image}/>
+     <p><b>Status:</b> {record.rnFallbackReady?'Release-eligible fallback':'Not release-eligible'}</p><p><b>Credit:</b> {record.cover.credit}</p>
+     <details><summary>Crop and claim boundary</summary><p>{record.cover.cropGuidance}</p><p>{record.cover.claimToVisualSupport}</p></details></>}
    </article>
    <article style={card}>
     <h3>Official visual candidate</h3>
@@ -60,6 +67,12 @@ export default function AssetReviewPanel({id}:{id:string}){
      </details></>:<p>No external candidate is approved. Use the creator-owned fallback.</p>}
    </article>
   </div>
+  {promotion&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`promotion-${id}-heading`}>
+   <h3 id={`promotion-${id}-heading`}>Final hook-image decision</h3>
+   <p><b>{promotion.decision==='PROMOTED'?'PROMOTED · LIVE':'RETAINED RN COVER · OFFICIAL CANDIDATE REVIEW-ONLY'}</b></p>
+   <p>{promotion.reason}</p>
+   <p><b>Rollback:</b> The prior RN cover remains preserved at <a href={promotion.rollbackAssetUrl}>its canonical asset URL</a>.</p>
+  </article>}
   {originalFallback&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`fallback-${id}-heading`}>
    <h3 id={`fallback-${id}-heading`}>Original HOLD fallback graphic</h3>
    <a href={originalFallback.path}><img src={originalFallback.path} width={originalFallback.width} height={originalFallback.height} alt={fallbackSpec?.accessibility.alt||`Build ${id} original RN fallback graphic. HOLD; not evidence.`} loading="lazy" style={image}/></a>
