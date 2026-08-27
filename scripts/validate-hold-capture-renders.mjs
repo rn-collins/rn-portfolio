@@ -28,7 +28,8 @@ for(const r of manifest.records){
  if(crypto.createHash('sha256').update(bytes).digest('hex')!==r.sha256)throw Error(r.buildId+': render hash mismatch');
  if(!svg.includes('width="1200" height="1500"')||!svg.includes('role="img" aria-labelledby="title desc"')||!svg.includes('<title id="title">')||!svg.includes('<desc id="desc">'))throw Error(r.buildId+': SVG accessibility/dimension contract');
  if(/<image\b|<use\b|data:image|<script\b|foreignObject/i.test(svg))throw Error(r.buildId+': embedded/active/external visual content forbidden');
- if(!/HOLD · REVIEW RENDER · NOT SELECTED OR STAGED/.test(svg)||!/No affiliation or endorsement/.test(svg))throw Error(r.buildId+': visible safety boundary absent');
+ const dispositionLabel=approved.has(r.buildId)?/APPROVED · SOURCE CONTEXT · SELECTED AND STAGED/:/HOLD · REVIEW RENDER · NOT SELECTED OR STAGED/;
+ if(!dispositionLabel.test(svg)||!/No affiliation or endorsement/.test(svg))throw Error(r.buildId+': visible disposition/safety boundary absent');
  if(!/\.body\{font:40px/.test(svg)||!/\.foot\{font:32px/.test(svg))throw Error(r.buildId+': mobile-readable font contract absent');
  if(/<text x="616"/.test(svg))throw Error(r.buildId+': nonsequential second-column reading order returned');
  if(/w3\.org/.test(r.sourceUrl)&&!/(Copyright © 20(13|17|19|23) W3C®)/.test(r.notice))throw Error(r.buildId+': W3C copyright/status notice absent');
