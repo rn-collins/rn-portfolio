@@ -102,13 +102,13 @@ export default function AssetReviewPanel({id}:{id:string}){
    <details><summary>Integrity record</summary><p><b>SHA-256:</b> <code>{originalFallback.sha256}</code></p><p><b>Dimensions:</b> {originalFallback.width} × {originalFallback.height}; {originalFallback.mediaType}; {originalFallback.bytes} bytes.</p></details>
   </article>}
   {reviewExcerpt&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`source-excerpt-${id}-heading`}>
-   <p><b>REVIEW ONLY · HOLD · NOT SELECTED · NOT STAGED</b></p>
-   <h3 id={`source-excerpt-${id}-heading`}>Review-only source excerpt</h3>
+   <p><b>{reviewExcerpt.status==='APPROVED'?'APPROVED SOURCE-CONTEXT EXCERPT · SELECTED · STAGED':'REJECTED REVIEW HISTORY · NOT SELECTED · NOT STAGED'}</b></p>
+   <h3 id={`source-excerpt-${id}-heading`}>{reviewExcerpt.status==='APPROVED'?'Approved source-context excerpt':'Rejected source-excerpt review'}</h3>
    <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}><img src={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} width={reviewExcerpt.width} height={reviewExcerpt.height} alt={reviewExcerpt.alt} loading="lazy" style={image}/></a>
    <p>{reviewExcerpt.caption}</p>
    <p>{reviewExcerpt.claimState}</p>
    <p><a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}>Open the full review SVG →</a> · <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} download={`${id}-source-excerpt-review-hold.svg`}>Download review SVG ↓</a> · <a href={reviewExcerpt.sourceUrl} rel="noreferrer">Open official source →</a></p>
-   <details><summary>Review integrity and open gates</summary><p><b>SHA-256:</b> <code>{reviewExcerpt.sha256}</code></p><p><b>Source SHA-256:</b> <code>{reviewExcerpt.sourceSha256}</code></p><p><b>Dimensions:</b> {reviewExcerpt.width} × {reviewExcerpt.height}; {reviewExcerpt.mimeType}.</p><p><b>Notice:</b> {reviewExcerpt.notice}</p><p><b>Open gates:</b> {reviewExcerpt.gatesOpen.join('; ')}.</p></details>
+   <details><summary>Integrity, rights, and disposition</summary><p><b>SHA-256:</b> <code>{reviewExcerpt.sha256}</code></p><p><b>Source SHA-256:</b> <code>{reviewExcerpt.sourceSha256}</code></p><p><b>Dimensions:</b> {reviewExcerpt.width} × {reviewExcerpt.height}; {reviewExcerpt.mimeType}.</p><p><b>Notice:</b> {reviewExcerpt.notice}</p><p><b>{reviewExcerpt.gatesOpen.length?'Disposition':'Gates'}:</b> {reviewExcerpt.gatesOpen.length?reviewExcerpt.gatesOpen.join('; '):'All excerpt promotion gates passed'}.</p></details>
   </article>}
   <fieldset style={{...card,marginTop:'1rem'}}>
    <legend><b>Canonical review gates</b></legend>
