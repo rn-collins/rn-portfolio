@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "BUILD-TIME VERIFIED PRESERVATION",
+  "generatedAt": "2026-08-27",
+  "failClosed": true,
+  "sources": [
+    {
+      "key": "official-01-ai-rmf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "output": "apps/web/public/100-builds/official-sources/official-01-ai-rmf.pdf",
+      "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "bytes": 1946127,
+      "pages": 48,
+      "pdfVersion": "1.7",
+      "assignments": [
+        "001",
+        "007",
+        "008",
+        "009",
+        "012",
+        "013",
+        "017",
+        "021",
+        "022",
+        "025",
+        "028",
+        "032"
+      ]
+    },
+    {
+      "key": "official-07-sp-800-61r3",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+      "output": "apps/web/public/100-builds/official-sources/official-07-sp-800-61r3.pdf",
+      "sha256": "e5593d6bb85daecec7e8d9549400c7b3473bcc3f06e469c82218073afa7fba2d",
+      "bytes": 1040566,
+      "pages": 48,
+      "pdfVersion": "1.6",
+      "assignments": [
+        "019"
+      ]
+    },
+    {
+      "key": "official-09-privacy-framework",
+      "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+      "output": "apps/web/public/100-builds/official-sources/official-09-privacy-framework.pdf",
+      "sha256": "58e1f2373e1c8a5782f7ddfce677fa9fc15e2d920ec0ab97ee754697e91bc2f0",
+      "bytes": 827885,
+      "pages": 43,
+      "pdfVersion": "1.6",
+      "assignments": [
+        "031"
+      ]
+    }
+  ]
+}
