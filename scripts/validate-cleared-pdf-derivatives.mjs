@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const m=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/CLEARED-PDF-DERIVATIVES.json'));const p=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/OFFICIAL-PDF-PRESERVATION.json'));
+const expected=['001','007','008','009','012','013','017','019','021','022','025','028','031','032'];
+if(m.counts.assignments!==14||m.counts.rendered!==14||m.counts.liveSubstitutions!==0||m.counts.renderApproved!==0)throw Error('manifest counts/state invalid');
+if(JSON.stringify(m.records.map(x=>x.buildId).sort())!==JSON.stringify(expected))throw Error('assignment set drift');
+const sources=new Map(p.sources.map(x=>[x.key,x]));
+for(const r of m.records){const s=sources.get(r.sourceKey);if(!s)throw Error(r.buildId+': source missing');for(const k of ['sha256','bytes','pages','pdfVersion'])if(r.sourcePdf[k]!==s[k])throw Error(r.buildId+': source '+k+' drift');if(r.sourcePdf.pageIndex!==1)throw Error(r.buildId+': must use title page');if(r.liveCoverSubstituted!==false||r.renderApproved!==false||r.reviewState!=='RENDERED_REVIEW_ONLY_NOT_LIVE')throw Error(r.buildId+': release gate changed');const abs=path.join(root,r.path);const st=fs.lstatSync(abs);if(!st.isFile()||st.isSymbolicLink())throw Error(r.buildId+': invalid output');const svg=fs.readFileSync(abs);if(createHash('sha256').update(svg).digest('hex')!==r.sha256)throw Error(r.buildId+': derivative hash mismatch');const t=svg.toString('utf8');for(const needle of ['width="1200" height="1500"','role="img"','aria-labelledby="title desc"','REVIEW DERIVATIVE · NOT LIVE COVER','not performance, compliance, safety, or endorsement'])if(!t.includes(needle))throw Error(r.buildId+': missing '+needle);if(/<image\b|<script\b|onload=|javascript:/i.test(t))throw Error(r.buildId+': unsafe embedded content');}
+console.log(JSON.stringify({status:'PASS',assignments:14,sources:3,liveSubstitutions:0,renderApproved:0}));
