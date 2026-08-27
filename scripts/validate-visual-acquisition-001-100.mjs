@@ -27,7 +27,7 @@ function validateCleared(r){
  if(!/crop|use only|preserve/i.test(c.cropGuidance)||!/exclude|third-party|logo|seal|personal/i.test(c.cropGuidance))throw Error(r.buildId+': crop/exclusions weak');
  if(c.claimToVisualSupport.length<80||!/does not|not prove|limited|only/i.test(c.claimToVisualSupport))throw Error(r.buildId+': claim fit weak');
  const boundary=[r.recognizableEntity?.authorizationBoundary,c.cropGuidance,c.claimToVisualSupport].filter(Boolean).join(' ');if(!/endorsement/i.test(boundary)||!/no |not |does not|never/i.test(boundary))throw Error(r.buildId+': no-endorsement absent');
- if(!/not substituted|remains in production|until separately approved|current RN/i.test((r.dispositionBasis||'')+' '+(c.decision||'')))throw Error(r.buildId+': substitution boundary absent');
+ if(!REPLACEMENT_PROMOTED.includes(r.buildId)&&!/not substituted|remains in production|until separately approved|current RN/i.test((r.dispositionBasis||'')+' '+(c.decision||'')))throw Error(r.buildId+': substitution boundary absent');
 }
 function validate(p){
  if(JSON.stringify(p.records.map(r=>r.buildId))!==JSON.stringify(ALL))throw Error('range loss/order');
