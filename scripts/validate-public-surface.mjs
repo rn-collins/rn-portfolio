@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
+import {createHash} from 'node:crypto';
 import path from 'node:path';
 import {TextDecoder} from 'node:util';
 import {fileURLToPath} from 'node:url';
@@ -26,7 +27,7 @@ const dossierNav=read('apps/web/app/100-builds/001/DossierNav.tsx');
 for(const route of ['/100-builds/001/record','/100-builds/001/making','/100-builds/001/method','/100-builds/001/evidence'])check(dossierNav.includes(`href="${route}"`),'dossier navigation missing '+route);
 
 const assetPanel=read('apps/web/app/100-builds/AssetReviewPanel.tsx');
-for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','Original HOLD fallback graphic','Open the full fallback SVG','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
+for(const needle of ['aria-labelledby="asset-review-heading"','loading="lazy"','Open official source page','Open exact candidate asset','Original HOLD fallback graphic','Open the full fallback SVG','Download SVG ↓','download={`${id}-original-rn-fallback.svg`}','fallbackSpec?.accessibility.alt','fallbackSpec.caption','External candidate formally selected','External asset staged','readOnly disabled'])check(assetPanel.includes(needle),'asset review UI contract missing '+needle);
 check(recordPage.includes('<AssetReviewPanel id={id}/>'),'every public build record must render the canonical asset review panel');
 const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
 check(Array.isArray(visualPackages.records)&&visualPackages.records.length===100,'visual package ledger must contain 100 records');
@@ -35,12 +36,38 @@ check(JSON.stringify(visualIds)===JSON.stringify(ids),'visual package ledger mus
 const fallbackManifest=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json'));
 check(fallbackManifest.state?.status==='HOLD'&&fallbackManifest.state?.externalSelected===false&&fallbackManifest.state?.externalStaged===false&&fallbackManifest.state?.evidence===false,'fallback manifest must preserve HOLD/non-evidence state');
 check(Array.isArray(fallbackManifest.files)&&fallbackManifest.files.length===76,'fallback manifest must contain 76 files');
+const fallbackSpecs=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/FALLBACK-SPECS-HOLD.json'));
+check(Array.isArray(fallbackSpecs.records)&&fallbackSpecs.records.length===76,'fallback specs must contain 76 records');
+const fallbackSpecById=new Map(fallbackSpecs.records.map(spec=>[spec.buildId,spec]));
+check(fallbackSpecById.size===76,'fallback spec IDs must be unique');
+const fallbackHooks=new Set(fallbackSpecs.records.map(spec=>spec.hook?.text));
+check(fallbackHooks.size===76&&!fallbackHooks.has(undefined),'all fallback hooks must be present and unique');
+const luminance=hex=>{const rgb=[1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2]};
+const contrast=(a,b)=>{const [hi,lo]=[luminance(a),luminance(b)].sort((x,y)=>y-x);return (hi+.05)/(lo+.05)};
 for(const fallback of fallbackManifest.files){
  const expected=`/100-builds/fallbacks/${fallback.buildId}-original-fallback.svg`;
  check(fallback.path===expected,'unexpected fallback URL for '+fallback.buildId);
  const rel='apps/web/public'+fallback.path;
- try{const st=fs.lstatSync(path.join(root,rel));check(st.isFile()&&!st.isSymbolicLink(),rel+' must be a regular non-symlink file')}catch{fail.push(rel+' missing')}
+ try{
+  const abs=path.join(root,rel);const st=fs.lstatSync(abs);check(st.isFile()&&!st.isSymbolicLink(),rel+' must be a regular non-symlink file');
+  const bytes=fs.readFileSync(abs);const svg=new TextDecoder('utf-8',{fatal:true}).decode(bytes);
+  check(bytes.length===fallback.bytes,'fallback byte length drift for '+fallback.buildId);
+  check(createHash('sha256').update(bytes).digest('hex')===fallback.sha256,'fallback checksum drift for '+fallback.buildId);
+  check(/<svg\b[^>]*width="1200"[^>]*height="1500"[^>]*viewBox="0 0 1200 1500"[^>]*role="img"[^>]*aria-labelledby="title desc"/.test(svg),'fallback SVG root accessibility/dimensions invalid for '+fallback.buildId);
+  check(/<title id="title">[^<]+<\/title>/.test(svg)&&/<desc id="desc">[^<]+<\/desc>/.test(svg),'fallback title/description missing for '+fallback.buildId);
+  check(svg.includes('ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE')&&svg.includes('Concept illustration only. No affiliation, endorsement, or external validation implied.'),'fallback visible non-evidence label missing for '+fallback.buildId);
+  check(!/<(?:script|foreignObject|image)\b/i.test(svg)&&!/(?:href|xlink:href)="(?:https?:|data:|\/\/)/i.test(svg),'fallback SVG must be self-contained and inert for '+fallback.buildId);
+ }catch(e){fail.push('invalid fallback '+rel+': '+e.message)}
  check(fallback.label==='ORIGINAL RN FALLBACK • HOLD • NOT EVIDENCE','fallback label drift for '+fallback.buildId);
+ const spec=fallbackSpecById.get(fallback.buildId);
+ check(Boolean(spec),'fallback spec missing for '+fallback.buildId);
+ if(spec){
+  check(spec.status==='HOLD'&&spec.externalSelected===false&&spec.externalStaged===false,'fallback spec state drift for '+fallback.buildId);
+  check(typeof spec.accessibility?.alt==='string'&&spec.accessibility.alt.length>=80,'fallback alt text too weak for '+fallback.buildId);
+  check(typeof spec.caption==='string'&&spec.caption.includes('not evidence'),'fallback caption must state non-evidence for '+fallback.buildId);
+  check(contrast(spec.palette.ink,spec.palette.bg)>=4.5,'fallback essential text contrast below AA for '+fallback.buildId);
+  check(contrast(spec.palette.accent,spec.palette.bg)>=3,'fallback accent geometry contrast below 3:1 for '+fallback.buildId);
+ }
 }
 for(const record of visualPackages.records){
  check(record.rnFallbackReady===true,'RN fallback must remain ready for '+record.buildId);
@@ -91,4 +118,4 @@ for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
-console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews with explicit release gates and 76 original HOLD fallback previews; fail-closed source reader.');
+console.log('PASS: 100 IDs; 200 A/B routes; 44 build archives; 116 safe UTF-8 allowlist records; 451 canonical sitemap paths; 100 dossier asset previews with explicit release gates and 76 checksum-verified, accessible, self-contained original HOLD fallback previews; fail-closed source reader.');
