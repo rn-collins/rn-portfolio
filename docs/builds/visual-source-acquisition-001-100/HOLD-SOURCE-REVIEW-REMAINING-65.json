@@ -73,6 +73,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "query": "Search ABA's official Model Rules collection and publication-rights route for an exact reusable visual/document asset.",
+            "result": "Relevant official material exists, but no asset-level authorization suitable for a social visual was established.",
+            "searchBreadth": "Reviewed the official Model Rules collection and ABA publication-rights route; no claim of exhaustive licensed-book inventory."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -118,6 +133,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "query": "Search ABA's official Model Rules collection and publication-rights route for an exact reusable visual/document asset.",
+            "result": "Relevant official material exists, but no asset-level authorization suitable for a social visual was established.",
+            "searchBreadth": "Reviewed the official Model Rules collection and ABA publication-rights route; no claim of exhaustive licensed-book inventory."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -163,6 +193,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "query": "Search ABA's official Model Rules collection and publication-rights route for an exact reusable visual/document asset.",
+            "result": "Relevant official material exists, but no asset-level authorization suitable for a social visual was established.",
+            "searchBreadth": "Reviewed the official Model Rules collection and ABA publication-rights route; no claim of exhaustive licensed-book inventory."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -208,6 +253,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "exactAssetUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679",
+            "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Consent That Can Change Its Mind.",
+            "result": "Exact official PDF, Official Journal text asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
+            "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "An exact official candidate was identified, but asset-level reuse authority remains unresolved.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -253,6 +313,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "exactAssetUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679",
+            "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to The Best Data Risk Is Data Never Collected.",
+            "result": "Exact official PDF, Official Journal text asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
+            "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "An exact official candidate was identified, but asset-level reuse authority remains unresolved.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -298,6 +373,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.copyright.gov/circs/",
+            "exactAssetUrl": "https://www.copyright.gov/circs/circ01.pdf",
+            "query": "Search the Copyright Office circular collection and site IP terms for an exact reusable asset and authorization.",
+            "result": "Exact PDF found, but the available Office IP page warns against unauthorized use and does not affirmatively clear the designed publication asset.",
+            "searchBreadth": "Reviewed the official Circulars index, exact Circular 1 PDF and Copyright Office IP notice."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "An exact official candidate was identified, but asset-level reuse authority remains unresolved.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -343,6 +433,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+            "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Attack Graph.",
+            "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
+            "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "The official candidate is authoritative context but does not directly depict or substantiate the build-specific visual proposition.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -388,6 +493,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.SP.800-61r3",
+            "exactAssetUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+            "query": "Search the issuing body's official publication and rights collections for an exact reusable asset relevant to Incident Replay Graph.",
+            "result": "Exact official PDF asset found with explicit reuse terms and attribution conditions. No logo, seal, portrait or third-party image is selected.",
+            "searchBreadth": "Reviewed the canonical publication/source page, direct file/document, issuing-body reuse policy and material exclusions. Search is exhaustive for this named official-document route, not for every possible photographic archive."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "The official candidate is authoritative context but does not directly depict or substantiate the build-specific visual proposition.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -433,6 +553,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 035.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -478,6 +613,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 037.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -523,6 +673,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 042.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -568,6 +733,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.AI.100-1",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 043.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -613,6 +793,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 044.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -658,6 +853,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 045.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -703,6 +913,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 046.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -748,6 +973,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.cdc.gov/evaluation/php/evaluation-framework/index.html",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 047.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -793,6 +1033,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 048.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -838,6 +1093,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.cdc.gov/niosh/noise/about/index.html",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 050.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -883,6 +1153,35 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 051.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://www.cdc.gov/cannabis/health-effects/index.html",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 051.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 051.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 3,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -928,6 +1227,35 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fda.gov/consumers/consumer-updates/what-you-need-know-and-what-were-working-find-out-about-products-containing-cannabis-or-cannabis",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 052.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://www.cdc.gov/cannabis/health-effects/index.html",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 052.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 052.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 3,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -973,6 +1301,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://clinicaltrials.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 053.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1018,6 +1361,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 054.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1063,6 +1421,28 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.uspto.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 056.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://www.copyright.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 056.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 2,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1108,6 +1488,28 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.supremecourt.gov/opinions/opinions.aspx",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 059.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://www.congress.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 059.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 2,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1153,6 +1555,28 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.uspto.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 060.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          },
+          {
+            "sourcePageUrl": "https://www.copyright.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 060.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 2,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1198,6 +1622,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.archives.gov/records-mgmt",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 061.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1243,6 +1682,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.loc.gov/collections/veterans-history-project-collection/about-this-collection/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 062.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1288,6 +1742,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 063.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1333,6 +1802,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 064.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1378,6 +1862,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/psychedelic-drugs-considerations-clinical-investigations",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 065.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1423,6 +1922,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 066.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1468,6 +1982,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://doi.org/10.6028/NIST.CSWP.01162020",
+            "exactAssetUrl": null,
+            "query": "Check the named official/primary source page for a directly relevant visual candidate and asset-level reuse terms for Build 067.",
+            "result": "Official context and rights guidance reviewed. No exact repository-suitable visual asset passed the complete clearance gate.",
+            "searchBreadth": "Official source/context page, the issuing body’s published reuse/permissions guidance where located, and the current source-page visual surface were reviewed. This is an issuer-specific primary-source review, not a representation that every historical archive item was inspected."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1513,6 +2042,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST AI Risk Management Framework primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1558,6 +2102,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.archives.gov/federal-register/write/handbook",
+            "exactAssetUrl": null,
+            "query": "Official Federal Register Document Drafting Handbook primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1603,6 +2162,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+            "exactAssetUrl": null,
+            "query": "Official The Federal Rulemaking Process primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1648,6 +2222,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://health.hawaii.gov/medicalcannabis/",
+            "exactAssetUrl": null,
+            "query": "Official Medical Cannabis Registry Program primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1693,6 +2282,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+            "exactAssetUrl": null,
+            "query": "Official Supply Chain Resilience Guide primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1738,6 +2342,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+            "exactAssetUrl": null,
+            "query": "Official CDC Program Evaluation Framework primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1783,6 +2402,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+            "exactAssetUrl": null,
+            "query": "Official The Federal Rulemaking Process primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1828,6 +2462,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.regulations.gov/about",
+            "exactAssetUrl": null,
+            "query": "Official Regulations.gov About primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1873,6 +2522,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.congress.gov/help/legislation",
+            "exactAssetUrl": null,
+            "query": "Official Congress.gov Legislation Help primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1918,6 +2582,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+            "exactAssetUrl": null,
+            "query": "Official The Federal Rulemaking Process primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -1963,6 +2642,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://pubmed.ncbi.nlm.nih.gov/help/",
+            "exactAssetUrl": null,
+            "query": "Official PubMed User Guide primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2008,6 +2702,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://pubmed.ncbi.nlm.nih.gov/help/",
+            "exactAssetUrl": null,
+            "query": "Official PubMed User Guide primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2053,6 +2762,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://designsystem.digital.gov/",
+            "exactAssetUrl": null,
+            "query": "Official U.S. Web Design System documentation primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2098,6 +2822,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7306a1.htm",
+            "exactAssetUrl": null,
+            "query": "Official CDC Program Evaluation Framework primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2143,6 +2882,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.census.gov/about.html",
+            "exactAssetUrl": null,
+            "query": "Official About the Census Bureau primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2188,6 +2942,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST Privacy Framework primary publication visual asset rights",
+            "result": "Authoritative context located; no exact third-party visual with complete asset-level creator, rights, dimensions, and permission chain selected.",
+            "searchBreadth": "Official issuing-body source and the recorded item-level reuse boundary were reviewed."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2233,6 +3002,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.copyright.gov/what-is-copyright/",
+            "exactAssetUrl": null,
+            "query": "Official U.S. Copyright Office primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2278,6 +3062,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/the-federal-register/the-rulemaking-process",
+            "exactAssetUrl": null,
+            "query": "Official Federal Register notice-and-comment process primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2323,6 +3122,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://designsystem.digital.gov/",
+            "exactAssetUrl": null,
+            "query": "Official U.S. Web Design System primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2368,6 +3182,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://digital.gov/resources/",
+            "exactAssetUrl": null,
+            "query": "Official Digital.gov content guide primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2413,6 +3242,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://consumer.ftc.gov/articles/how-protect-your-privacy-apps",
+            "exactAssetUrl": null,
+            "query": "Official LinkedIn data portability context primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2458,6 +3302,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+            "exactAssetUrl": null,
+            "query": "Official NIST data integrity guidance primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2503,6 +3362,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST AI Risk Management Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2548,6 +3422,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST Privacy Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2593,6 +3482,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST AI Risk Management Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2638,6 +3542,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/quality-systems-approach-pharmaceutical-current-good-manufacturing-practice-regulations",
+            "exactAssetUrl": null,
+            "query": "Official FDA Quality Systems guidance primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2683,6 +3602,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://csrc.nist.gov/publications/detail/sp/1800-25/final",
+            "exactAssetUrl": null,
+            "query": "Official NIST data integrity guidance primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2728,6 +3662,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.federalregister.gov/reader-aids/understanding-the-federal-register",
+            "exactAssetUrl": null,
+            "query": "Official Federal Register official document system primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2773,6 +3722,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.atsdr.cdc.gov/community-engagement-playbook/php/about/index.html",
+            "exactAssetUrl": null,
+            "query": "Official CDC Principles of Community Engagement primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2818,6 +3782,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST Privacy Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2863,6 +3842,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fda.gov/patients/drug-development-process/step-5-fda-post-market-drug-safety-monitoring",
+            "exactAssetUrl": null,
+            "query": "Official FDA drug development process primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2908,6 +3902,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.nist.gov/privacy-framework",
+            "exactAssetUrl": null,
+            "query": "Official NIST Privacy Framework primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     },
     {
@@ -2953,6 +3962,21 @@
         "liveCoverSubstituted": false,
         "canvaGenerated": false,
         "promotionAuthorized": false
+      },
+      "searchEvidence": {
+        "attemptedOfficialRoutes": [
+          {
+            "sourcePageUrl": "https://www.fema.gov/emergency-managers/risk-management/building-science/supply-chain-resilience-guide",
+            "exactAssetUrl": null,
+            "query": "Official FEMA Supply Chain Resilience Guide primary publication visual rights",
+            "result": "Context located; no exact visual with complete asset-level creator, rights, permission, credit, dimensions, and crop chain selected.",
+            "searchBreadth": "Bounded official/primary acquisition pass; not an exhaustive universe-wide search."
+          }
+        ],
+        "attemptedRouteCount": 1,
+        "canonicalEvidenceSource": "packages.json visualCandidateSearch.searched",
+        "conclusion": "Official context was located, but the reviewed route supplied no exact recognizable asset with both build-specific visual fit and an item-level reuse basis.",
+        "reviewLimit": "This records the named official-source route review. It does not claim an exhaustive crawl of every public archive or authorize selection."
       }
     }
   ]
