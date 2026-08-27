@@ -1,11 +1,20 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "status": "HOLD",
   "captureDefaults": {
     "html": "Chromium 1440x1800 CSS px; DPR 1; 100% zoom; light; animations disabled",
     "pdf": "240 dpi; 2040x2640 px; sRGB",
     "externalSelected": false,
-    "externalStaged": false
+    "externalStaged": false,
+    "output": "PNG and accessible dossier HTML; preserve source text as live text in the review surface",
+    "cropRule": "Crop to the named region plus no more than 24 CSS px or 48 raster px of neutral context; omit marks and unrelated adjacent material.",
+    "compositeRule": "A composite must preserve source order, wording, capitalization and punctuation; visually label omitted gaps; never splice text into a new sentence.",
+    "attributionPlacement": "Visible immediately below the capture at 16 px minimum on the 1200×1500 review canvas; source title, publisher, version/date, canonical URL, access date, license/notice link and no-endorsement statement.",
+    "reviewWidths": [
+      375,
+      768,
+      1440
+    ]
   },
   "records": [
     {
@@ -21,7 +30,34 @@
       ],
       "alt": "Title, Recommendation status, and abstract of the official 20 July 2017 W3C SHACL specification.",
       "claimBoundary": "Context for machine-readable graph constraints only; not validation of Build 010.",
-      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: W3C SHACL Recommendation. https://www.w3.org/TR/2017/REC-shacl-20170720/ Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "030",
@@ -36,7 +72,34 @@
       ],
       "alt": "Title, 5 October 2023 Recommendation status, and abstract of WCAG 2.2.",
       "claimBoundary": "Accessibility-guidance context only; not proof of conformance or outcomes.",
-      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo/no-WAI-mark crop, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo/no-WAI-mark crop, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: WCAG 2.2 immutable 2023 Recommendation. https://www.w3.org/TR/2023/REC-WCAG22-20231005/ Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "036",
@@ -54,7 +117,34 @@
       ],
       "alt": "Title, Candidate Recommendation status, and excerpt from the 19 November 2019 W3C Service Workers 1 snapshot describing offline-capable responses and background processing.",
       "claimBoundary": "Context only: documents offline-capable service-worker behavior in a 2019 Candidate Recommendation Snapshot; not final Recommendation status, current completeness, safety, recovery, performance or endorsement.",
-      "blocker": "Immutable-source blocker resolved; HOLD until faithful text-only render, dimensions, full user-viewable W3C Software and Document License notice, attribution, no-logo crop, alt text and visual review are completed."
+      "blocker": "Immutable-source blocker resolved; HOLD until faithful text-only render, dimensions, full user-viewable W3C Software and Document License notice, attribution, no-logo crop, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: Service Workers 1 — W3C Candidate Recommendation Snapshot, 19 November 2019. https://www.w3.org/TR/2019/CR-service-workers-1-20191119/ Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "038",
@@ -68,7 +158,34 @@
       ],
       "alt": "Excerpt from NIST AI RMF 1.0 describing its voluntary, use-case-agnostic risk-management approach.",
       "claimBoundary": "Risk context only; not evidence of benchmark or deployed performance.",
-      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review are completed; use only for voluntary/use-case context."
+      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review are completed; use only for voluntary/use-case context.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: NIST AI RMF 1.0. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "039",
@@ -83,7 +200,34 @@
       ],
       "alt": "Abstract of the official 30 April 2013 W3C PROV-O Recommendation.",
       "claimBoundary": "Provenance vocabulary only; not independent proof of truth.",
-      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: W3C PROV-O Recommendation. https://www.w3.org/TR/2013/REC-prov-o-20130430/ Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "040",
@@ -97,7 +241,34 @@
       ],
       "alt": "NIST AI RMF excerpt explaining that trustworthiness characteristics are interrelated and involve tradeoffs.",
       "claimBoundary": "Risk-evaluation context; not permission or authorization.",
-      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: NIST AI RMF 1.0. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "041",
@@ -112,7 +283,34 @@
       ],
       "alt": "NIST AI RMF GOVERN excerpt describing accountability structures, roles, and responsibilities.",
       "claimBoundary": "Governance context only; not legal ownership or compliance proof.",
-      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: NIST AI RMF 1.0. https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "049",
@@ -127,7 +325,34 @@
       ],
       "alt": "NIST Privacy Framework excerpt explaining current and target privacy Profiles.",
       "claimBoundary": "Profile-revision context; not authority for preference expiration.",
-      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text, overclaim review and visual review are completed."
+      "blocker": "HOLD until exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text, overclaim review and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: NIST Privacy Framework 1.0. https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "055",
@@ -143,7 +368,34 @@
       ],
       "alt": "NISTIR 8259A excerpt describing IoT cybersecurity state awareness.",
       "claimBoundary": "State-reporting context; not proof of natural-language explainability.",
-      "blocker": "HOLD: contextual fit is weak for natural-language explainability; exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review remain required."
+      "blocker": "HOLD: contextual fit is weak for natural-language explainability; exact crop, applicable NIST notice and attribution, no-mark treatment, dimensions, alt text and visual review remain required.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: NISTIR 8259A. https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://nvlpubs.nist.gov/nistpubs/ir/2020/NIST.IR.8259A.pdf",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "057",
@@ -158,7 +410,34 @@
       ],
       "alt": "PROV-O excerpt introducing entities, activities, agents, and provenance relationships.",
       "claimBoundary": "Vocabulary context; not completeness, ownership or truth proof.",
-      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: W3C PROV-O Recommendation. https://www.w3.org/TR/2013/REC-prov-o-20130430/ Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     },
     {
       "buildId": "058",
@@ -173,7 +452,40 @@
       ],
       "alt": "PROV-O definitions for entities, activities, generation, and derivation relationships.",
       "claimBoundary": "Trace vocabulary only; not evidence that a claim path is complete or true.",
-      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed."
+      "blocker": "HOLD until faithful text-only render, applicable W3C document-license notice and attribution, no-logo crop, dimensions, alt text and visual review are completed.",
+      "renderSpec": {
+        "reviewCanvas": {
+          "width": 1200,
+          "height": 1500,
+          "units": "px",
+          "colorSpace": "sRGB"
+        },
+        "inset": {
+          "top": 96,
+          "right": 84,
+          "bottom": 220,
+          "left": 84
+        },
+        "bodyTextMinimum": "24 px at 1200 px canvas width",
+        "gapMarker": "Use a visible ellipsis rule labeled “noncontiguous source excerpt” between separated nodes; do not conceal omissions.",
+        "attribution": "Source: W3C PROV-O Recommendation. https://www.w3.org/TR/2013/REC-prov-o-20130430/ Accessed 2026-08-27. Context excerpt only; no affiliation or endorsement.",
+        "sourceLink": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
+        "verification": [
+          "source URL resolves",
+          "captured bytes match recorded SHA-256 before rendering",
+          "region matches selector/page specification",
+          "excluded material absent",
+          "text matches source",
+          "alt text and claim boundary visible in dossier",
+          "license/notice user-viewable"
+        ]
+      }
     }
-  ]
+  ],
+  "coverage": {
+    "totalHoldRecords": 76,
+    "exactExternalCaptureSpecs": 11,
+    "originalFallbackSpecsFile": "FALLBACK-SPECS-HOLD.json",
+    "rule": "Only records with a verified exact source, immutable or bounded URL, checksum, and determinable region appear below. Other HOLD records use original fallback specs and do not imply that a source was found."
+  }
 }
