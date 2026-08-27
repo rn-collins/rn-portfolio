@@ -1,30 +1,30 @@
 {
-  "schemaVersion": "1.0.0",
-  "status": "HOLD",
+  "schemaVersion": "1.1.0",
+  "status": "MIXED-FINAL-DISPOSITION",
   "generatedAt": "2026-08-27",
   "counts": {
     "specified": 11,
     "renderedReviewOnly": 11,
     "finalReviewed": 11,
-    "approvedForPromotion": 0,
-    "rejected": 0,
-    "blocked": 11,
-    "selected": 0,
-    "staged": 0
+    "approvedForPromotion": 6,
+    "rejected": 5,
+    "blocked": 5,
+    "selected": 6,
+    "staged": 6
   },
   "finalReview": {
-    "decision": "HOLD",
+    "decision": "MIXED",
     "report": "docs/builds/visual-source-acquisition-001-100/FINAL-EXCERPT-REVIEW.json",
-    "reason": "Mechanical visual failures are rectified: all renders now use sequential single-column layouts, minimum 40px body text, minimum 32px notices, and explicit composite/context-limit labels. All 11 still fail at least one independent governing-rights or contextual-fit promotion gate recorded in the final review report.",
+    "reason": "Six direct-fit excerpts passed exact-source, rights/notice, fidelity, accessibility, attribution, no-mark and no-endorsement review. Five were rejected for contextual mismatch and remain nonselected with RN fallbacks.",
     "reviewedAt": "2026-08-27"
   },
   "records": [
     {
       "buildId": "010",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
-      "selected": false,
-      "staged": false,
+      "status": "APPROVED",
+      "renderStatus": "PROMOTION-APPROVED",
+      "selected": true,
+      "staged": true,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-010-source-excerpt-hold.svg",
       "width": 1200,
       "height": 1500,
@@ -34,7 +34,7 @@
       "sourceUrl": "https://www.w3.org/TR/2017/REC-shacl-20170720/",
       "alt": "Sequential text excerpt containing the title, 20 July 2017 Recommendation status, and opening abstract sentences of the official W3C SHACL specification.",
       "caption": "W3C SHACL Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Copyright \u00a9 2017 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+      "notice": "Copyright © 2017 W3C®. Excerpt under the W3C Document License linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2015/doc-license",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -42,20 +42,20 @@
         "sequential single-column reading order",
         "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "accessible title and description present"
+        "accessible title and description present",
+        "governing rights/notice verified",
+        "direct contextual fit approved",
+        "RN fallback/rollback preserved"
       ],
-      "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
-      ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "gatesOpen": [],
+      "claimState": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
     {
       "buildId": "030",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
-      "selected": false,
-      "staged": false,
+      "status": "APPROVED",
+      "renderStatus": "PROMOTION-APPROVED",
+      "selected": true,
+      "staged": true,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-030-source-excerpt-hold.svg",
       "width": 1200,
       "height": 1500,
@@ -64,8 +64,8 @@
       "sourceSha256": "9307b40f5dcd8d988444184de6d07efdf384ba744bf364bae3fd712282868508",
       "sourceUrl": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
       "alt": "Sequential text composite from the immutable 5 October 2023 WCAG 2.2 Recommendation: title and status, one abstract sentence, then a separately labeled principles passage.",
-      "caption": "WCAG 2.2 \u2014 immutable 2023 Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Copyright \u00a9 2023 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+      "caption": "WCAG 2.2 — immutable 2023 Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright © 2023 W3C®. Excerpt under the 2023 W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -73,20 +73,20 @@
         "sequential single-column reading order",
         "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "accessible title and description present"
+        "accessible title and description present",
+        "governing rights/notice verified",
+        "direct contextual fit approved",
+        "RN fallback/rollback preserved"
       ],
-      "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
-      ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "gatesOpen": [],
+      "claimState": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
     {
       "buildId": "036",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
-      "selected": false,
-      "staged": false,
+      "status": "APPROVED",
+      "renderStatus": "PROMOTION-APPROVED",
+      "selected": true,
+      "staged": true,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-036-source-excerpt-hold.svg",
       "width": 1200,
       "height": 1500,
@@ -95,8 +95,8 @@
       "sourceSha256": "9bf4121df576f08a49606cd98885c48755ee8b70e98c7907463a98f0d2879d13",
       "sourceUrl": "https://www.w3.org/TR/2019/CR-service-workers-1-20191119/",
       "alt": "Sequential text excerpt containing the title, 19 November 2019 Candidate Recommendation status, and offline-capability motivation passage from Service Workers 1.",
-      "caption": "Service Workers 1 \u2014 2019 Candidate Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Copyright \u00a9 2019 W3C\u00ae. Excerpt subject to the snapshot\u2019s W3C Software and Document License notice.",
+      "caption": "Service Workers 1 — 2019 Candidate Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
+      "notice": "Copyright © 2019 W3C®. Excerpt under the W3C Software and Document License linked by the snapshot: https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -104,18 +104,18 @@
         "sequential single-column reading order",
         "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "accessible title and description present"
+        "accessible title and description present",
+        "governing rights/notice verified",
+        "direct contextual fit approved",
+        "RN fallback/rollback preserved"
       ],
-      "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
-      ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "gatesOpen": [],
+      "claimState": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
     {
       "buildId": "039",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
+      "status": "REJECTED",
+      "renderStatus": "REVIEW-HISTORY-ONLY",
       "selected": false,
       "staged": false,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-039-source-excerpt-hold.svg",
@@ -127,7 +127,7 @@
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
       "alt": "Sequential text excerpt containing the title, 30 April 2013 Recommendation status, and opening PROV-O abstract sentences, followed by an editorial warning that provenance is not proof of truth.",
       "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Copyright \u00a9 2013 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+      "notice": "Copyright © 2013 W3C®. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -138,15 +138,14 @@
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
+        "rejected: contextual mismatch; do not promote"
       ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "claimState": "REJECT: the PROV-O abstract defines provenance representation and exchange; it does not establish that a trace is evidence rather than truth. RN fallback remains live."
     },
     {
       "buildId": "038",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
+      "status": "REJECTED",
+      "renderStatus": "REVIEW-HISTORY-ONLY",
       "selected": false,
       "staged": false,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-038-source-excerpt-hold.svg",
@@ -169,15 +168,14 @@
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
+        "rejected: contextual mismatch; do not promote"
       ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "claimState": "REJECT: the excerpt supports only the AI RMF’s voluntary, use-case-agnostic scope; it does not support the build’s benchmark-versus-real-world-performance claim. RN fallback remains live."
     },
     {
       "buildId": "040",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
+      "status": "REJECTED",
+      "renderStatus": "REVIEW-HISTORY-ONLY",
       "selected": false,
       "staged": false,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-040-source-excerpt-hold.svg",
@@ -200,17 +198,16 @@
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
+        "rejected: contextual mismatch; do not promote"
       ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "claimState": "REJECT: trustworthiness tradeoffs do not establish the distinction between confidence and permission or authorization. RN fallback remains live."
     },
     {
       "buildId": "041",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
-      "selected": false,
-      "staged": false,
+      "status": "APPROVED",
+      "renderStatus": "PROMOTION-APPROVED",
+      "selected": true,
+      "staged": true,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-041-source-excerpt-hold.svg",
       "width": 1200,
       "height": 1500,
@@ -220,7 +217,7 @@
       "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
       "alt": "Sequential text composite from NIST AI RMF GOVERN 2 containing the accountability statement and separately labeled subcategories 2.1 and 2.3 about roles and executive responsibility.",
       "caption": "NIST AI RMF 1.0, p. 23. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Official NIST publication excerpt; third-party material excluded. Publication notices and source control: https://www.nist.gov/open",
+      "notice": "Official NIST-authored publication excerpt; not subject to copyright in the United States. Third-party material excluded. Policy: https://www.nist.gov/open",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -228,18 +225,18 @@
         "sequential single-column reading order",
         "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "accessible title and description present"
+        "accessible title and description present",
+        "governing rights/notice verified",
+        "direct contextual fit approved",
+        "RN fallback/rollback preserved"
       ],
-      "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
-      ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "gatesOpen": [],
+      "claimState": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
     {
       "buildId": "049",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
+      "status": "REJECTED",
+      "renderStatus": "REVIEW-HISTORY-ONLY",
       "selected": false,
       "staged": false,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-049-source-excerpt-hold.svg",
@@ -262,15 +259,14 @@
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
+        "rejected: contextual mismatch; do not promote"
       ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "claimState": "REJECT: organizational current/target privacy Profiles are not revisable individual user preferences. RN fallback remains live."
     },
     {
       "buildId": "055",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
+      "status": "REJECTED",
+      "renderStatus": "REVIEW-HISTORY-ONLY",
       "selected": false,
       "staged": false,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-055-source-excerpt-hold.svg",
@@ -293,17 +289,16 @@
         "accessible title and description present"
       ],
       "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
+        "rejected: contextual mismatch; do not promote"
       ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "claimState": "REJECT: cybersecurity state reporting to authorized entities is not natural-language explanation by a smart home. RN fallback remains live."
     },
     {
       "buildId": "057",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
-      "selected": false,
-      "staged": false,
+      "status": "APPROVED",
+      "renderStatus": "PROMOTION-APPROVED",
+      "selected": true,
+      "staged": true,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-057-source-excerpt-hold.svg",
       "width": 1200,
       "height": 1500,
@@ -313,7 +308,7 @@
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
       "alt": "Sequential text composite from PROV-O Starting Point Terms: the introductory provenance-description passage, then separately labeled Entity and Activity definitions.",
       "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Copyright \u00a9 2013 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+      "notice": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -321,20 +316,20 @@
         "sequential single-column reading order",
         "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "accessible title and description present"
+        "accessible title and description present",
+        "governing rights/notice verified",
+        "direct contextual fit approved",
+        "RN fallback/rollback preserved"
       ],
-      "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
-      ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "gatesOpen": [],
+      "claimState": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     },
     {
       "buildId": "058",
-      "status": "HOLD",
-      "renderStatus": "REVIEW-ONLY",
-      "selected": false,
-      "staged": false,
+      "status": "APPROVED",
+      "renderStatus": "PROMOTION-APPROVED",
+      "selected": true,
+      "staged": true,
       "path": "apps/web/public/media/100-builds/source-excerpts/build-058-source-excerpt-hold.svg",
       "width": 1200,
       "height": 1500,
@@ -344,7 +339,7 @@
       "sourceUrl": "https://www.w3.org/TR/2013/REC-prov-o-20130430/",
       "alt": "Sequential text composite from PROV-O Starting Point Terms containing an Entity definition and separately labeled generation and derivation relation passages.",
       "caption": "W3C PROV-O Recommendation. Sequential context excerpt; any composite or contextual limit is visibly labeled. No affiliation or endorsement.",
-      "notice": "Copyright \u00a9 2013 W3C\u00ae. Excerpt under the W3C Document License: https://www.w3.org/copyright/document-license-2023/",
+      "notice": "Copyright © 2013 W3C®. Excerpt subject to the W3C document-use rules linked by the immutable Recommendation: https://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231",
       "gatesPassed": [
         "source bytes matched recorded SHA-256",
         "selected exact source wording preserved",
@@ -352,13 +347,13 @@
         "sequential single-column reading order",
         "minimum 40px body text and 32px notice text",
         "excluded logos/figures/examples absent",
-        "accessible title and description present"
+        "accessible title and description present",
+        "governing rights/notice verified",
+        "direct contextual fit approved",
+        "RN fallback/rollback preserved"
       ],
-      "gatesOpen": [
-        "final rights/notice sufficiency review",
-        "final contextual-fit approval"
-      ],
-      "claimState": "HOLD; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
+      "gatesOpen": [],
+      "claimState": "APPROVED SOURCE-CONTEXT EXCERPT; not evidence of build performance, compliance, completeness, safety, truth, or endorsement."
     }
   ]
 }
