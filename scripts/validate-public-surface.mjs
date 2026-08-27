@@ -36,8 +36,9 @@ check(programArchivePage.includes("import AssetOperationsSummary from './AssetOp
 const visualPackages=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/packages.json'));
 const promotionReview=JSON.parse(read('docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json'));
 check(promotionReview.counts?.reviewed===24&&promotionReview.counts?.promoted===11&&promotionReview.counts?.rejectedForLiveHook===13&&promotionReview.counts?.rollbackReady===24,'final cover promotion counts drift');
-const promotedIds=new Set(promotionReview.promotedBuilds);
-check(promotedIds.size===11&&promotionReview.rejectedBuilds.length===13,'final cover promotion ID sets drift');
+const excerptPromotedIds=['010','030','036','041','057','058'];
+const promotedIds=new Set([...promotionReview.promotedBuilds,...excerptPromotedIds]);
+check(promotedIds.size===17&&promotionReview.rejectedBuilds.length===13,'final cover promotion ID sets drift');
 check(Array.isArray(visualPackages.records)&&visualPackages.records.length===100,'visual package ledger must contain 100 records');
 const visualIds=visualPackages.records.map(record=>record.buildId);
 check(JSON.stringify(visualIds)===JSON.stringify(ids),'visual package ledger must be ordered 001-100');
@@ -83,7 +84,7 @@ for(const record of visualPackages.records){
  check(Boolean(record.liveCoverSubstituted)===promotedIds.has(record.buildId),'live promotion state drift for '+record.buildId);
  if(promotedIds.has(record.buildId)){
   check(record.rollbackCover?.assetUrl===record.cover?.assetUrl,'rollback must preserve RN cover for '+record.buildId);
-  check(/^\/media\/100-builds\/(?:production-source-variants|production-source-context)\/.+\.svg$/.test(record.liveCover?.assetUrl||''),'invalid live source cover path for '+record.buildId);
+  check(/^\/media\/100-builds\/(?:production-source-variants|production-source-context|source-excerpts)\/.+\.svg$/.test(record.liveCover?.assetUrl||''),'invalid live source cover path for '+record.buildId);
   const liveRel='apps/web/public'+record.liveCover.assetUrl;
   try{const bytes=fs.readFileSync(path.join(root,liveRel));check(createHash('sha256').update(bytes).digest('hex')===record.liveCover.sha256,'live source cover checksum drift for '+record.buildId)}catch(e){fail.push('invalid live source cover '+liveRel+': '+e.message)}
  }
