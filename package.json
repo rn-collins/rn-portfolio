@@ -12,14 +12,17 @@
     "lint": "turbo lint",
     "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm validate:public-surface && pnpm validate:hold-captures && pnpm validate:rn-cover-exports && pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "ci": "pnpm validate:official-cover-exports && pnpm validate:rn-cover-exports && pnpm generate:canva-cover-package && pnpm validate:canva-cover-package && pnpm validate:public-surface && pnpm validate:hold-captures && pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
     "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
     "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs",
     "validate:canonical-lineage": "node scripts/validate-canonical-lineage.mjs",
     "validate:media": "node scripts/validate-linkedin-media.mjs",
     "validate:public-surface": "node scripts/validate-public-surface.mjs",
     "validate:hold-captures": "node scripts/validate-hold-capture-renders.mjs",
-    "validate:rn-cover-exports": "node scripts/validate-rn-cover-exports.mjs"
+    "validate:rn-cover-exports": "node scripts/validate-rn-cover-exports.mjs",
+    "generate:canva-cover-package": "node scripts/generate-canva-cover-package.mjs",
+    "validate:official-cover-exports": "node scripts/validate-canva-ready-official-covers.mjs",
+    "validate:canva-cover-package": "node scripts/validate-canva-cover-package.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",
