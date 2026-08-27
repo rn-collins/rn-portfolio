@@ -49,7 +49,7 @@ const expected=['/','/100-builds',...ids.flatMap(id=>[`/100-builds/${id}`,`/100-
 check(expected.length===348&&new Set(expected).size===348,'expected 348 unique sitemap paths');
 
 const reader=read('apps/web/app/100-builds/archive/source/[...path]/page.tsx');
-for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot,file)','absolute.startsWith(repoRoot+path.sep)','fs.existsSync(absolute)','fs.statSync(absolute).isFile()',"fs.readFileSync(absolute,'utf8')",'robots:{index:false,follow:true}','robots:{index:false,follow:false}'])check(reader.includes(needle),'archive reader invariant missing '+needle);
+for(const needle of ['publicArchiveDocumentSet.has(file)','path.resolve(repoRoot,file)','absolute.startsWith(repoRoot+path.sep)','fs.existsSync(absolute)','fs.lstatSync(absolute)','isSymbolicLink()','fs.realpathSync(absolute)','new TextDecoder(\'utf-8\',{fatal:true})','robots:{index:false,follow:true}','robots:{index:false,follow:false}'])check(reader.includes(needle),'archive reader invariant missing '+needle);
 check(!reader.includes('has not been materialized yet'),'archive reader must not expose a success placeholder');
 
 if(fail.length){console.error('Public-surface validation failed:\n- '+fail.join('\n- '));process.exit(1)}
