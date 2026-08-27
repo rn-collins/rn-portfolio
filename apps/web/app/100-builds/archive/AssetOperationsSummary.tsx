@@ -22,6 +22,7 @@ type AssetRecord={
 const records=packages.records as AssetRecord[];
 const fallbackIds=new Set(fallbackManifest.files.map(item=>item.buildId));
 const captureIds=new Set(renderedCaptures.records.map(item=>item.buildId));
+const finalReviewed=renderedCaptures.counts.finalReviewed;
 const count=(predicate:(record:AssetRecord)=>boolean)=>records.filter(predicate).length;
 const selected=count(record=>record.externalSelected);
 const staged=count(record=>record.externalStaged);
@@ -35,7 +36,7 @@ const preservedSources=new Set(records.flatMap(record=>{
 function blocker(record:AssetRecord){
  if(record.liveCoverSubstituted)return 'None — external visual is live';
  if(record.acquisitionDisposition==='HOLD')return captureIds.has(record.buildId)
-  ?'HOLD — rendered excerpt still needs human visual, rights, context and accessibility approval'
+  ?'FINAL-REVIEWED · HOLD — promotion gates remain open; see the dossier review record'
   :'HOLD — no external visual is approved; creator-owned fallback remains live';
  if(!record.externalStaged)return 'Selected source binary is not repository-preserved';
  return 'Repository-preserved only — rendered output and substitution approval remain open';
@@ -53,9 +54,11 @@ export default function AssetOperationsSummary(){
    <div><dt>Unique preserved sources</dt><dd>{preservedSources}</dd></div>
    <div><dt>Original HOLD fallbacks</dt><dd>{fallbackIds.size}</dd></div>
    <div><dt>Capture-review renders</dt><dd>{captureIds.size}</dd></div>
+   <div><dt>Final-reviewed captures</dt><dd>{finalReviewed}</dd></div>
    <div><dt>HOLD</dt><dd>{hold}</dd></div>
    <div><dt>Live substitutions</dt><dd>{substituted}</dd></div>
   </dl>
+  <p className={s.reviewFinding}><b>Capture-review disposition:</b> {renderedCaptures.finalReview.reason}</p>
   <div className={s.tableWrap} tabIndex={0} role="region" aria-label="Asset status for all 100 builds">
    <table className={s.assetTable}>
     <caption>Canonical visual-asset state by build. Open a dossier for previews, exact sources, downloads, integrity records and review gates.</caption>
