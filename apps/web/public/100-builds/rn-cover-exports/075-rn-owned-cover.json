@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "075",
+  "title": "Same Goal, Different Regulatory Machine",
+  "status": "HOLD",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/075-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/075-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "e2a606c82b71c2e11782facdee24efad9beae7374d7562e361c1f77f507b89a5",
+  "accessibleTitle": "Build 075: Same Goal, Different Regulatory Machine - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 075, Same Goal, Different Regulatory Machine. Visible structural cue: FRAME - TRACE - TEST. External visual remains on hold. This graphic is not documentary evidence.",
+  "recognizableHook": "Same Goal, Different Regulatory Machine",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED FALLBACK; EXTERNAL VISUAL HOLD"
+}

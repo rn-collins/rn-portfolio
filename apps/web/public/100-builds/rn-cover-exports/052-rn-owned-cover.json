@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "052",
+  "title": "Synthetic Cannabis Comparison Literacy",
+  "status": "HOLD",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/052-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/052-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "1c0f0e43e384c160e6846d4e92206af34b70d623e028988f1f40dc3bc4cd4fa2",
+  "accessibleTitle": "Build 052: Synthetic Cannabis Comparison Literacy - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 052, Synthetic Cannabis Comparison Literacy. Visible structural cue: FRAME - TRACE - TEST. External visual remains on hold. This graphic is not documentary evidence.",
+  "recognizableHook": "Synthetic Cannabis Comparison Literacy",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED FALLBACK; EXTERNAL VISUAL HOLD"
+}

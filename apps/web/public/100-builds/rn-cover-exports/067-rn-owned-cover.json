@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "067",
+  "title": "A Digital Twin Begins With Gaps",
+  "status": "HOLD",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/067-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/067-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "499768041f14a1e3dab97efd39d79c7adc5f15906ca615a1842af478baa3e112",
+  "accessibleTitle": "Build 067: A Digital Twin Begins With Gaps - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 067, A Digital Twin Begins With Gaps. Visible structural cue: FRAME - TRACE - TEST. External visual remains on hold. This graphic is not documentary evidence.",
+  "recognizableHook": "A Digital Twin Begins With Gaps",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED FALLBACK; EXTERNAL VISUAL HOLD"
+}

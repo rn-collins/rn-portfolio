@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "082",
+  "title": "An Audience Is Not a Demographic Box",
+  "status": "HOLD",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/082-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/082-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "6843039ea6385b731c85bf56e7ad18bb527a4786a6b785226b9db9a7bac20d15",
+  "accessibleTitle": "Build 082: An Audience Is Not a Demographic Box - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 082, An Audience Is Not a Demographic Box. Visible structural cue: FRAME - TRACE - TEST. External visual remains on hold. This graphic is not documentary evidence.",
+  "recognizableHook": "An Audience Is Not a Demographic Box",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED FALLBACK; EXTERNAL VISUAL HOLD"
+}

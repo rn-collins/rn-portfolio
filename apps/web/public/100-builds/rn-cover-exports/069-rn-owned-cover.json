@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "069",
+  "title": "Enacted Is Not Implemented",
+  "status": "HOLD",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/069-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/069-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "10c6d84f084b14418b47abfacf71b583a2ad49eb7912ee7c9e5c88bb94ae1a14",
+  "accessibleTitle": "Build 069: Enacted Is Not Implemented - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 069, Enacted Is Not Implemented. Visible structural cue: FRAME - TRACE - TEST. External visual remains on hold. This graphic is not documentary evidence.",
+  "recognizableHook": "Enacted Is Not Implemented",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED FALLBACK; EXTERNAL VISUAL HOLD"
+}

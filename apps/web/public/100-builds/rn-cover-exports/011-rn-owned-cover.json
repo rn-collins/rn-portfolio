@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "011",
+  "title": "Same Name Is Not Same Entity",
+  "status": "SELECTED_REVIEW_ONLY",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/011-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/011-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "666fd7bee9eae5810721d809487dc6f9764a379e7bcdfd96ccc3597480bb83f4",
+  "accessibleTitle": "Build 011: Same Name Is Not Same Entity - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 011, Same Name Is Not Same Entity. Visible structural cue: FRAME - TRACE - TEST. Official candidate remains review-only. This graphic is not documentary evidence.",
+  "recognizableHook": "Same Name Is Not Same Entity",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED COVER; OFFICIAL CANDIDATE REVIEW-ONLY"
+}

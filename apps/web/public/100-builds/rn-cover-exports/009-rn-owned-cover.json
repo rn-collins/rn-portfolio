@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "009",
+  "title": "Transfer Is a Place Question",
+  "status": "SELECTED_REVIEW_ONLY",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/009-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/009-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "1b378782812e1ef9a1fcc40bb16297a5c6d15cd3e11f71c94d88d8b6a806b0f4",
+  "accessibleTitle": "Build 009: Transfer Is a Place Question - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 009, Transfer Is a Place Question. Visible structural cue: FRAME - TRACE - TEST. Official candidate remains review-only. This graphic is not documentary evidence.",
+  "recognizableHook": "Transfer Is a Place Question",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED COVER; OFFICIAL CANDIDATE REVIEW-ONLY"
+}

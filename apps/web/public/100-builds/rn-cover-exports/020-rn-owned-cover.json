@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "020",
+  "title": "Open the Decision",
+  "status": "SELECTED_REVIEW_ONLY",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/020-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/020-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "0c271fd7947247c5d3040e550ea6f04e9d121de56e417df0562b5b88a0b2b447",
+  "accessibleTitle": "Build 020: Open the Decision - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 020, Open the Decision. Visible structural cue: FRAME - TRACE - TEST. Official candidate remains review-only. This graphic is not documentary evidence.",
+  "recognizableHook": "Open the Decision",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED COVER; OFFICIAL CANDIDATE REVIEW-ONLY"
+}

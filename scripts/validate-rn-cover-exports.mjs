@@ -1,0 +1,26 @@
+import { createHash } from "node:crypto";
+import { readFileSync, readdirSync } from "node:fs";
+import { resolve } from "node:path";
+const root=resolve(import.meta.dirname,"..");
+const manifest=JSON.parse(readFileSync(resolve(root,"docs/builds/visual-source-acquisition-001-100/RN-OWNED-COVER-EXPORTS.json"),"utf8"));
+const dir=resolve(root,manifest.exportDirectory);
+const fail=m=>{throw new Error("RN cover export validation failed: "+m)};
+if(manifest.records.length!==74)fail("expected 74 records");
+if(manifest.records.filter(r=>r.status==="HOLD").length!==70)fail("expected 70 HOLD");
+if(manifest.records.filter(r=>r.status==="SELECTED_REVIEW_ONLY").length!==4)fail("expected 4 review-only");
+const ids=manifest.records.map(r=>r.buildId);
+if(new Set(ids).size!==74)fail("duplicate IDs");
+if(ids.some(id=>manifest.excludedLiveOfficialBuildIds.includes(id)))fail("official ID included");
+const expected=new Set(manifest.records.flatMap(r=>[r.buildId+"-rn-owned-cover.svg",r.buildId+"-rn-owned-cover.json"]));
+const actual=readdirSync(dir).filter(n=>n.endsWith(".svg")||n.endsWith(".json"));
+if(actual.length!==148||actual.some(n=>!expected.has(n)))fail("directory drift");
+for(const r of manifest.records){const svg=readFileSync(resolve(root,r.repositoryPath),"utf8"),side=JSON.parse(readFileSync(resolve(dir,r.buildId+"-rn-owned-cover.json"),"utf8")),digest=createHash("sha256").update(svg).digest("hex");
+if(digest!==r.sha256||side.sha256!==r.sha256)fail(r.buildId+" checksum");
+if(r.width!==1200||r.height!==1500||side.width!==1200||side.height!==1500)fail(r.buildId+" dimensions");
+if(!svg.includes('width="1200" height="1500" viewBox="0 0 1200 1500"'))fail(r.buildId+" geometry");
+if(!svg.includes('role="img" aria-labelledby="title desc"')||!svg.includes('<title id="title">')||!svg.includes('<desc id="desc">'))fail(r.buildId+" accessibility");
+if(!svg.includes("FRAME - TRACE - TEST")||!svg.includes("NOT DOCUMENTARY EVIDENCE"))fail(r.buildId+" boundary");
+if(/<(image|script|foreignObject)\b|https?:\/\/|data:/i.test(svg))fail(r.buildId+" external/executable content");
+if(side.thirdPartyVisuals!==false||side.liveCover!=="RN_OWNED"||side.canvaReady!==true)fail(r.buildId+" metadata");
+if(!side.colorPalette?.colorIndependentMeaning)fail(r.buildId+" color semantics");}
+console.log("RN cover exports valid: 74 records (70 HOLD + 4 selected/review-only), 148 files.");

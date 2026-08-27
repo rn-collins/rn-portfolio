@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Build 043: More agents create more handoffs - RN-owned production cover</title>
+  <desc id="desc">Creator-owned 4:5 cover for Build 043, More agents create more handoffs. Visible structural cue: FRAME - TRACE - TEST. External visual remains on hold. This graphic is not documentary evidence.</desc>
+  <rect width="1200" height="1500" fill="#111827"/>
+  <rect x="72" y="72" width="1056" height="1356" rx="36" fill="none" stroke="#67e8f9" stroke-width="8"/>
+  <text x="96" y="180" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" letter-spacing="4" fill="#67e8f9">RN BUILDS - 043</text>
+  <path d="M96 262 H650" stroke="#fdba74" stroke-width="12"/>
+  <text x="96" y="442" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" fill="#f8fafc">More agents create more</text>
+  <text x="96" y="558" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" fill="#f8fafc">handoffs</text>
+  <g aria-hidden="true" fill="none" stroke="#67e8f9" stroke-width="10">
+    <rect x="96" y="940" width="230" height="150" rx="20"/>
+    <path d="M326 1015 H478"/><circle cx="558" cy="1015" r="76"/><path d="M634 1015 H786"/><path d="M806 940 L1050 1015 L806 1090 Z"/>
+  </g>
+  <text x="96" y="1190" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="700" letter-spacing="3" fill="#fdba74">FRAME - TRACE - TEST</text>
+  <text x="96" y="1280" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#f8fafc">RN-OWNED - HOLD - NOT DOCUMENTARY EVIDENCE</text>
+  <text x="96" y="1350" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#cbd5e1">(c) RN Collins - no third-party logos, seals, portraits, or visual claims</text>
+</svg>

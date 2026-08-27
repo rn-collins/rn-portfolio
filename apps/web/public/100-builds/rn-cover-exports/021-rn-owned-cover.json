@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "buildId": "021",
+  "title": "Break the Promise Open",
+  "status": "SELECTED_REVIEW_ONLY",
+  "liveCover": "RN_OWNED",
+  "canvaReady": true,
+  "file": "/100-builds/rn-cover-exports/021-rn-owned-cover.svg",
+  "repositoryPath": "apps/web/public/100-builds/rn-cover-exports/021-rn-owned-cover.svg",
+  "width": 1200,
+  "height": 1500,
+  "orientation": "4:5 portrait",
+  "sha256": "41b9dcb2899f626fb5a6d93f448f2ef7672023683b7f2c111bf7023c2965ec6b",
+  "accessibleTitle": "Build 021: Break the Promise Open - RN-owned production cover",
+  "accessibleDescription": "Creator-owned 4:5 cover for Build 021, Break the Promise Open. Visible structural cue: FRAME - TRACE - TEST. Official candidate remains review-only. This graphic is not documentary evidence.",
+  "recognizableHook": "Break the Promise Open",
+  "structuralCue": "FRAME - TRACE - TEST",
+  "colorPalette": {
+    "background": "#111827",
+    "primaryText": "#f8fafc",
+    "accentA": "#67e8f9",
+    "accentB": "#fdba74",
+    "mutedText": "#cbd5e1",
+    "colorIndependentMeaning": true
+  },
+  "rights": "(c) RN Collins - creator-owned",
+  "thirdPartyVisuals": false,
+  "claimBoundary": "Build identity and RN proposition only; not documentary evidence, proof of performance, or institutional endorsement.",
+  "fallbackStatus": "LIVE RN-OWNED COVER; OFFICIAL CANDIDATE REVIEW-ONLY"
+}
