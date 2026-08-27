@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import packages from '../../../../docs/builds/visual-source-acquisition-001-100/packages.json';
-import fallbackManifest from '../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json';
-import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
+import packages from '../../../../../docs/builds/visual-source-acquisition-001-100/packages.json';
+import fallbackManifest from '../../../../../docs/builds/visual-source-acquisition-001-100/FALLBACK-ASSET-MANIFEST.json';
+import renderedCaptures from '../../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
 import s from './program-archive.module.css';
 
 type AssetRecord={
