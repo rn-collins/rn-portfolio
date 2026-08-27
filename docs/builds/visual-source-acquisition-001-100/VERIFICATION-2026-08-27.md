@@ -52,3 +52,35 @@ The canonical ledger has no NIST/W3C candidate for these builds. Editorial selec
 - The exhaustive 304-route crawl did not complete; no claim of complete route health is made.
 - No broken URL, duplicate canonical, media failure, or access-control bypass was confirmed in the bounded pass.
 - Archive exposure needs an explicit product decision because the public page intentionally links retained source records and describes Builds 001–044 as publicly structured/certified to differing degrees.
+
+
+## Second acquisition verification tranche
+
+The 13 acquisition-ready records were verified against eight unique official assets.
+
+- **Contextually viable, still requiring fixed capture/crop/version/rights review:** 010, 030, 036, 038–041, 049, 055, 057–058.
+- **Returned to HOLD for weak visual-to-claim fit:** 033 and 034. The NIST publications are authoritative contextual documents, but neither depicts the attack graph or incident-replay graph claimed by the build.
+
+New unique evidence:
+
+| Asset | Builds | Bytes | Geometry/pages | SHA-256 |
+|---|---|---:|---|---|
+| W3C SHACL Recommendation, 2017-07-20 | 010 | 531,275 | responsive HTML | `ccca77caed771f42ea649c03d190b9c7ea0b82286c22c457b9edc8087c9ad0f8` |
+| W3C WCAG 2.2 immutable Recommendation, 2023-10-05 | 030 | 511,893 | responsive HTML | `9307b40f5dcd8d988444184de6d07efdf384ba744bf364bae3fd712282868508` |
+| W3C Service Workers nightly, 2026-08-12 | 036 | 1,920,895 | responsive HTML | `b1a39e9bd9c0427cb93a0cef2ffb2fc7e86d1d7be53c9f0a68fb3fcab623dffe` |
+| NISTIR 8259A | 055 | 977,531 | 23 pages; 612×792 pt | `b3b54b00b5ac3f3582a3e3fd17d3f25b18f848a51f113000b6489adbcce374b4` |
+
+AI RMF 1.0, SP 800-61r3, PROV-O and Privacy Framework hashes match the first tranche. The WCAG record must use the immutable 2023 URL if its date remains 2023; the live canonical now represents the 2024 Recommendation. Service Workers remains unstable until an immutable snapshot and exact capture specification are selected.
+
+## Archive-control verification
+
+- The public source reader has an exact 116-path allowlist.
+- Representative allowlisted Markdown, JSON, TypeScript and test records returned 200 with self-canonicals.
+- Representative later-build, repository-root, nonexistent, encoded traversal, direct-file and static-export-suffix probes returned 404/noindex without requested bytes.
+- No non-allowlisted or traversal-based byte exposure was found.
+- The previous indexable 200 placeholder for an allowlisted-but-missing file was removed; missing/non-file allowlist targets now fail closed through `notFound()`.
+- Archive/source pages remain indexable but absent from the sitemap. That is an unresolved product/SEO policy choice, not a confirmed confidentiality leak.
+
+## Route-crawl status
+
+The intended 304-route crawl stalled before result emission. Only the 302-entry sitemap count is certified. Route status, canonical, internal-link and media certification remain incomplete; no defect was confirmed by the interrupted run.
