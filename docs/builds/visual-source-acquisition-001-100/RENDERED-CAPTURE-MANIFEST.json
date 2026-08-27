@@ -5,10 +5,18 @@
   "counts": {
     "specified": 11,
     "renderedReviewOnly": 11,
+    "finalReviewed": 11,
+    "approvedForPromotion": 0,
     "rejected": 0,
-    "blocked": 0,
+    "blocked": 11,
     "selected": 0,
     "staged": 0
+  },
+  "finalReview": {
+    "decision": "HOLD",
+    "report": "docs/builds/visual-source-acquisition-001-100/FINAL-EXCERPT-REVIEW.json",
+    "reason": "All 11 renders fail at least one objective promotion gate. Every render fails mobile legibility; individual records also retain governing-notice, reading-order, alt-disclosure, or contextual-fit blockers.",
+    "reviewedAt": "2026-08-27"
   },
   "records": [
     {
