@@ -1,8 +1,8 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "1.1.0",
   "generatedAt": "2026-08-27",
-  "status": "14 CLEARED PDF-BACKED REVIEW DERIVATIVES RENDERED; 0 LIVE SUBSTITUTIONS",
-  "truthBoundary": "These are faithful text-only, build-specific review derivatives of the selected title-page regions. They exclude marks and third-party content. Rendering does not approve a live-cover substitution or Canva asset.",
+  "status": "14 CLEARED PDF-BACKED REVIEW DERIVATIVES; 5 PRODUCTION VARIANTS; 0 LIVE SUBSTITUTIONS",
+  "truthBoundary": "All 14 review derivatives remain non-live. Five strong direct mappings have clean production source-context variants, but no packages or live cover references are changed. The nine generic/weak mappings remain review-only.",
   "dimensions": {
     "width": 1200,
     "height": 1500,
@@ -16,9 +16,174 @@
     "assignments": 14,
     "uniqueSources": 3,
     "rendered": 14,
+    "productionVariants": 5,
+    "reviewOnly": 9,
     "liveSubstitutions": 0,
     "renderApproved": 0
   },
+  "productionDecision": {
+    "productionBuildIds": [
+      "001",
+      "012",
+      "019",
+      "022",
+      "031"
+    ],
+    "reviewOnlyBuildIds": [
+      "007",
+      "008",
+      "009",
+      "013",
+      "017",
+      "021",
+      "025",
+      "028",
+      "032"
+    ],
+    "reason": "Production variants are limited to strong direct publication-to-build mappings; generic title-page context remains review-only."
+  },
+  "productionRecords": [
+    {
+      "buildId": "001",
+      "buildTitle": "Human Review Design Framework",
+      "assetId": "official-01",
+      "sourceKey": "official-01-ai-rmf",
+      "path": "apps/web/public/media/100-builds/production-source-context/build-001-official-source-context.svg",
+      "publicUrl": "/media/100-builds/production-source-context/build-001-official-source-context.svg",
+      "width": 1200,
+      "height": 1500,
+      "sha256": "88f2b8b92c9c65b0fd0ce66c324bf4936652022bd3193bb70cd3928d2e94b50a",
+      "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 001, Human Review Design Framework. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+      "status": "PRODUCTION_VARIANT_READY_NOT_LIVE",
+      "sourcePdf": {
+        "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+        "bytes": 1946127,
+        "pages": 48,
+        "pdfVersion": "1.7",
+        "pageIndex": 1
+      },
+      "cropBoundary": "Title-page text region only: publication identifier, complete title, subtitle/version, authorship where specified, and publication date. Institutional marks, insignia, seals, decorative field, personal imagery, figures, and third-party material excluded.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+      "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+      "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+      "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+      "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+      "liveCoverSubstituted": false,
+      "packagesChanged": false
+    },
+    {
+      "buildId": "012",
+      "buildTitle": "Controls Follow Consequence",
+      "assetId": "official-01",
+      "sourceKey": "official-01-ai-rmf",
+      "path": "apps/web/public/media/100-builds/production-source-context/build-012-official-source-context.svg",
+      "publicUrl": "/media/100-builds/production-source-context/build-012-official-source-context.svg",
+      "width": 1200,
+      "height": 1500,
+      "sha256": "fb4b8cc508a37b5ca07a0344ffab1d71a25a89d54aeb308035a01d777cc6ceb8",
+      "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 012, Controls Follow Consequence. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+      "status": "PRODUCTION_VARIANT_READY_NOT_LIVE",
+      "sourcePdf": {
+        "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+        "bytes": 1946127,
+        "pages": 48,
+        "pdfVersion": "1.7",
+        "pageIndex": 1
+      },
+      "cropBoundary": "Title-page text region only: publication identifier, complete title, subtitle/version, authorship where specified, and publication date. Institutional marks, insignia, seals, decorative field, personal imagery, figures, and third-party material excluded.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+      "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+      "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+      "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+      "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+      "liveCoverSubstituted": false,
+      "packagesChanged": false
+    },
+    {
+      "buildId": "022",
+      "buildTitle": "Human Impact Nodes",
+      "assetId": "official-01",
+      "sourceKey": "official-01-ai-rmf",
+      "path": "apps/web/public/media/100-builds/production-source-context/build-022-official-source-context.svg",
+      "publicUrl": "/media/100-builds/production-source-context/build-022-official-source-context.svg",
+      "width": 1200,
+      "height": 1500,
+      "sha256": "4d7b30bcedad7c36c89b08ef511a3e8f784b91b4deb7185b0332b4d0a99dde74",
+      "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 022, Human Impact Nodes. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+      "status": "PRODUCTION_VARIANT_READY_NOT_LIVE",
+      "sourcePdf": {
+        "sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+        "bytes": 1946127,
+        "pages": 48,
+        "pdfVersion": "1.7",
+        "pageIndex": 1
+      },
+      "cropBoundary": "Title-page text region only: publication identifier, complete title, subtitle/version, authorship where specified, and publication date. Institutional marks, insignia, seals, decorative field, personal imagery, figures, and third-party material excluded.",
+      "attribution": "Tabassi, E. (2023), Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1. Republished courtesy of NIST.",
+      "caption": "Official NIST AI Risk Management Framework 1.0, shown as bounded source context.",
+      "sourceLink": "https://doi.org/10.6028/NIST.AI.100-1",
+      "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+      "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+      "liveCoverSubstituted": false,
+      "packagesChanged": false
+    },
+    {
+      "buildId": "019",
+      "buildTitle": "The Alert That Knows Who Cares",
+      "assetId": "official-07",
+      "sourceKey": "official-07-sp-800-61r3",
+      "path": "apps/web/public/media/100-builds/production-source-context/build-019-official-source-context.svg",
+      "publicUrl": "/media/100-builds/production-source-context/build-019-official-source-context.svg",
+      "width": 1200,
+      "height": 1500,
+      "sha256": "42c23ea73c840b9c81c062eea3d69dfd7d168051277eeed547fb546dd635eeb8",
+      "altText": "Official NIST SP 800-61r3 title-page text, selected as contextual evidence for Build 019, The Alert That Knows Who Cares. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+      "status": "PRODUCTION_VARIANT_READY_NOT_LIVE",
+      "sourcePdf": {
+        "sha256": "e5593d6bb85daecec7e8d9549400c7b3473bcc3f06e469c82218073afa7fba2d",
+        "bytes": 1040566,
+        "pages": 48,
+        "pdfVersion": "1.6",
+        "pageIndex": 1
+      },
+      "cropBoundary": "Title-page text region only: publication identifier, complete title, subtitle/version, authorship where specified, and publication date. Institutional marks, insignia, seals, decorative field, personal imagery, figures, and third-party material excluded.",
+      "attribution": "Nelson, A. et al. (2025), Incident Response Recommendations and Considerations for Cybersecurity Risk Management, NIST SP 800-61 Rev. 3. Republished courtesy of NIST.",
+      "caption": "Official NIST SP 800-61 Rev. 3, shown as incident-response context.",
+      "sourceLink": "https://doi.org/10.6028/NIST.SP.800-61r3",
+      "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+      "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+      "liveCoverSubstituted": false,
+      "packagesChanged": false
+    },
+    {
+      "buildId": "031",
+      "buildTitle": "Telemetry Privacy Field",
+      "assetId": "official-09",
+      "sourceKey": "official-09-privacy-framework",
+      "path": "apps/web/public/media/100-builds/production-source-context/build-031-official-source-context.svg",
+      "publicUrl": "/media/100-builds/production-source-context/build-031-official-source-context.svg",
+      "width": 1200,
+      "height": 1500,
+      "sha256": "631f7e870d8afd8d5baa759dc2bb330c95c927065612efb4b9df065d65eeece0",
+      "altText": "Official Version 1.0 title-page text, selected as contextual evidence for Build 031, Telemetry Privacy Field. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+      "status": "PRODUCTION_VARIANT_READY_NOT_LIVE",
+      "sourcePdf": {
+        "sha256": "58e1f2373e1c8a5782f7ddfce677fa9fc15e2d920ec0ab97ee754697e91bc2f0",
+        "bytes": 827885,
+        "pages": 43,
+        "pdfVersion": "1.6",
+        "pageIndex": 1
+      },
+      "cropBoundary": "Title-page text region only: publication identifier, complete title, subtitle/version, authorship where specified, and publication date. Institutional marks, insignia, seals, decorative field, personal imagery, figures, and third-party material excluded.",
+      "attribution": "NIST (2020), NIST Privacy Framework: A Tool for Improving Privacy through Enterprise Risk Management, Version 1.0. Republished courtesy of NIST.",
+      "caption": "Official NIST Privacy Framework 1.0, shown as privacy-risk context.",
+      "sourceLink": "https://www.nist.gov/privacy-framework/privacy-framework",
+      "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
+      "noEndorsement": "National Institute of Standards and Technology does not endorse RN or this build.",
+      "liveCoverSubstituted": false,
+      "packagesChanged": false
+    }
+  ],
   "records": [
     {
       "buildId": "001",
@@ -45,7 +210,17 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": true,
+      "productionVariant": {
+        "path": "apps/web/public/media/100-builds/production-source-context/build-001-official-source-context.svg",
+        "publicUrl": "/media/100-builds/production-source-context/build-001-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "88f2b8b92c9c65b0fd0ce66c324bf4936652022bd3193bb70cd3928d2e94b50a",
+        "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 001, Human Review Design Framework. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "status": "PRODUCTION_VARIANT_READY_NOT_LIVE"
+      }
     },
     {
       "buildId": "007",
@@ -72,7 +247,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "008",
@@ -99,7 +275,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "009",
@@ -126,7 +303,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "012",
@@ -153,7 +331,17 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": true,
+      "productionVariant": {
+        "path": "apps/web/public/media/100-builds/production-source-context/build-012-official-source-context.svg",
+        "publicUrl": "/media/100-builds/production-source-context/build-012-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "fb4b8cc508a37b5ca07a0344ffab1d71a25a89d54aeb308035a01d777cc6ceb8",
+        "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 012, Controls Follow Consequence. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "status": "PRODUCTION_VARIANT_READY_NOT_LIVE"
+      }
     },
     {
       "buildId": "013",
@@ -180,7 +368,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "017",
@@ -207,7 +396,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "021",
@@ -234,7 +424,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "022",
@@ -261,7 +452,17 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": true,
+      "productionVariant": {
+        "path": "apps/web/public/media/100-builds/production-source-context/build-022-official-source-context.svg",
+        "publicUrl": "/media/100-builds/production-source-context/build-022-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "4d7b30bcedad7c36c89b08ef511a3e8f784b91b4deb7185b0332b4d0a99dde74",
+        "altText": "Official NIST AI 100-1 title-page text, selected as contextual evidence for Build 022, Human Impact Nodes. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "status": "PRODUCTION_VARIANT_READY_NOT_LIVE"
+      }
     },
     {
       "buildId": "025",
@@ -288,7 +489,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "028",
@@ -315,7 +517,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "032",
@@ -342,7 +545,8 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": false
     },
     {
       "buildId": "019",
@@ -369,7 +573,17 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": true,
+      "productionVariant": {
+        "path": "apps/web/public/media/100-builds/production-source-context/build-019-official-source-context.svg",
+        "publicUrl": "/media/100-builds/production-source-context/build-019-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "42c23ea73c840b9c81c062eea3d69dfd7d168051277eeed547fb546dd635eeb8",
+        "altText": "Official NIST SP 800-61r3 title-page text, selected as contextual evidence for Build 019, The Alert That Knows Who Cares. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "status": "PRODUCTION_VARIANT_READY_NOT_LIVE"
+      }
     },
     {
       "buildId": "031",
@@ -396,7 +610,17 @@
       "claimBoundary": "Supports recognition of the named NIST publication as bounded source context only; does not prove RN prototype performance, compliance, safety, effectiveness, or institutional endorsement.",
       "reviewState": "RENDERED_REVIEW_ONLY_NOT_LIVE",
       "liveCoverSubstituted": false,
-      "renderApproved": false
+      "renderApproved": false,
+      "productionVariantReady": true,
+      "productionVariant": {
+        "path": "apps/web/public/media/100-builds/production-source-context/build-031-official-source-context.svg",
+        "publicUrl": "/media/100-builds/production-source-context/build-031-official-source-context.svg",
+        "width": 1200,
+        "height": 1500,
+        "sha256": "631f7e870d8afd8d5baa759dc2bb330c95c927065612efb4b9df065d65eeece0",
+        "altText": "Official Version 1.0 title-page text, selected as contextual evidence for Build 031, Telemetry Privacy Field. Production source-context derivative; not evidence of prototype performance or institutional endorsement.",
+        "status": "PRODUCTION_VARIANT_READY_NOT_LIVE"
+      }
     }
   ]
 }
