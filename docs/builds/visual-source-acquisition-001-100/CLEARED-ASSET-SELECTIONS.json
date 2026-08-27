@@ -1,15 +1,18 @@
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-27",
-  "status": "24 OFFICIAL ASSETS SELECTED; 9 UNIQUE REMOTE SOURCES METADATA-STAGED; 0 BINARIES STAGED",
-  "truthBoundary": "A URL and complete capture/presentation specification are staged metadata, not a staged binary. externalStaged remains false until an exact byte-preserved file or rendered capture exists in the repository and passes checksum and visual review.",
+  "status": "24 OFFICIAL ASSETS SELECTED; 6 UNIQUE HTML SOURCES BYTE-PRESERVED; 10 ASSIGNMENTS STAGED; 3 PDF SOURCES / 14 ASSIGNMENTS UNSTAGED; 0 SUBSTITUTIONS",
+  "truthBoundary": "externalStaged means the exact official source response body is byte-preserved in the repository under an inert source-text path. It does not mean a crop/render is approved, a live cover is substituted, or Canva generation is authorized.",
   "counts": {
     "assignments": 24,
     "uniqueOfficialSources": 9,
     "remoteMetadataStaged": 9,
-    "binariesPresent": 0,
+    "binariesPresent": 6,
     "externalSelected": 24,
-    "externalStaged": 0
+    "externalStaged": 10,
+    "uniqueRepositoryPreserved": 6,
+    "pdfSourcesUnstaged": 3,
+    "pdfAssignmentsUnstaged": 14
   },
   "assets": [
     {
@@ -60,9 +63,9 @@
         "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
         "sourceLink": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
       },
-      "repositoryBinaryPath": null,
-      "binaryPresent": false,
-      "stagingStatus": "REMOTE SOURCE METADATA STAGED; BINARY NOT PRESENT",
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+      "binaryPresent": true,
+      "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT SOURCE TEXT; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
       "assignedBuildIds": [
         "002",
         "003"
@@ -83,9 +86,9 @@
         "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
         "sourceLink": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook"
       },
-      "repositoryBinaryPath": null,
-      "binaryPresent": false,
-      "stagingStatus": "REMOTE SOURCE METADATA STAGED; BINARY NOT PRESENT",
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-03-ai-rmf-playbook.html.source.txt",
+      "binaryPresent": true,
+      "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT SOURCE TEXT; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
       "assignedBuildIds": [
         "004"
       ]
@@ -105,9 +108,9 @@
         "caption": "The GOV.UK Service Standard, shown as public-service design context.",
         "sourceLink": "https://www.gov.uk/service-manual/service-standard"
       },
-      "repositoryBinaryPath": null,
-      "binaryPresent": false,
-      "stagingStatus": "REMOTE SOURCE METADATA STAGED; BINARY NOT PRESENT",
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
+      "binaryPresent": true,
+      "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT SOURCE TEXT; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
       "assignedBuildIds": [
         "005",
         "018"
@@ -128,9 +131,9 @@
         "caption": "GOV.UK Service Manual guidance on assisted digital support.",
         "sourceLink": "https://www.gov.uk/service-manual/assisted-digital/"
       },
-      "repositoryBinaryPath": null,
-      "binaryPresent": false,
-      "stagingStatus": "REMOTE SOURCE METADATA STAGED; BINARY NOT PRESENT",
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-05-assisted-digital.html.source.txt",
+      "binaryPresent": true,
+      "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT SOURCE TEXT; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
       "assignedBuildIds": [
         "006"
       ]
@@ -150,9 +153,9 @@
         "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
         "sourceLink": "https://www.w3.org/TR/prov-primer/"
       },
-      "repositoryBinaryPath": null,
-      "binaryPresent": false,
-      "stagingStatus": "REMOTE SOURCE METADATA STAGED; BINARY NOT PRESENT",
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+      "binaryPresent": true,
+      "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT SOURCE TEXT; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
       "assignedBuildIds": [
         "011",
         "020",
@@ -196,9 +199,9 @@
         "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
         "sourceLink": "https://www.w3.org/TR/prov-o/"
       },
-      "repositoryBinaryPath": null,
-      "binaryPresent": false,
-      "stagingStatus": "REMOTE SOURCE METADATA STAGED; BINARY NOT PRESENT",
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-08-prov-o.html.source.txt",
+      "binaryPresent": true,
+      "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT SOURCE TEXT; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
       "assignedBuildIds": [
         "026"
       ]
@@ -241,7 +244,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "002",
@@ -255,9 +260,11 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
       "contextualFit": "GOV.UK Learning about users and their needs is directly relevant to Multi-Audience Meaning Architecture and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "003",
@@ -271,9 +278,11 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Learning about users and their needs.",
       "contextualFit": "GOV.UK Learning about users and their needs is directly relevant to Unserved Decision Discovery and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "004",
@@ -287,9 +296,11 @@
       "attribution": "Source: National Institute of Standards and Technology, NIST AI RMF Playbook. Republished courtesy of NIST.",
       "contextualFit": "NIST AI RMF Playbook is directly relevant to Before the Automation and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-03-ai-rmf-playbook.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "005",
@@ -303,9 +314,11 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
       "contextualFit": "GOV.UK Service Standard is directly relevant to Service Path Split and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "006",
@@ -319,9 +332,11 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: GOV.UK Service Manual, Assisted digital support.",
       "contextualFit": "GOV.UK Assisted digital support is directly relevant to Form Gate Field and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-05-assisted-digital.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "007",
@@ -337,7 +352,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "008",
@@ -353,7 +370,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "009",
@@ -369,7 +388,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "011",
@@ -383,9 +404,11 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
       "contextualFit": "W3C PROV Primer is directly relevant to Same Name Is Not Same Entity and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "012",
@@ -401,7 +424,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "013",
@@ -417,7 +442,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "017",
@@ -433,7 +460,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "018",
@@ -447,9 +476,11 @@
       "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: UK Government Digital Service, GOV.UK Service Standard.",
       "contextualFit": "GOV.UK Service Standard is directly relevant to The Process Is Part of the Outcome and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "019",
@@ -465,7 +496,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "020",
@@ -479,9 +512,11 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
       "contextualFit": "W3C PROV Primer is directly relevant to Open the Decision and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "021",
@@ -497,7 +532,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "022",
@@ -513,7 +550,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "025",
@@ -529,7 +568,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "026",
@@ -543,9 +584,11 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV-O, https://www.w3.org/TR/prov-o/, under the W3C Document License.",
       "contextualFit": "W3C PROV-O is directly relevant to Records Normalize Without Losing Their Past and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-08-prov-o.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "028",
@@ -561,7 +604,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "029",
@@ -575,9 +620,11 @@
       "attribution": "Copyright © 2013 W3C®. Material reproduced from PROV Model Primer, https://www.w3.org/TR/prov-primer/, under the W3C Document License.",
       "contextualFit": "W3C PROV Primer is directly relevant to Consequence Propagation and offers professional recognition through an authoritative primary document, not fame or clickbait.",
       "externalSelected": true,
-      "externalStaged": false,
-      "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "externalStaged": true,
+      "binaryPresent": true,
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+      "renderApproved": false
     },
     {
       "buildId": "031",
@@ -593,7 +640,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     },
     {
       "buildId": "032",
@@ -609,7 +658,9 @@
       "externalSelected": true,
       "externalStaged": false,
       "binaryPresent": false,
-      "liveCoverSubstituted": false
+      "liveCoverSubstituted": false,
+      "repositoryBinaryPath": null,
+      "renderApproved": false
     }
   ]
 }

@@ -2,12 +2,16 @@
   "schemaVersion": "1.0.0",
   "verifiedAt": "2026-08-27",
   "scope": "Nine unique official sources selected for 24 cleared builds",
-  "truthBoundary": "All nine URLs returned exact parseable source bytes during this acquisition pass. No source byte is repository-preserved or staged: the available authenticated GitHub write surface accepts UTF-8 text only and cannot safely transfer the three PDF binaries or guarantee byte-identical snapshot transfer. Counts therefore remain binariesPresent=0 and externalStaged=0.",
+  "truthBoundary": "All nine URLs returned exact parseable source bytes. Six HTML response bodies are preserved byte-identically as inert .html.source.txt files and may be treated as staged source material only. Three PDFs remain absent because large base64 transfer changed their Git blob hashes. Preserved source is not an approved crop, rendered visual, live-cover substitution or Canva asset.",
   "counts": {
     "sourcesFetchedAndVerified": 9,
     "temporaryBytesVerified": 4682411,
-    "repositoryBinariesPresent": 0,
-    "externalStaged": 0,
+    "uniqueSourcesRepositoryPreserved": 6,
+    "assignmentsExternalStaged": 10,
+    "repositoryBinariesPresent": 6,
+    "externalStaged": 6,
+    "pdfSourcesUnstaged": 3,
+    "pdfAssignmentsUnstaged": 14,
     "assignmentsAffected": 24
   },
   "assets": [
@@ -35,7 +39,10 @@
       "pageSizePoints": "612 x 792 (US Letter)",
       "rights": "NIST Technical Series reuse policy; citation required; review any third-party material.",
       "repositoryBinaryPath": null,
-      "staged": false
+      "staged": false,
+      "repositoryPreserved": false,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Fetched and verified temporarily, but no byte-identical repository PDF could be transferred; remains unstaged."
     },
     {
       "assetId": "official-02",
@@ -49,8 +56,11 @@
       "bytes": 79329,
       "documentTitle": "GOV.UK",
       "rights": "Open Government Licence v3.0; exclude logos and third-party material; attribute source.",
-      "repositoryBinaryPath": null,
-      "staged": false
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+      "staged": true,
+      "repositoryPreserved": true,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Byte-identical HTTP response body preserved under inert .html.source.txt path; source material only."
     },
     {
       "assetId": "official-03",
@@ -63,8 +73,11 @@
       "bytes": 79932,
       "documentTitle": "NIST AI RMF Playbook | NIST",
       "rights": "Unmarked NIST web information may be distributed or copied with credit; exclude marks and third-party material.",
-      "repositoryBinaryPath": null,
-      "staged": false
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-03-ai-rmf-playbook.html.source.txt",
+      "staged": true,
+      "repositoryPreserved": true,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Byte-identical HTTP response body preserved under inert .html.source.txt path; source material only."
     },
     {
       "assetId": "official-04",
@@ -78,8 +91,11 @@
       "bytes": 65077,
       "documentTitle": "GOV.UK",
       "rights": "Open Government Licence v3.0; exclude logos and third-party material; attribute source.",
-      "repositoryBinaryPath": null,
-      "staged": false
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
+      "staged": true,
+      "repositoryPreserved": true,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Byte-identical HTTP response body preserved under inert .html.source.txt path; source material only."
     },
     {
       "assetId": "official-05",
@@ -92,8 +108,11 @@
       "bytes": 69792,
       "documentTitle": "GOV.UK",
       "rights": "Open Government Licence v3.0; exclude logos and third-party material; attribute source.",
-      "repositoryBinaryPath": null,
-      "staged": false
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-05-assisted-digital.html.source.txt",
+      "staged": true,
+      "repositoryPreserved": true,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Byte-identical HTTP response body preserved under inert .html.source.txt path; source material only."
     },
     {
       "assetId": "official-06",
@@ -108,8 +127,11 @@
       "bytes": 109524,
       "documentTitle": "PROV Model Primer",
       "rights": "W3C Document License; retain URI, copyright and status; no endorsement.",
-      "repositoryBinaryPath": null,
-      "staged": false
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+      "staged": true,
+      "repositoryPreserved": true,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Byte-identical HTTP response body preserved under inert .html.source.txt path; source material only."
     },
     {
       "assetId": "official-07",
@@ -124,7 +146,10 @@
       "pageSizePoints": "612 x 792 (US Letter)",
       "rights": "NIST Technical Series reuse policy; citation required; review any third-party material.",
       "repositoryBinaryPath": null,
-      "staged": false
+      "staged": false,
+      "repositoryPreserved": false,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Fetched and verified temporarily, but no byte-identical repository PDF could be transferred; remains unstaged."
     },
     {
       "assetId": "official-08",
@@ -137,8 +162,11 @@
       "bytes": 464179,
       "documentTitle": "PROV-O: The PROV Ontology",
       "rights": "W3C Document License; retain URI, copyright and status; no endorsement.",
-      "repositoryBinaryPath": null,
-      "staged": false
+      "repositoryBinaryPath": "apps/web/public/100-builds/official-sources/official-08-prov-o.html.source.txt",
+      "staged": true,
+      "repositoryPreserved": true,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Byte-identical HTTP response body preserved under inert .html.source.txt path; source material only."
     },
     {
       "assetId": "official-09",
@@ -153,7 +181,10 @@
       "pageSizePoints": "612 x 792 (US Letter)",
       "rights": "NIST Technical Series reuse policy; citation required; review any third-party material.",
       "repositoryBinaryPath": null,
-      "staged": false
+      "staged": false,
+      "repositoryPreserved": false,
+      "liveSubstitutionApproved": false,
+      "preservationNote": "Fetched and verified temporarily, but no byte-identical repository PDF could be transferred; remains unstaged."
     }
   ],
   "verificationRules": [
@@ -161,6 +192,8 @@
     "Container signature was checked locally; HTML was parsed as UTF-8 and PDFs identified as PDFs.",
     "SHA-256 and byte length were computed from the fetched response body.",
     "PDF page count and page size were read with pdfinfo.",
-    "A URL, hash or temporary fetch is not a staged repository binary."
+    "A URL, hash or temporary fetch is not a staged repository binary.",
+    "For preserved HTML, the Git blob SHA equals local `git hash-object` for the fetched bytes.",
+    "Executable .html paths are forbidden; preserved HTML snapshots must end in .html.source.txt."
   ]
 }

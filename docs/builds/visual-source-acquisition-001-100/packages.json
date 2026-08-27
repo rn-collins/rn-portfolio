@@ -162,7 +162,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -201,9 +201,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
           "sourcePageUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
@@ -234,10 +234,10 @@
         "carousel": "Build 002 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 002, Multi-Audience Meaning Architecture: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -269,7 +269,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -308,9 +308,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
           "sourcePageUrl": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-02-user-needs.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Learning about users and their needs” plus the first introductory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "GOV.UK Service Manual guidance on learning about users and their needs.",
@@ -341,10 +341,10 @@
         "carousel": "Build 003 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 003, Unserved Decision Discovery: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -376,7 +376,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -415,9 +415,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
           "sourcePageUrl": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-03-ai-rmf-playbook.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main content only: H1 “NIST AI RMF Playbook” plus the introductory description of suggested actions; exclude NIST marks, site header/navigation, promotional panels and footer.",
           "caption": "The official NIST AI RMF Playbook, shown as automation-governance context.",
@@ -448,10 +448,10 @@
         "carousel": "Build 004 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 004, Before the Automation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -483,7 +483,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -522,9 +522,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.gov.uk/service-manual/service-standard",
           "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "The GOV.UK Service Standard, shown as public-service design context.",
@@ -555,10 +555,10 @@
         "carousel": "Build 005 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 005, Service Path Split: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -590,7 +590,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -629,9 +629,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.gov.uk/service-manual/assisted-digital/",
           "sourcePageUrl": "https://www.gov.uk/service-manual/assisted-digital/",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-05-assisted-digital.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Assisted digital support” and the first explanatory paragraph; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "GOV.UK Service Manual guidance on assisted digital support.",
@@ -662,10 +662,10 @@
         "carousel": "Build 006 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 006, Form Gate Field: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -1109,7 +1109,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1148,9 +1148,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
           "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
           "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
@@ -1181,10 +1181,10 @@
         "carousel": "Build 011 · evidence-and-governance: opening proposition → decision risk → governance mechanism → evidence boundary → human authority → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 011, Same Name Is Not Same Entity: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -1804,7 +1804,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -1843,9 +1843,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.gov.uk/service-manual/service-standard",
           "sourcePageUrl": "https://www.gov.uk/service-manual/service-standard",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-04-service-standard.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Main article only: page H1 “Service Standard” plus its introductory sentence and numbered criteria headings; exclude GOV.UK crown/logo, global header, navigation, feedback and footer.",
           "caption": "The GOV.UK Service Standard, shown as public-service design context.",
@@ -1876,10 +1876,10 @@
         "carousel": "Build 018 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 018, The Process Is Part of the Outcome: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -2018,7 +2018,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2057,9 +2057,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
           "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
           "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
@@ -2090,10 +2090,10 @@
         "carousel": "Build 020 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 020, Open the Decision: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -2628,7 +2628,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2667,9 +2667,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.w3.org/TR/prov-o/",
           "sourcePageUrl": "https://www.w3.org/TR/prov-o/",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-08-prov-o.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Document text only: title, Recommendation status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
           "caption": "The W3C PROV-O Recommendation, shown as provenance-vocabulary context.",
@@ -2700,10 +2700,10 @@
         "carousel": "Build 026 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 026, Records Normalize Without Losing Their Past: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
@@ -2931,7 +2931,7 @@
         "claimToVisualSupport": "This creator-owned opening frame supports only the visible build proposition and build identity. It is not documentary evidence and does not establish institutional endorsement, lived experience, product performance, safety, compliance, effectiveness, causation, community authority or outcome."
       },
       "visualCandidateSearch": {
-        "status": "OFFICIAL ASSET FORMALLY SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED",
+        "status": "OFFICIAL ASSET FORMALLY SELECTED / EXACT SOURCE BYTE-PRESERVED AS INERT TEXT / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED",
         "searched": [
           {
             "candidateType": "exact official document selected for later editorial substitution",
@@ -2970,9 +2970,9 @@
           "selectedAt": "2026-08-27",
           "selectedAssetUrl": "https://www.w3.org/TR/prov-primer/",
           "sourcePageUrl": "https://www.w3.org/TR/prov-primer/",
-          "binaryRepositoryPath": null,
-          "binaryPresent": false,
-          "stagingStatus": "REMOTE SOURCE URL, RIGHTS, CROP AND PRESENTATION METADATA STAGED; NO BINARY PRESENT",
+          "binaryRepositoryPath": "apps/web/public/100-builds/official-sources/official-06-prov-primer.html.source.txt",
+          "binaryPresent": true,
+          "stagingStatus": "EXACT HTML SOURCE BODY BYTE-PRESERVED AS INERT .html.source.txt; CROP/RENDER/LIVE SUBSTITUTION NOT APPROVED",
           "captureMode": "HTML faithful text-only composite",
           "cropBoundary": "Crop boundary: Document text only: title, W3C Note status line and Abstract; exclude W3C marks, editor block, navigation, figures, examples and footer.",
           "caption": "The W3C PROV Model Primer, shown as provenance-model context.",
@@ -3003,10 +3003,10 @@
         "carousel": "Build 029 · operations-and-provenance: opening proposition → operational failure → trace or control → review state → limitation → visitor CTA. Editorial specification only; production and Canva generation remain unauthorized."
       },
       "cta": "Explore Build 029, Consequence Propagation: watch the cut, inspect the motion argument, test the interactive prototype, and review its evidence boundary.",
-      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / REMOTE SOURCE METADATA STAGED / BINARY NOT STAGED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
+      "productionStatus": "CURRENT COVER READY / EXTERNAL OFFICIAL ASSET SELECTED / SOURCE BYTE-PRESERVED / CROP AND RENDER NOT APPROVED / NOT SUBSTITUTED / CANVA NOT AUTHORIZED",
       "acquisitionDisposition": "CLEARED-NOT-SUBSTITUTED",
       "externalSelected": true,
-      "externalStaged": false,
+      "externalStaged": true,
       "rnFallbackReady": true,
       "dispositionBasis": "Exact official candidate and governing reuse basis passed the range review; current RN cover remains in place and substitution is not authorized by this disposition."
     },
