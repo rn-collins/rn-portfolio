@@ -4,7 +4,8 @@ const path=fileURLToPath(new URL('../docs/builds/visual-source-acquisition-001-1
 const p=JSON.parse(fs.readFileSync(path,'utf8'));
 const CLEAR=['001','002','003','004','005','006','007','008','009','011','012','013','017','018','019','020','021','022','025','026','028','029','031','032'];
 const STAGED=['001','002','003','004','005','006','007','008','009','011','012','013','017','018','019','020','021','022','025','026','028','029','031','032'];
-const PROMOTED=['001','003','004','005','006','012','018','019','022','026','031'];
+const REPLACEMENT_PROMOTED=['002','007','008','013','017','025','028','029','032'];
+const PROMOTED=['001','003','004','005','006','012','018','019','022','026','031',...REPLACEMENT_PROMOTED];
 const EXCERPT_PROMOTED=['010','030','036','041','057','058'];
 const EARLY_HOLD=['014','015','016','023','024','027','033','034'];
 const ALL=Array.from({length:100},(_,i)=>String(i+1).padStart(3,'0'));
@@ -36,9 +37,9 @@ function validate(p){
  if(JSON.stringify(ids('HOLD'))!==JSON.stringify(HOLD))throw Error('mandatory hold set drift');
  for(const id of EARLY_HOLD)if(p.records.find(r=>r.buildId===id)?.acquisitionDisposition!=='HOLD')throw Error(id+': mandatory early HOLD promoted');
  for(const r of p.records){if(!r.dispositionBasis)throw Error(r.buildId+': no basis');const cleared=r.acquisitionDisposition==='CLEARED-NOT-SUBSTITUTED';const excerpt=r.acquisitionDisposition==='EXCERPT-PROMOTED';const staged=STAGED.includes(r.buildId)||excerpt;if(r.externalSelected!==(cleared||excerpt)||r.externalStaged!==staged||r.rnFallbackReady!==true||r.canva?.generationAuthorized!==false)throw Error(r.buildId+': estate safety state');if(cleared){const s=r.visualCandidateSearch?.selection;if(!s||s.binaryPresent!==staged||(staged?!/^apps\/web\/public\/100-builds\/official-sources\/official-\d{2}-.+\.(?:html\.source\.txt|pdf)$/.test(s.binaryRepositoryPath||''):s.binaryRepositoryPath!==null))throw Error(r.buildId+': selected source preservation truth boundary absent');if(PROMOTED.includes(r.buildId)){
- if(r.liveCoverSubstituted!==true||s.renderApproved!==true)throw Error(r.buildId+': approved promotion state absent');
+ if(r.liveCoverSubstituted!==true||(!REPLACEMENT_PROMOTED.includes(r.buildId)&&s.renderApproved!==true))throw Error(r.buildId+': approved promotion state absent');
  for(const k of ['assetUrl','repositoryPath','sha256','altText','caption','credit','sourceUrl','claimBoundary','noEndorsement'])if(!nonempty(r.liveCover?.[k]))throw Error(r.buildId+': live cover missing '+k);
- if(r.liveCover.width!==1200||r.liveCover.height!==1500||!/^\/media\/100-builds\/(?:production-source-variants|production-source-context)\/.+\.svg$/.test(r.liveCover.assetUrl))throw Error(r.buildId+': invalid live derivative');
+ if(r.liveCover.width!==1200||r.liveCover.height!==1500||!/^\/media\/100-builds\/(?:production-source-variants|production-source-context|replacement-production-covers)\/.+\.svg$/.test(r.liveCover.assetUrl))throw Error(r.buildId+': invalid live derivative');
  if(!r.rollbackCover||r.rollbackCover.assetUrl!==r.cover.assetUrl||r.rnFallbackReady!==true)throw Error(r.buildId+': rollback cover absent');
  }else if(staged&&(!/NOT APPROVED/.test(s.stagingStatus||'')||r.liveCoverSubstituted===true||s.renderApproved===true))throw Error(r.buildId+': review-only source promoted');
  validateCleared(r);}else if(excerpt){
@@ -47,7 +48,7 @@ function validate(p){
  if(!r.rollbackCover||r.rollbackCover.assetUrl!==r.cover.assetUrl)throw Error(r.buildId+': excerpt rollback absent');
  if(!/No affiliation or endorsement/.test(r.liveCover.noEndorsement)||!/APPROVED SOURCE-CONTEXT/.test(r.liveCover.claimBoundary))throw Error(r.buildId+': excerpt safety boundary absent');
  }else{const s=r.visualCandidateSearch?.searched||[];if(!s.length||!s.some(c=>nonempty(c.nextStep)||nonempty(c.acquisitionNextStep)))throw Error(r.buildId+': HOLD lacks next route');}if(JSON.stringify(r).match(/"selectedForUse":\s*true|"stagedAssetPath":\s*"|"provenanceSidecarPath":\s*"/))throw Error(r.buildId+': hidden selection/staging');}
- return {records:100,clear:24,excerptPromoted:6,hold:70,fallback:100,selected:30,staged:30,uniquePreservedSources:9,livePromoted:17,reviewOnlyCleared:13,canva:0};
+ return {records:100,clear:24,excerptPromoted:6,hold:70,fallback:100,selected:30,staged:30,uniquePreservedSources:9,livePromoted:26,reviewOnlyCleared:4,canva:0};
 }
 const got=validate(p);const c0=()=>{const q=structuredClone(p);return[q,q.records.find(r=>r.acquisitionDisposition==='CLEARED-NOT-SUBSTITUTED'),q.records.find(r=>r.acquisitionDisposition==='HOLD')]};
 const mutations=[
