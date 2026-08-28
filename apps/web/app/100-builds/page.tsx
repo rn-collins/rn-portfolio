@@ -21,7 +21,7 @@ export default function BuildsPage(){
    <div><span>START HERE</span><Link href="/100-builds/001">001 · Meaningful human control</Link><Link href="/100-builds/038">038 · Evidence under pressure</Link><Link href="/100-builds/071">071 · Legal is not accessible</Link></div>
    <div><span>FOR CLIENTS + EMPLOYERS</span><a href="#phase-1">Decision systems</a><a href="#phase-4">Evidence + AI behavior</a><a href="#phase-10">Governed agents + convergence</a></div>
    <div><span>FOR COLLABORATORS + MEDIA</span><a href="#phase-5">Place + embodied experience</a><a href="#phase-6">Provenance + rights</a><a href="#phase-9">Creators + operating intelligence</a></div>
-   <div><span>SEE THE SYSTEM</span><Link href="/100-builds/100">100 · The convergence</Link><Link href="/lineage">Capability lineage</Link><Link href="/100-builds/archive">Archive coverage</Link><a href="/100-builds/carousel-blueprints/README.md">Carousel production blueprints</a></div>
+   <div><span>SEE THE SYSTEM</span><Link href="/100-builds/100">100 · The convergence</Link><Link href="/lineage">Capability lineage</Link><Link href="/100-builds/archive">Archive coverage</Link><a href="/100-builds/carousel-blueprints/README.md">Carousel production blueprints</a><a href="/100-builds/platform-exports/rn-100-builds-instagram-portrait.zip">Instagram PNG bundle</a><a href="/100-builds/platform-exports/rn-100-builds-linkedin-portrait.zip">LinkedIn PNG bundle</a><a href="/100-builds/platform-exports/review.html">Platform cover review sheet</a></div>
   </nav>
   <section className={s.practice} aria-labelledby="what-the-100-proves">
    <div><p className={s.eyebrow}>THE PRACTICE BEHIND THE COLLECTION</p><h2 id="what-the-100-proves">Research that becomes something people can use.</h2></div>
