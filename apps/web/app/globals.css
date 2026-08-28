@@ -6,3 +6,6 @@
 :where(button,select,input[type=button],input[type=submit],input[type=reset]){min-height:44px}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 @media print{*{box-shadow:none!important;text-shadow:none!important}a{text-decoration:underline}button{border:1px solid currentColor}}
+
+.skip-link{position:fixed;z-index:10000;top:.75rem;left:.75rem;padding:.75rem 1rem;background:#fff;color:#000;border:2px solid #000;font-weight:700;transform:translateY(calc(-100% - 1rem));transition:transform .15s ease}
+.skip-link:focus{transform:translateY(0)}
