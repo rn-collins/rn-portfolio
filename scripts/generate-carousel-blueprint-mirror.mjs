@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const repositoryRoot=fileURLToPath(new URL('..',import.meta.url));
+const canonical=path.join(repositoryRoot,'docs','builds','visual-source-acquisition-001-100','CAROUSEL-PRODUCTION-BLUEPRINTS.json');
+const published=path.join(repositoryRoot,'apps','web','public','100-builds','carousel-blueprints','CAROUSEL-PRODUCTION-BLUEPRINTS.json');
+const bytes=fs.readFileSync(canonical);
+JSON.parse(bytes.toString('utf8'));
+fs.mkdirSync(path.dirname(published),{recursive:true});
+fs.writeFileSync(published,bytes);
+const written=fs.readFileSync(published);
+if(!bytes.equals(written))throw new Error('Carousel blueprint mirror write was not byte-identical');
+console.log('Published byte-identical carousel blueprint mirror: '+written.length+' bytes.');
