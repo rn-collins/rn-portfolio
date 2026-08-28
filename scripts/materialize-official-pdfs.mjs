@@ -13,11 +13,12 @@ const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
 
 async function fetchExact(source){
  let last;
- for(let attempt=1;attempt<=3;attempt++){
+ const maxAttempts=5;
+ for(let attempt=1;attempt<=maxAttempts;attempt++){
   const controller=new AbortController();
-  const timer=setTimeout(()=>controller.abort(),45000);
+  const timer=setTimeout(()=>controller.abort(new Error('attempt timed out after 60s')),60000);
   try{
-   const response=await fetch(source.url,{redirect:'follow',signal:controller.signal,headers:{'user-agent':'RN-Portfolio-Preservation/1.0'}});
+   const response=await fetch(source.url,{redirect:'follow',signal:controller.signal,headers:{'user-agent':'RN-Portfolio-Preservation/1.0','accept':'application/pdf','cache-control':'no-cache'}});
    if(!response.ok)throw Error('HTTP '+response.status);
    const bytes=Buffer.from(await response.arrayBuffer());
    const digest=hash(bytes);
@@ -41,7 +42,7 @@ async function fetchExact(source){
    return {key:source.key,bytes:bytes.length,sha256:digest,pages,version};
   }catch(error){last=error}
   finally{clearTimeout(timer)}
-  if(attempt<3)await sleep(attempt*1000);
+  if(attempt<maxAttempts)await sleep(Math.min(12000,1500*(2**(attempt-1))));
  }
  throw Error(source.key+': '+last.message);
 }
