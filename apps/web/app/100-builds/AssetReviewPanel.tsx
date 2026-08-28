@@ -120,6 +120,13 @@ export default function AssetReviewPanel({id}:{id:string}){
    <details><summary>Platform repurposing</summary><p><b>Instagram:</b> {carouselBlueprint.platformRepurposing.instagram}</p><p><b>LinkedIn:</b> {carouselBlueprint.platformRepurposing.linkedin}</p><p><b>Reels/TikTok:</b> {carouselBlueprint.platformRepurposing.reelsTikTok}</p><p><b>Web/newsletter:</b> {carouselBlueprint.platformRepurposing.webNewsletter}</p></details>
    <p><a href="/100-builds/carousel-blueprints/CAROUSEL-PRODUCTION-BLUEPRINTS.json" download>Download all 100 structured blueprints ↓</a> · <a href="/100-builds/carousel-blueprints/README.md">Read production instructions →</a></p>
   </article>}
+  {carouselBlueprint&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`carousel-assets-${id}-heading`}>
+   <h3 id={`carousel-assets-${id}-heading`}>Finished seven-slide production assets</h3>
+   <p>All seven accessible 1200×1500 slides for this build are generated and included in the deterministic distribution packages. Metadata retains exact alt text, visual guidance, credit, source, rights, and claim boundaries.</p>
+   <ol>{carouselBlueprint.slides.map(slide=><li key={slide.slide}><a href={`/100-builds/carousel-slides/${id}/slide-${String(slide.slide).padStart(2,'0')}-${slide.stage.toLowerCase().replaceAll(/[^a-z]+/g,'-').replace(/-$/,'')}.svg`}>Slide {slide.slide}: {slide.stage} →</a></li>)}</ol>
+   <p><a href="/100-builds/carousel-packages/inventory.json">Open 700-slide inventory →</a> · <a href="/100-builds/carousel-packages/README.md">Read import instructions →</a></p>
+   <p><a href="/100-builds/carousel-packages/canva-batch-01-builds-001-010.zip" download>Download Canva batch 01 ↓</a> · <a href="/100-builds/carousel-packages/rn-100-builds-700-slides-instagram-portrait.zip" download>Download Instagram package ↓</a> · <a href="/100-builds/carousel-packages/rn-100-builds-700-slides-linkedin-portrait.zip" download>Download LinkedIn package ↓</a></p>
+  </article>}
   <article style={{...card,marginTop:'1rem'}} aria-labelledby={`canva-package-${id}-heading`}>
    <h3 id={`canva-package-${id}-heading`}>Canva-ready distribution</h3>
    <p>This build’s current cover and complete metadata are included in the deterministic 100-cover handoff. The package preserves this dossier’s official/RN decision, source, rights, claim boundary, and rollback state.</p>
