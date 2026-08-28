@@ -7,7 +7,7 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "prebuild": "node ../../scripts/materialize-official-pdfs.mjs && node ../../scripts/validate-official-pdf-preservation.mjs && node ../../scripts/validate-canva-ready-official-covers.mjs && node ../../scripts/validate-rn-cover-exports.mjs && node ../../scripts/generate-canva-cover-package.mjs && node ../../scripts/validate-canva-cover-package.mjs && node ../../scripts/generate-platform-cover-exports.mjs && node ../../scripts/validate-platform-cover-exports.mjs && node ../../scripts/validate-public-surface.mjs && node ../../scripts/validate-visual-acquisition-001-100.mjs && node ../../scripts/validate-carousel-production-blueprints.mjs"
+    "prebuild": "node ../../scripts/materialize-official-pdfs.mjs && node ../../scripts/validate-official-pdf-preservation.mjs && node ../../scripts/validate-canva-ready-official-covers.mjs && node ../../scripts/validate-rn-cover-exports.mjs && node ../../scripts/generate-canva-cover-package.mjs && node ../../scripts/validate-canva-cover-package.mjs && node ../../scripts/generate-platform-cover-exports.mjs && node ../../scripts/validate-platform-cover-exports.mjs && node ../../scripts/validate-public-surface.mjs && node ../../scripts/validate-visual-acquisition-001-100.mjs && node ../../scripts/generate-carousel-blueprint-mirror.mjs && node ../../scripts/validate-carousel-production-blueprints.mjs"
   },
   "dependencies": {
     "@rn/forms": "workspace:*",
