@@ -4,6 +4,7 @@ import fallbackSpecs from '../../../../docs/builds/visual-source-acquisition-001
 import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
 import promotionReview from '../../../../docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json';
 import remainingHoldReview from '../../../../docs/builds/visual-source-acquisition-001-100/HOLD-SOURCE-REVIEW-REMAINING-65.json';
+import carouselBlueprints from '../../../../docs/builds/visual-source-acquisition-001-100/CAROUSEL-PRODUCTION-BLUEPRINTS.json';
 
 type Candidate={
   sourcePageUrl:string;
@@ -44,6 +45,7 @@ export default function AssetReviewPanel({id}:{id:string}){
  const reviewExcerpt=renderedCaptures.records.find(item=>item.buildId===id);
  const promotion=promotionReview.records.find(item=>item.buildId===id);
  const holdSourceReview=remainingHoldReview.records.find(item=>item.buildId===id);
+ const carouselBlueprint=carouselBlueprints.records.find(item=>item.buildId===id);
  return <section aria-labelledby="asset-review-heading" style={panel}>
   <p><b>VISUAL ASSET REVIEW</b></p>
   <h2 id="asset-review-heading">Hook image, source candidate, and release gates</h2>
@@ -109,6 +111,14 @@ export default function AssetReviewPanel({id}:{id:string}){
    <p>{reviewExcerpt.claimState}</p>
    <p><a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}>Open the full review SVG →</a> · <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} download={`${id}-source-excerpt-review-hold.svg`}>Download review SVG ↓</a> · <a href={reviewExcerpt.sourceUrl} rel="noreferrer">Open official source →</a></p>
    <details><summary>Integrity, rights, and disposition</summary><p><b>SHA-256:</b> <code>{reviewExcerpt.sha256}</code></p><p><b>Source SHA-256:</b> <code>{reviewExcerpt.sourceSha256}</code></p><p><b>Dimensions:</b> {reviewExcerpt.width} × {reviewExcerpt.height}; {reviewExcerpt.mimeType}.</p><p><b>Notice:</b> {reviewExcerpt.notice}</p><p><b>{reviewExcerpt.gatesOpen.length?'Disposition':'Gates'}:</b> {reviewExcerpt.gatesOpen.length?reviewExcerpt.gatesOpen.join('; '):'All excerpt promotion gates passed'}.</p></details>
+  </article>}
+  {carouselBlueprint&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`carousel-blueprint-${id}-heading`}>
+   <p><b>CANONICAL SEVEN-SLIDE PRODUCTION BLUEPRINT</b></p>
+   <h3 id={`carousel-blueprint-${id}-heading`}>Build-specific carousel plan</h3>
+   <p><b>Cover:</b> <a href={carouselBlueprint.coverMapping.assetUrl}>Open exact mapped asset →</a></p>
+   <ol>{carouselBlueprint.slides.map(slide=><li key={slide.slide} style={{marginBottom:'1rem'}}><b>{slide.slide}. {slide.stage}</b><br/>{slide.headline}<details><summary>Visual, rights, and accessibility instructions</summary><p>{slide.visualGuidance}</p><p><b>Claim boundary:</b> {slide.claimBoundary}</p><p><b>Accessibility:</b> {slide.accessibility}</p><p><b>Rights:</b> {slide.rights}</p></details></li>)}</ol>
+   <details><summary>Platform repurposing</summary><p><b>Instagram:</b> {carouselBlueprint.platformRepurposing.instagram}</p><p><b>LinkedIn:</b> {carouselBlueprint.platformRepurposing.linkedin}</p><p><b>Reels/TikTok:</b> {carouselBlueprint.platformRepurposing.reelsTikTok}</p><p><b>Web/newsletter:</b> {carouselBlueprint.platformRepurposing.webNewsletter}</p></details>
+   <p><a href="/100-builds/carousel-blueprints/CAROUSEL-PRODUCTION-BLUEPRINTS.json" download>Download all 100 structured blueprints ↓</a> · <a href="/100-builds/carousel-blueprints/README.md">Read production instructions →</a></p>
   </article>}
   <article style={{...card,marginTop:'1rem'}} aria-labelledby={`canva-package-${id}-heading`}>
    <h3 id={`canva-package-${id}-heading`}>Canva-ready distribution</h3>
