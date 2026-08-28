@@ -12,7 +12,7 @@
     "lint": "turbo lint",
     "validate:lineage": "node scripts/validate-lineage.mjs",
     "test:e2e": "playwright test",
-    "ci": "pnpm validate:official-cover-exports && pnpm validate:rn-cover-exports && pnpm generate:canva-cover-package && pnpm validate:canva-cover-package && pnpm generate:platform-cover-exports && pnpm validate:platform-cover-exports && pnpm validate:public-surface && pnpm validate:hold-captures && pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
+    "ci": "pnpm validate:official-cover-exports && pnpm validate:rn-cover-exports && pnpm generate:canva-cover-package && pnpm validate:canva-cover-package && pnpm generate:platform-cover-exports && pnpm validate:platform-cover-exports && pnpm generate:carousel-slides && pnpm validate:carousel-slides && pnpm validate:public-surface && pnpm validate:hold-captures && pnpm validate:lineage && pnpm validate:canonical-lineage && pnpm validate:media && pnpm validate:archive-scaffold && pnpm typecheck && pnpm lint && pnpm build && pnpm test:e2e",
     "scaffold:archive": "node scripts/scaffold-build-archive.mjs",
     "validate:archive-scaffold": "node --check scripts/scaffold-build-archive.mjs",
     "validate:canonical-lineage": "node scripts/validate-canonical-lineage.mjs",
@@ -24,7 +24,9 @@
     "validate:official-cover-exports": "node scripts/validate-canva-ready-official-covers.mjs",
     "validate:canva-cover-package": "node scripts/validate-canva-cover-package.mjs",
     "generate:platform-cover-exports": "node scripts/generate-platform-cover-exports.mjs",
-    "validate:platform-cover-exports": "node scripts/validate-platform-cover-exports.mjs"
+    "validate:platform-cover-exports": "node scripts/validate-platform-cover-exports.mjs",
+    "generate:carousel-slides": "node scripts/generate-carousel-slide-assets.mjs",
+    "validate:carousel-slides": "node scripts/validate-carousel-slide-assets.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.62.1",
