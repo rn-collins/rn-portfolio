@@ -11,8 +11,8 @@ const publicRoot=path.join(root,'apps/web/public');
 const canvaDir=path.join(publicRoot,'100-builds/canva-package');
 const out=path.join(publicRoot,'100-builds/platform-exports');
 const requireFromWeb=createRequire(path.join(root,'apps/web/package.json'));
-let sharp;
-try{sharp=requireFromWeb('sharp')}catch(error){throw new Error('Platform export generation requires the Sharp package installed with Next.js: '+error.message)}
+const React=requireFromWeb('react');
+const {ImageResponse}=requireFromWeb('next/og');
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const inventory=JSON.parse(fs.readFileSync(path.join(canvaDir,'inventory.json'),'utf8'));
 if(inventory.records?.length!==100)throw new Error('Canonical Canva inventory must contain 100 records');
@@ -28,7 +28,9 @@ for(const r of inventory.records){
  const rel=(r.repositoryPath||r.assetUrl).replace(/^apps\/web\/public\//,'').replace(/^\//,'');
  const source=fs.readFileSync(path.join(publicRoot,rel));
  if(sha(source)!==r.sha256)throw new Error('Canonical source checksum mismatch '+r.buildId);
- const png=await sharp(source,{density:96,limitInputPixels:40_000_000}).resize(1200,1500,{fit:'fill'}).png({compressionLevel:9,adaptiveFiltering:false,palette:false,quality:100}).toBuffer();
+ const dataUrl='data:image/svg+xml;base64,'+source.toString('base64');
+ const response=new ImageResponse(React.createElement('img',{src:dataUrl,width:1200,height:1500,alt:''}),{width:1200,height:1500});
+ const png=Buffer.from(await response.arrayBuffer());
  const meta={buildId:r.buildId,width:1200,height:1500,mimeType:'image/png',sha256:sha(png),bytes:png.length,sourceSvgSha256:r.sha256,coverDecision:r.coverDecision,altText:r.altText,caption:r.caption,credit:r.credit,sourceUrl:r.sourceUrl,rightsLine:r.rightsLine,claimBoundary:r.claimBoundary,noEndorsement:r.noEndorsement};
  records.push(meta);
  for(const p of platforms)platformEntries[p.key].push({name:`${r.buildId}-cover.png`,bytes:png});
