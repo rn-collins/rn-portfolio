@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   metadataBase:siteUrl,
   title:{default:'RN Builds',template:'%s — RN Builds'},
   description:'100 functional builds. 100 interactive visual builds. One compounding public engineering experiment by RN Collins.',
+  icons:{
+    icon:[
+      {url:'/icon-32.png',sizes:'32x32',type:'image/png'},
+      {url:'/icon-192.png',sizes:'192x192',type:'image/png'}
+    ],
+    apple:[{url:'/apple-touch-icon.png',sizes:'180x180',type:'image/png'}]
+  },
   openGraph:{
     title:'RN Builds',
     description:'100 functional builds. 100 interactive visual builds. One compounding public engineering experiment by RN Collins.',

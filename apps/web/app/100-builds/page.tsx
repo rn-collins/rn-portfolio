@@ -7,7 +7,8 @@ export const metadata:Metadata={
  title:'The 100',
  description:'Explore 100 paired working tools and interactive visual stories created by RN Collins across research, strategy, systems design and implementation.',
  alternates:{canonical:'/100-builds'},
- openGraph:{title:'The 100 — RN Builds',description:'Explore 100 paired working tools and interactive visual stories created by RN Collins.',url:'/100-builds'}
+ openGraph:{title:'The 100 — RN Builds',description:'Explore 100 paired working tools and interactive visual stories created by RN Collins.',url:'/100-builds',images:[{url:'/og/collection.png',width:1200,height:630,alt:'The 100 — one hundred questions turned into paired working tools and visual arguments.'}]},
+ twitter:{card:'summary_large_image',title:'The 100 — RN Builds',description:'Explore 100 paired working tools and interactive visual stories created by RN Collins.',images:['/og/collection.png']}
 };
 
 export default function BuildsPage(){
