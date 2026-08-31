@@ -1,3 +1,3 @@
 import {buildVariantMetadata} from '../../_metadata';
 export const metadata=buildVariantMetadata('049','b');
-import ContextStory from'./ContextStory';import s from'../context.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>049-B</span></nav><p className={s.kicker}>CONTEXT, NOT CHARACTER</p><h1>The same person can need something different here.</h1><ContextStory/></main>}
+import ContextStory from'./ContextStory';import s from'../context.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>049-B</span></nav><p className={s.kicker}>CONTEXT, NOT CHARACTER</p><h2>The same person can need something different here.</h2><ContextStory/></main>}

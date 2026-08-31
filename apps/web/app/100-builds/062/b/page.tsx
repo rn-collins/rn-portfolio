@@ -1,3 +1,3 @@
 import {buildVariantMetadata} from '../../_metadata';
 export const metadata=buildVariantMetadata('062','b');
-import InterviewStory from'./InterviewStory';import s from'../interview.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>062-B</span></nav><p className={s.kicker}>A TRANSCRIPT BECOMES A NETWORK</p><h1>Keep every claim attached to its source.</h1><InterviewStory/></main>}
+import InterviewStory from'./InterviewStory';import s from'../interview.module.css';export default function Page(){return <main className={s.page}><nav><a href="/100-builds">100 BUILDS</a><span>062-B</span></nav><p className={s.kicker}>A TRANSCRIPT BECOMES A NETWORK</p><h2>Keep every claim attached to its source.</h2><InterviewStory/></main>}
