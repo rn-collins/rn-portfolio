@@ -16,7 +16,7 @@ export default function DecisionChain(){
  const [selected,setSelected]=useState(0);
  const stage=stages[selected];
  return <section className={s.story}>
-  <header><span>BUILD 020-B · SYNTHETIC FIXTURE</span><p>A DECISION AND ITS LOG ARE DIFFERENT FIELDS</p><h1>Inspect a fictional decision log.</h1></header>
+  <header><span>BUILD 020-B · SYNTHETIC FIXTURE</span><p>A DECISION AND ITS LOG ARE DIFFERENT FIELDS</p><h2>Inspect a fictional decision log.</h2></header>
   <div className={s.chain}>
    {stages.map((item,index)=><article className={index<=selected?s.active:''} aria-current={index===selected?'step':undefined} key={item[0]}><small>{String(index+1).padStart(2,'0')}</small><h2>{item[0]}</h2><p>{item[1]}</p></article>)}
   </div>
