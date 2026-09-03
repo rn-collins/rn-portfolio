@@ -2,3 +2,6 @@
 .toolRoom button,.screeningRoom button,[data-build][data-variant] button{min-width:44px;min-height:44px}.toolRoom input,.toolRoom select,.toolRoom textarea,[data-build][data-variant] input,[data-build][data-variant] select,[data-build][data-variant] textarea{min-height:44px}[data-build][data-variant] button:focus-visible,[data-build][data-variant] a:focus-visible,[data-build][data-variant] input:focus-visible,[data-build][data-variant] select:focus-visible,[data-build][data-variant] textarea:focus-visible{outline:4px solid #b9ff35!important;outline-offset:3px!important}
 
 .toolRoom .crumb a,.screeningRoom .crumb a,[data-build][data-variant] nav a{min-width:44px;min-height:44px;display:inline-flex;align-items:center;padding-inline:10px}
+
+.buildSkipLink{position:fixed;z-index:10000;inset-block-start:12px;inset-inline-start:12px;transform:translateY(-160%);padding:12px 16px;background:#111;color:#fff;border:3px solid #b9ff35;font:700 16px/1.25 Arial,Helvetica,sans-serif;text-decoration:none}
+.buildSkipLink:focus{transform:translateY(0);outline:3px solid #fff;outline-offset:2px}
