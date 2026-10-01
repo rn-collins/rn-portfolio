@@ -26,6 +26,7 @@ export default function Netherlands2026(){
     <article style={card}><p style={tag}>TECHNICAL FRONTIER</p><h3 style={{fontSize:'1.8rem',margin:0}}>AI & Big Data Expo Europe</h3><p>A ranked frontier map, agenda synthesis, production-architecture questions, contradictions to test and a twenty-part technical explanation contract.</p><Link href="/100-builds/netherlands-2026/ai-big-data-research">Open the technical frontier map →</Link></article>
     <article style={card}><p style={tag}>SOURCE REALITY</p><h3 style={{fontSize:'1.8rem',margin:0}}>Builds 001, 017 and 100</h3><p>Forensic reconstruction from source code and public records: capability, architecture, data, workflow, safeguards, replication and unresolved evidence.</p><Link href="/100-builds/netherlands-2026/pilot-builds">Open the pilot-build forensics →</Link></article>
    </div>
+   <article style={{...card,marginTop:'1rem',background:'#d8ff36'}}><p style={tag}>100-BUILD DECISION GATE</p><h3 style={{fontSize:'1.8rem',margin:0}}>Are the builds worth continuing?</h3><p>Three independent reviews examine technical reality, intellectual substance and external value across every build—and reconcile what should become a hero, supporting evidence, a repaired concept or a merge.</p><Link href="/100-builds/netherlands-2026/method-audit">Open the complete RN method audit →</Link></article>
   </section>
 
   <section aria-labelledby="findings" style={{marginTop:'4rem',background:'#121212',color:'#fff',padding:'clamp(1.25rem,4vw,3rem)'}}>
