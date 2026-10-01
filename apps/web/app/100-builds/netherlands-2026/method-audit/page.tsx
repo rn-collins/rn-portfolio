@@ -96,6 +96,7 @@ export default function MethodAudit(){
     <section className={styles.next} aria-labelledby="next">
       <p className={styles.eyebrow}>NEXT GATE · BEFORE CANVA</p><h2 id="next">Turn two consensus pilots into complete, falsifiable case studies.</h2>
       <ol><li>Correct registry and claim inconsistencies.</li><li>Add exact sources, counterevidence and the real question each prototype tests.</li><li>Document materials, architecture, data, rules, safeguards, tests, failures and limitations step by step.</li><li>Observe first-time users and record what they misunderstand.</li><li>Create three genuinely different visual treatments for Builds 001 and 030.</li><li>Scale only if a cold reader can understand the claim and a motivated twelve-year-old can reconstruct the prototype.</li></ol>
+      <p><Link href="/100-builds/netherlands-2026/curation-plan"><b>Open the complete curation and production plan →</b></Link></p>
     </section>
 
     <footer className={styles.footer}><p><b>Audited source:</b> GitHub commit <code>{externalAudit.auditedCommit}</code>. Scores are structured editorial judgments, not audience analytics. HTTP 200 proves publication, not correctness, usability or outcomes.</p><p><Link href="/100-builds/netherlands-2026/">Return to the Netherlands 2026 studio</Link></p></footer>
