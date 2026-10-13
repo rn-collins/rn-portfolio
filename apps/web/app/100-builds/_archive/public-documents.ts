@@ -1,3 +1,4 @@
+import {archiveDocumentIsPublic} from '../../_release/gate';
 export const publicArchiveDocuments=[
  'docs/100-cycle-master-syllabus.md',
  'docs/100-build-execution-feasibility-architecture-audit.md',
@@ -118,4 +119,5 @@ export const publicArchiveDocuments=[
 ] as const;
 
 export const publicArchiveDocumentSet=new Set<string>(publicArchiveDocuments);
-export function archiveSourceHref(path:string){return publicArchiveDocumentSet.has(path)?`/100-builds/archive/source/${path}`:null;}
+// A reader link is offered only for documents the release gate publishes (see app/_release/gate.ts).
+export function archiveSourceHref(path:string){return publicArchiveDocumentSet.has(path)&&archiveDocumentIsPublic(path)?`/100-builds/archive/source/${path}`:null;}

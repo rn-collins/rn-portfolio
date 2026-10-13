@@ -42,6 +42,7 @@ jobs:
       - run: pnpm validate:canonical-lineage
       - run: pnpm validate:media
       - run: pnpm validate:archive-scaffold
+      - run: pnpm test:release-gate
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm build

@@ -2,7 +2,7 @@
 
 import {useMemo,useState} from 'react';
 import Link from 'next/link';
-import {builds,phases,type CanonicalBuild,type PublicBuildState} from '../../../../packages/registry/src/index';
+import type {CanonicalBuild,CanonicalPhase,PublicBuildState} from '../../../../packages/registry/src/index';
 import s from './gallery.module.css';
 
 const stateLabel:Record<PublicBuildState,string>={OnView:'ON VIEW',InLab:'IN THE LAB',ComingNext:'COMING NEXT'};
@@ -21,7 +21,8 @@ function searchable(build:CanonicalBuild){
  return [build.id,build.title,build.description,build.phaseName,build.ecosystem,build.artifactType,build.functional.summary,build.visual.mechanism,build.public?.plainPurpose,build.public?.practiceRelevance?.join(' ')].filter(Boolean).join(' ').toLowerCase();
 }
 
-export default function Exhibition(){
+// Only released builds are passed in by page.tsx, so held builds never reach this client bundle.
+export default function Exhibition({builds,phases}:{builds:CanonicalBuild[];phases:CanonicalPhase[]}){
  const[query,setQuery]=useState('');
  const[pathway,setPathway]=useState<Pathway>('all');
  const[phase,setPhase]=useState('all');
@@ -32,7 +33,7 @@ export default function Exhibition(){
   const matchesPhase=phase==='all'||String(build.phase)===phase;
   const matchesFormat=format!=='featured'||featuredIds.has(build.id);
   return matchesQuery&&matchesPath&&matchesPhase&&matchesFormat;
- }),[query,pathway,phase,format]);
+ }),[builds,query,pathway,phase,format]);
  const grouped=phases.map(item=>({...item,works:visible.filter(build=>build.phase===item.id)})).filter(item=>item.works.length);
  return <div>
   <section className={s.finder} aria-labelledby="find-builds">
@@ -43,9 +44,10 @@ export default function Exhibition(){
     <label><span>Field</span><select value={phase} onChange={event=>setPhase(event.target.value)}><option value="all">All fields</option>{phases.map(item=><option key={item.id} value={item.id}>{item.name}</option>)}</select></label>
     <label><span>Format</span><select value={format} onChange={event=>setFormat(event.target.value as Format)}><option value="all">Tool + story</option><option value="tool">Working tools</option><option value="story">Visual stories</option><option value="featured">Featured work</option></select></label>
    </div>
-   <div className={s.results} role="status" aria-live="polite"><strong>{visible.length}</strong> of 100 builds shown{(query||pathway!=='all'||phase!=='all'||format!=='all')&&<button type="button" onClick={()=>{setQuery('');setPathway('all');setPhase('all');setFormat('all')}}>Clear filters</button>}</div>
+   <div className={s.results} role="status" aria-live="polite"><strong>{visible.length}</strong> of {builds.length} released {builds.length===1?'build':'builds'} shown{(query||pathway!=='all'||phase!=='all'||format!=='all')&&<button type="button" onClick={()=>{setQuery('');setPathway('all');setPhase('all');setFormat('all')}}>Clear filters</button>}</div>
   </section>
   {grouped.map(item=><section className={s.phase} id={'phase-'+item.id} key={item.id}><header className={s.phaseHead}><span>FIELD {String(item.id).padStart(2,'0')}</span><h2>{item.name}</h2><i>{item.works.length} SHOWN</i></header><div className={s.works}>{item.works.map(build=>{const state=build.publicState??'ComingNext';return <article className={`${s.work} ${state==='OnView'?s.onView:state==='InLab'?s.inLab:s.planned}`} key={build.id}><div className={s.accession}><span>{build.id} / 100</span><span>{featuredIds.has(build.id)?'FEATURED · ':''}{stateLabel[state]}</span></div><h3><Link href={`/100-builds/${build.id}`}>{build.title}</Link></h3><p>{build.public?.plainPurpose??build.description}</p><div className={s.cardActions}><Link href={`/100-builds/${build.id}`}>Overview</Link><Link href={`/100-builds/${build.id}/a`}>{format==='story'?'Open tool':'Use A'}</Link><Link href={`/100-builds/${build.id}/b`}>{format==='tool'?'Open story':'Watch + explore B'}</Link></div></article>})}</div></section>)}
-  {!visible.length&&<section className={s.empty}><h2>No builds match those filters.</h2><p>Try a broader word, another field, or clear the filters to reopen the full collection.</p><button type="button" onClick={()=>{setQuery('');setPathway('all');setPhase('all');setFormat('all')}}>Show all 100 builds</button></section>}
+  {!builds.length&&<section className={s.empty}><h2>No builds are released yet.</h2><p>Each build opens here on the day it is released.</p></section>}
+  {builds.length>0&&!visible.length&&<section className={s.empty}><h2>No builds match those filters.</h2><p>Try a broader word, another field, or clear the filters to reopen the full collection.</p><button type="button" onClick={()=>{setQuery('');setPathway('all');setPhase('all');setFormat('all')}}>Show every released build</button></section>}
  </div>;
 }

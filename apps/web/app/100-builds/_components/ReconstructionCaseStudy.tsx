@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import s from './reconstruction.module.css';
+import {programReleased} from '../../_release/gate';
 
 export type ReconstructionData={
  id:string;title:string;thesis:string;decision:'PUBLISH'|'REVISE'|'STOP';decisionNote:string;
@@ -24,6 +25,6 @@ export default function ReconstructionCaseStudy({data}:{data:ReconstructionData}
   <section id="testing" className={s.block}><div className={s.kicker}>06 / VERIFICATION</div><h2>What has been tested, and what has not.</h2><h3>Automated and inspectable checks</h3><ul>{data.tests.map(x=><li key={x}>{x}</li>)}</ul><h3>Human research ledger</h3><div className={s.table} role="table" aria-label="Human research status">{data.research.map(([status,item])=><div role="row" key={item}><strong role="cell">{status}</strong><span role="cell">{item}</span></div>)}</div><div className={s.warning}><b>NO INVENTED RESEARCH</b><p>An automated test can prove deterministic behavior. It cannot prove that a first-time visitor understands the language, that a reviewer resists automation bias, or that a repair works for disabled people. Those gates remain open until observed sessions exist.</p></div></section>
   <section id="reproduce" className={s.block}><div className={s.kicker}>07 / RECONSTRUCTION GUIDE</div><h2>Rebuild the capability step by step.</h2><ol className={s.steps}>{data.reproduce.map(x=><li key={x}>{x}</li>)}</ol></section>
   <section id="production" className={s.block}><div className={s.kicker}>08 / PRODUCTION + STORY</div><h2>What must happen before this becomes a launch story.</h2><h3>Production requirements</h3><ol className={s.steps}>{data.production.map(x=><li key={x}>{x}</li>)}</ol><h3>Three future creative territories—not designs</h3><p>These are briefs to test only after the product and human-research gates above are complete. No carousel direction is selected here.</p><div className={s.grid}>{data.creative.map((x,i)=><article key={x}><b>TERRITORY {i+1}</b><p>{x}</p></article>)}</div><h3>Open release gates</h3><ul>{data.open.map(x=><li key={x}>{x}</li>)}</ul></section>
-  <footer className={s.footer}><Link href={`/100-builds/${data.id}/a`}>Use the working prototype →</Link><Link href={`/100-builds/${data.id}/record`}>Open the concise public record →</Link><Link href="/100-builds/netherlands-2026/curation-plan">Return to the curation plan →</Link></footer>
+  <footer className={s.footer}><Link href={`/100-builds/${data.id}/a`}>Use the working prototype →</Link><Link href={`/100-builds/${data.id}/record`}>Open the concise public record →</Link>{programReleased?<Link href="/100-builds/netherlands-2026/curation-plan">Return to the curation plan →</Link>:<Link href={`/100-builds/${data.id}`}>Return to the build overview →</Link>}</footer>
  </main>;
 }

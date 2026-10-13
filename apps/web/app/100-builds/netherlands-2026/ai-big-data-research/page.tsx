@@ -85,7 +85,7 @@ const card={border:'1px solid #111',padding:'clamp(1rem,2vw,1.4rem)',background:
 const label={fontSize:'.78rem',letterSpacing:'.09em',textTransform:'uppercase' as const,fontWeight:800};
 
 export default function AIBigDataResearch(){return <><a className="skip-link" href="#main-content">Skip to main content</a><main id="main-content" tabIndex={-1} style={{maxWidth:'76rem',margin:'0 auto',padding:'clamp(1rem,4vw,3rem)',fontFamily:'system-ui, sans-serif',color:'#111',background:'#f4f2ed',lineHeight:1.55}}>
-  <nav aria-label="Breadcrumb"><Link href="/100-builds/carousel-operations">100 Builds operations</Link> / Netherlands 2026 / AI &amp; Big Data</nav>
+  <nav aria-label="Breadcrumb"><Link href="/100-builds">The 100</Link> / Netherlands 2026 / AI &amp; Big Data</nav>
   <header style={{borderTop:'10px solid #175cff',borderBottom:'3px solid #111',padding:'clamp(2rem,6vw,5rem) 0 2rem',marginBottom:'2rem'}}>
     <p style={label}>PRIMARY-SOURCE RESEARCH MAP · VERSION 1 · 1 OCTOBER 2026</p>
     <h1 style={{fontSize:'clamp(2.5rem,8vw,6.8rem)',lineHeight:.88,letterSpacing:'-.065em',maxWidth:'12ch',margin:'.5rem 0 1.5rem'}}>From impressive demo to accountable system</h1>

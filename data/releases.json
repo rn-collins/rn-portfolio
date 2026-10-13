@@ -1,0 +1,902 @@
+[
+  {
+    "id": "builds/001",
+    "title": "Human Review Design Framework",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/001/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/002",
+    "title": "Multi-Audience Meaning Architecture",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/002/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/003",
+    "title": "Unserved Decision Discovery",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/003/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/004",
+    "title": "Manual Intelligence Engine",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/004/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/005",
+    "title": "Service-to-Software Discovery",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/005/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/006",
+    "title": "Does This Actually Deserve to Be Software?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/006/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/007",
+    "title": "Feedback Loop Product Architecture",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/007/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/008",
+    "title": "Decision-Ready Dashboard",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/008/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/009",
+    "title": "Place-Sensitive Technology Readiness",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/009/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/010",
+    "title": "Give the Idea a Skeleton",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/010/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/011",
+    "title": "Entity / Ownership Resolution X-Ray",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/011/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/012",
+    "title": "AI Use Consequence & Control Mapper",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/012/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/013",
+    "title": "AI Workflow Consequence Scanner",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/013/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/014",
+    "title": "Legal Judgment Architecture",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/014/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/015",
+    "title": "Repeated Legal Task → Product Engine",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/015/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/016",
+    "title": "Legal Workflow Mapping",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/016/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/017",
+    "title": "Regulated-Market Handoff Mapper",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/017/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/018",
+    "title": "Institutional Friction Detector",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/018/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/019",
+    "title": "Consequence-Aware Escalation Router",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/019/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/020",
+    "title": "Decision Evidence Ledger",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/020/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/021",
+    "title": "AI Vendor Claim / Procurement X-Ray",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/021/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/022",
+    "title": "Human Consequence Map for AI Workflows",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/022/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/023",
+    "title": "Consent & Data Rights Manager",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/023/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/024",
+    "title": "Data Minimization X-Ray",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/024/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/025",
+    "title": "AI Implementation Readiness X-Ray",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/025/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/026",
+    "title": "Messy Data Trust X-Ray",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/026/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/027",
+    "title": "Creator Ownership Stack Mapper",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/027/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/028",
+    "title": "Finding Is Part of Knowing",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/028/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/029",
+    "title": "Change & Consequence Explorer",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/029/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/030",
+    "title": "Inclusive Experience Simulator & Repair Lab",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/030/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/031",
+    "title": "Privacy-Conscious Product Behavior X-Ray",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/031/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/032",
+    "title": "Consequential AI Release Readiness Harness",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/032/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/033",
+    "title": "Adversarial System Explorer",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/033/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/034",
+    "title": "AI Failure & Incident Reconstruction Lab",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/034/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/035",
+    "title": "Data Exit & Portability Test",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/035/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/036",
+    "title": "Resilience Mode / Offline Survival Test",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/036/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/037",
+    "title": "Feedback → Change Governance Lab",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/037/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/038",
+    "title": "Domain AI Evaluation Studio",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/038/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/039",
+    "title": "Agent Work Trace Inspector",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/039/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/040",
+    "title": "AI Stop / Escalate Engine",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/040/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/041",
+    "title": "Who Owns the AI Work?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/041/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/042",
+    "title": "Give the AI a Real Job",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/042/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/043",
+    "title": "Design an AI Team",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/043/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/044",
+    "title": "Reuse the Parts That Regulation Keeps Requiring",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/044/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/045",
+    "title": "Cannabis Care Access Journey",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/045/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/046",
+    "title": "What Does This Island Depend On?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/046/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/047",
+    "title": "Will This Work Here?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/047/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/048",
+    "title": "What Does This Rule Feel Like in Real Life?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/048/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/049",
+    "title": "What Works for You?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/049/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/050",
+    "title": "Environment Assumption & Tradeoff Explorer",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/050/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/051",
+    "title": "Adaptive Cannabis Source Navigator",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/051/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/052",
+    "title": "Synthetic Cannabis Comparison Literacy",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/052/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/053",
+    "title": "Run a Tiny Experiment on Your Own Environment",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/053/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/054",
+    "title": "Make the Space Adapt to the Person",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/054/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/055",
+    "title": "Let the Smart Home Explain Itself",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/055/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/056",
+    "title": "What Do You Actually Own That Others Cannot Easily Copy?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/056/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/057",
+    "title": "Show Me Where This Content Came From",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/057/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/058",
+    "title": "Trace a Claim All the Way Back",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/058/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/059",
+    "title": "Is This Legal Citation Real, Current, and Saying What the AI Claims?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/059/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/060",
+    "title": "Catch the IP You Create Before It Disappears Into the Workday",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/060/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/061",
+    "title": "Why Did We Decide That?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/061/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/062",
+    "title": "The Interview Is More Than a Transcript",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/062/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/063",
+    "title": "Research That Stays Alive",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/063/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/064",
+    "title": "An Industry With Amnesia",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/064/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/065",
+    "title": "Fictional Cross-Setting Pathway Rehearsal",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/065/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/066",
+    "title": "What Does the Legal Team Already Know?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/066/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/067",
+    "title": "What Should Your AI Know About You?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/067/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/068",
+    "title": "Let Your AI Act—Without Giving It Your Life",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/068/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/069",
+    "title": "A Law Passed. Now What?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/069/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/070",
+    "title": "Legalization Is a Lifecycle",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/070/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/071",
+    "title": "Fictional Medical-Cannabis Access Gates",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/071/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/072",
+    "title": "Fictional Island Access Comparison",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/072/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/073",
+    "title": "Access for Whom?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/073/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/074",
+    "title": "Is the System Actually Ready?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/074/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/075",
+    "title": "Same Goal, Different Regulatory Machine",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/075/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/076",
+    "title": "What Is Actually Different Between These Laws?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/076/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/077",
+    "title": "What Does This Change Actually Do?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/077/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/078",
+    "title": "Translate the Evidence Without Breaking It",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/078/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/079",
+    "title": "Find the Psychedelic Evidence That Actually Answers Your Question",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/079/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/080",
+    "title": "Turn Reporting Into Public Infrastructure",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/080/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/081",
+    "title": "What Might People Be Struggling With?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/081/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/082",
+    "title": "How Does This Audience Actually Think?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/082/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/083",
+    "title": "Turn Real Work Into Public Proof Without Leaking the Work",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/083/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/084",
+    "title": "Who Created the Value—and Who Gets It?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/084/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/085",
+    "title": "Who Is Shaping This Decision?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/085/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/086",
+    "title": "Use the Post as a Prototype",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/086/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/087",
+    "title": "Build Your Own Media System",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/087/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/088",
+    "title": "Your Network Is Not a Contact List",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/088/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/089",
+    "title": "Stop Being the Only Database in Your Company",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/089/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/090",
+    "title": "Build a Research Team of AI Agents That Can Show Their Work",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/090/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/091",
+    "title": "What Is This AI Allowed to Remember?",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/091/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/092",
+    "title": "Rehearse Work Across People, AI and Software",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/092/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/093",
+    "title": "Fictional Regulated-Workflow Rehearsal",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/093/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/094",
+    "title": "Inspect a Fictional Evidence Chain",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/094/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/095",
+    "title": "Institutional Conditions Observatory",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/095/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/096",
+    "title": "Learn From Cannabis Experience Without Reducing People to Labels",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/096/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/097",
+    "title": "Personalization You Can See and Control",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/097/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/098",
+    "title": "Psychedelic Administrative Handoff Rehearsal",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/098/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/099",
+    "title": "Fictional Archipelago Data Commons",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/099/record/",
+    "sourcePageUrl": ""
+  },
+  {
+    "id": "builds/100",
+    "title": "Island Resilience Scenario & Decision Room",
+    "releasedAt": "",
+    "hold": true,
+    "postUrls": [],
+    "longFormUrl": "https://rn-portfolio-khaki.vercel.app/100-builds/100/record/",
+    "sourcePageUrl": ""
+  }
+]

@@ -4,6 +4,7 @@ import { buildArchives } from './100-builds/_archive/archive-data';
 
 export const dynamic='force-static';
 import { siteUrl } from './site';
+import { sitePathIsPublic } from './_release/gate';
 
 export default function sitemap():MetadataRoute.Sitemap{
  const updatedAt=new Date('2026-10-02T00:00:00.000Z');
@@ -13,7 +14,8 @@ export default function sitemap():MetadataRoute.Sitemap{
   `/100-builds/${build.id}/b`,
   `/100-builds/${build.id}/record`
  ]),'/100-builds/001/evidence','/100-builds/001/making','/100-builds/001/method','/100-builds/001/reconstruction','/100-builds/030/reconstruction','/100-builds/archive','/lineage',...Object.keys(buildArchives).map(id=>`/100-builds/${id}/archive`)];
- return paths.map(path=>({
+ // The release gate decides which of these candidate paths exist in the public build.
+ return paths.filter(path=>sitePathIsPublic(path)).map(path=>({
   url:new URL(path==='/'?path:`${path}/`,siteUrl).toString(),
   lastModified:updatedAt,
   changeFrequency:path==='/'?'weekly':'monthly',

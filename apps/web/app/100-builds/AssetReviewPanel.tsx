@@ -4,6 +4,7 @@ import fallbackSpecs from '../../../../docs/builds/visual-source-acquisition-001
 import renderedCaptures from '../../../../docs/builds/visual-source-acquisition-001-100/RENDERED-CAPTURE-MANIFEST.json';
 import promotionReview from '../../../../docs/builds/visual-source-acquisition-001-100/FINAL-COVER-PROMOTION-REVIEW.json';
 import remainingHoldReview from '../../../../docs/builds/visual-source-acquisition-001-100/HOLD-SOURCE-REVIEW-REMAINING-65.json';
+import {productionPackagesPublic} from '../_release/gate';
 import carouselBlueprints from '../../../../docs/builds/visual-source-acquisition-001-100/CAROUSEL-PRODUCTION-BLUEPRINTS.json';
 
 type Candidate={
@@ -112,7 +113,7 @@ export default function AssetReviewPanel({id}:{id:string}){
    <p><a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`}>Open the full review SVG →</a> · <a href={`/${reviewExcerpt.path.replace('apps/web/public/','')}`} download={`${id}-source-excerpt-review-hold.svg`}>Download review SVG ↓</a> · <a href={reviewExcerpt.sourceUrl} rel="noreferrer">Open official source →</a></p>
    <details><summary>Integrity, rights, and disposition</summary><p><b>SHA-256:</b> <code>{reviewExcerpt.sha256}</code></p><p><b>Source SHA-256:</b> <code>{reviewExcerpt.sourceSha256}</code></p><p><b>Dimensions:</b> {reviewExcerpt.width} × {reviewExcerpt.height}; {reviewExcerpt.mimeType}.</p><p><b>Notice:</b> {reviewExcerpt.notice}</p><p><b>{reviewExcerpt.gatesOpen.length?'Disposition':'Gates'}:</b> {reviewExcerpt.gatesOpen.length?reviewExcerpt.gatesOpen.join('; '):'All excerpt promotion gates passed'}.</p></details>
   </article>}
-  {carouselBlueprint&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`carousel-blueprint-${id}-heading`}>
+  {productionPackagesPublic&&carouselBlueprint&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`carousel-blueprint-${id}-heading`}>
    <p><b>CANONICAL SEVEN-SLIDE PRODUCTION BLUEPRINT</b></p>
    <h3 id={`carousel-blueprint-${id}-heading`}>Build-specific carousel plan</h3>
    <p><b>Cover:</b> <a href={carouselBlueprint.coverMapping.assetUrl}>Open exact mapped asset →</a></p>
@@ -120,18 +121,18 @@ export default function AssetReviewPanel({id}:{id:string}){
    <details><summary>Platform repurposing</summary><p><b>Instagram:</b> {carouselBlueprint.platformRepurposing.instagram}</p><p><b>LinkedIn:</b> {carouselBlueprint.platformRepurposing.linkedin}</p><p><b>Reels/TikTok:</b> {carouselBlueprint.platformRepurposing.reelsTikTok}</p><p><b>Web/newsletter:</b> {carouselBlueprint.platformRepurposing.webNewsletter}</p></details>
    <p><a href="/100-builds/carousel-blueprints/CAROUSEL-PRODUCTION-BLUEPRINTS.json" download>Download all 100 structured blueprints ↓</a> · <a href="/100-builds/carousel-blueprints/README.md">Read production instructions →</a></p>
   </article>}
-  {carouselBlueprint&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`carousel-assets-${id}-heading`}>
+  {productionPackagesPublic&&carouselBlueprint&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`carousel-assets-${id}-heading`}>
    <h3 id={`carousel-assets-${id}-heading`}>Finished seven-slide production assets</h3>
    <p>All seven accessible 1200×1500 slides for this build are generated and included in the deterministic distribution packages. Metadata retains exact alt text, visual guidance, credit, source, rights, and claim boundaries.</p>
    <ol>{carouselBlueprint.slides.map(slide=><li key={slide.slide}><a href={`/100-builds/carousel-slides/${id}/slide-${String(slide.slide).padStart(2,'0')}-${slide.stage.toLowerCase().replaceAll(/[^a-z]+/g,'-').replace(/-$/,'')}.svg`}>Slide {slide.slide}: {slide.stage} →</a></li>)}</ol>
    <p><a href="/100-builds/carousel-operations">Open carousel asset operations →</a> · <a href="/100-builds/carousel-packages/inventory.json">Open 700-slide inventory →</a> · <a href="/100-builds/carousel-packages/README.md">Read import instructions →</a></p>
    <p><a href={`/100-builds/carousel-packages/canva-batch-${String(Math.ceil(Number(id)/10)).padStart(2,'0')}-builds-${String(Math.floor((Number(id)-1)/10)*10+1).padStart(3,'0')}-${String(Math.ceil(Number(id)/10)*10).padStart(3,'0')}.zip`} download>Download this build’s Canva batch ↓</a> · <a href="/100-builds/carousel-packages/rn-100-builds-700-slides-instagram-portrait.zip" download>Download Instagram package ↓</a> · <a href="/100-builds/carousel-packages/rn-100-builds-700-slides-linkedin-portrait.zip" download>Download LinkedIn package ↓</a></p>
   </article>}
-  <article style={{...card,marginTop:'1rem'}} aria-labelledby={`canva-package-${id}-heading`}>
+  {productionPackagesPublic&&<article style={{...card,marginTop:'1rem'}} aria-labelledby={`canva-package-${id}-heading`}>
    <h3 id={`canva-package-${id}-heading`}>Canva-ready distribution</h3>
    <p>This build’s current cover and complete metadata are included in the deterministic 100-cover handoff. The package preserves this dossier’s official/RN decision, source, rights, claim boundary, and rollback state.</p>
    <p><a href="/100-builds/canva-package/rn-100-builds-canva-ready.zip" download>Download the complete Canva-ready ZIP ↓</a> · <a href="/100-builds/canva-package/inventory.json">Open package inventory →</a> · <a href="/100-builds/canva-package/README.md">Read import instructions →</a></p>
-  </article>
+  </article>}
   <fieldset style={{...card,marginTop:'1rem'}}>
    <legend><b>Canonical review gates</b></legend>
    <label style={{display:'block'}}><input type="checkbox" checked={record.rnFallbackReady} readOnly disabled/> Creator-owned fallback ready</label>
