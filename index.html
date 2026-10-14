@@ -204,7 +204,7 @@ footer{background:var(--ink);border-top:1px solid #2E4A3E;padding:1.5rem 2.5rem}
 
 <div class="contact-fab">
   <div class="contact-confirm" id="confirm-msg">&#10003; Email copied</div>
-  <button class="contact-btn" onclick="(function(){ copyOpen('collins.ra@northeastern.edu','mailto:collins.ra@northeastern.edu','Email copied'); fetch('https://aloha-dea-tracker.vercel.app/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:'Contact FAB Click',email:'event@analytics.local',source:'contact-fab-rn-builds',message:'Email button clicked'})}).catch(function(){}); })()">
+  <button class="contact-btn" onclick="(function(){ window.open('https://ownership-platform.vercel.app/contact','_blank','noopener'); fetch('https://aloha-dea-tracker.vercel.app/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:'Contact FAB Click',email:'event@analytics.local',source:'contact-fab-rn-builds',message:'Email button clicked'})}).catch(function(){}); })()">
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
     Contact the Architect
   </button>
@@ -215,7 +215,7 @@ footer{background:var(--ink);border-top:1px solid #2E4A3E;padding:1.5rem 2.5rem}
     <div class="footer-brand">RN Collins &nbsp;·&nbsp; Aloha AI Consulting &nbsp;·&nbsp; Honolulu, HI</div>
     <div class="footer-links">
       <a class="footer-link" href="https://aloha-ai-consulting.vercel.app" target="_blank" rel="noopener">Aloha AI Consulting</a>
-      <button class="footer-link" onclick="copyOpen('collins.ra@northeastern.edu','mailto:collins.ra@northeastern.edu','Email copied')">collins.ra@northeastern.edu</button>
+      <a class="footer-link" href="https://ownership-platform.vercel.app/contact" target="_blank" rel="noopener">Connect with RN</a>
       <a href="https://linkedin.com/in/rn-collins" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn ↗</a>
       <a class="footer-link" href="https://cannabislawreport.com" target="_blank" rel="noopener">CLR</a>
       <a class="footer-link" href="https://fatnugsmagazine.com" target="_blank" rel="noopener">FNM</a>
