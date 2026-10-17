@@ -28,5 +28,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){
- return <html lang="en"><body>{children}</body></html>;
+ return <html lang="en"><body>{children}<footer><p><a href="https://github.com/rn-collins/rn-portfolio" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></p></footer></body></html>;
 }
