@@ -1,0 +1,59 @@
+{
+  "projectThesis": "RN makes invisible decision systems inspectable.",
+  "conferenceLens": {
+    "capability": "AI & Big Data: what the system can compute, automate, retrieve, predict or coordinate.",
+    "experience": "Dutch Design Week: how the system becomes perceptible, embodied, material, contestable and culturally legible.",
+    "governance": "RN: who has authority, what evidence travels, what consequence follows and where a person can intervene."
+  },
+  "series": [
+    {
+      "id": "human-means-authority",
+      "title": "Human Means Authority",
+      "question": "When does a person actually control an AI-assisted outcome?",
+      "promise": "Replace ‘human in the loop’ with an inspectable authority architecture.",
+      "builds": ["001", "012", "014", "019", "032", "038", "039", "040", "041", "042", "043", "044", "090", "091", "092", "093", "094"]
+    },
+    {
+      "id": "rules-meet-real-life",
+      "title": "Rules Meet Real Life",
+      "question": "What happens when a policy, technology or service enters an actual place and a person's path?",
+      "promise": "Translate institutional design into visible burden, access, adaptation and recourse.",
+      "builds": ["009", "017", "018", "045", "046", "047", "048", "069", "070", "071", "072", "073", "074", "075", "076", "077", "095", "100"]
+    },
+    {
+      "id": "evidence-that-stays-alive",
+      "title": "Evidence That Stays Alive",
+      "question": "Can someone follow a decision or claim back to what was known, changed and contested?",
+      "promise": "Make research and decisions inspectable after the original conversation ends.",
+      "builds": ["004", "020", "028", "029", "057", "058", "059", "060", "061", "062", "063", "066", "078", "079", "080"]
+    },
+    {
+      "id": "access-is-a-system",
+      "title": "Access Is a System",
+      "question": "Which product, policy, data and environment conditions determine whether someone can meaningfully use or contest a system?",
+      "promise": "Move accessibility from a checklist into inspectable system behavior.",
+      "builds": ["022", "023", "024", "025", "026", "030", "031", "035", "045", "054", "055", "067", "068", "071", "072", "073", "095", "096", "097", "098"]
+    },
+    {
+      "id": "work-becomes-public-infrastructure",
+      "title": "Work Becomes Public Infrastructure",
+      "question": "How does private work become reusable public proof without leaking people, rights or confidential material?",
+      "promise": "Show the transformation from research or a work packet to a defensible public artifact.",
+      "builds": ["027", "056", "057", "060", "062", "080", "081", "082", "083", "084", "085", "086", "087", "088", "089"]
+    },
+    {
+      "id": "built-to-fail-closed",
+      "title": "Built to Fail Closed",
+      "question": "What must a consequential system do when evidence, permission, infrastructure or confidence is insufficient?",
+      "promise": "Design stop, fallback, rollback and recovery as primary capabilities.",
+      "builds": ["021", "025", "032", "033", "034", "035", "036", "037", "038", "039", "040", "055", "091", "092", "093", "094"]
+    },
+    {
+      "id": "island-systems",
+      "title": "Island Systems",
+      "question": "What becomes visible when systems are examined from an island rather than treated as placeless?",
+      "promise": "Use island context to expose dependencies, transfer failures, access constraints and resilience tradeoffs.",
+      "builds": ["009", "045", "046", "047", "048", "072", "073", "074", "075", "099", "100"]
+    }
+  ]
+}
